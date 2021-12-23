@@ -1253,6 +1253,9 @@ alternative_sprites (spriteset_BR_01_DB_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP
 						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
 						}
 
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_BR_01, 1) {
+							return 3300;
+							}	
 
 
 item (FEAT_TRAINS , ITEM_BR_01)
@@ -1270,6 +1273,7 @@ item (FEAT_TRAINS , ITEM_BR_01)
 						cargo_allow_refit              : [PASS] ;
 						cargo_capacity                 : 1 ;
 						cost_factor: 108;
+						running_cost_base				: RUNNING_COST_STEAM;
 						running_cost_factor: 90;
 						
 			//Train specific properties
@@ -1298,6 +1302,8 @@ item (FEAT_TRAINS , ITEM_BR_01)
 			articulated_part			   : switch_articulated_BR_01;
 			purchase_cargo_capacity        : 0 ;
 			cargo_capacity                 : return 0 ;
+			cost_factor					    :55;
+			running_cost_factor				:switch_running_cost_BR_01;			
 			
 			}
 	}
@@ -6705,7 +6711,7 @@ spriteset(spriteset_BR_643_purchase, "gfx\BR_643/BR_643_front_Regio_1x_8bpp.png"
 							}	
 							
 						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_643_2, 1){
-						return 320;}						
+						return 5000;}						
 
 item (FEAT_TRAINS , ITEM_BR_643_2, 6432)
 		{
@@ -6724,8 +6730,8 @@ item (FEAT_TRAINS , ITEM_BR_643_2, 6432)
 						cargo_capacity:                 16 ;
 						loading_speed:					8;
 						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_DIESEL;						
 						running_cost_factor: 			90;
-						running_cost_base:				RUNNING_COST_DIESEL;
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
@@ -6754,7 +6760,7 @@ item (FEAT_TRAINS , ITEM_BR_643_2, 6432)
 			can_attach_wagon				: switch_coupling_BR_643;
 			visual_effect_and_powered		: switch_FX_BR_643_2;
 			purchase						: spriteset_BR_643_purchase;
-			cost_factor						: 86;
+			cost_factor						: 51;
 			running_cost_factor				: switch_running_cost_BR_643_2;		
 			}
 	}	
@@ -6818,7 +6824,7 @@ item (FEAT_TRAINS , ITEM_BR_643_2, 6432)
 							}	
 							
 						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_643_3, 1){
-						return 320;}
+						return 7000;}
 						
 
 item (FEAT_TRAINS , ITEM_BR_643_3, 6433)
@@ -6838,8 +6844,8 @@ item (FEAT_TRAINS , ITEM_BR_643_3, 6433)
 						cargo_capacity:                 17;
 						loading_speed:					8;
 						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_DIESEL;						
 						running_cost_factor: 			90;
-						running_cost_base:				RUNNING_COST_DIESEL;
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
@@ -6868,7 +6874,7 @@ item (FEAT_TRAINS , ITEM_BR_643_3, 6433)
 			can_attach_wagon				: switch_coupling_BR_643;
 			visual_effect_and_powered		: switch_FX_BR_643_3;
 			purchase						: spriteset_BR_643_purchase;
-			cost_factor						: 86;
+			cost_factor						: 70;
 			running_cost_factor				: switch_running_cost_BR_643_3;		
 			}
 	}
@@ -7111,7 +7117,7 @@ spriteset(spriteset_BR_644_purchase, "gfx\BR_644/BR_644_front_1x_8bpp.png")
 							}	
 							
 						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_644, 1){
-						return 320;}
+						return 8400;}
 						
 
 item (FEAT_TRAINS , ITEM_BR_644, 6440)
@@ -7131,8 +7137,9 @@ item (FEAT_TRAINS , ITEM_BR_644, 6440)
 						cargo_capacity:                 20;
 						loading_speed:					8;
 						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_DIESEL;						
 						running_cost_factor: 			90;
-						running_cost_base:				RUNNING_COST_DIESEL;
+
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
@@ -7161,7 +7168,7 @@ item (FEAT_TRAINS , ITEM_BR_644, 6440)
 			can_attach_wagon				: switch_coupling_BR_643;
 			visual_effect_and_powered		: switch_FX_BR_644;
 			purchase						: spriteset_BR_644_purchase;
-			cost_factor						: 86;
+			cost_factor						: 82;
 			running_cost_factor				: switch_running_cost_BR_644;		
 			}
 	}	
@@ -8009,6 +8016,9 @@ spriteset (spriteset_DOSTO_1GEN_DVT_LOCO_purchase, "gfx\DOSTO_1GEN\Dosto_DBz_DVT
 						2: return ITEM_DOSTO_1GEN_DVT_LOCO;															//use same vehicle for all parts
 						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
 						}	
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Dosto_1GEN, 1){
+						return 650;}						
 
 
 item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO, 8151)
@@ -8028,6 +8038,7 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO, 8151)
 						cargo_capacity:                 31 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_STEAM;	
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
@@ -8054,7 +8065,9 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO, 8151)
 			length:							switch_length_DOSTO_1GEN_DVT_LOCO;
 			articulated_part:				switch_articulated_DOSTO_1GEN_DVT_LOCO;
 			purchase:						spriteset_DOSTO_1GEN_DVT_LOCO_purchase;
-			cargo_subtype_text:				switch_cargo_subtype_DOSTO_1GEN_DVT_LOCO;			
+			cargo_subtype_text:				switch_cargo_subtype_DOSTO_1GEN_DVT_LOCO;
+			cost_factor:					410;
+			running_cost_factor:			switch_running_cost_Dosto_1GEN;							
 			}
 	}				
 
@@ -8121,6 +8134,8 @@ spriteset (spriteset_DOSTO_2GEN_DVT_LOCO_purchase, "gfx\DOSTO_2GEN\Dosto_DBpza_D
 						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
 						}	
 
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Dosto_2GEN, 1){
+						return 710;}
 
 item (FEAT_TRAINS , ITEM_DOSTO_2GEN_DVT_LOCO, 8153)
 		{
@@ -8139,6 +8154,7 @@ item (FEAT_TRAINS , ITEM_DOSTO_2GEN_DVT_LOCO, 8153)
 						cargo_capacity:                 31 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_STEAM;	
 						
 			//Train specific properties
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
@@ -8165,6 +8181,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_2GEN_DVT_LOCO, 8153)
 			length:							switch_length_DOSTO_2GEN_DVT_LOCO;
 			articulated_part:				switch_articulated_DOSTO_2GEN_DVT_LOCO;
 			purchase:						spriteset_DOSTO_2GEN_DVT_LOCO_purchase;
+			cost_factor:					450;
+			running_cost_factor:			switch_running_cost_Dosto_2GEN;			
 			}
 	}
 
@@ -8941,7 +8959,7 @@ spriteset (spriteset_purchase_Wue_Ci, "gfx\Wue_4Ci_1903\Wue_CCi_1903_loading_1x_
 						}
 						
 						switch(FEAT_TRAINS,PARENT,switch_running_cost_Wue_Ci, 1){
-						return 175;}
+						return 190;}
 
 item (FEAT_TRAINS , ITEM_WUE_CI, 8805)
 		{
@@ -9326,7 +9344,10 @@ spritegroup spritegroup_AB3YG_DB
 						switch (FEAT_TRAINS, SELF, switch_articulated_3YG_DB, extra_callback_info1) {
 							1: return ITEM_3YG_DB; 													
 							return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
-							}					
+							}	
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_3YG, 1){
+						return 510;}											
 											
 
 item (FEAT_TRAINS , ITEM_3YG_DB, 8300)
@@ -9345,7 +9366,8 @@ item (FEAT_TRAINS , ITEM_3YG_DB, 8300)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -9358,8 +9380,7 @@ item (FEAT_TRAINS , ITEM_3YG_DB, 8300)
 						default_cargo_type:				PASS;
 						cargo_capacity:					62;
 						ai_engine_rank: 				0;
-						length: 						8;
-												
+						length: 						8;					
 			}
 			
 	//Vehicels Graphics
@@ -9369,80 +9390,58 @@ item (FEAT_TRAINS , ITEM_3YG_DB, 8300)
 			additional_text:				string(STR_DESC_3YG_DB);
 			articulated_part:				switch_articulated_3YG_DB;
 			cargo_subtype_text:				switch_cargo_subtype_3YG_DB; 
-			
-			
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_3YG;					
 			 }
-		}
-		
+		}		
 		
 		
 //BD3yg-Luggage compartment
 
 //Spriteset BD3YG
 
-	//Spriteset loaded
-
-		spriteset (spriteset_BD3YG_DB, "gfx/BD3yg/BD3yg_1x_8bpp.png")
-			//8bpp normal zoom
+spriteset (spriteset_BD3YG_DB, "gfx/BD3yg/BD3yg_1x_8bpp.png")
 					{ template_88trains_1x(0, 0)}	
 				
 		alternative_sprites (spriteset_BD3YG_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BD3yg/BD3yg_1x_32bpp.png", "gfx/BD3yg/BD3yg_1x_mask.png")
-			//32bpp normal zoom
 					{template_88trains_1x(0,0)}
 				
 		alternative_sprites (spriteset_BD3YG_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BD3yg/BD3yg_2x_32bpp.png", "gfx/BD3yg/BD3yg_2x_mask.png")
-			//32bpp 2x zoom
 					{template_88trains_2x(0,0)}				
 			
 		alternative_sprites (spriteset_BD3YG_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BD3yg/BD3yg_4x_32bpp.png", "gfx/BD3yg/BD3yg_4x_mask.png")
-			//32bpp 4x zoom
 					{template_88trains_4x(0,0)}	
-		
-		//Spriteset loading		
-				
+
 				
 		spriteset (spriteset_BD3YG_DB_LOADING, "gfx/BD3yg/BD3yg_loading_1x_8bpp.png")
-			//8bpp normal zoom
 					{ template_88trains_1x(0, 0)}	
 				
 		alternative_sprites (spriteset_BD3YG_DB_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BD3yg/BD3yg_loading_1x_32bpp.png", "gfx/BD3yg/BD3yg_loading_1x_mask.png")
-			//32bpp normal zoom
 					{template_88trains_1x(0,0)}
 				
 		alternative_sprites (spriteset_BD3YG_DB_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BD3yg/BD3yg_loading_2x_32bpp.png", "gfx/BD3yg/BD3yg_loading_2x_mask.png")
-			//32bpp 2x zoom
 					{template_88trains_2x(0,0)}				
 			
 		alternative_sprites (spriteset_BD3YG_DB_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BD3yg/BD3yg_loading_4x_32bpp.png", "gfx/BD3yg/BD3yg_loading_4x_mask.png")
-			//32bpp 4x zoom
 					{template_88trains_4x(0,0)}		
 						
 		spritegroup spritegroup_BD3YG_DB
 		{
 			loaded: 	[spriteset_BD3YG_DB];
 			loading: 	[spriteset_BD3YG_DB_LOADING,];
-
 		}		
 		
 		
-	//SWITCHES
-	
-					
-	
-					//Reihenfolge	
+	//SWITCHES	
 						switch(FEAT_TRAINS, SELF, switch_BD3YG_graphics,  position_in_vehid_chain_from_end % 2 ) {
 							0:		spritegroup_BD3YG_DB;
 							1:      spritegroup_B3YG_DB;
 							}		
 		
-						//set number of articulated parts
 						switch (FEAT_TRAINS, SELF, switch_articulated_BD3YG_DB, extra_callback_info1) {	
 							1: return ITEM_BD3YG_DB; 
-																		
 							return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
-							}
-							
-						
+							}						
 		
 		
 	item (FEAT_TRAINS , ITEM_BD3YG_DB, 8200)
@@ -9461,7 +9460,8 @@ item (FEAT_TRAINS , ITEM_3YG_DB, 8300)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -9474,8 +9474,7 @@ item (FEAT_TRAINS , ITEM_3YG_DB, 8300)
 						default_cargo_type:				MAIL;
 						cargo_capacity:					18;
 						ai_engine_rank: 				0;
-						length: 						8;
-												
+						length: 						8;											
 			}
 			
 	//Vehicels Graphics
@@ -9484,9 +9483,8 @@ item (FEAT_TRAINS , ITEM_3YG_DB, 8300)
 			default:						switch_BD3YG_graphics;
 			additional_text:				string(STR_DESC_BD3YG_DB);
 			articulated_part:				switch_articulated_BD3YG_DB;
-			 
-			
-			
+			cost_factor						: 340;
+			running_cost_factor				: switch_running_cost_3YG;			 			
 			 }
 		}	
 
@@ -9710,9 +9708,9 @@ item (FEAT_TRAINS , ITEM_RHEINGOLD_28, 8699)
 						reliability_decay: 				20;
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
-						loading_speed:					7;
-						running_cost_base:              RUNNING_COST_STEAM;						
-						cost_factor: 					108;
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -9819,7 +9817,8 @@ item (FEAT_TRAINS , ITEM_RHEINGOLD_28_PW, 8299)
 						refittable_cargo_classes:		bitmask();
 						cargo_allow_refit:				[MAIL, GOOD, VALU];
 						loading_speed:					8;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -10103,6 +10102,9 @@ spriteset (spriteset_purchase_Gr_28_DB_F, "gfx/Gr_28/Gr_28_DB_F_1x_8bpp.png")
 						2: return ITEM_GR_28;															//use same vehicle for all parts
 						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
 						}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_GR_28, 1){
+						return 390;}						
 
 
 item (FEAT_TRAINS , ITEM_GR_28, 8600)
@@ -10147,6 +10149,8 @@ item (FEAT_TRAINS , ITEM_GR_28, 8600)
 			cargo_subtype_text 				: switch_cargo_subtype_GR_28; 
 			articulated_part				: switch_articulated_GR_28;
 			purchase						: spriteset_purchase_Gr_28;
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_GR_28;				
 			
 			
 			
@@ -10188,7 +10192,8 @@ item (FEAT_TRAINS , ITEM_GR_28_F, 8601)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					8;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -10212,7 +10217,9 @@ item (FEAT_TRAINS , ITEM_GR_28_F, 8601)
 			additional_text:				string(STR_DESC_GR_28_F);
 			length:							switch_length_GR_28_F;
 			articulated_part:				switch_articulated_GR_28_F;
-			purchase: 						spriteset_purchase_Gr_28_DB_F;			
+			purchase: 						spriteset_purchase_Gr_28_DB_F;
+			cost_factor						: 420;
+			running_cost_factor				: switch_running_cost_GR_28;							
 			 }
 		}
 						
@@ -10338,6 +10345,9 @@ spriteset (spriteset_B4YG_purchase, "gfx/B4yg/B4yg_1x_8bpp.png")
 						2: return ITEM_B4YG_DB;															//use same vehicle for all parts
 						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
 						}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_4YG, 1){
+						return 350;}						
 
 
 item (FEAT_TRAINS , ITEM_B4YG_DB, 8301)
@@ -10356,7 +10366,8 @@ item (FEAT_TRAINS , ITEM_B4YG_DB, 8301)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -10381,7 +10392,9 @@ item (FEAT_TRAINS , ITEM_B4YG_DB, 8301)
 			length:							switch_length_B4yg_DB;
 			cargo_subtype_text:				switch_cargo_subtype_4YG_DB; 
 			articulated_part:				switch_articulated_B4YG_DB;
-			purchase:						spriteset_B4YG_purchase;			
+			purchase:						spriteset_B4YG_purchase;
+			cost_factor						: 400;
+			running_cost_factor				: switch_running_cost_4YG;						
 			 }
 		}
 
@@ -10481,7 +10494,8 @@ item (FEAT_TRAINS , ITEM_BD4YG_DB, 8201)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -10506,6 +10520,8 @@ item (FEAT_TRAINS , ITEM_BD4YG_DB, 8201)
 			length:							switch_length_BD4yg_DB;
 			articulated_part:				switch_articulated_BD4YG_DB;
 			purchase:						spriteset_BD4YG_purchase;
+			cost_factor						: 400;
+			running_cost_factor				: switch_running_cost_4YG;		
 			}
 			
 		}
@@ -11044,7 +11060,7 @@ spriteset (spriteset_n_wagen_purchase, "gfx\N_WAGEN/n_wagen_B_1x_8bpp.png")
 						2: 4;
 						}
 
-						switch(FEAT_TRAINS, SELF, switch_speed_n_wagen, current_date){
+						switch(FEAT_TRAINS, SELF, switch_speed_n_wagen, current_year){
 						1950 .. 1967: 120;
 						1968 .. 2050: 140;
 						}
@@ -11055,6 +11071,9 @@ spriteset (spriteset_n_wagen_purchase, "gfx\N_WAGEN/n_wagen_B_1x_8bpp.png")
 						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
 						}
 
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_n_wagen, 1) {
+							return 450;
+							}
 
 item (FEAT_TRAINS , ITEM_N_WAGEN, 8305)
 		{
@@ -11072,7 +11091,8 @@ item (FEAT_TRAINS , ITEM_N_WAGEN, 8305)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -11099,11 +11119,12 @@ item (FEAT_TRAINS , ITEM_N_WAGEN, 8305)
 			articulated_part				: switch_articulated_n_wagen;
 			purchase						: spriteset_n_wagen_purchase;
 			speed							: switch_speed_n_wagen;
-			
-			
-			
+			cost_factor						: 375;
+			running_cost_factor				: switch_running_cost_n_wagen;					
 			 }
 		}
+		
+		
 //###########################
 //###Doppelstockwagen 1950###
 //###########################				
@@ -11273,7 +11294,10 @@ spriteset (spriteset_DOSTO_57_purchase, "gfx\DOSTO_57/Dosto_57_blau_1x_8bpp.png"
 						1: return ITEM_DOSTO_57;
 						2: return ITEM_DOSTO_57;															//use same vehicle for all parts
 						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
-						}			
+						}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_DOSTO_57, 1){
+						return 560;}									
 
 
 item (FEAT_TRAINS , ITEM_DOSTO_57, 8450)
@@ -11292,7 +11316,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_57, 8450)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					12;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -11317,7 +11342,10 @@ item (FEAT_TRAINS , ITEM_DOSTO_57, 8450)
 			length:							switch_length_DOSTO_57;
 			cargo_subtype_text:				switch_cargo_subtype_DOSTO_57; 
 			articulated_part:				switch_articulated_DOSTO_57;
-			purchase:						spriteset_DOSTO_57_purchase;	
+			purchase:						spriteset_DOSTO_57_purchase;
+			cost_factor						: 375;
+			running_cost_factor				: switch_running_cost_DOSTO_57;
+				
 			 }
 		}		
 
@@ -11551,7 +11579,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN, 8451)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -11577,6 +11606,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN, 8451)
 			cargo_subtype_text:				switch_cargo_subtype_DOSTO_1GEN; 
 			articulated_part:				switch_articulated_DOSTO_1GEN;
 			purchase:						spriteset_DOSTO_1GEN_purchase;
+			cost_factor:					410;
+			running_cost_factor:			switch_running_cost_Dosto_1GEN;					
 			 }
 		}		
 
@@ -11726,7 +11757,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_COACH, 8452)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -11752,6 +11784,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_COACH, 8452)
 			cargo_subtype_text:				switch_cargo_subtype_DOSTO_1GEN_DVT_COACH; 
 			articulated_part:				switch_articulated_DOSTO_1GEN_DVT_COACH;
 			purchase:						spriteset_DOSTO_1GEN_DVT_COACH_purchase;
+			cost_factor:					410;
+			running_cost_factor:			switch_running_cost_Dosto_1GEN;					
 			 }
 		}	
 //####################################
@@ -11835,16 +11869,21 @@ spritegroup spritegroup_DOSTO_2GEN_AB_VERKEHRSROT
 spriteset (spriteset_DOSTO_2GEN_purchase, "gfx\DOSTO_2GEN\Dosto_DBpza_verkehrsrot_1x_8bpp.png")
 		{template_purchase_158(0, 0)}
 		
-//Switches			
+//Switches	
+						random_switch (FEAT_TRAINS, SELF, random_choose_DOSTO_2GEN,) {
+							2: spritegroup_DOSTO_2GEN_B_VERKEHRSROT;
+							1: spritegroup_DOSTO_2GEN_AB_VERKEHRSROT;}
 								
 						switch (FEAT_TRAINS,SELF, switch_sprite_choose_DOSTO_2GEN,cargo_subtype){
-							0:  spritegroup_DOSTO_2GEN_B_VERKEHRSROT;
-							1:  spritegroup_DOSTO_2GEN_AB_VERKEHRSROT;
+							0:  return random_choose_DOSTO_2GEN;
+							1:  spritegroup_DOSTO_2GEN_B_VERKEHRSROT;
+							2:  spritegroup_DOSTO_2GEN_AB_VERKEHRSROT;
 							} 	
 							
 						switch (FEAT_TRAINS,SELF,switch_cargo_subtype_DOSTO_2GEN,cargo_subtype){
-							0:	return string(STR_LIVERY_DB_TRAFFICRED_second); 
-							1:	return string(STR_LIVERY_DB_TRAFFICRED_firstsecond); 													
+							0:  return string(STR_LIVERY_AUTOMATIC);
+							1:	return string(STR_LIVERY_DB_TRAFFICRED_second); 
+							2:	return string(STR_LIVERY_DB_TRAFFICRED_firstsecond); 													
 							return CB_RESULT_NO_TEXT;
 							}
 							
@@ -11882,7 +11921,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_2GEN, 8453)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -11908,6 +11948,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_2GEN, 8453)
 			cargo_subtype_text:				switch_cargo_subtype_DOSTO_2GEN; 
 			articulated_part:				switch_articulated_DOSTO_2GEN;
 			purchase:						spriteset_DOSTO_2GEN_purchase;
+			cost_factor:					450;
+			running_cost_factor:			switch_running_cost_Dosto_2GEN;								
 			 }
 		}						
 
@@ -11993,7 +12035,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_2GEN_DVT_COACH, 8454)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					15;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -12018,6 +12061,8 @@ item (FEAT_TRAINS , ITEM_DOSTO_2GEN_DVT_COACH, 8454)
 			length:							switch_length_DOSTO_2GEN_DVT_COACH;
 			articulated_part:				switch_articulated_DOSTO_2GEN_DVT_COACH;
 			purchase:						spriteset_DOSTO_2GEN_DVT_COACH_purchase;
+			cost_factor:					450;
+			running_cost_factor:			switch_running_cost_Dosto_2GEN;				
 			 }
 		}
 //###################
@@ -12030,7 +12075,7 @@ item (FEAT_TRAINS , ITEM_DOSTO_2GEN_DVT_COACH, 8454)
 	//Spriteset loaded
 
 		spriteset (spriteset_UICX_A_blau, "gfx\UICX/UICX_A_blau_1x_8bpp.png")
-					{template_158trains_1x(0, 0)}	
+					{template_158trains_1x(0, 0)}
 				
 		alternative_sprites (spriteset_UICX_A_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_A_blau_1x_32bpp.png", "gfx\UICX/UICX_A_blau_1x_mask.png")
 					{template_158trains_1x(0,0)}
@@ -12249,7 +12294,7 @@ spritegroup spritegroup_UICX_AB_ozeanblau
 			
 //Spriteset Zweite Klasse grün
 
-	//Spriteset loadedspriteset_DOSTO_2GEN_DVT_COACH_purchase
+	//Spriteset loaded
 
 		spriteset (spriteset_UICX_B_gruen, "gfx\UICX/UICX_B_gruen_1x_8bpp.png")
 					{template_158trains_1x(0, 0)}	
@@ -12442,102 +12487,91 @@ spriteset (spriteset_UICX_purchase, "gfx\UICX/UICX_B_gruen_1x_8bpp.png")
 		
 //Switches
 
+						random_switch (FEAT_TRAINS, SELF, random_choose_uicx_gruen,) {
+							3: spritegroup_UICX_B_gruen;
+							2: spritegroup_UICX_A_blau;
+							1: spritegroup_UICX_AB_gruen;}
+							
+						random_switch (FEAT_TRAINS, SELF, random_choose_uicx_ozeanblau,) {
+							3: spritegroup_UICX_B_ozeanblau;
+							2: spritegroup_UICX_AB_ozeanblau;
+							1: spritegroup_UICX_A_ozeanblau;}							
 
-						switch (FEAT_TRAINS,SELF,switch_build_year_second_uicx,build_year) {
-						1950 .. 1974 : spritegroup_UICX_B_gruen;
-						1975 .. 1987 : spritegroup_UICX_B_ozeanblau;
-						1988 .. 1995 : spritegroup_UICX_B_interregio;
-						1996 .. 2050 : spritegroup_UICX_B_intercity;
+						random_switch (FEAT_TRAINS, SELF, random_choose_uicx_interregio,) {
+							3: spritegroup_UICX_B_interregio;
+							2: spritegroup_UICX_A_interregio;}
+							
+						random_switch (FEAT_TRAINS, SELF, random_choose_uicx_intercity,) {
+							3: spritegroup_UICX_B_intercity;
+							2: spritegroup_UICX_A_intercity;}									
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_uicx,build_year) {
+						1950 .. 1974 : random_choose_uicx_gruen;
+						1975 .. 1987 : random_choose_uicx_ozeanblau;
+						1988 .. 1995 : random_choose_uicx_interregio;
+						1996 .. 2050 : random_choose_uicx_intercity;
 						spritegroup_UICX_B_ozeanblau;
 						}
 						
-						switch (FEAT_TRAINS,SELF,switch_build_year_first_uicx,build_year) {
-						1950 .. 1974 : spritegroup_UICX_A_blau;
-						1975 .. 1987 : spritegroup_UICX_A_ozeanblau;
-						1988 .. 1995 : spritegroup_UICX_A_interregio;
-						1996 .. 2050 : spritegroup_UICX_A_intercity;
-						spritegroup_UICX_A_ozeanblau;
-						}
-						
-
-						switch (FEAT_TRAINS,SELF,switch_current_year_second_uicx,current_year) {
-						1950 .. 1974 : spritegroup_UICX_B_gruen;
-						1975 .. 1987 : spritegroup_UICX_B_ozeanblau;
-						1988 .. 1995 : spritegroup_UICX_B_interregio;
-						1996 .. 2050 : spritegroup_UICX_B_intercity;
-						spritegroup_UICX_B_ozeanblau;
-						}
-						
-						switch (FEAT_TRAINS,SELF,switch_current_year_first_uicx,current_year) {
-						1950 .. 1974 : spritegroup_UICX_A_blau;
-						1975 .. 1987 : spritegroup_UICX_A_ozeanblau;
-						1988 .. 1995 : spritegroup_UICX_A_interregio;
-						1996 .. 2050 : spritegroup_UICX_A_intercity;
+						switch (FEAT_TRAINS,SELF,switch_current_year_uicx,current_year) {
+						1950 .. 1974 : random_choose_uicx_gruen;
+						1975 .. 1987 : random_choose_uicx_ozeanblau;
+						1988 .. 1995 : random_choose_uicx_interregio;
+						1996 .. 2050 : random_choose_uicx_intercity;
 						spritegroup_UICX_A_ozeanblau;
 						}					
 						
-						//Manuelle Auswahl Spriteset
 						switch (FEAT_TRAINS,SELF, switch_sprite_choose_uicx, cargo_subtype) {
-							0:  switch_build_year_second_uicx;
-							1:  switch_build_year_first_uicx;
-							2:  switch_current_year_second_uicx;
-							3:  switch_current_year_first_uicx;
-							4:	spritegroup_UICX_B_gruen; 
-							5:	spritegroup_UICX_AB_gruen;
-							6:	spritegroup_UICX_A_blau;
-							7:  spritegroup_UICX_B_ozeanblau;
-							8:  spritegroup_UICX_AB_ozeanblau;
-							9:  spritegroup_UICX_A_ozeanblau;
-						   10:  spritegroup_UICX_B_interregio;
-						   11:  spritegroup_UICX_A_interregio;
-						   12:  spritegroup_UICX_B_ic_old;
-						   13:  spritegroup_UICX_B_intercity;
-						   14:  spritegroup_UICX_A_intercity; 
-							switch_build_year_second_uicx;
+							0:  switch_build_year_uicx;
+							1:  switch_current_year_uicx;
+							2:	spritegroup_UICX_B_gruen; 
+							3:	spritegroup_UICX_AB_gruen;
+							4:	spritegroup_UICX_A_blau;
+							5:  spritegroup_UICX_B_ozeanblau;
+							6:  spritegroup_UICX_AB_ozeanblau;
+							7:  spritegroup_UICX_A_ozeanblau;
+						    8:  spritegroup_UICX_B_interregio;
+						    9:  spritegroup_UICX_A_interregio;
+						   10:  spritegroup_UICX_B_ic_old;
+						   11:  spritegroup_UICX_B_intercity;
+						   12:  spritegroup_UICX_A_intercity; 
+							switch_build_year_uicx ;
 							} 	
 							
-						//Auswahl Menu
 						switch (FEAT_TRAINS,SELF,switch_cargo_subtype_uicx, cargo_subtype) {
-							0: 	return string(STR_LIVERY_build_year_second);
-							1:  return string(STR_LIVERY_build_year_first);
-							2:  return string(STR_LIVERY_current_year_second);
-							3:  return string(STR_LIVERY_current_year_first);
-							4:	return string(STR_LIVERY_GREEN_SECOND); 
-							5:	return string(STR_LIVERY_GREEN_FIRSTSECOND);
-							6:	return string(STR_LIVERY_BLUE_FIRST);
-							7:  return string(STR_LIVERY_DB_OB_second); 
-							8:  return string(STR_LIVERY_DB_OB_firstsecond);
-							9:  return string(STR_LIVERY_DB_OB_first);
-						   10:  return string(STR_LIVERY_DB_IR_second);
-						   11:  return string(STR_LIVERY_DB_IR_first);
-						   12:  return string(STR_LIVERY_DB_IC_OLD_second);
-						   13:  return string(STR_LIVERY_DB_IC_NEW_second);
-						   14:  return string(STR_LIVERY_DB_IC_NEW_first);
+							0: 	return string(STR_LIVERY_build_year);
+							1:  return string(STR_LIVERY_current_year);
+							2:	return string(STR_LIVERY_GREEN_SECOND); 
+							3:	return string(STR_LIVERY_GREEN_FIRSTSECOND);
+							4:	return string(STR_LIVERY_BLUE_FIRST);
+							5:  return string(STR_LIVERY_DB_OB_second); 
+							6:  return string(STR_LIVERY_DB_OB_firstsecond);
+							7:  return string(STR_LIVERY_DB_OB_first);
+						    8:  return string(STR_LIVERY_DB_IR_second);
+						    9:  return string(STR_LIVERY_DB_IR_first);
+						   10:  return string(STR_LIVERY_DB_IC_OLD_second);
+						   11:  return string(STR_LIVERY_DB_IC_NEW_second);
+						   12:  return string(STR_LIVERY_DB_IC_NEW_first);
 						   	return CB_RESULT_NO_TEXT;
 							}
-							
-						//Reihenfolge	
+								
 						switch(FEAT_TRAINS, SELF, switch_uicx_graphics, position_in_articulated_veh  % 3) {
 							0:     spriteset_empty;
 							1:     return switch_sprite_choose_uicx;
 							2:     spriteset_empty;
 							}															
 					
-
 						switch(FEAT_TRAINS, SELF, switch_length_uicx, position_in_articulated_veh % 3) {
 						// Size of the first part
 						0: 4;
 						1: 7;
-						2: 4;
-						}
-
+						2: 4;}
 
 						switch(FEAT_TRAINS, SELF, switch_speed_uicx, current_year) {
 						1950 .. 1963 : 140 ;
 						1964 .. 1987 : 160 ;
 						1988 .. 2050 : 200 ;
 						}
-
 
 						//set number of articulated parts
 						switch (FEAT_TRAINS, SELF, switch_articulated_uicx, extra_callback_info1) {
@@ -12546,11 +12580,9 @@ spriteset (spriteset_UICX_purchase, "gfx\UICX/UICX_B_gruen_1x_8bpp.png")
 						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
 						}
 						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_uicx, 1){
+						return 390;}
 						
-						
-						
-
-
 item (FEAT_TRAINS , ITEM_UICX, 8500)
 		{
 	//property Block
@@ -12567,7 +12599,8 @@ item (FEAT_TRAINS , ITEM_UICX, 8500)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR];
 						loading_speed:					8;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -12594,9 +12627,9 @@ item (FEAT_TRAINS , ITEM_UICX, 8500)
 			articulated_part				: switch_articulated_uicx;
 			purchase						: spriteset_UICX_purchase;
 			speed							: switch_speed_uicx;
-			
-			
-			
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_uicx;			
+		
 			 }
 		}
 
@@ -12850,7 +12883,8 @@ item (FEAT_TRAINS , ITEM_UICX_BDMS, 8251)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[PASS, TOUR, MAIL, GOOD, VALU];
 						loading_speed:					8;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -12877,9 +12911,8 @@ item (FEAT_TRAINS , ITEM_UICX_BDMS, 8251)
 			articulated_part				: switch_articulated_uicx_bdms;
 			purchase						: spriteset_UICX_BDMS_purchase;
 			speed							: switch_speed_uicx_bdms;
-			
-			
-			
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_uicx;			
 			 }
 		}
 		
@@ -13173,7 +13206,8 @@ item (FEAT_TRAINS , ITEM_UICX_D, 8250)
 						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
 						cargo_allow_refit:				[MAIL, GOOD, VALU];
 						loading_speed:					8;
-						cost_factor: 					108;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
 						running_cost_factor: 			90;
 						
 			//Train specific properties
@@ -13200,8 +13234,8 @@ item (FEAT_TRAINS , ITEM_UICX_D, 8250)
 			articulated_part				: switch_articulated_uicx_d;
 			purchase						: spriteset_UICX_D_purchase;
 			speed							: switch_speed_uicx_d;
-			
-			
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_uicx;				
 			
 			 }
 		}
