@@ -1,0 +1,49 @@
+##grflangid 0x01
+#This is the English language file
+
+# GRF name and description definitions
+
+STR_GRF_NAME        : GETS 0.1
+STR_GRF_DESC : GETS is my first attempt at drawing a loco.
+
+####################
+####Vehicle Names###
+####################
+
+###Steam Locos###
+
+###Diesel Locos###
+STR_NAME_V100_0		: DB BR V 100
+
+###Electric Locos###
+STR_NAME_E04_DB		: DB BR E 04
+
+###Passenger Carriages####
+STR_NAME_3YG_DB		: DB 3yg-pair "Umbauwagen"
+STR_NAME_B4YG_DB	: DB 4yg "Umbauwagen"
+
+
+##########################
+####Vehicle Description###
+##########################
+
+###Steam Locos###
+
+###Diesel Locos###
+STR_DESC_V100_0		: German multi-purpose diesel invented in 1955 
+
+###Electric Locos###
+STR_DESC_E04_DB		: A fast electro-locomotive.
+
+###Passenger Carriages####
+STR_DESC_3YG_DB		: The young german DB suffered a massive lack and aging of their pre-war passenger carriages. Beginning 1953, DB rebuilt pre-war carriages, only keeping frame and wheels while completely rebuilding the body. These "Umbauwagen" should dominate the face of german local trains for the upcoming years. In order to improve runnability, 3-axle-carriages were pre-coupled to twin consists, allowing to raise the max. speed to 100 km/h.
+STR_DESC_B4YG_DB	: After the success of rebuilt 3-axle passenger coaches, DB began to rebuild old 4-axle stock following the same principal two years later.
+
+
+
+#############################
+####Vehicle Livery Strings###
+#############################
+
+STR_LIVERY_AB3YG_DB	: First Class
+STR_LIVERY_B3YG_DB	: Second Class

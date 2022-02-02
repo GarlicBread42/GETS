@@ -3,8 +3,22 @@
 
 # GRF name and description definitions
 
-STR_GRF_NAME        : GETS 0.1.1
-STR_GRF_DESC :{BLACK}German Extra-Zoom Train Set in 32bpp. {}{}Many thanks to {RED}Timberwolf {BLACK} for providing and teaching his Voxel-toolchain, {RED}andythenorth, Simozzz, Emperor Jake, 2TallTyler{BLACK} and the whole {RED}Discord{BLACK}-community for advice, help, remarks and suggestions during development of this set. 
+STR_GRF_NAME        : GETS 0.1.2
+STR_GRF_DESC :{GOLD}German Extra-Zoom Train Set in 32bpp. {}{}Graphics by {RED}Garlic_Bread42; Simozzz{GOLD}, code by {RED}Garlic_Bread42{GOLD}.{}Many thanks to {RED}Timberwolf {GOLD} for providing and teaching his Voxel-toolchain, {RED}andythenorth, Simozzz, Emperor Jake, 2TallTyler{GOLD} and the whole {RED}Discord{GOLD}-community for advice, help, remarks and suggestions during development of this set. 
+
+STR_PARAM_RUNNING_COST: Running cost
+STR_PARAM_RUNNING_COST_DESC: Choose between cheaper or higher costs for running trains.
+STR_PARAM_PURCHASE_COST: Purchase cost
+STR_PARAM_PURCHASE_COST_DESC: Choose between cheaper or higher costs for buying trains.
+
+
+STR_PARAM_VERYCHEAP : very cheap
+STR_PARAM_CHEAP		: cheap
+STR_PARAM_DEFAULT	: default
+STR_PARAM_HIGH		: high
+STR_PARAM_VERYHIGH	: very high
+
+
 
 ####################
 ####Vehicle Names###
@@ -14,29 +28,52 @@ STR_GRF_DESC :{BLACK}German Extra-Zoom Train Set in 32bpp. {}{}Many thanks to {R
 STR_NAME_BR_01		: DRG/DB BR 01
 STR_NAME_BR_13_17	: KWSE ADh-Class/DRG BR. 13.17
 STR_NAME_BR_18_1	: KWSE C-Class DRG/DB BR. 18.1
+STR_NAME_BR_38_10	: KPEV P8 DRG/DB BR 38.10-40
 STR_NAME_BR_44		: DRG/DB BR 44
 STR_NAME_BR_57_4	: KWSE Hh-Class/ DRG BR 57.4
 STR_NAME_BR_64		: DRG/DB BR 64
 STR_NAME_BR_75_0	: KWSE T5/ DRG/DB BR 75.0
+STR_NAME_BR_78		: KPEV T18 DRG/DB BR 78
 STR_NAME_BR_80		: DRG/DB BR 80
 STR_NAME_BR_92_1	: KWSE T4-Class/ DRG BR 92.1
 
 ###Diesel Locos###
 STR_NAME_V100_0		: DB BR V 100
+STR_NAME_V200_0		: DB BR V 200.0/BR 220
+STR_NAME_V200_1		: DB BR V 200.1/BR 221
 STR_NAME_V160		: DB BR V 160/216
 STR_NAME_BR218		: DB BR 218
+STR_NAME_BR_245		: DB BR 245
 STR_NAME_V_36		: DRG/DB BR V 36
 STR_NAME_V_60		: DB BR V 60/360
 
 ###Electric Locos###
+STR_NAME_BR_ES6_KPEV: KPEV ES 6 "Halle"
+STR_NAME_BR_E01		: KPEV ES 9 "Halle"/DRG BR E 01
+STR_NAME_BR_101		: DB BR 101
+STR_NAME_BR_103_0	: DB BR E 03/103.0
+STR_NAME_BR_103_1	: DB BR 103.1
+STR_NAME_BR_103_2	: DB BR 103.2 "long cab"
 STR_NAME_E04_DB		: DB BR E 04
+STR_NAME_BR_E_16	: DRG/DB BR E 16
+STR_NAME_BR_E_17	: DRG/DB BR E 17
+STR_NAME_BR_E_18	: DRG/DB BR E 18
+STR_NAME_E_32		: DRG/DB BR E 32
 STR_NAME_E_44		: DRG/DB BR E 44
 STR_NAME_E_10		: DB BR E 10/110
+STR_NAME_BR_111		: DB BR 111
+STR_NAME_BR_120		: DB BR 120
 STR_NAME_E_40		: DB BR E 40/140
+STR_NAME_BR_146_2	: DB BR 146.2 "Traxx 2"
 STR_NAME_E_41		: DB BR E 41/141
 STR_NAME_E_50		: DB BR E 50/150
-STR_NAME_BR_111		: DB BR 111
+STR_NAME_E_73_0		: K.Bay.Sts.B. EG1/DRG E 73.0
+STR_NAME_BR_185_2	: DB BR 185.2 "Traxx 2"
+STR_NAME_E_91_3		: KPEV EG 538/DRG E 91.3
+STR_NAME_BR_1932	: DB BR 193 "Vectron"
 
+###Electric Multiple Units###
+STR_NAME_ET_25		: DRG/DB ET 25
 
 ###Diesel Multiple Units###
 STR_NAME_ETA_176	: DB ETA 176 "Limburger Zigarre"
@@ -59,6 +96,10 @@ STR_NAME_DOSTO_2GEN_DVT_LOCO	: DB 2nd Gen. Bi-Level DVT
 STR_NAME_WUE_CI					: KWSE/DRG 4-axle Coaches
 STR_NAME_WUE_POSTCI				: KWSE/DRG/DB 4-axle Post-coach
 STR_NAME_WUE_LITERA_E			: KWSE/DRG/DB 2-axle "Litera E" Coaches
+STR_NAME_4UE_PR05				: KPEV/DRG/DB Express Coach
+STR_NAME_PW4ue					: KPEV/DRG/DB Luggage car
+STR_NAME_Post4ue_PR05			: KPEV/DRG/DB post coach
+STR_NAME_KPEV_PR05				: KPEV/DRG/DB 4-axle compartment cars
 STR_NAME_3YG_DB					: DB 3yg-pair "Umbauwagen"
 STR_NAME_BD3YG_DB				: DB 3yg-pair "Umbauwagen" - luggage compartment
 STR_NAME_DOSTO_57				: DB 1950's Bi-Level coaches
@@ -86,69 +127,97 @@ STR_NAME_UICX_D		: DB m-Wagen - luggage
 
 ###Steam Locos###
 STR_DESC_BR_01		:BR 01
-STR_DESC_BR_13_17	:Usage: {GREEN}Express trains {}{BLACK}In order to meet the increasing requirements of 1900's express trains, Wurttemberg developed this 4-4-0 engine which was built 98 times.
-STR_DESC_BR_18_1	:Usage: {GREEN}Express trains {}{BLACK}Even though the C-Class was one of the smallest Pacific's they were seen as economic and powerful.
-STR_DESC_BR_44		:Usage: {BROWN}Heavy Goods {}{BLACK} Nearly 2000 of these heavy goods engines were built between 1926 and 1949, making themselves indispensable until the end of steam age.
-STR_DESC_BR_57_4	:Usage: {LTBROWN}Goods {}{BLACK}Maschinenfabrik Esslingen delivered these 0-10-0 to KWSE.
+STR_DESC_BR_13_17	:Usage: {PURPLE}Express{}{BLACK}In order to meet the increasing requirements of 1900's express trains, Wurttemberg developed this 4-4-0 engine which was built 98 times.
+STR_DESC_BR_18_1	:Usage: {PURPLE}Express{}{BLACK}Even though the C-Class was one of the smallest Pacific's they were seen as economic and powerful.
+STR_DESC_BR_38_10	:Usage: {BLUE}General{}{BLACK} Robert Garbe's best construction was built to last: Some serving up to 70 years, this class survived several attempts to replace them.
+STR_DESC_BR_44		:Usage: {BROWN}Freight{}{BLACK} Nearly 2000 of these heavy goods engines were built between 1926 and 1949, making themselves indispensable until the end of steam age.
+STR_DESC_BR_57_4	:Usage: {BROWN}Freight{}{BLACK}Maschinenfabrik Esslingen delivered these 0-10-0 to KWSE.
 STR_DESC_BR_75_0    :Usage: {DKGREEN}Passenger{}{BLACK}Maschinenfabrik Esslingen designed and delivered nearly 100 of these long-lasting engines.
-STR_DESC_BR_80		:Usage: {DKBLUE}Light Shunter{}{BLACK} Br. 80 was the first in DRG's typification scheme, planned for shuting in big passenger stations. This type was intended to lower costs of shunting operations. Many survived until the 80's as industrial locomotives.
+STR_DESC_BR_78		:Usage: {DKGREEN}Passenger{}{BLACK}T18 lalala
+STR_DESC_BR_80		:Usage: {DKBLUE}Shunter{}{BLACK} Br. 80 was the first in DRG's typification scheme, planned for shuting in big passenger stations. This type was intended to lower costs of shunting operations. Many survived until the 80's as industrial locomotives.
 STR_DESC_BR_64		:Usage: {DKGREEN}Passenger{}{BLACK} BR 64 shared a lot of parts with BR 24. More than 500 were build until 1940.
-STR_DESC_BR_92_1	:Usage: {LTBROWN}Banking Engine/Goods{}{BLACK}After older T3-engines became too weak for banking services on the infamours "Geisslinger Steige"-ramp, KWSE had to build the stronger T4-type.
+STR_DESC_BR_92_1	:Usage: {BROWN}Freight{}{BLACK}After older T3-engines became too weak for banking services on the infamours "Geisslinger Steige"-ramp, KWSE had to build the stronger T4-type.
 
 ###Diesel Locos###
-STR_DESC_V_100		:German multi-purpose diesel invented in 1955 
-STR_DESC_V160		:Usage: {BLUE} multi-purpose engine {}{BLACK}The V160 is the first in it's family of 1-motored diesel locos built for medium/heavy trains after WW II.
-STR_DESC_BR218		:Usage: {BLUE} multi purpose engine {}{BLACK}The last evolution of the V-160 family brought a 2.500-hp motor, electric train heating and push-pull controls. First delivered in 1968, the remained the backbone of DB-diesel fleet until the 2020's.
-STR_DESC_V_36		:Usage: {DKBLUE}Light Shunter{}{BLACK} Between 1936 and 1945 German Wehrmacht bought 450 of these light diesel shunters, which were spread around Europe after the war. Most locos in west-germany were put into Bundesbahn duties.
-STR_DESC_V_60		:Usage: {DKBLUE}Light Shunter{}{BLACK} In the early 50's, DB needed powerful shunting diesels - steam locos were expensive and the existing locomotors weak. This highly successful design was built nearly 1.000 times and survived well into the 2000's.
+STR_DESC_V_100		:Usage: {BLUE}General{}{BLACK}For service on non-electrified tracks, DB developed V100-class together with MaK. The goal was a powerful locomotive for mixed branchline and light mainline traffic.
+STR_DESC_V160		:Usage: {DKGREEN}Passenger{}{BLACK}The V160 is the first in it's family of 1-motored diesel locos built for medium/heavy trains after WW II.
+STR_DESC_V_200_0	:Usage: {PURPLE}Express{}{BLACK} Iconic V200 was one of the first post-war diesel engines DB developed. Initially designed for hauling heavy express trains, further electrification displaced V200 to regional passenger and freight services later on.
+STR_DESC_V_200_1	:Usage: {PURPLE}Express{}{BLACK} Advanced V200.1 featured more powerful diesel engines due to trains getting more heavy.
+STR_DESC_BR218		:Usage: {BLUE}General{}{BLACK}The last evolution of the V-160 family brought a 2.500-hp motor, electric train heating and push-pull controls. First delivered in 1968, the remained the backbone of DB-diesel fleet until the 2020's.
+STR_DESC_BR_245		:Usage: {BLUE}General{}{BLACK}In order to replace the ageing class 218, the diesel-Traxx 245 was ordered by DB.
+STR_DESC_V_36		:Usage: {DKBLUE}Shunter{}{BLACK} Between 1936 and 1945 German Wehrmacht bought 450 of these light diesel shunters, which were spread around Europe after the war. Most locos in west-germany were put into Bundesbahn duties.
+STR_DESC_V_60		:Usage: {DKBLUE}Shunter{}{BLACK} In the early 50's, DB needed powerful shunting diesels - steam locos were expensive and the existing locomotors weak. This highly successful design was built nearly 1.000 times and survived well into the 2000's.
 
 ###Electric Locos###
-STR_DESC_E04_DB		: A fast electro-locomotive.
-STR_DESC_E_44		:Usage: {BLUE} multi purpose engine {}{BLACK}After the success of the E16-class, DRG intended to build a universal electric loco. This design was the first to be built more than 100 times, lasting until the mid-1980's.
-STR_DESC_E_10		:Usage: {GREEN} Semi-fast/express trains {} {BLACK} This first post-war express engine was equipped with push-pull-technics and moved to regional duties in its later years.
+STR_DESC_BR_ES6_KPEV:Usage: {PURPLE}Express{}{BLACK} This second electric 4-6-4 of Prussian State Rail was built by Borsig in Berlin. After first World War it was used in light passenger traffic.
+STR_DESC_BR_E_01	:Usage: {PURPLE}Express{}{BLACK} Since pilot operation between Dessau and Bitterfeld was quite succesful, Prussian State Rail ordered new locos in larger quantities. Due to technical progress, all 10 locomotives had to be retired in the early 1930's.
+STR_DESC_BR_101		:Usage: {BLUE}General{}{BLACK} In the early 1990's it became visible, that older Class 103-locos would need replacement. Since there were plans to replace all IC-trains with multiple units, DB ordered a fast multi-purpose engine.
+STR_DESC_BR_103_0	:Usage: {PURPLE}Express{}{BLACK} Description.
+STR_DESC_BR_103_1	:Usage: {PURPLE}Express{}{BLACK} Description.
+STR_DESC_BR_103_2	:Usage: {PURPLE}Express{}{BLACK} Description.
+STR_DESC_E04_DB		:Usage: {PURPLE}Express{}{BLACK} Description 
+STR_DESC_E_10		:Usage: {PURPLE}Express{}{BLACK} This first post-war express engine was equipped with push-pull-technics and moved to regional duties in its later years.
+STR_DESC_BR_111		:Usage: {DKGREEN}Passenger{}{BLACK}Due to rising demand of passenger electrics, DB ordered more than 500 of these engines in the mid-70's as a successor of E-10 class.
+STR_DESC_BR_E_16	:Usage: {PURPLE}Express{}{BLACK} Description.
+STR_DESC_BR_E_17	:Usage: {PURPLE}Express{}{BLACK} Description.
+STR_DESC_BR_E_18	:Usage: {PURPLE}Express{}{BLACK} Description.
+STR_DESC_BR_120		:Usage: {BLUE} multi purpose engine {}{BLACK} Plans for adding description
+STR_DESC_E_32		:Usage: {DKGREEN}Passenger{}{BLACK} speed limit: {GOLD} 75 km/h, after 1936: 90 km/h {}{BLACK} These locos with their characteristic diagonal rod drive served all over Bavaria. One of them is preserved in Bochum-Dahlhausen.
 STR_DESC_E_40		:Usage: {LTBROWN} Goods {} {BLACK} speed limit: {GOLD} 100 km/h, after 1968: 110 km/h {}{BLACK} Plans for the E10 being a universal loco didn't succeed, so gearing and brake system was changed to create a dedicated goods locomotive.
-STR_DESC_E_41		:Usage: {DKGREEN} regional/semi-fast passenger trains {} {BLACK} The smallest of the new post-war electrics was mainly designed to operate push-pull trains.
+STR_DESC_E_41		:Usage: {DKGREEN}Passenger{}{BLACK} The smallest of the new post-war electrics was mainly designed to operate push-pull trains.
+STR_DESC_E_44		:Usage: {BLUE} multi purpose engine {}{BLACK}After the success of the E16-class, DRG intended to build a universal electric loco. This design was the first to be built more than 100 times, lasting until the mid-1980's.
+STR_DESC_BR_146_2	:Usage: {DKGREEN}Passenger{}{BLACK} The second iteration of Traxx-family brought Class 146.2, more powerful than the first series of Traxx-engines.
 STR_DESC_E_50		:Usage: {BROWN} Heavy Goods {} {BLACK} Developed together with E-10 class, this loco is the heavy goods hauler in DB's post-war electrification programm.
-STR_DESC_BR_111		:Usage: {BLUE} multi purpose engine {}{BLACK}Due to rising demand of passenger electrics, DB ordered more than 500 of these engines in the mid-70's as a successor of E-10 class.
+STR_DESC_E_73_0		:Usage: {LTBROWN}Goods {}{BLACK}As one of the first german electrics, EG1 hauled goods trains between Freilassing and Berchtesgaden in Bavaria.
+STR_DESC_BR_185_2	:Usage: {LTBROWN}Goods {}{BLACK}The freight version of Traxx 2.
+STR_DESC_E_91_3		:Usage: {LTBROWN}Goods {}{BLACK} Description.
+STR_DESC_BR_193		:Usage: {BLUE} multi purpose engine {}{BLACK} Plans for adding description
+
+###Electrical Multiple Units####
+STR_DESC_ET_25		:Usage: {DKGREEN}Passenger{}{BLACK} Description
 
 ###Diesel Multiple Units####
 STR_DESC_ETA_176	:Usage: {DKGREEN}Passenger{}{BLACK} As a replacement for pre-war battery trains DB ordered ETA 176 trains in the early 1950's and ESA 176 trailers.
 STR_DESC_ESA_176	:Usage: {DKGREEN}Passenger{}{BLACK} As a replacement for pre-war battery trains DB ordered ETA 176 trains in the early 1950's and ESA 176 trailers.
 STR_DESC_ETA_177_2	:Usage: {DKGREEN}Passenger{}{BLACK} After first experiments with battery driven trains in the 1880's, Prussian state railway began building larger numbers in early 1900's. 
 STR_DESC_ETA_177_3	:Usage: {DKGREEN}Passenger{}{BLACK} After first experiments with battery driven trains in the 1880's, Prussian state railway began building larger numbers in early 1900's. 
-STR_DESC_VT_085_3	:Usage: {RED} express trains {}{BLACK} In the early '50s economic life in germany slowly got back to normal and the demand for fast express lines rose. To cope that demand, young DB ordered the elegant VT 08.5 trains.
-STR_DESC_VT_085_4	:Usage: {RED} express trains {}{BLACK} In the early '50s economic life in germany slowly got back to normal and the demand for fast express lines rose. To cope that demand, young DB ordered the elegant VT 08.5 trains.
-STR_DESC_VT_125_3	:Usage: {DKGREEN} regional trains {}{BLACK} The regional model of VT 08.5 DMU's differed to the express version only in the door arrangement.
-STR_DESC_VT_125_4	:Usage: {DKGREEN} regional trains {}{BLACK} The regional model of VT 08.5 DMU's differed to the express version only in the door arrangement.
-STR_DESC_BR_643_2	:Usage: {DKGREEN} regional trains {}{BLACK} In difference to class 644, the 643-units are purely diesel-powered DMU's capable of multi-tractioning with both 643 and 644-units.
-STR_DESC_BR_643_3	:Usage: {DKGREEN} regional trains {}{BLACK} In difference to class 644, the 643-units are purely diesel-powered DMU's capable of multi-tractioning with both 643 and 644-units.
-STR_DESC_BR_644		:Usage: {DKGREEN} regional trains {}{BLACK} As a replacement for older DMUs DB AG bought these diesel-electric DMU's at the end of the 2000s.
+STR_DESC_VT_085_3	:Usage: {PURPLE}Express{}{BLACK} In the early '50s economic life in germany slowly got back to normal and the demand for fast express lines rose. To cope that demand, young DB ordered the elegant VT 08.5 trains.
+STR_DESC_VT_085_4	:Usage: {PURPLE}Express{}{BLACK} In the early '50s economic life in germany slowly got back to normal and the demand for fast express lines rose. To cope that demand, young DB ordered the elegant VT 08.5 trains.
+STR_DESC_VT_125_3	:Usage: {DKGREEN}Passenger{}{BLACK} The regional model of VT 08.5 DMU's differed to the express version only in the door arrangement.
+STR_DESC_VT_125_4	:Usage: {DKGREEN}Passenger{}{BLACK} The regional model of VT 08.5 DMU's differed to the express version only in the door arrangement.
+STR_DESC_BR_643_2	:Usage: {DKGREEN}Passenger{}{BLACK} In difference to class 644, the 643-units are purely diesel-powered DMU's capable of multi-tractioning with both 643 and 644-units.
+STR_DESC_BR_643_3	:Usage: {DKGREEN}Passenger{}{BLACK} In difference to class 644, the 643-units are purely diesel-powered DMU's capable of multi-tractioning with both 643 and 644-units.
+STR_DESC_BR_644		:Usage: {DKGREEN}Passenger{}{BLACK} As a replacement for older DMUs DB AG bought these diesel-electric DMU's at the end of the 2000s.
 
 ###Steuerwagen/DVT###
-STR_DESC_DVT_1GEN_LOCO			:Usage: {DKGREEN} regional trains {}{BLACK} DVT for 2nd Gen. Bi-Level coaches. Use with an appropiate loco.
-STR_DESC_DVT_2GEN_LOCO			:Usage: {DKGREEN} regional trains {}{BLACK} DVT for 2nd Gen. Bi-Level coaches. Use with an appropiate loco.
+STR_DESC_DVT_1GEN_LOCO			:Usage: {DKGREEN}Passenger{}{BLACK} DVT for 2nd Gen. Bi-Level coaches. Use with an appropiate loco.
+STR_DESC_DVT_2GEN_LOCO			:Usage: {DKGREEN}Passenger{}{BLACK} DVT for 2nd Gen. Bi-Level coaches. Use with an appropiate loco.
 
 
 ###Passenger Carriages####
-STR_DESC_WUE_CI					:Usage: {DKGREEN} regional/Semi-fast trains {} {BLACK} The second generation of Wurttemberg 4-axle coaches continued the "American" design.
-STR_DESC_WUE_POSTCI				:Usage: {DKGREEN} regional/Semi-fast trains {} {BLACK} The second generation of Wurttemberg 4-axle coaches continued the "American" design.
-STR_DESC_WUE_LITERA_E			:Usage: {DKGREEN} regional trains {}{BLACK} Wurttemberg State Rail began to build 2-axle corridor coaches again at the end of 19th century for their slow and branch lines.
-STR_DESC_3YG_DB					:Usage: {DKGREEN} regional trains {}{BLACK} The young german DB suffered a massive lack and aging of their pre-war passenger carriages. Beginning 1953, DB rebuilt pre-war carriages, only keeping frame and wheels while completely rebuilding the body. These "Umbauwagen" should dominate the face of german local trains for the upcoming years. In order to improve runnability, 3-axle-carriages were pre-coupled to twin consists, allowing to raise the max. speed to 100 km/h.
-STR_DESC_BD3YG_DB				:Usage: {DKGREEN} regional trains {}{BLACK} A pair of 3-axle "Umbauwagen" with one carriage containing a luggage compartment
-STR_DESC_RHEINGOLD_1928_A  	 	:Usage: {RED} "Rheingold"-Express Trains {}{BLACK} Propably the most well-known german luxury train - Typically consisted of 4 coaches (two with kitchens) and a baggage car.
-STR_DESC_GR_28					:Usage: {DKGREEN} semi-fast/express trains {}{BLACK} DRG needed to replace the old 4-axle compartment coaches, so development on more modern and comfortable stock was initiated.
-STR_DESC_GR_28_F				:Usage: {RED} "F-Zug"-Express Trains {}{BLACK} For the newly post-war "F-Zug" express trains, only the most modern coaches were used. These trains often carried as few as 4 or 5 coaches, including a restaurant car.
-STR_DESC_B4YG_DB				:Usage: {DKGREEN} regional trains {}{BLACK} After the success of rebuilt 3-axle passenger coaches, DB began to rebuild old 4-axle stock following the same principal two years later.
-STR_DESC_BD4YG_DB				:Usage: {DKGREEN} regional trains {}{BLACK} A 4-axle "Umbauwagen" with a luggage compartment
-STR_DESC_N_WAGEN				:Usage: {DKGREEN} regional trains {} {BLACK} speed limit: {GOLD} 120 km/h, after 1968: 140 km/h{}{BLACK} n-wagen, nicknamed "Silberlinge" due to their stainless steel finish, have been the backbone of regional and semi-fast trains in germany for more than 50 years.
-STR_DESC_UICX					:Usage: {GREEN} Semi-fast/express trains {} {BLACK} speed limit: {GOLD} 140 km/h, after 1964: 160 km/h, after 1988: 200 km/h{}{BLACK} These modern coaches later led to the UIC-X standard, making them visible and viable backbones of fast and express trains all over europe.
-STR_DESC_UICX_BDMS				:Usage: {GREEN} Semi-fast/express trains {} {BLACK} speed limit: {GOLD} 140 km/h, after 1964: 160 km/h {}{BLACK} Half-baggage car of the UIC-X series
-STR_DESC_UICX_D					:Usage: {GREEN} Semi-fast/express trains {} {BLACK} speed limit: {GOLD} 140 km/h, after 1964: 160 km/h {}{BLACK} Baggage car of the UIC-X series
-STR_DESC_DOSTO_57				:Usage: {GREEN} Semi-fast/express trains {} {BLACK} The first, rather experimental Bi-Level coaches of DB were invented in 1951. Only 3 were built, and after invention of the n-coach, Bi-Level designs weren't used for the next 30 years.
-STR_DESC_DOSTO_1GEN				:Usage: {DKGREEN} regional trains {}{BLACK} This 1st Generation of Bi-Level coaches features high-level entrance, large cycle-storage and air condition.
-STR_DESC_DOSTO_1GEN_DVT_COACH	:Usage: {DKGREEN} regional trains {}{BLACK} DVT for 1st Gen. Bi-Level coaches. Put this at the end of the consist.
-STR_DESC_DOSTO_2GEN				:Usage: {DKGREEN} regional trains {}{BLACK} This 2nd Generation of Bi-Level coaches features low-level entrance, higher capacity and greater speed than the first gen.	
-STR_DESC_DOSTO_2GEN_DVT_COACH	:Usage: {DKGREEN} regional trains {}{BLACK} DVT for 2nd Gen. Bi-Level coaches. Put this at the end of the consist.
+STR_DESC_WUE_CI					:Usage: {DKGREEN}Passenger{}{BLACK} The second generation of Wurttemberg 4-axle coaches continued the "American" design.
+STR_DESC_WUE_POSTCI				:Usage: {DKGREEN}Post{}{BLACK} The second generation of Wurttemberg 4-axle coaches continued the "American" design.
+STR_DESC_WUE_LITERA_E			:Usage: {DKGREEN}Passenger{}{BLACK} Wurttemberg State Rail began to build 2-axle corridor coaches again at the end of 19th century for their slow and branch lines.
+STR_DESC_Post4ue_PR05			:Usage: {DKGREEN} semi-fast/express trains {}{BLACK} Prussian post car.
+STR_DESC_4ue_PR05				:Usage: {PURPLE}Express{}{BLACK}
+STR_DESC_PW4ue					:Usage: {DKGREEN} semi-fast/express trains {}{BLACK} Prussian luggage car.
+STR_DESC_KPEV_PR05				:Usage: {DKGREEN}Passenger{}{BLACK} Prussian 4-axle compartment cars saw use in a wide variety of german trains until DB started their "Umbauwagen"-rebuilding in 1950's.
+STR_DESC_3YG_DB					:Usage: {DKGREEN}Passenger{}{BLACK} The young german DB suffered a massive lack and aging of their pre-war passenger carriages. Beginning 1953, DB rebuilt pre-war carriages, only keeping frame and wheels while completely rebuilding the body. These "Umbauwagen" should dominate the face of german local trains for the upcoming years. In order to improve runnability, 3-axle-carriages were pre-coupled to twin consists, allowing to raise the max. speed to 100 km/h.
+STR_DESC_BD3YG_DB				:Usage: {DKGREEN}Passenger{}{BLACK} A pair of 3-axle "Umbauwagen" with one carriage containing a luggage compartment
+STR_DESC_RHEINGOLD_1928_A  	 	:Usage: {PURPLE}"Rheingold"-Express{}{BLACK} Propably the most well-known german luxury train - Typically consisted of 4 coaches (two with kitchens) and a baggage car.
+STR_DESC_GR_28					:Usage: {DKGREEN}Passenger{}{BLACK} DRG needed to replace the old 4-axle compartment coaches, so development on more modern and comfortable stock was initiated.
+STR_DESC_GR_28_F				:Usage: {PURPLE}Express{}{BLACK} For the newly post-war "F-Zug" express trains, only the most modern coaches were used. These trains often carried as few as 4 or 5 coaches, including a restaurant car.
+STR_DESC_B4YG_DB				:Usage: {DKGREEN}Passenger{}{BLACK} After the success of rebuilt 3-axle passenger coaches, DB began to rebuild old 4-axle stock following the same principal two years later.
+STR_DESC_BD4YG_DB				:Usage: {DKGREEN}Passenger{}{BLACK} A 4-axle "Umbauwagen" with a luggage compartment
+STR_DESC_N_WAGEN				:Usage: {DKGREEN}Passenger{}{BLACK} speed limit: {GOLD} 120 km/h, after 1968: 140 km/h{}{BLACK} n-wagen, nicknamed "Silberlinge" due to their stainless steel finish, have been the backbone of regional and semi-fast trains in germany for more than 50 years.
+STR_DESC_UICX					:Usage: {PURPLE}Express{}{BLACK} speed limit: {GOLD} 140 km/h, after 1964: 160 km/h, after 1988: 200 km/h{}{BLACK} These modern coaches later led to the UIC-X standard, making them visible and viable backbones of fast and express trains all over europe.
+STR_DESC_UICX_BDMS				:Usage: {PURPLE}Express{}{BLACK} speed limit: {GOLD} 140 km/h, after 1964: 160 km/h {}{BLACK} Half-baggage car of the UIC-X series
+STR_DESC_UICX_D					:Usage: {PURPLE}Express{}{BLACK} speed limit: {GOLD} 140 km/h, after 1964: 160 km/h {}{BLACK} Baggage car of the UIC-X series
+STR_DESC_DOSTO_57				:Usage: {PURPLE}Express{}{BLACK} The first, rather experimental Bi-Level coaches of DB were invented in 1951. Only 3 were built, and after invention of the n-coach, Bi-Level designs weren't used for the next 30 years.
+STR_DESC_DOSTO_1GEN				:Usage: {DKGREEN}Passenger{}{BLACK} This 1st Generation of Bi-Level coaches features high-level entrance, large cycle-storage and air condition.
+STR_DESC_DOSTO_1GEN_DVT_COACH	:Usage: {DKGREEN}Passenger{}{BLACK} DVT for 1st Gen. Bi-Level coaches. Put this at the end of the consist.
+STR_DESC_DOSTO_2GEN				:Usage: {DKGREEN}Passenger{}{BLACK} This 2nd Generation of Bi-Level coaches features low-level entrance, higher capacity and greater speed than the first gen.	
+STR_DESC_DOSTO_2GEN_DVT_COACH	:Usage: {DKGREEN}Passenger{}{BLACK} DVT for 2nd Gen. Bi-Level coaches. Put this at the end of the consist.
 #############################
 ####Vehicle Livery Strings###
 #############################
@@ -158,15 +227,24 @@ STR_DESC_DOSTO_2GEN_DVT_COACH	:Usage: {DKGREEN} regional trains {}{BLACK} DVT fo
 
 STR_LIVERY_build_year					: Livery of build year (default)
 STR_LIVERY_current_year					: Livery of current year
+STR_LIVERY_BAY							: K.Bay.Sts.B. Livery
 STR_LIVERY_WUE_BLUE						: K.W.S.E. Bluegrey-livery
 STR_LIVERY_DRG_FOTO						: DRG-"Fotografieranstrich"-livery
 STR_LIVERY_DRG							: DRG livery (used until 1945)
 STR_LIVERY_DRG_OLYMPIA					: Special "Olympia" color, used 1936
+STR_LIVERY_DRG_E_GREY					: DRG Electrics grey livery (1927 onwards)
+STR_LIVERY_DRG_E_BROWN					: DRG Electrics brown livery (used until 1927)
 STR_LIVERY_DB							: DB livery (used 1945 onwards)
+STR_LIVERY_DRG_NODEF					: DRG-livery without deflector
 STR_LIVERY_DRG_WAGNER					: DRG-livery with Wagner deflector
+STR_LIVERY_DB_WAGNER					: DB-livery with Wagner deflector
 STR_LIVERY_DB_WITTE						: DB-livery with Witte deflector
 STR_LIVERY_altrot						: Dark red, used until mid-70s
+STR_LIVERY_altrot_DB					: Dar red with lettering "Deutsche Bundesbahn"
 STR_LIVERY_gruen						: Dark green livery, used until mid-70s
+STR_LIVERY_CHROMOXID					: Chromoxid green livery
+STR_LIVERY_STEELBLUE					: Steel blue livery
+STR_LIVERY_KOBALT						: "Kobaldblau" dark blue livery
 STR_LIVERY_blau							: Dark blue livery, used until mid-70s
 STR_LIVERY_ozeanblau					: Oceanblue and beige, used 1975-1987
 STR_LIVERY_orientrot					: "orient-red", used 1988-2009
@@ -174,12 +252,33 @@ STR_LIVERY_verkehrsrot					: "traffic-red", used from 2010 on
 STR_LIVERY_cargo						: DB-Cargo livery, used from 2009 on
 STR_LIVERY_SBAHN						: White/Orange S-Bahn livery
 STR_LIVERY_LAX							: Lufthansa-Airport-Express livery
+STR_LIVERY_TEE							: Trans-Europ-Express colours
+STR_LIVERY_TEE_redframe					: Trans-Europ-Express colours with red frame
+STR_LIVERY_IC							: Intercity-Colours
+STR_LIVERY_IC2							: IC-2 "InterCity new" colours
+STR_LIVERY_PRIVATE						: various privately operated companies
+STR_LIVERY_TOURIST						: "Touristik-Zug" livery
 
+
+###Special Stuff
+
+STR_LIVERY_BR_38_10_VDACH				: KPEV-colours with v-shaped roof
+STR_LIVERY_BR_38_10_WANNE				: DB-colour with close cab and "Wannentender"
 
 STR_LIVERY_BR218_SBAHN					: Cologne-Gummersbach S-Bahn
 STR_LIVERY_BR218_TEE					: Experimental TEE-color
 
 STR_LIVERY_E_10_001						: Prototype E10 001
+
+
+
+STR_LIVERY_120_0_orientrot				: Pre-series BR 120.0; orient red
+STR_LIVERY_120_0_TEE					: Pre-series BR 120.0; TEE-color
+STR_LIVERY_120_1_orientrot				: BR 120.1 orient-red
+STR_LIVERY_120_1_verkehrsrot			: BR 120.1 traffic-red
+
+STR_LIVERY_101_Rheingold				: "Rheingold"-livery
+STR_LIVERY_101_commercial				: Red livery with commercials
 
 STR_LIVERY_KARLSRUHE					: experimental "Karlsruher Zug" livery
 
@@ -200,6 +299,7 @@ STR_LIVERY_KWSE_secondthird				: KWSE Second/third class livery
 STR_LIVERY_KWSE_third					: KWSE Third class livery
 STR_LIVERY_KWSE_third2					: KWSE Third class livery
 STR_LIVERY_KWSE_fourth					: KWSE Fourth class livery
+STR_LIVERY_KPEV							: KPEV livery
 STR_LIVERY_DRG_secondclass				: DRG 2nd class livery
 STR_LIVERY_DRG_secondthird				: DRG 2nd/3rd class livery
 STR_LIVERY_DRG_thirdclass				: DRG 3rd class livery
@@ -249,6 +349,14 @@ STR_LIVERY_SILBERLING_AIRPORT_FIRST		: "Zug zum Flug" livery/first class
 STR_LIVERY_SILBERLING_CITYBAHN			: Citybahn-livery
 STR_LIVERY_SILBERLING_CITYBAHN_FIRST	: Citybahn-livery/first class
 
+STR_LIVERY_KPEV_GW						: KPEV livery (with gangway)
+STR_LIVERY_KPEV_NGW						: KPEV livery (without gangway)
+STR_LIVERY_DRG_GW						: DRG livery (with gangway)
+STR_LIVERY_DRG_NGW						: DRG livery (without gangway)
+
+STR_LIVERY_RSV2							: DRG "Ruhr-Schnellverkehr" early violet/creme livery
+STR_LIVERY_RSV1							: DRG "Ruhr-Schnellverkehr" late red/creme livery
+STR_LIVERY_RSV							: DRG "Ruhr-Schnellverkehr" livery
 
 STR_LIVERY_EUREGIO						: EURegio-livery
 STR_LIVERY_ENSCHEDE						: "Dag Enschede"-livery
@@ -289,6 +397,7 @@ STR_COUPLING_ETA_176					: ETA 176 can only be coupled with ESA 176 or ETA 176!
 STR_COUPLING_ETA_177					: ETA 177 can only be coupled with two-part ETA 177 or three-part ETA 177
 STR_COUPLING_VT_085						: Can only be coupled with other VT 08.5 or VT 12.5 units
 STR_COUPLING_BR_643						: Can only be coupled with BR 643 or BR 644
+STR_COUPLING_SAME_TRAILER				: Can only be coupled with same type or matching trailer						
 
 ##########################
 ####length restrictions###
