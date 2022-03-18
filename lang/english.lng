@@ -3,7 +3,7 @@
 
 # GRF name and description definitions
 
-STR_GRF_NAME        : GETS 0.1.2
+STR_GRF_NAME        : GETS 0.1.3
 STR_GRF_DESC :{GOLD}German Extra-Zoom Train Set in 32bpp. {}{}Graphics by {RED}Garlic_Bread42; Simozzz{GOLD}, code by {RED}Garlic_Bread42{GOLD}.{}Many thanks to {RED}Timberwolf {GOLD} for providing and teaching his Voxel-toolchain, {RED}andythenorth, Simozzz, Emperor Jake, 2TallTyler{GOLD} and the whole {RED}Discord{GOLD}-community for advice, help, remarks and suggestions during development of this set. 
 
 STR_PARAM_RUNNING_COST: Running cost
@@ -27,14 +27,18 @@ STR_PARAM_VERYHIGH	: very high
 ###Steam Locos###
 STR_NAME_BR_01		: DRG/DB BR 01
 STR_NAME_BR_13_17	: KWSE ADh-Class/DRG BR. 13.17
+STR_NAME_BR_17_0	: KPEV S 10/ DRG BR 17.0
 STR_NAME_BR_18_1	: KWSE C-Class DRG/DB BR. 18.1
 STR_NAME_BR_38_10	: KPEV P8 DRG/DB BR 38.10-40
 STR_NAME_BR_44		: DRG/DB BR 44
+STR_NAME_BR_53_80	: K.Bay.Sts.B. C IV-Class/DRG BR 53.80
+STR_NAME_BR_55_25	: KPEV G8.1 DRG/DB BR 55.25-40
 STR_NAME_BR_57_4	: KWSE Hh-Class/ DRG BR 57.4
 STR_NAME_BR_64		: DRG/DB BR 64
 STR_NAME_BR_75_0	: KWSE T5/ DRG/DB BR 75.0
 STR_NAME_BR_78		: KPEV T18 DRG/DB BR 78
 STR_NAME_BR_80		: DRG/DB BR 80
+STR_NAME_BR_90_0	: KPEV T9.1/ DRG BR 90.0
 STR_NAME_BR_92_1	: KWSE T4-Class/ DRG BR 92.1
 
 ###Diesel Locos###
@@ -46,6 +50,9 @@ STR_NAME_BR218		: DB BR 218
 STR_NAME_BR_245		: DB BR 245
 STR_NAME_V_36		: DRG/DB BR V 36
 STR_NAME_V_60		: DB BR V 60/360
+STR_NAME_V_80		: DB BR V80/BR 280
+STR_NAME_V_188		: DRG/DB BR V 188
+STR_NAME_BR_321		: DRG/DB Kö II/BR 321
 
 ###Electric Locos###
 STR_NAME_BR_ES6_KPEV: KPEV ES 6 "Halle"
@@ -67,12 +74,17 @@ STR_NAME_E_40		: DB BR E 40/140
 STR_NAME_BR_146_2	: DB BR 146.2 "Traxx 2"
 STR_NAME_E_41		: DB BR E 41/141
 STR_NAME_E_50		: DB BR E 50/150
+STR_NAME_BR_151		: DB BR 151
+STR_NAME_E_52_0		: K.Bay.Sts.B. EP5 DRG/DB E 52
 STR_NAME_E_73_0		: K.Bay.Sts.B. EG1/DRG E 73.0
 STR_NAME_BR_185_2	: DB BR 185.2 "Traxx 2"
 STR_NAME_E_91_3		: KPEV EG 538/DRG E 91.3
 STR_NAME_BR_1932	: DB BR 193 "Vectron"
 
 ###Electric Multiple Units###
+STR_NAME_BR_401_9	: DB BR 401 ICE 1 - 9 coaches
+STR_NAME_BR_401_12	: DB BR 401 ICE 1 - 12 coaches
+STR_NAME_BR_420		: DB BR 420
 STR_NAME_ET_25		: DRG/DB ET 25
 
 ###Diesel Multiple Units###
@@ -84,6 +96,8 @@ STR_NAME_VT_085_3	: DB VT 08.5 - Three Part
 STR_NAME_VT_085_4	: DB VT 08.5 - Four Part
 STR_NAME_VT_125_3	: DB VT 12.5 - Three Part
 STR_NAME_VT_125_4	: DB VT 12.5 - Four Part
+STR_NAME_BR_614_3	: DB BR 614 - Three Part
+STR_NAME_BR_614_4	: DB BR 614 - Four Part
 STR_NAME_BR_643_2	: DB BR 643 - Two Part
 STR_NAME_BR_643_3	: DB BR 643 - Three Part
 STR_NAME_BR_644		: DB BR 644
@@ -121,6 +135,18 @@ STR_NAME_UICX		: DB m-Wagen UIC-X coaches
 STR_NAME_UICX_BDMS	: DB m-Wagen - luggage compartment
 STR_NAME_UICX_D		: DB m-Wagen - luggage
 
+###Freight Cars####
+STR_NAME_GH05		: Express Goods Van "GH 05"
+STR_NAME_LEIG1		: Express Goods Van "LEIG-Einheit"
+STR_NAME_G02		: Box Van "G02 Hannover/Stettin"
+STR_NAME_G10		: Box Van "G10 Kassel"
+STR_NAME_GL11		: Box Van "GL 11 Dresden"
+STR_NAME_G20		: Box Van "G20 Kassel"
+STR_NAME_GMHS_35	: Box Van "Gmhs 35 Bremen"
+STR_NAME_KW_BERLIN	: Refrigerated Van "Berlin"
+STR_NAME_GKH_BERLIN	: Refrigerated Van "Gkh Berlin"
+STR_NAME_VH_ALTONA	: Livestock Van "Vh Altona"
+
 ##########################
 ####Vehicle Description###
 ##########################
@@ -128,14 +154,18 @@ STR_NAME_UICX_D		: DB m-Wagen - luggage
 ###Steam Locos###
 STR_DESC_BR_01		:BR 01
 STR_DESC_BR_13_17	:Usage: {PURPLE}Express{}{BLACK}In order to meet the increasing requirements of 1900's express trains, Wurttemberg developed this 4-4-0 engine which was built 98 times.
+STR_DESC_BR_17_0	:Usage: {PURPLE}Express{}{BLACK}Description.
 STR_DESC_BR_18_1	:Usage: {PURPLE}Express{}{BLACK}Even though the C-Class was one of the smallest Pacific's they were seen as economic and powerful.
 STR_DESC_BR_38_10	:Usage: {BLUE}General{}{BLACK} Robert Garbe's best construction was built to last: Some serving up to 70 years, this class survived several attempts to replace them.
 STR_DESC_BR_44		:Usage: {BROWN}Freight{}{BLACK} Nearly 2000 of these heavy goods engines were built between 1926 and 1949, making themselves indispensable until the end of steam age.
+STR_DESC_BR_53_80	:Usage: {BROWN}Freight{}{BLACK}
+STR_DESC_BR_55_25	:Usage: {BROWN}Freight{}{BLACK} Robert Garbes enhanced G8 was presented in 1913 becoming popular like no other german engine before: Nearly 5.000 were built for Prussian State Rail.
 STR_DESC_BR_57_4	:Usage: {BROWN}Freight{}{BLACK}Maschinenfabrik Esslingen delivered these 0-10-0 to KWSE.
 STR_DESC_BR_75_0    :Usage: {DKGREEN}Passenger{}{BLACK}Maschinenfabrik Esslingen designed and delivered nearly 100 of these long-lasting engines.
 STR_DESC_BR_78		:Usage: {DKGREEN}Passenger{}{BLACK}T18 lalala
 STR_DESC_BR_80		:Usage: {DKBLUE}Shunter{}{BLACK} Br. 80 was the first in DRG's typification scheme, planned for shuting in big passenger stations. This type was intended to lower costs of shunting operations. Many survived until the 80's as industrial locomotives.
 STR_DESC_BR_64		:Usage: {DKGREEN}Passenger{}{BLACK} BR 64 shared a lot of parts with BR 24. More than 500 were build until 1940.
+STR_DESC_BR_90_0	:Usage: {BROWN}Freight{}{BLACK}
 STR_DESC_BR_92_1	:Usage: {BROWN}Freight{}{BLACK}After older T3-engines became too weak for banking services on the infamours "Geisslinger Steige"-ramp, KWSE had to build the stronger T4-type.
 
 ###Diesel Locos###
@@ -147,6 +177,9 @@ STR_DESC_BR218		:Usage: {BLUE}General{}{BLACK}The last evolution of the V-160 fa
 STR_DESC_BR_245		:Usage: {BLUE}General{}{BLACK}In order to replace the ageing class 218, the diesel-Traxx 245 was ordered by DB.
 STR_DESC_V_36		:Usage: {DKBLUE}Shunter{}{BLACK} Between 1936 and 1945 German Wehrmacht bought 450 of these light diesel shunters, which were spread around Europe after the war. Most locos in west-germany were put into Bundesbahn duties.
 STR_DESC_V_60		:Usage: {DKBLUE}Shunter{}{BLACK} In the early 50's, DB needed powerful shunting diesels - steam locos were expensive and the existing locomotors weak. This highly successful design was built nearly 1.000 times and survived well into the 2000's.
+STR_DESC_V_80		:Usage: {DKGREEN}Passenger{}{BLACK}Desription
+STR_DESC_V_188		:Usage: {BROWN}Freight{}{BLACK}
+STR_DESC_BR_321		:Usage: {DKBLUE}Shunter{}{BLACK}
 
 ###Electric Locos###
 STR_DESC_BR_ES6_KPEV:Usage: {PURPLE}Express{}{BLACK} This second electric 4-6-4 of Prussian State Rail was built by Borsig in Berlin. After first World War it was used in light passenger traffic.
@@ -155,7 +188,7 @@ STR_DESC_BR_101		:Usage: {BLUE}General{}{BLACK} In the early 1990's it became vi
 STR_DESC_BR_103_0	:Usage: {PURPLE}Express{}{BLACK} Description.
 STR_DESC_BR_103_1	:Usage: {PURPLE}Express{}{BLACK} Description.
 STR_DESC_BR_103_2	:Usage: {PURPLE}Express{}{BLACK} Description.
-STR_DESC_E04_DB		:Usage: {PURPLE}Express{}{BLACK} Description 
+STR_DESC_E04_DB		:Usage: {PURPLE}Express{}{BLACK} Description.
 STR_DESC_E_10		:Usage: {PURPLE}Express{}{BLACK} This first post-war express engine was equipped with push-pull-technics and moved to regional duties in its later years.
 STR_DESC_BR_111		:Usage: {DKGREEN}Passenger{}{BLACK}Due to rising demand of passenger electrics, DB ordered more than 500 of these engines in the mid-70's as a successor of E-10 class.
 STR_DESC_BR_E_16	:Usage: {PURPLE}Express{}{BLACK} Description.
@@ -167,13 +200,17 @@ STR_DESC_E_40		:Usage: {LTBROWN} Goods {} {BLACK} speed limit: {GOLD} 100 km/h, 
 STR_DESC_E_41		:Usage: {DKGREEN}Passenger{}{BLACK} The smallest of the new post-war electrics was mainly designed to operate push-pull trains.
 STR_DESC_E_44		:Usage: {BLUE} multi purpose engine {}{BLACK}After the success of the E16-class, DRG intended to build a universal electric loco. This design was the first to be built more than 100 times, lasting until the mid-1980's.
 STR_DESC_BR_146_2	:Usage: {DKGREEN}Passenger{}{BLACK} The second iteration of Traxx-family brought Class 146.2, more powerful than the first series of Traxx-engines.
-STR_DESC_E_50		:Usage: {BROWN} Heavy Goods {} {BLACK} Developed together with E-10 class, this loco is the heavy goods hauler in DB's post-war electrification programm.
+STR_DESC_E_50		:Usage: {LTBROWN} Goods {} {BLACK} Developed together with E-10 class, this loco is the heavy goods hauler in DB's post-war electrification programm.
+STR_DESC_BR_151		:Usage: {LTBROWN} Goods {} {BLACK} Description.
+STR_DESC_E_52_0		:Usage: {DKGREEN}Passenger{}{BLACK} Description.
 STR_DESC_E_73_0		:Usage: {LTBROWN}Goods {}{BLACK}As one of the first german electrics, EG1 hauled goods trains between Freilassing and Berchtesgaden in Bavaria.
 STR_DESC_BR_185_2	:Usage: {LTBROWN}Goods {}{BLACK}The freight version of Traxx 2.
 STR_DESC_E_91_3		:Usage: {LTBROWN}Goods {}{BLACK} Description.
 STR_DESC_BR_193		:Usage: {BLUE} multi purpose engine {}{BLACK} Plans for adding description
 
 ###Electrical Multiple Units####
+STR_DESC_BR_401		:Usage: {PURPLE}Express{}{BLACK} Description.
+STR_DESC_BR_420		:Usage: {DKGREEN}Passenger{}{BLACK} Description
 STR_DESC_ET_25		:Usage: {DKGREEN}Passenger{}{BLACK} Description
 
 ###Diesel Multiple Units####
@@ -185,6 +222,7 @@ STR_DESC_VT_085_3	:Usage: {PURPLE}Express{}{BLACK} In the early '50s economic li
 STR_DESC_VT_085_4	:Usage: {PURPLE}Express{}{BLACK} In the early '50s economic life in germany slowly got back to normal and the demand for fast express lines rose. To cope that demand, young DB ordered the elegant VT 08.5 trains.
 STR_DESC_VT_125_3	:Usage: {DKGREEN}Passenger{}{BLACK} The regional model of VT 08.5 DMU's differed to the express version only in the door arrangement.
 STR_DESC_VT_125_4	:Usage: {DKGREEN}Passenger{}{BLACK} The regional model of VT 08.5 DMU's differed to the express version only in the door arrangement.
+STR_DESC_BR_614_3	:Usage: {DKGREEN}Passenger{}{BLACK}
 STR_DESC_BR_643_2	:Usage: {DKGREEN}Passenger{}{BLACK} In difference to class 644, the 643-units are purely diesel-powered DMU's capable of multi-tractioning with both 643 and 644-units.
 STR_DESC_BR_643_3	:Usage: {DKGREEN}Passenger{}{BLACK} In difference to class 644, the 643-units are purely diesel-powered DMU's capable of multi-tractioning with both 643 and 644-units.
 STR_DESC_BR_644		:Usage: {DKGREEN}Passenger{}{BLACK} As a replacement for older DMUs DB AG bought these diesel-electric DMU's at the end of the 2000s.
@@ -218,6 +256,19 @@ STR_DESC_DOSTO_1GEN				:Usage: {DKGREEN}Passenger{}{BLACK} This 1st Generation o
 STR_DESC_DOSTO_1GEN_DVT_COACH	:Usage: {DKGREEN}Passenger{}{BLACK} DVT for 1st Gen. Bi-Level coaches. Put this at the end of the consist.
 STR_DESC_DOSTO_2GEN				:Usage: {DKGREEN}Passenger{}{BLACK} This 2nd Generation of Bi-Level coaches features low-level entrance, higher capacity and greater speed than the first gen.	
 STR_DESC_DOSTO_2GEN_DVT_COACH	:Usage: {DKGREEN}Passenger{}{BLACK} DVT for 2nd Gen. Bi-Level coaches. Put this at the end of the consist.
+
+
+###Freight cars####
+STR_DESC_G02					:Usage: {BROWN}Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with PWG:{GOLD} 65 km/h{BLACK}.{}
+STR_DESC_G10					:Usage: {BROWN}Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with PWG:{GOLD} 65 km/h{BLACK}.{}
+STR_DESC_GL11					:Usage: {BROWN}Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with PWG:{GOLD} 65 km/h{BLACK}.{}
+STR_DESC_G20					:Usage: {BROWN}Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with PWG:{GOLD} 65 km/h{BLACK}.{}
+STR_DESC_GMHS_35				:Usage: {BROWN}Goods{}{BLACK} speed limit: {GOLD} 80 km/h{BLACK}, with PWG:{GOLD} 100 km/h{BLACK}.{}
+STR_DESC_GH05					:Usage: {PURPLE}Express Goods{}{BLACK}
+STR_DESC_LEIG1					:Usage: {PURPLE}Express Goods{}{BLACK}
+STR_DESC_GKH_BERLIN				:Usage: {BROWN}Goods{}{BLACK}
+STR_DESC_VH_ALTONA				:Usage: {BROWN}Goods{}{BLACK}
+
 #############################
 ####Vehicle Livery Strings###
 #############################
@@ -228,6 +279,8 @@ STR_DESC_DOSTO_2GEN_DVT_COACH	:Usage: {DKGREEN}Passenger{}{BLACK} DVT for 2nd Ge
 STR_LIVERY_build_year					: Livery of build year (default)
 STR_LIVERY_current_year					: Livery of current year
 STR_LIVERY_BAY							: K.Bay.Sts.B. Livery
+STR_LIVERY_BAY_GREEN					: Green K.Bay.Sts.B. Livery					
+STR_LIVERY_BAY_GRAY						: Gray K.Bay.Sts.B. Livery
 STR_LIVERY_WUE_BLUE						: K.W.S.E. Bluegrey-livery
 STR_LIVERY_DRG_FOTO						: DRG-"Fotografieranstrich"-livery
 STR_LIVERY_DRG							: DRG livery (used until 1945)
@@ -240,7 +293,7 @@ STR_LIVERY_DRG_WAGNER					: DRG-livery with Wagner deflector
 STR_LIVERY_DB_WAGNER					: DB-livery with Wagner deflector
 STR_LIVERY_DB_WITTE						: DB-livery with Witte deflector
 STR_LIVERY_altrot						: Dark red, used until mid-70s
-STR_LIVERY_altrot_DB					: Dar red with lettering "Deutsche Bundesbahn"
+STR_LIVERY_altrot_DB					: Dark red with lettering "Deutsche Bundesbahn"
 STR_LIVERY_gruen						: Dark green livery, used until mid-70s
 STR_LIVERY_CHROMOXID					: Chromoxid green livery
 STR_LIVERY_STEELBLUE					: Steel blue livery
@@ -254,6 +307,8 @@ STR_LIVERY_SBAHN						: White/Orange S-Bahn livery
 STR_LIVERY_LAX							: Lufthansa-Airport-Express livery
 STR_LIVERY_TEE							: Trans-Europ-Express colours
 STR_LIVERY_TEE_redframe					: Trans-Europ-Express colours with red frame
+STR_LIVERY_ICE1_alt						: ICE 1 old livery with red and purple stripe
+STR_LIVERY_ICE1_neu						: ICE 1 new livery with red stripe
 STR_LIVERY_IC							: Intercity-Colours
 STR_LIVERY_IC2							: IC-2 "InterCity new" colours
 STR_LIVERY_PRIVATE						: various privately operated companies
@@ -268,8 +323,13 @@ STR_LIVERY_BR_38_10_WANNE				: DB-colour with close cab and "Wannentender"
 STR_LIVERY_BR218_SBAHN					: Cologne-Gummersbach S-Bahn
 STR_LIVERY_BR218_TEE					: Experimental TEE-color
 
+STR_LIVERY_V_188_GRUEN					: Dark green livery
+
 STR_LIVERY_E_10_001						: Prototype E10 001
 
+STR_LIVERY_SBAHNFFM						: S-Bahn RheinMain livery
+STR_LIVERY_SBAHNMUC						: S-Bahn Munich livery
+STR_LIVERY_SBAHNKARMIN					: Karminred S-Bahn livery
 
 
 STR_LIVERY_120_0_orientrot				: Pre-series BR 120.0; orient red
@@ -282,6 +342,7 @@ STR_LIVERY_101_commercial				: Red livery with commercials
 
 STR_LIVERY_KARLSRUHE					: experimental "Karlsruher Zug" livery
 
+STR_LIVERY_pop							: Experimental "Popfarben"
 
 ###Strings for Passenger Carriages###
 
@@ -392,12 +453,14 @@ STR_LIVERY_B4YG_DB						: Second class
 ############################
 
 STR_COUPLING_DVT						: Consist needs a push-pull-Loco.
+STR_COUPLING_NOPE						: Consist wants to be alone. Don't couple with anything.
 
 STR_COUPLING_ETA_176					: ETA 176 can only be coupled with ESA 176 or ETA 176!
 STR_COUPLING_ETA_177					: ETA 177 can only be coupled with two-part ETA 177 or three-part ETA 177
 STR_COUPLING_VT_085						: Can only be coupled with other VT 08.5 or VT 12.5 units
 STR_COUPLING_BR_643						: Can only be coupled with BR 643 or BR 644
-STR_COUPLING_SAME_TRAILER				: Can only be coupled with same type or matching trailer						
+STR_COUPLING_SAME_TRAILER				: Can only be coupled with same type or matching trailer	
+STR_COUPLING_SAME						: Can only be coupled with units of the same type					
 
 ##########################
 ####length restrictions###
