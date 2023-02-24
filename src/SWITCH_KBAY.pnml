@@ -1,0 +1,169 @@
+//Check for K.Bay.Sts.B./KWSE-Engines
+
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_41, [count_veh_id(1734) > 0]) {
+            1: return 1;
+            return 0;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_40, [count_veh_id(1733) > 0]) {
+            1: return 1;
+            switch_check_BAY_41;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_39, [count_veh_id(1732) > 0]) {
+            1: return 1;
+            switch_check_BAY_40;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_38, [count_veh_id(1731) > 0]) {
+            1: return 1;
+            switch_check_BAY_39;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_37, [count_veh_id(1730) > 0]) {
+            1: return 1;
+            switch_check_BAY_38;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_36, [count_veh_id(1625) > 0]) {
+            1: return 1;
+            switch_check_BAY_37;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_35, [count_veh_id(1624) > 0]) {
+            1: return 1;
+            switch_check_BAY_36;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_34, [count_veh_id(1623) > 0]) {
+            1: return 1;
+            switch_check_BAY_35;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_33, [count_veh_id(1622) > 0]) {
+            1: return 1;
+            switch_check_BAY_34;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_32, [count_veh_id(1621) > 0]) {
+            1: return 1;
+            switch_check_BAY_33;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_31, [count_veh_id(1620) > 0]) {
+            1: return 1;
+            switch_check_BAY_32;}
+                                                                                                            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_30, [count_veh_id(0923) > 0]) {
+            1: return 1;
+            switch_check_BAY_31;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_29, [count_veh_id(0922) > 0]) {
+            1: return 1;
+            switch_check_BAY_30;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_28, [count_veh_id(0921) > 0]) {
+            1: return 1;
+            switch_check_BAY_29;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_27, [count_veh_id(0920) > 0]) {
+            1: return 1;
+            switch_check_BAY_28;}
+                                                
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_26, [count_veh_id(0754) > 0]) {
+            1: return 1;
+            switch_check_BAY_27;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_25, [count_veh_id(0753) > 0]) {
+            1: return 1;
+            switch_check_BAY_26;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_24, [count_veh_id(0752) > 0]) {
+            1: return 1;
+            switch_check_BAY_25;}
+            
+	switch (FEAT_TRAINS, PARENT, switch_check_BAY_23, [count_veh_id(0751) > 0]) {
+            1: return 1;
+            switch_check_BAY_24;}
+
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_22, [count_veh_id(0750) > 0]) {
+            1: return 1;
+            switch_check_BAY_23;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_21, [count_veh_id(0572) > 0]) {
+            1: return 1;
+            switch_check_BAY_22;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_20, [count_veh_id(0571) > 0]) {
+            1: return 1;
+            switch_check_BAY_21;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_19, [count_veh_id(0570) > 0]) {
+            1: return 1;
+            switch_check_BAY_20;}                        
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_18, [count_veh_id(0543) > 0]) {
+            1: return 1;
+            switch_check_BAY_19;}
+            
+     switch (FEAT_TRAINS, PARENT, switch_check_BAY_17, [count_veh_id(0542) > 0]) {
+            1: return 1;
+            switch_check_BAY_18;}                       
+                        
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_16, [count_veh_id(0541) > 0]) {
+            1: return 1;
+            switch_check_BAY_17;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_15, [count_veh_id(0540) > 0]) {
+            1: return 1;
+            switch_check_BAY_16;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_14, [count_veh_id(0534) > 0]) {
+            1: return 1;
+            switch_check_BAY_15;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_13, [count_veh_id(0533) > 0]) {
+            1: return 1;
+            switch_check_BAY_14;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_12, [count_veh_id(0532) > 0]) {
+            1: return 1;
+            switch_check_BAY_13;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_11, [count_veh_id(0531) > 0]) {
+            1: return 1;
+            switch_check_BAY_12;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_10, [count_veh_id(0530) > 0]) {
+            1: return 1;
+            switch_check_BAY_11;}   
+                                                                     
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_9, [count_veh_id(0185) > 0]) {
+            1: return 1;
+            switch_check_BAY_10;}	
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_8, [count_veh_id(0184) > 0]) {
+            1: return 1;
+            switch_check_BAY_9;}	
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_7, [count_veh_id(0183) > 0]) {
+            1: return 1;
+            switch_check_BAY_8;}	                        
+	
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_6, [count_veh_id(0182) > 0]) {
+            1: return 1;
+            switch_check_BAY_7;}	
+
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_5, [count_veh_id(0181) > 0]) {
+            1: return 1;
+            return switch_check_BAY_6;}	
+            
+	switch (FEAT_TRAINS, PARENT, switch_check_BAY_4, [count_veh_id(0180) > 0]) {
+            1: return 1;
+            return switch_check_BAY_5;}	
+            
+	switch (FEAT_TRAINS, PARENT, switch_check_BAY_3, [count_veh_id(0133) > 0]) {
+            1: return 1;
+            return switch_check_BAY_4;}	        
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_2, [count_veh_id(0132) > 0]) {
+            1: return 1;
+            return switch_check_BAY_3;}			
+
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_1, [count_veh_id(0131) > 0]) {
+            1: return 1;
+            return switch_check_BAY_2;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_BAY_0, [count_veh_id(0130) > 0]) {
+            1: return 1;
+            return switch_check_BAY_1;}	 

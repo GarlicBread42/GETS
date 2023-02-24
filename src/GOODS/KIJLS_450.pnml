@@ -1,0 +1,111 @@
+//################
+//### Kijls 450###
+//################
+
+//Spriteset wagon
+
+spriteset (spriteset_Kijls_450, "gfx\Kijls_450/Kijls_450_1x_8bpp.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kijls_450, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kijls_450/Kijls_450_1x_32bpp.png", "gfx\Kijls_450/Kijls_450_1x_mask.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kijls_450, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kijls_450/Kijls_450_2x_32bpp.png", "gfx\Kijls_450/Kijls_450_2x_mask.png")
+					{template_108trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Kijls_450, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kijls_450/Kijls_450_4x_32bpp.png", "gfx\Kijls_450/Kijls_450_4x_mask.png")
+					{template_108trains_4x(0, 0)}
+
+//Spriteset loading
+
+spriteset (spriteset_Kijls_450_loading, "gfx\Kijls_450/Kijls_450_loading_1x_8bpp.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kijls_450_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kijls_450/Kijls_450_loading_1x_32bpp.png", "gfx\Kijls_450/Kijls_450_loading_1x_mask.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kijls_450_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kijls_450/Kijls_450_loading_2x_32bpp.png", "gfx\Kijls_450/Kijls_450_loading_2x_mask.png")
+					{template_108trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Kijls_450_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kijls_450/Kijls_450_loading_4x_32bpp.png", "gfx\Kijls_450/Kijls_450_loading_4x_mask.png")
+					{template_108trains_4x(0, 0)}	
+
+spritegroup spritegroup_Kijls_450
+		{loaded: 	[spriteset_Kijls_450];
+			loading: 	[spriteset_Kijls_450_loading];}
+			
+//Spriteset purchase
+
+spriteset (spriteset_Kijls_450_purchase, "gfx\Kijls_450/Kijls_450_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Kijls_450_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kijls_450/Kijls_450_1x_32bpp.png", "gfx\Kijls_450/Kijls_450_1x_mask.png")
+					{template_purchase(0, 0)}			
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_Kijls_450_graphics, position_in_articulated_veh % 2) {
+							0:	   spriteset_empty;
+							1:     spritegroup_Kijls_450;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Kijls_450, position_in_vehid_chain % 2) {
+							0: 4;
+							1: 6;}
+							
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Kijls_450, extra_callback_info1) {
+						1: return ITEM_KIJLS_450;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Kijls_450, 1){
+						return 200;}				
+
+item (FEAT_TRAINS , ITEM_KIJLS_450, 8869)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KIJLS_450);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2001,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS, CC_COVERED );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI, CLAY];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						17 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					9;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Kijls_450_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Kijls_450;
+			length							: switch_length_Kijls_450;
+			purchase						: spriteset_Kijls_450_purchase;
+			cost_factor						: 96;
+			running_cost_factor				: switch_running_cost_Kijls_450;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

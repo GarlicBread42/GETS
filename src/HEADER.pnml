@@ -1,0 +1,68 @@
+/*
+GRF block defines everything - grf-ID is unique
+// An inline comment is preceded by two slashes
+// If you need multiple lines, each line gets two slashes in front
+*/
+
+grf {
+			grfid: "SA\08\08" ;
+			name: string(STR_GRF_NAME) ;
+			desc: string(STR_GRF_DESC) ;
+			version: 10;
+			min_compatible_version: 36;
+
+	param 0{
+		running_cost{
+			type		: int ;
+			name		: string(STR_PARAM_RUNNING_COST) ;
+			desc		: string(STR_PARAM_RUNNING_COST_DESC) ;
+			min_value	: 0 ;
+			max_value	: 4 ;
+			def_value	: 2 ;
+			names		: {
+				 0	: string(STR_PARAM_VERYCHEAP);
+				 1	: string(STR_PARAM_CHEAP);
+				 2	: string(STR_PARAM_DEFAULT);
+				 3	: string(STR_PARAM_HIGH);
+				 4	: string(STR_PARAM_VERYHIGH);};
+				 }
+				 }
+
+	param 1{
+		purchase_cost{
+			type		: int ;
+			name		: string(STR_PARAM_PURCHASE_COST) ;
+			desc		: string(STR_PARAM_PURCHASE_COST_DESC) ;
+			min_value	: 0 ;
+			max_value	: 4 ;
+			def_value	: 2 ;
+			names		: {
+				 0	: string(STR_PARAM_VERYCHEAP);
+				 1	: string(STR_PARAM_CHEAP);
+				 2	: string(STR_PARAM_DEFAULT);
+				 3	: string(STR_PARAM_HIGH);
+				 4	: string(STR_PARAM_VERYHIGH);};
+				 }
+				 }
+				 }		
+
+train_width_32_px  = 1 ;
+traininfo_y_offset = 2 ;
+	
+
+basecost {
+ 	PR_BUILD_VEHICLE_TRAIN: (param[1]-4);
+ 	PR_BUILD_VEHICLE_WAGON: (param[1]-1);
+ 	PR_RUNNING_TRAIN_STEAM: (param[0]-4);
+ 	PR_RUNNING_TRAIN_DIESEL:(param[0]-6);
+}
+/*	
+basecost {
+ 	PR_BUILD_VEHICLE_TRAIN: -2;
+ 	PR_BUILD_VEHICLE_WAGON: 1;
+ 	PR_RUNNING_TRAIN_STEAM: -2;
+ 	PR_RUNNING_TRAIN_DIESEL: -4;
+}
+*/	
+//Disabling standard trains
+disable_item(FEAT_TRAINS, 0, 115);

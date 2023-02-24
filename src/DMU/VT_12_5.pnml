@@ -1,0 +1,327 @@
+//#############
+//###VT 12.5###
+//#############
+
+//Spriteset front
+
+spriteset(spriteset_VT_125_front, "gfx\VT_125/VT_125_front_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_front_1x_32bpp.png", "gfx\VT_125/VT_125_front_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_front_2x_32bpp.png", "gfx\VT_125/VT_125_front_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_front_4x_32bpp.png", "gfx\VT_125/VT_125_front_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+									
+spriteset(spriteset_VT_125_front_loading, "gfx\VT_125/VT_125_front_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_front_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_front_loading_1x_32bpp.png", "gfx\VT_125/VT_125_front_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_front_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_front_loading_2x_32bpp.png", "gfx\VT_125/VT_125_front_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_front_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_front_loading_4x_32bpp.png", "gfx\VT_125/VT_125_front_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}			
+
+spritegroup spritegroup_VT_125_front_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_VT_125_front_loading];}	
+
+
+//Spriteset middle 1
+
+
+spriteset(spriteset_VT_125_middle1, "gfx\VT_125/VT_125_middle1_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle1_1x_32bpp.png", "gfx\VT_125/VT_125_middle1_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle1_2x_32bpp.png", "gfx\VT_125/VT_125_middle1_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle1_4x_32bpp.png", "gfx\VT_125/VT_125_middle1_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+
+spriteset(spriteset_VT_125_middle1_loading, "gfx\VT_125/VT_125_middle1_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle1_loading_1x_32bpp.png", "gfx\VT_125/VT_125_middle1_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle1_loading_2x_32bpp.png", "gfx\VT_125/VT_125_middle1_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle1_loading_4x_32bpp.png", "gfx\VT_125/VT_125_middle1_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}			
+
+spritegroup spritegroup_VT_125_middle1_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_VT_125_middle1_loading];}			
+		
+//Spriteset middle 1
+
+
+spriteset(spriteset_VT_125_middle2, "gfx\VT_125/VT_125_middle2_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle2_1x_32bpp.png", "gfx\VT_125/VT_125_middle2_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle2_2x_32bpp.png", "gfx\VT_125/VT_125_middle2_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle2_4x_32bpp.png", "gfx\VT_125/VT_125_middle2_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+
+spriteset(spriteset_VT_125_middle2_loading, "gfx\VT_125/VT_125_middle2_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle2_loading_1x_32bpp.png", "gfx\VT_125/VT_125_middle2_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle2_loading_2x_32bpp.png", "gfx\VT_125/VT_125_middle2_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_middle2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_middle2_loading_4x_32bpp.png", "gfx\VT_125/VT_125_middle2_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}			
+
+spritegroup spritegroup_VT_125_middle2_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_VT_125_middle2_loading];}
+
+//Spriteset middle 1
+
+
+spriteset(spriteset_VT_125_back, "gfx\VT_125/VT_125_back_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_back_1x_32bpp.png", "gfx\VT_125/VT_125_back_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_back_2x_32bpp.png", "gfx\VT_125/VT_125_back_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_back_4x_32bpp.png", "gfx\VT_125/VT_125_back_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+
+spriteset(spriteset_VT_125_back_loading, "gfx\VT_125/VT_125_back_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_back_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_back_loading_1x_32bpp.png", "gfx\VT_125/VT_125_back_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_back_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_back_loading_2x_32bpp.png", "gfx\VT_125/VT_125_back_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VT_125_back_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VT_125/VT_125_back_loading_4x_32bpp.png", "gfx\VT_125/VT_125_back_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}			
+
+spritegroup spritegroup_VT_125_back_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_VT_125_back_loading];}
+			 
+//Spriteset purchase			 
+
+spriteset(spriteset_VT_125_purchase, "gfx\VT_125/VT_125_front_1x_8bpp.png")
+									{ template_purchase(0, 0)}		
+//Switches	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_VT_125_front, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_VT_125_front;
+							1: spritegroup_VT_125_front_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_VT_125_middle1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_VT_125_middle1;
+							1: spritegroup_VT_125_middle1_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_VT_125_middle2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_VT_125_middle2;
+							1: spritegroup_VT_125_middle2_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_VT_125_back, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_VT_125_back;
+							1: spritegroup_VT_125_back_loading;}																					
+
+						switch(FEAT_TRAINS, SELF, switch_VT_125_3_graphics, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     switch_spritestack_VT_125_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   switch_spritestack_VT_125_middle1;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   switch_spritestack_VT_125_back;
+							8:	   spriteset_empty;}													
+
+						switch(FEAT_TRAINS, SELF, switch_length_VT_125_3, position_in_vehid_chain % 9) {
+							0: 4;
+							1: 7;
+							2: 4;
+							3: 4;
+							4: 7;
+							5: 4;
+							6: 4;
+							7: 7;
+							8: 4;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_VT_125_3, extra_callback_info1) {
+							1 .. 8: return ITEM_VT_125_3; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_VT_125_3, 1){
+							return 2375;}	
+
+item (FEAT_TRAINS , ITEM_VT_125_3, 6125)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_VT_125_3);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					33;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);							
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 24 ;
+						loading_speed:					8;
+						cost_factor: 					108;
+						running_cost_base				:RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1000 hp;
+						weight: 						112 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.191;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_VT_125_3_graphics;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_VT_125_3;
+			articulated_part:				switch_articulated_VT_125_3;
+			can_attach_wagon:				switch_coupling_VT_085;
+			visual_effect_and_powered:    	return (position_in_articulated_veh % 9 == 0) ?
+											visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER) :
+											visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+			purchase						: spriteset_VT_125_purchase;
+			cost_factor:					118;
+			running_cost_factor:			switch_running_cost_VT_125_3;
+			
+			}
+	}	
+
+//Switches for 4-part consist
+						//Reihenfolge	
+						switch(FEAT_TRAINS, SELF, switch_VT_125_4_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     switch_spritestack_VT_125_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   switch_spritestack_VT_125_middle1;
+							5:	   spriteset_empty;
+							6:	   spriteset_empty;
+							7:	   switch_spritestack_VT_125_middle2;
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:	   switch_spritestack_VT_125_back;
+						   11:	   spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_VT_125_4, position_in_vehid_chain % 12) {
+							0: 4;
+							1: 7;
+							2: 4;
+							3: 4;
+							4: 7;
+							5: 4;
+							6: 4;
+							7: 7;
+							8: 4;
+							9: 4;
+							10: 7;
+							11: 4;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_VT_125_4, extra_callback_info1) {
+							1 .. 11: return ITEM_VT_125_4; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_VT_125_4, 1){
+							return 4075;}
+
+item (FEAT_TRAINS , ITEM_VT_125_4, 6126)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_VT_125_4);
+						variant_group:					6125;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					33;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						loading_speed:					8;
+						cargo_capacity:                 31 ;
+						cost_factor: 					108;
+						running_cost_base				: RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1000 hp;
+						weight: 						149 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.191;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_VT_125_4_graphics;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_VT_125_4;
+			articulated_part:				switch_articulated_VT_125_4;
+			can_attach_wagon:				switch_coupling_VT_085;
+			visual_effect_and_powered:    	return (position_in_articulated_veh % 12 == 0) ?
+											visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER) :
+											visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+			purchase						: spriteset_VT_125_purchase;
+			cost_factor:					203;
+			running_cost_factor:			switch_running_cost_VT_125_4;			
+			}
+	}	

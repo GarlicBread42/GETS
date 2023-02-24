@@ -1,0 +1,225 @@
+//######################################
+//###LEIG-Einheit 1 - 2x GL11 Dresden###
+//######################################
+
+//Spriteset Front DRG
+
+spriteset (spriteset_LEIG1_front_DRG, "gfx\LEIG1/LEIG1_front_DRG_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_front_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DRG_1x_32bpp.png", "gfx\LEIG1/LEIG1_front_DRG_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_front_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DRG_2x_32bpp.png", "gfx\LEIG1/LEIG1_front_DRG_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_LEIG1_front_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DRG_4x_32bpp.png", "gfx\LEIG1/LEIG1_front_DRG_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+spriteset (spriteset_LEIG1_front_DRG_loading, "gfx\LEIG1/LEIG1_front_DRG_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_front_DRG_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DRG_loading_1x_32bpp.png", "gfx\LEIG1/LEIG1_front_DRG_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_front_DRG_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DRG_loading_2x_32bpp.png", "gfx\LEIG1/LEIG1_front_DRG_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_LEIG1_front_DRG_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DRG_loading_4x_32bpp.png", "gfx\LEIG1/LEIG1_front_DRG_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_LEIG1_front_DRG
+		{loaded: 	[spriteset_LEIG1_front_DRG];
+			loading: 	[spriteset_LEIG1_front_DRG_loading];}	
+		
+
+//Spriteset Front DB
+
+spriteset (spriteset_LEIG1_front_DB, "gfx\LEIG1/LEIG1_front_DB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_front_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DB_1x_32bpp.png", "gfx\LEIG1/LEIG1_front_DB_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_front_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DB_2x_32bpp.png", "gfx\LEIG1/LEIG1_front_DB_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_LEIG1_front_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DB_4x_32bpp.png", "gfx\LEIG1/LEIG1_front_DB_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+spriteset (spriteset_LEIG1_front_DB_loading, "gfx\LEIG1/LEIG1_front_DB_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_front_DB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DB_loading_1x_32bpp.png", "gfx\LEIG1/LEIG1_front_DB_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_front_DB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DB_loading_2x_32bpp.png", "gfx\LEIG1/LEIG1_front_DB_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_LEIG1_front_DB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DB_loading_4x_32bpp.png", "gfx\LEIG1/LEIG1_front_DB_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_LEIG1_front_DB
+		{loaded: 	[spriteset_LEIG1_front_DB];
+			loading: 	[spriteset_LEIG1_front_DB_loading];	}			
+
+
+//Spriteset Back DRG
+
+spriteset (spriteset_LEIG1_back_DRG, "gfx\LEIG1/LEIG1_back_DRG_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_back_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DRG_1x_32bpp.png", "gfx\LEIG1/LEIG1_back_DRG_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_back_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DRG_2x_32bpp.png", "gfx\LEIG1/LEIG1_back_DRG_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_LEIG1_back_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DRG_4x_32bpp.png", "gfx\LEIG1/LEIG1_back_DRG_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+spriteset (spriteset_LEIG1_back_DRG_loading, "gfx\LEIG1/LEIG1_back_DRG_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_back_DRG_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DRG_loading_1x_32bpp.png", "gfx\LEIG1/LEIG1_back_DRG_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_back_DRG_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DRG_loading_2x_32bpp.png", "gfx\LEIG1/LEIG1_back_DRG_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_LEIG1_back_DRG_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DRG_loading_4x_32bpp.png", "gfx\LEIG1/LEIG1_back_DRG_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_LEIG1_back_DRG
+		{loaded: 	[spriteset_LEIG1_back_DRG];
+			loading: 	[spriteset_LEIG1_back_DRG_loading];}	
+		
+//Spriteset Back DB
+
+spriteset (spriteset_LEIG1_back_DB, "gfx\LEIG1/LEIG1_back_DB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_back_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DB_1x_32bpp.png", "gfx\LEIG1/LEIG1_back_DB_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_back_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DB_2x_32bpp.png", "gfx\LEIG1/LEIG1_back_DB_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_LEIG1_back_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DB_4x_32bpp.png", "gfx\LEIG1/LEIG1_back_DB_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+spriteset (spriteset_LEIG1_back_DB_loading, "gfx\LEIG1/LEIG1_back_DB_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_back_DB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DB_loading_1x_32bpp.png", "gfx\LEIG1/LEIG1_back_DB_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_back_DB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DB_loading_2x_32bpp.png", "gfx\LEIG1/LEIG1_back_DB_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_LEIG1_back_DB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_back_DB_loading_4x_32bpp.png", "gfx\LEIG1/LEIG1_back_DB_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_LEIG1_back_DB
+		{loaded: 	[spriteset_LEIG1_back_DB];
+			loading: 	[spriteset_LEIG1_back_DB_loading];}
+		
+		
+//Spriteset purchase
+
+		spriteset (spriteset_LEIG1_purchase1, "gfx\LEIG1/LEIG1_front_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_LEIG1_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DRG_1x_32bpp.png", "gfx\LEIG1/LEIG1_front_DRG_1x_mask.png")
+					{template_purchase(0, 0)}		
+					
+					
+		spriteset (spriteset_LEIG1_purchase2, "gfx\LEIG1/LEIG1_front_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}		
+				
+		alternative_sprites (spriteset_LEIG1_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\LEIG1/LEIG1_front_DB_1x_32bpp.png", "gfx\LEIG1/LEIG1_front_DB_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+					
+//Switches
+
+					switch (FEAT_TRAINS,SELF, switch_LEIG1_purchase,current_year){
+						   0 .. 1945: spriteset_LEIG1_purchase1;
+						1946 .. 2055: spriteset_LEIG1_purchase2;				 					 
+						spriteset_LEIG1_purchase2;}
+
+					switch (FEAT_TRAINS,SELF,switch_graphics_LEIG1_front,current_year) {
+						   0 .. 1945 : spritegroup_LEIG1_front_DRG;
+						1946 .. 2000 : spritegroup_LEIG1_front_DB;
+						spritegroup_LEIG1_front_DB;}		
+						
+					switch (FEAT_TRAINS,SELF,switch_graphics_LEIG1_back,current_year) {
+						   0 .. 1945 : spritegroup_LEIG1_back_DRG;
+						1946 .. 2000 : spritegroup_LEIG1_back_DB;
+						spritegroup_LEIG1_back_DB;}
+						
+					switch(FEAT_TRAINS, SELF, switch_LEIG1_graphics, position_in_articulated_veh % 2) {
+						0:	   switch_graphics_LEIG1_front;
+						1:     switch_graphics_LEIG1_back;}
+
+					switch(FEAT_TRAINS, SELF, switch_length_LEIG1, position_in_articulated_veh % 2) {
+						0: 8;
+						1: 8;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_LEIG1, extra_callback_info1) {
+						1: return ITEM_LEIG1;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_LEIG1, 1){
+						return 550;}								
+
+item (FEAT_TRAINS , ITEM_LEIG1, 8205)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_LEIG1);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [MAIL, GOOD, VALU, GOLD, DIAM, BOOM, ENSP, FMSP, PCL_,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						29 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_LEIG1_graphics;
+			additional_text					: string(STR_DESC_EXP_GOODS);
+			articulated_part			  	: switch_articulated_LEIG1;
+			length							: switch_length_LEIG1;			
+			purchase						: switch_LEIG1_purchase;
+			cost_factor						: 192;
+			running_cost_factor				: switch_running_cost_LEIG1;				
+			
+			 }
+		}

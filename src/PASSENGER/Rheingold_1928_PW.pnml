@@ -1,0 +1,106 @@
+//################################
+//###Rheingold_1928 Gepäckwagen###
+//################################
+
+//Spriteset loaded
+
+spriteset (spriteset_Rheingold_1928_PW, "gfx/Rheingold_1928/Rheingold_1928_PW_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_PW, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_PW_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_PW_1x_mask.png")
+					{template_128trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Rheingold_1928_PW, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_PW_2x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_PW_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Rheingold_1928_PW, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_PW_4x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_PW_4x_mask.png")
+					{template_128trains_4x(0,0)}	
+		
+//Spriteset loading		
+				
+spriteset (spriteset_Rheingold_1928_PW_loading, "gfx/Rheingold_1928/Rheingold_1928_PW_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_PW_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_PW_loading_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_PW_loading_1x_mask.png")
+					{template_128trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Rheingold_1928_PW_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_PW_loading_2x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_PW_loading_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Rheingold_1928_PW_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_PW_loading_4x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_PW_loading_4x_mask.png")
+					{template_128trains_4x(0,0)}						
+						
+spritegroup spritegroup_Rheingold_1928_PW
+		{loaded: 	[spriteset_Rheingold_1928_PW];
+			loading: 	[spriteset_Rheingold_1928_PW_loading];}	
+
+//Spriteset purchase
+		
+spriteset (spriteset_Rheingold_1928_PW_purchase, "gfx/Rheingold_1928/Rheingold_1928_PW_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_PW_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_PW_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_PW_1x_mask.png")
+					{template_purchase(0,0)}						
+
+//Manuelle Auswahl Spriteset
+													
+						switch(FEAT_TRAINS, SELF, switch_Rheingold_1928_PW_graphics, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     spritegroup_Rheingold_1928_PW;
+							2:     spriteset_empty;}														
+
+						switch(FEAT_TRAINS, SELF, switch_length_Rheingold_1928_PW, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rheingold_1928_PW, extra_callback_info1) {
+							1 .. 2: return ITEM_RHEINGOLD_28_PW;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_RHEINGOLD_28_PW, 5885)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHEINGOLD_28_PW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					11;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						51 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					22;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rheingold_1928_PW_graphics;
+			additional_text					: string(STR_DESC_BAGG_EXP);
+			length							: switch_length_Rheingold_1928_PW;
+			articulated_part				: switch_articulated_Rheingold_1928_PW;
+			purchase						: spriteset_Rheingold_1928_PW_purchase;
+			cost_factor						: 220;
+			running_cost_factor				: switch_running_cost_Rheingold_1928;			
+			 }
+		}

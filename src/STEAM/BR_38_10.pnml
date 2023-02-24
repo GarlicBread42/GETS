@@ -1,0 +1,995 @@
+
+
+//#################################
+//### BR 38.10 - Preussische P8 ###
+//#################################
+
+
+//KPEV P8 V-Dach
+
+spriteset(spriteset_BR_38_10_KPEV_VDach, "gfx/BR_38_10/BR_38_10_KPEV_VDach_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_KPEV_VDach, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_KPEV_VDach_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_KPEV_VDach_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_KPEV_VDach, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_KPEV_VDach_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_KPEV_VDach_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_KPEV_VDach, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_KPEV_VDach_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_KPEV_VDach_4x_mask.png")
+									{ template_88trains_4x(0, 0)}	
+
+//KPEV P8 normales Dach
+
+spriteset(spriteset_BR_38_10_KPEV, "gfx/BR_38_10/BR_38_10_KPEV_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_KPEV_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_KPEV_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_KPEV_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_KPEV_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_KPEV_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_KPEV_4x_mask.png")
+									{ template_88trains_4x(0, 0)}	
+
+									
+//DRG ohne Windleitbleche
+
+spriteset(spriteset_BR_38_10_DRG_ohne, "gfx/BR_38_10/BR_38_10_DRG_ohne_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_ohne, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_ohne_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_ohne_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_ohne, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_ohne_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_ohne_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_ohne, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_ohne_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_ohne_4x_mask.png")
+									{ template_88trains_4x(0, 0)}	
+
+//DRG Wagner-Windleitbleche
+
+spriteset(spriteset_BR_38_10_DRG_Wagner, "gfx/BR_38_10/BR_38_10_DRG_Wagner_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_Wagner, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_Wagner_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_Wagner_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_Wagner, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_Wagner_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_Wagner_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_Wagner, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_Wagner_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_Wagner_4x_mask.png")
+									{ template_88trains_4x(0, 0)}	
+									
+//DRG Ruhr-Schnellverkehr
+
+spriteset(spriteset_BR_38_10_DRG_RSV, "gfx/BR_38_10/BR_38_10_DRG_RSV_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_RSV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_RSV_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_RSV_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_RSV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_RSV_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_RSV_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DRG_RSV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_RSV_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_RSV_4x_mask.png")
+									{ template_88trains_4x(0, 0)}									
+									
+//DB Wagner-Windleitbleche
+
+spriteset(spriteset_BR_38_10_DB_Wagner, "gfx/BR_38_10/BR_38_10_DB_Wagner_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Wagner, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Wagner_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Wagner_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Wagner, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Wagner_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Wagner_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Wagner, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Wagner_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Wagner_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+
+									
+//DB Witte-Windleitbleche
+
+spriteset(spriteset_BR_38_10_DB_Witte, "gfx/BR_38_10/BR_38_10_DB_Witte_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Witte, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Witte_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Witte_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Witte, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Witte_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Witte_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Witte, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Witte_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Witte_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+									
+									
+//DB Witte-Windleitbleche, geschlossenes Führerhaus
+
+spriteset(spriteset_BR_38_10_DB_Witte_Closecab, "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Witte_Closecab, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Witte_Closecab, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_DB_Witte_Closecab, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+
+
+//Spriteset Animation
+
+spriteset(spriteset_BR_38_10_Anim1, "gfx/BR_38_10/BR_38_10_Anim1_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim1_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim1_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim1_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim1_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim1_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim1_4x_mask.png")
+									{ template_88trains_4x(0, 0)}	
+
+
+spriteset(spriteset_BR_38_10_Anim2, "gfx/BR_38_10/BR_38_10_Anim2_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim2_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim2_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim2_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim2_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim2_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim2_4x_mask.png")
+									{ template_88trains_4x(0, 0)}	
+
+
+spriteset(spriteset_BR_38_10_Anim3, "gfx/BR_38_10/BR_38_10_Anim3_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim3_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim3_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim3_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim3_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim3_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim3_4x_mask.png")
+									{ template_88trains_4x(0, 0)}	
+
+
+spriteset(spriteset_BR_38_10_Anim4, "gfx/BR_38_10/BR_38_10_Anim4_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim4_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim4_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim4_2x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim4_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_Anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim4_4x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim4_4x_mask.png")
+									{ template_88trains_4x(0, 0)}																			
+
+//Spritesets Purchase
+
+spriteset(spriteset_BR_38_10_purchase1, "gfx/BR_38_10/BR_38_10_KPEV_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_KPEV_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_KPEV_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_38_10_purchase2, "gfx/BR_38_10/BR_38_10_DRG_Wagner_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_Wagner_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_Wagner_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_38_10_purchase3, "gfx/BR_38_10/BR_38_10_DB_Witte_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Witte_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Witte_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_38_10_purchase4, "gfx/BR_38_10/BR_38_10_KPEV_VDach_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_purchase4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_KPEV_VDach_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_KPEV_VDach_1x_mask.png")
+									{ template_purchase(0, 0)}									
+
+spriteset(spriteset_BR_38_10_purchase5, "gfx/BR_38_10/BR_38_10_DRG_ohne_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_purchase5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DRG_ohne_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DRG_ohne_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_38_10_purchase6, "gfx/BR_38_10/BR_38_10_DB_Wagner_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_purchase6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Wagner_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Wagner_1x_mask.png")
+									{ template_purchase(0, 0)}									
+
+spriteset(spriteset_BR_38_10_purchase7, "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_BR_38_10_purchase7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_DB_Witte_Closecab_1x_mask.png")
+									{ template_purchase(0, 0)}																		
+
+spriteset(spriteset_BR_38_10_purchase_anim, "gfx/BR_38_10/BR_38_10_Anim1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_38_10_purchase_anim, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_38_10/BR_38_10_Anim1_1x_32bpp.png", "gfx/BR_38_10/BR_38_10_Anim1_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_purchase1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_purchase1;
+							1: spriteset_BR_38_10_purchase_anim;}						
+															
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_purchase2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_purchase2;
+							1: spriteset_BR_38_10_purchase_anim;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_purchase3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_purchase3;
+							1: spriteset_BR_38_10_purchase_anim;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_purchase4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_purchase4;
+							1: spriteset_BR_38_10_purchase_anim;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_purchase5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_purchase5;
+							1: spriteset_BR_38_10_purchase_anim;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_purchase6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_purchase6;
+							1: spriteset_BR_38_10_purchase_anim;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_purchase7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_purchase7;
+							1: spriteset_BR_38_10_purchase_anim;}																										
+																
+						switch (FEAT_TRAINS,SELF, switch_BR_38_10_purchase,current_year){
+							1800 .. 1919: switch_spritestack_BR_38_10_purchase1;
+							1920 .. 1945: switch_spritestack_BR_38_10_purchase2;
+							1946 .. 2050: switch_spritestack_BR_38_10_purchase3;							
+									switch_spritestack_BR_38_10_purchase3;}
+
+						switch (FEAT_TRAINS, SELF, switch_animation_BR_38_10, motion_counter % 4) {
+							0: spriteset_BR_38_10_Anim1;
+							1: spriteset_BR_38_10_Anim2;
+							2: spriteset_BR_38_10_Anim3;
+							3: spriteset_BR_38_10_Anim4;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_KPEV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_KPEV;
+							1: return switch_animation_BR_38_10;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_KPEV_VDach, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_KPEV_VDach;
+							1: return switch_animation_BR_38_10;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_DRG_ohne, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_DRG_ohne;
+							1: return switch_animation_BR_38_10;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_DRG_Wagner, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_DRG_Wagner;
+							1: return switch_animation_BR_38_10;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_DRG_RSV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_DRG_RSV;
+							1: return switch_animation_BR_38_10;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_DB_Wagner, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_DB_Wagner;
+							1: return switch_animation_BR_38_10;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_DB_Witte, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_DB_Witte;
+							1: return switch_animation_BR_38_10;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_38_10_DB_Witte_Closecab, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_38_10_DB_Witte_Closecab;
+							1: return switch_animation_BR_38_10;}																													
+		
+					random_switch (FEAT_TRAINS, SELF, random_choose_BR_38_10_KPEV,) {
+							1: switch_spritestack_BR_38_10_KPEV_VDach;
+							1: switch_spritestack_BR_38_10_KPEV;}	
+							
+					random_switch (FEAT_TRAINS, SELF, random_choose_BR_38_10_DRG,) {
+							2: switch_spritestack_BR_38_10_DRG_Wagner;
+							1: switch_spritestack_BR_38_10_DRG_ohne;}	
+							
+					random_switch (FEAT_TRAINS, SELF, random_choose_BR_38_10_DB1,) {
+							3: switch_spritestack_BR_38_10_DB_Witte;
+							1: switch_spritestack_BR_38_10_DB_Wagner;}
+							
+					switch (FEAT_TRAINS, SELF, random_choose_BR_38_10_DB2, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_BR_38_10_DB_Witte;
+								switch_spritestack_BR_38_10_DB_Witte_Closecab;}	
+								
+					switch (FEAT_TRAINS, SELF, random_choose_BR_38_10_DB2_tender, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_Tender_22T215_DB;
+								spriteset_Wannentender_DB;}														
+							
+					//Check for RSV-Consist
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_BR_38_10,(count_veh_id(8816))) {
+							0: random_choose_BR_38_10_DRG; 
+								switch_spritestack_BR_38_10_DRG_RSV;}					
+
+						switch (FEAT_TRAINS,SELF, switch_BR_38_10_build_year,build_year){
+							 1900 .. 1908: random_choose_BR_38_10_KPEV;
+							 1909 .. 1919: switch_spritestack_BR_38_10_KPEV;
+							 1920 .. 1931: random_choose_BR_38_10_DRG;
+							 1932 .. 1945: switch_enginecheck_BR_38_10;
+							 1946 .. 1950: random_choose_BR_38_10_DB1;
+							 1951 .. 1990: random_choose_BR_38_10_DB2;				 					 
+							 random_choose_BR_38_10_DB2;}	
+							 
+						switch (FEAT_TRAINS,SELF, switch_BR_38_10_current_year,current_year){
+							 1900 .. 1908: random_choose_BR_38_10_KPEV;
+							 1909 .. 1919: switch_spritestack_BR_38_10_KPEV;
+							 1920 .. 1931: random_choose_BR_38_10_DRG;
+							 1932 .. 1945: switch_enginecheck_BR_38_10;
+							 1946 .. 1950: random_choose_BR_38_10_DB1;
+							 1951 .. 1990: random_choose_BR_38_10_DB2;				 					 
+							 random_choose_BR_38_10_DB2;}								 										
+							
+						switch (FEAT_TRAINS,SELF, switch_BR_38_10_Tender_build_year,build_year){
+							 1900 .. 1908: spriteset_Tender_22T215_KPEV;
+							 1909 .. 1919: spriteset_Tender_22T215_KPEV;
+							 1920 .. 1931: spriteset_Tender_22T215_DRG;
+							 1932 .. 1945: spriteset_Tender_22T215_DRG;
+							 1946 .. 1950: spriteset_Tender_22T215_DB;
+							 1951 .. 1990: random_choose_BR_38_10_DB2_tender;				 					 
+							 random_choose_BR_38_10_DB2_tender; }								 
+							
+						switch (FEAT_TRAINS,SELF, switch_BR_38_10_Tender_current_year,current_year){
+							 1900 .. 1908: spriteset_Tender_22T215_KPEV;
+							 1909 .. 1919: spriteset_Tender_22T215_KPEV;
+							 1920 .. 1931: spriteset_Tender_22T215_DRG;
+							 1932 .. 1945: spriteset_Tender_22T215_DRG;
+							 1946 .. 1950: spriteset_Tender_22T215_DB;
+							 1951 .. 1990: random_choose_BR_38_10_DB2_tender;				 					 
+							random_choose_BR_38_10_DB2_tender;}						
+
+						switch(FEAT_TRAINS, SELF, switch_length_BR_38_10, position_in_vehid_chain % 2) {
+							0: 8;
+							1: 5;}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_BR_38_10, position_in_vehid_chain % 2) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}						
+						
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_BR_38_10, 1) {
+							return 1675;}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_build, position_in_vehid_chain % 2) {
+							0:	   return switch_BR_38_10_build_year;
+							1:     return switch_BR_38_10_Tender_build_year;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_build, extra_callback_info1) {
+							1: return ITEM_BR_38_10;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10, 0380)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1906,01,01);
+						model_life: 					68;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_build;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_build;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_BR_38_10_purchase;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}	
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_current, position_in_vehid_chain % 2) {
+							0:	   return switch_BR_38_10_current_year;
+							1:     return switch_BR_38_10_Tender_current_year;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_current, extra_callback_info1) {
+							1: return ITEM_BR_38_10_CURRENT;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_CURRENT, 0381)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_CURRENT);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1906,01,01);
+						model_life: 					68;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_current;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_current;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_BR_38_10_purchase;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_KPEV_VDach, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_BR_38_10_KPEV_VDach;
+							1:     return spriteset_Tender_22T215_KPEV;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_KPEV_VDach, extra_callback_info1) {
+							1: return ITEM_BR_38_10_KPEV_VDACH;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_KPEV_VDACH, 0382)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_KPEV_VDACH);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1906,01,01);
+						model_life: 					68;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_KPEV_VDach;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_KPEV_VDach;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_BR_38_10_purchase4;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}
+	
+	
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_KPEV, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_BR_38_10_KPEV;
+							1:     return spriteset_Tender_22T215_KPEV;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_KPEV, extra_callback_info1) {
+							1: return ITEM_BR_38_10_KPEV;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_KPEV, 0383)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_KPEV);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1906,01,01);
+						model_life: 					68;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_KPEV;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_KPEV;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_BR_38_10_purchase1;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_DRG1, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_BR_38_10_DRG_ohne;
+							1:     return spriteset_Tender_22T215_DRG;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_DRG1, extra_callback_info1) {
+							1: return ITEM_BR_38_10_DRG1;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_DRG1, 0384)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_DRG1);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					68;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_DRG1;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_DRG1;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_BR_38_10_purchase5;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_DRG2, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_BR_38_10_DRG_Wagner;
+							1:     return spriteset_Tender_22T215_DRG;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_DRG2, extra_callback_info1) {
+							1: return ITEM_BR_38_10_DRG2;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_DRG2, 0385)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_DRG2);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					48;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_DRG2;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_DRG2;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_BR_38_10_purchase2;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_RSV, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_BR_38_10_DRG_RSV;
+							1:     return spriteset_Tender_22T215_DRG;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_RSV, extra_callback_info1) {
+							1: return ITEM_BR_38_10_RSV;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_RSV, 0386)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_RSV);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					48;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_RSV;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_RSV;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_BR_38_10_purchase5;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}	
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_DB1, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_BR_38_10_DB_Wagner;
+							1:     return spriteset_Tender_22T215_DB;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_DB1, extra_callback_info1) {
+							1: return ITEM_BR_38_10_DB1;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_DB1, 0387)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_DB1);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					22;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_DB1;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_DB1;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_BR_38_10_purchase6;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}		
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_DB2, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_BR_38_10_DB_Witte;
+							1:     return spriteset_Tender_22T215_DB;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_DB2, extra_callback_info1) {
+							1: return ITEM_BR_38_10_DB2;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_DB2, 0388)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_DB2);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					22;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_DB2;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_DB2;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_BR_38_10_purchase3;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_38_10_graphics_DB3, position_in_vehid_chain % 2) {
+							0:	   return switch_spritestack_BR_38_10_DB_Witte_Closecab;
+							1:     return spriteset_Wannentender_DB;}															
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_38_10_DB3, extra_callback_info1) {
+							1: return ITEM_BR_38_10_DB3;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_38_10_DB3, 0389)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_38_10_DB3);
+						variant_group: 					0380;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					22;
+						vehicle_life: 					50;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);								
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						1180 hp;
+						weight: 						130 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_STEAM;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.144;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_BR_38_10_graphics_DB3;
+			additional_text				   : string(STR_DESC_UNIVERSAL);
+			length						   : switch_length_BR_38_10;
+			articulated_part			   : switch_articulated_BR_38_10_DB3;
+			purchase_cargo_capacity        : 0 ;
+			cargo_capacity                 : return 0 ;
+			purchase					   : switch_spritestack_BR_38_10_purchase7;
+			cost_factor					   :30;
+			running_cost_factor				:switch_running_cost_BR_38_10;
+			visual_effect_and_powered		:switch_FX_BR_38_10;
+			
+			}
+	}

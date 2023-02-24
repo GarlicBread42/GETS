@@ -1,0 +1,388 @@
+//######################################
+//###n-Wagen DVT "Hasenkasten" - LOCO###
+//######################################
+
+//Spriteset schwarz mit Faltenbalg
+
+spriteset(spriteset_Hasenkasten_LOCO_schwarz, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_schwarz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_1x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_schwarz, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_2x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_schwarz, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_4x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+//Spriteset schwarz ohne Faltenbalg
+
+spriteset(spriteset_Hasenkasten_LOCO_schwarz_ohne, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_ohne_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_schwarz_ohne, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_ohne_1x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_ohne_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_schwarz_ohne, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_ohne_2x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_ohne_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_schwarz_ohne, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_ohne_4x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_ohne_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+//Spriteset ozeanblau mit Faltenbalg
+
+spriteset(spriteset_Hasenkasten_LOCO_ozeanblau, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_1x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_2x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_4x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+//Spriteset ozeanblau ohne Faltenbalg
+
+spriteset(spriteset_Hasenkasten_LOCO_ozeanblau_ohne, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_ohne_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_ozeanblau_ohne, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_ohne_1x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_ohne_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_ozeanblau_ohne, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_ohne_2x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_ohne_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_ozeanblau_ohne, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_ohne_4x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_ohne_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+
+//Spriteset loading
+
+spriteset(spriteset_Hasenkasten_LOCO_loading, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_loading_1x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_loading_2x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_loading_4x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+spritegroup spritegroup_Hasenkasten_LOCO_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Hasenkasten_LOCO_loading];}	
+												
+//Spritesets purchase									
+
+spriteset(spriteset_Hasenkasten_LOCO_purchase_schwarz, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_purchase_schwarz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_1x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_schwarz_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_Hasenkasten_LOCO_purchase_ozeanblau, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Hasenkasten_LOCO_purchase_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_1x_32bpp.png", "gfx\N_WAGEN_DVT/Hasenkasten_LOCO_ozeanblau_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+//Switches
+
+						switch (FEAT_TRAINS,SELF, switch_purchase_Hasenkasten_LOCO,current_year){
+							   0 .. 1974: spriteset_Hasenkasten_LOCO_purchase_schwarz;
+							1975 .. 2050: spriteset_Hasenkasten_LOCO_purchase_ozeanblau;
+								spriteset_Hasenkasten_LOCO_purchase_ozeanblau;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Hasenkasten_LOCO_schwarz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Hasenkasten_LOCO_schwarz;
+							1: spritegroup_Hasenkasten_LOCO_loading;}																		
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Hasenkasten_LOCO_schwarz_ohne, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Hasenkasten_LOCO_schwarz_ohne;
+							1: spritegroup_Hasenkasten_LOCO_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Hasenkasten_LOCO_ozeanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Hasenkasten_LOCO_ozeanblau;
+							1: spritegroup_Hasenkasten_LOCO_loading;}																		
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Hasenkasten_LOCO_ozeanblau_ohne, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Hasenkasten_LOCO_ozeanblau_ohne;
+							1: spritegroup_Hasenkasten_LOCO_loading;}							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Hasenkasten_LOCO_schwarz, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_Hasenkasten_LOCO_schwarz;
+								switch_spritestack_Hasenkasten_LOCO_schwarz_ohne;}							
+
+						switch (FEAT_TRAINS, SELF, random_choose_Hasenkasten_LOCO_ozeanblau, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_Hasenkasten_LOCO_ozeanblau;
+								switch_spritestack_Hasenkasten_LOCO_ozeanblau_ohne;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_length_Hasenkasten_LOCO, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}										
+
+						switch(FEAT_TRAINS, SELF, switch_speed_Hasenkasten_LOCO, current_year){
+							   0 .. 1967: 120;
+							1968 .. 2050: 140;
+								140;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Hasenkasten_LOCO, 1){
+							return 2350;}	
+
+						switch (FEAT_TRAINS, SELF, switch_build_year_Hasenkasten_LOCO, build_year){
+							   0 .. 1974 : random_choose_Hasenkasten_LOCO_schwarz;
+							1975 .. 2050 : random_choose_Hasenkasten_LOCO_ozeanblau;
+								random_choose_Hasenkasten_LOCO_ozeanblau;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Hasenkasten_LOCO_build, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_build_year_Hasenkasten_LOCO;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Hasenkasten_LOCO_build, extra_callback_info1) {
+							1 .. 2: return ITEM_HASENKASTEN_LOCO_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_HASENKASTEN_LOCO_BUILD, 5010)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HASENKASTEN_LOCO_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1961,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Hasenkasten_LOCO_build;
+			additional_text				: string(STR_DESC_HASE);
+			length						: switch_length_Hasenkasten_LOCO;
+			articulated_part			: switch_articulated_Hasenkasten_LOCO_build;
+			purchase					: switch_purchase_Hasenkasten_LOCO;
+			speed						: switch_speed_Hasenkasten_LOCO;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Hasenkasten_LOCO;							
+			}
+	}	
+
+						switch (FEAT_TRAINS, SELF, switch_current_year_Hasenkasten_LOCO, current_year){
+							   0 .. 1974 : random_choose_Hasenkasten_LOCO_schwarz;
+							1975 .. 2050 : random_choose_Hasenkasten_LOCO_ozeanblau;
+								random_choose_Hasenkasten_LOCO_ozeanblau;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Hasenkasten_LOCO_current, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_current_year_Hasenkasten_LOCO;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Hasenkasten_LOCO_current, extra_callback_info1) {
+							1 .. 2: return ITEM_HASENKASTEN_LOCO_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_HASENKASTEN_LOCO_CURRENT, 5011)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HASENKASTEN_LOCO_CURRENT);
+						variant_group:					5010;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1961,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Hasenkasten_LOCO_current;
+			additional_text				: string(STR_DESC_HASE);
+			length						: switch_length_Hasenkasten_LOCO;
+			articulated_part			: switch_articulated_Hasenkasten_LOCO_current;
+			purchase					: switch_purchase_Hasenkasten_LOCO;
+			speed						: switch_speed_Hasenkasten_LOCO;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Hasenkasten_LOCO;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Hasenkasten_LOCO_schwarz, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return random_choose_Hasenkasten_LOCO_schwarz;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Hasenkasten_LOCO_schwarz, extra_callback_info1) {
+							1 .. 2: return ITEM_HASENKASTEN_LOCO_SCHWARZ;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_HASENKASTEN_LOCO_SCHWARZ, 5012)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HASENKASTEN_LOCO_SCHWARZ);
+						variant_group:					5010;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1961,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Hasenkasten_LOCO_schwarz;
+			additional_text				: string(STR_DESC_HASE);
+			length						: switch_length_Hasenkasten_LOCO;
+			articulated_part			: switch_articulated_Hasenkasten_LOCO_schwarz;
+			purchase					: spriteset_Hasenkasten_LOCO_purchase_schwarz;
+			speed						: switch_speed_Hasenkasten_LOCO;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Hasenkasten_LOCO;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Hasenkasten_LOCO_ozeanblau, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return random_choose_Hasenkasten_LOCO_ozeanblau;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Hasenkasten_LOCO_ozeanblau, extra_callback_info1) {
+							1 .. 2: return ITEM_HASENKASTEN_LOCO_OZEANBLAU;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_HASENKASTEN_LOCO_OZEANBLAU, 5013)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HASENKASTEN_LOCO_OZEANBLAU);
+						variant_group:					5010;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					16;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Hasenkasten_LOCO_ozeanblau;
+			additional_text				: string(STR_DESC_HASE);
+			length						: switch_length_Hasenkasten_LOCO;
+			articulated_part			: switch_articulated_Hasenkasten_LOCO_ozeanblau;
+			purchase					: spriteset_Hasenkasten_LOCO_purchase_ozeanblau;
+			speed						: switch_speed_Hasenkasten_LOCO;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Hasenkasten_LOCO;							
+			}
+	}

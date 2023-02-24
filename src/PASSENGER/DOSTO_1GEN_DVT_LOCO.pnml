@@ -1,0 +1,352 @@
+//##################################################
+//###Doppelstockwagen - Steuerwagen 1. Generation###
+//##################################################	
+
+
+//Spriteset Mint
+
+spriteset (spriteset_DOSTO_1GEN_DVT_LOCO_MINT, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_MINT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_1x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_MINT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_2x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_MINT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_4x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_4x_mask.png")
+					{template_158trains_4x(0,0)}		
+				
+spriteset (spriteset_DOSTO_1GEN_DVT_LOCO_MINT_loading, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_MINT_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_loading_1x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_MINT_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_2x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_MINT_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_loading_4x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spritegroup spritegroup_DOSTO_1GEN_DVT_LOCO_MINT_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_DOSTO_1GEN_DVT_LOCO_MINT_loading];}
+		
+
+//Spriteset Verkehrsrot
+
+spriteset (spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_1x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_2x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_4x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_4x_mask.png")
+					{template_158trains_4x(0,0)}		
+				
+spriteset (spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT_loading, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_loading_1x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_2x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_loading_4x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spritegroup spritegroup_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT_loading];}	
+
+//Spriteset Purchase
+		
+spriteset (spriteset_DOSTO_1GEN_DVT_LOCO_purchase1, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_1x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_mint_1x_mask.png")
+					{template_purchase(0, 0)}	
+		
+spriteset (spriteset_DOSTO_1GEN_DVT_LOCO_purchase2, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_DOSTO_1GEN_DVT_LOCO_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_1x_32bpp.png", "gfx\DOSTO_1GEN\Dosto_DBz_DVT_verkehrsrot_1x_mask.png")
+					{template_purchase(0, 0)}
+							
+//Switches
+
+						switch (FEAT_TRAINS, SELF, switch_purchase_DOSTO_1GEN_DVT_LOCO, current_year){
+							   0 .. 1995 : spriteset_DOSTO_1GEN_DVT_LOCO_purchase1;
+							1996 .. 2050 : spriteset_DOSTO_1GEN_DVT_LOCO_purchase2;
+								spriteset_DOSTO_1GEN_DVT_LOCO_purchase2;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_DOSTO_1GEN_DVT_LOCO_mint, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DOSTO_1GEN_DVT_LOCO_MINT;
+							1: spritegroup_DOSTO_1GEN_DVT_LOCO_MINT_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_DOSTO_1GEN_DVT_LOCO_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT;
+							1: spritegroup_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT_loading;}							
+																							
+						switch(FEAT_TRAINS, SELF, switch_length_DOSTO_1GEN_DVT_LOCO, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Dosto_1GEN_LOCO, 1){
+							return 3000;}						
+															
+						switch (FEAT_TRAINS, SELF, switch_build_year_DOSTO_1GEN_DVT_LOCO, build_year){
+							   0 .. 1995 : switch_loadstack_DOSTO_1GEN_DVT_LOCO_mint;
+							1996 .. 2050 : switch_loadstack_DOSTO_1GEN_DVT_LOCO_verkehrsrot;
+								switch_loadstack_DOSTO_1GEN_DVT_LOCO_verkehrsrot;}	
+														
+						switch(FEAT_TRAINS, SELF, switch_DOSTO_1GEN_DVT_LOCO_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_DOSTO_1GEN_DVT_LOCO;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_DOSTO_1GEN_DVT_LOCO_build, extra_callback_info1) {
+							1 .. 2: return ITEM_DOSTO_1GEN_DVT_LOCO_BUILD;	
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO_BUILD, 5040)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DOSTO_1GEN_DVT_LOCO_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 31 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						58 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_DOSTO_1GEN_DVT_LOCO_graphics_build;
+			additional_text:				string(STR_DESC_DVT_1GEN);
+			length:							switch_length_DOSTO_1GEN_DVT_LOCO;
+			articulated_part:				switch_articulated_DOSTO_1GEN_DVT_LOCO_build;
+			purchase:						switch_purchase_DOSTO_1GEN_DVT_LOCO;
+			cost_factor:					25;
+			running_cost_factor:			switch_running_cost_Dosto_1GEN_LOCO;							
+			}
+	}				
+															
+						switch (FEAT_TRAINS, SELF, switch_current_year_DOSTO_1GEN_DVT_LOCO, current_year){
+							   0 .. 1995 : switch_loadstack_DOSTO_1GEN_DVT_LOCO_mint;
+							1996 .. 2050 : switch_loadstack_DOSTO_1GEN_DVT_LOCO_verkehrsrot;
+								switch_loadstack_DOSTO_1GEN_DVT_LOCO_verkehrsrot;}	
+														
+						switch(FEAT_TRAINS, SELF, switch_DOSTO_1GEN_DVT_LOCO_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_DOSTO_1GEN_DVT_LOCO;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_DOSTO_1GEN_DVT_LOCO_current, extra_callback_info1) {
+							1 .. 2: return ITEM_DOSTO_1GEN_DVT_LOCO_CURRENT;	
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO_CURRENT, 5041)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DOSTO_1GEN_DVT_LOCO_CURRENT);
+						variant_group:					5040;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 31 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						58 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_DOSTO_1GEN_DVT_LOCO_graphics_current;
+			additional_text:				string(STR_DESC_DVT_1GEN);
+			length:							switch_length_DOSTO_1GEN_DVT_LOCO;
+			articulated_part:				switch_articulated_DOSTO_1GEN_DVT_LOCO_current;
+			purchase:						switch_purchase_DOSTO_1GEN_DVT_LOCO;
+			cost_factor:					25;
+			running_cost_factor:			switch_running_cost_Dosto_1GEN_LOCO;							
+			}
+	}	
+
+														
+						switch(FEAT_TRAINS, SELF, switch_DOSTO_1GEN_DVT_LOCO_graphics_mint, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_DOSTO_1GEN_DVT_LOCO_mint;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_DOSTO_1GEN_DVT_LOCO_mint, extra_callback_info1) {
+							1 .. 2: return ITEM_DOSTO_1GEN_DVT_LOCO_MINT;	
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO_MINT, 5042)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DOSTO_1GEN_DVT_LOCO_MINT);
+						variant_group:					5040;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 31 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						58 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_DOSTO_1GEN_DVT_LOCO_graphics_mint;
+			additional_text:				string(STR_DESC_DVT_1GEN);
+			length:							switch_length_DOSTO_1GEN_DVT_LOCO;
+			articulated_part:				switch_articulated_DOSTO_1GEN_DVT_LOCO_mint;
+			purchase:						spriteset_DOSTO_1GEN_DVT_LOCO_purchase1;
+			cost_factor:					25;
+			running_cost_factor:			switch_running_cost_Dosto_1GEN_LOCO;							
+			}
+	}	
+														
+						switch(FEAT_TRAINS, SELF, switch_DOSTO_1GEN_DVT_LOCO_graphics_verkehrsrot, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_DOSTO_1GEN_DVT_LOCO_verkehrsrot;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_DOSTO_1GEN_DVT_LOCO_verkehrsrot, extra_callback_info1) {
+							1 .. 2: return ITEM_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT;	
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT, 5043)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT);
+						variant_group:					5040;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					38;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 31 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						58 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_DOSTO_1GEN_DVT_LOCO_graphics_verkehrsrot;
+			additional_text:				string(STR_DESC_DVT_1GEN);
+			length:							switch_length_DOSTO_1GEN_DVT_LOCO;
+			articulated_part:				switch_articulated_DOSTO_1GEN_DVT_LOCO_verkehrsrot;
+			purchase:						spriteset_DOSTO_1GEN_DVT_LOCO_purchase2;
+			cost_factor:					25;
+			running_cost_factor:			switch_running_cost_Dosto_1GEN_LOCO;							
+			}
+	}	

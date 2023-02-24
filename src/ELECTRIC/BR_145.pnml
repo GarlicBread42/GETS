@@ -1,0 +1,885 @@
+//################
+//###BR 145 DB ###
+//################
+
+//Spriteset Verkehrsrot
+spriteset(spriteset_BR_145_verkehrsrot, "gfx/BR_145/BR_145_verkehrsrot_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_verkehrsrot_1x_32bpp.png", "gfx/BR_145/BR_145_verkehrsrot_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_verkehrsrot_2x_32bpp.png", "gfx/BR_145/BR_145_verkehrsrot_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_verkehrsrot_4x_32bpp.png", "gfx/BR_145/BR_145_verkehrsrot_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+//Spriteset Alpha
+
+spriteset(spriteset_BR_145_Alpha, "gfx/BR_145/BR_145_Alpha_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Alpha, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Alpha_1x_32bpp.png", "gfx/BR_145/BR_145_Alpha_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Alpha, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Alpha_2x_32bpp.png", "gfx/BR_145/BR_145_Alpha_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Alpha, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Alpha_4x_32bpp.png", "gfx/BR_145/BR_145_Alpha_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+//Spriteset Arcelor-Mittal
+
+spriteset(spriteset_BR_145_Arcelor, "gfx/BR_145/BR_145_Arcelor_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Arcelor, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Arcelor_1x_32bpp.png", "gfx/BR_145/BR_145_Arcelor_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Arcelor, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Arcelor_2x_32bpp.png", "gfx/BR_145/BR_145_Arcelor_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Arcelor, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Arcelor_4x_32bpp.png", "gfx/BR_145/BR_145_Arcelor_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+//Spriteset DB Cargo
+
+spriteset(spriteset_BR_145_cargo, "gfx/BR_145/BR_145_cargo_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_cargo_1x_32bpp.png", "gfx/BR_145/BR_145_cargo_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_cargo_2x_32bpp.png", "gfx/BR_145/BR_145_cargo_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_cargo_4x_32bpp.png", "gfx/BR_145/BR_145_cargo_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+//Spriteset HGK
+
+spriteset(spriteset_BR_145_HGK, "gfx/BR_145/BR_145_HGK_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_HGK, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_HGK_1x_32bpp.png", "gfx/BR_145/BR_145_HGK_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_HGK, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_HGK_2x_32bpp.png", "gfx/BR_145/BR_145_HGK_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_HGK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_HGK_4x_32bpp.png", "gfx/BR_145/BR_145_HGK_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+//Spriteset MRCE
+
+spriteset(spriteset_BR_145_MRCE, "gfx/BR_145/BR_145_MRCE_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_MRCE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_MRCE_1x_32bpp.png", "gfx/BR_145/BR_145_MRCE_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_MRCE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_MRCE_2x_32bpp.png", "gfx/BR_145/BR_145_MRCE_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_MRCE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_MRCE_4x_32bpp.png", "gfx/BR_145/BR_145_MRCE_4x_mask.png")
+									{ template_128trains_4x(0, 0)}																																		
+
+//Spriteset Railion
+
+spriteset(spriteset_BR_145_Railion, "gfx/BR_145/BR_145_Railion_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Railion, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Railion_1x_32bpp.png", "gfx/BR_145/BR_145_Railion_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Railion, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Railion_2x_32bpp.png", "gfx/BR_145/BR_145_Railion_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_Railion, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Railion_4x_32bpp.png", "gfx/BR_145/BR_145_Railion_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+//Spriteset RBH
+
+spriteset(spriteset_BR_145_RBH, "gfx/BR_145/BR_145_RBH_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_RBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_RBH_1x_32bpp.png", "gfx/BR_145/BR_145_RBH_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_RBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_RBH_2x_32bpp.png", "gfx/BR_145/BR_145_RBH_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_RBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_RBH_4x_32bpp.png", "gfx/BR_145/BR_145_RBH_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+									
+									
+//Spriteset Purchase
+spriteset(spriteset_BR_145_purchase, "gfx/BR_145/BR_145_verkehrsrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_verkehrsrot_1x_32bpp.png", "gfx/BR_145/BR_145_verkehrsrot_1x_mask.png")
+									{ template_purchase(0, 0)}	
+
+spriteset(spriteset_BR_145_purchase_cargo, "gfx/BR_145/BR_145_cargo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_purchase_cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_cargo_1x_32bpp.png", "gfx/BR_145/BR_145_cargo_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+spriteset(spriteset_BR_145_purchase_Railion, "gfx/BR_145/BR_145_Railion_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_purchase_Railion, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Railion_1x_32bpp.png", "gfx/BR_145/BR_145_Railion_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_145_purchase_Alpha, "gfx/BR_145/BR_145_Alpha_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_purchase_Alpha, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Alpha_1x_32bpp.png", "gfx/BR_145/BR_145_Alpha_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_145_purchase_Arcelor, "gfx/BR_145/BR_145_Arcelor_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_purchase_Arcelor, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_Arcelor_1x_32bpp.png", "gfx/BR_145/BR_145_Arcelor_1x_mask.png")
+									{ template_purchase(0, 0)}																																		
+
+spriteset(spriteset_BR_145_purchase_HGK, "gfx/BR_145/BR_145_HGK_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_purchase_HGK, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_HGK_1x_32bpp.png", "gfx/BR_145/BR_145_HGK_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_145_purchase_MRCE, "gfx/BR_145/BR_145_MRCE_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_purchase_MRCE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_MRCE_1x_32bpp.png", "gfx/BR_145/BR_145_MRCE_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_145_purchase_RBH, "gfx/BR_145/BR_145_RBH_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_145_purchase_RBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_145/BR_145_RBH_1x_32bpp.png", "gfx/BR_145/BR_145_RBH_1x_mask.png")
+									{ template_purchase(0, 0)}																											
+//Switches
+ 
+					switch (FEAT_TRAINS, SELF, random_choose_BR_145_private, switch_alternative_var_random_bits(3,3)) {
+							0: spriteset_BR_145_RBH;
+							1: spriteset_BR_145_MRCE;
+							2: spriteset_BR_145_HGK;
+							3: spriteset_BR_145_Arcelor;
+							4: spriteset_BR_145_Alpha;
+							5: spriteset_BR_145_HGK;
+							6: spriteset_BR_145_RBH;
+							7: spriteset_BR_145_MRCE;}				
+
+						 switch (FEAT_TRAINS,SELF, switch_BR_145_current_year,current_year){
+							1900 .. 1995: spriteset_BR_145_verkehrsrot;
+							1996 .. 1999: spriteset_BR_145_cargo;
+							2000 .. 2009: spriteset_BR_145_Railion;					 					 
+								spriteset_BR_145_verkehrsrot;}
+	
+						 switch (FEAT_TRAINS,SELF, switch_BR_145_build_year,build_year){
+							1900 .. 1995: spriteset_BR_145_verkehrsrot;
+							1996 .. 1999: spriteset_BR_145_cargo;
+							2000 .. 2009: spriteset_BR_145_Railion;					 					 
+								spriteset_BR_145_verkehrsrot;}							
+
+						switch(FEAT_TRAINS, SELF, switch_cargo_dependant_BR_145_current, most_common_cargo_type){
+							PASS: spriteset_BR_145_verkehrsrot;
+							MAIL: spriteset_BR_145_verkehrsrot;
+								switch_BR_145_current_year;}
+						
+						switch(FEAT_TRAINS, SELF, switch_cargo_dependant_BR_145_build, most_common_cargo_type){
+							PASS: spriteset_BR_145_verkehrsrot;
+							MAIL: spriteset_BR_145_verkehrsrot;
+								switch_BR_145_build_year;}																					
+					
+						switch(FEAT_TRAINS, SELF, switch_length_BR_145, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_BR_145, position_in_vehid_chain % 3) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}						
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_145, 1){
+						return 2150;}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_build, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_cargo_dependant_BR_145_build;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_build, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_BUILD; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_145_BUILD, 1450)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_build;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_build;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}	
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_current, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_cargo_dependant_BR_145_current;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_current, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_CURRENT; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_CURRENT, 1451)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_CURRENT);
+						variant_group:					1450;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_current;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_current;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_verkehrsrot, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_145_verkehrsrot;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_verkehrsrot, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_VERKEHRSROT; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_VERKEHRSROT, 1452)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_VERKEHRSROT);
+						variant_group:					1450;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_verkehrsrot;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_verkehrsrot;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_cargo, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_145_cargo;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_cargo, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_CARGO; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_CARGO, 1453)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_CARGO);
+						variant_group:					1450;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_cargo;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_cargo;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase_cargo;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_Railion, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_145_Railion;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_Railion, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_RAILION; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_RAILION, 1454)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_RAILION);
+						variant_group:					1450;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					37;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_Railion;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_Railion;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase_Railion;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_private, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return random_choose_BR_145_private;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_private, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_PRIVATE; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_PRIVATE, 1455)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_PRIVATE);
+						variant_group:					1450;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					37;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_private;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_private;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase_Alpha;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_Alpha, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_145_Alpha;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_Alpha, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_ALPHA; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_ALPHA, 1456)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_ALPHA);
+						variant_group:					1455;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					37;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_Alpha;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_Alpha;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase_Alpha;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_Arcelor, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_145_Arcelor;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_Arcelor, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_ARCELOR; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_ARCELOR, 1457)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_ARCELOR);
+						variant_group:					1455;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					37;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_Arcelor;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_Arcelor;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase_Arcelor;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_HGK, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_145_HGK;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_HGK, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_HGK; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_HGK, 1458)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_HGK);
+						variant_group:					1455;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					37;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_HGK;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_HGK;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase_HGK;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_MRCE, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_145_MRCE;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_MRCE, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_MRCE; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_MRCE, 1459)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_MRCE);
+						variant_group:					1455;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					37;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_MRCE;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_MRCE;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase_MRCE;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_145_graphics_RBH, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_145_RBH;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_145_RBH, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_145_RBH; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_BR_145_RBH, 1460)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_145_RBH);
+						variant_group:					1455;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					37;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						5712 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_145_graphics_RBH;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_145;
+			articulated_part				: switch_articulated_BR_145_RBH;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_145_purchase_RBH;
+			cost_factor						: 131;
+			running_cost_factor				: switch_running_cost_BR_145;
+			visual_effect_and_powered		: switch_FX_BR_145;
+			}
+	}

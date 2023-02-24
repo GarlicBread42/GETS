@@ -1,0 +1,787 @@
+//##########################################
+//###n-Wagen DVT "Karlsruher Kopf" - LOCO###
+//##########################################
+
+//Spriteset schwarzer Rahmen
+
+spriteset(spriteset_Karlsruher_schwarz, "gfx\N_WAGEN_DVT/Karlsruher_schwarz_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_schwarz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_schwarz_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_schwarz_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_schwarz, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_schwarz_2x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_schwarz_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_schwarz, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_schwarz_4x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_schwarz_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+//Spriteset orange Binde
+
+spriteset(spriteset_Karlsruher_Binde, "gfx\N_WAGEN_DVT/Karlsruher_Binde_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Binde, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Binde_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Binde_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Binde, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Binde_2x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Binde_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Binde, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Binde_4x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Binde_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+									
+//Spriteset ozeanblau
+
+spriteset(spriteset_Karlsruher_ozeanblau, "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_2x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_4x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+//Spriteset mint
+
+spriteset(spriteset_Karlsruher_mint, "gfx\N_WAGEN_DVT/Karlsruher_mint_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_mint, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_mint_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_mint_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_mint, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_mint_2x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_mint_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_mint, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_mint_4x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_mint_4x_mask.png")
+									{ template_158trains_4x(0, 0)}		
+									
+//Spriteset verkehrsrot
+
+spriteset(spriteset_Karlsruher_verkehrsrot, "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_2x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_4x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+//Spriteset Karlsruhe
+
+spriteset(spriteset_Karlsruher_Karlsruhe, "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Karlsruhe, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Karlsruhe, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_2x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Karlsruhe, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_4x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+//Spriteset Citybahn
+
+spriteset(spriteset_Karlsruher_Citybahn, "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Citybahn, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Citybahn, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_2x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_Citybahn, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_4x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_4x_mask.png")
+									{ template_158trains_4x(0, 0)}		
+									
+//Spriteset NatX
+
+spriteset(spriteset_Karlsruher_NatX, "gfx\N_WAGEN_DVT/Karlsruher_NatX_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_NatX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_NatX_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_NatX_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_NatX, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_NatX_2x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_NatX_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_NatX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_NatX_4x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_NatX_4x_mask.png")
+									{ template_158trains_4x(0, 0)}																																																			
+
+//Spriteset purchase
+
+spriteset(spriteset_Karlsruher_purchase_schwarz, "gfx\N_WAGEN_DVT/Karlsruher_schwarz_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_purchase_schwarz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_schwarz_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_schwarz_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_Karlsruher_purchase_Binde, "gfx\N_WAGEN_DVT/Karlsruher_Binde_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_purchase_Binde, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Binde_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Binde_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_Karlsruher_purchase_ozeanblau, "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_purchase_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_ozeanblau_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_Karlsruher_purchase_mint, "gfx\N_WAGEN_DVT/Karlsruher_mint_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_purchase_mint, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_mint_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_mint_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_Karlsruher_purchase_verkehrsrot, "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_purchase_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_verkehrsrot_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_Karlsruher_purchase_Karlsruhe, "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_purchase_Karlsruhe, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Karlsruhe_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_Karlsruher_purchase_Citybahn, "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_purchase_Citybahn, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_Citybahn_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_Karlsruher_purchase_NatX, "gfx\N_WAGEN_DVT/Karlsruher_NatX_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Karlsruher_purchase_NatX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN_DVT/Karlsruher_NatX_1x_32bpp.png", "gfx\N_WAGEN_DVT/Karlsruher_NatX_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+//Switches
+
+						switch (FEAT_TRAINS,SELF, switch_purchase_Karlsruher,current_year){
+							   0 .. 1974: spriteset_Karlsruher_purchase_schwarz;
+							1975 .. 1987: spriteset_Karlsruher_purchase_ozeanblau;
+							1988 .. 1995: spriteset_Karlsruher_purchase_mint;
+							1996 .. 2050: spriteset_Karlsruher_purchase_verkehrsrot;
+								spriteset_Karlsruher_purchase_verkehrsrot;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karlsruher_schwarz, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karlsruher_schwarz;
+							1: spritegroup_Hasenkasten_loading;}																	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karlsruher_Binde, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karlsruher_Binde;
+							1: spritegroup_Hasenkasten_loading;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karlsruher_ozeanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karlsruher_ozeanblau;
+							1: spritegroup_Hasenkasten_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karlsruher_mint, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karlsruher_mint;
+							1: spritegroup_Hasenkasten_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karlsruher_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karlsruher_verkehrsrot;
+							1: spritegroup_Hasenkasten_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karlsruher_Karlsruhe, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karlsruher_Karlsruhe;
+							1: spritegroup_Hasenkasten_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karlsruher_Citybahn, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karlsruher_Citybahn;
+							1: spritegroup_Hasenkasten_loading;}	
+													
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karlsruher_NatX, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karlsruher_NatX;
+							1: spritegroup_Hasenkasten_loading;}
+								
+						switch(FEAT_TRAINS, SELF, switch_length_Karlsruher, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Karlsruher, 1){
+							return 2350;}
+
+						switch (FEAT_TRAINS, SELF, switch_build_year_Karlsruher, build_year){
+							   0 .. 1974: switch_spritestack_Karlsruher_schwarz;
+							1975 .. 1987: switch_spritestack_Karlsruher_ozeanblau;
+							1988 .. 1995: switch_spritestack_Karlsruher_mint;
+							1996 .. 2050: switch_spritestack_Karlsruher_verkehrsrot;
+								switch_spritestack_Karlsruher_verkehrsrot;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_build, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_build_year_Karlsruher;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_build, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_BUILD, 7915)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1972,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_build;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_build;
+			purchase					: switch_purchase_Karlsruher;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch (FEAT_TRAINS, SELF, switch_current_year_Karlsruher, current_year){
+							   0 .. 1974: switch_spritestack_Karlsruher_schwarz;
+							1975 .. 1987: switch_spritestack_Karlsruher_ozeanblau;
+							1988 .. 1995: switch_spritestack_Karlsruher_mint;
+							1996 .. 2050: switch_spritestack_Karlsruher_verkehrsrot;
+								switch_spritestack_Karlsruher_verkehrsrot;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_current, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_current_year_Karlsruher;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_current, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_CURRENT, 7916)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_CURRENT);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1972,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_current;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_current;
+			purchase					: switch_purchase_Karlsruher;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_schwarz, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_Karlsruher_schwarz;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_schwarz, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_SCHWARZ;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_SCHWARZ, 7917)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_SCHWARZ);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1972,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_schwarz;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_schwarz;
+			purchase					: spriteset_Karlsruher_purchase_schwarz;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_Binde, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_Karlsruher_Binde;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_Binde, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_BINDE;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_BINDE, 7918)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_BINDE);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1972,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_Binde;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_Binde;
+			purchase					: spriteset_Karlsruher_purchase_Binde;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_ozeanblau, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_Karlsruher_ozeanblau;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_ozeanblau, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_OZEANBLAU;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_OZEANBLAU, 7919)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_OZEANBLAU);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					37;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_ozeanblau;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_ozeanblau;
+			purchase					: spriteset_Karlsruher_purchase_ozeanblau;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_mint, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_Karlsruher_mint;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_mint, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_MINT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_MINT, 7920)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_MINT);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1988,01,01);
+						model_life: 					24;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_mint;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_mint;
+			purchase					: spriteset_Karlsruher_purchase_mint;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_verkehrsrot, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_Karlsruher_verkehrsrot;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_verkehrsrot, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_VERKEHRSROT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_VERKEHRSROT, 7921)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_VERKEHRSROT);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					16;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_verkehrsrot;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_verkehrsrot;
+			purchase					: spriteset_Karlsruher_purchase_verkehrsrot;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_Karlsruhe, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_Karlsruher_Karlsruhe;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_Karlsruhe, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_KARLSRUHE;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_KARLSRUHE, 7922)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_KARLSRUHE);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1977,01,01);
+						model_life: 					34;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_Karlsruhe;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_Karlsruhe;
+			purchase					: spriteset_Karlsruher_purchase_Karlsruhe;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_Citybahn, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_Karlsruher_Citybahn;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_Citybahn, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_CITYBAHN;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_CITYBAHN, 7923)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_CITYBAHN);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1984,01,01);
+						model_life: 					28;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_Citybahn;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_Citybahn;
+			purchase					: spriteset_Karlsruher_purchase_Citybahn;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Karlsruher_NatX, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_Karlsruher_NatX;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Karlsruher_NatX, extra_callback_info1) {
+							1 .. 2: return ITEM_KARLSRUHER_NATX;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_KARLSRUHER_NATX, 7924)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARLSRUHER_NATX);
+						variant_group:					7915;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					12;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						cargo_capacity:                 32 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						weight: 						28 ton;
+						ai_engine_rank: 				0;
+						dual_headed: 					0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_graphics_Karlsruher_NatX;
+			additional_text				: string(STR_DESC_KARL);
+			length						: switch_length_Karlsruher;
+			articulated_part			: switch_articulated_Karlsruher_NatX;
+			purchase					: spriteset_Karlsruher_purchase_NatX;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Karlsruher;							
+			}
+	}

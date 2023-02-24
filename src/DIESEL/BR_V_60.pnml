@@ -1,0 +1,646 @@
+//############
+//### V 60 ###
+//############
+
+//Altrot
+
+spriteset(spriteset_V_60_altrot, "gfx/V_60/V_60_altrot_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_altrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_altrot_1x_32bpp.png", "gfx/V_60/V_60_altrot_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_altrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_altrot_2x_32bpp.png", "gfx/V_60/V_60_altrot_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_altrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_altrot_4x_32bpp.png", "gfx/V_60/V_60_altrot_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+									
+spriteset(spriteset_V_60_altrot_REV, "gfx/V_60/V_60_altrot_1x_8bpp.png")
+									{ template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_altrot_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_altrot_1x_32bpp.png", "gfx/V_60/V_60_altrot_1x_mask.png")
+									{template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_altrot_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_altrot_2x_32bpp.png", "gfx/V_60/V_60_altrot_2x_mask.png")
+									{template_68trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_altrot_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_altrot_4x_32bpp.png", "gfx/V_60/V_60_altrot_4x_mask.png")
+									{template_68trains_REV_4x(0, 0)}									
+
+//Ozeanblau-Beige
+
+spriteset(spriteset_V_60_ozeanblau, "gfx/V_60/V_60_ozeanblau_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_ozeanblau_1x_32bpp.png", "gfx/V_60/V_60_ozeanblau_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_ozeanblau_2x_32bpp.png", "gfx/V_60/V_60_ozeanblau_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_ozeanblau_4x_32bpp.png", "gfx/V_60/V_60_ozeanblau_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+									
+spriteset(spriteset_V_60_ozeanblau_REV, "gfx/V_60/V_60_ozeanblau_1x_8bpp.png")
+									{ template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_ozeanblau_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_ozeanblau_1x_32bpp.png", "gfx/V_60/V_60_ozeanblau_1x_mask.png")
+									{template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_ozeanblau_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_ozeanblau_2x_32bpp.png", "gfx/V_60/V_60_ozeanblau_2x_mask.png")
+									{template_68trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_ozeanblau_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_ozeanblau_4x_32bpp.png", "gfx/V_60/V_60_ozeanblau_4x_mask.png")
+									{template_68trains_REV_4x(0, 0)}									
+
+//Orientrot
+
+spriteset(spriteset_V_60_orientrot, "gfx/V_60/V_60_orientrot_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_orientrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_orientrot_1x_32bpp.png", "gfx/V_60/V_60_orientrot_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_orientrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_orientrot_2x_32bpp.png", "gfx/V_60/V_60_orientrot_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_orientrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_orientrot_4x_32bpp.png", "gfx/V_60/V_60_orientrot_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+									
+spriteset(spriteset_V_60_orientrot_REV, "gfx/V_60/V_60_orientrot_1x_8bpp.png")
+									{ template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_orientrot_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_orientrot_1x_32bpp.png", "gfx/V_60/V_60_orientrot_1x_mask.png")
+									{template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_orientrot_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_orientrot_2x_32bpp.png", "gfx/V_60/V_60_orientrot_2x_mask.png")
+									{template_68trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_orientrot_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_orientrot_4x_32bpp.png", "gfx/V_60/V_60_orientrot_4x_mask.png")
+									{template_68trains_REV_4x(0, 0)}									
+
+//Verkehrsrot
+
+spriteset(spriteset_V_60_verkehrsrot, "gfx/V_60/V_60_verkehrsrot_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_verkehrsrot_1x_32bpp.png", "gfx/V_60/V_60_verkehrsrot_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_verkehrsrot_2x_32bpp.png", "gfx/V_60/V_60_verkehrsrot_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_verkehrsrot_4x_32bpp.png", "gfx/V_60/V_60_verkehrsrot_4x_mask.png")
+									{template_68trains_4x(0, 0) }
+									
+spriteset(spriteset_V_60_verkehrsrot_REV, "gfx/V_60/V_60_verkehrsrot_1x_8bpp.png")
+									{ template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_verkehrsrot_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_verkehrsrot_1x_32bpp.png", "gfx/V_60/V_60_verkehrsrot_1x_mask.png")
+									{template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_verkehrsrot_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_verkehrsrot_2x_32bpp.png", "gfx/V_60/V_60_verkehrsrot_2x_mask.png")
+									{template_68trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_verkehrsrot_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_verkehrsrot_4x_32bpp.png", "gfx/V_60/V_60_verkehrsrot_4x_mask.png")
+									{template_68trains_REV_4x(0, 0)}									
+
+//Spritesets animation
+
+spriteset(spriteset_V_60_anim1, "gfx/V_60/V_60_anim1_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim1_1x_32bpp.png", "gfx/V_60/V_60_anim1_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim1_2x_32bpp.png", "gfx/V_60/V_60_anim1_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim1_4x_32bpp.png", "gfx/V_60/V_60_anim1_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+									
+spriteset(spriteset_V_60_anim1_REV, "gfx/V_60/V_60_anim1_1x_8bpp.png")
+									{ template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim1_1x_32bpp.png", "gfx/V_60/V_60_anim1_1x_mask.png")
+									{template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim1_2x_32bpp.png", "gfx/V_60/V_60_anim1_2x_mask.png")
+									{template_68trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim1_4x_32bpp.png", "gfx/V_60/V_60_anim1_4x_mask.png")
+									{template_68trains_4x(0, 0)}									
+
+spriteset(spriteset_V_60_anim2, "gfx/V_60/V_60_anim2_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim2_1x_32bpp.png", "gfx/V_60/V_60_anim2_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim2_2x_32bpp.png", "gfx/V_60/V_60_anim2_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim2_4x_32bpp.png", "gfx/V_60/V_60_anim2_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+									
+spriteset(spriteset_V_60_anim2_REV, "gfx/V_60/V_60_anim2_1x_8bpp.png")
+									{ template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim2_1x_32bpp.png", "gfx/V_60/V_60_anim2_1x_mask.png")
+									{template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim2_2x_32bpp.png", "gfx/V_60/V_60_anim2_2x_mask.png")
+									{template_68trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim2_4x_32bpp.png", "gfx/V_60/V_60_anim2_4x_mask.png")
+									{template_68trains_4x(0, 0)}									
+									
+spriteset(spriteset_V_60_anim3, "gfx/V_60/V_60_anim3_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim3_1x_32bpp.png", "gfx/V_60/V_60_anim3_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim3_2x_32bpp.png", "gfx/V_60/V_60_anim3_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim3_4x_32bpp.png", "gfx/V_60/V_60_anim3_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+									
+spriteset(spriteset_V_60_anim3_REV, "gfx/V_60/V_60_anim3_1x_8bpp.png")
+									{ template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim3_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim3_1x_32bpp.png", "gfx/V_60/V_60_anim3_1x_mask.png")
+									{template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim3_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim3_2x_32bpp.png", "gfx/V_60/V_60_anim3_2x_mask.png")
+									{template_68trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim3_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim3_4x_32bpp.png", "gfx/V_60/V_60_anim3_4x_mask.png")
+									{template_68trains_4x(0, 0)}									
+									
+spriteset(spriteset_V_60_anim4, "gfx/V_60/V_60_anim4_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim4_1x_32bpp.png", "gfx/V_60/V_60_anim4_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim4_2x_32bpp.png", "gfx/V_60/V_60_anim4_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim4_4x_32bpp.png", "gfx/V_60/V_60_anim4_4x_mask.png")
+									{template_68trains_4x(0, 0)}	
+									
+spriteset(spriteset_V_60_anim4_REV, "gfx/V_60/V_60_anim4_1x_8bpp.png")
+									{ template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim4_1x_32bpp.png", "gfx/V_60/V_60_anim4_1x_mask.png")
+									{template_68trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim4_2x_32bpp.png", "gfx/V_60/V_60_anim4_2x_mask.png")
+									{template_68trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim4_4x_32bpp.png", "gfx/V_60/V_60_anim4_4x_mask.png")
+									{template_68trains_4x(0, 0)}																										
+
+//Spritesets purchase
+
+spriteset(spriteset_V_60_purchase1, "gfx/V_60/V_60_altrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_altrot_1x_32bpp.png", "gfx/V_60/V_60_altrot_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_V_60_purchase2, "gfx/V_60/V_60_ozeanblau_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_ozeanblau_1x_32bpp.png", "gfx/V_60/V_60_ozeanblau_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_V_60_purchase3, "gfx/V_60/V_60_orientrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_orientrot_1x_32bpp.png", "gfx/V_60/V_60_orientrot_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_V_60_purchase4, "gfx/V_60/V_60_verkehrsrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_purchase4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_verkehrsrot_1x_32bpp.png", "gfx/V_60/V_60_verkehrsrot_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_V_60_anim_purchase, "gfx/V_60/V_60_anim1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_V_60_anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_60/V_60_anim1_1x_32bpp.png", "gfx/V_60/V_60_anim1_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+									
+//Switches
+
+						switch (FEAT_TRAINS, SELF, switch_animation_V_60, motion_counter % 4) {
+								0: spriteset_V_60_anim1;
+								1: spriteset_V_60_anim2;
+								2: spriteset_V_60_anim3;
+								3: spriteset_V_60_anim4;}
+								
+						switch (FEAT_TRAINS, SELF, switch_animation_V_60_REV, motion_counter % 4) {
+								0: spriteset_V_60_anim1_REV;
+								1: spriteset_V_60_anim2_REV;
+								2: spriteset_V_60_anim3_REV;
+								3: spriteset_V_60_anim4_REV;}								
+								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_purchase1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_purchase1;
+							1: spriteset_V_60_anim_purchase;}								
+																										
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_purchase2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_purchase2;
+							1: spriteset_V_60_anim_purchase;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_purchase3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_purchase3;
+							1: spriteset_V_60_anim_purchase;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_purchase4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_purchase4;
+							1: spriteset_V_60_anim_purchase;}
+							
+						switch (FEAT_TRAINS,SELF, switch_V_60_purchase,current_year){
+							   0 .. 1974: switch_spritestack_V_60_purchase1;
+							1975 .. 1987: switch_spritestack_V_60_purchase2;	
+							1988 .. 1999: switch_spritestack_V_60_purchase3;
+							2000 .. 2045: switch_spritestack_V_60_purchase4;														 					 
+								switch_spritestack_V_60_purchase4;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_altrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_altrot;
+							1: return switch_animation_V_60;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_ozeanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_ozeanblau;
+							1: return switch_animation_V_60;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_orientrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_orientrot;
+							1: return switch_animation_V_60;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_verkehrsrot;
+							1: return switch_animation_V_60;}																					
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_altrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_altrot_REV;
+							1: return switch_animation_V_60_REV;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_ozeanblau_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_ozeanblau_REV;
+							1: return switch_animation_V_60_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_orientrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_orientrot_REV;
+							1: return switch_animation_V_60_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_V_60_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_V_60_verkehrsrot_REV;
+							1: return switch_animation_V_60_REV;}							
+							
+						switch (FEAT_TRAINS, PARENT, switch_reverse_V_60_altrot, vehicle_is_reversed) {
+							0: switch_spritestack_V_60_altrot;
+								switch_spritestack_V_60_altrot_REV;}							
+							
+						switch (FEAT_TRAINS, PARENT, switch_reverse_V_60_ozeanblau, vehicle_is_reversed) {
+							0: switch_spritestack_V_60_ozeanblau;
+								switch_spritestack_V_60_ozeanblau_REV;}							
+							
+						switch (FEAT_TRAINS, PARENT, switch_reverse_V_60_orientrot, vehicle_is_reversed) {
+							0: switch_spritestack_V_60_orientrot;
+								switch_spritestack_V_60_orientrot_REV;}							
+							
+						switch (FEAT_TRAINS, PARENT, switch_reverse_V_60_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_V_60_verkehrsrot;
+								switch_spritestack_V_60_verkehrsrot_REV;}	
+								
+						switch (FEAT_TRAINS,SELF, switch_V_60_build_year,build_year){
+							   0 .. 1974: switch_reverse_V_60_altrot;
+							1975 .. 1987: switch_reverse_V_60_ozeanblau;
+							1988 .. 1999: switch_reverse_V_60_orientrot;
+							1988 .. 2050: switch_reverse_V_60_verkehrsrot;	
+							switch_reverse_V_60_altrot;}
+
+						switch (FEAT_TRAINS,SELF, switch_V_60_current_year,current_year){
+							   0 .. 1974: switch_reverse_V_60_altrot;
+							1975 .. 1987: switch_reverse_V_60_ozeanblau;
+							1988 .. 1999: switch_reverse_V_60_orientrot;
+							1988 .. 2050: switch_reverse_V_60_verkehrsrot;	
+							switch_reverse_V_60_altrot;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_V_60, 1){
+							return 350;}														
+							
+item (FEAT_TRAINS , ITEM_V_60, 2600)
+
+
+		{
+			//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_V_60);
+								extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1955,01,01);
+								model_life: 					65;
+								vehicle_life: 					40;
+								retire_early: 					-10;									
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					54;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							60 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						650 hp;
+								weight: 						49 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_DIESEL;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.318;
+								length: 						6;
+			}
+			
+					graphics
+				{
+						default						   : switch_V_60_build_year;
+						additional_text				   : string(STR_DESC_SHUNT); 
+						purchase_cargo_capacity        : 0 ;
+						cargo_capacity                 : return 0 ;
+						purchase					   : switch_V_60_purchase;
+						cost_factor						:9;
+						running_cost_factor				: switch_running_cost_V_60;	
+			 }
+		}							
+
+item (FEAT_TRAINS , ITEM_V_60_CURRENT, 2601)
+
+
+		{
+			//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_V_60_CURRENT);
+								variant_group:					2600;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1955,01,01);
+								model_life: 					65;
+								vehicle_life: 					40;
+								retire_early: 					-10;									
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					54;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							60 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						650 hp;
+								weight: 						49 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_DIESEL;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.318;
+								length: 						6;
+			}
+			
+					graphics
+				{
+						default						   : switch_V_60_current_year;
+						additional_text				   : string(STR_DESC_SHUNT); 
+						purchase_cargo_capacity        : 0 ;
+						cargo_capacity                 : return 0 ;
+						purchase					   : switch_V_60_purchase;
+						cost_factor						:9;
+						running_cost_factor				: switch_running_cost_V_60;	
+			 }
+		}							
+
+item (FEAT_TRAINS , ITEM_V_60_ALTROT, 2602)
+
+
+		{
+			//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_V_60_ALTROT);
+								variant_group:					2600;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1955,01,01);
+								model_life: 					65;
+								vehicle_life: 					40;
+								retire_early: 					-10;									
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					54;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							60 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						650 hp;
+								weight: 						49 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_DIESEL;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.318;
+								length: 						6;
+			}
+			
+					graphics
+				{
+						default						   : switch_reverse_V_60_altrot;
+						additional_text				   : string(STR_DESC_SHUNT); 
+						purchase_cargo_capacity        : 0 ;
+						cargo_capacity                 : return 0 ;
+						purchase					   : switch_spritestack_V_60_purchase1;
+						cost_factor						:9;
+						running_cost_factor				: switch_running_cost_V_60;	
+			 }
+		}								
+
+item (FEAT_TRAINS , ITEM_V_60_OZEANBLAU, 2603)
+
+
+		{
+			//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_V_60_OZEANBLAU);
+								variant_group:					2600;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1975,01,01);
+								model_life: 					45;
+								vehicle_life: 					40;
+								retire_early: 					-10;									
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					54;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							60 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						650 hp;
+								weight: 						49 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_DIESEL;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.318;
+								length: 						6;
+			}
+			
+					graphics
+				{
+						default						   : switch_reverse_V_60_ozeanblau;
+						additional_text				   : string(STR_DESC_SHUNT); 
+						purchase_cargo_capacity        : 0 ;
+						cargo_capacity                 : return 0 ;
+						purchase					   : switch_spritestack_V_60_purchase2;
+						cost_factor						:9;
+						running_cost_factor				: switch_running_cost_V_60;	
+			 }
+		}							
+
+
+item (FEAT_TRAINS , ITEM_V_60_ORIENTROT, 2604)
+
+
+		{
+			//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_V_60_ORIENTROT);
+								variant_group:					2600;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1988,01,01);
+								model_life: 					32;
+								vehicle_life: 					40;
+								retire_early: 					-10;									
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					54;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							60 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						650 hp;
+								weight: 						49 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_DIESEL;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.318;
+								length: 						6;
+			}
+			
+					graphics
+				{
+						default						   : switch_reverse_V_60_orientrot;
+						additional_text				   : string(STR_DESC_SHUNT); 
+						purchase_cargo_capacity        : 0 ;
+						cargo_capacity                 : return 0 ;
+						purchase					   : switch_spritestack_V_60_purchase3;
+						cost_factor						:9;
+						running_cost_factor				: switch_running_cost_V_60;	
+			 }
+		}
+		
+item (FEAT_TRAINS , ITEM_V_60_VERKEHRSROT, 2605)
+
+
+		{
+			//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_V_60_VERKEHRSROT);
+								variant_group:					2600;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1999,01,01);
+								model_life: 					21;
+								vehicle_life: 					40;
+								retire_early: 					-10;									
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					54;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							60 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						650 hp;
+								weight: 						49 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_DIESEL;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.318;
+								length: 						6;
+			}
+			
+					graphics
+				{
+						default						   : switch_reverse_V_60_verkehrsrot;
+						additional_text				   : string(STR_DESC_SHUNT); 
+						purchase_cargo_capacity        : 0 ;
+						cargo_capacity                 : return 0 ;
+						purchase					   : switch_spritestack_V_60_purchase4;
+						cost_factor						:9;
+						running_cost_factor				: switch_running_cost_V_60;	
+			 }
+		}										

@@ -1,0 +1,121 @@
+//#########################		 
+//###PASSENGER CARRIAGES###
+//#########################																										
+						
+																																																																								
+//##########################
+//###Gr. 28 F-Zug-Coaches###
+//##########################
+
+
+		
+//Spritegroup F-Zug (blaue Gr. 28)
+	
+	//Spriteset loaded	
+		spriteset (spriteset_Gr_28_DB_F, "gfx/Gr_28/Gr_28_DB_F_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gr_28_DB_F, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gr_28/Gr_28_DB_F_1x_32bpp.png", "gfx/Gr_28/Gr_28_DB_F_1x_mask.png")
+					{template_128trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gr_28_DB_F, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gr_28/Gr_28_DB_F_2x_32bpp.png", "gfx/Gr_28/Gr_28_DB_F_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gr_28_DB_F, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gr_28/Gr_28_DB_F_4x_32bpp.png", "gfx/Gr_28/Gr_28_DB_F_4x_mask.png")
+					{template_128trains_4x(0,0)}	
+
+		
+	//Spriteset loaded				
+		spriteset (spriteset_Gr_28_DB_F_loading, "gfx/Gr_28/Gr_28_DB_F_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gr_28_DB_F_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gr_28/Gr_28_DB_F_loading_1x_32bpp.png", "gfx/Gr_28/Gr_28_DB_F_loading_1x_mask.png")
+					{template_128trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gr_28_DB_F_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gr_28/Gr_28_DB_F_loading_2x_32bpp.png", "gfx/Gr_28/Gr_28_DB_F_loading_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gr_28_DB_F_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gr_28/Gr_28_DB_F_loading_4x_32bpp.png", "gfx/Gr_28/Gr_28_DB_F_loading_4x_mask.png")
+					{template_128trains_4x(0,0)}					
+	
+						
+spritegroup spritegroup_Gr_28_DB_F
+		{
+			loaded: 	[spriteset_Gr_28_DB_F];
+			loading: 	[spriteset_Gr_28_DB_F_loading];
+		}		
+								
+					
+spriteset (spriteset_purchase_Gr_28_DB_F, "gfx/Gr_28/Gr_28_DB_F_1x_8bpp.png")
+					{template_purchase_128(0, 0)}					
+
+					
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_GR_28, 1){
+						return 2050;}						
+
+			
+						switch(FEAT_TRAINS, SELF, switch_GR_28_F_graphics, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     spritegroup_Gr_28_DB_F;
+							2:     spriteset_empty;
+							}			
+
+						switch(FEAT_TRAINS, SELF, switch_length_GR_28_F, position_in_vehid_chain % 3) {
+						0: 4;
+						1: 4;
+						2: 4;										
+						}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_GR_28_F, extra_callback_info1) {
+						1: return ITEM_GR_28_F;
+						2: return ITEM_GR_28_F;															//use same vehicle for all parts
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
+						}						
+
+
+item (FEAT_TRAINS , ITEM_GR_28_F, 8601)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GR_28_F);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					20;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						35 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default:						switch_GR_28_F_graphics;
+			additional_text:				string(STR_DESC_GR_28_F);
+			length:							switch_length_GR_28_F;
+			articulated_part:				switch_articulated_GR_28_F;
+			purchase: 						spriteset_purchase_Gr_28_DB_F;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_GR_28;							
+			 }
+		}

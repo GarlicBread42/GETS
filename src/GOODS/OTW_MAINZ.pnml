@@ -1,0 +1,136 @@
+//####################
+//###KPEV OTW Mainz###
+//####################			
+	
+//Spriteset empty
+
+spriteset (spriteset_OTW_Mainz, "gfx\OTW_Mainz/OTW_Mainz_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OTW_Mainz, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OTW_Mainz/OTW_Mainz_1x_32bpp.png", "gfx\OTW_Mainz/OTW_Mainz_1x_mask.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_OTW_Mainz, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\OTW_Mainz/OTW_Mainz_2x_32bpp.png", "gfx\OTW_Mainz/OTW_Mainz_2x_mask.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OTW_Mainz, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\OTW_Mainz/OTW_Mainz_4x_32bpp.png", "gfx\OTW_Mainz/OTW_Mainz_4x_mask.png")
+					{template_48trains_4x(0, 0)}
+					
+//Spritegroup Load
+
+spriteset (spriteset_OTW_Mainz_load0, "gfx\OTW_Mainz/OTW_Mainz_load0_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_OTW_Mainz_load0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load0_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OTW_Mainz_load0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load0_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+
+spriteset (spriteset_OTW_Mainz_load25, "gfx\OTW_Mainz/OTW_Mainz_load25_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_OTW_Mainz_load25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load25_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OTW_Mainz_load25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load25_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+
+spriteset (spriteset_OTW_Mainz_load50, "gfx\OTW_Mainz/OTW_Mainz_load50_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_OTW_Mainz_load50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load50_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OTW_Mainz_load50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load50_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+
+spriteset (spriteset_OTW_Mainz_load75, "gfx\OTW_Mainz/OTW_Mainz_load75_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_OTW_Mainz_load75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load75_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OTW_Mainz_load75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load75_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}																				
+
+spriteset (spriteset_OTW_Mainz_load100, "gfx\OTW_Mainz/OTW_Mainz_load100_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_OTW_Mainz_load100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load100_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_OTW_Mainz_load100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\OTW_Mainz/OTW_Mainz_load100_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+
+spritegroup spritegroup_OTW_Mainz_load
+		{
+			loaded: 	[spriteset_OTW_Mainz_load0, spriteset_OTW_Mainz_load25, spriteset_OTW_Mainz_load50, spriteset_OTW_Mainz_load75, spriteset_OTW_Mainz_load100];
+			loading: 	[spriteset_OTW_Mainz_load0, spriteset_OTW_Mainz_load25, spriteset_OTW_Mainz_load50, spriteset_OTW_Mainz_load75, spriteset_OTW_Mainz_load100];		
+		}					
+					
+//Spriteset_purchase					
+
+spriteset (spriteset_OTW_Mainz_purchase, "gfx\OTW_Mainz/OTW_Mainz_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_OTW_Mainz_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\OTW_Mainz/OTW_Mainz_1x_32bpp.png", "gfx\OTW_Mainz/OTW_Mainz_1x_mask.png")
+					{ template_purchase(0, 0)}	
+					
+					
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_OTW_MAINZ_loadstack, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_OTW_Mainz;
+						1: spritegroup_OTW_Mainz_load;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_OTW_Mainz, 1){
+						return 43;}	
+						
+item (FEAT_TRAINS , ITEM_OTW_MAINZ, 8750)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OTW_MAINZ);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1883,01,01);
+						model_life: 					65;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, COKE, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						7 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_OTW_MAINZ_loadstack;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_OTW_Mainz_purchase;
+			cost_factor						: 21;
+			running_cost_factor				: switch_running_cost_OTW_Mainz;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

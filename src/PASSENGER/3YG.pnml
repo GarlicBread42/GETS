@@ -1,0 +1,224 @@
+//###############
+//###3yg-twins###
+//###############
+
+//Spriteset Zweite Klasse
+
+spriteset (spriteset_3yg_B, "gfx\3yg/3yg_B_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3yg/3yg_B_1x_32bpp.png", "gfx\3yg/3yg_B_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_B_2x_32bpp.png", "gfx\3yg/3yg_B_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_3yg_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_B_4x_32bpp.png", "gfx\3yg/3yg_B_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+
+//Spriteset Erste/Zweite Klasse
+
+spriteset (spriteset_3yg_AB, "gfx\3yg/3yg_AB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_AB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3yg/3yg_AB_1x_32bpp.png", "gfx\3yg/3yg_AB_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_AB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_AB_2x_32bpp.png", "gfx\3yg/3yg_AB_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_3yg_AB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_AB_4x_32bpp.png", "gfx\3yg/3yg_AB_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+
+//Spriteset Zweite Klasse m. Gepäckabteil
+
+spriteset (spriteset_3yg_BD, "gfx\3yg/3yg_BD_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_BD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3yg/3yg_BD_1x_32bpp.png", "gfx\3yg/3yg_BD_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_BD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_BD_2x_32bpp.png", "gfx\3yg/3yg_BD_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_3yg_BD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_BD_4x_32bpp.png", "gfx\3yg/3yg_BD_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset loading
+
+spriteset (spriteset_3yg_loading, "gfx\3yg/3yg_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3yg/3yg_loading_1x_32bpp.png", "gfx\3yg/3yg_loading_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_loading_2x_32bpp.png", "gfx\3yg/3yg_loading_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_3yg_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_loading_4x_32bpp.png", "gfx\3yg/3yg_loading_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+									
+spritegroup spritegroup_3yg_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_3yg_loading];}
+			
+//Spriteset loading Gepäckabteil
+
+spriteset (spriteset_3yg_BD_loading, "gfx\3yg/3yg_BD_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_BD_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3yg/3yg_BD_loading_1x_32bpp.png", "gfx\3yg/3yg_BD_loading_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_BD_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_BD_loading_2x_32bpp.png", "gfx\3yg/3yg_BD_loading_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_3yg_BD_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3yg/3yg_BD_loading_4x_32bpp.png", "gfx\3yg/3yg_BD_loading_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+spritegroup spritegroup_3yg_BD_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_3yg_BD_loading];}
+			
+//Spritesets purchase			
+
+spriteset (spriteset_3yg_purchase, "gfx\3yg/3yg_B_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3yg/3yg_B_1x_32bpp.png", "gfx\3yg/3yg_B_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_3yg_purchase_BD, "gfx\3yg/3yg_BD_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_3yg_purchase_BD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3yg/3yg_BD_1x_32bpp.png", "gfx\3yg/3yg_BD_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+//Switches
+						 
+						switch(FEAT_TRAINS, SELF, switch_spritestack_3yg_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_3yg_B;
+							1: spritegroup_3yg_loading;}					
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_3yg_AB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_3yg_AB;
+							1: spritegroup_3yg_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_3yg_BD, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_3yg_BD;
+							1: spritegroup_3yg_BD_loading;}							
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_3yg, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_3yg_B;
+							   switch_spritestack_3yg_AB;}
+							   
+						switch(FEAT_TRAINS, SELF, switch_3yg_graphics, position_in_vehid_chain % 2) {
+							0:      switch_spritestack_3yg_B;
+							1:      return random_choose_3yg;}															
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_3yg, extra_callback_info1) {
+							1: return ITEM_3YG; 													
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_3yg, 1){
+							return 2500;}								   
+
+item (FEAT_TRAINS , ITEM_3YG, 7365)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_3YG);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					32;
+						vehicle_life: 					32;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						18 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					62;
+						ai_engine_rank: 				0;
+						length: 						8;					
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default:						switch_3yg_graphics;
+			additional_text:				string(STR_DESC_PASS);
+			articulated_part:				switch_articulated_3yg;
+			cost_factor: 					505;
+			running_cost_factor: 			switch_running_cost_3yg;
+			purchase: 						spriteset_3yg_purchase;					
+			 }
+		}	
+							   
+						switch(FEAT_TRAINS, SELF, switch_3yg_BD_graphics, position_in_vehid_chain % 2) {
+							0:      switch_spritestack_3yg_B;
+							1:      switch_spritestack_3yg_BD;}															
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_3yg_BD, extra_callback_info1) {
+							0: return ITEM_3YG; 
+							1: return ITEM_3YG_BD;													
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+
+item (FEAT_TRAINS , ITEM_3YG_BD, 5800)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_3YG_BD);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					32;
+						vehicle_life: 					32;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						18 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					62;
+						ai_engine_rank: 				0;
+						length: 						8;					
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default:						switch_3yg_BD_graphics;
+			additional_text:				string(STR_DESC_BAGG);
+			articulated_part:				switch_articulated_3yg_BD;
+			cost_factor: 					505;
+			running_cost_factor: 			switch_running_cost_3yg;
+			purchase: 						spriteset_3yg_purchase_BD;					
+			 }
+		}

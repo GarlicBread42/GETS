@@ -1,0 +1,36 @@
+   switch (FEAT_TRAINS, PARENT, switch_check_PWG_8, [count_veh_id(10019) > 0]) {
+            1: return 1;
+            0;}
+            
+   switch (FEAT_TRAINS, PARENT, switch_check_PWG_7, [count_veh_id(10018) > 0]) {
+            1: return 1;
+            return switch_check_PWG_8;}
+
+   switch (FEAT_TRAINS, PARENT, switch_check_PWG_6, [count_veh_id(10017) > 0]) {
+            1: return 1;
+            return switch_check_PWG_7;}
+
+   switch (FEAT_TRAINS, PARENT, switch_check_PWG_5, [count_veh_id(10016) > 0]) {
+            1: return 1;
+            return switch_check_PWG_6;}
+
+    switch (FEAT_TRAINS, PARENT, switch_check_PWG_4, [count_veh_id(10015) > 0]) {
+            1: return 1;
+            return switch_check_PWG_5;}
+
+    switch (FEAT_TRAINS, PARENT, switch_check_PWG_3, [count_veh_id(10013) > 0]) {
+            1: return 1;
+            return switch_check_PWG_4;}
+            
+    switch (FEAT_TRAINS, PARENT, switch_check_PWG_2, [count_veh_id(10012) > 0]) {
+            1: return 1;
+            return switch_check_PWG_3;}           
+
+                
+    switch (FEAT_TRAINS, PARENT, switch_check_PWG_1, [count_veh_id(10011) > 0]) {
+            1: return 1;
+           return switch_check_PWG_2;}
+            				
+    switch (FEAT_TRAINS, PARENT, switch_check_PWG_0, [count_veh_id(10010) > 0]) {
+            1: return 1;
+            return switch_check_PWG_1;}	

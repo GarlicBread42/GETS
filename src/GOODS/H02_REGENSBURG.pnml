@@ -1,0 +1,382 @@
+//####################
+//###H02 Regensburg###
+//####################
+
+//Spriteset K. Bay. Sts. B.
+
+spriteset (spriteset_H02_Regensburg_KBAY, "gfx\H02_Regensburg/H02_Regensburg_KBAY_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_KBAY, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_KBAY_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_KBAY_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_KBAY, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_KBAY_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_KBAY_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_KBAY, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_KBAY_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_KBAY_4x_mask.png")
+					{template_118trains_4x(0, 0)}	
+
+//Spriteset KPEV
+
+spriteset (spriteset_H02_Regensburg_KPEV, "gfx\H02_Regensburg/H02_Regensburg_KPEV_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_KPEV_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_KPEV_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_KPEV_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_KPEV_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_KPEV_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_KPEV_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+
+//Spriteset loading
+
+spriteset (spriteset_H02_Regensburg_load_empty, "gfx\H02_Regensburg/H02_Regensburg_load_empty_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_empty_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_empty_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_empty, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_empty_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_empty_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_load_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_empty_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_empty_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+
+					
+spriteset (spriteset_H02_Regensburg_load_Timber_30, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_30_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_30_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_30_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_30_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_30_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_30_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_30_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+					
+spriteset (spriteset_H02_Regensburg_load_Timber_60, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_60_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_60_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_60_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_60_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_60_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_60_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_60_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+					
+spriteset (spriteset_H02_Regensburg_load_Timber_100, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_100_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_100_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_load_Timber_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Timber_100_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Timber_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}																				
+
+spritegroup spritegroup_H02_Regensburg_load_Timber
+		{loaded: 	[spriteset_H02_Regensburg_load_empty, spriteset_H02_Regensburg_load_Timber_30, spriteset_H02_Regensburg_load_Timber_60, spriteset_H02_Regensburg_load_Timber_100];
+			loading: 	[spriteset_H02_Regensburg_load_empty, spriteset_H02_Regensburg_load_Timber_30, spriteset_H02_Regensburg_load_Timber_60, spriteset_H02_Regensburg_load_Timber_100];}	
+			
+			
+
+spriteset (spriteset_H02_Regensburg_load_Wood_30, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_30_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_30_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_30_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_30_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_30_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_30_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_30_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+					
+spriteset (spriteset_H02_Regensburg_load_Wood_60, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_60_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_60_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_60_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_60_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_60_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_60_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_60_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+					
+spriteset (spriteset_H02_Regensburg_load_Wood_100, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_100_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_100_2x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_H02_Regensburg_load_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_load_Wood_100_4x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_load_Wood_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+					
+spritegroup spritegroup_H02_Regensburg_load_Wood
+		{loaded: 	[spriteset_H02_Regensburg_load_empty, spriteset_H02_Regensburg_load_Wood_30, spriteset_H02_Regensburg_load_Wood_60, spriteset_H02_Regensburg_load_Wood_100];
+			loading: 	[spriteset_H02_Regensburg_load_empty, spriteset_H02_Regensburg_load_Wood_30, spriteset_H02_Regensburg_load_Wood_60, spriteset_H02_Regensburg_load_Wood_100];}	
+
+			
+//Spriteset purchase
+
+spriteset (spriteset_H02_Regensburg_purchase, "gfx\H02_Regensburg/H02_Regensburg_KBAY_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_KBAY_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_KBAY_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_H02_Regensburg_purchase_KPEV, "gfx\H02_Regensburg/H02_Regensburg_KPEV_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_H02_Regensburg_purchase_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\H02_Regensburg/H02_Regensburg_KPEV_1x_32bpp.png", "gfx\H02_Regensburg/H02_Regensburg_KPEV_1x_mask.png")
+					{template_purchase(0, 0)}					
+
+//Switches
+
+					switch (FEAT_TRAINS,PARENT,switch_H02_Regensburg_check_BAYKWSE, switch_check_BAY_0()) {
+							0: spriteset_H02_Regensburg_KPEV; 
+								spriteset_H02_Regensburg_KBAY;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_H02_Regensburg_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_H02_Regensburg_check_BAYKWSE;
+						1: spritegroup_H02_Regensburg_load_Wood;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_H02_Regensburg_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_H02_Regensburg_check_BAYKWSE;
+						1: spritegroup_H02_Regensburg_load_Timber;}
+						
+					switch (FEAT_TRAINS, SELF, switch_H02_Regensburg_cargo_type, cargo_type_in_veh) {		
+							BDMT: return switch_loadstack_H02_Regensburg_Timber;
+							WDPR: return switch_loadstack_H02_Regensburg_Timber;						
+							WOOD: return switch_loadstack_H02_Regensburg_Wood;							
+								switch_loadstack_H02_Regensburg_Wood;}																									
+												
+					switch(FEAT_TRAINS, SELF, switch_length_H02_Regensburg, position_in_vehid_chain % 3) {
+						0: 4;
+						1: 3;
+						2: 4;}
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_H02_Regensburg, 1){
+						return 130;}	
+																																																																											
+					switch(FEAT_TRAINS, SELF, switch_H02_Regensburg_graphics_current, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_H02_Regensburg_cargo_type;
+						2:	   spriteset_empty;}	
+						
+					switch (FEAT_TRAINS, SELF, switch_articulated_H02_Regensburg_current, extra_callback_info1) {
+						1 .. 2: return ITEM_H02_REGENSBURG_CURRENT;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}				
+
+item (FEAT_TRAINS , ITEM_H02_REGENSBURG_CURRENT, 8961)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_H02_REGENSBURG_CURRENT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1888,01,01);
+						model_life: 					30;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask( 	);
+						cargo_allow_refit:              [WOOD, WDPR, BDMT];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI, CLAY, KAOL, SASH];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						17 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_H02_Regensburg_graphics_current;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_H02_Regensburg_current;
+			length							: switch_length_H02_Regensburg;
+			purchase						: spriteset_H02_Regensburg_purchase;
+			cost_factor						: 60;
+			running_cost_factor				: switch_running_cost_H02_Regensburg;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_H02_Regensburg_KPEV_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_H02_Regensburg_KPEV;
+						1: spritegroup_H02_Regensburg_load_Wood;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_H02_Regensburg_KPEV_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_H02_Regensburg_KPEV;
+						1: spritegroup_H02_Regensburg_load_Timber;}
+						
+					switch (FEAT_TRAINS, SELF, switch_H02_Regensburg_KPEV_cargo_type, cargo_type_in_veh) {		
+							BDMT: return switch_loadstack_H02_Regensburg_KPEV_Timber;
+							WDPR: return switch_loadstack_H02_Regensburg_KPEV_Timber;						
+							WOOD: return switch_loadstack_H02_Regensburg_KPEV_Wood;							
+								switch_loadstack_H02_Regensburg_KPEV_Wood;}	
+
+					switch(FEAT_TRAINS, SELF, switch_H02_Regensburg_graphics_KPEV, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_H02_Regensburg_KPEV_cargo_type;
+						2:	   spriteset_empty;}	
+						
+					switch (FEAT_TRAINS, SELF, switch_articulated_H02_Regensburg_KPEV, extra_callback_info1) {
+						1 .. 2: return ITEM_H02_REGENSBURG_KPEV;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}				
+
+item (FEAT_TRAINS , ITEM_H02_REGENSBURG_KPEV, 8962)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_H02_REGENSBURG_KPEV);
+						variant_group:					8961;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1888,01,01);
+						model_life: 					30;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask( 	);
+						cargo_allow_refit:              [WOOD, WDPR, BDMT];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI, CLAY, KAOL, SASH];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						17 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_H02_Regensburg_graphics_KPEV;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_H02_Regensburg_KPEV;
+			length							: switch_length_H02_Regensburg;
+			purchase						: spriteset_H02_Regensburg_purchase_KPEV;
+			cost_factor						: 60;
+			running_cost_factor				: switch_running_cost_H02_Regensburg;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_H02_Regensburg_BAY_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_H02_Regensburg_KBAY;
+						1: spritegroup_H02_Regensburg_load_Wood;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_H02_Regensburg_BAY_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_H02_Regensburg_KBAY;
+						1: spritegroup_H02_Regensburg_load_Timber;}
+						
+					switch (FEAT_TRAINS, SELF, switch_H02_Regensburg_BAY_cargo_type, cargo_type_in_veh) {		
+							BDMT: return switch_loadstack_H02_Regensburg_BAY_Timber;
+							WDPR: return switch_loadstack_H02_Regensburg_BAY_Timber;						
+							WOOD: return switch_loadstack_H02_Regensburg_BAY_Wood;							
+								switch_loadstack_H02_Regensburg_BAY_Wood;}	
+
+					switch(FEAT_TRAINS, SELF, switch_H02_Regensburg_graphics_BAY, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_H02_Regensburg_BAY_cargo_type;
+						2:	   spriteset_empty;}	
+						
+					switch (FEAT_TRAINS, SELF, switch_articulated_H02_Regensburg_BAY, extra_callback_info1) {
+						1 .. 2: return ITEM_H02_REGENSBURG_BAY;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}				
+
+item (FEAT_TRAINS , ITEM_H02_REGENSBURG_BAY, 8963)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_H02_REGENSBURG_BAY);
+						variant_group:					8961;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1888,01,01);
+						model_life: 					30;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask( 	);
+						cargo_allow_refit:              [WOOD, WDPR, BDMT];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI, CLAY, KAOL, SASH];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						17 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_H02_Regensburg_graphics_BAY;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_H02_Regensburg_BAY;
+			length							: switch_length_H02_Regensburg;
+			purchase						: spriteset_H02_Regensburg_purchase;
+			cost_factor						: 60;
+			running_cost_factor				: switch_running_cost_H02_Regensburg;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

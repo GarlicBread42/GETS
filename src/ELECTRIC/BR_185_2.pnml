@@ -1,0 +1,94 @@
+//##################
+//###BR 185.2 DB ###
+//##################
+
+spriteset(spriteset_BR_185_2_verkehrsrot, "gfx/BR_185_2/BR_185_2_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_185_2_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_185_2/BR_185_2_1x_32bpp.png", "gfx/BR_185_2/BR_185_2_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_185_2_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_185_2/BR_185_2_2x_32bpp.png", "gfx/BR_185_2/BR_185_2_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_185_2_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_185_2/BR_185_2_4x_32bpp.png", "gfx/BR_185_2/BR_185_2_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+
+spriteset(spriteset_BR_185_2_purchase, "gfx/BR_185_2/BR_185_2_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+									
+//Switches																	
+									
+						switch(FEAT_TRAINS, SELF, switch_BR_185_2_graphics, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_185_2_verkehrsrot;
+							2:	   spriteset_empty;}								
+					
+						switch(FEAT_TRAINS, SELF, switch_length_BR_185_2, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_BR_185_2, position_in_vehid_chain % 3) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_185_2, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_185_2; 	
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_185_2, 1){
+							return 3600;}						
+						
+item (FEAT_TRAINS , ITEM_BR_185_2, 1852)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: string(STR_NAME_BR_185_2);
+						climates_available: ALL_CLIMATES;
+						introduction_date: date(2004,01,01);
+						model_life: 30;
+						vehicle_life: 30;
+						retire_early: -10;							
+						reliability_decay: 20;
+						cargo_allow_refit              : [PASS] ;
+						cargo_capacity                 : 1 ;
+						cost_factor: 108;
+						running_cost_base: RUNNING_COST_STEAM;						
+						running_cost_factor: 90;
+						
+			//Train specific properties
+						sprite_id: SPRITE_ID_NEW_TRAIN;
+						speed: 140 km/h;
+						refit_cost: 0;
+						track_type: ELRL;
+						power:  7616 hp;
+						weight: 85 ton;
+						ai_engine_rank: 0;
+						engine_class: ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 0;
+						tractive_effort_coefficient: 0.352;
+						length: 8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_185_2_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			length							: switch_length_BR_185_2;
+			articulated_part				: switch_articulated_BR_185_2;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_185_2_purchase;
+			cost_factor						: 244;
+			running_cost_factor				: switch_running_cost_BR_185_2;
+			visual_effect_and_powered		: switch_FX_BR_185_2;
+			}
+	}
+

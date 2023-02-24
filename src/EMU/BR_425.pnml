@@ -1,0 +1,298 @@
+//##################################
+//###BR 425 DB Regio "Quietschie"###
+//##################################
+
+//Spriteset front
+
+spriteset(spriteset_BR_425_front, "gfx\BR_425/BR_425_front_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_1x_32bpp.png", "gfx\BR_425/BR_425_front_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_2x_32bpp.png", "gfx\BR_425/BR_425_front_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_4x_32bpp.png", "gfx\BR_425/BR_425_front_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+
+//Spriteset middle 1 (ohne Pantograf)
+
+spriteset(spriteset_BR_425_middle1, "gfx\BR_425/BR_425_middle1_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle1_1x_32bpp.png", "gfx\BR_425/BR_425_middle1_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle1_2x_32bpp.png", "gfx\BR_425/BR_425_middle1_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle1_4x_32bpp.png", "gfx\BR_425/BR_425_middle1_4x_mask.png")
+									{ template_98trains_4x(0, 0)}	
+									
+																		
+//Spriteset middle 2 (mit Pantograf)
+
+spriteset(spriteset_BR_425_middle2, "gfx\BR_425/BR_425_middle2_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle2_1x_32bpp.png", "gfx\BR_425/BR_425_middle2_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle2_2x_32bpp.png", "gfx\BR_425/BR_425_middle2_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle2_4x_32bpp.png", "gfx\BR_425/BR_425_middle2_4x_mask.png")
+									{ template_98trains_4x(0, 0)}										
+																	
+
+//Spriteset back
+
+spriteset(spriteset_BR_425_back, "gfx\BR_425/BR_425_back_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_1x_32bpp.png", "gfx\BR_425/BR_425_back_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_2x_32bpp.png", "gfx\BR_425/BR_425_back_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_4x_32bpp.png", "gfx\BR_425/BR_425_back_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+									
+//Spriteset Loadstack front
+
+spriteset(spriteset_BR_425_front_load, "gfx\BR_425/BR_425_front_load_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front_load, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_load_1x_32bpp.png", "gfx\BR_425/BR_425_front_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front_load, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_load_2x_32bpp.png", "gfx\BR_425/BR_425_front_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front_load, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_load_4x_32bpp.png", "gfx\BR_425/BR_425_front_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+
+spriteset(spriteset_BR_425_front_loaddummy, "gfx\BR_425/BR_425_front_loaddummy_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front_loaddummy, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_loaddummy_1x_32bpp.png", "gfx\BR_425/BR_425_front_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front_loaddummy, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_loaddummy_2x_32bpp.png", "gfx\BR_425/BR_425_front_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_front_loaddummy, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_loaddummy_4x_32bpp.png", "gfx\BR_425/BR_425_front_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+spritegroup spritegroup_BR_425_front_load
+		{loaded: 	[spriteset_BR_425_front_loaddummy];
+			loading: 	[spriteset_BR_425_front_load];}
+
+
+//Spriteset Loadstack back
+
+spriteset(spriteset_BR_425_back_load, "gfx\BR_425/BR_425_back_load_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back_load, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_load_1x_32bpp.png", "gfx\BR_425/BR_425_back_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back_load, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_load_2x_32bpp.png", "gfx\BR_425/BR_425_back_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back_load, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_load_4x_32bpp.png", "gfx\BR_425/BR_425_back_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+
+spriteset(spriteset_BR_425_back_loaddummy, "gfx\BR_425/BR_425_back_loaddummy_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back_loaddummy, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_loaddummy_1x_32bpp.png", "gfx\BR_425/BR_425_back_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back_loaddummy, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_loaddummy_2x_32bpp.png", "gfx\BR_425/BR_425_back_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_back_loaddummy, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_back_loaddummy_4x_32bpp.png", "gfx\BR_425/BR_425_back_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+spritegroup spritegroup_BR_425_back_load
+		{loaded: 	[spriteset_BR_425_back_loaddummy];
+			loading: 	[spriteset_BR_425_back_load];}	
+			
+			
+//Spriteset Loadstack middle
+
+spriteset(spriteset_BR_425_middle_load, "gfx\BR_425/BR_425_middle_load_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle_load, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle_load_1x_32bpp.png", "gfx\BR_425/BR_425_middle1_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle_load, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle_load_2x_32bpp.png", "gfx\BR_425/BR_425_middle1_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle_load, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle_load_4x_32bpp.png", "gfx\BR_425/BR_425_middle1_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+
+spriteset(spriteset_BR_425_middle_loaddummy, "gfx\BR_425/BR_425_middle_loaddummy_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle_loaddummy, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle_loaddummy_1x_32bpp.png", "gfx\BR_425/BR_425_middle1_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle_loaddummy, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle_loaddummy_2x_32bpp.png", "gfx\BR_425/BR_425_middle1_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_middle_loaddummy, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_middle_loaddummy_4x_32bpp.png", "gfx\BR_425/BR_425_middle1_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_BR_425_middle_load
+		{loaded: 	[spriteset_BR_425_middle_loaddummy];
+			loading: 	[spriteset_BR_425_middle_load];}
+			
+
+//Spriteset purchase
+
+spriteset(spriteset_BR_425_purchase, "gfx\BR_425/BR_425_front_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_425_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_425/BR_425_front_1x_32bpp.png", "gfx\BR_425/BR_425_front_1x_mask.png")
+									{ template_purchase(0, 0)}			
+			
+			
+			//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_425_front, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_425_front;
+							1: spritegroup_BR_425_front_load;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_425_middle1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_425_middle1;
+							1: spritegroup_BR_425_middle_load;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_425_middle2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_425_middle2;
+							1: spritegroup_BR_425_middle_load;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_425_back, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_425_back;
+							1: spritegroup_BR_425_back_load;}
+							
+					switch(FEAT_TRAINS, SELF, switch_BR_425_graphics, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_425_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_spritestack_BR_425_middle1;
+							5:	   spriteset_empty;							
+							6:	   spriteset_empty;
+							7:	   return switch_spritestack_BR_425_middle2;	
+							8:	   spriteset_empty;
+							9:	   spriteset_empty;
+						   10:     return switch_spritestack_BR_425_back;
+						   11:     spriteset_empty;}													 							 						 													
+
+					switch(FEAT_TRAINS, SELF, switch_length_BR_425, position_in_vehid_chain % 12) {
+						0: 4;
+						1: 3;
+						2: 4;
+						3: 3;
+						4: 3;
+						5: 3;
+						6: 3;						
+						7: 3;
+						8: 3;
+						9: 4;
+						10: 3;
+						11: 4;}							
+
+						   
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_425, extra_callback_info1) {
+						1 .. 11: return ITEM_BR_425; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_425, 1){
+							return 2050;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_BR_425, position_in_vehid_chain % 12) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);								
+							6: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}							
+
+					switch(FEAT_TRAINS, SELF, switch_coupling_BR_425, vehicle_type_id) {
+							4255: return CB_RESULT_ATTACH_ALLOW;
+							4230: return CB_RESULT_ATTACH_ALLOW;
+							4231: return CB_RESULT_ATTACH_ALLOW;
+							4232: return CB_RESULT_ATTACH_ALLOW;
+							4233: return CB_RESULT_ATTACH_ALLOW;
+							4234: return CB_RESULT_ATTACH_ALLOW;
+							4240: return CB_RESULT_ATTACH_ALLOW;
+							4260: return CB_RESULT_ATTACH_ALLOW;
+							return string (STR_COUPLING_SAME);}							
+
+item (FEAT_TRAINS , ITEM_BR_425, 4255)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_425);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				22;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_capacity:                 21;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3196 hp;
+						weight: 						114 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.13;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_425_graphics;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_425;
+			articulated_part				: switch_articulated_BR_425;
+			can_attach_wagon				: switch_coupling_BR_425;
+			visual_effect_and_powered		: switch_FX_BR_425;
+			purchase						: spriteset_BR_425_purchase;
+			cost_factor						: 143;
+			running_cost_factor				: switch_running_cost_BR_425;
+			
+			}
+	}	

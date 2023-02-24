@@ -1,0 +1,137 @@
+//#############################
+//###GH05 - Hannover/Stettin###
+//#############################	
+//Spriteset KPEV
+
+spriteset (spriteset_GH05_KPEV, "gfx\GH05/GH05_KPEV_1x_8bpp.png")
+					{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GH05/GH05_KPEV_1x_32bpp.png", "gfx\GH05/GH05_KPEV_1x_mask.png")
+					{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GH05/GH05_KPEV_2x_32bpp.png", "gfx\GH05/GH05_KPEV_2x_mask.png")
+					{template_78trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GH05_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GH05/GH05_KPEV_4x_32bpp.png", "gfx\GH05/GH05_KPEV_4x_mask.png")
+						{template_78trains_4x(0, 0)}		
+		
+spriteset (spriteset_GH05_KPEV_loading, "gfx\GH05/GH05_KPEV_loading_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_KPEV_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GH05/GH05_KPEV_loading_1x_32bpp.png", "gfx\GH05/GH05_KPEV_loading_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_KPEV_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GH05/GH05_KPEV_loading_2x_32bpp.png", "gfx\GH05/GH05_KPEV_loading_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GH05_KPEV_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GH05/GH05_KPEV_loading_4x_32bpp.png", "gfx\GH05/GH05_KPEV_loading_4x_mask.png")
+					{template_78trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GH05_KPEV
+		{loaded: 	[spriteset_GH05_KPEV];
+			loading: 	[spriteset_GH05_KPEV_loading];}
+
+
+//Spriteset DRG
+
+spriteset (spriteset_GH05_DRG, "gfx\GH05/GH05_DRG_1x_8bpp.png")
+					{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GH05/GH05_DRG_1x_32bpp.png", "gfx\GH05/GH05_DRG_1x_mask.png")
+					{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GH05/GH05_DRG_2x_32bpp.png", "gfx\GH05/GH05_DRG_2x_mask.png")
+					{template_78trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GH05_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GH05/GH05_DRG_4x_32bpp.png", "gfx\GH05/GH05_DRG_4x_mask.png")
+						{template_78trains_4x(0, 0)}		
+		
+spriteset (spriteset_GH05_DRG_loading, "gfx\GH05/GH05_DRG_loading_1x_8bpp.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_DRG_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GH05/GH05_DRG_loading_1x_32bpp.png", "gfx\GH05/GH05_DRG_loading_1x_mask.png")
+						{template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_DRG_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GH05/GH05_DRG_loading_2x_32bpp.png", "gfx\GH05/GH05_DRG_loading_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GH05_DRG_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GH05/GH05_DRG_loading_4x_32bpp.png", "gfx\GH05/GH05_DRG_loading_4x_mask.png")
+					{template_78trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GH05_DRG
+		{loaded: 	[spriteset_GH05_DRG];
+			loading: 	[spriteset_GH05_DRG_loading];}
+
+//Spritesets purchase
+
+spriteset (spriteset_GH05_purchase_1, "gfx\GH05/GH05_KPEV_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_purchase_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GH05/GH05_KPEV_1x_32bpp.png", "gfx\GH05/GH05_KPEV_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_GH05_purchase_2, "gfx\GH05/GH05_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GH05_purchase_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GH05/GH05_DRG_1x_32bpp.png", "gfx\GH05/GH05_DRG_1x_mask.png")
+					{template_purchase(0, 0)}
+
+//Switches
+					 switch (FEAT_TRAINS,SELF, switch_GH05_purchase,current_year){
+							   0 .. 1919: spriteset_GH05_purchase_1;
+							1920 .. 1955: spriteset_GH05_purchase_2;				 					 
+							spriteset_GH05_purchase_2;}
+				
+					switch (FEAT_TRAINS,SELF,switch_graphics_GH05,current_year) {
+						   0 .. 1919 : spritegroup_GH05_KPEV;
+						1920 .. 2000 : spritegroup_GH05_DRG;
+						spritegroup_GH05_DRG;}
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_GH05, 1){
+						return 220;}							
+
+item (FEAT_TRAINS , ITEM_GH05, 8200)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GH05);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1899,01,01);
+						model_life: 					71;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [MAIL, GOOD, VALU, GOLD, DIAM, BOOM, ENSP, FMSP, PCL_,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						7;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_GH05;
+			additional_text					: string(STR_DESC_EXP_GOODS);
+			purchase						: switch_GH05_purchase;
+			cost_factor						: 77;
+			running_cost_factor				: switch_running_cost_GH05;				
+			
+			 }}

@@ -1,0 +1,280 @@
+//###################
+//###ORK Karlsruhe###
+//###################
+
+
+//Spriteset empty ohne Bremserhaus
+
+spriteset (spriteset_ORK_Karlsruhe_OBH, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_1x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_1x_mask.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_2x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_2x_mask.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_4x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_4x_mask.png")
+					{template_48trains_4x(0, 0)}
+					
+//Spritesets loading
+
+spriteset (spriteset_ORK_Karlsruhe_OBH_bulk_load_0, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_0_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_0_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_0_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_OBH_bulk_load_25, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_25_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_25_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_25_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_OBH_bulk_load_50, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_50_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_50_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_50_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_OBH_bulk_load_75, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_75_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_75_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_75_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_OBH_bulk_load_100, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_100_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_100_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_100_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}	
+					
+spriteset (spriteset_ORK_Karlsruhe_OBH_bulk_load_100_tarp, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_100_tarp_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_100_tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_100_tarp_1x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_1x_mask.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_100_tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_100_tarp_2x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_2x_mask.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_OBH_bulk_load_100_tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_bulk_load_100_tarp_4x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_4x_mask.png")
+					{template_48trains_4x(0, 0)}																																																	
+
+spritegroup spritegroup_ORK_Karlsruhe_OBH_open
+		{
+			loaded: 	[spriteset_ORK_Karlsruhe_OBH_bulk_load_0, spriteset_ORK_Karlsruhe_OBH_bulk_load_25, spriteset_ORK_Karlsruhe_OBH_bulk_load_50, spriteset_ORK_Karlsruhe_OBH_bulk_load_75, spriteset_ORK_Karlsruhe_OBH_bulk_load_100];
+			loading: 	[spriteset_ORK_Karlsruhe_OBH_bulk_load_0, spriteset_ORK_Karlsruhe_OBH_bulk_load_25, spriteset_ORK_Karlsruhe_OBH_bulk_load_50, spriteset_ORK_Karlsruhe_OBH_bulk_load_75, spriteset_ORK_Karlsruhe_OBH_bulk_load_100];		
+		}	
+
+spritegroup spritegroup_ORK_Karlsruhe_OBH_covered
+		{
+			loaded: 	[spriteset_ORK_Karlsruhe_OBH_bulk_load_0, spriteset_ORK_Karlsruhe_OBH_bulk_load_100_tarp];
+			loading: 	[spriteset_ORK_Karlsruhe_OBH_bulk_load_0, spriteset_ORK_Karlsruhe_OBH_bulk_load_25, spriteset_ORK_Karlsruhe_OBH_bulk_load_50, spriteset_ORK_Karlsruhe_OBH_bulk_load_75, spriteset_ORK_Karlsruhe_OBH_bulk_load_100];		
+		}
+
+
+//Spriteset empty mit Bremserhaus
+
+spriteset (spriteset_ORK_Karlsruhe_MBH, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_1x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_1x_mask.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_2x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_2x_mask.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_4x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_4x_mask.png")
+					{template_48trains_4x(0, 0)}
+					
+//Spritesets loading
+
+spriteset (spriteset_ORK_Karlsruhe_MBH_bulk_load_0, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_0_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_0_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_0_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_MBH_bulk_load_25, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_25_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_25_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_25_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_MBH_bulk_load_50, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_50_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_50_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_50_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_MBH_bulk_load_75, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_75_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_75_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_75_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_MBH_bulk_load_100, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_100_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_100_2x_8bpp.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_100_4x_8bpp.png")
+					{template_48trains_4x(0, 0)}
+					
+spriteset (spriteset_ORK_Karlsruhe_MBH_bulk_load_100_tarp, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_100_tarp_1x_8bpp.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_100_tarp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_100_tarp_1x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_1x_mask.png")
+					{template_48trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_100_tarp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_100_tarp_2x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_2x_mask.png")
+					{template_48trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_ORK_Karlsruhe_MBH_bulk_load_100_tarp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_bulk_load_100_tarp_4x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_MBH_4x_mask.png")
+					{template_48trains_4x(0, 0)}																																																	
+
+spritegroup spritegroup_ORK_Karlsruhe_MBH_open
+		{
+			loaded: 	[spriteset_ORK_Karlsruhe_MBH_bulk_load_0, spriteset_ORK_Karlsruhe_MBH_bulk_load_25, spriteset_ORK_Karlsruhe_MBH_bulk_load_50, spriteset_ORK_Karlsruhe_MBH_bulk_load_75, spriteset_ORK_Karlsruhe_MBH_bulk_load_100];
+			loading: 	[spriteset_ORK_Karlsruhe_MBH_bulk_load_0, spriteset_ORK_Karlsruhe_MBH_bulk_load_25, spriteset_ORK_Karlsruhe_MBH_bulk_load_50, spriteset_ORK_Karlsruhe_MBH_bulk_load_75, spriteset_ORK_Karlsruhe_MBH_bulk_load_100];		
+		}	
+
+spritegroup spritegroup_ORK_Karlsruhe_MBH_covered
+		{
+			loaded: 	[spriteset_ORK_Karlsruhe_MBH_bulk_load_0, spriteset_ORK_Karlsruhe_MBH_bulk_load_100_tarp];
+			loading: 	[spriteset_ORK_Karlsruhe_MBH_bulk_load_0, spriteset_ORK_Karlsruhe_MBH_bulk_load_25, spriteset_ORK_Karlsruhe_MBH_bulk_load_50, spriteset_ORK_Karlsruhe_MBH_bulk_load_75, spriteset_ORK_Karlsruhe_MBH_bulk_load_100];		
+		}
+		
+		
+//Spriteset purchase
+
+spriteset (spriteset_ORK_Karlsruhe_purchase, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_ORK_Karlsruhe_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_1x_32bpp.png", "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OBH_1x_mask.png")
+					{ template_purchase(0, 0)}		
+
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_open_ORK_Karlsruhe_OBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_ORK_Karlsruhe_OBH;
+						1: spritegroup_ORK_Karlsruhe_OBH_open;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_covered_ORK_Karlsruhe_OBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_ORK_Karlsruhe_OBH;
+						1: spritegroup_ORK_Karlsruhe_OBH_covered;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_open_ORK_Karlsruhe_MBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_ORK_Karlsruhe_MBH;
+						1: spritegroup_ORK_Karlsruhe_MBH_open;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_covered_ORK_Karlsruhe_MBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_ORK_Karlsruhe_MBH;
+						1: spritegroup_ORK_Karlsruhe_MBH_covered;}											
+
+					switch (FEAT_TRAINS, SELF, random_choose_open_ORK_Karlsruhe, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_open_ORK_Karlsruhe_OBH;
+								switch_loadstack_open_ORK_Karlsruhe_MBH;}
+								
+					switch (FEAT_TRAINS, SELF, random_choose_covered_ORK_Karlsruhe, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_covered_ORK_Karlsruhe_OBH;
+								switch_loadstack_covered_ORK_Karlsruhe_MBH;}								
+
+					switch (FEAT_TRAINS, SELF, switch_ORK_Karlsruhe_sprite_choose, cargo_type_in_veh) {
+							BDMT: random_choose_covered_ORK_Karlsruhe;
+							CMNT: random_choose_covered_ORK_Karlsruhe; 
+							FERT: random_choose_covered_ORK_Karlsruhe;
+							FICR: random_choose_covered_ORK_Karlsruhe;
+							GRAI: random_choose_covered_ORK_Karlsruhe;
+							RCYC: random_choose_covered_ORK_Karlsruhe;
+							SALT: random_choose_covered_ORK_Karlsruhe;
+							SCMT: random_choose_covered_ORK_Karlsruhe;
+							SCRP: random_choose_covered_ORK_Karlsruhe;
+							PEAT: random_choose_covered_ORK_Karlsruhe;
+							BEAN: random_choose_covered_ORK_Karlsruhe;
+							SUGR: random_choose_covered_ORK_Karlsruhe;
+							SGBT: random_choose_covered_ORK_Karlsruhe;
+							SGCN: random_choose_covered_ORK_Karlsruhe;
+							TWOD: random_choose_covered_ORK_Karlsruhe;
+							WDPR: random_choose_covered_ORK_Karlsruhe;
+							random_choose_open_ORK_Karlsruhe;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_ORK_Karlsruhe, 1){
+						return 43;}
+
+item (FEAT_TRAINS , ITEM_ORK_Karlsruhe, 8650)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ORK_Karlsruhe);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1883,01,01);
+						model_life: 					60;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, COKE, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, SALT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							45 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						7 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ORK_Karlsruhe_sprite_choose;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_ORK_Karlsruhe_purchase;
+			cost_factor						: 21;
+			running_cost_factor				: switch_running_cost_ORK_Karlsruhe;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

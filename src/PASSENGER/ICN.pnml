@@ -1,0 +1,1003 @@
+//####################
+//###ICN Talgo 1994###
+//####################
+
+//Spriteset Maschinenwagen front
+
+spriteset(spriteset_ICN_front_blue, "gfx\ICN/ICN_front_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_front_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_front_blue_1x_32bpp.png", "gfx\ICN/ICN_front_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_front_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_front_blue_2x_32bpp.png", "gfx\ICN/ICN_front_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_front_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_front_blue_4x_32bpp.png", "gfx\ICN/ICN_front_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+									
+//Spriteset Mittelwagen Bvcz 886 
+
+spriteset(spriteset_ICN_middle_A_blue, "gfx\ICN/ICN_middle_A_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_blue_1x_32bpp.png", "gfx\ICN/ICN_middle_A_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_blue_2x_32bpp.png", "gfx\ICN/ICN_middle_A_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_blue_4x_32bpp.png", "gfx\ICN/ICN_middle_A_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_A_blue_loading, "gfx\ICN/ICN_middle_A_blue_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_blue_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_blue_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_A_blue_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_blue_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_blue_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_A_blue_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_blue_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_blue_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_A_blue_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_A_blue_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_A_blue_loading];}		
+		 
+//Spriteset Mittelwagen Bvcz 886 M
+
+spriteset(spriteset_ICN_middle_B_blue, "gfx\ICN/ICN_middle_B_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_blue_1x_32bpp.png", "gfx\ICN/ICN_middle_B_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_blue_2x_32bpp.png", "gfx\ICN/ICN_middle_B_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_blue_4x_32bpp.png", "gfx\ICN/ICN_middle_B_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_B_blue_loading, "gfx\ICN/ICN_middle_B_blue_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_blue_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_blue_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_B_blue_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_blue_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_blue_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_B_blue_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_blue_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_blue_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_B_blue_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_B_blue_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_B_blue_loading];}	
+
+		 
+//Spriteset Mittelwagen Bpcz 884 
+
+spriteset(spriteset_ICN_middle_C_blue, "gfx\ICN/ICN_middle_C_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_C_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_C_blue_1x_32bpp.png", "gfx\ICN/ICN_middle_C_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_C_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_C_blue_2x_32bpp.png", "gfx\ICN/ICN_middle_C_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_C_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_C_blue_4x_32bpp.png", "gfx\ICN/ICN_middle_C_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+									
+
+//Spriteset Mittelwagen Bpcbz 883 
+
+spriteset(spriteset_ICN_middle_D_blue, "gfx\ICN/ICN_middle_D_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_blue_1x_32bpp.png", "gfx\ICN/ICN_middle_D_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_blue_2x_32bpp.png", "gfx\ICN/ICN_middle_D_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_blue_4x_32bpp.png", "gfx\ICN/ICN_middle_D_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_D_blue_loading, "gfx\ICN/ICN_middle_D_blue_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_blue_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_blue_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_D_blue_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_blue_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_blue_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_D_blue_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_blue_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_blue_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_D_blue_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_D_blue_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_D_blue_loading];}
+		 
+		 									
+//Spriteset Mittelwagen WRkz 885
+
+spriteset(spriteset_ICN_middle_E_blue, "gfx\ICN/ICN_middle_E_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_E_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_E_blue_1x_32bpp.png", "gfx\ICN/ICN_middle_E_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_E_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_E_blue_2x_32bpp.png", "gfx\ICN/ICN_middle_E_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_E_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_E_blue_4x_32bpp.png", "gfx\ICN/ICN_middle_E_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}											 
+
+//Spriteset Mittelwagen Wrz 887 
+
+spriteset(spriteset_ICN_middle_F_blue, "gfx\ICN/ICN_middle_F_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_blue_1x_32bpp.png", "gfx\ICN/ICN_middle_F_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_blue_2x_32bpp.png", "gfx\ICN/ICN_middle_F_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_blue_4x_32bpp.png", "gfx\ICN/ICN_middle_F_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_F_blue_loading, "gfx\ICN/ICN_middle_F_blue_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_blue_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_blue_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_F_blue_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_blue_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_blue_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_F_blue_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_blue_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_blue_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_F_blue_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+									
+spritegroup spritegroup_ICN_middle_F_blue_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_F_blue_loading];}										 
+		 			 								
+//Spriteset Mittelwagen WLAz 889
+
+spriteset(spriteset_ICN_middle_G_blue, "gfx\ICN/ICN_middle_G_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_blue_1x_32bpp.png", "gfx\ICN/ICN_middle_G_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_blue_2x_32bpp.png", "gfx\ICN/ICN_middle_G_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_blue_4x_32bpp.png", "gfx\ICN/ICN_middle_G_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_G_blue_loading, "gfx\ICN/ICN_middle_G_blue_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_blue_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_blue_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_G_blue_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_blue_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_blue_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_G_blue_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_blue_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_blue_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_G_blue_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_G_blue_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_G_blue_loading];}	
+		 
+
+//Spriteset Mittelwagen WLAz 889 M
+
+spriteset(spriteset_ICN_middle_H_blue, "gfx\ICN/ICN_middle_H_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_blue_1x_32bpp.png", "gfx\ICN/ICN_middle_H_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_blue_2x_32bpp.png", "gfx\ICN/ICN_middle_H_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_blue_4x_32bpp.png", "gfx\ICN/ICN_middle_H_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_H_blue_loading, "gfx\ICN/ICN_middle_H_blue_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_blue_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_blue_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_H_blue_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_blue_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_blue_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_H_blue_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_blue_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_blue_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_H_blue_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_H_blue_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_H_blue_loading];}		
+
+		 
+//Spriteset Maschinenwagen back
+
+spriteset(spriteset_ICN_back_blue, "gfx\ICN/ICN_back_blue_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_back_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_back_blue_1x_32bpp.png", "gfx\ICN/ICN_back_blue_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_back_blue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_back_blue_2x_32bpp.png", "gfx\ICN/ICN_back_blue_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_back_blue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_back_blue_4x_32bpp.png", "gfx\ICN/ICN_back_blue_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		 	 
+
+
+//Spritesets Weiß - IC Farbe
+
+//Spriteset Maschinenwagen front
+
+spriteset(spriteset_ICN_front_IC, "gfx\ICN/ICN_front_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_front_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_front_IC_1x_32bpp.png", "gfx\ICN/ICN_front_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_front_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_front_IC_2x_32bpp.png", "gfx\ICN/ICN_front_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_front_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_front_IC_4x_32bpp.png", "gfx\ICN/ICN_front_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+									
+//Spriteset Mittelwagen Bvcz 886 
+
+spriteset(spriteset_ICN_middle_A_IC, "gfx\ICN/ICN_middle_A_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_IC_1x_32bpp.png", "gfx\ICN/ICN_middle_A_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_IC_2x_32bpp.png", "gfx\ICN/ICN_middle_A_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_IC_4x_32bpp.png", "gfx\ICN/ICN_middle_A_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_A_IC_loading, "gfx\ICN/ICN_middle_A_IC_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_IC_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_IC_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_A_IC_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_IC_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_IC_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_A_IC_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_A_IC_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_A_IC_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_A_IC_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_A_IC_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_A_IC_loading];}		
+		 
+//Spriteset Mittelwagen Bvcz 886 M
+
+spriteset(spriteset_ICN_middle_B_IC, "gfx\ICN/ICN_middle_B_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_IC_1x_32bpp.png", "gfx\ICN/ICN_middle_B_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_IC_2x_32bpp.png", "gfx\ICN/ICN_middle_B_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_IC_4x_32bpp.png", "gfx\ICN/ICN_middle_B_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_B_IC_loading, "gfx\ICN/ICN_middle_B_IC_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_IC_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_IC_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_B_IC_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_IC_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_IC_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_B_IC_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_B_IC_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_B_IC_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_B_IC_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_B_IC_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_B_IC_loading];}	
+
+		 
+//Spriteset Mittelwagen Bpcz 884 
+
+spriteset(spriteset_ICN_middle_C_IC, "gfx\ICN/ICN_middle_C_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_C_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_C_IC_1x_32bpp.png", "gfx\ICN/ICN_middle_C_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_C_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_C_IC_2x_32bpp.png", "gfx\ICN/ICN_middle_C_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_C_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_C_IC_4x_32bpp.png", "gfx\ICN/ICN_middle_C_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+									
+
+//Spriteset Mittelwagen Bpcbz 883 
+
+spriteset(spriteset_ICN_middle_D_IC, "gfx\ICN/ICN_middle_D_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_IC_1x_32bpp.png", "gfx\ICN/ICN_middle_D_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_IC_2x_32bpp.png", "gfx\ICN/ICN_middle_D_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_IC_4x_32bpp.png", "gfx\ICN/ICN_middle_D_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_D_IC_loading, "gfx\ICN/ICN_middle_D_IC_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_IC_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_IC_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_D_IC_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_IC_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_IC_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_D_IC_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_D_IC_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_D_IC_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_D_IC_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_D_IC_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_D_IC_loading];}
+		 
+		 									
+//Spriteset Mittelwagen WRkz 885
+
+spriteset(spriteset_ICN_middle_E_IC, "gfx\ICN/ICN_middle_E_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_E_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_E_IC_1x_32bpp.png", "gfx\ICN/ICN_middle_E_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_E_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_E_IC_2x_32bpp.png", "gfx\ICN/ICN_middle_E_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_E_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_E_IC_4x_32bpp.png", "gfx\ICN/ICN_middle_E_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}											 
+
+//Spriteset Mittelwagen Wrz 887 
+
+spriteset(spriteset_ICN_middle_F_IC, "gfx\ICN/ICN_middle_F_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_IC_1x_32bpp.png", "gfx\ICN/ICN_middle_F_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_IC_2x_32bpp.png", "gfx\ICN/ICN_middle_F_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_IC_4x_32bpp.png", "gfx\ICN/ICN_middle_F_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_F_IC_loading, "gfx\ICN/ICN_middle_F_IC_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_IC_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_IC_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_F_IC_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_IC_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_IC_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_F_IC_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_F_IC_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_F_IC_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_F_IC_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+									
+spritegroup spritegroup_ICN_middle_F_IC_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_F_IC_loading];}										 
+		 			 								
+//Spriteset Mittelwagen WLAz 889
+
+spriteset(spriteset_ICN_middle_G_IC, "gfx\ICN/ICN_middle_G_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_IC_1x_32bpp.png", "gfx\ICN/ICN_middle_G_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_IC_2x_32bpp.png", "gfx\ICN/ICN_middle_G_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_IC_4x_32bpp.png", "gfx\ICN/ICN_middle_G_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_G_IC_loading, "gfx\ICN/ICN_middle_G_IC_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_IC_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_IC_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_G_IC_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_IC_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_IC_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_G_IC_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_G_IC_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_G_IC_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_G_IC_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_G_IC_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_G_IC_loading];}	
+		 
+
+//Spriteset Mittelwagen WLAz 889 M
+
+spriteset(spriteset_ICN_middle_H_IC, "gfx\ICN/ICN_middle_H_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_IC_1x_32bpp.png", "gfx\ICN/ICN_middle_H_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_IC_2x_32bpp.png", "gfx\ICN/ICN_middle_H_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_IC_4x_32bpp.png", "gfx\ICN/ICN_middle_H_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}	
+
+spriteset(spriteset_ICN_middle_H_IC_loading, "gfx\ICN/ICN_middle_H_IC_loading_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_IC_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_IC_loading_1x_32bpp.png", "gfx\ICN/ICN_middle_H_IC_loading_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_IC_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_IC_loading_2x_32bpp.png", "gfx\ICN/ICN_middle_H_IC_loading_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_middle_H_IC_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_middle_H_IC_loading_4x_32bpp.png", "gfx\ICN/ICN_middle_H_IC_loading_4x_mask.png")
+									{ template_78trains_4x(0, 0)}																	
+									
+spritegroup spritegroup_ICN_middle_H_IC_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_ICN_middle_H_IC_loading];}		
+
+		 
+//Spriteset Maschinenwagen back
+
+spriteset(spriteset_ICN_back_IC, "gfx\ICN/ICN_back_IC_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_back_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_back_IC_1x_32bpp.png", "gfx\ICN/ICN_back_IC_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_back_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_back_IC_2x_32bpp.png", "gfx\ICN/ICN_back_IC_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_back_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ICN/ICN_back_IC_4x_32bpp.png", "gfx\ICN/ICN_back_IC_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+									
+									
+//Spritesets purchase
+
+spriteset(spriteset_ICN_purchase_blue, "gfx\ICN/ICN_front_blue_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_purchase_blue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_front_blue_1x_32bpp.png", "gfx\ICN/ICN_front_blue_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_ICN_purchase_IC, "gfx\ICN/ICN_front_IC_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_ICN_purchase_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ICN/ICN_front_IC_1x_32bpp.png", "gfx\ICN/ICN_front_IC_1x_mask.png")
+									{ template_purchase(0, 0)}									
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_A_blue, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_A_blue;
+							1: spritegroup_ICN_middle_A_blue_loading;}										
+									
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_B_blue, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_B_blue;
+							1: spritegroup_ICN_middle_B_blue_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_D_blue, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_D_blue;
+							1: spritegroup_ICN_middle_D_blue_loading;}		
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_F_blue, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_F_blue;
+							1: spritegroup_ICN_middle_F_blue_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_G_blue, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_G_blue;
+							1: spritegroup_ICN_middle_G_blue_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_H_blue, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_H_blue;
+							1: spritegroup_ICN_middle_H_blue_loading;}								
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_A_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_A_IC;
+							1: spritegroup_ICN_middle_A_IC_loading;}										
+									
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_B_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_B_IC;
+							1: spritegroup_ICN_middle_B_IC_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_D_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_D_IC;
+							1: spritegroup_ICN_middle_D_IC_loading;}		
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_F_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_F_IC;
+							1: spritegroup_ICN_middle_F_IC_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_G_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_G_IC;
+							1: spritegroup_ICN_middle_G_IC_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ICN_middle_H_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ICN_middle_H_IC;
+							1: spritegroup_ICN_middle_H_IC_loading;}								
+							
+//Switches for "middle-length Set blue
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_Length_half, position_in_vehid_chain % 15) {
+							0 .. 14: 7;}	
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_ICN_half, 1){
+							return 5000;}																																										
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_half_blue_graphics, position_in_vehid_chain % 15) {
+							0: spriteset_ICN_front_blue;
+							1: switch_spritestack_ICN_middle_A_blue;
+							2: switch_spritestack_ICN_middle_B_blue;
+							3: spriteset_ICN_middle_C_blue;
+							4: switch_spritestack_ICN_middle_D_blue;
+							5: spriteset_ICN_middle_C_blue;
+							6: spriteset_ICN_middle_E_blue;
+							7: switch_spritestack_ICN_middle_F_blue;
+							8: switch_spritestack_ICN_middle_G_blue;
+							9: switch_spritestack_ICN_middle_H_blue;
+							10: switch_spritestack_ICN_middle_G_blue;
+							11: switch_spritestack_ICN_middle_H_blue;
+							12: switch_spritestack_ICN_middle_G_blue;
+							13: switch_spritestack_ICN_middle_H_blue;
+							14: spriteset_ICN_back_blue;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ICN_half_blue, extra_callback_info1) {
+							1 .. 14: return ITEM_ICN_HALF_BLUE; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_ICN_HALF_BLUE, 5400)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ICN_HALF_BLUE);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1994,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						240 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_ICN_half_blue_graphics;
+			additional_text					: string(STR_DESC_SLEEP);
+			length							: switch_ICN_Length_half;
+			articulated_part				: switch_articulated_ICN_half_blue;
+			purchase						: spriteset_ICN_purchase_blue;
+			cost_factor						: 750;
+			running_cost_factor				: switch_running_cost_ICN_half;
+			}
+		}
+
+//Switches for Short Set
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_Length_short, position_in_vehid_chain % 11) {
+							0 .. 10: 7;}	
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_ICN_short, 1){
+							return 3600;}																																										
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_short_blue_graphics, position_in_vehid_chain % 11) {
+							0: spriteset_ICN_front_blue;
+							1: switch_spritestack_ICN_middle_A_blue;
+							2: switch_spritestack_ICN_middle_B_blue;
+							3: spriteset_ICN_middle_C_blue;
+							4: switch_spritestack_ICN_middle_D_blue;
+							5: spriteset_ICN_middle_C_blue;
+							6: spriteset_ICN_middle_E_blue;
+							7: switch_spritestack_ICN_middle_F_blue;
+							8: switch_spritestack_ICN_middle_G_blue;
+							9: switch_spritestack_ICN_middle_H_blue;
+							10: spriteset_ICN_back_blue;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ICN_short_blue, extra_callback_info1) {
+							1 .. 10: return ITEM_ICN_SHORT_BLUE; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_ICN_SHORT_BLUE, 5401)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ICN_SHORT_BLUE);
+						variant_group:					5400;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1994,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						176 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_ICN_short_blue_graphics;
+			additional_text					: string(STR_DESC_SLEEP);
+			length							: switch_ICN_Length_short;
+			articulated_part				: switch_articulated_ICN_short_blue;
+			purchase						: spriteset_ICN_purchase_blue;
+			cost_factor						: 550;
+			running_cost_factor				: switch_running_cost_ICN_short;
+			}
+		}
+
+//Switches for Short Set
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_Length_full, position_in_vehid_chain % 22) {
+							0 .. 21: 7;}	
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_ICN_full, 1){
+							return 7250;}																																										
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_full_blue_graphics, position_in_vehid_chain % 22) {
+							0: spriteset_ICN_front_blue;
+							1: switch_spritestack_ICN_middle_A_blue;
+							2: switch_spritestack_ICN_middle_B_blue;
+							3: switch_spritestack_ICN_middle_A_blue;
+							4: switch_spritestack_ICN_middle_B_blue;							
+							5: spriteset_ICN_middle_C_blue;
+							6: switch_spritestack_ICN_middle_D_blue;
+							7: spriteset_ICN_middle_C_blue;
+							8: spriteset_ICN_middle_E_blue;
+							9: switch_spritestack_ICN_middle_F_blue;
+							10: switch_spritestack_ICN_middle_G_blue;
+							11: switch_spritestack_ICN_middle_H_blue;
+							12: switch_spritestack_ICN_middle_G_blue;
+							13: switch_spritestack_ICN_middle_H_blue;
+							14: switch_spritestack_ICN_middle_G_blue;
+							15: switch_spritestack_ICN_middle_H_blue;
+							16: switch_spritestack_ICN_middle_G_blue;
+							17: switch_spritestack_ICN_middle_H_blue;
+							18: switch_spritestack_ICN_middle_G_blue;
+							19: switch_spritestack_ICN_middle_H_blue;	
+							20: switch_spritestack_ICN_middle_G_blue;
+							21: spriteset_ICN_back_blue;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ICN_full_blue, extra_callback_info1) {
+							1 .. 21: return ITEM_ICN_FULL_BLUE; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_ICN_FULL_BLUE, 5402)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ICN_FULL_BLUE);
+						variant_group:					5400;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1994,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						352 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_ICN_full_blue_graphics;
+			additional_text					: string(STR_DESC_SLEEP);
+			length							: switch_ICN_Length_full;
+			articulated_part				: switch_articulated_ICN_full_blue;
+			purchase						: spriteset_ICN_purchase_blue;
+			cost_factor						: 1100;
+			running_cost_factor				: switch_running_cost_ICN_full;
+			}
+		}
+		
+		
+//Switches for "middle-length Set IC																																									
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_half_IC_graphics, position_in_vehid_chain % 15) {
+							0: spriteset_ICN_front_IC;
+							1: switch_spritestack_ICN_middle_A_IC;
+							2: switch_spritestack_ICN_middle_B_IC;
+							3: spriteset_ICN_middle_C_IC;
+							4: switch_spritestack_ICN_middle_D_IC;
+							5: spriteset_ICN_middle_C_IC;
+							6: spriteset_ICN_middle_E_IC;
+							7: switch_spritestack_ICN_middle_F_IC;
+							8: switch_spritestack_ICN_middle_G_IC;
+							9: switch_spritestack_ICN_middle_H_IC;
+							10: switch_spritestack_ICN_middle_G_IC;
+							11: switch_spritestack_ICN_middle_H_IC;
+							12: switch_spritestack_ICN_middle_G_IC;
+							13: switch_spritestack_ICN_middle_H_IC;
+							14: spriteset_ICN_back_IC;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ICN_half_IC, extra_callback_info1) {
+							1 .. 14: return ITEM_ICN_HALF_IC; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_ICN_HALF_IC, 5403)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ICN_HALF_IC);
+						variant_group:					5400;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					15;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						240 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_ICN_half_IC_graphics;
+			additional_text					: string(STR_DESC_SLEEP);
+			length							: switch_ICN_Length_half;
+			articulated_part				: switch_articulated_ICN_half_IC;
+			purchase						: spriteset_ICN_purchase_IC;
+			cost_factor						: 750;
+			running_cost_factor				: switch_running_cost_ICN_half;
+			}
+		}
+
+//Switches for Short Set																																									
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_short_IC_graphics, position_in_vehid_chain % 11) {
+							0: spriteset_ICN_front_IC;
+							1: switch_spritestack_ICN_middle_A_IC;
+							2: switch_spritestack_ICN_middle_B_IC;
+							3: spriteset_ICN_middle_C_IC;
+							4: switch_spritestack_ICN_middle_D_IC;
+							5: spriteset_ICN_middle_C_IC;
+							6: spriteset_ICN_middle_E_IC;
+							7: switch_spritestack_ICN_middle_F_IC;
+							8: switch_spritestack_ICN_middle_G_IC;
+							9: switch_spritestack_ICN_middle_H_IC;
+							10: spriteset_ICN_back_IC;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ICN_short_IC, extra_callback_info1) {
+							1 .. 10: return ITEM_ICN_SHORT_IC; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_ICN_SHORT_IC, 5404)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ICN_SHORT_IC);
+						variant_group:					5403;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					15;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						176 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_ICN_short_IC_graphics;
+			additional_text					: string(STR_DESC_SLEEP);
+			length							: switch_ICN_Length_short;
+			articulated_part				: switch_articulated_ICN_short_IC;
+			purchase						: spriteset_ICN_purchase_IC;
+			cost_factor						: 550;
+			running_cost_factor				: switch_running_cost_ICN_short;
+			}
+		}
+
+//Switches for Short Set																																										
+
+						switch(FEAT_TRAINS, SELF, switch_ICN_full_IC_graphics, position_in_vehid_chain % 22) {
+							0: spriteset_ICN_front_IC;
+							1: switch_spritestack_ICN_middle_A_IC;
+							2: switch_spritestack_ICN_middle_B_IC;
+							3: switch_spritestack_ICN_middle_A_IC;
+							4: switch_spritestack_ICN_middle_B_IC;							
+							5: spriteset_ICN_middle_C_IC;
+							6: switch_spritestack_ICN_middle_D_IC;
+							7: spriteset_ICN_middle_C_IC;
+							8: spriteset_ICN_middle_E_IC;
+							9: switch_spritestack_ICN_middle_F_IC;
+							10: switch_spritestack_ICN_middle_G_IC;
+							11: switch_spritestack_ICN_middle_H_IC;
+							12: switch_spritestack_ICN_middle_G_IC;
+							13: switch_spritestack_ICN_middle_H_IC;
+							14: switch_spritestack_ICN_middle_G_IC;
+							15: switch_spritestack_ICN_middle_H_IC;
+							16: switch_spritestack_ICN_middle_G_IC;
+							17: switch_spritestack_ICN_middle_H_IC;
+							18: switch_spritestack_ICN_middle_G_IC;
+							19: switch_spritestack_ICN_middle_H_IC;	
+							20: switch_spritestack_ICN_middle_G_IC;
+							21: spriteset_ICN_back_IC;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ICN_full_IC, extra_callback_info1) {
+							1 .. 21: return ITEM_ICN_FULL_IC; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_ICN_FULL_IC, 5405)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ICN_FULL_IC);
+						variant_group:					5403;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					15;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						352 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_ICN_full_IC_graphics;
+			additional_text					: string(STR_DESC_SLEEP);
+			length							: switch_ICN_Length_full;
+			articulated_part				: switch_articulated_ICN_full_IC;
+			purchase						: spriteset_ICN_purchase_IC;
+			cost_factor						: 1100;
+			running_cost_factor				: switch_running_cost_ICN_full;
+			}
+		}		

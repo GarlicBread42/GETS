@@ -1,0 +1,702 @@
+
+//#######################
+//###Kesselwagen Zacns ###
+//#######################
+
+	
+//Spriteset BP
+
+spriteset (spriteset_Zacns_87_BP, "gfx\Zacns_87/Zacns_87_BP_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_BP, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_BP_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_BP_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_BP, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_BP_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_BP_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_BP, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_BP_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_BP_4x_mask.png")
+						{template_98trains_4x(0, 0)}	
+						
+spriteset (spriteset_Zacns_87_GATX, "gfx\Zacns_87/Zacns_87_GATX_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_GATX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_GATX, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_GATX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+						
+spriteset (spriteset_Zacns_87_GATX1, "gfx\Zacns_87/Zacns_87_GATX1_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_GATX1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX1_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX1_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_GATX1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX1_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX1_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_GATX1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX1_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX1_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+						
+spriteset (spriteset_Zacns_87_GATX2, "gfx\Zacns_87/Zacns_87_GATX2_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_GATX2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX2_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX2_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_GATX2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX2_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX2_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_GATX2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX2_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX2_4x_mask.png")
+						{template_98trains_4x(0, 0)}	
+						
+spriteset (spriteset_Zacns_87_NS_AVIA, "gfx\Zacns_87/Zacns_87_NS_AVIA_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_NS_AVIA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_NS_AVIA_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_NS_AVIA_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_NS_AVIA, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_NS_AVIA_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_NS_AVIA_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_NS_AVIA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_NS_AVIA_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_NS_AVIA_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+
+spriteset (spriteset_Zacns_87_VTG1, "gfx\Zacns_87/Zacns_87_VTG1_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_VTG1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_VTG1_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_VTG1_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_VTG1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_VTG1_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_VTG1_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_VTG1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_VTG1_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_VTG1_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+						
+spriteset (spriteset_Zacns_87_VTG2, "gfx\Zacns_87/Zacns_87_VTG2_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_VTG2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_VTG2_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_VTG2_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_VTG2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_VTG2_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_VTG2_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_VTG2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_VTG2_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_VTG2_4x_mask.png")
+						{template_98trains_4x(0, 0)}																																			
+
+spriteset (spriteset_Zacns_87_Wascosa, "gfx\Zacns_87/Zacns_87_Wascosa_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_Wascosa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_Wascosa_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_Wascosa_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_Wascosa, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_Wascosa_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_Wascosa_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_Wascosa, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_Wascosa_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_Wascosa_4x_mask.png")
+						{template_98trains_4x(0, 0)}						
+
+spriteset (spriteset_Zacns_87_WascosaLarge, "gfx\Zacns_87/Zacns_87_WascosaLarge_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_WascosaLarge, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_WascosaLarge_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_WascosaLarge_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_WascosaLarge, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_WascosaLarge_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_WascosaLarge_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_WascosaLarge, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_WascosaLarge_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_WascosaLarge_4x_mask.png")
+						{template_98trains_4x(0, 0)}						
+
+spriteset (spriteset_Zacns_87_WascosaOMV, "gfx\Zacns_87/Zacns_87_WascosaOMV_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_WascosaOMV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_WascosaOMV_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_WascosaOMV_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_WascosaOMV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_WascosaOMV_2x_32bpp.png", "gfx\Zacns_87/Zacns_87_WascosaOMV_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Zacns_87_WascosaOMV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_WascosaOMV_4x_32bpp.png", "gfx\Zacns_87/Zacns_87_WascosaOMV_4x_mask.png")
+						{template_98trains_4x(0, 0)}																		
+
+//Spriteset purchase
+															
+spriteset (spriteset_Zacns_87_purchase, "gfx\Zacns_87/Zacns_87_VTG1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_VTG1_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_VTG1_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_Zacns_87_purchase_BP, "gfx\Zacns_87/Zacns_87_BP_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_purchase_BP, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_BP_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_BP_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+spriteset (spriteset_Zacns_87_purchase_GATX, "gfx\Zacns_87/Zacns_87_GATX_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_purchase_GATX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_GATX_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_GATX_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_Zacns_87_purchase_WASCOSA, "gfx\Zacns_87/Zacns_87_Wascosa_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_purchase_WASCOSA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_Wascosa_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_Wascosa_1x_mask.png")
+					{template_purchase(0, 0)}															
+
+spriteset (spriteset_Zacns_87_purchase_AVIA, "gfx\Zacns_87/Zacns_87_NS_AVIA_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Zacns_87_purchase_AVIA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Zacns_87/Zacns_87_NS_AVIA_1x_32bpp.png", "gfx\Zacns_87/Zacns_87_NS_AVIA_1x_mask.png")
+					{template_purchase(0, 0)}
+
+//Switches
+
+					switch (FEAT_TRAINS, SELF, random_choose_Zacns_87_CHEM, switch_alternative_var_random_bits(1, 3)) {
+							1: spriteset_Zacns_87_WascosaLarge;
+							2: spriteset_Zacns_87_GATX;
+							3: spriteset_Zacns_87_GATX;
+							4: spriteset_Zacns_87_VTG2;
+							5: spriteset_Zacns_87_VTG2;																												
+							6: spriteset_Zacns_87_NS_AVIA;
+							7: spriteset_Zacns_87_GATX1;													
+								spriteset_Zacns_87_WascosaLarge;}	
+								
+
+					switch (FEAT_TRAINS, SELF, random_choose_Zacns_87_OIL, switch_alternative_var_random_bits(1, 3)) {
+							1: spriteset_Zacns_87_WascosaOMV;
+							2: spriteset_Zacns_87_BP;
+							3: spriteset_Zacns_87_BP;
+							4: spriteset_Zacns_87_VTG1;
+							5: spriteset_Zacns_87_VTG1;																												
+							6: spriteset_Zacns_87_GATX2;
+							7: spriteset_Zacns_87_GATX2;													
+								spriteset_Zacns_87_Wascosa;}									
+
+					switch (FEAT_TRAINS, SELF, random_choose_Zacns_87_GATX, switch_alternative_var_random_bits(1, 2)) {
+							1: spriteset_Zacns_87_GATX;
+							2: spriteset_Zacns_87_GATX1;
+							3: spriteset_Zacns_87_GATX2;												
+								spriteset_Zacns_87_GATX;}	
+
+					switch (FEAT_TRAINS, SELF, random_choose_Zacns_87_VTG, switch_alternative_var_random_bits(1, 2)) {
+							1: spriteset_Zacns_87_VTG1;											
+								spriteset_Zacns_87_VTG2;}	
+
+					switch (FEAT_TRAINS, SELF, random_choose_Zacns_87_WASCOSA, switch_alternative_var_random_bits(1, 2)) {
+							1: spriteset_Zacns_87_WascosaOMV;
+							2: spriteset_Zacns_87_Wascosa;
+							3: spriteset_Zacns_87_WascosaLarge;												
+								spriteset_Zacns_87_Wascosa;}	
+																								
+					switch (FEAT_TRAINS, SELF, switch_Zacns_87_sprite_choose, cargo_type_in_veh) {
+							OIL_: random_choose_Zacns_87_OIL;
+							RUBR: random_choose_Zacns_87_OIL; 
+							WATR: random_choose_Zacns_87_CHEM;
+							BEER: random_choose_Zacns_87_CHEM;
+							DYES: random_choose_Zacns_87_CHEM; 
+							PETR: random_choose_Zacns_87_OIL;
+							RFPR: random_choose_Zacns_87_OIL;
+							SULP: random_choose_Zacns_87_CHEM;
+							ACID: random_choose_Zacns_87_CHEM;
+							CHLO: random_choose_Zacns_87_CHEM;
+							COAT: random_choose_Zacns_87_CHEM;
+							FUEL: random_choose_Zacns_87_CHEM;
+							LYE_: random_choose_Zacns_87_CHEM;
+							MOLS: random_choose_Zacns_87_CHEM;
+							NH3_: random_choose_Zacns_87_CHEM;
+							OILI: random_choose_Zacns_87_OIL;
+							OILD: random_choose_Zacns_87_OIL;
+							O2__: random_choose_Zacns_87_CHEM;
+							SOAP: random_choose_Zacns_87_CHEM;
+							PLST: random_choose_Zacns_87_OIL;
+								random_choose_Zacns_87_CHEM;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Zacns_87, position_in_vehid_chain % 3) {
+							0: 3;
+							1: 3;
+							2: 3;}								
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Zacns_87, 1){
+						return 650;}								
+																			
+						switch(FEAT_TRAINS, SELF, switch_Zacns_87_Auto_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_Zacns_87_sprite_choose;
+							2:	   spriteset_empty;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Zacns_87_Auto, extra_callback_info1) {
+						1 .. 2: return ITEM_ZACNS_87_AUTO;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_ZACNS_87_AUTO, 9385)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ZACNS_87_AUTO);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Zacns_87_Auto_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Zacns_87_Auto;
+			length							: switch_length_Zacns_87;			
+			purchase						: spriteset_Zacns_87_purchase;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Zacns_87;				
+			
+			 }
+		}	
+
+																			
+						switch(FEAT_TRAINS, SELF, switch_Zacns_87_Chem_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return random_choose_Zacns_87_CHEM;
+							2:	   spriteset_empty;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Zacns_87_Chem, extra_callback_info1) {
+						1 .. 2: return ITEM_ZACNS_87_CHEM;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_ZACNS_87_CHEM, 9386)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ZACNS_87_CHEM);
+						variant_group:					9385;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Zacns_87_Chem_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Zacns_87_Chem;
+			length							: switch_length_Zacns_87;			
+			purchase						: spriteset_Zacns_87_purchase;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Zacns_87;				
+			
+			 }
+		}	
+
+						switch(FEAT_TRAINS, SELF, switch_Zacns_87_Oil_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return random_choose_Zacns_87_OIL;
+							2:	   spriteset_empty;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Zacns_87_Oil, extra_callback_info1) {
+						1 .. 2: return ITEM_ZACNS_87_OIL;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_ZACNS_87_OIL, 9387)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ZACNS_87_OIL);
+						variant_group:					9385;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Zacns_87_Oil_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Zacns_87_Oil;
+			length							: switch_length_Zacns_87;			
+			purchase						: spriteset_Zacns_87_purchase;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Zacns_87;				
+			
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Zacns_87_BP_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_Zacns_87_BP;
+							2:	   spriteset_empty;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Zacns_87_BP, extra_callback_info1) {
+						1 .. 2: return ITEM_ZACNS_87_BP;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_ZACNS_87_BP, 9388)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ZACNS_87_BP);
+						variant_group:					9385;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Zacns_87_BP_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Zacns_87_BP;
+			length							: switch_length_Zacns_87;			
+			purchase						: spriteset_Zacns_87_purchase_BP;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Zacns_87;				
+			
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Zacns_87_GATX_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return random_choose_Zacns_87_GATX;
+							2:	   spriteset_empty;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Zacns_87_GATX, extra_callback_info1) {
+						1 .. 2: return ITEM_ZACNS_87_GATX;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_ZACNS_87_GATX, 9389)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ZACNS_87_GATX);
+						variant_group:					9385;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Zacns_87_GATX_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Zacns_87_GATX;
+			length							: switch_length_Zacns_87;			
+			purchase						: spriteset_Zacns_87_purchase_GATX;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Zacns_87;				
+			
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Zacns_87_VTG_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return random_choose_Zacns_87_VTG;
+							2:	   spriteset_empty;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Zacns_87_VTG, extra_callback_info1) {
+						1 .. 2: return ITEM_ZACNS_87_VTG;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_ZACNS_87_VTG, 9390)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ZACNS_87_VTG);
+						variant_group:					9385;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Zacns_87_VTG_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Zacns_87_VTG;
+			length							: switch_length_Zacns_87;			
+			purchase						: spriteset_Zacns_87_purchase;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Zacns_87;				
+			
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_Zacns_87_WASCOSA_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return random_choose_Zacns_87_WASCOSA;
+							2:	   spriteset_empty;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Zacns_87_WASCOSA, extra_callback_info1) {
+						1 .. 2: return ITEM_ZACNS_87_WASCOSA;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_ZACNS_87_WASCOSA, 9391)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ZACNS_87_WASCOSA);
+						variant_group:					9385;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Zacns_87_WASCOSA_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Zacns_87_WASCOSA;
+			length							: switch_length_Zacns_87;			
+			purchase						: spriteset_Zacns_87_purchase_WASCOSA;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Zacns_87;				
+			
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Zacns_87_AVIA_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_Zacns_87_NS_AVIA;
+							2:	   spriteset_empty;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Zacns_87_AVIA, extra_callback_info1) {
+						1 .. 2: return ITEM_ZACNS_87_AVIA;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_ZACNS_87_AVIA, 9392)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ZACNS_87_AVIA);
+						variant_group:					9385;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					29;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Zacns_87_AVIA_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Zacns_87_AVIA;
+			length							: switch_length_Zacns_87;			
+			purchase						: spriteset_Zacns_87_purchase_AVIA;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Zacns_87;				
+			
+			 }
+		}

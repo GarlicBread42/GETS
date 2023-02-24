@@ -1,0 +1,137 @@
+//##############
+//###Fads 177###
+//##############
+			
+					
+//Spriteset
+
+spriteset (spriteset_Fads177, "gfx\Fads177/Fads177_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fads177, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fads177/Fads177_1x_32bpp.png", "gfx\Fads177/Fads177_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fads177, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fads177/Fads177_2x_32bpp.png", "gfx\Fads177/Fads177_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fads177, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fads177/Fads177_4x_32bpp.png", "gfx\Fads177/Fads177_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+//Spritegroup Load
+
+spriteset (spriteset_Fads177_load_0, "gfx\Fads177/Fads177_load_0_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_Fads177_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_0_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fads177_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_0_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}
+					
+spriteset (spriteset_Fads177_load_25, "gfx\Fads177/Fads177_load_25_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_Fads177_load_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_25_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fads177_load_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_25_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}
+					
+spriteset (spriteset_Fads177_load_50, "gfx\Fads177/Fads177_load_50_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_Fads177_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_50_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fads177_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_50_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}																																																																					
+
+
+spriteset (spriteset_Fads177_load_75, "gfx\Fads177/Fads177_load_75_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_Fads177_load_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_75_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fads177_load_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_75_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Fads177_load_100, "gfx\Fads177/Fads177_load_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_Fads177_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_100_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fads177_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Fads177/Fads177_load_100_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}					
+
+spritegroup spritegroup_Fads177_load
+		{loaded: 	[spriteset_Fads177_load_0, spriteset_Fads177_load_25, spriteset_Fads177_load_50, spriteset_Fads177_load_75, spriteset_Fads177_load_100];
+			loading: 	[spriteset_Fads177_load_0, spriteset_Fads177_load_25, spriteset_Fads177_load_50, spriteset_Fads177_load_75, spriteset_Fads177_load_100];}	
+
+					
+//Spriteset Purchase
+
+spriteset (spriteset_Fads177_purchase1, "gfx\Fads177/Fads177_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Fads177_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fads177/Fads177_1x_32bpp.png", "gfx\Fads177/Fads177_1x_mask.png")
+					{template_purchase(0, 0)}			
+					
+//Switches
+							
+					switch(FEAT_TRAINS, SELF, switch_Fads177_loadstack, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Fads177;
+						1: spritegroup_Fads177_load;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Fads177, 1){
+						return 375;}
+						
+item (FEAT_TRAINS , ITEM_FADS177, 8773)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_FADS177);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1972,01,01);
+						model_life: 					26;
+						vehicle_life: 					26;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK,);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				IORE;
+						cargo_capacity:					55;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Fads177_loadstack;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Fads177_purchase1;
+			cost_factor						: 190;
+			running_cost_factor				: switch_running_cost_Fads177;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}		

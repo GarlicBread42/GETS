@@ -1,0 +1,70 @@
+//############
+//### V 80 ###
+//############
+
+
+//Altrot
+
+spriteset(spriteset_V_80_altrot, "gfx/V_80/V_80_altrot_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_80_altrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_80/V_80_altrot_1x_32bpp.png", "gfx/V_80/V_80_altrot_1x_mask.png")
+									{template_88trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_80_altrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_80/V_80_altrot_2x_32bpp.png", "gfx/V_80/V_80_altrot_2x_mask.png")
+									{template_88trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_V_80_altrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_80/V_80_altrot_4x_32bpp.png", "gfx/V_80/V_80_altrot_4x_mask.png")
+									{template_88trains_4x(0, 0)}
+									
+									
+spriteset(spriteset_V_80_purchase, "gfx/V_80/V_80_altrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+									
+				switch(FEAT_TRAINS,PARENT,switch_running_cost_V_80, 1){
+						return 1275;}							
+				
+				
+item (FEAT_TRAINS , ITEM_V_80, 2800)
+
+
+		{
+			//property Block
+					property 
+					{
+					//common properties
+								name: string(STR_NAME_V_80);
+								climates_available: ALL_CLIMATES;
+								introduction_date: date(1952,01,01);
+								model_life:26;
+								vehicle_life: 25;
+								retire_early: -10;									
+								reliability_decay: 20;
+								cost_factor: 54;
+								running_cost_base: RUNNING_COST_STEAM;
+								running_cost_factor: 90;
+								
+					//Train specific properties
+								sprite_id: SPRITE_ID_NEW_TRAIN;
+								speed: 100 km/h;
+								refit_cost: 0;
+								track_type: RAIL;
+								power:  1100 hp;
+								weight: 58 ton;
+								ai_engine_rank: 0;
+								engine_class: ENGINE_CLASS_DIESEL;
+								visual_effect_and_powered: visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 1, DISABLE_WAGON_POWER);
+								dual_headed: 0;
+								tractive_effort_coefficient: 0.293;
+								length: 8;
+			}
+			
+					graphics
+				{
+						default						   : spriteset_V_80_altrot;
+						additional_text				   : string(STR_DESC_PASS);
+						purchase					   : spriteset_V_80_purchase;
+						cost_factor					   : 24;
+						running_cost_factor			   : switch_running_cost_V_80;	
+			 }
+		}

@@ -1,0 +1,1409 @@
+//########################
+//###DB BR 442 Talent 2###
+//########################
+
+//Spriteset front_verkehrsrot 
+
+spriteset(spriteset_BR_442_front_verkehrsrot, "gfx\BR_442/BR_442_front_verkehrsrot_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_1x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_2x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_4x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_front_verkehrsrot_REV, "gfx\BR_442/BR_442_front_verkehrsrot_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_1x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_2x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_4x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}
+
+
+//Spriteset front Loading
+
+spriteset(spriteset_BR_442_front_verkehrsrot_loading, "gfx\BR_442/BR_442_front_verkehrsrot_loading_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_loading_1x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_loading_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_loading_2x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_loading_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_loading_4x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_loading_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_front_verkehrsrot_loading_REV, "gfx\BR_442/BR_442_front_verkehrsrot_loading_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_loading_1x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_loading_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_loading_2x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_loading_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_verkehrsrot_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_verkehrsrot_loading_4x_32bpp.png", "gfx\BR_442/BR_442_front_verkehrsrot_loading_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}									
+
+spritegroup spritegroup_BR_442_front_verkehrsrot_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_front_verkehrsrot_loading];}
+			
+spritegroup spritegroup_BR_442_front_verkehrsrot_loading_REV
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_front_verkehrsrot_loading_REV];}				
+
+//Spriteset back_verkehrsrot 
+
+spriteset(spriteset_BR_442_back_verkehrsrot, "gfx\BR_442/BR_442_back_verkehrsrot_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_1x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_2x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_4x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_back_verkehrsrot_REV, "gfx\BR_442/BR_442_back_verkehrsrot_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_1x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_2x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_4x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}
+
+
+//Spriteset back Loading
+
+spriteset(spriteset_BR_442_back_verkehrsrot_loading, "gfx\BR_442/BR_442_back_verkehrsrot_loading_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_loading_1x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_loading_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_loading_2x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_loading_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_loading_4x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_loading_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_back_verkehrsrot_loading_REV, "gfx\BR_442/BR_442_back_verkehrsrot_loading_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_loading_1x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_loading_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_loading_2x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_loading_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_verkehrsrot_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_loading_4x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_loading_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}									
+
+spritegroup spritegroup_BR_442_back_verkehrsrot_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_back_verkehrsrot_loading];}
+			
+spritegroup spritegroup_BR_442_back_verkehrsrot_loading_REV
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_back_verkehrsrot_loading_REV];}	
+			
+			
+//Spriteset middle Bottom A2
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomA2, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomA2_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}
+									
+//Spriteset middle BottomA4
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomA4, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomA4_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomA4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA4_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}									
+
+
+//Spriteset middle bottomB2
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomB2, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomB2_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB2_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}
+									
+
+//Spriteset middle bottomB4
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomB4, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomB4_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomB4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomB4_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}									
+
+
+//Spriteset middle bottomC2
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomC2, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomC2_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC2_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}
+									
+
+//Spriteset middle bottomC4
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomC4, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_bottomC4_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_bottomC4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_bottomC4_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}									
+
+
+//Spriteset middle loading_A2
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_loading_A2, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_A2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_A2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_A2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_loading_A2_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_A2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_A2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_A2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_A2_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_BR_442_middle_verkehrsrot_loading_A2
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_middle_verkehrsrot_loading_A2];}
+			
+spritegroup spritegroup_BR_442_middle_verkehrsrot_loading_A2_REV
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_middle_verkehrsrot_loading_A2_REV];}	
+												
+									
+//Spriteset middle loading_B2C2
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_loading_B2C2, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_B2C2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_B2C2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_B2C2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_loading_B2C2_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_B2C2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_B2C2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_B2C2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_B2C2_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}	
+									
+spritegroup spritegroup_BR_442_middle_verkehrsrot_loading_B2C2
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_middle_verkehrsrot_loading_B2C2];}
+			
+spritegroup spritegroup_BR_442_middle_verkehrsrot_loading_B2C2_REV
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_middle_verkehrsrot_loading_B2C2_REV];}	
+																												
+
+//Spriteset middle loading_ABC4
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_loading_ABC4, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_ABC4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_ABC4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_ABC4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_loading_ABC4_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_ABC4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_ABC4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_loading_ABC4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_loading_ABC4_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}
+									
+spritegroup spritegroup_BR_442_middle_verkehrsrot_loading_ABC4
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_middle_verkehrsrot_loading_ABC4];}
+			
+spritegroup spritegroup_BR_442_middle_verkehrsrot_loading_ABC4_REV
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_middle_verkehrsrot_loading_ABC4_REV];}	
+
+//Spriteset middle roofA
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_roofA, "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofA, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofA, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofA, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_roofA_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofA_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofA_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofA_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofA_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}			
+
+
+//Spriteset middle roofB
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_roofB, "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_roofB_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofB_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}	
+									
+
+//Spriteset middle roofC
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_roofC, "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_verkehrsrot_roofC_REV, "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofC_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_1x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofC_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_2x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_verkehrsrot_roofC_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_4x_32bpp.png", "gfx\BR_442/BR_442_middle_verkehrsrot_roofC_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}	
+
+//Spriteset purchase
+
+spriteset(spriteset_BR_442_purchase, "gfx\BR_442/BR_442_back_verkehrsrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_verkehrsrot_1x_32bpp.png", "gfx\BR_442/BR_442_back_verkehrsrot_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_front_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_front_verkehrsrot;
+							1: spritegroup_BR_442_front_verkehrsrot_loading;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_front_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_front_verkehrsrot_REV;
+							1: spritegroup_BR_442_front_verkehrsrot_loading_REV;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_back_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_back_verkehrsrot;
+							1: spritegroup_BR_442_back_verkehrsrot_loading;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_back_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_back_verkehrsrot_REV;
+							1: spritegroup_BR_442_back_verkehrsrot_loading_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleA2_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomA2;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_A2;
+							2: spriteset_BR_442_middle_verkehrsrot_roofA;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleA2_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomA2_REV;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_A2_REV;
+							2: spriteset_BR_442_middle_verkehrsrot_roofA_REV;}								
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleA4_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomA4;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4;
+							2: spriteset_BR_442_middle_verkehrsrot_roofA;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleA4_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomA4_REV;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4_REV;
+							2: spriteset_BR_442_middle_verkehrsrot_roofA_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleB2_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomB2;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_B2C2;
+							2: spriteset_BR_442_middle_verkehrsrot_roofB;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleB2_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomB2_REV;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_B2C2_REV;
+							2: spriteset_BR_442_middle_verkehrsrot_roofB_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleB4_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomB4;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4;
+							2: spriteset_BR_442_middle_verkehrsrot_roofB;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleB4_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomB4_REV;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4_REV;
+							2: spriteset_BR_442_middle_verkehrsrot_roofB_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleC2_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomC2;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_B2C2;
+							2: spriteset_BR_442_middle_verkehrsrot_roofC;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleC2_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomC2_REV;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_B2C2_REV;
+							2: spriteset_BR_442_middle_verkehrsrot_roofC_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleC4_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomC4;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4;
+							2: spriteset_BR_442_middle_verkehrsrot_roofC;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middleC4_verkehrsrot_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_verkehrsrot_bottomC4_REV;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4_REV;
+							2: spriteset_BR_442_middle_verkehrsrot_roofC_REV;}
+
+//Universal Switches for the Heads - front and head got mixed up, so they just been switched
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_back_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_back_verkehrsrot_REV;
+								switch_spritestack_BR_442_front_verkehrsrot;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_front_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_front_verkehrsrot_REV;
+								switch_spritestack_BR_442_back_verkehrsrot;}																																																																	
+
+
+//Switches for Two-Part Consist																																
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_2_graphics, position_in_vehid_chain % 6) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_reverse_BR_442_back_verkehrsrot;
+							5:     spriteset_empty;}						
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_2_length, position_in_vehid_chain % 6) {
+							0: 4;
+							1: 4;
+							2: 4;
+							3: 4;
+							4: 4;
+							5: 4;}	
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_2, extra_callback_info1) {
+							1 .. 5: return ITEM_BR_442_2; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_2_FX_A, position_in_vehid_chain % 6) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -5, DISABLE_WAGON_POWER);
+							1 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2 : return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+							3 .. 5 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_2_FX_B, position_in_vehid_chain % 6) {
+							0 .. 2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							3 : return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+							4 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, -5, DISABLE_WAGON_POWER);}
+
+						switch (FEAT_TRAINS, PARENT, switch_BR_442_2_FX, vehicle_is_reversed) {
+							0: switch_BR_442_2_FX_B;
+								switch_BR_442_2_FX_A;}
+								
+								
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_442_2, 1){
+							return 1225;}								
+
+item (FEAT_TRAINS , ITEM_BR_442_2, 4420)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_2);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					7;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						2747 hp;
+						weight: 						104 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_2_graphics;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_2_length;	
+			articulated_part				: switch_articulated_BR_442_2;
+			visual_effect_and_powered		: switch_BR_442_2_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 123;
+			running_cost_factor				: switch_running_cost_BR_442_2;		
+			}
+	}
+
+
+//Switches for Three part Consist -Regio means 2 Doors, SBAHN means 4 doors
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_3_middle_Regio_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleC2_verkehrsrot;
+								switch_spritestack_BR_442_middleC2_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_3_middle_SBAHN_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleC4_verkehrsrot;
+								switch_spritestack_BR_442_middleC4_verkehrsrot_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_BR_442_3_length, position_in_vehid_chain % 9) {
+							0: 4;
+							1: 4;
+							2: 4;
+							3: 3;
+							4: 3;
+							5: 3;
+							6: 4;
+							7: 4;
+							8: 4;}															
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_3_FX_A, position_in_vehid_chain % 9) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -5, DISABLE_WAGON_POWER);
+							1 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2 : return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+							3 .. 8 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_3_FX_B, position_in_vehid_chain % 9) {
+							0 .. 5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							6 : return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+							7 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							8 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, -5, DISABLE_WAGON_POWER);}
+
+						switch (FEAT_TRAINS, PARENT, switch_BR_442_3_FX, vehicle_is_reversed) {
+							0: switch_BR_442_3_FX_B;
+								switch_BR_442_3_FX_A;}								
+								
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_442_3, 1){
+							return 1850;}								
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_3_graphics_Regio, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_3_middle_Regio_verkehrsrot;
+							5:     spriteset_empty;
+							6:	   spriteset_empty;
+							7:     return switch_reverse_BR_442_back_verkehrsrot;
+							8:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_3_Regio, extra_callback_info1) {
+							1 .. 8: return ITEM_BR_442_3_REGIO; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_BR_442_3_REGIO, 4421)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_3_REGIO);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					7;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						2747 hp;
+						weight: 						114 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_3_graphics_Regio;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_3_length;	
+			articulated_part				: switch_articulated_BR_442_3_Regio;			
+			visual_effect_and_powered		: switch_BR_442_3_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_BR_442_3;		
+			}
+	}
+	
+						switch(FEAT_TRAINS, SELF, switch_BR_442_3_graphics_SBahn, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_3_middle_SBAHN_verkehrsrot;
+							5:     spriteset_empty;
+							6:	   spriteset_empty;
+							7:     return switch_reverse_BR_442_back_verkehrsrot;
+							8:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_3_SBahn, extra_callback_info1) {
+							1 .. 8: return ITEM_BR_442_3_SBAHN; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_BR_442_3_SBAHN, 4422)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_3_SBAHN);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						2747 hp;
+						weight: 						114 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_3_graphics_SBahn;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_3_length;	
+			articulated_part				: switch_articulated_BR_442_3_SBahn;			
+			visual_effect_and_powered		: switch_BR_442_3_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_BR_442_3;		
+			}
+	}	
+
+//Switches for Four part Consist -Regio means 2 Doors, SBAHN means 4 doors, RMIX means 2+4 doors
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_4_middle2_Regio_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleA2_verkehrsrot;
+								switch_spritestack_BR_442_middleB2_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_4_middle1_Regio_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleB2_verkehrsrot;
+								switch_spritestack_BR_442_middleA2_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_4_middle2_SBAHN_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleA4_verkehrsrot;
+								switch_spritestack_BR_442_middleB4_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_4_middle1_SBAHN_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleB4_verkehrsrot;
+								switch_spritestack_BR_442_middleA4_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_4_middle2_RMIX_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleA2_verkehrsrot;
+								switch_spritestack_BR_442_middleB4_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_4_middle1_RMIX_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleB4_verkehrsrot;
+								switch_spritestack_BR_442_middleA2_verkehrsrot_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_BR_442_4_length, position_in_vehid_chain % 12) {
+							0: 4;
+							1: 4;
+							2: 4;
+							3: 3;
+							4: 3;
+							5: 3;
+							6: 3;
+							7: 3;
+							8: 3;							
+							9: 4;
+						   10: 4;
+						   11: 4;}																								
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_4_FX_A, position_in_vehid_chain % 12) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -5, DISABLE_WAGON_POWER);
+							1 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2 : return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+							3 .. 11 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_4_FX_B, position_in_vehid_chain % 12) {
+							0 .. 8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							9 : return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+							10: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, -5, DISABLE_WAGON_POWER);}
+
+						switch (FEAT_TRAINS, PARENT, switch_BR_442_4_FX, vehicle_is_reversed) {
+							0: switch_BR_442_4_FX_B;
+								switch_BR_442_4_FX_A;}
+																
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_442_4, 1){
+							return 2575;}								
+							
+						switch(FEAT_TRAINS, SELF, switch_BR_442_4_graphics_Regio, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_4_middle1_Regio_verkehrsrot;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_reverse_BR_442_4_middle2_Regio_verkehrsrot;
+							8:     spriteset_empty;							
+							9:	   spriteset_empty;
+						   10:     return switch_reverse_BR_442_back_verkehrsrot;
+						   11:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_4_Regio, extra_callback_info1) {
+							1 .. 11: return ITEM_BR_442_4_REGIO; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													   
+item (FEAT_TRAINS , ITEM_BR_442_4_REGIO, 4423)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_4_REGIO);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					7;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						4120 hp;
+						weight: 						144 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_4_graphics_Regio;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_4_length;	
+			articulated_part				: switch_articulated_BR_442_4_Regio;		
+			visual_effect_and_powered		: switch_BR_442_4_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 258;
+			running_cost_factor				: switch_running_cost_BR_442_4;		
+			}
+	}
+	
+						switch(FEAT_TRAINS, SELF, switch_BR_442_4_graphics_SBahn, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_4_middle1_SBAHN_verkehrsrot;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_reverse_BR_442_4_middle2_SBAHN_verkehrsrot;
+							8:     spriteset_empty;							
+							9:	   spriteset_empty;
+						   10:     return switch_reverse_BR_442_back_verkehrsrot;
+						   11:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_4_SBahn, extra_callback_info1) {
+							1 .. 11: return ITEM_BR_442_4_SBAHN; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													   
+item (FEAT_TRAINS , ITEM_BR_442_4_SBAHN, 4424)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_4_SBAHN);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						4120 hp;
+						weight: 						144 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_4_graphics_SBahn;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_4_length;	
+			articulated_part				: switch_articulated_BR_442_4_SBahn;		
+			visual_effect_and_powered		: switch_BR_442_4_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 258;
+			running_cost_factor				: switch_running_cost_BR_442_4;		
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_4_graphics_Mix, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_4_middle1_RMIX_verkehrsrot;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_reverse_BR_442_4_middle2_RMIX_verkehrsrot;
+							8:     spriteset_empty;							
+							9:	   spriteset_empty;
+						   10:     return switch_reverse_BR_442_back_verkehrsrot;
+						   11:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_4_Mix, extra_callback_info1) {
+							1 .. 11: return ITEM_BR_442_4_MIX; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													   
+item (FEAT_TRAINS , ITEM_BR_442_4_MIX, 4425)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_4_MIX);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					8;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						4120 hp;
+						weight: 						144 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_4_graphics_Mix;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_4_length;	
+			articulated_part				: switch_articulated_BR_442_4_Mix;		
+			visual_effect_and_powered		: switch_BR_442_4_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 258;
+			running_cost_factor				: switch_running_cost_BR_442_4;		
+			}
+	}	
+		
+
+//Switches for Five part Consist -Regio means 2 Doors, SBAHN means 4 doors, RMIX means 2+4 doors
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle3_Regio_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleA2_verkehrsrot;
+								switch_spritestack_BR_442_middleC2_verkehrsrot_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle2_Regio_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleB2_verkehrsrot;
+								switch_spritestack_BR_442_middleB2_verkehrsrot_REV;}									
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle1_Regio_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleC2_verkehrsrot;
+								switch_spritestack_BR_442_middleA2_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle3_SBAHN_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleA4_verkehrsrot;
+								switch_spritestack_BR_442_middleC4_verkehrsrot_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle2_SBAHN_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleB4_verkehrsrot;
+								switch_spritestack_BR_442_middleB4_verkehrsrot_REV;}									
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle1_SBAHN_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleC4_verkehrsrot;
+								switch_spritestack_BR_442_middleA4_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle3_RMIX_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleA2_verkehrsrot;
+								switch_spritestack_BR_442_middleC2_verkehrsrot_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle2_RMIX_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleB4_verkehrsrot;
+								switch_spritestack_BR_442_middleB4_verkehrsrot_REV;}									
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle1_RMIX_verkehrsrot, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middleC2_verkehrsrot;
+								switch_spritestack_BR_442_middleA2_verkehrsrot_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_BR_442_5_length, position_in_vehid_chain % 15) {
+							0: 4;
+							1: 4;
+							2: 4;
+							3: 3;
+							4: 3;
+							5: 3;
+							6: 3;
+							7: 3;
+							8: 3;
+							9: 3;
+						   10: 3;
+						   11: 3;														
+						   12: 4;
+						   13: 4;
+						   14: 4;}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_5_FX_A, position_in_vehid_chain % 15) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -5, DISABLE_WAGON_POWER);
+							1 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2 : return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+							3 .. 14 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_5_FX_B, position_in_vehid_chain % 15) {
+							0 .. 11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							12: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+							13: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							14: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, -5, DISABLE_WAGON_POWER);}
+
+						switch (FEAT_TRAINS, PARENT, switch_BR_442_5_FX, vehicle_is_reversed) {
+							0: switch_BR_442_5_FX_B;
+								switch_BR_442_5_FX_A;}								
+								
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_442_5, 1){
+							return 3075;}
+							
+						switch(FEAT_TRAINS, SELF, switch_BR_442_5_graphics_Regio, position_in_vehid_chain % 15) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_5_middle1_Regio_verkehrsrot;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_reverse_BR_442_5_middle2_Regio_verkehrsrot;
+							8:     spriteset_empty;	
+							9:     spriteset_empty;
+						   10:     return switch_reverse_BR_442_5_middle3_Regio_verkehrsrot;
+						   11:     spriteset_empty;													
+						   12:	   spriteset_empty;
+						   13:     return switch_reverse_BR_442_back_verkehrsrot;
+						   14:     spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_5_Regio, extra_callback_info1) {
+							1 .. 14: return ITEM_BR_442_5_REGIO; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													   							
+item (FEAT_TRAINS , ITEM_BR_442_5_REGIO, 4426)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_5_REGIO);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					7;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						4120 hp;
+						weight: 						173 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_5_graphics_Regio;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_5_length;	
+			articulated_part				: switch_articulated_BR_442_5_Regio;			
+			visual_effect_and_powered		: switch_BR_442_5_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 308;
+			running_cost_factor				: switch_running_cost_BR_442_5;		
+			}
+	}	
+	
+						switch(FEAT_TRAINS, SELF, switch_BR_442_5_graphics_SBahn, position_in_vehid_chain % 15) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_5_middle1_SBAHN_verkehrsrot;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_reverse_BR_442_5_middle2_SBAHN_verkehrsrot;
+							8:     spriteset_empty;	
+							9:     spriteset_empty;
+						   10:     return switch_reverse_BR_442_5_middle3_SBAHN_verkehrsrot;
+						   11:     spriteset_empty;													
+						   12:	   spriteset_empty;
+						   13:     return switch_reverse_BR_442_back_verkehrsrot;
+						   14:     spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_5_SBahn, extra_callback_info1) {
+							1 .. 14: return ITEM_BR_442_5_SBAHN; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													   							
+item (FEAT_TRAINS , ITEM_BR_442_5_SBAHN, 4427)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_5_SBAHN);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						4120 hp;
+						weight: 						173 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_5_graphics_SBahn;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_5_length;	
+			articulated_part				: switch_articulated_BR_442_5_SBahn;			
+			visual_effect_and_powered		: switch_BR_442_5_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 308;
+			running_cost_factor				: switch_running_cost_BR_442_5;		
+			}
+	}	
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_5_graphics_Mix, position_in_vehid_chain % 15) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_verkehrsrot;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_5_middle1_RMIX_verkehrsrot;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_reverse_BR_442_5_middle2_RMIX_verkehrsrot;
+							8:     spriteset_empty;	
+							9:     spriteset_empty;
+						   10:     return switch_reverse_BR_442_5_middle3_RMIX_verkehrsrot;
+						   11:     spriteset_empty;													
+						   12:	   spriteset_empty;
+						   13:     return switch_reverse_BR_442_back_verkehrsrot;
+						   14:     spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_5_Mix, extra_callback_info1) {
+							1 .. 14: return ITEM_BR_442_5_MIX; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													   							
+item (FEAT_TRAINS , ITEM_BR_442_5_MIX, 4428)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_5_MIX);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					8;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						4120 hp;
+						weight: 						173 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_5_graphics_Mix;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_BR_442_5_length;	
+			articulated_part				: switch_articulated_BR_442_5_Mix;			
+			visual_effect_and_powered		: switch_BR_442_5_FX;
+			purchase						: spriteset_BR_442_purchase;
+			cost_factor						: 308;
+			running_cost_factor				: switch_running_cost_BR_442_5;		
+			}
+	}	

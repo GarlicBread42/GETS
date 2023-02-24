@@ -1,0 +1,176 @@
+//#####################
+//###Rheingold_1928 ###
+//#####################		
+
+//Spritesets 1. Klasse
+
+spriteset (spriteset_Rheingold_1928_A, "gfx/Rheingold_1928/Rheingold_1928_A_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_A_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_A_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Rheingold_1928_A, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_A_2x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_A_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Rheingold_1928_A, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_A_4x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_A_4x_mask.png")
+					{template_148trains_4x(0,0)}				
+	
+//Spritesets 1. Klasse mit Küche
+
+		spriteset (spriteset_Rheingold_1928_AK, "gfx/Rheingold_1928/Rheingold_1928_AK_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_AK, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_AK_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_AK_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Rheingold_1928_AK, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_AK_2x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_AK_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Rheingold_1928_AK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_AK_4x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_AK_4x_mask.png")
+					{template_148trains_4x(0,0)}	
+
+//Spritesets 2. Klasse
+
+		spriteset (spriteset_Rheingold_1928_B, "gfx/Rheingold_1928/Rheingold_1928_B_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_B_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_B_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Rheingold_1928_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_B_2x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_B_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Rheingold_1928_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_B_4x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_B_4x_mask.png")
+					{template_148trains_4x(0,0)}	
+
+//Spritesets  2. Klasse mit Küche
+
+		spriteset (spriteset_Rheingold_1928_BK, "gfx/Rheingold_1928/Rheingold_1928_BK_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_BK, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_BK_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_BK_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Rheingold_1928_BK, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_BK_2x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_BK_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Rheingold_1928_BK, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_BK_4x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_BK_4x_mask.png")
+					{template_148trains_4x(0,0)}	
+		
+//Spriteset loading		
+				
+		spriteset (spriteset_Rheingold_1928_loading, "gfx/Rheingold_1928/Rheingold_1928_loading_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_loading_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_loading_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Rheingold_1928_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_loading_2x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_loading_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Rheingold_1928_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_loading_4x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_loading_4x_mask.png")
+					{template_148trains_4x(0,0)}					
+	
+						
+spritegroup spritegroup_Rheingold_1928_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Rheingold_1928_loading];}		
+
+//Spritesets purchase
+		
+spriteset (spriteset_Rheingold_1928_purchase, "gfx/Rheingold_1928/Rheingold_1928_A_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rheingold_1928_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Rheingold_1928/Rheingold_1928_A_1x_32bpp.png", "gfx/Rheingold_1928/Rheingold_1928_A_1x_mask.png")
+					{template_purchase(0,0)}
+					
+//Switches
+						 
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Rheingold_1928_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Rheingold_1928_A;
+							1: spritegroup_Rheingold_1928_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Rheingold_1928_AK, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Rheingold_1928_AK;
+							1: spritegroup_Rheingold_1928_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Rheingold_1928_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Rheingold_1928_B;
+							1: spritegroup_Rheingold_1928_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Rheingold_1928_BK, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Rheingold_1928_BK;
+							1: spritegroup_Rheingold_1928_loading;}							
+
+						switch (FEAT_TRAINS, SELF, random_choose_Rheingold, switch_alternative_var_random_bits(1, 1)) {
+							0: switch_spritestack_Rheingold_1928_A;
+							1: switch_spritestack_Rheingold_1928_AK;
+							2: switch_spritestack_Rheingold_1928_B;
+							3: switch_spritestack_Rheingold_1928_BK;
+								switch_spritestack_Rheingold_1928_B;}
+								
+						switch(FEAT_TRAINS, SELF, switch_Rheingold_1928_graphics, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Rheingold;
+							2:     spriteset_empty;}									
+					
+						switch(FEAT_TRAINS, SELF, switch_length_Rheingold_1928, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rheingold_1928, extra_callback_info1) {
+							1 .. 2: return ITEM_RHEINGOLD_28;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Rheingold_1928, 1){
+							return 1100;}						
+
+item (FEAT_TRAINS , ITEM_RHEINGOLD_28, 7605)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RHEINGOLD_28);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					11;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						51 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					11;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rheingold_1928_graphics;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Rheingold_1928; 
+			articulated_part				: switch_articulated_Rheingold_1928;
+			purchase						: spriteset_Rheingold_1928_purchase;
+			cost_factor						: 220;
+			running_cost_factor				: switch_running_cost_Rheingold_1928;
+			 }
+		}	
+		

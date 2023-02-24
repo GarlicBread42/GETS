@@ -1,0 +1,221 @@
+//####################################
+//###KWSE/DRG Post CI 1903 4-Achser###
+//####################################
+
+//Spriteset KWSE Ci-Post
+
+//Spriteset loaded
+
+spriteset (spriteset_Wue_POSTCI_KWSE, "gfx\Wue_Post_1903\Wue_Post_1903_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Wue_POSTCI_KWSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_1x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_1x_mask.png")
+					{template_118trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Wue_POSTCI_KWSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_2x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_2x_mask.png")
+					{template_118trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Wue_POSTCI_KWSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_4x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_4x_mask.png")
+					{template_118trains_4x(0,0)}
+					
+//Spriteset loading
+
+spriteset (spriteset_Wue_POSTCI_KWSE_LOADING, "gfx\Wue_Post_1903\Wue_Post_1903_loading_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Wue_POSTCI_KWSE_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_loading_1x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_loading_1x_mask.png")
+					{template_118trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Wue_POSTCI_KWSE_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_loading_2x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_loading_2x_mask.png")
+					{template_118trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Wue_POSTCI_KWSE_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_loading_4x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_loading_4x_mask.png")
+					{template_118trains_4x(0,0)}				
+										
+spritegroup spritegroup_Wue_POSTCI_KWSE
+		{
+			loaded: 	[spriteset_Wue_POSTCI_KWSE];
+			loading: 	[spriteset_Wue_POSTCI_KWSE_LOADING];
+		}
+		
+		
+//Spriteset DRG Ci-Post
+
+//Spriteset loaded
+
+spriteset (spriteset_Wue_POSTCI_DRG, "gfx\Wue_Post_1903\Wue_Post_1903_DRG_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Wue_POSTCI_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DRG_1x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DRG_1x_mask.png")
+					{template_118trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Wue_POSTCI_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DRG_2x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DRG_2x_mask.png")
+					{template_118trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Wue_POSTCI_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DRG_4x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DRG_4x_mask.png")
+					{template_118trains_4x(0,0)}
+					
+//Spriteset loading
+
+spriteset (spriteset_Wue_POSTCI_DRG_LOADING, "gfx\Wue_Post_1903\Wue_Post_1903_DRG_loading_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Wue_POSTCI_DRG_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DRG_loading_1x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DRG_loading_1x_mask.png")
+					{template_118trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Wue_POSTCI_DRG_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DRG_loading_2x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DRG_loading_2x_mask.png")
+					{template_118trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Wue_POSTCI_DRG_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DRG_loading_4x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DRG_loading_4x_mask.png")
+					{template_118trains_4x(0,0)}				
+										
+spritegroup spritegroup_Wue_POSTCI_DRG
+		{
+			loaded: 	[spriteset_Wue_POSTCI_DRG];
+			loading: 	[spriteset_Wue_POSTCI_DRG_LOADING];
+		}		
+
+
+//Spriteset DB Ci-Post
+
+//Spriteset loaded
+
+spriteset (spriteset_Wue_POSTCI_DB, "gfx\Wue_Post_1903\Wue_Post_1903_DB_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Wue_POSTCI_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DB_1x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DB_1x_mask.png")
+					{template_118trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Wue_POSTCI_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DB_2x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DB_2x_mask.png")
+					{template_118trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Wue_POSTCI_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DB_4x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DB_4x_mask.png")
+					{template_118trains_4x(0,0)}
+					
+//Spriteset loading
+
+spriteset (spriteset_Wue_POSTCI_DB_LOADING, "gfx\Wue_Post_1903\Wue_Post_1903_DB_loading_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Wue_POSTCI_DB_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DB_loading_1x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DB_loading_1x_mask.png")
+					{template_118trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Wue_POSTCI_DB_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DB_loading_2x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DB_loading_2x_mask.png")
+					{template_118trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Wue_POSTCI_DB_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wue_Post_1903\Wue_Post_1903_DB_loading_4x_32bpp.png", "gfx\Wue_Post_1903\Wue_Post_1903_DB_loading_4x_mask.png")
+					{template_118trains_4x(0,0)}				
+										
+spritegroup spritegroup_Wue_POSTCI_DB
+		{
+			loaded: 	[spriteset_Wue_POSTCI_DB];
+			loading: 	[spriteset_Wue_POSTCI_DB_LOADING];
+		}					
+
+
+spriteset (spriteset_purchase_Wue_POSTCI, "gfx\Wue_Post_1903\Wue_Post_1903_1x_8bpp.png")
+					{template_purchase_118(0, 0)}
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_Wue_POSTCI,build_year) {
+							1900 .. 1919 : spritegroup_Wue_POSTCI_KWSE;
+							1920 .. 1945 : spritegroup_Wue_POSTCI_DRG;
+							1946 .. 1965 : spritegroup_Wue_POSTCI_DB;
+							spritegroup_Wue_POSTCI_KWSE;
+							}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_Wue_POSTCI,current_year) {
+							1900 .. 1919 : spritegroup_Wue_POSTCI_KWSE;
+							1920 .. 1945 : spritegroup_Wue_POSTCI_DRG;
+							1946 .. 1965 : spritegroup_Wue_POSTCI_DB;
+							spritegroup_Wue_POSTCI_KWSE;
+							}
+							
+						switch (FEAT_TRAINS,SELF, switch_sprite_choose_Wue_POSTCI, cargo_subtype) {
+							0:  switch_build_year_Wue_POSTCI;
+							1:  switch_current_year_Wue_POSTCI;
+							2:  spritegroup_Wue_POSTCI_KWSE;
+							3:  spritegroup_Wue_POSTCI_DRG;
+							4:	spritegroup_Wue_POSTCI_DB; 
+							switch_build_year_Wue_POSTCI;
+							} 	
+							
+						switch (FEAT_TRAINS,SELF,switch_cargo_subtype_Wue_POSTCI, cargo_subtype) {
+							0: 	return string(STR_LIVERY_build_year);
+							1:  return string(STR_LIVERY_current_year);
+							2:  return string(STR_LIVERY_KWSE);
+							3:  return string(STR_LIVERY_DRG);
+							4:	return string(STR_LIVERY_DB); 
+						   	return CB_RESULT_NO_TEXT;
+							}
+							
+						switch(FEAT_TRAINS, SELF, switch_Wue_POSTCI_graphics, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_sprite_choose_Wue_POSTCI;
+							2:     spriteset_empty;
+							}															
+					
+						switch(FEAT_TRAINS, SELF, switch_length_Wue_POSTCI, position_in_vehid_chain % 3) {
+						// Size of the first part
+						0: 4;
+						1: 3;
+						2: 4;
+						}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Wue_POSTCI, extra_callback_info1) {
+						1: return ITEM_WUE_POSTCI;
+						2: return ITEM_WUE_POSTCI;															//use same vehicle for all parts
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
+						}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Wue_POSTCI, 1){
+						return 1200;}																					
+
+
+item (FEAT_TRAINS , ITEM_WUE_POSTCI, 8280)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WUE_POSTCI);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1903,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+												
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Wue_POSTCI_graphics;
+			additional_text					: string(STR_DESC_WUE_POSTCI);
+			length							: switch_length_Wue_POSTCI;
+			cargo_subtype_text 				: switch_cargo_subtype_Wue_POSTCI; 
+			articulated_part				: switch_articulated_Wue_POSTCI;
+			purchase						: spriteset_purchase_Wue_POSTCI;
+			cost_factor						: 230;
+			running_cost_factor				: switch_running_cost_Wue_POSTCI;			
+
+			 }
+		}

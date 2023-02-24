@@ -1,0 +1,261 @@
+
+//#########################
+//###Preussischer PWG 99###
+//#########################			
+	
+	
+//Spriteset KPEV 
+
+		spriteset (spriteset_PWG_99_KPEV, "gfx\PWG_99/PWG_99_KPEV_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PWG_99_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\PWG_99/PWG_99_KPEV_1x_32bpp.png", "gfx\PWG_99/PWG_99_KPEV_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PWG_99_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\PWG_99/PWG_99_KPEV_2x_32bpp.png", "gfx\PWG_99/PWG_99_KPEV_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_PWG_99_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\PWG_99/PWG_99_KPEV_4x_32bpp.png", "gfx\PWG_99/PWG_99_KPEV_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+					
+					
+//Spriteset DRG
+
+		spriteset (spriteset_PWG_99_DRG, "gfx\PWG_99/PWG_99_DRG_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PWG_99_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\PWG_99/PWG_99_DRG_1x_32bpp.png", "gfx\PWG_99/PWG_99_DRG_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PWG_99_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\PWG_99/PWG_99_DRG_2x_32bpp.png", "gfx\PWG_99/PWG_99_DRG_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_PWG_99_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\PWG_99/PWG_99_DRG_4x_32bpp.png", "gfx\PWG_99/PWG_99_DRG_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+					
+//Spriteset Purchase
+
+		spriteset (spriteset_PWG_99_purchase1, "gfx\PWG_99/PWG_99_KPEV_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_PWG_99_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\PWG_99/PWG_99_KPEV_1x_32bpp.png", "gfx\PWG_99/PWG_99_KPEV_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+		spriteset (spriteset_PWG_99_purchase2, "gfx\PWG_99/PWG_99_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_PWG_99_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\PWG_99/PWG_99_DRG_1x_32bpp.png", "gfx\PWG_99/PWG_99_DRG_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+//Switches										
+										
+//Switches
+
+					 switch (FEAT_TRAINS,SELF, switch_PWG_99_purchase,current_year){
+							1800 .. 1919: spriteset_PWG_99_purchase1;
+							1920 .. 1955: spriteset_PWG_99_purchase2;				 					 
+							spriteset_PWG_99_purchase2;}
+							
+					switch (FEAT_TRAINS,SELF,switch_PWG_99_current_year,current_year) {
+							1880 .. 1919 : spriteset_PWG_99_KPEV;
+							1920 .. 1955 : spriteset_PWG_99_DRG;
+							spriteset_PWG_99_DRG;}
+							
+					switch (FEAT_TRAINS,SELF,switch_PWG_99_build_year,build_year) {
+							1880 .. 1919 : spriteset_PWG_99_KPEV;
+							1920 .. 1955 : spriteset_PWG_99_DRG;
+							spriteset_PWG_99_DRG;}																										
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_PWG_99, 1){
+							return 43;}	
+
+item (FEAT_TRAINS , ITEM_PWG_99, 10010)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PWG_99);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1899,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit              : [PASS] ;
+						cargo_capacity                 : 1 ;					
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						11 ton;
+						dual_headed: 					0;
+						ai_engine_rank: 				0;
+						length: 						5;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_PWG_99_build_year;
+			additional_text					: string(STR_DESC_PWG);
+			purchase						: switch_PWG_99_purchase;
+			cost_factor						: 23;
+			running_cost_factor				: switch_running_cost_PWG_99;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;							
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_PWG_99_CURRENT, 10011)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PWG_99_CURRENT);
+						variant_group:					10010;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1899,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit              : [PASS] ;
+						cargo_capacity                 : 1 ;					
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						11 ton;
+						dual_headed: 					0;
+						ai_engine_rank: 				0;
+						length: 						5;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_PWG_99_current_year;
+			additional_text					: string(STR_DESC_PWG);
+			purchase						: switch_PWG_99_purchase;
+			cost_factor						: 23;
+			running_cost_factor				: switch_running_cost_PWG_99;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;							
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_PWG_99_KPEV, 10012)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PWG_99_KPEV);
+						variant_group:					10010;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1899,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit              : [PASS] ;
+						cargo_capacity                 : 1 ;					
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						11 ton;
+						dual_headed: 					0;
+						ai_engine_rank: 				0;
+						length: 						5;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_PWG_99_KPEV;
+			additional_text					: string(STR_DESC_PWG);
+			purchase						: spriteset_PWG_99_purchase1;
+			cost_factor						: 23;
+			running_cost_factor				: switch_running_cost_PWG_99;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;							
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_PWG_99_DRG, 10013)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PWG_99_DRG);
+						variant_group:					10010;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					19;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit              : [PASS] ;
+						cargo_capacity                 : 1 ;					
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						11 ton;
+						dual_headed: 					0;
+						ai_engine_rank: 				0;
+						length: 						5;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_PWG_99_DRG;
+			additional_text					: string(STR_DESC_PWG);
+			purchase						: spriteset_PWG_99_purchase2;
+			cost_factor						: 23;
+			running_cost_factor				: switch_running_cost_PWG_99;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;							
+			
+			 }
+		}

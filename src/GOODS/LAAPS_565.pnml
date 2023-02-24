@@ -1,0 +1,322 @@
+//################
+//### Laaps 565###
+//################
+
+//Spriteset wagon front
+
+spriteset (spriteset_Laaps_565, "gfx\Laaps_565/Laaps_565_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+//Spriteset wagon back
+					
+spriteset (spriteset_Laaps_565_REV, "gfx\Laaps_565/Laaps_565_1x_8bpp.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_1x_mask.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_2x_mask.png")
+					{template_88trains_REV_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_4x_mask.png")
+					{template_88trains_REV_4x(0, 0)}
+					
+
+
+//Spriteset loading_30 front
+
+spriteset (spriteset_Laaps_565_load_Wood_30, "gfx\Laaps_565/Laaps_565_load_Wood_30_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_30_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_30_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_30_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_30_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Wood_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_30_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_30_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+//Spriteset loading_30 back
+					
+spriteset (spriteset_Laaps_565_load_Wood_30_REV, "gfx\Laaps_565/Laaps_565_load_Wood_30_1x_8bpp.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_30_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_30_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_30_1x_mask.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_30_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_30_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_30_2x_mask.png")
+					{template_88trains_REV_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Wood_30_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_30_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_30_4x_mask.png")
+					{template_88trains_REV_4x(0, 0)}	
+					
+//Spriteset loading_60 front
+
+spriteset (spriteset_Laaps_565_load_Wood_60, "gfx\Laaps_565/Laaps_565_load_Wood_60_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_60_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_60_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_60_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_60_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Wood_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_60_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_60_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+//Spriteset loading_60 back
+					
+spriteset (spriteset_Laaps_565_load_Wood_60_REV, "gfx\Laaps_565/Laaps_565_load_Wood_60_1x_8bpp.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_60_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_60_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_60_1x_mask.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_60_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_60_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_60_2x_mask.png")
+					{template_88trains_REV_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Wood_60_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_60_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_60_4x_mask.png")
+					{template_88trains_REV_4x(0, 0)}		
+					
+//Spriteset loading_100 front
+
+spriteset (spriteset_Laaps_565_load_Wood_100, "gfx\Laaps_565/Laaps_565_load_Wood_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_100_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_100_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_100_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_100_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_100_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_100_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+//Spriteset loading_100 back
+					
+spriteset (spriteset_Laaps_565_load_Wood_100_REV, "gfx\Laaps_565/Laaps_565_load_Wood_100_1x_8bpp.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_100_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_100_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_100_1x_mask.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Wood_100_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_100_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_100_2x_mask.png")
+					{template_88trains_REV_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Wood_100_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Wood_100_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Wood_100_4x_mask.png")
+					{template_88trains_REV_4x(0, 0)}
+
+spritegroup spritegroup_Laaps_565_load_Wood
+		{loaded: 	[spriteset_empty, spriteset_Laaps_565_load_Wood_30, spriteset_Laaps_565_load_Wood_60, spriteset_Laaps_565_load_Wood_100];
+			loading: 	[spriteset_empty, spriteset_Laaps_565_load_Wood_30, spriteset_Laaps_565_load_Wood_60, spriteset_Laaps_565_load_Wood_100];}	
+			
+spritegroup spritegroup_Laaps_565_load_Wood_REV
+		{loaded: 	[spriteset_empty, spriteset_Laaps_565_load_Wood_30_REV, spriteset_Laaps_565_load_Wood_60_REV, spriteset_Laaps_565_load_Wood_100_REV];
+			loading: 	[spriteset_empty, spriteset_Laaps_565_load_Wood_30_REV, spriteset_Laaps_565_load_Wood_60_REV, spriteset_Laaps_565_load_Wood_100_REV];}
+			
+//Spriteset loading_30 front
+
+spriteset (spriteset_Laaps_565_load_Timber_30, "gfx\Laaps_565/Laaps_565_load_Timber_30_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_30_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_30_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_30_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_30_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Timber_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_30_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_30_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+//Spriteset loading_30 back
+					
+spriteset (spriteset_Laaps_565_load_Timber_30_REV, "gfx\Laaps_565/Laaps_565_load_Timber_30_1x_8bpp.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_30_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_30_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_30_1x_mask.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_30_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_30_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_30_2x_mask.png")
+					{template_88trains_REV_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Timber_30_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_30_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_30_4x_mask.png")
+					{template_88trains_REV_4x(0, 0)}	
+					
+//Spriteset loading_60 front
+
+spriteset (spriteset_Laaps_565_load_Timber_60, "gfx\Laaps_565/Laaps_565_load_Timber_60_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_60_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_60_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_60_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_60_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Timber_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_60_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_60_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+//Spriteset loading_60 back
+					
+spriteset (spriteset_Laaps_565_load_Timber_60_REV, "gfx\Laaps_565/Laaps_565_load_Timber_60_1x_8bpp.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_60_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_60_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_60_1x_mask.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_60_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_60_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_60_2x_mask.png")
+					{template_88trains_REV_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Timber_60_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_60_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_60_4x_mask.png")
+					{template_88trains_REV_4x(0, 0)}		
+					
+//Spriteset loading_100 front
+
+spriteset (spriteset_Laaps_565_load_Timber_100, "gfx\Laaps_565/Laaps_565_load_Timber_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_100_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_100_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_100_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_100_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Timber_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_100_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_100_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+//Spriteset loading_100 back
+					
+spriteset (spriteset_Laaps_565_load_Timber_100_REV, "gfx\Laaps_565/Laaps_565_load_Timber_100_1x_8bpp.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_100_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_100_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_100_1x_mask.png")
+					{template_88trains_REV_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_load_Timber_100_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_100_2x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_100_2x_mask.png")
+					{template_88trains_REV_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Laaps_565_load_Timber_100_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_load_Timber_100_4x_32bpp.png", "gfx\Laaps_565/Laaps_565_load_Timber_100_4x_mask.png")
+					{template_88trains_REV_4x(0, 0)}
+
+spritegroup spritegroup_Laaps_565_load_Timber
+		{loaded: 	[spriteset_empty, spriteset_Laaps_565_load_Timber_30, spriteset_Laaps_565_load_Timber_60, spriteset_Laaps_565_load_Timber_100];
+			loading: 	[spriteset_empty, spriteset_Laaps_565_load_Timber_30, spriteset_Laaps_565_load_Timber_60, spriteset_Laaps_565_load_Timber_100];}	
+			
+spritegroup spritegroup_Laaps_565_load_Timber_REV
+		{loaded: 	[spriteset_empty, spriteset_Laaps_565_load_Timber_30_REV, spriteset_Laaps_565_load_Timber_60_REV, spriteset_Laaps_565_load_Timber_100_REV];
+			loading: 	[spriteset_empty, spriteset_Laaps_565_load_Timber_30_REV, spriteset_Laaps_565_load_Timber_60_REV, spriteset_Laaps_565_load_Timber_100_REV];}								
+
+
+//Spriteset purchase
+
+spriteset (spriteset_Laaps_565_purchase, "gfx\Laaps_565/Laaps_565_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Laaps_565_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Laaps_565/Laaps_565_1x_32bpp.png", "gfx\Laaps_565/Laaps_565_1x_mask.png")
+					{template_purchase(0, 0)}			
+
+
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Laaps_565_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Laaps_565;
+						1: spritegroup_Laaps_565_load_Wood;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Laaps_565_Wood_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Laaps_565_REV;
+						1: spritegroup_Laaps_565_load_Wood_REV;}	
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Laaps_565_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Laaps_565;
+						1: spritegroup_Laaps_565_load_Timber;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Laaps_565_Timber_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Laaps_565_REV;
+						1: spritegroup_Laaps_565_load_Timber_REV;}						
+						
+					switch (FEAT_TRAINS, SELF, switch_Laaps_565_cargo_type, cargo_type_in_veh) {		
+							BDMT: return switch_loadstack_Laaps_565_Timber;
+							WDPR: return switch_loadstack_Laaps_565_Timber;						
+							WOOD: return switch_loadstack_Laaps_565_Wood;							
+								switch_loadstack_Laaps_565_Wood;}
+								
+					switch (FEAT_TRAINS, SELF, switch_Laaps_565_cargo_type_REV, cargo_type_in_veh) {		
+							BDMT: return switch_loadstack_Laaps_565_Timber_REV;
+							WDPR: return switch_loadstack_Laaps_565_Timber_REV;						
+							WOOD: return switch_loadstack_Laaps_565_Wood_REV;							
+								switch_loadstack_Laaps_565_Wood_REV;}																			
+
+						switch(FEAT_TRAINS, SELF, switch_Laaps_565_graphics, position_in_articulated_veh % 2) {
+							0:	   return switch_Laaps_565_cargo_type;
+							1:     return switch_Laaps_565_cargo_type_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Laaps_565, position_in_vehid_chain % 2) {
+							0: 8;
+							1: 8;}								
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Laaps_565, extra_callback_info1) {
+						1: return ITEM_LAAPS_565;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Laaps_565, 1){
+						return 475;}				
+
+item (FEAT_TRAINS , ITEM_LAAPS_565, 8985)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_LAAPS_565);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2006,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask( 	);
+						cargo_allow_refit:              [WOOD, WDPR, BDMT];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI, CLAY, KAOL, SASH];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						12 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					31;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Laaps_565_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Laaps_565;
+			length							: switch_length_Laaps_565;
+			purchase						: spriteset_Laaps_565_purchase;
+			cost_factor						: 225;
+			running_cost_factor				: switch_running_cost_Laaps_565;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}	

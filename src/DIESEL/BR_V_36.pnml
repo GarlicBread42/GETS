@@ -1,0 +1,120 @@
+//############
+//### V 36 ###
+//############
+
+
+//GFX-Definition
+
+spriteset(spriteset_V_36_1, "gfx/V_36/V_36_1_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_36/V_36_1_1x_32bpp.png", "gfx/V_36/V_36_1_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_36/V_36_1_2x_32bpp.png", "gfx/V_36/V_36_1_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_36/V_36_1_4x_32bpp.png", "gfx/V_36/V_36_1_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+				
+
+spriteset(spriteset_V_36_2, "gfx/V_36/V_36_2_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_36/V_36_2_1x_32bpp.png", "gfx/V_36/V_36_2_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_36/V_36_2_2x_32bpp.png", "gfx/V_36/V_36_2_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_36/V_36_2_4x_32bpp.png", "gfx/V_36/V_36_2_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+				
+
+spriteset(spriteset_V_36_3, "gfx/V_36/V_36_3_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_36/V_36_3_1x_32bpp.png", "gfx/V_36/V_36_3_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_36/V_36_3_2x_32bpp.png", "gfx/V_36/V_36_3_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_36/V_36_3_4x_32bpp.png", "gfx/V_36/V_36_3_4x_mask.png")
+									{template_68trains_4x(0, 0)}	
+				
+
+spriteset(spriteset_V_36_4, "gfx/V_36/V_36_4_1x_8bpp.png")
+									{ template_68trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_36/V_36_4_1x_32bpp.png", "gfx/V_36/V_36_4_1x_mask.png")
+									{template_68trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_36/V_36_4_2x_32bpp.png", "gfx/V_36/V_36_4_2x_mask.png")
+									{template_68trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_V_36_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_36/V_36_4_4x_32bpp.png", "gfx/V_36/V_36_4_4x_mask.png")
+									{template_68trains_4x(0, 0)}
+				
+				
+spriteset(spriteset_V_36_purchase, "gfx/V_36/V_36_1_1x_8bpp.png")
+									{ template_purchase(0, 0)}				
+				
+				
+				switch (FEAT_TRAINS, SELF, switch_animation_V_36, motion_counter % 4) {
+						0: spriteset_V_36_1;
+						1: spriteset_V_36_2;
+						2: spriteset_V_36_3;
+						3: spriteset_V_36_4;
+				}
+				
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_V_36, 1){
+						return 225;}				
+				
+item (FEAT_TRAINS , ITEM_V_36, 2360)
+
+
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_V_36);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						introduction_date: 				date(1937,01,01);
+						model_life: 					43;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cost_factor: 					54;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							55 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						360 hp;
+						weight: 						42 ton;
+						ai_engine_rank: 				0;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.358;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default				: switch_animation_V_36;
+			additional_text		: string(STR_DESC_SHUNT);
+			purchase			: spriteset_V_36_purchase;
+			cost_factor						:6;
+			running_cost_factor				: switch_running_cost_V_36;			
+			
+			 }
+		}

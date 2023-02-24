@@ -1,0 +1,824 @@
+//##################################
+//###Container Carrier Sggmrs 714###
+//##################################
+
+
+//Spriteset Kombiwaggon
+
+spriteset (spriteset_Sggmrs_714_front_Kombiwaggon, "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_front_Kombiwaggon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_front_Kombiwaggon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_2x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sggmrs_714_front_Kombiwaggon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_4x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Sggmrs_714_back_Kombiwaggon, "gfx\Sggmrs_714/Sggmrs_714_back_Kombiwaggon_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_back_Kombiwaggon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_Kombiwaggon_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_Kombiwaggon_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_back_Kombiwaggon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_Kombiwaggon_2x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_Kombiwaggon_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sggmrs_714_back_Kombiwaggon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_Kombiwaggon_4x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_Kombiwaggon_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+
+
+//Spriteset DB
+
+spriteset (spriteset_Sggmrs_714_front_DB, "gfx\Sggmrs_714/Sggmrs_714_front_DB_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_front_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_DB_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_DB_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_front_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_DB_2x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_DB_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sggmrs_714_front_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_DB_4x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_DB_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Sggmrs_714_back_DB, "gfx\Sggmrs_714/Sggmrs_714_back_DB_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_back_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_DB_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_DB_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_back_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_DB_2x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_DB_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sggmrs_714_back_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_DB_4x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_DB_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+												
+
+//Spriteset AAE
+
+spriteset (spriteset_Sggmrs_714_front_AAE, "gfx\Sggmrs_714/Sggmrs_714_front_AAE_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_front_AAE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_AAE_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_AAE_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_front_AAE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_AAE_2x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_AAE_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sggmrs_714_front_AAE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_AAE_4x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_AAE_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Sggmrs_714_back_AAE, "gfx\Sggmrs_714/Sggmrs_714_back_AAE_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_back_AAE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_AAE_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_AAE_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_back_AAE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_AAE_2x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_AAE_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sggmrs_714_back_AAE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_back_AAE_4x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_back_AAE_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+
+
+//Spriteset purchase
+
+spriteset (spriteset_Sggmrs_714_purchase1, "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_Kombiwaggon_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Sggmrs_714_purchase2, "gfx\Sggmrs_714/Sggmrs_714_front_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_DB_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_DB_1x_mask.png")
+					{template_purchase(0, 0)}					
+					
+spriteset (spriteset_Sggmrs_714_purchase3, "gfx\Sggmrs_714/Sggmrs_714_front_AAE_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Sggmrs_714_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sggmrs_714/Sggmrs_714_front_AAE_1x_32bpp.png", "gfx\Sggmrs_714/Sggmrs_714_front_AAE_1x_mask.png")
+					{template_purchase(0, 0)}					
+					
+					
+					
+//Switches
+
+					switch (FEAT_TRAINS,SELF,switch_Sggmrs_714_purchase,current_year) {
+							  00 .. 1995 : spriteset_Sggmrs_714_purchase1;
+							1996 .. 2014 : spriteset_Sggmrs_714_purchase2;
+							2015 .. 2050 : spriteset_Sggmrs_714_purchase3;
+							spriteset_Sggmrs_714_purchase3;}					
+					
+					switch (FEAT_TRAINS,SELF,switch_Sggmrs_714_front_current_year,current_year) {
+							  00 .. 1995 : spriteset_Sggmrs_714_front_Kombiwaggon;
+							1996 .. 2014 : spriteset_Sggmrs_714_front_DB;
+							2015 .. 2050 : spriteset_Sggmrs_714_front_AAE;
+							spriteset_Sggmrs_714_front_AAE;}					
+					
+					switch (FEAT_TRAINS,SELF,switch_Sggmrs_714_back_current_year,current_year) {
+							  00 .. 1995 : spriteset_Sggmrs_714_back_Kombiwaggon;
+							1996 .. 2014 : spriteset_Sggmrs_714_back_DB;
+							2015 .. 2050 : spriteset_Sggmrs_714_back_AAE;
+							spriteset_Sggmrs_714_back_AAE;}					
+					
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_front_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_front_current_year;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_front_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_front_current_year;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_front_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_front_current_year;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_front_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_front_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_front_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_front_Cont20_Dry_direction1;
+								switch_loadstack_Sggmrs_714_front_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Sggmrs_714_front_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_Sggmrs_714_front_Cont40_Dry;
+							1: switch_loadstack_Sggmrs_714_front_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_front_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_front_current_year;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_front_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_front_current_year;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_front_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_front_current_year;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_front_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_front_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_front_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_front_Mail_direction1;
+								switch_loadstack_Sggmrs_714_front_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Sggmrs_714_front_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Sggmrs_714_front_Cold;
+							FOOD: return switch_loadstack_Sggmrs_714_front_Cold;
+							FRUT: return switch_loadstack_Sggmrs_714_front_Cold;
+							FRVG: return switch_loadstack_Sggmrs_714_front_Cold;
+							MILK: return switch_loadstack_Sggmrs_714_front_Cold;
+							MAIL: return switch_loadstack_Sggmrs_714_front_Mail_direction;													
+								switch_random_Cont_decider_Sggmrs_714_front_Dry;}					
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_back_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_back_current_year;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_back_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_back_current_year;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_back_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_back_current_year;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_back_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_back_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_back_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_back_Cont20_Dry_direction1;
+								switch_loadstack_Sggmrs_714_back_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Sggmrs_714_back_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_Sggmrs_714_back_Cont40_Dry;
+							1: switch_loadstack_Sggmrs_714_back_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_back_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_back_current_year;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_back_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_back_current_year;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_back_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_Sggmrs_714_back_current_year;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_back_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_back_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_back_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_back_Mail_direction1;
+								switch_loadstack_Sggmrs_714_back_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Sggmrs_714_back_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Sggmrs_714_back_Cold;
+							FOOD: return switch_loadstack_Sggmrs_714_back_Cold;
+							FRUT: return switch_loadstack_Sggmrs_714_back_Cold;
+							FRVG: return switch_loadstack_Sggmrs_714_back_Cold;
+							MILK: return switch_loadstack_Sggmrs_714_back_Cold;
+							MAIL: return switch_loadstack_Sggmrs_714_back_Mail_direction;													
+								switch_random_Cont_decider_Sggmrs_714_back_Dry;}					
+
+						switch(FEAT_TRAINS, SELF, switch_Sggmrs_714_graphics, position_in_articulated_veh % 6) {
+							0:	   spriteset_empty;
+							1:     return switch_Sggmrs_714_front_cargo_type;
+							2:	   spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_Sggmrs_714_back_cargo_type;
+							5:	   spriteset_empty;	}						
+
+						switch(FEAT_TRAINS, SELF, switch_length_Sggmrs_714, position_in_vehid_chain % 6) {
+							0: 3;
+							1: 3;
+							2: 3;
+							3: 3;
+							4: 3;
+							5: 3;							}								
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Sggmrs_714, extra_callback_info1) {
+						1 .. 5: return ITEM_SGGMRS_714;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Sggmrs_714, 1){
+						return 860;}				
+
+item (FEAT_TRAINS , ITEM_SGGMRS_714, 9880)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SGGMRS_714);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1988,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						non_refittable_cargo_classes:	bitmask(CC_BULK);
+						cargo_allow_refit:              [MAIL, STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR, FOOD, FISH, EOIL, FERT, FICR, FRVG, FRUT,];
+						cargo_disallow_refit: 			[LVST, WATR, BEER, BOOM,IRON, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						31 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Sggmrs_714_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Sggmrs_714;
+			length							: switch_length_Sggmrs_714;
+			purchase						: switch_Sggmrs_714_purchase;
+			cost_factor						: 425;
+			running_cost_factor				: switch_running_cost_Sggmrs_714;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}	
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_Kombiwaggon;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_Kombiwaggon;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_Kombiwaggon;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont20_Dry_direction1;
+								switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Sggmrs_714_Kombiwaggon_front_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont40_Dry;
+							1: switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_Kombiwaggon;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_front_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_Kombiwaggon;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_front_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_Kombiwaggon;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_front_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_Kombiwaggon_front_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_Kombiwaggon_front_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_Kombiwaggon_front_Mail_direction1;
+								switch_loadstack_Sggmrs_714_Kombiwaggon_front_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Sggmrs_714_Kombiwaggon_front_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cold;
+							FOOD: return switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cold;
+							FRUT: return switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cold;
+							FRVG: return switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cold;
+							MILK: return switch_loadstack_Sggmrs_714_Kombiwaggon_front_Cold;
+							MAIL: return switch_loadstack_Sggmrs_714_Kombiwaggon_front_Mail_direction;													
+								switch_random_Cont_decider_Sggmrs_714_Kombiwaggon_front_Dry;}					
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_Kombiwaggon;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_Kombiwaggon;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_Kombiwaggon;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont20_Dry_direction1;
+								switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Sggmrs_714_Kombiwaggon_back_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont40_Dry;
+							1: switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_Kombiwaggon;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_back_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_Kombiwaggon;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_back_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_Kombiwaggon;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_Kombiwaggon_back_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_Kombiwaggon_back_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_Kombiwaggon_back_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_Kombiwaggon_back_Mail_direction1;
+								switch_loadstack_Sggmrs_714_Kombiwaggon_back_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Sggmrs_714_Kombiwaggon_back_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cold;
+							FOOD: return switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cold;
+							FRUT: return switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cold;
+							FRVG: return switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cold;
+							MILK: return switch_loadstack_Sggmrs_714_Kombiwaggon_back_Cold;
+							MAIL: return switch_loadstack_Sggmrs_714_Kombiwaggon_back_Mail_direction;													
+								switch_random_Cont_decider_Sggmrs_714_Kombiwaggon_back_Dry;}					
+
+						switch(FEAT_TRAINS, SELF, switch_Sggmrs_714_Kombiwaggon_graphics, position_in_articulated_veh % 6) {
+							0:	   spriteset_empty;
+							1:     return switch_Sggmrs_714_Kombiwaggon_front_cargo_type;
+							2:	   spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_Sggmrs_714_Kombiwaggon_back_cargo_type;
+							5:	   spriteset_empty;	}													
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Sggmrs_714_Kombiwaggon, extra_callback_info1) {
+						1 .. 5: return ITEM_SGGMRS_714_KOMBIWAGGON;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+item (FEAT_TRAINS , ITEM_SGGMRS_714_KOMBIWAGGON, 9881)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SGGMRS_714_KOMBIWAGGON);
+						variant_group:					9880;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1988,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						non_refittable_cargo_classes:	bitmask(CC_BULK);
+						cargo_allow_refit:              [MAIL, STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR, FOOD, FISH, EOIL, FERT, FICR, FRVG, FRUT,];
+						cargo_disallow_refit: 			[LVST, WATR, BEER, BOOM,IRON, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						31 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Sggmrs_714_Kombiwaggon_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Sggmrs_714_Kombiwaggon;
+			length							: switch_length_Sggmrs_714;
+			purchase						: spriteset_Sggmrs_714_purchase1;
+			cost_factor						: 425;
+			running_cost_factor				: switch_running_cost_Sggmrs_714;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}	
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_front_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_DB;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_front_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_DB;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_front_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_DB;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_front_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_DB_front_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_DB_front_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_DB_front_Cont20_Dry_direction1;
+								switch_loadstack_Sggmrs_714_DB_front_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Sggmrs_714_DB_front_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_Sggmrs_714_DB_front_Cont40_Dry;
+							1: switch_loadstack_Sggmrs_714_DB_front_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_front_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_DB;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_front_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_DB;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_front_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_DB;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_front_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_DB_front_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_DB_front_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_DB_front_Mail_direction1;
+								switch_loadstack_Sggmrs_714_DB_front_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Sggmrs_714_DB_front_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Sggmrs_714_DB_front_Cold;
+							FOOD: return switch_loadstack_Sggmrs_714_DB_front_Cold;
+							FRUT: return switch_loadstack_Sggmrs_714_DB_front_Cold;
+							FRVG: return switch_loadstack_Sggmrs_714_DB_front_Cold;
+							MILK: return switch_loadstack_Sggmrs_714_DB_front_Cold;
+							MAIL: return switch_loadstack_Sggmrs_714_DB_front_Mail_direction;													
+								switch_random_Cont_decider_Sggmrs_714_DB_front_Dry;}					
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_back_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_DB;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_back_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_DB;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_back_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_DB;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_back_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_DB_back_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_DB_back_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_DB_back_Cont20_Dry_direction1;
+								switch_loadstack_Sggmrs_714_DB_back_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Sggmrs_714_DB_back_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_Sggmrs_714_DB_back_Cont40_Dry;
+							1: switch_loadstack_Sggmrs_714_DB_back_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_back_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_DB;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_back_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_DB;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_back_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_DB;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_DB_back_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_DB_back_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_DB_back_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_DB_back_Mail_direction1;
+								switch_loadstack_Sggmrs_714_DB_back_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Sggmrs_714_DB_back_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Sggmrs_714_DB_back_Cold;
+							FOOD: return switch_loadstack_Sggmrs_714_DB_back_Cold;
+							FRUT: return switch_loadstack_Sggmrs_714_DB_back_Cold;
+							FRVG: return switch_loadstack_Sggmrs_714_DB_back_Cold;
+							MILK: return switch_loadstack_Sggmrs_714_DB_back_Cold;
+							MAIL: return switch_loadstack_Sggmrs_714_DB_back_Mail_direction;													
+								switch_random_Cont_decider_Sggmrs_714_DB_back_Dry;}					
+
+						switch(FEAT_TRAINS, SELF, switch_Sggmrs_714_DB_graphics, position_in_articulated_veh % 6) {
+							0:	   spriteset_empty;
+							1:     return switch_Sggmrs_714_DB_front_cargo_type;
+							2:	   spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_Sggmrs_714_DB_back_cargo_type;
+							5:	   spriteset_empty;	}													
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Sggmrs_714_DB, extra_callback_info1) {
+						1 .. 5: return ITEM_SGGMRS_714_DB;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+item (FEAT_TRAINS , ITEM_SGGMRS_714_DB, 9882)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SGGMRS_714_DB);
+						variant_group:					9880;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						non_refittable_cargo_classes:	bitmask(CC_BULK);
+						cargo_allow_refit:              [MAIL, STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR, FOOD, FISH, EOIL, FERT, FICR, FRVG, FRUT,];
+						cargo_disallow_refit: 			[LVST, WATR, BEER, BOOM,IRON, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						31 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Sggmrs_714_DB_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Sggmrs_714_DB;
+			length							: switch_length_Sggmrs_714;
+			purchase						: spriteset_Sggmrs_714_purchase2;
+			cost_factor						: 425;
+			running_cost_factor				: switch_running_cost_Sggmrs_714;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_front_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_AAE;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_front_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_AAE;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_front_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_AAE;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_front_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_AAE_front_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_AAE_front_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_AAE_front_Cont20_Dry_direction1;
+								switch_loadstack_Sggmrs_714_AAE_front_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Sggmrs_714_AAE_front_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_Sggmrs_714_AAE_front_Cont40_Dry;
+							1: switch_loadstack_Sggmrs_714_AAE_front_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_front_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_AAE;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_front_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_AAE;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_front_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_front_AAE;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_front_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_AAE_front_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_AAE_front_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_AAE_front_Mail_direction1;
+								switch_loadstack_Sggmrs_714_AAE_front_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Sggmrs_714_AAE_front_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Sggmrs_714_AAE_front_Cold;
+							FOOD: return switch_loadstack_Sggmrs_714_AAE_front_Cold;
+							FRUT: return switch_loadstack_Sggmrs_714_AAE_front_Cold;
+							FRVG: return switch_loadstack_Sggmrs_714_AAE_front_Cold;
+							MILK: return switch_loadstack_Sggmrs_714_AAE_front_Cold;
+							MAIL: return switch_loadstack_Sggmrs_714_AAE_front_Mail_direction;													
+								switch_random_Cont_decider_Sggmrs_714_AAE_front_Dry;}					
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_back_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_AAE;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_back_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_AAE;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_back_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_AAE;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_back_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_AAE_back_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_AAE_back_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_AAE_back_Cont20_Dry_direction1;
+								switch_loadstack_Sggmrs_714_AAE_back_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Sggmrs_714_AAE_back_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+							1: switch_loadstack_Sggmrs_714_AAE_back_Cont40_Dry;
+							1: switch_loadstack_Sggmrs_714_AAE_back_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_back_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_AAE;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_back_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_AAE;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_back_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Sggmrs_714_back_AAE;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Sggmrs_714_AAE_back_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Sggmrs_714_AAE_back_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Sggmrs_714_AAE_back_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Sggmrs_714_AAE_back_Mail_direction1;
+								switch_loadstack_Sggmrs_714_AAE_back_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Sggmrs_714_AAE_back_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Sggmrs_714_AAE_back_Cold;
+							FOOD: return switch_loadstack_Sggmrs_714_AAE_back_Cold;
+							FRUT: return switch_loadstack_Sggmrs_714_AAE_back_Cold;
+							FRVG: return switch_loadstack_Sggmrs_714_AAE_back_Cold;
+							MILK: return switch_loadstack_Sggmrs_714_AAE_back_Cold;
+							MAIL: return switch_loadstack_Sggmrs_714_AAE_back_Mail_direction;													
+								switch_random_Cont_decider_Sggmrs_714_AAE_back_Dry;}					
+
+						switch(FEAT_TRAINS, SELF, switch_Sggmrs_714_AAE_graphics, position_in_articulated_veh % 6) {
+							0:	   spriteset_empty;
+							1:     return switch_Sggmrs_714_AAE_front_cargo_type;
+							2:	   spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_Sggmrs_714_AAE_back_cargo_type;
+							5:	   spriteset_empty;	}													
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Sggmrs_714_AAE, extra_callback_info1) {
+						1 .. 5: return ITEM_SGGMRS_714_AAE;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+item (FEAT_TRAINS , ITEM_SGGMRS_714_AAE, 9883)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SGGMRS_714_AAE);
+						variant_group:					9880;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2015,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						non_refittable_cargo_classes:	bitmask(CC_BULK);
+						cargo_allow_refit:              [MAIL, STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR, FOOD, FISH, EOIL, FERT, FICR, FRVG, FRUT,];
+						cargo_disallow_refit: 			[LVST, WATR, BEER, BOOM,IRON, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						31 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Sggmrs_714_AAE_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Sggmrs_714_AAE;
+			length							: switch_length_Sggmrs_714;
+			purchase						: spriteset_Sggmrs_714_purchase3;
+			cost_factor						: 425;
+			running_cost_factor				: switch_running_cost_Sggmrs_714;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

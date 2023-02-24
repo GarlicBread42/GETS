@@ -1,0 +1,154 @@
+//################################
+//###Container Carrier Lgjs_579###
+//################################
+
+
+spriteset (spriteset_Lgjs_579, "gfx\Lgjs_579/Lgjs_579_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Lgjs_579, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Lgjs_579/Lgjs_579_1x_32bpp.png", "gfx\Lgjs_579/Lgjs_579_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Lgjs_579, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Lgjs_579/Lgjs_579_2x_32bpp.png", "gfx\Lgjs_579/Lgjs_579_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Lgjs_579, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Lgjs_579/Lgjs_579_4x_32bpp.png", "gfx\Lgjs_579/Lgjs_579_4x_mask.png")
+						{template_98trains_4x(0, 0)}
+						
+//Spriteset purchase
+															
+spriteset (spriteset_Lgjs_579_purchase, "gfx\Lgjs_579/Lgjs_579_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Lgjs_579_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Lgjs_579/Lgjs_579_1x_32bpp.png", "gfx\Lgjs_579/Lgjs_579_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+//Switches	
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Lgjs_579_Cont40_Dry, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Lgjs_579;
+						1: switch_Cont40_center_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Lgjs_579_Cont20_Dry_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Lgjs_579;
+						1: switch_Cont20_center1_Dry_loadstage_current_year;
+						2: switch_Cont20_center2_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Lgjs_579_Cont20_Dry_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Lgjs_579;
+						1: switch_Cont20_center2_Dry_loadstage_current_year;
+						2: switch_Cont20_center1_Dry_loadstage_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Lgjs_579_Cont20_Dry_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Lgjs_579_Cont20_Dry_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Lgjs_579_Cont20_Dry_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Lgjs_579_Cont20_Dry_direction1;
+								switch_loadstack_Lgjs_579_Cont20_Dry_direction2;}							
+						
+					random_switch(FEAT_TRAINS, SELF, switch_random_Cont_decider_Lgjs_579_Dry, bitmask(TRIGGER_VEHICLE_UNLOAD_ALL, TRIGGER_VEHICLE_NEW_LOAD,)) {
+//							independent: random_Cont40_center_Era1_Dry_loadstage;
+//							independent: random_Cont40_center_Era2_Dry_loadstage;
+//							independent: random_Cont20_center1_Era1_Dry_loadstage;
+//							independent: random_Cont20_center1_Era2_Dry_loadstage;					
+//							independent: random_Cont20_center2_Era1_Dry_loadstage;				
+//							independent: random_Cont20_center2_Era2_Dry_loadstage;
+							1: switch_loadstack_Lgjs_579_Cont40_Dry;
+							1: switch_loadstack_Lgjs_579_Cont20_Dry_direction;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Lgjs_579_Cold, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Lgjs_579;
+						1: random_Cont40_center_Era1_cold_loadstage;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Lgjs_579_Mail_direction1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Lgjs_579;
+						1: switch_Cont20_center1_Mail_current_year;
+						2: switch_Cont20_center2_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Lgjs_579_Mail_direction2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Lgjs_579;
+						1: switch_Cont20_center2_Mail_current_year;
+						2: switch_Cont20_center1_Mail_current_year;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Lgjs_579_Mail_direction, direction) {
+							DIRECTION_SOUTHEAST: switch_loadstack_Lgjs_579_Mail_direction1;
+							DIRECTION_SOUTH: switch_loadstack_Lgjs_579_Mail_direction1;
+							DIRECTION_SOUTHWEST: switch_loadstack_Lgjs_579_Mail_direction1;
+								switch_loadstack_Lgjs_579_Mail_direction2;}											
+
+					switch (FEAT_TRAINS, SELF, switch_Lgjs_579_cargo_type, cargo_type_in_veh) {				
+							FISH: return switch_loadstack_Lgjs_579_Cold;
+							FOOD: return switch_loadstack_Lgjs_579_Cold;
+							FRUT: return switch_loadstack_Lgjs_579_Cold;
+							FRVG: return switch_loadstack_Lgjs_579_Cold;
+							MILK: return switch_loadstack_Lgjs_579_Cold;
+							MAIL: return switch_loadstack_Lgjs_579_Mail_direction;													
+								switch_random_Cont_decider_Lgjs_579_Dry;}
+								
+						switch(FEAT_TRAINS, SELF, switch_Lgjs_579_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_Lgjs_579_cargo_type;
+							2:	   spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Lgjs_579, position_in_vehid_chain % 3) {
+							0: 3;
+							1: 3;
+							2: 3;}								
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Lgjs_579, extra_callback_info1) {
+						1: return ITEM_LGJS_579;
+						2: return ITEM_LGJS_579;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Lgjs_579, 1){
+						return 200;}				
+
+item (FEAT_TRAINS , ITEM_LGJS_579, 9852)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_LGJS_579);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						non_refittable_cargo_classes:	bitmask(CC_BULK);
+						cargo_allow_refit:              [MAIL, STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR, FOOD, FISH, EOIL, FERT, FICR, FRVG, FRUT,];
+						cargo_disallow_refit: 			[LVST, WATR, BEER, BOOM,IRON, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						12 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Lgjs_579_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Lgjs_579;
+			length							: switch_length_Lgjs_579;
+			purchase						: spriteset_Lgjs_579_purchase;
+			cost_factor						: 97;
+			running_cost_factor				: switch_running_cost_Lgjs_579;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}			

@@ -1,0 +1,254 @@
+//######################
+//###Kesselwagen 1885###
+//######################			
+	
+	
+//Spriteset Chemiekessel mit Bremserhaus
+
+spriteset (spriteset_Kessel_1885_CHEM_MBH, "gfx\Kessel_1885/Kessel_1885_CHEM_MBH_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_CHEM_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_CHEM_MBH_1x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_CHEM_MBH_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_CHEM_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_CHEM_MBH_2x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_CHEM_MBH_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Kessel_1885_CHEM_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_CHEM_MBH_4x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_CHEM_MBH_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+	
+	
+//Spriteset Chemiekessel ohne Bremserhaus
+
+spriteset (spriteset_Kessel_1885_CHEM_OBH, "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_CHEM_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_1x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_CHEM_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_2x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Kessel_1885_CHEM_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_4x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+
+					
+//Spriteset Mineraloelkessel mit Bremserhaus
+
+spriteset (spriteset_Kessel_1885_OIL_MBH, "gfx\Kessel_1885/Kessel_1885_OIL_MBH_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_OIL_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_OIL_MBH_1x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_OIL_MBH_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_OIL_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_OIL_MBH_2x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_OIL_MBH_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Kessel_1885_OIL_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_OIL_MBH_4x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_OIL_MBH_4x_mask.png")
+					{template_58trains_4x(0, 0)}										
+
+
+//Spriteset Mineraloelkessel ohne Bremserhaus
+
+spriteset (spriteset_Kessel_1885_OIL_OBH, "gfx\Kessel_1885/Kessel_1885_OIL_OBH_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_OIL_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_OIL_OBH_1x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_OIL_OBH_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_OIL_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_OIL_OBH_2x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_OIL_OBH_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Kessel_1885_OIL_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_OIL_OBH_4x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_OIL_OBH_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+					
+					
+//Spriteset Purchase
+
+spriteset (spriteset_Kessel_1885_purchase, "gfx\Kessel_1885/Kessel_1885_OIL_MBH_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_OIL_MBH_1x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_OIL_MBH_1x_mask.png")
+					{ template_purchase(0, 0)}	
+					
+spriteset (spriteset_Kessel_1885_purchase2, "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Kessel_1885_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_1x_32bpp.png", "gfx\Kessel_1885/Kessel_1885_CHEM_OBH_1x_mask.png")
+					{template_purchase(0, 0)}					
+					
+//Switches
+
+					switch (FEAT_TRAINS, SELF, random_choose_Kessel_1885_OIL, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_Kessel_1885_OIL_OBH;
+								spriteset_Kessel_1885_OIL_MBH;}
+								
+					switch (FEAT_TRAINS, SELF, random_choose_Kessel_1885_CHEM, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_Kessel_1885_CHEM_OBH;
+								spriteset_Kessel_1885_CHEM_MBH;}								
+
+					switch (FEAT_TRAINS, SELF, switch_Kessel_1885_sprite_choose, cargo_type_in_veh) {
+						OIL_: random_choose_Kessel_1885_OIL;
+						RUBR: random_choose_Kessel_1885_OIL; 
+						WATR: random_choose_Kessel_1885_CHEM;
+						BEER: random_choose_Kessel_1885_CHEM;
+						DYES: random_choose_Kessel_1885_CHEM; 
+						PETR: random_choose_Kessel_1885_OIL;
+						RFPR: random_choose_Kessel_1885_OIL;
+						SULP: random_choose_Kessel_1885_CHEM;
+						ACID: random_choose_Kessel_1885_CHEM;
+						CHLO: random_choose_Kessel_1885_CHEM;
+						COAT: random_choose_Kessel_1885_CHEM;
+						FUEL: random_choose_Kessel_1885_CHEM;
+						LYE_: random_choose_Kessel_1885_CHEM;
+						MOLS: random_choose_Kessel_1885_CHEM;
+						NH3_: random_choose_Kessel_1885_CHEM;
+						OILI: random_choose_Kessel_1885_OIL;
+						OILD: random_choose_Kessel_1885_OIL;
+						O2__: random_choose_Kessel_1885_CHEM;
+						SOAP: random_choose_Kessel_1885_CHEM;
+						PLST: random_choose_Kessel_1885_OIL;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Kessel_1885, 1){
+						return 44;}	
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1885, 9205)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1885_AUTO);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1885,01,01);
+						model_life: 					65;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						9 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						5;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Kessel_1885_sprite_choose;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Kessel_1885_purchase;
+			cost_factor						: 23;
+			running_cost_factor				: switch_running_cost_Kessel_1885;				
+			
+			 }
+		}
+
+
+item (FEAT_TRAINS , ITEM_KESSEL_1885_CHEM, 9206)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1885_CHEM);
+						variant_group:					9205;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1885,01,01);
+						model_life: 					65;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						9 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						5;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Kessel_1885_CHEM;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Kessel_1885_purchase2;
+			cost_factor						: 23;
+			running_cost_factor				: switch_running_cost_Kessel_1885;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_KESSEL_1885_OIL, 9207)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1885_OIL);
+						variant_group:					9205;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1885,01,01);
+						model_life: 					65;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						9 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						5;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Kessel_1885_OIL;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Kessel_1885_purchase;
+			cost_factor						: 23;
+			running_cost_factor				: switch_running_cost_Kessel_1885;				
+			
+			 }
+		}

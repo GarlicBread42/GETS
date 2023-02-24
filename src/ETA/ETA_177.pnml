@@ -1,0 +1,1026 @@
+//######################
+//###ETA 177 - 2 Part###
+//######################
+
+//Spritesets Front KPEV
+
+spriteset (spriteset_ETA_177_front_KPEV, "gfx\ETA_177/ETA_177_front_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_front_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_KPEV_1x_32bpp.png", "gfx\ETA_177/ETA_177_front_KPEV_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_front_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_KPEV_2x_32bpp.png", "gfx\ETA_177/ETA_177_front_KPEV_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_front_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_KPEV_4x_32bpp.png", "gfx\ETA_177/ETA_177_front_KPEV_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+//Spritesets Front DRG
+
+spriteset (spriteset_ETA_177_front_DRG, "gfx\ETA_177/ETA_177_front_DRG_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_front_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_DRG_1x_32bpp.png", "gfx\ETA_177/ETA_177_front_DRG_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_front_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_DRG_2x_32bpp.png", "gfx\ETA_177/ETA_177_front_DRG_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_front_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_DRG_4x_32bpp.png", "gfx\ETA_177/ETA_177_front_DRG_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+//Spritesets Front DB
+
+spriteset (spriteset_ETA_177_front_DB, "gfx\ETA_177/ETA_177_front_DB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_front_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_DB_1x_32bpp.png", "gfx\ETA_177/ETA_177_front_DB_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_front_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_DB_2x_32bpp.png", "gfx\ETA_177/ETA_177_front_DB_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_front_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_DB_4x_32bpp.png", "gfx\ETA_177/ETA_177_front_DB_4x_mask.png")
+					{template_88trains_4x(0,0)}		
+					
+//Spritesets Front loading
+
+spriteset (spriteset_ETA_177_front_loading, "gfx\ETA_177/ETA_177_front_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_front_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_loading_1x_32bpp.png", "gfx\ETA_177/ETA_177_front_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_front_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_loading_2x_32bpp.png", "gfx\ETA_177/ETA_177_front_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_front_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_loading_4x_32bpp.png", "gfx\ETA_177/ETA_177_front_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}								
+
+spritegroup spritegroup_ETA_177_front_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ETA_177_front_loading];}
+
+
+//Spritesets middle KPEV
+
+spriteset (spriteset_ETA_177_middle_KPEV, "gfx\ETA_177/ETA_177_middle_KPEV_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_middle_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_KPEV_1x_32bpp.png", "gfx\ETA_177/ETA_177_middle_KPEV_1x_mask.png")
+					{template_68trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_middle_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_KPEV_2x_32bpp.png", "gfx\ETA_177/ETA_177_middle_KPEV_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_middle_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_KPEV_4x_32bpp.png", "gfx\ETA_177/ETA_177_middle_KPEV_4x_mask.png")
+					{template_68trains_4x(0,0)}
+
+//Spritesets middle DRG
+
+spriteset (spriteset_ETA_177_middle_DRG, "gfx\ETA_177/ETA_177_middle_DRG_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_middle_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_DRG_1x_32bpp.png", "gfx\ETA_177/ETA_177_middle_DRG_1x_mask.png")
+					{template_68trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_middle_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_DRG_2x_32bpp.png", "gfx\ETA_177/ETA_177_middle_DRG_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_middle_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_DRG_4x_32bpp.png", "gfx\ETA_177/ETA_177_middle_DRG_4x_mask.png")
+					{template_68trains_4x(0,0)}
+					
+//Spritesets middle DB
+
+spriteset (spriteset_ETA_177_middle_DB, "gfx\ETA_177/ETA_177_middle_DB_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_middle_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_DB_1x_32bpp.png", "gfx\ETA_177/ETA_177_middle_DB_1x_mask.png")
+					{template_68trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_middle_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_DB_2x_32bpp.png", "gfx\ETA_177/ETA_177_middle_DB_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_middle_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_DB_4x_32bpp.png", "gfx\ETA_177/ETA_177_middle_DB_4x_mask.png")
+					{template_68trains_4x(0,0)}		
+					
+//Spritesets middle loading
+
+spriteset (spriteset_ETA_177_middle_loading, "gfx\ETA_177/ETA_177_middle_loading_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_middle_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_loading_1x_32bpp.png", "gfx\ETA_177/ETA_177_middle_loading_1x_mask.png")
+					{template_68trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_middle_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_loading_2x_32bpp.png", "gfx\ETA_177/ETA_177_middle_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_middle_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_middle_loading_4x_32bpp.png", "gfx\ETA_177/ETA_177_middle_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}								
+
+spritegroup spritegroup_ETA_177_middle_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ETA_177_middle_loading];}
+			
+
+//Spritesets back KPEV
+
+spriteset (spriteset_ETA_177_back_KPEV, "gfx\ETA_177/ETA_177_back_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_back_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_KPEV_1x_32bpp.png", "gfx\ETA_177/ETA_177_back_KPEV_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_back_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_KPEV_2x_32bpp.png", "gfx\ETA_177/ETA_177_back_KPEV_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_back_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_KPEV_4x_32bpp.png", "gfx\ETA_177/ETA_177_back_KPEV_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+//Spritesets back DRG
+
+spriteset (spriteset_ETA_177_back_DRG, "gfx\ETA_177/ETA_177_back_DRG_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_back_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_DRG_1x_32bpp.png", "gfx\ETA_177/ETA_177_back_DRG_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_back_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_DRG_2x_32bpp.png", "gfx\ETA_177/ETA_177_back_DRG_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_back_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_DRG_4x_32bpp.png", "gfx\ETA_177/ETA_177_back_DRG_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+//Spritesets back DB
+
+spriteset (spriteset_ETA_177_back_DB, "gfx\ETA_177/ETA_177_back_DB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_back_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_DB_1x_32bpp.png", "gfx\ETA_177/ETA_177_back_DB_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_back_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_DB_2x_32bpp.png", "gfx\ETA_177/ETA_177_back_DB_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_back_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_DB_4x_32bpp.png", "gfx\ETA_177/ETA_177_back_DB_4x_mask.png")
+					{template_88trains_4x(0,0)}		
+					
+//Spritesets back loading
+
+spriteset (spriteset_ETA_177_back_loading, "gfx\ETA_177/ETA_177_back_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_back_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_loading_1x_32bpp.png", "gfx\ETA_177/ETA_177_back_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_back_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_loading_2x_32bpp.png", "gfx\ETA_177/ETA_177_back_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_back_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back_loading_4x_32bpp.png", "gfx\ETA_177/ETA_177_back_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}								
+
+spritegroup spritegroup_ETA_177_back_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ETA_177_back_loading];}	
+			
+
+//Spritesets back (3-part) KPEV
+
+spriteset (spriteset_ETA_177_back3_KPEV, "gfx\ETA_177/ETA_177_back3_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_back3_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_KPEV_1x_32bpp.png", "gfx\ETA_177/ETA_177_back3_KPEV_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_back3_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_KPEV_2x_32bpp.png", "gfx\ETA_177/ETA_177_back3_KPEV_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_back3_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_KPEV_4x_32bpp.png", "gfx\ETA_177/ETA_177_back3_KPEV_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+//Spritesets back (3-part) DRG
+
+spriteset (spriteset_ETA_177_back3_DRG, "gfx\ETA_177/ETA_177_back3_DRG_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_back3_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_DRG_1x_32bpp.png", "gfx\ETA_177/ETA_177_back3_DRG_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_back3_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_DRG_2x_32bpp.png", "gfx\ETA_177/ETA_177_back3_DRG_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_back3_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_DRG_4x_32bpp.png", "gfx\ETA_177/ETA_177_back3_DRG_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+//Spritesets back (3-part) DB
+
+spriteset (spriteset_ETA_177_back3_DB, "gfx\ETA_177/ETA_177_back3_DB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_back3_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_DB_1x_32bpp.png", "gfx\ETA_177/ETA_177_back3_DB_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_back3_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_DB_2x_32bpp.png", "gfx\ETA_177/ETA_177_back3_DB_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_back3_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_DB_4x_32bpp.png", "gfx\ETA_177/ETA_177_back3_DB_4x_mask.png")
+					{template_88trains_4x(0,0)}		
+					
+//Spritesets back (3-part) loading
+
+spriteset (spriteset_ETA_177_back3_loading, "gfx\ETA_177/ETA_177_back3_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_back3_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_loading_1x_32bpp.png", "gfx\ETA_177/ETA_177_back3_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_ETA_177_back3_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_loading_2x_32bpp.png", "gfx\ETA_177/ETA_177_back3_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_ETA_177_back3_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_back3_loading_4x_32bpp.png", "gfx\ETA_177/ETA_177_back3_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}								
+
+spritegroup spritegroup_ETA_177_back3_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ETA_177_back3_loading];}					
+
+//Spritesets purchase
+
+spriteset (spriteset_ETA_177_purchase_KPEV, "gfx\ETA_177/ETA_177_front_KPEV_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_purchase_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_KPEV_1x_32bpp.png", "gfx\ETA_177/ETA_177_front_KPEV_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_ETA_177_purchase_DRG, "gfx\ETA_177/ETA_177_front_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_purchase_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_DRG_1x_32bpp.png", "gfx\ETA_177/ETA_177_front_DRG_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_ETA_177_purchase_DB, "gfx\ETA_177/ETA_177_front_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_ETA_177_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ETA_177/ETA_177_front_DB_1x_32bpp.png", "gfx\ETA_177/ETA_177_front_DB_1x_mask.png")
+					{template_purchase(0,0)}	
+					
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_ETA_177,current_year) {
+							  00 .. 1919 : spriteset_ETA_177_purchase_KPEV;
+							1920 .. 1945 : spriteset_ETA_177_purchase_DRG;
+							1946 .. 2050 : spriteset_ETA_177_purchase_DB;
+									spriteset_ETA_177_purchase_DB;}								
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_front_KPEV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_front_KPEV;
+							1: spritegroup_ETA_177_front_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_front_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_front_DRG;
+							1: spritegroup_ETA_177_front_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_front_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_front_DB;
+							1: spritegroup_ETA_177_front_loading;}							
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_middle_KPEV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_middle_KPEV;
+							1: spritegroup_ETA_177_middle_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_middle_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_middle_DRG;
+							1: spritegroup_ETA_177_middle_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_middle_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_middle_DB;
+							1: spritegroup_ETA_177_middle_loading;}							
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_back_KPEV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_back_KPEV;
+							1: spritegroup_ETA_177_back_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_back_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_back_DRG;
+							1: spritegroup_ETA_177_back_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_back_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_back_DB;
+							1: spritegroup_ETA_177_back_loading;}								
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_back3_KPEV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_back3_KPEV;
+							1: spritegroup_ETA_177_back3_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_back3_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_back3_DRG;
+							1: spritegroup_ETA_177_back3_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_ETA_177_back3_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ETA_177_back3_DB;
+							1: spritegroup_ETA_177_back3_loading;}															
+
+//Switches for 2-part Consist
+
+						switch(FEAT_TRAINS, SELF, switch_length_ETA_177_2, position_in_vehid_chain % 2) {
+							0: 8;
+							1: 8;}
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_ETA_177_2, 1){
+							return 975;}							
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_ETA_177_2_front,build_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_front_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_front_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_front_DB;
+								switch_loadstack_ETA_177_front_DB;}
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_ETA_177_2_back,build_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_back_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_back_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_back_DB;
+								switch_loadstack_ETA_177_back_DB;}								
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_graphics_build, position_in_vehid_chain % 2) {
+							0:	   return switch_build_year_ETA_177_2_front;
+							1:     return switch_build_year_ETA_177_2_back;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_2_build, extra_callback_info1) {
+							1: return ITEM_ETA_177_2_BUILD; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_2_BUILD, 3901)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_2_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					56;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						225 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_graphics_build;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_2;
+			articulated_part:				switch_articulated_ETA_177_2_build;
+			purchase:						switch_purchase_ETA_177;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_2;			
+			}
+	}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_ETA_177_2_front,current_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_front_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_front_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_front_DB;
+								switch_loadstack_ETA_177_front_DB;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_ETA_177_2_back,current_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_back_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_back_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_back_DB;
+								switch_loadstack_ETA_177_back_DB;}								
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_graphics_current, position_in_vehid_chain % 2) {
+							0:	   return switch_current_year_ETA_177_2_front;
+							1:     return switch_current_year_ETA_177_2_back;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_2_current, extra_callback_info1) {
+							1: return ITEM_ETA_177_2_CURRENT; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_2_CURRENT, 3902)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_2_CURRENT);
+						variant_group:					3901;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					56;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						225 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_graphics_current;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_2;
+			articulated_part:				switch_articulated_ETA_177_2_current;
+			purchase:						switch_purchase_ETA_177;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_2;			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_graphics_KPEV, position_in_vehid_chain % 2) {
+							0:	   return switch_loadstack_ETA_177_front_KPEV;
+							1:     return switch_loadstack_ETA_177_back_KPEV;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_2_KPEV, extra_callback_info1) {
+							1: return ITEM_ETA_177_2_KPEV; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_2_KPEV, 3903)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_2_KPEV);
+						variant_group:					3901;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					56;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						225 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_graphics_KPEV;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_2;
+			articulated_part:				switch_articulated_ETA_177_2_KPEV;
+			purchase:						spriteset_ETA_177_purchase_KPEV;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_2;			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_graphics_DRG, position_in_vehid_chain % 2) {
+							0:	   return switch_loadstack_ETA_177_front_DRG;
+							1:     return switch_loadstack_ETA_177_back_DRG;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_2_DRG, extra_callback_info1) {
+							1: return ITEM_ETA_177_2_DRG; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_2_DRG, 3904)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_2_DRG);
+						variant_group:					3901;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					44;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						225 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_graphics_DRG;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_2;
+			articulated_part:				switch_articulated_ETA_177_2_DRG;
+			purchase:						spriteset_ETA_177_purchase_DRG;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_2;			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_graphics_DB, position_in_vehid_chain % 2) {
+							0:	   return switch_loadstack_ETA_177_front_DB;
+							1:     return switch_loadstack_ETA_177_back_DB;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_2_DB, extra_callback_info1) {
+							1: return ITEM_ETA_177_2_DB; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_2_DB, 3905)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_2_DB);
+						variant_group:					3901;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					18;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						225 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_graphics_DB;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_2;
+			articulated_part:				switch_articulated_ETA_177_2_DB;
+			purchase:						spriteset_ETA_177_purchase_DB;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_2;			
+			}
+	}
+
+//Switches for 2-part Consist
+
+						switch(FEAT_TRAINS, SELF, switch_length_ETA_177_3, position_in_vehid_chain % 3) {
+							0: 8;
+							1: 6;
+							2: 8;}
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_ETA_177_3, 1){
+							return 1450;}							
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_ETA_177_3_front,build_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_front_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_front_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_front_DB;
+								switch_loadstack_ETA_177_front_DB;}
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_ETA_177_3_middle,build_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_middle_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_middle_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_middle_DB;
+								switch_loadstack_ETA_177_middle_DB;}								
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_ETA_177_3_back,build_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_back3_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_back3_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_back3_DB;
+								switch_loadstack_ETA_177_back3_DB;}								
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_3_graphics_build, position_in_vehid_chain % 3) {
+							0:	    return switch_build_year_ETA_177_3_front;
+							1:		return switch_build_year_ETA_177_3_middle;
+							2:      return switch_build_year_ETA_177_3_back;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_3_build, extra_callback_info1) {
+							1 .. 2: return ITEM_ETA_177_3_BUILD; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_3_BUILD, 3906)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_3_BUILD);
+						variant_group:					3901;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					56;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						260 hp;
+						weight: 						26 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_3_graphics_build;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_3;
+			articulated_part:				switch_articulated_ETA_177_3_build;
+			purchase:						switch_purchase_ETA_177;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_3;			
+			}
+	}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_ETA_177_3_front,current_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_front_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_front_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_front_DB;
+								switch_loadstack_ETA_177_front_DB;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_ETA_177_3_middle,current_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_middle_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_middle_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_middle_DB;
+								switch_loadstack_ETA_177_middle_DB;}								
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_ETA_177_3_back,current_year) {
+							  00 .. 1919 : switch_loadstack_ETA_177_back3_KPEV;
+							1920 .. 1945 : switch_loadstack_ETA_177_back3_DRG;
+							1946 .. 2050 : switch_loadstack_ETA_177_back3_DB;
+								switch_loadstack_ETA_177_back3_DB;}								
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_3_graphics_current, position_in_vehid_chain % 3) {
+							0:	    return switch_current_year_ETA_177_3_front;
+							1:		return switch_current_year_ETA_177_3_middle;
+							2:      return switch_current_year_ETA_177_3_back;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_3_current, extra_callback_info1) {
+							1 .. 2: return ITEM_ETA_177_3_CURRENT; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_3_CURRENT, 3907)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_3_CURRENT);
+						variant_group:					3906;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					56;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						260 hp;
+						weight: 						26 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_3_graphics_current;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_3;
+			articulated_part:				switch_articulated_ETA_177_3_current;
+			purchase:						switch_purchase_ETA_177;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_3;			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_3_graphics_KPEV, position_in_vehid_chain % 3) {
+							0:	    return switch_loadstack_ETA_177_front_KPEV;
+							1:		return switch_loadstack_ETA_177_middle_KPEV;
+							2:      return switch_loadstack_ETA_177_back3_KPEV;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_3_KPEV, extra_callback_info1) {
+							1 .. 2: return ITEM_ETA_177_3_KPEV; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_3_KPEV, 3908)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_3_KPEV);
+						variant_group:					3906;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					56;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						260 hp;
+						weight: 						26 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_3_graphics_KPEV;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_3;
+			articulated_part:				switch_articulated_ETA_177_3_KPEV;
+			purchase:						spriteset_ETA_177_purchase_KPEV;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_3;			
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_3_graphics_DRG, position_in_vehid_chain % 3) {
+							0:	    return switch_loadstack_ETA_177_front_DRG;
+							1:		return switch_loadstack_ETA_177_middle_DRG;
+							2:      return switch_loadstack_ETA_177_back3_DRG;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_3_DRG, extra_callback_info1) {
+							1 .. 2: return ITEM_ETA_177_3_DRG; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_3_DRG, 3909)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_3_DRG);
+						variant_group:					3906;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					44;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						260 hp;
+						weight: 						26 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_3_graphics_DRG;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_3;
+			articulated_part:				switch_articulated_ETA_177_3_DRG;
+			purchase:						spriteset_ETA_177_purchase_DRG;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_3;			
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_ETA_177_3_graphics_DB, position_in_vehid_chain % 3) {
+							0:	    return switch_loadstack_ETA_177_front_DB;
+							1:		return switch_loadstack_ETA_177_middle_DB;
+							2:      return switch_loadstack_ETA_177_back3_DB;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_ETA_177_3_DB, extra_callback_info1) {
+							1 .. 2: return ITEM_ETA_177_3_DB; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+item (FEAT_TRAINS , ITEM_ETA_177_3_DB, 3910)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ETA_177_3_DB);
+						variant_group:					3906;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					18;
+						vehicle_life: 					30;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					12;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;							
+						running_cost_factor: 			90;
+					
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							75 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						260 hp;
+						weight: 						26 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.094;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ETA_177_3_graphics_DB;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ETA_177_3;
+			articulated_part:				switch_articulated_ETA_177_3_DB;
+			purchase:						spriteset_ETA_177_purchase_DB;
+			cost_factor:					39;
+			running_cost_factor:			switch_running_cost_ETA_177_3;			
+			}
+	}

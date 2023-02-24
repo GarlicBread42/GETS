@@ -1,0 +1,995 @@
+//######################
+//###DB BR 423 S-Bahn###
+//######################
+
+//Spriteset S-Bahn Köln
+
+//Back
+
+spriteset(spriteset_BR_423_back_Koeln, "gfx\BR_423/BR_423_back_Koeln_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Koeln, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Koeln_1x_32bpp.png", "gfx\BR_423/BR_423_back_Koeln_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Koeln, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Koeln_2x_32bpp.png", "gfx\BR_423/BR_423_back_Koeln_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Koeln, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Koeln_4x_32bpp.png", "gfx\BR_423/BR_423_back_Koeln_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+//Middle2
+
+spriteset(spriteset_BR_423_middle2_Koeln, "gfx\BR_423/BR_423_middle2_Koeln_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Koeln, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Koeln_1x_32bpp.png", "gfx\BR_423/BR_423_middle2_Koeln_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Koeln, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Koeln_2x_32bpp.png", "gfx\BR_423/BR_423_middle2_Koeln_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Koeln, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Koeln_4x_32bpp.png", "gfx\BR_423/BR_423_middle2_Koeln_4x_mask.png")
+									{ template_98trains_4x(0, 0)}		
+
+//Middle1
+
+spriteset(spriteset_BR_423_middle1_Koeln, "gfx\BR_423/BR_423_middle1_Koeln_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Koeln, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Koeln_1x_32bpp.png", "gfx\BR_423/BR_423_middle1_Koeln_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Koeln, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Koeln_2x_32bpp.png", "gfx\BR_423/BR_423_middle1_Koeln_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Koeln, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Koeln_4x_32bpp.png", "gfx\BR_423/BR_423_middle1_Koeln_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+//Front
+
+spriteset(spriteset_BR_423_front_Koeln, "gfx\BR_423/BR_423_front_Koeln_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Koeln, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Koeln_1x_32bpp.png", "gfx\BR_423/BR_423_front_Koeln_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Koeln, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Koeln_2x_32bpp.png", "gfx\BR_423/BR_423_front_Koeln_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Koeln, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Koeln_4x_32bpp.png", "gfx\BR_423/BR_423_front_Koeln_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+
+
+//Spritesets loading Koeln
+
+spriteset(spriteset_BR_423_back_Koeln_loading, "gfx\BR_423/BR_423_back_Koeln_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Koeln_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Koeln_loading_1x_32bpp.png", "gfx\BR_423/BR_423_back_Koeln_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Koeln_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Koeln_loading_2x_32bpp.png", "gfx\BR_423/BR_423_back_Koeln_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Koeln_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Koeln_loading_4x_32bpp.png", "gfx\BR_423/BR_423_back_Koeln_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_back_Koeln_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_back_Koeln_loading];}										
+									
+spriteset(spriteset_BR_423_middle_Koeln_loading, "gfx\BR_423/BR_423_middle_Koeln_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Koeln_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Koeln_loading_1x_32bpp.png", "gfx\BR_423/BR_423_middle_Koeln_loading_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Koeln_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Koeln_loading_2x_32bpp.png", "gfx\BR_423/BR_423_middle_Koeln_loading_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Koeln_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Koeln_loading_4x_32bpp.png", "gfx\BR_423/BR_423_middle_Koeln_loading_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_middle_Koeln_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_middle_Koeln_loading];}
+
+
+spriteset(spriteset_BR_423_front_Koeln_loading, "gfx\BR_423/BR_423_front_Koeln_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Koeln_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Koeln_loading_1x_32bpp.png", "gfx\BR_423/BR_423_front_Koeln_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Koeln_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Koeln_loading_2x_32bpp.png", "gfx\BR_423/BR_423_front_Koeln_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Koeln_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Koeln_loading_4x_32bpp.png", "gfx\BR_423/BR_423_front_Koeln_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_front_Koeln_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_front_Koeln_loading];}
+			
+			
+//Spriteset S-Bahn München
+
+//Back
+
+spriteset(spriteset_BR_423_back_Muenchen, "gfx\BR_423/BR_423_back_Muenchen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Muenchen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Muenchen_1x_32bpp.png", "gfx\BR_423/BR_423_back_Muenchen_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Muenchen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Muenchen_2x_32bpp.png", "gfx\BR_423/BR_423_back_Muenchen_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Muenchen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Muenchen_4x_32bpp.png", "gfx\BR_423/BR_423_back_Muenchen_4x_mask.png")
+									{ template_118trains_4x(0, 0)}			
+			
+//Front
+
+spriteset(spriteset_BR_423_front_Muenchen, "gfx\BR_423/BR_423_front_Muenchen_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Muenchen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Muenchen_1x_32bpp.png", "gfx\BR_423/BR_423_front_Muenchen_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Muenchen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Muenchen_2x_32bpp.png", "gfx\BR_423/BR_423_front_Muenchen_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Muenchen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Muenchen_4x_32bpp.png", "gfx\BR_423/BR_423_front_Muenchen_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+
+//Spriteset S-Bahn RMV
+
+//Back
+
+spriteset(spriteset_BR_423_back_RMV, "gfx\BR_423/BR_423_back_RMV_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_RMV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_RMV_1x_32bpp.png", "gfx\BR_423/BR_423_back_RMV_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_RMV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_RMV_2x_32bpp.png", "gfx\BR_423/BR_423_back_RMV_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_RMV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_RMV_4x_32bpp.png", "gfx\BR_423/BR_423_back_RMV_4x_mask.png")
+									{ template_118trains_4x(0, 0)}												
+						
+//Middle2
+
+spriteset(spriteset_BR_423_middle2_RMV, "gfx\BR_423/BR_423_middle2_RMV_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_RMV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_RMV_1x_32bpp.png", "gfx\BR_423/BR_423_middle2_RMV_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_RMV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_RMV_2x_32bpp.png", "gfx\BR_423/BR_423_middle2_RMV_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_RMV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_RMV_4x_32bpp.png", "gfx\BR_423/BR_423_middle2_RMV_4x_mask.png")
+									{ template_98trains_4x(0, 0)}			
+			
+//Middle1
+
+spriteset(spriteset_BR_423_middle1_RMV, "gfx\BR_423/BR_423_middle1_RMV_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_RMV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_RMV_1x_32bpp.png", "gfx\BR_423/BR_423_middle1_RMV_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_RMV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_RMV_2x_32bpp.png", "gfx\BR_423/BR_423_middle1_RMV_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_RMV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_RMV_4x_32bpp.png", "gfx\BR_423/BR_423_middle1_RMV_4x_mask.png")
+									{ template_98trains_4x(0, 0)}				
+			
+//Front
+
+spriteset(spriteset_BR_423_front_RMV, "gfx\BR_423/BR_423_front_RMV_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_RMV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_RMV_1x_32bpp.png", "gfx\BR_423/BR_423_front_RMV_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_RMV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_RMV_2x_32bpp.png", "gfx\BR_423/BR_423_front_RMV_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_RMV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_RMV_4x_32bpp.png", "gfx\BR_423/BR_423_front_RMV_4x_mask.png")
+									{ template_118trains_4x(0, 0)}				
+			
+			
+//Spritesets loading RMV			
+			
+spriteset(spriteset_BR_423_back_RMV_loading, "gfx\BR_423/BR_423_back_RMV_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_RMV_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_RMV_loading_1x_32bpp.png", "gfx\BR_423/BR_423_back_RMV_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_RMV_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_RMV_loading_2x_32bpp.png", "gfx\BR_423/BR_423_back_RMV_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_RMV_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_RMV_loading_4x_32bpp.png", "gfx\BR_423/BR_423_back_RMV_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_back_RMV_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_back_RMV_loading];}				
+			
+spriteset(spriteset_BR_423_middle_RMV_loading, "gfx\BR_423/BR_423_middle_RMV_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_RMV_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_RMV_loading_1x_32bpp.png", "gfx\BR_423/BR_423_middle_RMV_loading_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_RMV_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_RMV_loading_2x_32bpp.png", "gfx\BR_423/BR_423_middle_RMV_loading_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_RMV_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_RMV_loading_4x_32bpp.png", "gfx\BR_423/BR_423_middle_RMV_loading_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_middle_RMV_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_middle_RMV_loading];}			
+			
+spriteset(spriteset_BR_423_front_RMV_loading, "gfx\BR_423/BR_423_front_RMV_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_RMV_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_RMV_loading_1x_32bpp.png", "gfx\BR_423/BR_423_front_RMV_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_RMV_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_RMV_loading_2x_32bpp.png", "gfx\BR_423/BR_423_front_RMV_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_RMV_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_RMV_loading_4x_32bpp.png", "gfx\BR_423/BR_423_front_RMV_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_front_RMV_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_front_RMV_loading];}			
+			
+//Spriteset S-Bahn Stuttgart
+
+//Back
+
+spriteset(spriteset_BR_423_back_Stgart, "gfx\BR_423/BR_423_back_Stgart_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_1x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_2x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_4x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_4x_mask.png")
+									{ template_118trains_4x(0, 0)}			
+						
+//Middle2
+
+spriteset(spriteset_BR_423_middle2_Stgart, "gfx\BR_423/BR_423_middle2_Stgart_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Stgart, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Stgart_1x_32bpp.png", "gfx\BR_423/BR_423_middle2_Stgart_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Stgart, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Stgart_2x_32bpp.png", "gfx\BR_423/BR_423_middle2_Stgart_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Stgart, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Stgart_4x_32bpp.png", "gfx\BR_423/BR_423_middle2_Stgart_4x_mask.png")
+									{ template_98trains_4x(0, 0)}			
+			
+//Middle1
+
+spriteset(spriteset_BR_423_middle1_Stgart, "gfx\BR_423/BR_423_middle1_Stgart_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Stgart, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Stgart_1x_32bpp.png", "gfx\BR_423/BR_423_middle1_Stgart_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Stgart, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Stgart_2x_32bpp.png", "gfx\BR_423/BR_423_middle1_Stgart_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Stgart, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Stgart_4x_32bpp.png", "gfx\BR_423/BR_423_middle1_Stgart_4x_mask.png")
+									{ template_98trains_4x(0, 0)}			
+						
+//Front
+
+spriteset(spriteset_BR_423_front_Stgart, "gfx\BR_423/BR_423_front_Stgart_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_1x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_2x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_4x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_4x_mask.png")
+									{ template_118trains_4x(0, 0)}			
+			
+//Spritesets loading Stuttgart			
+			
+spriteset(spriteset_BR_423_back_Stgart_loading, "gfx\BR_423/BR_423_back_Stgart_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_loading_1x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_loading_2x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_loading_4x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_back_Stgart_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_back_Stgart_loading];}				
+			
+spriteset(spriteset_BR_423_middle_Stgart_loading, "gfx\BR_423/BR_423_middle_Stgart_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Stgart_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Stgart_loading_1x_32bpp.png", "gfx\BR_423/BR_423_middle_Stgart_loading_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Stgart_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Stgart_loading_2x_32bpp.png", "gfx\BR_423/BR_423_middle_Stgart_loading_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Stgart_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Stgart_loading_4x_32bpp.png", "gfx\BR_423/BR_423_middle_Stgart_loading_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_middle_Stgart_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_middle_Stgart_loading];}			
+			
+spriteset(spriteset_BR_423_front_Stgart_loading, "gfx\BR_423/BR_423_front_Stgart_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_loading_1x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_loading_2x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_loading_4x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_front_Stgart_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_front_Stgart_loading];}				
+			
+
+//Spriteset S-Bahn Stuttgart Redesign 2020
+
+//Back
+
+spriteset(spriteset_BR_423_back_Stgart_neo, "gfx\BR_423/BR_423_back_Stgart_neo_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_neo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_neo_1x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_neo_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_neo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_neo_2x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_neo_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_neo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_neo_4x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_neo_4x_mask.png")
+									{ template_118trains_4x(0, 0)}			
+						
+//Middle2
+
+spriteset(spriteset_BR_423_middle2_Stgart_neo, "gfx\BR_423/BR_423_middle2_Stgart_neo_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Stgart_neo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Stgart_neo_1x_32bpp.png", "gfx\BR_423/BR_423_middle2_Stgart_neo_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Stgart_neo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Stgart_neo_2x_32bpp.png", "gfx\BR_423/BR_423_middle2_Stgart_neo_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle2_Stgart_neo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle2_Stgart_neo_4x_32bpp.png", "gfx\BR_423/BR_423_middle2_Stgart_neo_4x_mask.png")
+									{ template_98trains_4x(0, 0)}			
+			
+//Middle1
+
+spriteset(spriteset_BR_423_middle1_Stgart_neo, "gfx\BR_423/BR_423_middle1_Stgart_neo_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Stgart_neo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Stgart_neo_1x_32bpp.png", "gfx\BR_423/BR_423_middle1_Stgart_neo_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Stgart_neo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Stgart_neo_2x_32bpp.png", "gfx\BR_423/BR_423_middle1_Stgart_neo_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle1_Stgart_neo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle1_Stgart_neo_4x_32bpp.png", "gfx\BR_423/BR_423_middle1_Stgart_neo_4x_mask.png")
+									{ template_98trains_4x(0, 0)}			
+						
+//Front
+
+spriteset(spriteset_BR_423_front_Stgart_neo, "gfx\BR_423/BR_423_front_Stgart_neo_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_neo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_neo_1x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_neo_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_neo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_neo_2x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_neo_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_neo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_neo_4x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_neo_4x_mask.png")
+									{ template_118trains_4x(0, 0)}			
+			
+//Spritesets loading Stuttgart			
+			
+spriteset(spriteset_BR_423_back_Stgart_neo_loading, "gfx\BR_423/BR_423_back_Stgart_neo_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_neo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_neo_loading_1x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_neo_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_neo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_neo_loading_2x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_neo_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_back_Stgart_neo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_back_Stgart_neo_loading_4x_32bpp.png", "gfx\BR_423/BR_423_back_Stgart_neo_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_back_Stgart_neo_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_back_Stgart_neo_loading];}				
+			
+spriteset(spriteset_BR_423_middle_Stgart_neo_loading, "gfx\BR_423/BR_423_middle_Stgart_neo_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Stgart_neo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Stgart_neo_loading_1x_32bpp.png", "gfx\BR_423/BR_423_middle_Stgart_neo_loading_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Stgart_neo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Stgart_neo_loading_2x_32bpp.png", "gfx\BR_423/BR_423_middle_Stgart_neo_loading_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_middle_Stgart_neo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_middle_Stgart_neo_loading_4x_32bpp.png", "gfx\BR_423/BR_423_middle_Stgart_neo_loading_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_middle_Stgart_neo_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_middle_Stgart_neo_loading];}			
+			
+spriteset(spriteset_BR_423_front_Stgart_neo_loading, "gfx\BR_423/BR_423_front_Stgart_neo_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_neo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_neo_loading_1x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_neo_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_neo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_neo_loading_2x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_neo_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_front_Stgart_neo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_neo_loading_4x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_neo_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_423_front_Stgart_neo_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_423_front_Stgart_neo_loading];}			
+			
+			
+//Spritesets purchase			
+			
+			
+spriteset(spriteset_BR_423_purchase_Koeln, "gfx\BR_423/BR_423_front_Koeln_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_purchase_Koeln, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Koeln_1x_32bpp.png", "gfx\BR_423/BR_423_front_Koeln_1x_mask.png")
+									{ template_purchase(0, 0)}			
+			
+spriteset(spriteset_BR_423_purchase_Muenchen, "gfx\BR_423/BR_423_front_Muenchen_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_purchase_Muenchen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Muenchen_1x_32bpp.png", "gfx\BR_423/BR_423_front_Muenchen_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_423_purchase_RMV, "gfx\BR_423/BR_423_front_RMV_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_purchase_RMV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_RMV_1x_32bpp.png", "gfx\BR_423/BR_423_front_RMV_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+spriteset(spriteset_BR_423_purchase_Stgart, "gfx\BR_423/BR_423_front_Stgart_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_purchase_Stgart, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_1x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+spriteset(spriteset_BR_423_purchase_Stgart_neo, "gfx\BR_423/BR_423_front_Stgart_neo_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_423_purchase_Stgart_neo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_423/BR_423_front_Stgart_neo_1x_32bpp.png", "gfx\BR_423/BR_423_front_Stgart_neo_1x_mask.png")
+									{ template_purchase(0, 0)}			
+			
+//Switches	
+			
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_front_Koeln, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_front_Koeln;
+							1: spritegroup_BR_423_front_Koeln_loading;}				
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_middle1_Koeln, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_middle1_Koeln;
+							1: spritegroup_BR_423_middle_Koeln_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_middle2_Koeln, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_middle2_Koeln;
+							1: spritegroup_BR_423_middle_Koeln_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_back_Koeln, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_back_Koeln;
+							1: spritegroup_BR_423_back_Koeln_loading;}																
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_front_Muenchen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_front_Muenchen;
+							1: spritegroup_BR_423_front_Koeln_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_back_Muenchen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_back_Muenchen;
+							1: spritegroup_BR_423_back_Koeln_loading;}								
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_front_RMV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_front_RMV;
+							1: spritegroup_BR_423_front_RMV_loading;}				
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_middle1_RMV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_middle1_RMV;
+							1: spritegroup_BR_423_middle_RMV_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_middle2_RMV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_middle2_RMV;
+							1: spritegroup_BR_423_middle_RMV_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_back_RMV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_back_RMV;
+							1: spritegroup_BR_423_back_RMV_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_front_Stgart, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_front_Stgart;
+							1: spritegroup_BR_423_front_Stgart_loading;}				
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_middle1_Stgart, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_middle1_Stgart;
+							1: spritegroup_BR_423_middle_Stgart_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_middle2_Stgart, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_middle2_Stgart;
+							1: spritegroup_BR_423_middle_Stgart_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_back_Stgart, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_back_Stgart;
+							1: spritegroup_BR_423_back_Stgart_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_front_Stgart_neo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_front_Stgart_neo;
+							1: spritegroup_BR_423_front_Stgart_neo_loading;}				
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_middle1_Stgart_neo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_middle1_Stgart_neo;
+							1: spritegroup_BR_423_middle_Stgart_neo_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_middle2_Stgart_neo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_middle2_Stgart_neo;
+							1: spritegroup_BR_423_middle_Stgart_neo_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_423_back_Stgart_neo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_423_back_Stgart_neo;
+							1: spritegroup_BR_423_back_Stgart_neo_loading;}								
+							
+						switch(FEAT_TRAINS, SELF, switch_length_BR_423, position_in_vehid_chain % 12) {
+							0: 4;
+							1: 3;
+							2: 4;
+							3: 3;
+							4: 3;
+							5: 3;
+							6: 3;						
+							7: 3;
+							8: 3;
+							9: 4;
+							10: 3;
+							11: 4;}													
+
+						switch(FEAT_TRAINS, SELF, switch_FX_BR_423, position_in_vehid_chain % 12) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);	
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+					switch(FEAT_TRAINS, SELF, switch_coupling_BR_423, vehicle_type_id) {
+							4255: return CB_RESULT_ATTACH_ALLOW;
+							4230: return CB_RESULT_ATTACH_ALLOW;
+							4231: return CB_RESULT_ATTACH_ALLOW;
+							4232: return CB_RESULT_ATTACH_ALLOW;
+							4233: return CB_RESULT_ATTACH_ALLOW;
+							4234: return CB_RESULT_ATTACH_ALLOW;
+							4240: return CB_RESULT_ATTACH_ALLOW;
+							4260: return CB_RESULT_ATTACH_ALLOW;
+							return string (STR_COUPLING_SAME);}	
+							
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_423, 1){
+							return 3900;}							
+
+					switch(FEAT_TRAINS, SELF, switch_BR_423_graphics_Muenchen, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_423_front_Muenchen;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_spritestack_BR_423_middle1_Koeln;
+							5:	   spriteset_empty;	
+							6:	   spriteset_empty;
+							7:	   return switch_spritestack_BR_423_middle2_Koeln;	
+							8:	   spriteset_empty;						
+							9:	   spriteset_empty;
+						   10:     return switch_spritestack_BR_423_back_Muenchen;
+						   11:     spriteset_empty;}
+						   
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_423_Muenchen, extra_callback_info1) {
+						1 .. 11: return ITEM_BR_423_MUENCHEN; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   
+
+item (FEAT_TRAINS , ITEM_BR_423_MUENCHEN, 4230)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_423_MUENCHEN);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1998,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_capacity:                 37 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3200 hp;
+						weight: 						105 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_423_graphics_Muenchen;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_423;
+			articulated_part				: switch_articulated_BR_423_Muenchen;
+			can_attach_wagon				: switch_coupling_BR_423;
+			visual_effect_and_powered		: switch_FX_BR_423;
+			purchase						: spriteset_BR_423_purchase_Muenchen;
+			cost_factor						: 303;
+			running_cost_factor				: switch_running_cost_BR_423;
+			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_BR_423_graphics_Koeln, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_423_front_Koeln;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_spritestack_BR_423_middle1_Koeln;
+							5:	   spriteset_empty;	
+							6:	   spriteset_empty;
+							7:	   return switch_spritestack_BR_423_middle2_Koeln;	
+							8:	   spriteset_empty;						
+							9:	   spriteset_empty;
+						   10:     return switch_spritestack_BR_423_back_Koeln;
+						   11:     spriteset_empty;}
+						   
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_423_Koeln, extra_callback_info1) {
+						1 .. 11: return ITEM_BR_423_KOELN; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   
+
+item (FEAT_TRAINS , ITEM_BR_423_KOELN, 4231)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_423_KOELN);
+						variant_group:					4230;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1998,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 37 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3200 hp;
+						weight: 						105 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_423_graphics_Koeln;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_423;
+			articulated_part				: switch_articulated_BR_423_Koeln;
+			can_attach_wagon				: switch_coupling_BR_423;
+			visual_effect_and_powered		: switch_FX_BR_423;
+			purchase						: spriteset_BR_423_purchase_Koeln;
+			cost_factor						: 303;
+			running_cost_factor				: switch_running_cost_BR_423;
+			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_BR_423_graphics_RMV, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_423_front_RMV;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_spritestack_BR_423_middle1_RMV;
+							5:	   spriteset_empty;	
+							6:	   spriteset_empty;
+							7:	   return switch_spritestack_BR_423_middle2_RMV;	
+							8:	   spriteset_empty;						
+							9:	   spriteset_empty;
+						   10:     return switch_spritestack_BR_423_back_RMV;
+						   11:     spriteset_empty;}
+						   
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_423_RMV, extra_callback_info1) {
+						1 .. 11: return ITEM_BR_423_RMV; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   
+
+item (FEAT_TRAINS , ITEM_BR_423_RMV, 4232)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_423_RMV);
+						variant_group:					4230;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1998,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 37 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3200 hp;
+						weight: 						105 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_423_graphics_RMV;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_423;
+			articulated_part				: switch_articulated_BR_423_RMV;
+			can_attach_wagon				: switch_coupling_BR_423;
+			visual_effect_and_powered		: switch_FX_BR_423;
+			purchase						: spriteset_BR_423_purchase_RMV;
+			cost_factor						: 303;
+			running_cost_factor				: switch_running_cost_BR_423;
+			
+			}
+	}
+	
+					switch(FEAT_TRAINS, SELF, switch_BR_423_graphics_Stgart, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_423_front_Stgart;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_spritestack_BR_423_middle1_Stgart;
+							5:	   spriteset_empty;	
+							6:	   spriteset_empty;
+							7:	   return switch_spritestack_BR_423_middle2_Stgart;	
+							8:	   spriteset_empty;						
+							9:	   spriteset_empty;
+						   10:     return switch_spritestack_BR_423_back_Stgart;
+						   11:     spriteset_empty;}
+						   
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_423_Stgart, extra_callback_info1) {
+						1 .. 11: return ITEM_BR_423_STGART; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   
+
+item (FEAT_TRAINS , ITEM_BR_423_STGART, 4233)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_423_STGART);
+						variant_group:					4230;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1998,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 37 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3200 hp;
+						weight: 						105 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_423_graphics_Stgart;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_423;
+			articulated_part				: switch_articulated_BR_423_Stgart;
+			can_attach_wagon				: switch_coupling_BR_423;
+			visual_effect_and_powered		: switch_FX_BR_423;
+			purchase						: spriteset_BR_423_purchase_Stgart;
+			cost_factor						: 303;
+			running_cost_factor				: switch_running_cost_BR_423;
+			
+			}
+	}	
+
+					switch(FEAT_TRAINS, SELF, switch_BR_423_graphics_Stgart_neo, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_423_front_Stgart_neo;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_spritestack_BR_423_middle1_Stgart_neo;
+							5:	   spriteset_empty;	
+							6:	   spriteset_empty;
+							7:	   return switch_spritestack_BR_423_middle2_Stgart_neo;	
+							8:	   spriteset_empty;						
+							9:	   spriteset_empty;
+						   10:     return switch_spritestack_BR_423_back_Stgart_neo;
+						   11:     spriteset_empty;}
+						   
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_423_Stgart_neo, extra_callback_info1) {
+						1 .. 11: return ITEM_BR_423_STGART_NEO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							   
+
+item (FEAT_TRAINS , ITEM_BR_423_STGART_NEO, 4234)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_423_STGART_NEO);
+						variant_group:					4230;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2020,01,01);
+						model_life: 					20;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 37 ;
+						loading_speed:					15;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3200 hp;
+						weight: 						105 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_423_graphics_Stgart_neo;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_423;
+			articulated_part				: switch_articulated_BR_423_Stgart_neo;
+			can_attach_wagon				: switch_coupling_BR_423;
+			visual_effect_and_powered		: switch_FX_BR_423;
+			purchase						: spriteset_BR_423_purchase_Stgart_neo;
+			cost_factor						: 303;
+			running_cost_factor				: switch_running_cost_BR_423;
+			
+			}
+	}	

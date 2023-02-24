@@ -1,0 +1,486 @@
+//#################
+//###Hbillns 303###
+//#################
+
+	
+//Spriteset Variante 1
+
+spriteset (spriteset_Hbillns303_Var1, "gfx\Hbillns303/Hbillns303_Var1_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var1_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var1_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var1_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var1_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbillns303_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var1_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var1_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbillns303_Var1_loading, "gfx\Hbillns303/Hbillns303_Var1_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var1_loading_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var1_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var1_loading_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var1_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbillns303_Var1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var1_loading_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var1_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbillns303_Var1
+		{loaded: 	[spriteset_Hbillns303_Var1];
+		 loading: 	[spriteset_Hbillns303_Var1_loading];}	
+		 
+		 
+//Spriteset Variante 2
+
+spriteset (spriteset_Hbillns303_Var2, "gfx\Hbillns303/Hbillns303_Var2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var2_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var2_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbillns303_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var2_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var2_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbillns303_Var2_loading, "gfx\Hbillns303/Hbillns303_Var2_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var2_loading_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var2_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var2_loading_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var2_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbillns303_Var2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var2_loading_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var2_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbillns303_Var2
+		{loaded: 	[spriteset_Hbillns303_Var2];
+		 loading: 	[spriteset_Hbillns303_Var2_loading];}
+		 
+		 
+//Spriteset Variante 3
+
+spriteset (spriteset_Hbillns303_Var3, "gfx\Hbillns303/Hbillns303_Var3_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var3_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var3_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var3_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var3_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbillns303_Var3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var3_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var3_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbillns303_Var3_loading, "gfx\Hbillns303/Hbillns303_Var3_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var3_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var3_loading_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var3_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var3_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var3_loading_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var3_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbillns303_Var3_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var3_loading_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var3_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbillns303_Var3
+		{loaded: 	[spriteset_Hbillns303_Var3];
+		 loading: 	[spriteset_Hbillns303_Var3_loading];}
+		 
+		 
+//Spriteset Variante 4
+
+spriteset (spriteset_Hbillns303_Var4, "gfx\Hbillns303/Hbillns303_Var4_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var4_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var4_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var4_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var4_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbillns303_Var4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var4_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var4_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbillns303_Var4_loading, "gfx\Hbillns303/Hbillns303_Var4_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var4_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var4_loading_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var4_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var4_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var4_loading_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var4_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbillns303_Var4_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var4_loading_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var4_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbillns303_Var4
+		{loaded: 	[spriteset_Hbillns303_Var4];
+		 loading: 	[spriteset_Hbillns303_Var4_loading];}
+		 
+		 
+//Spriteset Variante 5
+
+spriteset (spriteset_Hbillns303_Var5, "gfx\Hbillns303/Hbillns303_Var5_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var5_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var5_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var5, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var5_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var5_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbillns303_Var5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var5_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var5_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbillns303_Var5_loading, "gfx\Hbillns303/Hbillns303_Var5_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var5_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var5_loading_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var5_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var5_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var5_loading_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var5_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbillns303_Var5_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var5_loading_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var5_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbillns303_Var5
+		{loaded: 	[spriteset_Hbillns303_Var5];
+		 loading: 	[spriteset_Hbillns303_Var5_loading];}
+		 
+		 
+//Spriteset Variante 6
+
+spriteset (spriteset_Hbillns303_Var6, "gfx\Hbillns303/Hbillns303_Var6_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var6_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var6_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var6_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var6_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbillns303_Var6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var6_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var6_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbillns303_Var6_loading, "gfx\Hbillns303/Hbillns303_Var6_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var6_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var6_loading_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var6_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_Var6_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var6_loading_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var6_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbillns303_Var6_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var6_loading_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var6_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbillns303_Var6
+		{loaded: 	[spriteset_Hbillns303_Var6];
+		 loading: 	[spriteset_Hbillns303_Var6_loading];}	
+		 
+		 
+//Spriteset Cargo
+
+spriteset (spriteset_Hbillns303_cargo, "gfx\Hbillns303/Hbillns303_cargo_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_cargo_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_cargo_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_cargo_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_cargo_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbillns303_cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_cargo_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_cargo_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbillns303_cargo_loading, "gfx\Hbillns303/Hbillns303_cargo_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_cargo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_cargo_loading_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_cargo_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_cargo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_cargo_loading_2x_32bpp.png", "gfx\Hbillns303/Hbillns303_cargo_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbillns303_cargo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_cargo_loading_4x_32bpp.png", "gfx\Hbillns303/Hbillns303_cargo_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbillns303_cargo
+		{loaded: 	[spriteset_Hbillns303_cargo];
+		 loading: 	[spriteset_Hbillns303_cargo_loading];}	 
+		 
+		 
+//Spriteset Purchase		 
+		 		 		 		 		 		
+spriteset (spriteset_Hbillns303_purchase1, "gfx\Hbillns303/Hbillns303_Var1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var1_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var1_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Hbillns303_purchase2, "gfx\Hbillns303/Hbillns303_Var4_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_Var4_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_Var4_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Hbillns303_purchase3, "gfx\Hbillns303/Hbillns303_cargo_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbillns303_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbillns303/Hbillns303_cargo_1x_32bpp.png", "gfx\Hbillns303/Hbillns303_cargo_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+					
+//Switches										
+
+					 switch (FEAT_TRAINS,SELF, switch_Hbillns303_purchase,current_year){
+							   0 .. 1995: spriteset_Hbillns303_purchase1;
+							1996 .. 2008: spriteset_Hbillns303_purchase2;
+							2009 .. 2050: spriteset_Hbillns303_purchase3;											 					 
+							spriteset_Hbillns303_purchase3;}
+
+					switch (FEAT_TRAINS, SELF, random_choose_Hbillns303_EP4, switch_alternative_var_random_bits(1, 2)) {			
+							1: spritegroup_Hbillns303_Var1;
+							2: spritegroup_Hbillns303_Var2;
+							3: spritegroup_Hbillns303_Var3;							
+								spritegroup_Hbillns303_Var1;}
+								
+					switch (FEAT_TRAINS, SELF, random_choose_Hbillns303_EP5, switch_alternative_var_random_bits(1, 2)) {			
+							1: spritegroup_Hbillns303_Var4;
+							2: spritegroup_Hbillns303_Var5;
+							3: spritegroup_Hbillns303_Var6;							
+								spritegroup_Hbillns303_Var4;}								
+								
+					switch (FEAT_TRAINS, SELF, random_choose_Hbillns303_EP6, switch_alternative_var_random_bits(1, 3)) {			
+							1: spritegroup_Hbillns303_Var4;
+							2: spritegroup_Hbillns303_cargo;
+							3: spritegroup_Hbillns303_Var5;
+							4: spritegroup_Hbillns303_cargo;
+							5: spritegroup_Hbillns303_Var6;
+							6: spritegroup_Hbillns303_cargo;
+							7: spritegroup_Hbillns303_cargo;							
+								spritegroup_Hbillns303_cargo;}
+
+					 switch (FEAT_TRAINS,SELF, switch_Hbillns303_current_year,current_year){
+							   0 .. 1995: random_choose_Hbillns303_EP4;
+							1996 .. 2008: random_choose_Hbillns303_EP5;
+							2009 .. 2050: random_choose_Hbillns303_EP6;											 					 
+							random_choose_Hbillns303_EP6;}
+							
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Hbillns303, 1){
+						return 205;}								 			 		 		 		 		 
+
+item (FEAT_TRAINS , ITEM_HBILLNS_303, 8335)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HBILLNS_303);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1981,01,01);
+						model_life: 					40;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Hbillns303_current_year;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: switch_Hbillns303_purchase;
+			cost_factor						: 120;
+			running_cost_factor				: switch_running_cost_Hbillns303;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_HBILLNS_303_EARLY, 8336)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HBILLNS_303_EARLY);
+						variant_group:					8335;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1981,01,01);
+						model_life: 					40;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Hbillns303_EP4;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Hbillns303_purchase1;
+			cost_factor						: 120;
+			running_cost_factor				: switch_running_cost_Hbillns303;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_HBILLNS_303_LATE, 8337)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HBILLNS_303_LATE);
+						variant_group:					8335;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					25;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Hbillns303_EP5;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Hbillns303_purchase2;
+			cost_factor						: 120;
+			running_cost_factor				: switch_running_cost_Hbillns303;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_HBILLNS_303_CARGO, 8338)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HBILLNS_303_CARGO);
+						variant_group:					8335;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					15;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_Hbillns303_cargo;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Hbillns303_purchase3;
+			cost_factor						: 120;
+			running_cost_factor				: switch_running_cost_Hbillns303;				
+			
+			 }
+		}

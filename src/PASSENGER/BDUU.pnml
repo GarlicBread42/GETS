@@ -1,0 +1,154 @@
+//#######################################
+//### n-Wagen Halbgepäckwagen Bduu 497###
+//#######################################
+
+spriteset (spriteset_Bduu_Regio, "gfx\Bduu\Bduu497_Regio_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Bduu_Regio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Bduu\Bduu497_Regio_1x_32bpp.png", "gfx\Bduu\Bduu497_Regio_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Bduu_Regio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Bduu\Bduu497_Regio_2x_32bpp.png", "gfx\Bduu\Bduu497_Regio_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Bduu_Regio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Bduu\Bduu497_Regio_4x_32bpp.png", "gfx\Bduu\Bduu497_Regio_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+					
+spriteset (spriteset_Bduu_loading, "gfx\Bduu\Bduu497_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Bduu_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Bduu\Bduu497_loading_1x_32bpp.png", "gfx\Bduu\Bduu497_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Bduu_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Bduu\Bduu497_loading_2x_32bpp.png", "gfx\Bduu\Bduu497_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Bduu_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Bduu\Bduu497_loading_4x_32bpp.png", "gfx\Bduu\Bduu497_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_Bduu_loading
+		{loaded: 	[spriteset_empty];
+		 loading: 	[spriteset_Bduu_loading];}	
+		 
+//Spriteset purchase
+
+spriteset (spriteset_Bduu_purchase, "gfx\Bduu\Bduu497_Regio_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Bduu_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Bduu\Bduu497_Regio_1x_32bpp.png", "gfx\Bduu\Bduu497_Regio_1x_mask.png")
+					{template_purchase(0,0)}
+
+
+//Switches
+
+					
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Bduu, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Bduu_Regio;
+							1: spritegroup_Bduu_loading;}							 									
+
+						switch(FEAT_TRAINS, SELF, switch_Bduu_graphics, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Bduu;
+							2:     spriteset_empty;}									
+
+					switch(FEAT_TRAINS, SELF, switch_length_Bduu, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}							
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Bduu_MAIL, extra_callback_info1) {
+							1: return ITEM_BDUU;
+							2: return ITEM_BDUU_MAILPART;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+							
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Bduu, 1){
+						return 2350;}
+
+item (FEAT_TRAINS , ITEM_BDUU_MAILPART, 3980)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BDUU);
+						climates_available: 			NO_CLIMATE;
+						introduction_date: 				date(1900,01,01);
+						model_life: 					99;
+						vehicle_life: 					99;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    0;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			0;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						1 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					64;
+						ai_engine_rank: 				0;
+						length: 						4;
+	}		
+
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_empty;		
+			 }
+		}
+		
+		
+item (FEAT_TRAINS , ITEM_BDUU, 5812)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BDUU);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1997,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					12;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						weight: 						28 ton;
+						misc_flags:						bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					32;
+						ai_engine_rank: 				0;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_Bduu_graphics;
+			additional_text				: string(STR_DESC_BAGG);
+			length						: switch_length_Bduu;
+			articulated_part			: switch_articulated_Bduu_MAIL;
+			purchase					: spriteset_Bduu_purchase;
+			cost_factor					: 23;
+			running_cost_factor			: switch_running_cost_Bduu;							
+			}
+	}	

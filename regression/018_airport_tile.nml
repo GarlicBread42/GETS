@@ -1,0 +1,25 @@
+grf {
+    grfid: "NML\18";
+    name: string(STR_REGRESSION_NAME);
+    desc: string(STR_REGRESSION_DESC);
+    version: 0;
+    min_compatible_version: 0;
+}
+
+runway_sprite = 0xA68;
+spritelayout dirt_runway_sw_snow {
+    building {
+        sprite:        runway_sprite;
+        yoffset:       0x0F;
+        yextent:       1;
+        zextent:       6;
+        recolour_mode: RECOLOUR_TRANSPARENT;
+        palette:       PALETTE_TRANSPARENT;
+    }
+}
+
+item(FEAT_AIRPORTTILES, small_airport_tiles) {
+    graphics {
+        dirt_runway_sw_snow;
+    }
+}

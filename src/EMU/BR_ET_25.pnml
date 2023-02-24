@@ -1,0 +1,462 @@
+//###############
+//###DRG ET 25###
+//###############
+
+//Spriteset front DRG
+
+spriteset(spriteset_ET_25_front_DRG, "gfx\ET_25/ET25_DRG_front_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_front_1x_32bpp.png", "gfx\ET_25/ET25_DRG_front_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_front_2x_32bpp.png", "gfx\ET_25/ET25_DRG_front_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_front_4x_32bpp.png", "gfx\ET_25/ET25_DRG_front_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_ET_25_front_DRG_loading, "gfx\ET_25/ET25_DRG_front_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DRG_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_front_loading_1x_32bpp.png", "gfx\ET_25/ET25_DRG_front_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DRG_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_front_loading_2x_32bpp.png", "gfx\ET_25/ET25_DRG_front_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DRG_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_front_loading_4x_32bpp.png", "gfx\ET_25/ET25_DRG_front_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_25_front_DRG_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_25_front_DRG_loading];}
+
+//Spriteset back DRG
+
+spriteset(spriteset_ET_25_back_DRG, "gfx\ET_25/ET25_DRG_back_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_back_1x_32bpp.png", "gfx\ET_25/ET25_DRG_back_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_back_2x_32bpp.png", "gfx\ET_25/ET25_DRG_back_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_back_4x_32bpp.png", "gfx\ET_25/ET25_DRG_back_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_25_back_DRG_loading, "gfx\ET_25/ET25_DRG_back_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DRG_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_back_loading_1x_32bpp.png", "gfx\ET_25/ET25_DRG_back_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DRG_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_back_loading_2x_32bpp.png", "gfx\ET_25/ET25_DRG_back_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DRG_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_back_loading_4x_32bpp.png", "gfx\ET_25/ET25_DRG_back_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_25_back_DRG_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_25_back_DRG_loading];}
+			
+//Spriteset front DB
+
+spriteset(spriteset_ET_25_front_DB, "gfx\ET_25/ET25_DB_front_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_front_1x_32bpp.png", "gfx\ET_25/ET25_DB_front_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_front_2x_32bpp.png", "gfx\ET_25/ET25_DB_front_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_front_4x_32bpp.png", "gfx\ET_25/ET25_DB_front_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_25_front_DB_loading, "gfx\ET_25/ET25_DB_front_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_front_loading_1x_32bpp.png", "gfx\ET_25/ET25_DB_front_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_front_loading_2x_32bpp.png", "gfx\ET_25/ET25_DB_front_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_front_DB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_front_loading_4x_32bpp.png", "gfx\ET_25/ET25_DB_front_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_25_front_DB_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_25_front_DB_loading];}		
+			
+			
+//Spriteset back DB
+
+spriteset(spriteset_ET_25_back_DB, "gfx\ET_25/ET25_DB_back_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_back_1x_32bpp.png", "gfx\ET_25/ET25_DB_back_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_back_2x_32bpp.png", "gfx\ET_25/ET25_DB_back_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_back_4x_32bpp.png", "gfx\ET_25/ET25_DB_back_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_25_back_DB_loading, "gfx\ET_25/ET25_DB_back_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_back_loading_1x_32bpp.png", "gfx\ET_25/ET25_DB_back_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_back_loading_2x_32bpp.png", "gfx\ET_25/ET25_DB_back_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_back_DB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_back_loading_4x_32bpp.png", "gfx\ET_25/ET25_DB_back_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_25_back_DB_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_25_back_DB_loading];}				
+
+//Spriteset Purchase
+
+spriteset(spriteset_ET_25_purchase1, "gfx\ET_25/ET25_DRG_front_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+									
+			alternative_sprites (spriteset_ET_25_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DRG_front_1x_32bpp.png", "gfx\ET_25/ET25_DRG_front_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_ET_25_purchase2, "gfx\ET_25/ET25_DB_front_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_ET_25_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_25/ET25_DB_front_1x_32bpp.png", "gfx\ET_25/ET25_DB_front_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+//Switches
+
+						switch (FEAT_TRAINS,SELF, switch_ET_25_purchase,current_year){
+							   0 .. 1945: spriteset_ET_25_purchase1;
+							1946 .. 2050: spriteset_ET_25_purchase2;
+								spriteset_ET_25_purchase2;}
+						 
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_25_front_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_25_front_DRG;
+							1: spritegroup_ET_25_front_DRG_loading;}						 									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_25_back_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_25_back_DRG;
+							1: spritegroup_ET_25_back_DRG_loading;}
+														
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_25_front_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_25_front_DB;
+							1: spritegroup_ET_25_front_DB_loading;}						 									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_25_back_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_25_back_DB;
+							1: spritegroup_ET_25_back_DB_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_ET_25, position_in_vehid_chain % 6) {
+							0: 4;
+							1: 6;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_ET_25, 1){
+							return 2800;}
+							
+						switch(FEAT_TRAINS, SELF, switch_FX_ET_25, position_in_vehid_chain % 6) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);	
+							3: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}							
+
+						switch (FEAT_TRAINS,SELF, switch_ET_25_front_build_year,build_year){
+							   0 .. 1945: switch_spritestack_ET_25_front_DRG;
+							1946 .. 2050: switch_spritestack_ET_25_front_DB;
+								switch_spritestack_ET_25_front_DB;}	
+								
+						switch (FEAT_TRAINS,SELF, switch_ET_25_back_build_year,build_year){
+							   0 .. 1945: switch_spritestack_ET_25_back_DRG;
+							1946 .. 2050: switch_spritestack_ET_25_back_DB;
+								switch_spritestack_ET_25_back_DB;}	
+
+					switch(FEAT_TRAINS, SELF, switch_ET_25_graphics_build, position_in_vehid_chain % 6) {
+							0:	   spriteset_empty;
+							1:     return switch_ET_25_front_build_year;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_ET_25_back_build_year;
+							5:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_25_build, extra_callback_info1) {
+						1 .. 5: return ITEM_ET_25_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_ET_25_BUILD, 4250)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_25_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 27 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1250 hp;
+						weight: 						92 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.064;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ET_25_graphics_build;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ET_25;
+			articulated_part:				switch_articulated_ET_25_build;
+			visual_effect_and_powered:    	switch_FX_ET_25;
+			purchase						:switch_ET_25_purchase;
+			cost_factor:					126;
+			running_cost_factor:			switch_running_cost_ET_25;			
+			}
+	}								
+								
+						switch (FEAT_TRAINS,SELF, switch_ET_25_front_current_year,current_year){
+							   0 .. 1945: switch_spritestack_ET_25_front_DRG;
+							1946 .. 2050: switch_spritestack_ET_25_front_DB;
+								switch_spritestack_ET_25_front_DB;}	
+								
+						switch (FEAT_TRAINS,SELF, switch_ET_25_back_current_year,current_year){
+							   0 .. 1945: switch_spritestack_ET_25_back_DRG;
+							1946 .. 2050: switch_spritestack_ET_25_back_DB;
+								switch_spritestack_ET_25_back_DB;}									
+
+					switch(FEAT_TRAINS, SELF, switch_ET_25_graphics_current, position_in_vehid_chain % 6) {
+							0:	   spriteset_empty;
+							1:     return switch_ET_25_front_current_year;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   return switch_ET_25_back_current_year;
+							5:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_25_current, extra_callback_info1) {
+						1 .. 5: return ITEM_ET_25_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_ET_25_CURRENT, 4251)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_25_CURRENT);
+						variant_group:					4250;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 27 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1250 hp;
+						weight: 						92 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.064;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ET_25_graphics_current;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ET_25;
+			articulated_part:				switch_articulated_ET_25_current;
+			visual_effect_and_powered:    	switch_FX_ET_25;
+			purchase						:switch_ET_25_purchase;
+			cost_factor:					126;
+			running_cost_factor:			switch_running_cost_ET_25;			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_ET_25_graphics_DRG, position_in_vehid_chain % 6) {
+							0:	   spriteset_empty;
+							1:     switch_spritestack_ET_25_front_DRG;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   switch_spritestack_ET_25_back_DRG;
+							5:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_25_DRG, extra_callback_info1) {
+						1 .. 5: return ITEM_ET_25_DRG; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_ET_25_DRG, 4252)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_25_DRG);
+						variant_group:					4250;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 27 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1250 hp;
+						weight: 						92 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.064;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ET_25_graphics_DRG;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ET_25;
+			articulated_part:				switch_articulated_ET_25_DRG;
+			visual_effect_and_powered:    	switch_FX_ET_25;
+			purchase						:spriteset_ET_25_purchase1;
+			cost_factor:					126;
+			running_cost_factor:			switch_running_cost_ET_25;			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_ET_25_graphics_DB, position_in_vehid_chain % 6) {
+							0:	   spriteset_empty;
+							1:     switch_spritestack_ET_25_front_DB;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:	   switch_spritestack_ET_25_back_DB;
+							5:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_25_DB, extra_callback_info1) {
+						1 .. 5: return ITEM_ET_25_DB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_ET_25_DB, 4253)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_25_DB);
+						variant_group:					4250;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					19;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 27 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1250 hp;
+						weight: 						92 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.064;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ET_25_graphics_DB;
+			additional_text:				string(STR_DESC_PASS);
+			length:							switch_length_ET_25;
+			articulated_part:				switch_articulated_ET_25_DB;
+			visual_effect_and_powered:    	switch_FX_ET_25;
+			purchase						:spriteset_ET_25_purchase2;
+			cost_factor:					126;
+			running_cost_factor:			switch_running_cost_ET_25;			
+			}
+	}

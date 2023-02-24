@@ -1,0 +1,753 @@
+//##########################
+//###BR 428 Stadler FLIRT###
+//##########################
+
+//Spriteset Front Abellio
+
+spriteset(spriteset_BR_428_front_Abellio, "gfx\BR_428/BR_428_front_Abellio_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_Abellio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_Abellio_1x_32bpp.png", "gfx\BR_428/BR_428_front_Abellio_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_Abellio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_Abellio_2x_32bpp.png", "gfx\BR_428/BR_428_front_Abellio_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_Abellio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_Abellio_4x_32bpp.png", "gfx\BR_428/BR_428_front_Abellio_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+spriteset(spriteset_BR_428_front_Abellio_loading, "gfx\BR_428/BR_428_front_Abellio_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_Abellio_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_Abellio_loading_1x_32bpp.png", "gfx\BR_428/BR_428_front_Abellio_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_Abellio_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_Abellio_loading_2x_32bpp.png", "gfx\BR_428/BR_428_front_Abellio_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_Abellio_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_Abellio_loading_4x_32bpp.png", "gfx\BR_428/BR_428_front_Abellio_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_front_Abellio_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_front_Abellio_loading];}
+			
+			
+//Spriteset Front VIAS RheingauLinie
+
+spriteset(spriteset_BR_428_front_VIAS, "gfx\BR_428/BR_428_front_VIAS_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_VIAS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_VIAS_1x_32bpp.png", "gfx\BR_428/BR_428_front_VIAS_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_VIAS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_VIAS_2x_32bpp.png", "gfx\BR_428/BR_428_front_VIAS_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_VIAS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_VIAS_4x_32bpp.png", "gfx\BR_428/BR_428_front_VIAS_4x_mask.png")
+									{ template_118trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_front_VIAS_loading, "gfx\BR_428/BR_428_front_VIAS_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_VIAS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_VIAS_loading_1x_32bpp.png", "gfx\BR_428/BR_428_front_VIAS_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_VIAS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_VIAS_loading_2x_32bpp.png", "gfx\BR_428/BR_428_front_VIAS_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_VIAS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_VIAS_loading_4x_32bpp.png", "gfx\BR_428/BR_428_front_VIAS_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_front_VIAS_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_front_VIAS_loading];}
+			
+//Spriteset Front RRX RheinRuhr-Express
+
+spriteset(spriteset_BR_428_front_RRX, "gfx\BR_428/BR_428_front_RRX_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_RRX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_RRX_1x_32bpp.png", "gfx\BR_428/BR_428_front_RRX_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_RRX, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_RRX_2x_32bpp.png", "gfx\BR_428/BR_428_front_RRX_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_RRX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_RRX_4x_32bpp.png", "gfx\BR_428/BR_428_front_RRX_4x_mask.png")
+									{ template_118trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_front_RRX_loading, "gfx\BR_428/BR_428_front_RRX_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_RRX_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_RRX_loading_1x_32bpp.png", "gfx\BR_428/BR_428_front_RRX_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_RRX_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_RRX_loading_2x_32bpp.png", "gfx\BR_428/BR_428_front_RRX_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_front_RRX_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_RRX_loading_4x_32bpp.png", "gfx\BR_428/BR_428_front_RRX_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_front_RRX_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_front_RRX_loading];}							
+
+
+//Spriteset Middle 2 (ohne Pantograf) VIAS RheingauLinie
+
+spriteset(spriteset_BR_428_middle2_VIAS, "gfx\BR_428/BR_428_middle2_VIAS_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_VIAS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_VIAS_1x_32bpp.png", "gfx\BR_428/BR_428_middle2_VIAS_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_VIAS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_VIAS_2x_32bpp.png", "gfx\BR_428/BR_428_middle2_VIAS_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_VIAS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_VIAS_4x_32bpp.png", "gfx\BR_428/BR_428_middle2_VIAS_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_middle2_VIAS_loading, "gfx\BR_428/BR_428_middle2_VIAS_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_VIAS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_VIAS_loading_1x_32bpp.png", "gfx\BR_428/BR_428_middle2_VIAS_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_VIAS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_VIAS_loading_2x_32bpp.png", "gfx\BR_428/BR_428_middle2_VIAS_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_VIAS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_VIAS_loading_4x_32bpp.png", "gfx\BR_428/BR_428_middle2_VIAS_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_middle2_VIAS_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_middle2_VIAS_loading];}
+			
+			
+//Spriteset Middle 2 (ohne Pantograf) RRX RheinRuhr Express
+
+spriteset(spriteset_BR_428_middle2_RRX, "gfx\BR_428/BR_428_middle2_RRX_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_RRX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_RRX_1x_32bpp.png", "gfx\BR_428/BR_428_middle2_RRX_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_RRX, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_RRX_2x_32bpp.png", "gfx\BR_428/BR_428_middle2_RRX_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_RRX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_RRX_4x_32bpp.png", "gfx\BR_428/BR_428_middle2_RRX_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_middle2_RRX_loading, "gfx\BR_428/BR_428_middle2_RRX_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_RRX_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_RRX_loading_1x_32bpp.png", "gfx\BR_428/BR_428_middle2_RRX_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_RRX_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_RRX_loading_2x_32bpp.png", "gfx\BR_428/BR_428_middle2_RRX_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle2_RRX_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle2_RRX_loading_4x_32bpp.png", "gfx\BR_428/BR_428_middle2_RRX_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_middle2_RRX_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_middle2_RRX_loading];}			
+			
+						
+//Spriteset Middle 3 Abellio (mit Pantograf)
+
+spriteset(spriteset_BR_428_middle3_Abellio, "gfx\BR_428/BR_428_middle3_Abellio_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_Abellio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_Abellio_1x_32bpp.png", "gfx\BR_428/BR_428_middle3_Abellio_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_Abellio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_Abellio_2x_32bpp.png", "gfx\BR_428/BR_428_middle3_Abellio_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_Abellio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_Abellio_4x_32bpp.png", "gfx\BR_428/BR_428_middle3_Abellio_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_middle3_Abellio_loading, "gfx\BR_428/BR_428_middle3_Abellio_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_Abellio_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_Abellio_loading_1x_32bpp.png", "gfx\BR_428/BR_428_middle3_Abellio_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_Abellio_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_Abellio_loading_2x_32bpp.png", "gfx\BR_428/BR_428_middle3_Abellio_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_Abellio_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_Abellio_loading_4x_32bpp.png", "gfx\BR_428/BR_428_middle3_Abellio_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_middle3_Abellio_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_middle3_Abellio_loading];}
+			
+			
+//Spriteset Middle 3 VIAS (mit Pantograf) VIAS RheingauLinie
+
+spriteset(spriteset_BR_428_middle3_VIAS, "gfx\BR_428/BR_428_middle3_VIAS_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_VIAS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_VIAS_1x_32bpp.png", "gfx\BR_428/BR_428_middle3_VIAS_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_VIAS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_VIAS_2x_32bpp.png", "gfx\BR_428/BR_428_middle3_VIAS_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_VIAS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_VIAS_4x_32bpp.png", "gfx\BR_428/BR_428_middle3_VIAS_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_middle3_VIAS_loading, "gfx\BR_428/BR_428_middle3_VIAS_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_VIAS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_VIAS_loading_1x_32bpp.png", "gfx\BR_428/BR_428_middle3_VIAS_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_VIAS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_VIAS_loading_2x_32bpp.png", "gfx\BR_428/BR_428_middle3_VIAS_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_VIAS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_VIAS_loading_4x_32bpp.png", "gfx\BR_428/BR_428_middle3_VIAS_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_middle3_VIAS_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_middle3_VIAS_loading];}	
+			
+			
+//Spriteset Middle 3 VIAS (mit Pantograf) RRX RheinRuhr Express
+
+spriteset(spriteset_BR_428_middle3_RRX, "gfx\BR_428/BR_428_middle3_RRX_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_RRX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_RRX_1x_32bpp.png", "gfx\BR_428/BR_428_middle3_RRX_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_RRX, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_RRX_2x_32bpp.png", "gfx\BR_428/BR_428_middle3_RRX_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_RRX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_RRX_4x_32bpp.png", "gfx\BR_428/BR_428_middle3_RRX_4x_mask.png")
+									{ template_108trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_middle3_RRX_loading, "gfx\BR_428/BR_428_middle3_RRX_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_RRX_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_RRX_loading_1x_32bpp.png", "gfx\BR_428/BR_428_middle3_RRX_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_RRX_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_RRX_loading_2x_32bpp.png", "gfx\BR_428/BR_428_middle3_RRX_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_middle3_RRX_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_middle3_RRX_loading_4x_32bpp.png", "gfx\BR_428/BR_428_middle3_RRX_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_middle3_RRX_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_middle3_RRX_loading];}							
+			
+			
+//Spriteset Back Abellio
+
+spriteset(spriteset_BR_428_back_Abellio, "gfx\BR_428/BR_428_back_Abellio_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_Abellio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_Abellio_1x_32bpp.png", "gfx\BR_428/BR_428_back_Abellio_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_Abellio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_Abellio_2x_32bpp.png", "gfx\BR_428/BR_428_back_Abellio_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_Abellio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_Abellio_4x_32bpp.png", "gfx\BR_428/BR_428_back_Abellio_4x_mask.png")
+									{ template_118trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_back_Abellio_loading, "gfx\BR_428/BR_428_back_Abellio_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_Abellio_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_Abellio_loading_1x_32bpp.png", "gfx\BR_428/BR_428_back_Abellio_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_Abellio_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_Abellio_loading_2x_32bpp.png", "gfx\BR_428/BR_428_back_Abellio_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_Abellio_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_Abellio_loading_4x_32bpp.png", "gfx\BR_428/BR_428_back_Abellio_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_back_Abellio_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_back_Abellio_loading];}
+			
+			
+//Spriteset Back VIAS RheingauLinie
+
+spriteset(spriteset_BR_428_back_VIAS, "gfx\BR_428/BR_428_back_VIAS_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_VIAS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_VIAS_1x_32bpp.png", "gfx\BR_428/BR_428_back_VIAS_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_VIAS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_VIAS_2x_32bpp.png", "gfx\BR_428/BR_428_back_VIAS_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_VIAS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_VIAS_4x_32bpp.png", "gfx\BR_428/BR_428_back_VIAS_4x_mask.png")
+									{ template_118trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_back_VIAS_loading, "gfx\BR_428/BR_428_back_VIAS_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_VIAS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_VIAS_loading_1x_32bpp.png", "gfx\BR_428/BR_428_back_VIAS_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_VIAS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_VIAS_loading_2x_32bpp.png", "gfx\BR_428/BR_428_back_VIAS_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_VIAS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_VIAS_loading_4x_32bpp.png", "gfx\BR_428/BR_428_back_VIAS_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_back_VIAS_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_back_VIAS_loading];}		
+			
+			
+//Spriteset Back RRX RheinRuhr Express
+
+spriteset(spriteset_BR_428_back_RRX, "gfx\BR_428/BR_428_back_RRX_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_RRX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_RRX_1x_32bpp.png", "gfx\BR_428/BR_428_back_RRX_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_RRX, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_RRX_2x_32bpp.png", "gfx\BR_428/BR_428_back_RRX_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_RRX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_RRX_4x_32bpp.png", "gfx\BR_428/BR_428_back_RRX_4x_mask.png")
+									{ template_118trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_BR_428_back_RRX_loading, "gfx\BR_428/BR_428_back_RRX_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_RRX_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_RRX_loading_1x_32bpp.png", "gfx\BR_428/BR_428_back_RRX_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_RRX_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_RRX_loading_2x_32bpp.png", "gfx\BR_428/BR_428_back_RRX_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_back_RRX_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_back_RRX_loading_4x_32bpp.png", "gfx\BR_428/BR_428_back_RRX_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_428_back_RRX_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_428_back_RRX_loading];}																
+
+//Spritesets purchase
+
+spriteset(spriteset_BR_428_purchase_Abellio, "gfx\BR_428/BR_428_front_Abellio_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_purchase_Abellio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_Abellio_1x_32bpp.png", "gfx\BR_428/BR_428_front_Abellio_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_428_purchase_VIAS, "gfx\BR_428/BR_428_front_VIAS_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_purchase_VIAS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_VIAS_1x_32bpp.png", "gfx\BR_428/BR_428_front_VIAS_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_428_purchase_RRX, "gfx\BR_428/BR_428_front_RRX_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_428_purchase_RRX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_428/BR_428_front_RRX_1x_32bpp.png", "gfx\BR_428/BR_428_front_RRX_1x_mask.png")
+									{ template_purchase(0, 0)}	
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_front_Abellio, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_front_Abellio;
+							1: spritegroup_BR_428_front_Abellio_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_front_VIAS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_front_VIAS;
+							1: spritegroup_BR_428_front_VIAS_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_front_RRX, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_front_RRX;
+							1: spritegroup_BR_428_front_RRX_loading;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_middle2_VIAS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_middle2_VIAS;
+							1: spritegroup_BR_428_middle2_VIAS_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_middle2_RRX, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_middle2_RRX;
+							1: spritegroup_BR_428_middle2_RRX_loading;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_middle3_Abellio, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_middle3_Abellio;
+							1: spritegroup_BR_428_middle3_Abellio_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_middle3_VIAS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_middle3_VIAS;
+							1: spritegroup_BR_428_middle3_VIAS_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_middle3_RRX, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_middle3_RRX;
+							1: spritegroup_BR_428_middle3_RRX_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_back_Abellio, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_back_Abellio;
+							1: spritegroup_BR_428_back_Abellio_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_back_VIAS, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_back_VIAS;
+							1: spritegroup_BR_428_back_VIAS_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_428_back_RRX, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_428_back_RRX;
+							1: spritegroup_BR_428_back_RRX_loading;}																						
+									
+					switch(FEAT_TRAINS, SELF, switch_length_BR_428_3, position_in_vehid_chain % 8) {
+							0: 4;
+							1: 3;
+							2: 4;
+							3: 4;
+							4: 6;						
+							5: 4;
+							6: 3;
+							7: 4;}
+																
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_428_3, 1){
+							return 2150;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_BR_428_3, position_in_vehid_chain % 8) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);								
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+							
+					switch(FEAT_TRAINS, SELF, switch_BR_428_3_graphics_Abellio, position_in_vehid_chain % 8) {
+							0:	   spriteset_empty;
+							1:     switch_spritestack_BR_428_front_Abellio;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_spritestack_BR_428_middle3_Abellio;						
+							5:	   spriteset_empty;
+							6:	   switch_spritestack_BR_428_back_Abellio;
+							7:	   spriteset_empty;}	
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_428_3_Abellio, extra_callback_info1) {
+						1 .. 7: return ITEM_BR_428_3_ABELLIO; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																
+
+item (FEAT_TRAINS , ITEM_BR_428_3_ABELLIO, 4280)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_428_3_ABELLIO);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				22;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3236 hp;
+						weight: 						100 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_428_3_graphics_Abellio;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_428_3;
+			articulated_part				: switch_articulated_BR_428_3_Abellio;
+			visual_effect_and_powered		: switch_FX_BR_428_3;
+			purchase						: spriteset_BR_428_purchase_Abellio;
+			cost_factor						: 169;
+			running_cost_factor				: switch_running_cost_BR_428_3;
+			
+			}
+	}	
+
+					switch(FEAT_TRAINS, SELF, switch_BR_428_3_graphics_VIAS, position_in_vehid_chain % 8) {
+							0:	   spriteset_empty;
+							1:     switch_spritestack_BR_428_front_VIAS;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_spritestack_BR_428_middle3_VIAS;						
+							5:	   spriteset_empty;
+							6:	   switch_spritestack_BR_428_back_VIAS;
+							7:	   spriteset_empty;}	
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_428_3_VIAS, extra_callback_info1) {
+						1 .. 7: return ITEM_BR_428_3_VIAS; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																
+
+item (FEAT_TRAINS , ITEM_BR_428_3_VIAS, 4281)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_428_3_VIAS);
+						variant_group:					4280;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				22;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3236 hp;
+						weight: 						100 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_428_3_graphics_VIAS;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_428_3;
+			articulated_part				: switch_articulated_BR_428_3_VIAS;
+			visual_effect_and_powered		: switch_FX_BR_428_3;
+			purchase						: spriteset_BR_428_purchase_VIAS;
+			cost_factor						: 169;
+			running_cost_factor				: switch_running_cost_BR_428_3;
+			
+			}
+	}	
+
+					switch(FEAT_TRAINS, SELF, switch_length_BR_428_4, position_in_vehid_chain % 10) {
+							0: 4;
+							1: 3;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;
+							6: 6;													
+							7: 4;
+							8: 3;
+							9: 4;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_428_4, 1){
+							return 2225;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_BR_428_4, position_in_vehid_chain % 10) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);														
+							4: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);								
+							8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}	
+							
+					switch(FEAT_TRAINS, SELF, switch_BR_428_4_graphics_VIAS, position_in_vehid_chain % 10) {
+							0:	   spriteset_empty;
+							1:     switch_spritestack_BR_428_front_VIAS;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_spritestack_BR_428_middle2_VIAS;
+							5:	   spriteset_empty;
+							6:     switch_spritestack_BR_428_middle3_VIAS;														
+							7:	   spriteset_empty;
+							8:	   switch_spritestack_BR_428_back_VIAS;
+							9:	   spriteset_empty;}								
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_428_4_VIAS, extra_callback_info1) {
+						1 .. 9: return ITEM_BR_428_4_VIAS; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_BR_428_4_VIAS, 4285)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_428_4_VIAS);
+						variant_group:					4280;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 22 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3536 hp;
+						weight: 						124 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_428_4_graphics_VIAS;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_428_4;
+			articulated_part				: switch_articulated_BR_428_4_VIAS;
+			visual_effect_and_powered		: switch_FX_BR_428_4;
+			purchase						: spriteset_BR_428_purchase_VIAS;
+			cost_factor						: 224;
+			running_cost_factor				: switch_running_cost_BR_428_4;
+			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_BR_428_4_graphics_RRX, position_in_vehid_chain % 10) {
+							0:	   spriteset_empty;
+							1:     switch_spritestack_BR_428_front_RRX;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     switch_spritestack_BR_428_middle2_RRX;
+							5:	   spriteset_empty;
+							6:     switch_spritestack_BR_428_middle3_RRX;														
+							7:	   spriteset_empty;
+							8:	   switch_spritestack_BR_428_back_RRX;
+							9:	   spriteset_empty;}								
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_428_4_RRX, extra_callback_info1) {
+						1 .. 9: return ITEM_BR_428_4_RRX; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_BR_428_4_RRX, 4286)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_428_4_RRX);
+						variant_group:					4280;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 22 ;
+						loading_speed:					13;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						3536 hp;
+						weight: 						124 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.2;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_428_4_graphics_RRX;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BR_428_4;
+			articulated_part				: switch_articulated_BR_428_4_RRX;
+			visual_effect_and_powered		: switch_FX_BR_428_4;
+			purchase						: spriteset_BR_428_purchase_RRX;
+			cost_factor						: 224;
+			running_cost_factor				: switch_running_cost_BR_428_4;
+			
+			}
+	}

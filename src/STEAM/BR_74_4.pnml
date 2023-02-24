@@ -1,0 +1,757 @@
+//##########################
+//### BR 74.4 - KPEV T12 ###
+//##########################
+
+//Spriteset KPEV
+
+spriteset(spriteset_BR_74_4_KPEV, "gfx/BR_74_4/BR_74_4_KPEV_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_KPEV_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_KPEV_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_KPEV_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_KPEV_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_KPEV_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_KPEV_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+									
+spriteset(spriteset_BR_74_4_KPEV_REV, "gfx/BR_74_4/BR_74_4_KPEV_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_KPEV_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_KPEV_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_KPEV_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_KPEV_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_KPEV_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_KPEV_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_KPEV_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_KPEV_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_KPEV_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}
+									
+									
+//Spriteset DRG
+
+spriteset(spriteset_BR_74_4_DRG, "gfx/BR_74_4/BR_74_4_DRG_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DRG_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_DRG_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DRG_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_DRG_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DRG_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_DRG_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+
+spriteset(spriteset_BR_74_4_DRG_REV, "gfx/BR_74_4/BR_74_4_DRG_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DRG_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DRG_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_DRG_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DRG_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DRG_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_DRG_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DRG_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DRG_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_DRG_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}									
+									
+//Spriteset DB
+
+spriteset(spriteset_BR_74_4_DB, "gfx/BR_74_4/BR_74_4_DB_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DB_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_DB_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DB_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_DB_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DB_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_DB_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+
+spriteset(spriteset_BR_74_4_DB_REV, "gfx/BR_74_4/BR_74_4_DB_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DB_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_DB_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DB_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_DB_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DB_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_DB_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}									
+									
+//Spriteset S-Bahn Berlin vor 1920 (SBER)
+
+spriteset(spriteset_BR_74_4_SBER, "gfx/BR_74_4/BR_74_4_SBER_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+																																																				
+spriteset(spriteset_BR_74_4_SBER_REV, "gfx/BR_74_4/BR_74_4_SBER_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}
+
+//Spriteset S-Bahn Berlin nach 1920 (DRG)
+
+spriteset(spriteset_BR_74_4_SBER2, "gfx/BR_74_4/BR_74_4_SBER2_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER2_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER2_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER2_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER2_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER2_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER2_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+
+spriteset(spriteset_BR_74_4_SBER2_REV, "gfx/BR_74_4/BR_74_4_SBER2_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER2_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER2_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER2_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER2_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_SBER2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER2_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER2_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}
+
+
+//Spriteset animation
+
+spriteset(spriteset_BR_74_4_anim1, "gfx/BR_74_4/BR_74_4_anim1_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim1_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim1_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim1_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim1_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim1_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim1_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+
+spriteset(spriteset_BR_74_4_anim2, "gfx/BR_74_4/BR_74_4_anim2_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim2_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim2_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim2_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim2_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim2_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim2_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+
+spriteset(spriteset_BR_74_4_anim3, "gfx/BR_74_4/BR_74_4_anim3_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim3_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim3_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim3_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim3_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim3_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim3_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+
+spriteset(spriteset_BR_74_4_anim4, "gfx/BR_74_4/BR_74_4_anim4_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim4_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim4_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim4_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim4_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim4_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim4_4x_mask.png")
+									{ template_78trains_4x(0, 0)}
+
+
+
+spriteset(spriteset_BR_74_4_anim1_REV, "gfx/BR_74_4/BR_74_4_anim1_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim1_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim1_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim1_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim1_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim1_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim1_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}
+
+spriteset(spriteset_BR_74_4_anim2_REV, "gfx/BR_74_4/BR_74_4_anim2_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim2_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim2_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim2_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim2_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim2_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim2_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}
+									
+spriteset(spriteset_BR_74_4_anim3_REV, "gfx/BR_74_4/BR_74_4_anim3_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim3_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim3_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim3_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim3_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim3_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim3_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim3_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim3_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim3_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}
+									
+spriteset(spriteset_BR_74_4_anim4_REV, "gfx/BR_74_4/BR_74_4_anim4_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim4_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim4_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim4_2x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim4_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim4_4x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim4_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}																		
+
+//Spritesets Purchase
+
+spriteset(spriteset_BR_74_4_purchase1, "gfx/BR_74_4/BR_74_4_KPEV_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_KPEV_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_KPEV_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_74_4_purchase2, "gfx/BR_74_4/BR_74_4_DRG_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DRG_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_DRG_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_74_4_purchase3, "gfx/BR_74_4/BR_74_4_DB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_DB_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_DB_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+spriteset(spriteset_BR_74_4_purchase_SBER, "gfx/BR_74_4/BR_74_4_SBER_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_purchase_SBER, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER_1x_mask.png")
+									{ template_purchase(0, 0)}		
+									
+spriteset(spriteset_BR_74_4_purchase_SBER2, "gfx/BR_74_4/BR_74_4_SBER2_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_purchase_SBER2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_SBER2_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_SBER2_1x_mask.png")
+									{ template_purchase(0, 0)}																								
+
+spriteset(spriteset_BR_74_4_anim_purchase, "gfx/BR_74_4/BR_74_4_anim1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_74_4_anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_74_4/BR_74_4_anim1_1x_32bpp.png", "gfx/BR_74_4/BR_74_4_anim1_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+//Switches
+						switch (FEAT_TRAINS, SELF, switch_animation_BR_74_4, motion_counter % 4) {
+								0: spriteset_BR_74_4_anim1;
+								1: spriteset_BR_74_4_anim2;
+								2: spriteset_BR_74_4_anim3;
+								3: spriteset_BR_74_4_anim4;}
+
+						switch (FEAT_TRAINS, SELF, switch_animation_BR_74_4_REV, motion_counter % 4) {
+								0: spriteset_BR_74_4_anim1_REV;
+								1: spriteset_BR_74_4_anim2_REV;
+								2: spriteset_BR_74_4_anim3_REV;
+								3: spriteset_BR_74_4_anim4_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_purchase1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_purchase1;
+							1: spriteset_BR_74_4_anim_purchase;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_purchase2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_purchase2;
+							1: spriteset_BR_74_4_anim_purchase;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_purchase3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_purchase3;
+							1: spriteset_BR_74_4_anim_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_purchase_SBER, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_purchase_SBER;
+							1: spriteset_BR_74_4_anim_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_purchase_SBER2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_purchase_SBER2;
+							1: spriteset_BR_74_4_anim_purchase;}																									
+						
+						switch (FEAT_TRAINS,SELF, switch_BR_74_4_purchase,current_year){
+							1900 .. 1919: switch_spritestack_BR_74_4_purchase1;
+							1920 .. 1945: switch_spritestack_BR_74_4_purchase2;	
+							1946 .. 2000: switch_spritestack_BR_74_4_purchase3;															 					 
+								switch_spritestack_BR_74_4_purchase3;}						
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_KPEV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_KPEV;
+							1: return switch_animation_BR_74_4;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_KPEV_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_KPEV_REV;
+							1: return switch_animation_BR_74_4_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_DRG;
+							1: return switch_animation_BR_74_4;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_DRG_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_DRG_REV;
+							1: return switch_animation_BR_74_4_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_DB;
+							1: return switch_animation_BR_74_4;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_DB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_DB_REV;
+							1: return switch_animation_BR_74_4_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_SBER, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_SBER;
+							1: return switch_animation_BR_74_4;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_SBER_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_SBER_REV;
+							1: return switch_animation_BR_74_4_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_SBER2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_SBER2;
+							1: return switch_animation_BR_74_4;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_74_4_SBER2_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_74_4_SBER2_REV;
+							1: return switch_animation_BR_74_4_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_74_4_KPEV, vehicle_is_reversed) {
+							0: switch_spritestack_BR_74_4_KPEV;
+								switch_spritestack_BR_74_4_KPEV_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_74_4_DRG, vehicle_is_reversed) {
+							0: switch_spritestack_BR_74_4_DRG;
+								switch_spritestack_BR_74_4_DRG_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_74_4_DB, vehicle_is_reversed) {
+							0: switch_spritestack_BR_74_4_DB;
+								switch_spritestack_BR_74_4_DB_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_74_4_SBER, vehicle_is_reversed) {
+							0: switch_spritestack_BR_74_4_SBER;
+								switch_spritestack_BR_74_4_SBER_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_74_4_SBER2, vehicle_is_reversed) {
+							0: switch_spritestack_BR_74_4_SBER2;
+								switch_spritestack_BR_74_4_SBER2_REV;}																																															
+
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_BR_74_4_SBER,(count_veh_id(8816))) {
+							0: switch_reverse_BR_74_4_KPEV; 
+								switch_reverse_BR_74_4_SBER;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_BR_74_4_SBER2,(count_veh_id(8816))) {
+							0: switch_reverse_BR_74_4_DRG; 
+								switch_reverse_BR_74_4_SBER2;}															
+
+						switch (FEAT_TRAINS,SELF, switch_BR_74_4_build_year,build_year){
+							1900 .. 1919: switch_enginecheck_BR_74_4_SBER;
+							1920 .. 1930: switch_enginecheck_BR_74_4_SBER2;
+							1931 .. 1945: switch_reverse_BR_74_4_DRG;
+							1946 .. 1990: switch_reverse_BR_74_4_DB;						 					 
+								switch_reverse_BR_74_4_DB;}
+							
+						switch (FEAT_TRAINS,SELF, switch_BR_74_4_current_year,current_year){
+							1900 .. 1919: switch_enginecheck_BR_74_4_SBER;
+							1920 .. 1930: switch_enginecheck_BR_74_4_SBER2;
+							1931 .. 1945: switch_reverse_BR_74_4_DRG;
+							1946 .. 1990: switch_reverse_BR_74_4_DB;						 					 
+								switch_reverse_BR_74_4_DB;}							
+							
+					switch(FEAT_TRAINS, PARENT, switch_FX_BR_74_4, vehicle_is_reversed) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_STEAM, 2, DISABLE_WAGON_POWER);}							
+						
+					switch (FEAT_TRAINS, PARENT, switch_running_cost_BR_74_4, 1) {
+							return 1000;}
+							
+item (FEAT_TRAINS , ITEM_BR_74_4, 0740)
+
+		{//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_BR_74_4);
+								extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1902,01,01);
+								model_life: 					66;
+								vehicle_life: 					50;
+								retire_early: 					-10;								
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					30;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							80 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						870 hp;
+								weight: 						67 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_STEAM;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.2;
+								length: 						7;														
+			}
+			
+			//Vehicels Graphics
+					graphics
+				{
+						default						    : switch_BR_74_4_build_year;
+						additional_text				    : string(STR_DESC_PASS);
+						purchase_cargo_capacity         : 0 ;
+						cargo_capacity                  : return 0 ;
+						purchase					    : switch_BR_74_4_purchase;
+						cost_factor						: 18;
+						running_cost_factor				: switch_running_cost_BR_74_4;
+						visual_effect_and_powered		: switch_FX_BR_74_4;
+			 }
+		}								
+
+item (FEAT_TRAINS , ITEM_BR_74_4_CURRENT, 0741)
+
+		{//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_BR_74_4_CURRENT);
+								variant_group:					0740;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1902,01,01);
+								model_life: 					66;
+								vehicle_life: 					50;
+								retire_early: 					-10;								
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					30;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							80 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						870 hp;
+								weight: 						67 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_STEAM;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.2;
+								length: 						7;														
+			}
+			
+			//Vehicels Graphics
+					graphics
+				{
+						default						    : switch_BR_74_4_current_year;
+						additional_text				    : string(STR_DESC_PASS);
+						purchase_cargo_capacity         : 0 ;
+						cargo_capacity                  : return 0 ;
+						purchase					    : switch_BR_74_4_purchase;
+						cost_factor						: 18;
+						running_cost_factor				: switch_running_cost_BR_74_4;
+						visual_effect_and_powered		: switch_FX_BR_74_4;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_BR_74_4_KPEV, 0742)
+
+		{//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_BR_74_4_KPEV);
+								variant_group:					0740;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1902,01,01);
+								model_life: 					66;
+								vehicle_life: 					50;
+								retire_early: 					-10;								
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					30;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							80 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						870 hp;
+								weight: 						67 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_STEAM;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.2;
+								length: 						7;														
+			}
+			
+			//Vehicels Graphics
+					graphics
+				{
+						default						    : switch_reverse_BR_74_4_KPEV;
+						additional_text				    : string(STR_DESC_PASS);
+						purchase_cargo_capacity         : 0 ;
+						cargo_capacity                  : return 0 ;
+						purchase					    : spriteset_BR_74_4_purchase1;
+						cost_factor						: 18;
+						running_cost_factor				: switch_running_cost_BR_74_4;
+						visual_effect_and_powered		: switch_FX_BR_74_4;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_BR_74_4_SBER, 0743)
+
+		{//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_BR_74_4_SBER);
+								variant_group:					0740;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1902,01,01);
+								model_life: 					66;
+								vehicle_life: 					50;
+								retire_early: 					-10;								
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					30;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							80 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						870 hp;
+								weight: 						67 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_STEAM;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.2;
+								length: 						7;														
+			}
+			
+			//Vehicels Graphics
+					graphics
+				{
+						default						    : switch_reverse_BR_74_4_SBER;
+						additional_text				    : string(STR_DESC_PASS);
+						purchase_cargo_capacity         : 0 ;
+						cargo_capacity                  : return 0 ;
+						purchase					    : switch_spritestack_BR_74_4_purchase_SBER;
+						cost_factor						: 18;
+						running_cost_factor				: switch_running_cost_BR_74_4;
+						visual_effect_and_powered		: switch_FX_BR_74_4;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_BR_74_4_DRG, 0744)
+
+		{//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_BR_74_4_DRG);
+								variant_group:					0740;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1920,01,01);
+								model_life: 					48;
+								vehicle_life: 					50;
+								retire_early: 					-10;								
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					30;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							80 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						870 hp;
+								weight: 						67 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_STEAM;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.2;
+								length: 						7;														
+			}
+			
+			//Vehicels Graphics
+					graphics
+				{
+						default						    : switch_reverse_BR_74_4_DRG;
+						additional_text				    : string(STR_DESC_PASS);
+						purchase_cargo_capacity         : 0 ;
+						cargo_capacity                  : return 0 ;
+						purchase					    : switch_spritestack_BR_74_4_purchase2;
+						cost_factor						: 18;
+						running_cost_factor				: switch_running_cost_BR_74_4;
+						visual_effect_and_powered		: switch_FX_BR_74_4;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_BR_74_4_SBER2, 0745)
+
+		{//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_BR_74_4_SBER2);
+								variant_group:					0740;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1920,01,01);
+								model_life: 					48;
+								vehicle_life: 					50;
+								retire_early: 					-10;								
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					30;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							80 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						870 hp;
+								weight: 						67 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_STEAM;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.2;
+								length: 						7;														
+			}
+			
+			//Vehicels Graphics
+					graphics
+				{
+						default						    : switch_reverse_BR_74_4_SBER2;
+						additional_text				    : string(STR_DESC_PASS);
+						purchase_cargo_capacity         : 0 ;
+						cargo_capacity                  : return 0 ;
+						purchase					    : switch_spritestack_BR_74_4_purchase_SBER2;
+						cost_factor						: 18;
+						running_cost_factor				: switch_running_cost_BR_74_4;
+						visual_effect_and_powered		: switch_FX_BR_74_4;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_BR_74_4_DB, 0746)
+
+		{//property Block
+					property 
+					{
+					//common properties
+								name: 							string(STR_NAME_BR_74_4_DB);
+								variant_group:					0740;
+								extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+								climates_available: 			ALL_CLIMATES;
+								introduction_date: 				date(1946,01,01);
+								model_life: 					22;
+								vehicle_life: 					50;
+								retire_early: 					-10;								
+								reliability_decay: 				20;
+								cargo_allow_refit: 				[PASS] ;
+								cargo_capacity: 				1 ;
+								cost_factor: 					30;
+								misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+								running_cost_base: 				RUNNING_COST_STEAM;
+								running_cost_factor: 			90;
+								
+					//Train specific properties
+								sprite_id: 						SPRITE_ID_NEW_TRAIN;
+								speed: 							80 km/h;
+								refit_cost: 					0;
+								track_type: 					RAIL;
+								power:  						870 hp;
+								weight: 						67 ton;
+								ai_engine_rank: 				0;
+								engine_class: 					ENGINE_CLASS_STEAM;
+								visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								dual_headed: 					0;
+								tractive_effort_coefficient: 	0.2;
+								length: 						7;														
+			}
+			
+			//Vehicels Graphics
+					graphics
+				{
+						default						    : switch_reverse_BR_74_4_DB;
+						additional_text				    : string(STR_DESC_PASS);
+						purchase_cargo_capacity         : 0 ;
+						cargo_capacity                  : return 0 ;
+						purchase					    : switch_spritestack_BR_74_4_purchase3;
+						cost_factor						: 18;
+						running_cost_factor				: switch_running_cost_BR_74_4;
+						visual_effect_and_powered		: switch_FX_BR_74_4;
+			 }
+		}

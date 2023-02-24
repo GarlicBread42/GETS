@@ -1,0 +1,56 @@
+						switch (FEAT_TRAINS,SELF, switch_Test_move,current_speed){
+							   0 : spriteset_VT_713_DRG_front_gruen;
+							1 .. 100: spriteset_VT_713_DRG_front_rotweiss;
+								spriteset_VT_713_DRG_front_rotweiss;}
+								
+item (FEAT_TRAINS , ITEM_TEST, 9744)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_TEST);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1925,01,01);
+						model_life: 					25;
+						vehicle_life: 					25;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 46 ;
+						loading_speed:					6;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						150 hp;
+						weight: 						38 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						7;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Test_move;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_VT_713_length;
+			articulated_part				: switch_articulated_VT_713_build;
+			visual_effect_and_powered		: switch_FX_VT_713;
+			purchase						: switch_purchase_VT_713;
+			cost_factor						: 22;
+			running_cost_factor				: switch_running_cost_VT_713;		
+			}
+	}

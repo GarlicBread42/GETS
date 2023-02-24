@@ -1,0 +1,310 @@
+//#####################
+//###Om Koenigsberg###
+//#####################
+					
+//Spriteset DRG mit Bremserhaus
+
+spriteset (spriteset_Om_Koenigsberg_DRG_MBH, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_DRG_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_MBH_1x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_DRG_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_MBH_2x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Om_Koenigsberg_DRG_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_MBH_4x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+					
+//Spriteset DRG ohne Bremserhaus
+
+spriteset (spriteset_Om_Koenigsberg_DRG_OBH, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_DRG_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_1x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_DRG_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_2x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Om_Koenigsberg_DRG_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_4x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+					
+//Spriteset DB mit Bremserbühne
+
+spriteset (spriteset_Om_Koenigsberg_DB_MBH, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_DB_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_MBH_1x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_DB_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_MBH_2x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Om_Koenigsberg_DB_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_MBH_4x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+					
+//Spriteset DB ohne Bremserhaus
+
+spriteset (spriteset_Om_Koenigsberg_DB_OBH, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_1x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_2x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Om_Koenigsberg_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_4x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}					
+
+
+//Spriteset Purchase
+
+
+spriteset (spriteset_Om_Koenigsberg_purchase1, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_1x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DRG_OBH_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Om_Koenigsberg_purchase2, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Om_Koenigsberg_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_1x_32bpp.png", "gfx\Om_Koenigsberg/Om_Koenigsberg_DB_OBH_1x_mask.png")
+					{template_purchase(0, 0)}					
+										
+
+//Switches
+
+					switch (FEAT_TRAINS,SELF, switch_Om_Koenigsberg_purchase,current_year){
+						1900 .. 1945: spriteset_Om_Koenigsberg_purchase1;						
+						1946 .. 2050: spriteset_Om_Koenigsberg_purchase2;
+							spriteset_Om_Koenigsberg_purchase2;}															
+
+					switch (FEAT_TRAINS,SELF, switch_Om_Koenigsberg_MBH_current_year,current_year){
+						1900 .. 2045: spriteset_Om_Koenigsberg_DRG_MBH;
+						1946 .. 2050: spriteset_Om_Koenigsberg_DB_MBH;
+							spriteset_Om_Koenigsberg_DB_MBH;}						
+						
+					switch (FEAT_TRAINS,SELF, switch_Om_Koenigsberg_OBH_current_year,current_year){
+						1900 .. 1945: spriteset_Om_Koenigsberg_DRG_OBH;					
+						1946 .. 2050: spriteset_Om_Koenigsberg_DB_OBH;
+							spriteset_Om_Koenigsberg_DB_OBH;}
+	
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_Barren;}																	
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_Box;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_Bulk;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_Bulk_covered;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_Fass, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_Fass;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_COPR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_COPR;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_Rohr, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_Rohr;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_Timber;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_MBH_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_MBH_current_year;
+						1: spritegroup_Oc_Muenster_MBH_load_Wood;}																								
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_Barren;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_Box;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_Bulk;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_Bulk_covered;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_COPR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_COPR;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_Fass, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_Fass;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_Rohr, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_Rohr;}
+												
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_Timber;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Om_Koenigsberg_OBH_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Om_Koenigsberg_OBH_current_year;
+						1: spritegroup_Oc_Muenster_OBH_load_Wood;}							
+
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_Barren, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_Barren;
+								switch_loadstack_Om_Koenigsberg_MBH_Barren;}	
+								
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_Box, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_Box;
+								switch_loadstack_Om_Koenigsberg_MBH_Box;}	
+								
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_Bulk, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_Bulk;
+								switch_loadstack_Om_Koenigsberg_MBH_Bulk;}
+																					
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_Bulk_covered, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_Bulk_covered;
+								switch_loadstack_Om_Koenigsberg_MBH_Bulk_covered;}
+								
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_COPR, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_COPR;
+								switch_loadstack_Om_Koenigsberg_MBH_COPR;}								
+								
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_Fass, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_Fass;
+								switch_loadstack_Om_Koenigsberg_MBH_Fass;}
+
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_Rohr, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_Rohr;
+								switch_loadstack_Om_Koenigsberg_MBH_Rohr;}
+																
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_Timber, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_Timber;
+								switch_loadstack_Om_Koenigsberg_MBH_Timber;}
+								
+					switch (FEAT_TRAINS, SELF, random_choose_Om_Koenigsberg_Wood, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Om_Koenigsberg_OBH_Wood;
+								switch_loadstack_Om_Koenigsberg_MBH_Wood;}	
+								
+					switch(FEAT_TRAINS, SELF, switch_Om_Koenigsberg_cargo_classes, cargo_classes) {
+							bitmask(CC_BULK): return random_choose_Om_Koenigsberg_Bulk;
+							bitmask(CC_COVERED): return random_choose_Om_Koenigsberg_Bulk_covered;
+							bitmask(CC_PIECE_GOODS) : return random_choose_Om_Koenigsberg_Box;
+							bitmask(CC_LIQUID): return random_choose_Om_Koenigsberg_Fass;
+								random_choose_Om_Koenigsberg_Box;}									
+
+					switch (FEAT_TRAINS, SELF, switch_Om_Koenigsberg_cargo_type, cargo_type_in_veh) {
+							STEL: return random_choose_Om_Koenigsberg_Barren;
+							METL: return random_choose_Om_Koenigsberg_Rohr;
+							ZINC: return random_choose_Om_Koenigsberg_Rohr;
+							COPR: return random_choose_Om_Koenigsberg_COPR;
+							STST: return random_choose_Om_Koenigsberg_Barren;
+							STSH: return random_choose_Om_Koenigsberg_Barren;
+							STSE: return random_choose_Om_Koenigsberg_Barren;
+							STAL: return random_choose_Om_Koenigsberg_Barren;
+							STCB: return random_choose_Om_Koenigsberg_Rohr;
+							STWR: return random_choose_Om_Koenigsberg_Rohr; 
+							CSTI: return random_choose_Om_Koenigsberg_Rohr;
+							PIPE: return random_choose_Om_Koenigsberg_Rohr;
+
+							ENSP: return random_choose_Om_Koenigsberg_Box;
+							FMSP: return random_choose_Om_Koenigsberg_Box;
+							MNSP: return random_choose_Om_Koenigsberg_Box;
+							POWR: return random_choose_Om_Koenigsberg_Box;
+							VPTS: return random_choose_Om_Koenigsberg_Box;
+							MPTS: return random_choose_Om_Koenigsberg_Box;
+							GOOD: return random_choose_Om_Koenigsberg_Box;
+							PAPR: return random_choose_Om_Koenigsberg_Box;
+							TYRE: return random_choose_Om_Koenigsberg_Box;
+							WOOL: return random_choose_Om_Koenigsberg_Box;
+							TEXT: return random_choose_Om_Koenigsberg_Box;	
+							SEED: return random_choose_Om_Koenigsberg_Box;	
+							FERT: return random_choose_Om_Koenigsberg_Box;
+	
+							FRVG: return random_choose_Om_Koenigsberg_Bulk_covered;
+							TATO: return random_choose_Om_Koenigsberg_Bulk_covered;
+	
+							BDMT: return random_choose_Om_Koenigsberg_Timber;
+							WDPR: return random_choose_Om_Koenigsberg_Timber;
+							WOOD: return random_choose_Om_Koenigsberg_Wood;
+							GLAS: return random_choose_Om_Koenigsberg_Box;
+							BRCK: return random_choose_Om_Koenigsberg_Box;
+							
+							ACID: return random_choose_Om_Koenigsberg_Fass;
+							COAT: return random_choose_Om_Koenigsberg_Fass;
+								switch_Om_Koenigsberg_cargo_classes;}
+		
+
+
+					switch (FEAT_TRAINS, PARENT, switch_speed_Om_Koenigsberg,  switch_check_PWG_0()) {
+						1: return 80;
+						0: return 65;}								
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Om_Koenigsberg, 1){
+						return 105;}
+
+item (FEAT_TRAINS , ITEM_OM_KOENIGSBERG, 8605)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OM_KOENIGSBERG);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1927,01,01);
+						model_life: 					52;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED, CC_PIECE_GOODS, CC_LIQUID );
+						cargo_allow_refit:              [WOOD, BDMT, WDPR, TWOD];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						11 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Om_Koenigsberg_cargo_type;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: switch_Om_Koenigsberg_purchase;
+			speed							: switch_speed_Om_Koenigsberg;
+			cost_factor						: 46;
+			running_cost_factor				: switch_running_cost_Om_Koenigsberg;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

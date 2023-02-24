@@ -1,0 +1,932 @@
+//###############
+//###DRG ET 31###
+//###############
+
+//Spriteset DRG Front
+
+spriteset(spriteset_ET_31_DRG_front, "gfx\ET_31/ET_31_DRG_front_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_front_1x_32bpp.png", "gfx\ET_31/ET_31_DRG_front_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_front_2x_32bpp.png", "gfx\ET_31/ET_31_DRG_front_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_front_4x_32bpp.png", "gfx\ET_31/ET_31_DRG_front_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_31_DRG_front_loading, "gfx\ET_31/ET_31_DRG_front_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_front_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_front_loading_1x_32bpp.png", "gfx\ET_31/ET_31_DRG_front_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_front_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_front_2x_32bpp.png", "gfx\ET_31/ET_31_DRG_front_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_front_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_front_loading_4x_32bpp.png", "gfx\ET_31/ET_31_DRG_front_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_31_DRG_front_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_31_DRG_front_loading];}	
+			
+			
+//Spriteset DRG Middle
+
+spriteset(spriteset_ET_31_DRG_middle, "gfx\ET_31/ET_31_DRG_middle_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_middle_1x_32bpp.png", "gfx\ET_31/ET_31_DRG_middle_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_middle, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_middle_2x_32bpp.png", "gfx\ET_31/ET_31_DRG_middle_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_middle_4x_32bpp.png", "gfx\ET_31/ET_31_DRG_middle_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_31_DRG_middle_loading, "gfx\ET_31/ET_31_DRG_middle_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_middle_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_middle_loading_1x_32bpp.png", "gfx\ET_31/ET_31_DRG_middle_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_middle_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_middle_2x_32bpp.png", "gfx\ET_31/ET_31_DRG_middle_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_middle_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_middle_loading_4x_32bpp.png", "gfx\ET_31/ET_31_DRG_middle_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_31_DRG_middle_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_31_DRG_middle_loading];}
+			
+			
+//Spriteset DRG Back
+
+spriteset(spriteset_ET_31_DRG_back, "gfx\ET_31/ET_31_DRG_back_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_back_1x_32bpp.png", "gfx\ET_31/ET_31_DRG_back_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_back_2x_32bpp.png", "gfx\ET_31/ET_31_DRG_back_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_back_4x_32bpp.png", "gfx\ET_31/ET_31_DRG_back_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_31_DRG_back_loading, "gfx\ET_31/ET_31_DRG_back_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+									
+		alternative_sprites (spriteset_ET_31_DRG_back_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_back_loading_1x_32bpp.png", "gfx\ET_31/ET_31_DRG_back_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_back_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_back_2x_32bpp.png", "gfx\ET_31/ET_31_DRG_back_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DRG_back_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_back_loading_4x_32bpp.png", "gfx\ET_31/ET_31_DRG_back_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_31_DRG_back_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_31_DRG_back_loading];}
+			
+			
+//Spriteset DB Front
+
+spriteset(spriteset_ET_31_DB_front, "gfx\ET_31/ET_31_DB_front_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_front_1x_32bpp.png", "gfx\ET_31/ET_31_DB_front_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_front_2x_32bpp.png", "gfx\ET_31/ET_31_DB_front_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_front_4x_32bpp.png", "gfx\ET_31/ET_31_DB_front_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_31_DB_front_loading, "gfx\ET_31/ET_31_DB_front_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_front_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_front_loading_1x_32bpp.png", "gfx\ET_31/ET_31_DB_front_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_front_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_front_2x_32bpp.png", "gfx\ET_31/ET_31_DB_front_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_front_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_front_loading_4x_32bpp.png", "gfx\ET_31/ET_31_DB_front_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_31_DB_front_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_31_DB_front_loading];}	
+			
+			
+//Spriteset DB Middle
+
+spriteset(spriteset_ET_31_DB_middle, "gfx\ET_31/ET_31_DB_middle_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_middle, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_middle_1x_32bpp.png", "gfx\ET_31/ET_31_DB_middle_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_middle, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_middle_2x_32bpp.png", "gfx\ET_31/ET_31_DB_middle_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_middle, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_middle_4x_32bpp.png", "gfx\ET_31/ET_31_DB_middle_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_31_DB_middle_loading, "gfx\ET_31/ET_31_DB_middle_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_middle_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_middle_loading_1x_32bpp.png", "gfx\ET_31/ET_31_DB_middle_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_middle_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_middle_2x_32bpp.png", "gfx\ET_31/ET_31_DB_middle_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_middle_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_middle_loading_4x_32bpp.png", "gfx\ET_31/ET_31_DB_middle_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_31_DB_middle_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_31_DB_middle_loading];}
+			
+			
+//Spriteset DB Back
+
+spriteset(spriteset_ET_31_DB_back, "gfx\ET_31/ET_31_DB_back_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_back_1x_32bpp.png", "gfx\ET_31/ET_31_DB_back_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_back_2x_32bpp.png", "gfx\ET_31/ET_31_DB_back_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_back_4x_32bpp.png", "gfx\ET_31/ET_31_DB_back_4x_mask.png")
+									{ template_148trains_4x(0, 0)}		
+									
+									
+spriteset(spriteset_ET_31_DB_back_loading, "gfx\ET_31/ET_31_DB_back_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_back_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_back_loading_1x_32bpp.png", "gfx\ET_31/ET_31_DB_back_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_back_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_back_2x_32bpp.png", "gfx\ET_31/ET_31_DB_back_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_DB_back_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_back_loading_4x_32bpp.png", "gfx\ET_31/ET_31_DB_back_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+spritegroup spritegroup_ET_31_DB_back_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ET_31_DB_back_loading];}		
+			
+			
+//Spriteset purchase
+
+spriteset(spriteset_ET_31_purchase1, "gfx\ET_31/ET_31_DRG_front_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DRG_front_1x_32bpp.png", "gfx\ET_31/ET_31_DRG_front_1x_mask.png")
+									{ template_purchase(0, 0)}								
+
+spriteset(spriteset_ET_31_purchase2, "gfx\ET_31/ET_31_DB_front_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_ET_31_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_31/ET_31_DB_front_1x_32bpp.png", "gfx\ET_31/ET_31_DB_front_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+									
+//Switches
+					switch (FEAT_TRAINS,SELF, switch_ET_31_purchase,current_year){
+						    0 .. 1945: spriteset_ET_31_purchase1;
+						 1946 .. 2050: spriteset_ET_31_purchase2;						 
+						 spriteset_ET_31_purchase2;}
+						 
+						 
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_31_DRG_front, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_31_DRG_front;
+							1: spritegroup_ET_31_DRG_front_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_31_DRG_middle, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_31_DRG_middle;
+							1: spritegroup_ET_31_DRG_middle_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_31_DRG_back, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_31_DRG_back;
+							1: spritegroup_ET_31_DRG_back_loading;}														
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_31_DB_front, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_31_DB_front;
+							1: spritegroup_ET_31_DB_front_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_31_DB_middle, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_31_DB_middle;
+							1: spritegroup_ET_31_DB_middle_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ET_31_DB_back, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ET_31_DB_back;
+							1: spritegroup_ET_31_DB_back_loading;}							
+
+					switch (FEAT_TRAINS,SELF, switch_ET_31_front_current_year,current_year){
+						 1900 .. 1945: switch_spritestack_ET_31_DRG_front;
+						 1946 .. 1980: switch_spritestack_ET_31_DB_front;						 
+						 switch_spritestack_ET_31_DB_front;}
+						 
+					switch (FEAT_TRAINS,SELF, switch_ET_31_front_build_year,build_year){
+						 1900 .. 1945: switch_spritestack_ET_31_DRG_front;
+						 1946 .. 1980: switch_spritestack_ET_31_DB_front;						 
+						 switch_spritestack_ET_31_DB_front;}
+						 
+					switch (FEAT_TRAINS,SELF, switch_ET_31_middle_current_year,current_year){
+						 1900 .. 1945: switch_spritestack_ET_31_DRG_middle;
+						 1946 .. 1980: switch_spritestack_ET_31_DB_middle;						 
+						 switch_spritestack_ET_31_DB_middle;}
+						 
+					switch (FEAT_TRAINS,SELF, switch_ET_31_middle_build_year,build_year){
+						 1900 .. 1945: switch_spritestack_ET_31_DRG_middle;
+						 1946 .. 1980: switch_spritestack_ET_31_DB_middle;						 
+						 switch_spritestack_ET_31_DB_middle;}
+						 
+					switch (FEAT_TRAINS,SELF, switch_ET_31_back_current_year,current_year){
+						 1900 .. 1945: switch_spritestack_ET_31_DRG_back;
+						 1946 .. 1980: switch_spritestack_ET_31_DB_back;						 
+						 switch_spritestack_ET_31_DB_back;}
+						 
+					switch (FEAT_TRAINS,SELF, switch_ET_31_back_build_year,build_year){
+						 1900 .. 1945: switch_spritestack_ET_31_DRG_back;
+						 1946 .. 1980: switch_spritestack_ET_31_DB_back;						 
+						 switch_spritestack_ET_31_DB_back;}						 						 						 
+							
+					switch(FEAT_TRAINS, SELF, switch_coupling_ET_31, vehicle_type_id) {
+							4310: return CB_RESULT_ATTACH_ALLOW;
+							4311: return CB_RESULT_ATTACH_ALLOW;
+							4312: return CB_RESULT_ATTACH_ALLOW;
+							4313: return CB_RESULT_ATTACH_ALLOW;
+							4314: return CB_RESULT_ATTACH_ALLOW;
+							4315: return CB_RESULT_ATTACH_ALLOW;
+							4316: return CB_RESULT_ATTACH_ALLOW;
+							4317: return CB_RESULT_ATTACH_ALLOW;							
+							return string (STR_COUPLING_SAME);}							
+
+//Switches for three-part consists
+
+							
+					switch(FEAT_TRAINS, SELF, switch_length_ET_31_3, position_in_vehid_chain % 9) {
+							0: 4;
+							1: 6;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;							
+							6: 4;
+							7: 6;
+							8: 4;}							
+
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_ET_31_3, 1){
+							return 3250;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_ET_31_3, position_in_vehid_chain % 9) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);								
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							8: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}													
+
+							
+					switch(FEAT_TRAINS, SELF, switch_ET_31_3_graphics_build, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     return switch_ET_31_front_build_year;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_ET_31_middle_build_year;
+							5:     spriteset_empty;							
+							6:	   spriteset_empty;
+							7:	   return switch_ET_31_back_build_year;
+							8:	   spriteset_empty;}
+							
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_31_3_build, extra_callback_info1) {
+						1 .. 8: return ITEM_ET_31_3_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+													
+item (FEAT_TRAINS , ITEM_ET_31_3_BUILD, 4310)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_31_3_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					23;
+						vehicle_life: 					20;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1999 hp;
+						weight: 						145 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.17;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ET_31_3_graphics_build;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_ET_31_3;
+			articulated_part				: switch_articulated_ET_31_3_build;
+			can_attach_wagon				: switch_coupling_ET_31;
+			visual_effect_and_powered		: switch_FX_ET_31_3;
+			purchase						: switch_ET_31_purchase;
+			cost_factor						: 147;
+			running_cost_factor				: switch_running_cost_ET_31_3;
+			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_ET_31_3_graphics_current, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     return switch_ET_31_front_current_year;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_ET_31_middle_current_year;
+							5:     spriteset_empty;							
+							6:	   spriteset_empty;
+							7:	   return switch_ET_31_back_current_year;
+							8:	   spriteset_empty;}
+							
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_31_3_current, extra_callback_info1) {
+						1 .. 8: return ITEM_ET_31_3_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+													
+item (FEAT_TRAINS , ITEM_ET_31_3_CURRENT, 4311)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_31_3_CURRENT);
+						variant_group:					4310;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					23;
+						vehicle_life: 					20;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1999 hp;
+						weight: 						145 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.17;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ET_31_3_graphics_current;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_ET_31_3;
+			articulated_part				: switch_articulated_ET_31_3_current;
+			can_attach_wagon				: switch_coupling_ET_31;
+			visual_effect_and_powered		: switch_FX_ET_31_3;
+			purchase						: switch_ET_31_purchase;
+			cost_factor						: 147;
+			running_cost_factor				: switch_running_cost_ET_31_3;
+			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_ET_31_3_graphics_DRG, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_ET_31_DRG_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_spritestack_ET_31_DRG_middle;
+							5:     spriteset_empty;							
+							6:	   spriteset_empty;
+							7:	   return switch_spritestack_ET_31_DRG_back;
+							8:	   spriteset_empty;}
+							
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_31_3_DRG, extra_callback_info1) {
+						1 .. 8: return ITEM_ET_31_3_DRG; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+													
+item (FEAT_TRAINS , ITEM_ET_31_3_DRG, 4312)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_31_3_DRG);
+						variant_group:					4310;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					23;
+						vehicle_life: 					20;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1999 hp;
+						weight: 						145 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.17;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ET_31_3_graphics_DRG;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_ET_31_3;
+			articulated_part				: switch_articulated_ET_31_3_DRG;
+			can_attach_wagon				: switch_coupling_ET_31;
+			visual_effect_and_powered		: switch_FX_ET_31_3;
+			purchase						: spriteset_ET_31_purchase1;
+			cost_factor						: 147;
+			running_cost_factor				: switch_running_cost_ET_31_3;
+			
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_ET_31_3_graphics_DB, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_ET_31_DB_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_spritestack_ET_31_DB_middle;
+							5:     spriteset_empty;							
+							6:	   spriteset_empty;
+							7:	   return switch_spritestack_ET_31_DB_back;
+							8:	   spriteset_empty;}
+							
+							
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_31_3_DB, extra_callback_info1) {
+						1 .. 8: return ITEM_ET_31_3_DB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+													
+item (FEAT_TRAINS , ITEM_ET_31_3_DB, 4313)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_31_3_DB);
+						variant_group:					4310;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					13;
+						vehicle_life: 					20;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1999 hp;
+						weight: 						145 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.17;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ET_31_3_graphics_DB;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_ET_31_3;
+			articulated_part				: switch_articulated_ET_31_3_DB;
+			can_attach_wagon				: switch_coupling_ET_31;
+			visual_effect_and_powered		: switch_FX_ET_31_3;
+			purchase						: spriteset_ET_31_purchase2;
+			cost_factor						: 147;
+			running_cost_factor				: switch_running_cost_ET_31_3;
+			
+			}
+	}
+
+//Switches for four-part consists
+						   
+					switch(FEAT_TRAINS, SELF, switch_length_ET_31_4, position_in_vehid_chain % 12) {
+							0: 4;
+							1: 6;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;							
+							6: 4;
+							7: 6;
+							8: 4;
+							9: 4;
+						   10: 6;
+						   11: 4;}														
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_ET_31_4, 1){
+							return 4350;}
+							
+					switch(FEAT_TRAINS, SELF, switch_FX_ET_31_4, position_in_vehid_chain % 9) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							2: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC,-2, DISABLE_WAGON_POWER);
+							3: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							4: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							5: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							6: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+							7: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							8: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 0, DISABLE_WAGON_POWER);															
+							9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+						   10: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+					   	   11: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+					switch(FEAT_TRAINS, SELF, switch_ET_31_4_graphics_build, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_ET_31_front_build_year;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_ET_31_middle_build_year;
+							5:     spriteset_empty;	
+							6:	   spriteset_empty;
+							7:     return switch_ET_31_middle_build_year;
+							8:     spriteset_empty;														
+							9:	   spriteset_empty;
+						   10:	   return switch_ET_31_back_build_year;
+						   11:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_31_4_build, extra_callback_info1) {
+						1 .. 11: return ITEM_ET_31_4_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+												   
+						   					   	   
+item (FEAT_TRAINS , ITEM_ET_31_4_BUILD, 4314)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_31_4_BUILD);
+						variant_group:					4310;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					23;
+						vehicle_life: 					20;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1999 hp;
+						weight: 						193 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.17;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ET_31_4_graphics_build;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_ET_31_4;
+			articulated_part				: switch_articulated_ET_31_4_build;
+			can_attach_wagon				: switch_coupling_ET_31;
+			visual_effect_and_powered		: switch_FX_ET_31_4;
+			purchase						: switch_ET_31_purchase;
+			cost_factor						: 196;
+			running_cost_factor				: switch_running_cost_ET_31_4;
+			
+			}
+	}					   	   
+
+
+
+					switch(FEAT_TRAINS, SELF, switch_ET_31_4_graphics_current, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_ET_31_front_current_year;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_ET_31_middle_current_year;
+							5:     spriteset_empty;	
+							6:	   spriteset_empty;
+							7:     return switch_ET_31_middle_current_year;
+							8:     spriteset_empty;														
+							9:	   spriteset_empty;
+						   10:	   return switch_ET_31_back_current_year;
+						   11:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_31_4_current, extra_callback_info1) {
+						1 .. 11: return ITEM_ET_31_4_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+												   
+						   					   	   
+item (FEAT_TRAINS , ITEM_ET_31_4_CURRENT, 4315)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_31_4_CURRENT);
+						variant_group:					4314;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					23;
+						vehicle_life: 					20;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1999 hp;
+						weight: 						193 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.17;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ET_31_4_graphics_current;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_ET_31_4;
+			articulated_part				: switch_articulated_ET_31_4_current;
+			can_attach_wagon				: switch_coupling_ET_31;
+			visual_effect_and_powered		: switch_FX_ET_31_4;
+			purchase						: switch_ET_31_purchase;
+			cost_factor						: 196;
+			running_cost_factor				: switch_running_cost_ET_31_4;
+			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_ET_31_4_graphics_DRG, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_ET_31_DRG_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_spritestack_ET_31_DRG_middle;
+							5:     spriteset_empty;	
+							6:	   spriteset_empty;
+							7:     return switch_spritestack_ET_31_DRG_middle;
+							8:     spriteset_empty;														
+							9:	   spriteset_empty;
+						   10:	   return switch_spritestack_ET_31_DRG_back;
+						   11:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_31_4_DRG, extra_callback_info1) {
+						1 .. 11: return ITEM_ET_31_4_DRG; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+												   
+						   					   	   
+item (FEAT_TRAINS , ITEM_ET_31_4_DRG, 4316)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_31_4_DRG);
+						variant_group:					4314;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					23;
+						vehicle_life: 					20;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1999 hp;
+						weight: 						193 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.17;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ET_31_4_graphics_DRG;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_ET_31_4;
+			articulated_part				: switch_articulated_ET_31_4_DRG;
+			can_attach_wagon				: switch_coupling_ET_31;
+			visual_effect_and_powered		: switch_FX_ET_31_4;
+			purchase						: spriteset_ET_31_purchase1;
+			cost_factor						: 196;
+			running_cost_factor				: switch_running_cost_ET_31_4;
+			
+			}
+	}
+
+					switch(FEAT_TRAINS, SELF, switch_ET_31_4_graphics_DB, position_in_vehid_chain % 12) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_ET_31_DB_front;
+							2:     spriteset_empty;
+							3:	   spriteset_empty;
+							4:     return switch_spritestack_ET_31_DB_middle;
+							5:     spriteset_empty;	
+							6:	   spriteset_empty;
+							7:     return switch_spritestack_ET_31_DB_middle;
+							8:     spriteset_empty;														
+							9:	   spriteset_empty;
+						   10:	   return switch_spritestack_ET_31_DB_back;
+						   11:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_31_4_DB, extra_callback_info1) {
+						1 .. 11: return ITEM_ET_31_4_DB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+												   
+						   					   	   
+item (FEAT_TRAINS , ITEM_ET_31_4_DB, 4317)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_31_4_DB);
+						variant_group:					4314;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					13;
+						vehicle_life: 					20;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 21 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;	
+						power:  						1999 hp;
+						weight: 						193 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.17;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ET_31_4_graphics_DB;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_ET_31_4;
+			articulated_part				: switch_articulated_ET_31_4_DB;
+			can_attach_wagon				: switch_coupling_ET_31;
+			visual_effect_and_powered		: switch_FX_ET_31_4;
+			purchase						: spriteset_ET_31_purchase2;
+			cost_factor						: 196;
+			running_cost_factor				: switch_running_cost_ET_31_4;
+			
+			}
+	}

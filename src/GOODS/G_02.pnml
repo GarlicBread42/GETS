@@ -1,0 +1,681 @@
+//############################
+//###G02 - Hannover/Stettin###
+//############################				
+	
+	
+//Spriteset KPEV mit Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_KPEV_MBH, "gfx\G02/G02_KPEV_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_1x_32bpp.png", "gfx\G02/G02_KPEV_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_2x_32bpp.png", "gfx\G02/G02_KPEV_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_KPEV_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_4x_32bpp.png", "gfx\G02/G02_KPEV_MBH_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_KPEV_MBH_loading, "gfx\G02/G02_KPEV_MBH_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_loading_1x_32bpp.png", "gfx\G02/G02_KPEV_MBH_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_loading_2x_32bpp.png", "gfx\G02/G02_KPEV_MBH_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_KPEV_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_loading_4x_32bpp.png", "gfx\G02/G02_KPEV_MBH_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_KPEV_MBH
+		{
+			loaded: 	[spriteset_G02_KPEV_MBH];
+			loading: 	[spriteset_G02_KPEV_MBH_loading];		
+		}
+		
+		
+//Spriteset KPEV ohne Bremserhaus 1
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_KPEV_OBH1, "gfx\G02/G02_KPEV_OBH1_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_OBH1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_1x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_OBH1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_2x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_KPEV_OBH1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_4x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_KPEV_OBH1_loading, "gfx\G02/G02_KPEV_OBH1_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_OBH1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_loading_1x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_OBH1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_loading_2x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_KPEV_OBH1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_loading_4x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_KPEV_OBH1
+		{
+			loaded: 	[spriteset_G02_KPEV_OBH1];
+			loading: 	[spriteset_G02_KPEV_OBH1_loading];		
+		}	
+		
+		
+//Spriteset KPEV ohne Bremserhaus 2
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_KPEV_OBH2, "gfx\G02/G02_KPEV_OBH2_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_OBH2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH2_1x_32bpp.png", "gfx\G02/G02_KPEV_OBH2_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_OBH2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH2_2x_32bpp.png", "gfx\G02/G02_KPEV_OBH2_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_KPEV_OBH2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH2_4x_32bpp.png", "gfx\G02/G02_KPEV_OBH2_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_KPEV_OBH2_loading, "gfx\G02/G02_KPEV_OBH2_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_OBH2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH2_loading_1x_32bpp.png", "gfx\G02/G02_KPEV_OBH2_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_KPEV_OBH2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH2_loading_2x_32bpp.png", "gfx\G02/G02_KPEV_OBH2_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_KPEV_OBH2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH2_loading_4x_32bpp.png", "gfx\G02/G02_KPEV_OBH2_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_KPEV_OBH2
+		{
+			loaded: 	[spriteset_G02_KPEV_OBH2];
+			loading: 	[spriteset_G02_KPEV_OBH2_loading];		
+		}						
+
+
+//Spriteset Bayern/Württemberg mit Bremserhaus 1
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_BAY_MBH1, "gfx\G02/G02_BAY_MBH1_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_MBH1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH1_1x_32bpp.png", "gfx\G02/G02_BAY_MBH1_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_MBH1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH1_2x_32bpp.png", "gfx\G02/G02_BAY_MBH1_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_BAY_MBH1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH1_4x_32bpp.png", "gfx\G02/G02_BAY_MBH1_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_BAY_MBH1_loading, "gfx\G02/G02_BAY_MBH1_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_MBH1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH1_loading_1x_32bpp.png", "gfx\G02/G02_BAY_MBH1_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_MBH1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH1_loading_2x_32bpp.png", "gfx\G02/G02_BAY_MBH1_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_BAY_MBH1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH1_loading_4x_32bpp.png", "gfx\G02/G02_BAY_MBH1_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_BAY_MBH1
+		{
+			loaded: 	[spriteset_G02_BAY_MBH1];
+			loading: 	[spriteset_G02_BAY_MBH1_loading];		
+		}
+
+
+//Spriteset Bayern/Württemberg mit Bremserhaus 2
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_BAY_MBH2, "gfx\G02/G02_BAY_MBH2_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_MBH2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH2_1x_32bpp.png", "gfx\G02/G02_BAY_MBH2_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_MBH2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH2_2x_32bpp.png", "gfx\G02/G02_BAY_MBH2_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_BAY_MBH2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH2_4x_32bpp.png", "gfx\G02/G02_BAY_MBH2_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_BAY_MBH2_loading, "gfx\G02/G02_BAY_MBH2_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_MBH2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH2_loading_1x_32bpp.png", "gfx\G02/G02_BAY_MBH2_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_MBH2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH2_loading_2x_32bpp.png", "gfx\G02/G02_BAY_MBH2_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_BAY_MBH2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH2_loading_4x_32bpp.png", "gfx\G02/G02_BAY_MBH2_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_BAY_MBH2
+		{
+			loaded: 	[spriteset_G02_BAY_MBH2];
+			loading: 	[spriteset_G02_BAY_MBH2_loading];		
+		}
+
+
+//Spriteset Bayern/Württemberg ohne Bremserhaus 1
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_BAY_OBH1, "gfx\G02/G02_BAY_OBH1_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_OBH1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_OBH1_1x_32bpp.png", "gfx\G02/G02_BAY_OBH1_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_OBH1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_OBH1_2x_32bpp.png", "gfx\G02/G02_BAY_OBH1_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_BAY_OBH1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_OBH1_4x_32bpp.png", "gfx\G02/G02_BAY_OBH1_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_BAY_OBH1_loading, "gfx\G02/G02_BAY_OBH1_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_OBH1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_OBH1_loading_1x_32bpp.png", "gfx\G02/G02_BAY_OBH1_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_BAY_OBH1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_OBH1_loading_2x_32bpp.png", "gfx\G02/G02_BAY_OBH1_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_BAY_OBH1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_OBH1_loading_4x_32bpp.png", "gfx\G02/G02_BAY_OBH1_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_BAY_OBH1
+		{
+			loaded: 	[spriteset_G02_BAY_OBH1];
+			loading: 	[spriteset_G02_BAY_OBH1_loading];		
+		}
+
+
+//Spriteset DRG mit Bremserhaus 1 (keine Werbung)
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_DRG_MBH1, "gfx\G02/G02_DRG_MBH1_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH1_1x_32bpp.png", "gfx\G02/G02_DRG_MBH1_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH1_2x_32bpp.png", "gfx\G02/G02_DRG_MBH1_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_DRG_MBH1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH1_4x_32bpp.png", "gfx\G02/G02_DRG_MBH1_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_DRG_MBH1_loading, "gfx\G02/G02_DRG_MBH1_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH1_loading_1x_32bpp.png", "gfx\G02/G02_DRG_MBH1_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH1_loading_2x_32bpp.png", "gfx\G02/G02_DRG_MBH1_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_DRG_MBH1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH1_loading_4x_32bpp.png", "gfx\G02/G02_DRG_MBH1_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_DRG_MBH1
+		{
+			loaded: 	[spriteset_G02_DRG_MBH1];
+			loading: 	[spriteset_G02_DRG_MBH1_loading];		
+		}
+		
+		
+//Spriteset DRG mit Bremserhaus 2 ("Güter"-Werbung)
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_DRG_MBH2, "gfx\G02/G02_DRG_MBH2_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH2_1x_32bpp.png", "gfx\G02/G02_DRG_MBH2_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH2_2x_32bpp.png", "gfx\G02/G02_DRG_MBH2_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_DRG_MBH2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH2_4x_32bpp.png", "gfx\G02/G02_DRG_MBH2_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_DRG_MBH2_loading, "gfx\G02/G02_DRG_MBH2_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH2_loading_1x_32bpp.png", "gfx\G02/G02_DRG_MBH2_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH2_loading_2x_32bpp.png", "gfx\G02/G02_DRG_MBH2_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_DRG_MBH2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH2_loading_4x_32bpp.png", "gfx\G02/G02_DRG_MBH2_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_DRG_MBH2
+		{
+			loaded: 	[spriteset_G02_DRG_MBH2];
+			loading: 	[spriteset_G02_DRG_MBH2_loading];		
+		}		
+
+
+//Spriteset DRG mit Bremserhaus 3 ("Bosch"-Werbung)
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_DRG_MBH3, "gfx\G02/G02_DRG_MBH3_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH3_1x_32bpp.png", "gfx\G02/G02_DRG_MBH3_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH3_2x_32bpp.png", "gfx\G02/G02_DRG_MBH3_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_DRG_MBH3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH3_4x_32bpp.png", "gfx\G02/G02_DRG_MBH3_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_DRG_MBH3_loading, "gfx\G02/G02_DRG_MBH3_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH3_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH3_loading_1x_32bpp.png", "gfx\G02/G02_DRG_MBH3_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_MBH3_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH3_loading_2x_32bpp.png", "gfx\G02/G02_DRG_MBH3_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_DRG_MBH3_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH3_loading_4x_32bpp.png", "gfx\G02/G02_DRG_MBH3_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_DRG_MBH3
+		{
+			loaded: 	[spriteset_G02_DRG_MBH3];
+			loading: 	[spriteset_G02_DRG_MBH3_loading];		
+		}	
+
+//Spriteset DRG ohne Bremserhaus 1 (keine Werbung)
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_DRG_OBH1, "gfx\G02/G02_DRG_OBH1_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_OBH1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH1_1x_32bpp.png", "gfx\G02/G02_DRG_OBH1_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_OBH1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH1_2x_32bpp.png", "gfx\G02/G02_DRG_OBH1_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_DRG_OBH1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH1_4x_32bpp.png", "gfx\G02/G02_DRG_OBH1_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_DRG_OBH1_loading, "gfx\G02/G02_DRG_OBH1_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_OBH1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH1_loading_1x_32bpp.png", "gfx\G02/G02_DRG_OBH1_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_OBH1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH1_loading_2x_32bpp.png", "gfx\G02/G02_DRG_OBH1_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_DRG_OBH1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH1_loading_4x_32bpp.png", "gfx\G02/G02_DRG_OBH1_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_DRG_OBH1
+		{
+			loaded: 	[spriteset_G02_DRG_OBH1];
+			loading: 	[spriteset_G02_DRG_OBH1_loading];		
+		}
+		
+		
+//Spriteset DRG ohne Bremserhaus 2 ("Güter"-Werbung)
+
+	//Spriteset loaded
+
+		spriteset (spriteset_G02_DRG_OBH2, "gfx\G02/G02_DRG_OBH2_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_OBH2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH2_1x_32bpp.png", "gfx\G02/G02_DRG_OBH2_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_OBH2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH2_2x_32bpp.png", "gfx\G02/G02_DRG_OBH2_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_G02_DRG_OBH2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH2_4x_32bpp.png", "gfx\G02/G02_DRG_OBH2_4x_mask.png")
+						{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_G02_DRG_OBH2_loading, "gfx\G02/G02_DRG_OBH2_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_OBH2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH2_loading_1x_32bpp.png", "gfx\G02/G02_DRG_OBH2_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_DRG_OBH2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH2_loading_2x_32bpp.png", "gfx\G02/G02_DRG_OBH2_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_G02_DRG_OBH2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_OBH2_loading_4x_32bpp.png", "gfx\G02/G02_DRG_OBH2_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_G02_DRG_OBH2
+		{
+			loaded: 	[spriteset_G02_DRG_OBH2];
+			loading: 	[spriteset_G02_DRG_OBH2_loading];		
+		}		
+
+//Spritesets purchase
+
+spriteset (spriteset_G02_purchase_1, "gfx\G02/G02_KPEV_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_purchase_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_1x_32bpp.png", "gfx\G02/G02_KPEV_MBH_1x_mask.png")
+					{template_purchase(0, 0)}				
+					
+spriteset (spriteset_G02_purchase_2, "gfx\G02/G02_DRG_MBH1_1x_8bpp.png")
+					{template_purchase(0, 0)}		
+				
+		alternative_sprites (spriteset_G02_purchase_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_DRG_MBH1_1x_32bpp.png", "gfx\G02/G02_DRG_MBH1_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_G02_purchase_3, "gfx\G02/G02_BAY_MBH1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_G02_purchase_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_BAY_MBH1_1x_32bpp.png", "gfx\G02/G02_BAY_MBH1_1x_mask.png")
+					{template_purchase(0, 0)}					
+
+//Switches
+
+					 switch (FEAT_TRAINS,SELF, switch_G02_purchase,current_year){
+							1880 .. 1919: spriteset_G02_purchase_1;
+							1920 .. 1990: spriteset_G02_purchase_2;				 					 
+							spriteset_G02_purchase_1;}
+						 
+					switch (FEAT_TRAINS, SELF, random_choose_G02_KPEV, switch_alternative_var_random_bits(2, 2)) {
+							1: spritegroup_G02_KPEV_MBH;
+							2: spritegroup_G02_KPEV_MBH;
+							3: spritegroup_G02_KPEV_OBH1;
+								spritegroup_G02_KPEV_OBH2;}		
+								
+					switch (FEAT_TRAINS, SELF, random_choose_G02_BAY, switch_alternative_var_random_bits(2, 2)) {
+							1: spritegroup_G02_BAY_OBH1;
+							2: spritegroup_G02_BAY_MBH1;
+							3: spritegroup_G02_BAY_OBH1;
+								spritegroup_G02_BAY_MBH2;}	
+								
+					switch (FEAT_TRAINS, SELF, random_choose_G02_DRG, switch_alternative_var_random_bits(3, 3)) {
+							1: spritegroup_G02_DRG_MBH1;
+							2: spritegroup_G02_DRG_MBH2;
+							3: spritegroup_G02_DRG_MBH1;
+							4: spritegroup_G02_DRG_MBH3;
+							5: spritegroup_G02_DRG_OBH1;
+							6: spritegroup_G02_DRG_OBH2;
+							7: spritegroup_G02_DRG_OBH1;
+								spritegroup_G02_DRG_OBH1;}	
+					
+					//Switch checks for Bavarian/Wurttemberg locos - if not found, KPEV-variations will be triggered)							
+					switch (FEAT_TRAINS,PARENT,switch_G02_check_BAYKWSE, switch_check_BAY_0()) {
+							0: random_choose_G02_KPEV; 
+								random_choose_G02_BAY;}
+								
+					switch (FEAT_TRAINS,SELF,switch_graphics_G02,current_year) {
+						1880 .. 1919 : switch_G02_check_BAYKWSE;
+						1920 .. 1955 : random_choose_G02_DRG;
+						random_choose_G02_DRG;}
+																																											 
+					switch (FEAT_TRAINS, PARENT, switch_speed_G02,  switch_check_PWG_0()) {
+						1: return 65;
+						0: return 50;}
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_G02, 1){
+						return 75;}						
+						
+item (FEAT_TRAINS , ITEM_G02, 8250)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_G02);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1892,01,01);
+						model_life: 					71;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						10 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_G02;
+			additional_text					: string(STR_DESC_CABOOSE_65);
+			purchase						: switch_G02_purchase;
+			speed							: switch_speed_G02;
+			cost_factor						: 34;
+			running_cost_factor				: switch_running_cost_G02;				
+			
+			 }
+		}
+		
+item (FEAT_TRAINS , ITEM_G02_KPEV, 8251)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_G02_KPEV);
+						variant_group:					8250;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1892,01,01);
+						model_life: 					71;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						10 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_G02_KPEV;
+			additional_text					: string(STR_DESC_CABOOSE_65);
+			purchase						: spriteset_G02_purchase_1;
+			speed							: switch_speed_G02;
+			cost_factor						: 34;
+			running_cost_factor				: switch_running_cost_G02;				
+			
+			 }
+		}
+		
+item (FEAT_TRAINS , ITEM_G02_BAY, 8252)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_G02_BAY);
+						variant_group:					8250;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1892,01,01);
+						model_life: 					71;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						10 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_G02_BAY;
+			additional_text					: string(STR_DESC_CABOOSE_65);
+			purchase						: spriteset_G02_purchase_3;
+			speed							: switch_speed_G02;
+			cost_factor						: 34;
+			running_cost_factor				: switch_running_cost_G02;				
+			
+			 }
+		}						
+
+item (FEAT_TRAINS , ITEM_G02_DRG, 8253)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_G02_DRG);
+						variant_group:					8250;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					43;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						10 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_G02_DRG;
+			additional_text					: string(STR_DESC_CABOOSE_65);
+			purchase						: spriteset_G02_purchase_2;
+			speed							: switch_speed_G02;
+			cost_factor						: 34;
+			running_cost_factor				: switch_running_cost_G02;				
+			
+			 }
+		}

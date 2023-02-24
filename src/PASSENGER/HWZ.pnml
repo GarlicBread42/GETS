@@ -1,0 +1,850 @@
+//##########################
+//###Henschel-Wegmann-Zug###
+//##########################
+
+//Spritesets
+
+//Spritegroup Front DRG
+
+spriteset (spriteset_HWZ_Front_DRG, "gfx/HWZ/HWZ_Front_DRG_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Front_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_DRG_1x_32bpp.png", "gfx/HWZ/HWZ_Front_DRG_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Front_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_DRG_2x_32bpp.png", "gfx/HWZ/HWZ_Front_DRG_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Front_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_DRG_4x_32bpp.png", "gfx/HWZ/HWZ_Front_DRG_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+//Spritegroup Front DB
+
+spriteset (spriteset_HWZ_Front_DB, "gfx/HWZ/HWZ_Front_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Front_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_DB_1x_32bpp.png", "gfx/HWZ/HWZ_Front_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Front_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_DB_2x_32bpp.png", "gfx/HWZ/HWZ_Front_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Front_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_DB_4x_32bpp.png", "gfx/HWZ/HWZ_Front_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+//Spritegroup Front loading
+
+spriteset (spriteset_HWZ_Front_loading, "gfx/HWZ/HWZ_Front_loading_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Front_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_loading_1x_32bpp.png", "gfx/HWZ/HWZ_Front_loading_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Front_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_loading_2x_32bpp.png", "gfx/HWZ/HWZ_Front_loading_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Front_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_loading_4x_32bpp.png", "gfx/HWZ/HWZ_Front_loading_4x_mask.png")
+					{template_138trains_4x(0,0)}									
+
+//Spritegroup Middle DRG
+
+spriteset (spriteset_HWZ_Middle_DRG, "gfx/HWZ/HWZ_Middle_DRG_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Middle_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_DRG_1x_32bpp.png", "gfx/HWZ/HWZ_Middle_DRG_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Middle_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_DRG_2x_32bpp.png", "gfx/HWZ/HWZ_Middle_DRG_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Middle_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_DRG_4x_32bpp.png", "gfx/HWZ/HWZ_Middle_DRG_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+//Spritegroup Middle DB
+
+spriteset (spriteset_HWZ_Middle_DB, "gfx/HWZ/HWZ_Middle_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Middle_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_DB_1x_32bpp.png", "gfx/HWZ/HWZ_Middle_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Middle_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_DB_2x_32bpp.png", "gfx/HWZ/HWZ_Middle_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Middle_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_DB_4x_32bpp.png", "gfx/HWZ/HWZ_Middle_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+//Spritegroup Middle loading
+
+spriteset (spriteset_HWZ_Middle_loading, "gfx/HWZ/HWZ_Middle_loading_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Middle_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_loading_1x_32bpp.png", "gfx/HWZ/HWZ_Middle_loading_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Middle_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_loading_2x_32bpp.png", "gfx/HWZ/HWZ_Middle_loading_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Middle_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Middle_loading_4x_32bpp.png", "gfx/HWZ/HWZ_Middle_loading_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+//Spritegroup Back DRG
+
+spriteset (spriteset_HWZ_Back_DRG, "gfx/HWZ/HWZ_Back_DRG_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Back_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_DRG_1x_32bpp.png", "gfx/HWZ/HWZ_Back_DRG_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Back_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_DRG_2x_32bpp.png", "gfx/HWZ/HWZ_Back_DRG_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Back_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_DRG_4x_32bpp.png", "gfx/HWZ/HWZ_Back_DRG_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+//Spritegroup Back DB
+
+spriteset (spriteset_HWZ_Back_DB, "gfx/HWZ/HWZ_Back_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Back_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_DB_1x_32bpp.png", "gfx/HWZ/HWZ_Back_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Back_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_DB_2x_32bpp.png", "gfx/HWZ/HWZ_Back_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Back_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_DB_4x_32bpp.png", "gfx/HWZ/HWZ_Back_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+//Spritegroup Back loading_DRG
+
+spriteset (spriteset_HWZ_Back_loading_DRG, "gfx/HWZ/HWZ_Back_loading_DRG_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Back_loading_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_loading_DRG_1x_32bpp.png", "gfx/HWZ/HWZ_Back_loading_DRG_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Back_loading_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_loading_DRG_2x_32bpp.png", "gfx/HWZ/HWZ_Back_loading_DRG_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Back_loading_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_loading_DRG_4x_32bpp.png", "gfx/HWZ/HWZ_Back_loading_DRG_4x_mask.png")
+					{template_138trains_4x(0,0)}							
+
+//Spritegroup Back loading_DB
+
+spriteset (spriteset_HWZ_Back_loading_DB, "gfx/HWZ/HWZ_Back_loading_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_Back_loading_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_loading_DB_1x_32bpp.png", "gfx/HWZ/HWZ_Back_loading_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_HWZ_Back_loading_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_loading_DB_2x_32bpp.png", "gfx/HWZ/HWZ_Back_loading_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_HWZ_Back_loading_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Back_loading_DB_4x_32bpp.png", "gfx/HWZ/HWZ_Back_loading_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroups
+
+spritegroup spritegroup_HWZ_Front_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_HWZ_Front_loading];}
+
+spritegroup spritegroup_HWZ_Middle_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_HWZ_Middle_loading];}
+			
+spritegroup spritegroup_HWZ_Back_loading_DRG
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_HWZ_Back_loading_DRG];}
+			
+spritegroup spritegroup_HWZ_Back_loading_DB
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_HWZ_Back_loading_DB];}						
+
+//Spriteset purchase
+
+spriteset (spriteset_HWZ_purchase1, "gfx/HWZ/HWZ_Front_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_DRG_1x_32bpp.png", "gfx/HWZ/HWZ_Front_DRG_1x_mask.png")
+					{template_purchase(0,0)}				
+
+spriteset (spriteset_HWZ_purchase2, "gfx/HWZ/HWZ_Front_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_HWZ_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/HWZ/HWZ_Front_DB_1x_32bpp.png", "gfx/HWZ/HWZ_Front_DB_1x_mask.png")
+					{template_purchase(0,0)}							
+
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_HWZ,current_year) {
+							   0 .. 1945 : spriteset_HWZ_purchase1;
+							1946 .. 2050 : spriteset_HWZ_purchase2;							
+								spriteset_HWZ_purchase2;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_HWZ_Front_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_HWZ_Front_DRG;
+							1: spritegroup_HWZ_Front_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_HWZ_Front_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_HWZ_Front_DB;
+							1: spritegroup_HWZ_Front_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_HWZ_Middle_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_HWZ_Middle_DRG;
+							1: spritegroup_HWZ_Middle_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_HWZ_Middle_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_HWZ_Middle_DB;
+							1: spritegroup_HWZ_Middle_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_HWZ_Back_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_HWZ_Back_DRG;
+							1: spritegroup_HWZ_Back_loading_DRG;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_HWZ_Back_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_HWZ_Back_DB;
+							1: spritegroup_HWZ_Back_loading_DB;}							
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_HWZ_Front,build_year) {
+							   0 .. 1932 : switch_spritestack_HWZ_Front_DRG;
+							1946 .. 2050 : switch_spritestack_HWZ_Front_DB;
+								switch_spritestack_HWZ_Front_DB;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_HWZ_Front,current_year) {
+							   0 .. 1932 : switch_spritestack_HWZ_Front_DRG;
+							1946 .. 2050 : switch_spritestack_HWZ_Front_DB;
+								switch_spritestack_HWZ_Front_DB;}								
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_HWZ_Middle,build_year) {
+							   0 .. 1932 : switch_spritestack_HWZ_Middle_DRG;
+							1946 .. 2050 : switch_spritestack_HWZ_Middle_DB;
+								switch_spritestack_HWZ_Middle_DB;}	
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_HWZ_Middle,current_year) {
+							   0 .. 1932 : switch_spritestack_HWZ_Middle_DRG;
+							1946 .. 2050 : switch_spritestack_HWZ_Middle_DB;
+								switch_spritestack_HWZ_Middle_DB;}								
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_HWZ_Back,build_year) {
+							   0 .. 1932 : switch_spritestack_HWZ_Back_DRG;
+							1946 .. 2050 : switch_spritestack_HWZ_Back_DB;
+								switch_spritestack_HWZ_Back_DB;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_HWZ_Back,current_year) {
+							   0 .. 1932 : switch_spritestack_HWZ_Back_DRG;
+							1946 .. 2050 : switch_spritestack_HWZ_Back_DB;
+								switch_spritestack_HWZ_Back_DB;}																														
+
+//Switches for 4-part consist							
+	
+							
+					switch(FEAT_TRAINS, SELF, switch_length_HWZ_4, position_in_vehid_chain % 12) {
+						0: 4;
+						1: 5;
+						2: 4;
+						3: 4;
+						4: 5;
+						5: 4;
+						6: 4;
+						7: 5;
+						8: 4;
+						9: 4;
+					   10: 5;
+					   11: 4;}
+					   
+					switch(FEAT_TRAINS, SELF, switch_coupling_HWZ_4, vehicle_type_id) {
+							7620: return CB_RESULT_ATTACH_ALLOW;
+							7621: return CB_RESULT_ATTACH_ALLOW;
+							7622: return CB_RESULT_ATTACH_ALLOW;
+							7623: return CB_RESULT_ATTACH_ALLOW;
+							return string (STR_COUPLING_NOPE);}						   
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_HWZ_4, 1){
+						return 7650;}
+
+					switch(FEAT_TRAINS, SELF, switch_HWZ_4_graphics_build, position_in_vehid_chain  % 12) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_HWZ_Front;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_build_year_HWZ_Middle;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_build_year_HWZ_Middle;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_build_year_HWZ_Back;
+						   11:     spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_HWZ_4_build, extra_callback_info1) {
+						1 .. 11: return ITEM_HWZ_4_BUILD;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+												   						
+item (FEAT_TRAINS , ITEM_HWZ_4_BUILD, 7620)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HWZ_4_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					20;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						138 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_HWZ_4_graphics_build;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_HWZ_4;
+			articulated_part				: switch_articulated_HWZ_4_build;
+			purchase						: switch_purchase_HWZ;
+			cost_factor						: 1540;
+			running_cost_factor				: switch_running_cost_HWZ_4;
+			can_attach_wagon				: switch_coupling_HWZ_4;							
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_HWZ_4_graphics_current, position_in_vehid_chain  % 12) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_HWZ_Front;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_current_year_HWZ_Middle;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_current_year_HWZ_Middle;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_current_year_HWZ_Back;
+						   11:     spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_HWZ_4_current, extra_callback_info1) {
+						1 .. 11: return ITEM_HWZ_4_CURRENT;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+												   						
+item (FEAT_TRAINS , ITEM_HWZ_4_CURRENT, 7621)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HWZ_4_CURRENT);
+						variant_group:					7620;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					20;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						138 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_HWZ_4_graphics_current;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_HWZ_4;
+			articulated_part				: switch_articulated_HWZ_4_current;
+			purchase						: switch_purchase_HWZ;
+			cost_factor						: 1540;
+			running_cost_factor				: switch_running_cost_HWZ_4;
+			can_attach_wagon				: switch_coupling_HWZ_4;							
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_HWZ_4_graphics_DRG, position_in_vehid_chain  % 12) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_HWZ_Front_DRG;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_HWZ_Middle_DRG;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_HWZ_Middle_DRG;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_HWZ_Back_DRG;
+						   11:     spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_HWZ_4_DRG, extra_callback_info1) {
+						1 .. 11: return ITEM_HWZ_4_DRG;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+												   						
+item (FEAT_TRAINS , ITEM_HWZ_4_DRG, 7622)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HWZ_4_DRG);
+						variant_group:					7620;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					20;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						138 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_HWZ_4_graphics_DRG;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_HWZ_4;
+			articulated_part				: switch_articulated_HWZ_4_DRG;
+			purchase						: spriteset_HWZ_purchase1;
+			cost_factor						: 1540;
+			running_cost_factor				: switch_running_cost_HWZ_4;
+			can_attach_wagon				: switch_coupling_HWZ_4;							
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_HWZ_4_graphics_DB, position_in_vehid_chain  % 12) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_HWZ_Front_DB;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_HWZ_Middle_DB;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_HWZ_Middle_DB;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_HWZ_Back_DB;
+						   11:     spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_HWZ_4_DB, extra_callback_info1) {
+						1 .. 11: return ITEM_HWZ_4_DB;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+												   						
+item (FEAT_TRAINS , ITEM_HWZ_4_DB, 7623)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HWZ_4_DB);
+						variant_group:					7620;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					9;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						138 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_HWZ_4_graphics_DB;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_HWZ_4;
+			articulated_part				: switch_articulated_HWZ_4_DB;
+			purchase						: spriteset_HWZ_purchase2;
+			cost_factor						: 1540;
+			running_cost_factor				: switch_running_cost_HWZ_4;
+			can_attach_wagon				: switch_coupling_HWZ_4;							
+			 }
+		}
+				
+//Switches for 5-part consist							
+				   	
+							
+					switch(FEAT_TRAINS, SELF, switch_length_HWZ_5, position_in_vehid_chain % 15) {
+						0: 4;
+						1: 5;
+						2: 4;
+						3: 4;
+						4: 5;
+						5: 4;
+						6: 4;
+						7: 5;
+						8: 4;
+						9: 4;
+					   10: 5;
+					   11: 4;
+					   12: 4;
+					   13: 5;
+					   14: 4;}
+					   
+					switch(FEAT_TRAINS, SELF, switch_coupling_HWZ_5, vehicle_type_id) {
+							7624: return CB_RESULT_ATTACH_ALLOW;
+							7625: return CB_RESULT_ATTACH_ALLOW;
+							7626: return CB_RESULT_ATTACH_ALLOW;
+							7627: return CB_RESULT_ATTACH_ALLOW;
+							return string (STR_COUPLING_NOPE);}						   					   
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_HWZ_5, 1){
+						return 8350;}
+
+					switch(FEAT_TRAINS, SELF, switch_HWZ_5_graphics_build, position_in_vehid_chain  % 15) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_HWZ_Front;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_build_year_HWZ_Middle;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_build_year_HWZ_Middle;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_build_year_HWZ_Middle;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_build_year_HWZ_Back;
+						   14:     spriteset_empty;}		
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_HWZ_5_build, extra_callback_info1) {
+						1 .. 14: return ITEM_HWZ_5_BUILD;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}						   
+						   						
+item (FEAT_TRAINS , ITEM_HWZ_5_BUILD, 7624)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HWZ_5_BUILD);
+						variant_group:					7620;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					20;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						161 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					19;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_HWZ_5_graphics_build;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_HWZ_5;
+			articulated_part				: switch_articulated_HWZ_5_build;
+			purchase						: switch_purchase_HWZ;
+			cost_factor						: 1680;
+			running_cost_factor				: switch_running_cost_HWZ_5;				
+			can_attach_wagon				: switch_coupling_HWZ_5;
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_HWZ_5_graphics_current, position_in_vehid_chain  % 15) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_HWZ_Front;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_current_year_HWZ_Middle;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_current_year_HWZ_Middle;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_current_year_HWZ_Middle;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_current_year_HWZ_Back;
+						   14:     spriteset_empty;}		
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_HWZ_5_current, extra_callback_info1) {
+						1 .. 14: return ITEM_HWZ_5_CURRENT;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}						   
+						   						
+item (FEAT_TRAINS , ITEM_HWZ_5_CURRENT, 7625)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HWZ_5_CURRENT);
+						variant_group:					7624;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					20;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						161 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					19;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_HWZ_5_graphics_current;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_HWZ_5;
+			articulated_part				: switch_articulated_HWZ_5_current;
+			purchase						: switch_purchase_HWZ;
+			cost_factor						: 1680;
+			running_cost_factor				: switch_running_cost_HWZ_5;				
+			can_attach_wagon				: switch_coupling_HWZ_5;
+			 }
+		}		
+
+					switch(FEAT_TRAINS, SELF, switch_HWZ_5_graphics_DRG, position_in_vehid_chain  % 15) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_HWZ_Front_DRG;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_HWZ_Middle_DRG;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_HWZ_Middle_DRG;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_HWZ_Middle_DRG;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_HWZ_Back_DRG;
+						   14:     spriteset_empty;}		
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_HWZ_5_DRG, extra_callback_info1) {
+						1 .. 14: return ITEM_HWZ_5_DRG;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}						   
+						   						
+item (FEAT_TRAINS , ITEM_HWZ_5_DRG, 7626)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HWZ_5_DRG);
+						variant_group:					7624;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1935,01,01);
+						model_life: 					20;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						161 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					19;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_HWZ_5_graphics_DRG;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_HWZ_5;
+			articulated_part				: switch_articulated_HWZ_5_DRG;
+			purchase						: spriteset_HWZ_purchase1;
+			cost_factor						: 1680;
+			running_cost_factor				: switch_running_cost_HWZ_5;				
+			can_attach_wagon				: switch_coupling_HWZ_5;
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_HWZ_5_graphics_DB, position_in_vehid_chain  % 15) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_HWZ_Front_DB;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_HWZ_Middle_DB;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_HWZ_Middle_DB;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_HWZ_Middle_DB;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_HWZ_Back_DB;
+						   14:     spriteset_empty;}		
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_HWZ_5_DB, extra_callback_info1) {
+						1 .. 14: return ITEM_HWZ_5_DB;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}						   
+						   						
+item (FEAT_TRAINS , ITEM_HWZ_5_DB, 7627)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HWZ_5_DB);
+						variant_group:					7624;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					9;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						161 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					19;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_HWZ_5_graphics_DB;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_HWZ_5;
+			articulated_part				: switch_articulated_HWZ_5_DB;
+			purchase						: spriteset_HWZ_purchase2;
+			cost_factor						: 1680;
+			running_cost_factor				: switch_running_cost_HWZ_5;				
+			can_attach_wagon				: switch_coupling_HWZ_5;
+			 }
+		}

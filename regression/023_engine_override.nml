@@ -1,0 +1,13 @@
+grf {
+    grfid: "NML\23";
+    name: string(STR_REGRESSION_NAME);
+    desc: string(STR_REGRESSION_DESC);
+    version: 0;
+    min_compatible_version: 0;
+}
+
+// let this grf override some grf with GRFID "ABCD"
+engine_override("test", "ABCD");
+
+// also override some other grf, this time not setting our own grfid explicitly
+engine_override("\12\34\56\78");

@@ -1,0 +1,114 @@
+//############################################
+//###KPEV/DRG/DB PR05 4-Achsige Abteilwagen###
+//############################################
+
+//KPEV-Sprites
+
+//KPEV AB
+
+//Spriteset loaded
+
+spriteset (spriteset_PR05_AB_BH_KPEV, "gfx\KPEV_PR05\PR05_AB_BH_KPEV_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR05_AB_BH_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR05\PR05_AB_BH_KPEV_1x_32bpp.png", "gfx\KPEV_PR05\PR05_AB_BH_KPEV_1x_mask.png")
+					{template_128trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR05_AB_BH_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR05\PR05_AB_BH_KPEV_2x_32bpp.png", "gfx\KPEV_PR05\PR05_AB_BH_KPEV_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR05_AB_BH_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR05\PR05_AB_BH_KPEV_4x_32bpp.png", "gfx\KPEV_PR05\PR05_AB_BH_KPEV_4x_mask.png")
+					{template_128trains_4x(0,0)}
+					
+//Spriteset loading
+
+spriteset (spriteset_PR05_AB_BH_KPEV_LOADING, "gfx\KPEV_PR05\PR05_AB_BH_KPEV_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR05_AB_BH_KPEV_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR05\PR05_AB_BH_KPEV_loading_1x_32bpp.png", "gfx\KPEV_PR05\PR05_AB_BH_KPEV_loading_1x_mask.png")
+					{template_128trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR05_AB_BH_KPEV_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR05\PR05_AB_BH_KPEV_loading_2x_32bpp.png", "gfx\KPEV_PR05\PR05_AB_BH_KPEV_loading_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR05_AB_BH_KPEV_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR05\PR05_AB_BH_KPEV_loading_4x_32bpp.png", "gfx\KPEV_PR05\PR05_AB_BH_KPEV_loading_4x_mask.png")
+					{template_128trains_4x(0,0)}
+					
+										
+spritegroup spritegroup_PR05_AB_BH_KPEV_loading
+		{
+			loaded: 	[spriteset_empty];
+			loading: 	[spriteset_PR05_AB_BH_KPEV_LOADING];
+		}
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_PR05_AB_BH_KPEV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_PR05_AB_BH_KPEV;
+							1: spritegroup_PR05_AB_BH_KPEV_loading;}	
+							
+					switch(FEAT_TRAINS, SELF, switch_KPEV_PR05_graphics, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_PR05_AB_BH_KPEV;
+							2:     spriteset_empty;
+							}															
+					
+						switch(FEAT_TRAINS, SELF, switch_length_KPEV_PR05, position_in_vehid_chain % 3) {
+						// Size of the first part
+						0: 4;
+						1: 4;
+						2: 4;
+						}
+
+						//set number of articulated parts
+						switch (FEAT_TRAINS, SELF, switch_articulated_KPEV_PR05, extra_callback_info1) {
+						1: return ITEM_KPEV_PR05;
+						2: return ITEM_KPEV_PR05;														//use same vehicle for all parts
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; 									//stop adding vehicle parts
+						}
+
+item (FEAT_TRAINS , ITEM_KPEV_PR05, 7222)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KPEV_PR05);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1905,01,01);
+						model_life: 					35;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					19;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_KPEV_PR05_graphics;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_KPEV_PR05;
+			articulated_part				: switch_articulated_KPEV_PR05;
+			purchase						: spriteset_PR05_AB_BH_KPEV;
+			cost_factor						: 245;
+
+			 }
+		}						

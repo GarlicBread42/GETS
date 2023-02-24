@@ -1,0 +1,632 @@
+
+//################################
+//###Rlmms/Kbs 442 - 9/8 Sprite###
+//################################
+
+//Spriteset Loading Barren
+
+spriteset (spriteset_Rlmms_load_Barren_25, "gfx\Rlmms/Rlmms_load_Barren_25_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Barren_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_25_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_25_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Barren_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_25_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_25_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Barren_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_25_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_25_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Barren_50, "gfx\Rlmms/Rlmms_load_Barren_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Barren_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_50_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Barren_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_50_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Barren_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_50_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Barren_75, "gfx\Rlmms/Rlmms_load_Barren_75_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Barren_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_75_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_75_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Barren_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_75_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_75_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Barren_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_75_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_75_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Barren_100, "gfx\Rlmms/Rlmms_load_Barren_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Barren_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Barren_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Barren_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Barren_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Barren_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Barren
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Barren_25, spriteset_Rlmms_load_Barren_50, spriteset_Rlmms_load_Barren_75, spriteset_Rlmms_load_Barren_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Barren_25, spriteset_Rlmms_load_Barren_50, spriteset_Rlmms_load_Barren_75, spriteset_Rlmms_load_Barren_100];}	
+
+//Spriteset Box
+
+spriteset (spriteset_Rlmms_load_Box_50, "gfx\Rlmms/Rlmms_load_Box_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Box_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Box_50_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Box_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Box_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Box_50_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Box_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Box_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Box_50_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Box_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+					
+spriteset (spriteset_Rlmms_load_Box_100, "gfx\Rlmms/Rlmms_load_Box_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Box_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Box_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Box_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Box_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Box_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Box_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Box_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Box_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Box_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Box
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Box_50, spriteset_Rlmms_load_Box_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Box_50, spriteset_Rlmms_load_Box_100];}	
+	
+
+//Spriteset Drahtbündel
+
+spriteset (spriteset_Rlmms_load_Draht_50, "gfx\Rlmms/Rlmms_load_Draht_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Draht_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Draht_50_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Draht_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Draht_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Draht_50_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Draht_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Draht_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Draht_50_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Draht_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Draht_100, "gfx\Rlmms/Rlmms_load_Draht_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Draht_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Draht_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Draht_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Draht_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Draht_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Draht_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Draht_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Draht_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Draht_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Draht
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Draht_50, spriteset_Rlmms_load_Draht_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Draht_50, spriteset_Rlmms_load_Draht_100];}	
+
+//Spriteset Engineering Supplies 1950
+
+spriteset (spriteset_Rlmms_load_ENSP1950_50, "gfx\Rlmms/Rlmms_load_ENSP1950_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_ENSP1950_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1950_50_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1950_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_ENSP1950_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1950_50_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1950_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_ENSP1950_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1950_50_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1950_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+					
+spriteset (spriteset_Rlmms_load_ENSP1950_100, "gfx\Rlmms/Rlmms_load_ENSP1950_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_ENSP1950_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1950_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1950_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_ENSP1950_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1950_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1950_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_ENSP1950_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1950_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1950_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_ENSP1950
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_ENSP1950_50, spriteset_Rlmms_load_ENSP1950_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_ENSP1950_50, spriteset_Rlmms_load_ENSP1950_100];}	
+			
+			
+//Spriteset Engineering Supplies 1980
+
+spriteset (spriteset_Rlmms_load_ENSP1980_50, "gfx\Rlmms/Rlmms_load_ENSP1980_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_ENSP1980_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1980_50_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1980_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_ENSP1980_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1980_50_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1980_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_ENSP1980_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1980_50_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1980_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+					
+
+spriteset (spriteset_Rlmms_load_ENSP1980_100, "gfx\Rlmms/Rlmms_load_ENSP1980_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_ENSP1980_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1980_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1980_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_ENSP1980_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1980_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1980_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_ENSP1980_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_ENSP1980_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_ENSP1980_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_ENSP1980
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_ENSP1980_50, spriteset_Rlmms_load_ENSP1980_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_ENSP1980_50, spriteset_Rlmms_load_ENSP1980_100];}						
+
+					switch (FEAT_TRAINS,SELF, switch_Rlmms_load_ENSP_current_year,current_year){
+						   0 .. 1979: spritegroup_Rlmms_load_ENSP1950;
+						1980 .. 2050: spritegroup_Rlmms_load_ENSP1980;												
+							spritegroup_Rlmms_load_ENSP1980;}				
+
+
+//Spriteset Fram Supplies 1950
+
+spriteset (spriteset_Rlmms_load_Farm1950_25, "gfx\Rlmms/Rlmms_load_Farm1950_25_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_25_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_25_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_25_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_25_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_25_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_25_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spriteset (spriteset_Rlmms_load_Farm1950_50, "gfx\Rlmms/Rlmms_load_Farm1950_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_50_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_50_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_50_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+					
+spriteset (spriteset_Rlmms_load_Farm1950_75, "gfx\Rlmms/Rlmms_load_Farm1950_75_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_75_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_75_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_75_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_75_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_75_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_75_4x_mask.png")
+					{template_98trains_4x(0, 0)}					
+					
+
+spriteset (spriteset_Rlmms_load_Farm1950_100, "gfx\Rlmms/Rlmms_load_Farm1950_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Farm1950_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1950_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1950_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Farm1950
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Farm1950_25, spriteset_Rlmms_load_Farm1950_50, spriteset_Rlmms_load_Farm1950_75, spriteset_Rlmms_load_Farm1950_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Farm1950_25, spriteset_Rlmms_load_Farm1950_50, spriteset_Rlmms_load_Farm1950_75, spriteset_Rlmms_load_Farm1950_100];}	
+
+//Spriteset Fram Supplies 1980
+
+spriteset (spriteset_Rlmms_load_Farm1980_50, "gfx\Rlmms/Rlmms_load_Farm1980_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1980_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1980_50_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1980_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1980_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1980_50_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1980_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Farm1980_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1980_50_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1980_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Farm1980_100, "gfx\Rlmms/Rlmms_load_Farm1980_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1980_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1980_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1980_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Farm1980_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1980_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1980_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Farm1980_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Farm1980_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Farm1980_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Farm1980
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Farm1980_50, spriteset_Rlmms_load_Farm1980_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Farm1980_50, spriteset_Rlmms_load_Farm1980_100];}	
+
+					switch (FEAT_TRAINS,SELF, switch_Rlmms_load_Farm_current_year,current_year){
+						   0 .. 1979: spritegroup_Rlmms_load_Farm1950;
+						1980 .. 2050: spritegroup_Rlmms_load_Farm1980;												
+							spritegroup_Rlmms_load_Farm1980;}						
+							
+			
+//Spriteset Pipes
+
+spriteset (spriteset_Rlmms_load_Pipe_30, "gfx\Rlmms/Rlmms_load_Pipe_30_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Pipe_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_30_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_30_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Pipe_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_30_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_30_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Pipe_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_30_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_30_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Pipe_60, "gfx\Rlmms/Rlmms_load_Pipe_60_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Pipe_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_60_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_60_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Pipe_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_60_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_60_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Pipe_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_60_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_60_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Pipe_100, "gfx\Rlmms/Rlmms_load_Pipe_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Pipe_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Pipe_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Pipe_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Pipe_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Pipe_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Pipe
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Pipe_30, spriteset_Rlmms_load_Pipe_60, spriteset_Rlmms_load_Pipe_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Pipe_30, spriteset_Rlmms_load_Pipe_60, spriteset_Rlmms_load_Pipe_100];}	
+			
+
+//Spriteset Profile
+
+spriteset (spriteset_Rlmms_load_Profile_30, "gfx\Rlmms/Rlmms_load_Profile_30_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Profile_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_30_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_30_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Profile_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_30_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_30_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Profile_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_30_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_30_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Profile_60, "gfx\Rlmms/Rlmms_load_Profile_60_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Profile_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_60_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_60_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Profile_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_60_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_60_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Profile_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_60_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_60_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Profile_100, "gfx\Rlmms/Rlmms_load_Profile_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Profile_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Profile_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Profile_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Profile_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Profile_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Profile
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Profile_30, spriteset_Rlmms_load_Profile_60, spriteset_Rlmms_load_Profile_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Profile_30, spriteset_Rlmms_load_Profile_60, spriteset_Rlmms_load_Profile_100];}
+			
+//Spriteset Timber
+
+spriteset (spriteset_Rlmms_load_Timber_30, "gfx\Rlmms/Rlmms_load_Timber_30_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Timber_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_30_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_30_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Timber_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_30_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_30_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Timber_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_30_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_30_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Timber_60, "gfx\Rlmms/Rlmms_load_Timber_60_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Timber_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_60_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_60_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Timber_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_60_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_60_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Timber_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_60_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_60_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Timber_100, "gfx\Rlmms/Rlmms_load_Timber_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Timber_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Timber_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Timber_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Timber_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Timber_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Timber
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Timber_30, spriteset_Rlmms_load_Timber_60, spriteset_Rlmms_load_Timber_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Timber_30, spriteset_Rlmms_load_Timber_60, spriteset_Rlmms_load_Timber_100];}	
+			
+			
+//Spriteset Loading Wood
+
+spriteset (spriteset_Rlmms_load_Wood_30, "gfx\Rlmms/Rlmms_load_Wood_30_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Wood_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_30_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_30_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Wood_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_30_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_30_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Wood_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_30_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_30_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+spriteset (spriteset_Rlmms_load_Wood_60, "gfx\Rlmms/Rlmms_load_Wood_60_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Wood_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_60_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_60_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Wood_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_60_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_60_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Wood_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_60_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_60_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+
+
+spriteset (spriteset_Rlmms_load_Wood_100, "gfx\Rlmms/Rlmms_load_Wood_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_100_1x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_load_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_100_2x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms_load_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_load_Wood_100_4x_32bpp.png", "gfx\Rlmms/Rlmms_load_Wood_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+
+spritegroup spritegroup_Rlmms_load_Wood
+		{loaded: 	[spriteset_empty, spriteset_Rlmms_load_Wood_30, spriteset_Rlmms_load_Wood_60, spriteset_Rlmms_load_Wood_100];
+			loading: 	[spriteset_empty, spriteset_Rlmms_load_Wood_30, spriteset_Rlmms_load_Wood_60, spriteset_Rlmms_load_Wood_100];}	
+			
+
+//Spriteset Wagon
+
+spriteset (spriteset_Rlmms, "gfx\Rlmms/Rlmms_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_1x_32bpp.png", "gfx\Rlmms/Rlmms_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_2x_32bpp.png", "gfx\Rlmms/Rlmms_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rlmms, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_4x_32bpp.png", "gfx\Rlmms/Rlmms_4x_mask.png")
+					{template_98trains_4x(0, 0)}			
+
+spriteset (spriteset_Rlmms_purchase, "gfx\Rlmms/Rlmms_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rlmms_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rlmms/Rlmms_1x_32bpp.png", "gfx\Rlmms/Rlmms_1x_mask.png")
+					{template_purchase(0, 0)}
+
+
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: spritegroup_Rlmms_load_Barren;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: spritegroup_Rlmms_load_Box;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_ENSP, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: switch_Rlmms_load_ENSP_current_year;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_Farm, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: switch_Rlmms_load_Farm_current_year;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_Draht, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: spritegroup_Rlmms_load_Draht;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_Pipe, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: spritegroup_Rlmms_load_Pipe;}
+												
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_Profile, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: spritegroup_Rlmms_load_Profile;}							
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: spritegroup_Rlmms_load_Timber;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rlmms_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rlmms;
+						1: spritegroup_Rlmms_load_Wood;}	
+
+						
+					switch(FEAT_TRAINS, SELF, switch_Rlmms_cargo_classes, cargo_classes) {
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_Rlmms_Box;
+								return switch_loadstack_Rlmms_Box;}									
+
+					switch (FEAT_TRAINS, SELF, switch_Rlmms_cargo_type, cargo_type_in_veh) {
+
+//FIRS-Cargos					
+							STAL: return switch_loadstack_Rlmms_Barren;
+							ALUM: return switch_loadstack_Rlmms_Barren;
+							STCB: return switch_loadstack_Rlmms_Barren;
+							STST: return switch_loadstack_Rlmms_Barren;
+							STSH: return switch_loadstack_Rlmms_Barren;
+							
+							POWR: return switch_loadstack_Rlmms_Box;
+							VENG: return switch_loadstack_Rlmms_Box;
+							VPTS: return switch_loadstack_Rlmms_Box;
+							GOOD: return switch_loadstack_Rlmms_Box;
+							GLAS: return switch_loadstack_Rlmms_Box;
+							
+							ENSP: return switch_loadstack_Rlmms_ENSP;
+							FMSP: return switch_loadstack_Rlmms_Farm;
+							
+							STWR: return switch_loadstack_Rlmms_Draht;
+							
+							STEL: return switch_loadstack_Rlmms_Profile;
+							STSE: return switch_loadstack_Rlmms_Profile;
+							
+							PIPE: return switch_loadstack_Rlmms_Pipe;
+							
+							BDMT: return switch_loadstack_Rlmms_Timber;
+							WDPR: return switch_loadstack_Rlmms_Timber;
+							
+							WOOD: return switch_loadstack_Rlmms_Wood;
+							
+//Other Cargoes
+							MNSP: return switch_loadstack_Rlmms_Box;
+							MPTS: return switch_loadstack_Rlmms_Box;
+							PAPR: return switch_loadstack_Rlmms_Box;							
+							
+								switch_Rlmms_cargo_classes;}
+								
+						switch(FEAT_TRAINS, SELF, switch_Rlmms_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_Rlmms_cargo_type;
+							2:	   spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Rlmms, position_in_vehid_chain % 3) {
+							0: 3;
+							1: 3;
+							2: 3;}								
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Rlmms, extra_callback_info1) {
+						1: return ITEM_RLMMS;
+						2: return ITEM_RLMMS;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Rlmms, 1){
+						return 220;}				
+
+item (FEAT_TRAINS , ITEM_RLMMS, 8867)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RLMMS);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1958,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						12 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					9;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rlmms_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Rlmms;
+			length							: switch_length_Rlmms;
+			purchase						: spriteset_Rlmms_purchase;
+			cost_factor						: 101;
+			running_cost_factor				: switch_running_cost_Rlmms;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}	

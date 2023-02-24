@@ -1,0 +1,715 @@
+//###########################
+//###UIC-X Halbgepäckwagen###
+//###########################				
+
+
+		spriteset (spriteset_UICX_BDMS_gruen, "gfx\UICX/UICX_BDMS_gruen_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_gruen_1x_32bpp.png", "gfx\UICX/UICX_BDMS_gruen_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_gruen_2x_32bpp.png", "gfx\UICX/UICX_BDMS_gruen_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_gruen_4x_32bpp.png", "gfx\UICX/UICX_BDMS_gruen_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+
+		spriteset (spriteset_UICX_BDMS_oceanblau, "gfx\UICX/UICX_BDMS_oceanblau_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_oceanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_oceanblau_1x_32bpp.png", "gfx\UICX/UICX_BDMS_oceanblau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_oceanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_oceanblau_2x_32bpp.png", "gfx\UICX/UICX_BDMS_oceanblau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_oceanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_oceanblau_4x_32bpp.png", "gfx\UICX/UICX_BDMS_oceanblau_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+
+		spriteset (spriteset_UICX_BDMS_popfarben, "gfx\UICX/UICX_BDMS_popfarben_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_popfarben, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_popfarben_1x_32bpp.png", "gfx\UICX/UICX_BDMS_popfarben_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_popfarben, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_popfarben_2x_32bpp.png", "gfx\UICX/UICX_BDMS_popfarben_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_popfarben, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_popfarben_4x_32bpp.png", "gfx\UICX/UICX_BDMS_popfarben_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+
+		spriteset (spriteset_UICX_BDMS_icalt, "gfx\UICX/UICX_BDMS_icalt_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_icalt, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_icalt_1x_32bpp.png", "gfx\UICX/UICX_BDMS_icalt_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_icalt, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_icalt_2x_32bpp.png", "gfx\UICX/UICX_BDMS_icalt_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_icalt, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_icalt_4x_32bpp.png", "gfx\UICX/UICX_BDMS_icalt_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+					
+		spriteset (spriteset_UICX_BDMS_Regio, "gfx\UICX/UICX_BDMS_Regio_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_Regio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_Regio_1x_32bpp.png", "gfx\UICX/UICX_BDMS_Regio_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_Regio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_Regio_2x_32bpp.png", "gfx\UICX/UICX_BDMS_Regio_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_Regio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_Regio_4x_32bpp.png", "gfx\UICX/UICX_BDMS_Regio_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+					
+//Additional Loading Sprites									
+
+		spriteset (spriteset_UICX_BDMS_loading_gruen, "gfx\UICX/UICX_BDMS_loading_gruen_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_gruen_1x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_gruen_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_gruen_2x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_gruen_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_loading_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_gruen_4x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_gruen_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spritegroup spritegroup_UICX_BDMS_loading_gruen
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_UICX_BDMS_loading_gruen];}					
+
+
+		spriteset (spriteset_UICX_BDMS_loading_oceanblau, "gfx\UICX/UICX_BDMS_loading_oceanblau_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_oceanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_oceanblau_1x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_oceanblau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_oceanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_oceanblau_2x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_oceanblau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_loading_oceanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_oceanblau_4x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_oceanblau_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spritegroup spritegroup_UICX_BDMS_loading_oceanblau
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_UICX_BDMS_loading_oceanblau];}	
+			
+
+		spriteset (spriteset_UICX_BDMS_loading_popfarben, "gfx\UICX/UICX_BDMS_loading_popfarben_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_popfarben, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_popfarben_1x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_popfarben_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_popfarben, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_popfarben_2x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_popfarben_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_loading_popfarben, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_popfarben_4x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_popfarben_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spritegroup spritegroup_UICX_BDMS_loading_popfarben
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_UICX_BDMS_loading_popfarben];}	
+			
+
+		spriteset (spriteset_UICX_BDMS_loading_icalt, "gfx\UICX/UICX_BDMS_loading_icalt_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_icalt, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_icalt_1x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_icalt_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_icalt, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_icalt_2x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_icalt_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_loading_icalt, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_icalt_4x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_icalt_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spritegroup spritegroup_UICX_BDMS_loading_icalt
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_UICX_BDMS_loading_icalt];}	
+								
+					
+		spriteset (spriteset_UICX_BDMS_loading_Regio, "gfx\UICX/UICX_BDMS_loading_Regio_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_Regio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_Regio_1x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_Regio_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_loading_Regio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_Regio_2x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_Regio_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_BDMS_loading_Regio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_loading_Regio_4x_32bpp.png", "gfx\UICX/UICX_BDMS_loading_Regio_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+
+spritegroup spritegroup_UICX_BDMS_loading_Regio
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_UICX_BDMS_loading_Regio];}											
+
+
+//Loading sprites
+
+spriteset (spriteset_UICX_BDMS_purchase1, "gfx\UICX/UICX_BDMS_gruen_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+			alternative_sprites (spriteset_UICX_BDMS_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_gruen_1x_32bpp.png", "gfx\UICX/UICX_BDMS_gruen_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_UICX_BDMS_purchase2, "gfx\UICX/UICX_BDMS_oceanblau_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+			alternative_sprites (spriteset_UICX_BDMS_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_oceanblau_1x_32bpp.png", "gfx\UICX/UICX_BDMS_oceanblau_1x_mask.png")
+					{template_purchase(0,0)}					
+
+spriteset (spriteset_UICX_BDMS_purchase3, "gfx\UICX/UICX_BDMS_icalt_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+			alternative_sprites (spriteset_UICX_BDMS_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_icalt_1x_32bpp.png", "gfx\UICX/UICX_BDMS_icalt_1x_mask.png")
+					{template_purchase(0,0)}
+					
+spriteset (spriteset_UICX_BDMS_purchase4, "gfx\UICX/UICX_BDMS_Regio_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_purchase4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_Regio_1x_32bpp.png", "gfx\UICX/UICX_BDMS_Regio_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_UICX_BDMS_purchase5, "gfx\UICX/UICX_BDMS_popfarben_1x_8bpp.png")
+					{template_purchase(0,0)}
+				
+		alternative_sprites (spriteset_UICX_BDMS_purchase5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_BDMS_popfarben_1x_32bpp.png", "gfx\UICX/UICX_BDMS_popfarben_1x_mask.png")
+					{template_purchase(0,0)}																						
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_uicx_bdms,current_year) {
+							  00 .. 1973 : spriteset_UICX_BDMS_purchase1;
+							1974 .. 1987 : spriteset_UICX_BDMS_purchase2;
+							1988 .. 1998 : spriteset_UICX_BDMS_purchase3;
+							1999 .. 2050 : spriteset_UICX_BDMS_purchase4;
+								spriteset_UICX_BDMS_purchase4;}
+						
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_BDMS_gruen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_BDMS_gruen;
+							1: spritegroup_UICX_loading_1;
+							2: spritegroup_UICX_BDMS_loading_gruen;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_BDMS_oceanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_BDMS_oceanblau;
+							1: spritegroup_UICX_loading_1;
+							2: spritegroup_UICX_BDMS_loading_oceanblau;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_BDMS_popfarben, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_BDMS_popfarben;
+							1: spritegroup_UICX_loading_1;
+							2: spritegroup_UICX_BDMS_loading_popfarben;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_BDMS_icalt, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_BDMS_icalt;
+							1: spritegroup_UICX_loading_2;
+							2: spritegroup_UICX_BDMS_loading_icalt;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_BDMS_Regio, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_BDMS_Regio;
+							1: spritegroup_UICX_loading_2;
+							2: spritegroup_UICX_BDMS_loading_Regio;}																															
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_uicx_bdms,build_year) {
+							  00 .. 1973 : switch_loadstack_UICX_BDMS_gruen;
+							1974 .. 1987 : switch_loadstack_UICX_BDMS_oceanblau;
+							1988 .. 1998 : switch_loadstack_UICX_BDMS_icalt;
+							1999 .. 2050 : switch_loadstack_UICX_BDMS_Regio;
+								switch_loadstack_UICX_BDMS_Regio;}
+						
+						switch (FEAT_TRAINS,SELF,switch_current_year_uicx_bdms,current_year) {
+							  00 .. 1973 : switch_loadstack_UICX_BDMS_gruen;
+							1974 .. 1987 : switch_loadstack_UICX_BDMS_oceanblau;
+							1988 .. 1998 : switch_loadstack_UICX_BDMS_icalt;
+							1999 .. 2050 : switch_loadstack_UICX_BDMS_Regio;
+								switch_loadstack_UICX_BDMS_Regio;}								   	
+
+
+						switch(FEAT_TRAINS, SELF, switch_length_uicx_bdms, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+
+						switch(FEAT_TRAINS, SELF, switch_speed_uicx_bdms, current_year) {
+							1950 .. 1969 : 140 ;
+							1970 .. 2050 : 160 ;
+							200;}
+
+
+item (FEAT_TRAINS , ITEM_UICX_BDMS_MAIL, 3952)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_BDMS_BUILD);
+						climates_available: 			NO_CLIMATE;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);							
+						loading_speed:					8;
+						cost_factor:                    0;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			0;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					46;
+						ai_engine_rank: 				0;
+						length: 						4;
+	}		
+
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_empty;		
+			 }
+		}		
+
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_uicx_bdms_build, extra_callback_info1) {
+							1: return ITEM_UICX_BDMS_BUILD;
+							2: return ITEM_UICX_BDMS_MAIL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+	
+						switch(FEAT_TRAINS, SELF, switch_uicx_bdms_graphics_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_uicx_bdms;
+							2:     spriteset_empty;}	
+	
+item (FEAT_TRAINS , ITEM_UICX_BDMS_BUILD, 5910)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_BDMS_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_uicx_bdms_graphics_build;
+			additional_text					: string(STR_DESC_UICX_BDMS);
+			length							: switch_length_uicx_bdms;
+			articulated_part				: switch_articulated_uicx_bdms_build;
+			purchase						: switch_purchase_uicx_bdms;
+			speed							: switch_speed_uicx_bdms;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX;			
+			 }
+		}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_uicx_bdms_current, extra_callback_info1) {
+							1: return ITEM_UICX_BDMS_CURRENT;
+							2: return ITEM_UICX_BDMS_MAIL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+	
+						switch(FEAT_TRAINS, SELF, switch_uicx_bdms_graphics_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_uicx_bdms;
+							2:     spriteset_empty;}	
+	
+item (FEAT_TRAINS , ITEM_UICX_BDMS_CURRENT, 5911)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_BDMS_CURRENT);
+						variant_group:					5910;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_uicx_bdms_graphics_current;
+			additional_text					: string(STR_DESC_UICX_BDMS);
+			length							: switch_length_uicx_bdms;
+			articulated_part				: switch_articulated_uicx_bdms_current;
+			purchase						: switch_purchase_uicx_bdms;
+			speed							: switch_speed_uicx_bdms;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX;			
+			 }
+		}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_uicx_bdms_gruen, extra_callback_info1) {
+							1: return ITEM_UICX_BDMS_GRUEN;
+							2: return ITEM_UICX_BDMS_MAIL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+	
+						switch(FEAT_TRAINS, SELF, switch_uicx_bdms_graphics_gruen, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_BDMS_gruen;
+							2:     spriteset_empty;}	
+	
+item (FEAT_TRAINS , ITEM_UICX_BDMS_GRUEN, 5912)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_BDMS_GRUEN);
+						variant_group:					5910;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_uicx_bdms_graphics_gruen;
+			additional_text					: string(STR_DESC_UICX_BDMS);
+			length							: switch_length_uicx_bdms;
+			articulated_part				: switch_articulated_uicx_bdms_gruen;
+			purchase						: spriteset_UICX_BDMS_purchase1;
+			speed							: switch_speed_uicx_bdms;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX;			
+			 }
+		}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_uicx_bdms_popfarben, extra_callback_info1) {
+							1: return ITEM_UICX_BDMS_POPFARBEN;
+							2: return ITEM_UICX_BDMS_MAIL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+	
+						switch(FEAT_TRAINS, SELF, switch_uicx_bdms_graphics_popfarben, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_BDMS_popfarben;
+							2:     spriteset_empty;}	
+	
+item (FEAT_TRAINS , ITEM_UICX_BDMS_POPFARBEN, 5913)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_BDMS_POPFARBEN);
+						variant_group:					5910;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1969,01,01);
+						model_life: 					38;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_uicx_bdms_graphics_popfarben;
+			additional_text					: string(STR_DESC_UICX_BDMS);
+			length							: switch_length_uicx_bdms;
+			articulated_part				: switch_articulated_uicx_bdms_popfarben;
+			purchase						: spriteset_UICX_BDMS_purchase5;
+			speed							: switch_speed_uicx_bdms;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX;			
+			 }
+		}
+
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_uicx_bdms_ozeanblau, extra_callback_info1) {
+							1: return ITEM_UICX_BDMS_OZEANBLAU;
+							2: return ITEM_UICX_BDMS_MAIL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+	
+						switch(FEAT_TRAINS, SELF, switch_uicx_bdms_graphics_ozeanblau, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_BDMS_oceanblau;
+							2:     spriteset_empty;}	
+	
+item (FEAT_TRAINS , ITEM_UICX_BDMS_OZEANBLAU, 5914)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_BDMS_OZEANBLAU);
+						variant_group:					5910;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					32;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_uicx_bdms_graphics_ozeanblau;
+			additional_text					: string(STR_DESC_UICX_BDMS);
+			length							: switch_length_uicx_bdms;
+			articulated_part				: switch_articulated_uicx_bdms_ozeanblau;
+			purchase						: spriteset_UICX_BDMS_purchase2;
+			speed							: switch_speed_uicx_bdms;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX;			
+			 }
+		}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_uicx_bdms_icalt, extra_callback_info1) {
+							1: return ITEM_UICX_BDMS_ICALT;
+							2: return ITEM_UICX_BDMS_MAIL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+	
+						switch(FEAT_TRAINS, SELF, switch_uicx_bdms_graphics_icalt, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_BDMS_icalt;
+							2:     spriteset_empty;}	
+	
+item (FEAT_TRAINS , ITEM_UICX_BDMS_ICALT, 5915)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_BDMS_ICALT);
+						variant_group:					5910;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1988,01,01);
+						model_life: 					19;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_uicx_bdms_graphics_icalt;
+			additional_text					: string(STR_DESC_UICX_BDMS);
+			length							: switch_length_uicx_bdms;
+			articulated_part				: switch_articulated_uicx_bdms_icalt;
+			purchase						: spriteset_UICX_BDMS_purchase3;
+			speed							: switch_speed_uicx_bdms;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX;			
+			 }
+		}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_uicx_bdms_Regio, extra_callback_info1) {
+							1: return ITEM_UICX_BDMS_REGIO;
+							2: return ITEM_UICX_BDMS_MAIL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;} 
+	
+						switch(FEAT_TRAINS, SELF, switch_uicx_bdms_graphics_Regio, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_BDMS_Regio;
+							2:     spriteset_empty;}	
+	
+item (FEAT_TRAINS , ITEM_UICX_BDMS_REGIO, 5916)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_BDMS_REGIO);
+						variant_group:					5910;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					11;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					23;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_uicx_bdms_graphics_Regio;
+			additional_text					: string(STR_DESC_UICX_BDMS);
+			length							: switch_length_uicx_bdms;
+			articulated_part				: switch_articulated_uicx_bdms_Regio;
+			purchase						: spriteset_UICX_BDMS_purchase4;
+			speed							: switch_speed_uicx_bdms;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX;			
+			 }
+		}

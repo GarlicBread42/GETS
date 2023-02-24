@@ -1,0 +1,790 @@
+//#####################################
+//###Eilzugwagen Gruppe 28/Gruppe 30###
+//#####################################
+
+//Spritesets
+
+//Spritegroup Gr. 28 DRG Erste u Zweite Klasse
+
+		spriteset (spriteset_Gruppe_28_DRG_AB, "gfx/Gruppe_28/Gruppe_28_DRG_AB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_DRG_AB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DRG_AB_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DRG_AB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_DRG_AB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DRG_AB_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DRG_AB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_DRG_AB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DRG_AB_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DRG_AB_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 28 DRG Dritte Klasse
+
+		spriteset (spriteset_Gruppe_28_DRG_C, "gfx/Gruppe_28/Gruppe_28_DRG_C_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_DRG_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DRG_C_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DRG_C_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_DRG_C, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DRG_C_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DRG_C_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_DRG_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DRG_C_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DRG_C_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 30 DRG Zweite Klasse
+
+		spriteset (spriteset_Gruppe_30_DRG_B, "gfx/Gruppe_28/Gruppe_30_DRG_B_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_30_DRG_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_B_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_B_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_30_DRG_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_B_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_B_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_30_DRG_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_B_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_B_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 30 DRG Zweite u. Dritte Klasse
+
+		spriteset (spriteset_Gruppe_30_DRG_BC, "gfx/Gruppe_28/Gruppe_30_DRG_BC_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_30_DRG_BC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_BC_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_BC_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_30_DRG_BC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_BC_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_BC_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_30_DRG_BC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_BC_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_BC_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 30 DRG Dritte Klasse
+
+		spriteset (spriteset_Gruppe_30_DRG_C, "gfx/Gruppe_28/Gruppe_30_DRG_C_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_30_DRG_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_C_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_C_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_30_DRG_C, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_C_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_C_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_30_DRG_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_C_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_C_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 28 DB Erste u Zweite Klasse
+
+		spriteset (spriteset_Gruppe_28_DB_AB, "gfx/Gruppe_28/Gruppe_28_DB_AB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_DB_AB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_AB_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_AB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_DB_AB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_AB_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_AB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_DB_AB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_AB_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_AB_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 28 DB Dritte Klasse
+
+		spriteset (spriteset_Gruppe_28_DB_C, "gfx/Gruppe_28/Gruppe_28_DB_C_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_DB_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_C_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_C_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_DB_C, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_C_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_C_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_DB_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_C_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_C_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 30 DB Zweite Klasse
+
+		spriteset (spriteset_Gruppe_30_DB_B, "gfx/Gruppe_28/Gruppe_30_DB_B_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_30_DB_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_B_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_B_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_30_DB_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_B_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_B_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_30_DB_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_B_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_B_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 30 DB Zweite u. Dritte Klasse
+
+		spriteset (spriteset_Gruppe_30_DB_BC, "gfx/Gruppe_28/Gruppe_30_DB_BC_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_30_DB_BC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_BC_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_BC_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_30_DB_BC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_BC_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_BC_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_30_DB_BC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_BC_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_BC_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Gr. 30 DB Dritte Klasse
+
+		spriteset (spriteset_Gruppe_30_DB_C, "gfx/Gruppe_28/Gruppe_30_DB_C_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_30_DB_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_C_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_C_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_30_DB_C, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_C_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_C_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_30_DB_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_C_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_C_4x_mask.png")
+					{template_138trains_4x(0,0)}					
+					
+//Loading Sprites
+
+//Spritegroup Gr. 28 2 Doors, beige colour
+
+		spriteset (spriteset_Gruppe_28_loading_2doors_beige, "gfx/Gruppe_28/Gruppe_28_loading_2doors_beige_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_beige, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_beige_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_beige_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_beige, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_beige_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_beige_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_beige, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_beige_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_beige_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_2doors_beige
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_2doors_beige];}	
+
+			
+//Spritegroup Gr. 28 2 Doors, blue colour
+
+		spriteset (spriteset_Gruppe_28_loading_2doors_blau, "gfx/Gruppe_28/Gruppe_28_loading_2doors_blau_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_blau_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_blau_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_blau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_blau_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_blau_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_blau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_blau_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_blau_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_2doors_blau
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_2doors_blau];}	
+			
+
+//Spritegroup Gr. 28 2 Doors, DB colour
+
+		spriteset (spriteset_Gruppe_28_loading_2doors_DB, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_2doors_DB
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_2doors_DB];}
+			
+			
+//Spritegroup Gr. 28 2 Doors, DRG colour
+
+		spriteset (spriteset_Gruppe_28_loading_2doors_DRG, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DRG_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DRG_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DRG_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DRG_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DRG_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DRG_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DRG_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_2doors_DRG
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_2doors_DRG];}	
+			
+//Spritegroup Gr. 28 3 Doors, DB colour
+
+		spriteset (spriteset_Gruppe_28_loading_3doors_DB, "gfx/Gruppe_28/Gruppe_28_loading_3doors_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_3doors_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_3doors_DB_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_3doors_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_3doors_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_3doors_DB_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_3doors_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_loading_3doors_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_3doors_DB_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_3doors_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_3doors_DB
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_3doors_DB];}
+			
+			
+//Spritegroup Gr. 28 3 Doors, DRG colour
+
+		spriteset (spriteset_Gruppe_28_loading_3doors_DRG, "gfx/Gruppe_28/Gruppe_28_loading_3doors_DRG_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_3doors_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_3doors_DRG_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_3doors_DRG_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_3doors_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_3doors_DRG_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_3doors_DRG_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_loading_3doors_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_3doors_DRG_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_3doors_DRG_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_3doors_DRG
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_3doors_DRG];}	
+			
+			
+//Spritegroup Gr. 28 4 Doors, DB colour
+
+		spriteset (spriteset_Gruppe_28_loading_4doors_DB, "gfx/Gruppe_28/Gruppe_28_loading_4doors_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_4doors_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_4doors_DB_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_4doors_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_4doors_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_4doors_DB_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_4doors_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_loading_4doors_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_4doors_DB_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_4doors_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_4doors_DB
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_4doors_DB];}
+			
+			
+//Spritegroup Gr. 28 4 Doors, DRG colour
+
+		spriteset (spriteset_Gruppe_28_loading_4doors_DRG, "gfx/Gruppe_28/Gruppe_28_loading_4doors_DRG_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_4doors_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_4doors_DRG_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_4doors_DRG_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_4doors_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_4doors_DRG_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_4doors_DRG_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_loading_4doors_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_4doors_DRG_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_4doors_DRG_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_4doors_DRG
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_4doors_DRG];}	
+			
+//Spritesets purchase
+
+spriteset (spriteset_Gruppe_28_purchase1, "gfx/Gruppe_28/Gruppe_28_DRG_C_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DRG_C_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DRG_C_1x_mask.png")
+					{template_purchase(0,0)}
+					
+spriteset (spriteset_Gruppe_28_purchase2, "gfx/Gruppe_28/Gruppe_28_DB_C_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_C_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_C_1x_mask.png")
+					{template_purchase(0,0)}	
+
+spriteset (spriteset_Gruppe_28_purchase_DRG_28, "gfx/Gruppe_28/Gruppe_28_DRG_AB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_purchase_DRG_28, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DRG_AB_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DRG_AB_1x_mask.png")
+					{template_purchase(0,0)}					
+
+spriteset (spriteset_Gruppe_28_purchase_DRG_30, "gfx/Gruppe_28/Gruppe_30_DRG_B_1x_8bpp.png")
+					{template_purchase(0, 0)}		
+				
+		alternative_sprites (spriteset_Gruppe_28_purchase_DRG_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DRG_B_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DRG_B_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Gruppe_28_purchase_DB_28, "gfx/Gruppe_28/Gruppe_28_DB_AB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_purchase_DB_28, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_AB_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_AB_1x_mask.png")
+					{template_purchase(0,0)}					
+
+spriteset (spriteset_Gruppe_28_purchase_DB_30, "gfx/Gruppe_28/Gruppe_30_DB_B_1x_8bpp.png")
+					{template_purchase(0, 0)}		
+				
+		alternative_sprites (spriteset_Gruppe_28_purchase_DB_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_B_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_B_1x_mask.png")
+					{template_purchase(0, 0)}											
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_Gruppe_28,current_year) {
+							   0 .. 1945 : spriteset_Gruppe_28_purchase1;
+							1945 .. 1990 : spriteset_Gruppe_28_purchase2;
+								spriteset_Gruppe_28_purchase2;}	
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DRG_AB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_28_DRG_AB;
+							1: spritegroup_Gruppe_28_loading_2doors_DRG;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DRG_C1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_28_DRG_C;
+							1: spritegroup_Gruppe_28_loading_2doors_DRG;}																																										
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DRG_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_30_DRG_B;
+							1: spritegroup_Gruppe_28_loading_2doors_DRG;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DRG_BC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_30_DRG_BC;
+							1: spritegroup_Gruppe_28_loading_3doors_DRG;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DRG_C2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_30_DRG_C;
+							1: spritegroup_Gruppe_28_loading_4doors_DRG;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DB_AB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_28_DB_AB;
+							1: spritegroup_Gruppe_28_loading_2doors_DB;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DB_C1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_28_DB_C;
+							1: spritegroup_Gruppe_28_loading_2doors_DB;}																																										
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DB_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_30_DB_B;
+							1: spritegroup_Gruppe_28_loading_2doors_DB;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DB_BC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_30_DB_BC;
+							1: spritegroup_Gruppe_28_loading_3doors_DB;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DB_C2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_30_DB_C;
+							1: spritegroup_Gruppe_28_loading_4doors_DB;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_Gruppe_28_DRG_all, switch_alternative_var_random_bits(1, 3)) {
+							0: switch_spritestack_Gruppe_28_DRG_AB;
+							1: switch_spritestack_Gruppe_28_DRG_C1;
+							2: switch_spritestack_Gruppe_28_DRG_C2;
+							3: switch_spritestack_Gruppe_28_DRG_B;
+							4: switch_spritestack_Gruppe_28_DRG_BC;
+							5: switch_spritestack_Gruppe_28_DRG_C2;
+							6: switch_spritestack_Gruppe_28_DRG_BC;
+							7: switch_spritestack_Gruppe_28_DRG_C2;
+							   switch_spritestack_Gruppe_28_DRG_C2;}
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_Gruppe_28_DB_all, switch_alternative_var_random_bits(1, 3)) {
+							0: switch_spritestack_Gruppe_28_DB_AB;
+							1: switch_spritestack_Gruppe_28_DB_C1;
+							2: switch_spritestack_Gruppe_28_DB_C2;
+							3: switch_spritestack_Gruppe_28_DB_B;
+							4: switch_spritestack_Gruppe_28_DB_BC;
+							5: switch_spritestack_Gruppe_28_DB_C2;
+							6: switch_spritestack_Gruppe_28_DB_BC;
+							7: switch_spritestack_Gruppe_28_DB_BC;
+							   switch_spritestack_Gruppe_28_DB_C2;}							   							
+
+						switch (FEAT_TRAINS, SELF, random_choose_Gruppe_28_DRG_28, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_Gruppe_28_DRG_AB;
+								switch_spritestack_Gruppe_28_DRG_C1;}
+							
+						switch (FEAT_TRAINS, SELF, random_choose_Gruppe_28_DB_28, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_Gruppe_28_DB_AB;
+								switch_spritestack_Gruppe_28_DB_C1;}	
+							
+						switch (FEAT_TRAINS, SELF, random_choose_Gruppe_28_DRG_30, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_Gruppe_28_DRG_B;
+							2: switch_spritestack_Gruppe_28_DRG_BC;
+							3: switch_spritestack_Gruppe_28_DRG_C2;
+								switch_spritestack_Gruppe_28_DRG_C2;}
+							
+						switch (FEAT_TRAINS, SELF, random_choose_Gruppe_28_DB_30, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_Gruppe_28_DB_B;
+							2: switch_spritestack_Gruppe_28_DB_BC;
+							3: switch_spritestack_Gruppe_28_DB_C2;
+								switch_spritestack_Gruppe_28_DB_C2;}	
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_Gruppe_28,build_year) {
+							   0 .. 1945 : random_choose_Gruppe_28_DRG_all;
+							1945 .. 1990 : random_choose_Gruppe_28_DB_all;
+								random_choose_Gruppe_28_DB_all;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_Gruppe_28,current_year) {
+							   0 .. 1945 : random_choose_Gruppe_28_DRG_all;
+							1945 .. 1990 : random_choose_Gruppe_28_DB_all;
+								random_choose_Gruppe_28_DB_all;}																						
+					
+						switch(FEAT_TRAINS, SELF, switch_length_Gruppe_28, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 5;
+							2: 4;}
+
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Gruppe_28, 1){
+								return 2400;}
+
+						switch(FEAT_TRAINS, SELF, switch_Gruppe_28_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_Gruppe_28;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Gruppe_28_build, extra_callback_info1) {
+								1 .. 2: return ITEM_GRUPPE_28_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_GRUPPE_28_BUILD, 7607)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GRUPPE_28_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1930,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Gruppe_28_graphics_build;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Gruppe_28; 
+			articulated_part				: switch_articulated_Gruppe_28_build;
+			purchase						: switch_purchase_Gruppe_28;
+			cost_factor						: 485;
+			running_cost_factor				: switch_running_cost_Gruppe_28;				
+			 }
+		}							
+
+
+						switch(FEAT_TRAINS, SELF, switch_Gruppe_28_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_Gruppe_28;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Gruppe_28_current, extra_callback_info1) {
+								1 .. 2: return ITEM_GRUPPE_28_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_GRUPPE_28_CURRENT, 7608)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GRUPPE_28_CURRENT);
+						variant_group:					7607;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1930,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Gruppe_28_graphics_current;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Gruppe_28; 
+			articulated_part				: switch_articulated_Gruppe_28_current;
+			purchase						: switch_purchase_Gruppe_28;
+			cost_factor						: 485;
+			running_cost_factor				: switch_running_cost_Gruppe_28;				
+			 }
+		}	
+
+						switch(FEAT_TRAINS, SELF, switch_Gruppe_28_graphics_DRG_28, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Gruppe_28_DRG_28;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Gruppe_28_DRG_28, extra_callback_info1) {
+								1 .. 2: return ITEM_GRUPPE_28_DRG_28;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_GRUPPE_28_DRG_28, 7609)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GRUPPE_28_DRG_28);
+						variant_group:					7607;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1930,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Gruppe_28_graphics_DRG_28;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Gruppe_28; 
+			articulated_part				: switch_articulated_Gruppe_28_DRG_28;
+			purchase						: spriteset_Gruppe_28_purchase_DRG_28;
+			cost_factor						: 485;
+			running_cost_factor				: switch_running_cost_Gruppe_28;				
+			 }
+		}	
+
+						switch(FEAT_TRAINS, SELF, switch_Gruppe_28_graphics_DRG_30, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Gruppe_28_DRG_30;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Gruppe_28_DRG_30, extra_callback_info1) {
+								1 .. 2: return ITEM_GRUPPE_28_DRG_30;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_GRUPPE_28_DRG_30, 7610)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GRUPPE_28_DRG_30);
+						variant_group:					7607;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1930,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Gruppe_28_graphics_DRG_30;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Gruppe_28; 
+			articulated_part				: switch_articulated_Gruppe_28_DRG_30;
+			purchase						: spriteset_Gruppe_28_purchase_DRG_30;
+			cost_factor						: 485;
+			running_cost_factor				: switch_running_cost_Gruppe_28;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Gruppe_28_graphics_DB_28, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Gruppe_28_DB_28;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Gruppe_28_DB_28, extra_callback_info1) {
+								1 .. 2: return ITEM_GRUPPE_28_DB_28;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_GRUPPE_28_DB_28, 7611)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GRUPPE_28_DB_28);
+						variant_group:					7607;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					36;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Gruppe_28_graphics_DB_28;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Gruppe_28; 
+			articulated_part				: switch_articulated_Gruppe_28_DB_28;
+			purchase						: spriteset_Gruppe_28_purchase_DB_28;
+			cost_factor						: 485;
+			running_cost_factor				: switch_running_cost_Gruppe_28;				
+			 }
+		}	
+
+						switch(FEAT_TRAINS, SELF, switch_Gruppe_28_graphics_DB_30, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Gruppe_28_DB_30;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Gruppe_28_DB_30, extra_callback_info1) {
+								1 .. 2: return ITEM_GRUPPE_28_DB_30;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_GRUPPE_28_DB_30, 7612)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GRUPPE_28_DB_30);
+						variant_group:					7607;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					36;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Gruppe_28_graphics_DB_30;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Gruppe_28; 
+			articulated_part				: switch_articulated_Gruppe_28_DB_30;
+			purchase						: spriteset_Gruppe_28_purchase_DB_30;
+			cost_factor						: 485;
+			running_cost_factor				: switch_running_cost_Gruppe_28;				
+			 }
+		}

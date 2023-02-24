@@ -1,0 +1,384 @@
+//##############
+//###Hbis 297###
+//##############
+
+	
+//Spriteset Variante 1
+
+spriteset (spriteset_Hbis_297_VAR1, "gfx\Hbis_297/Hbis_297_VAR1_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR1_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR1_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR1_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR1_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbis_297_VAR1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR1_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR1_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbis_297_VAR1_loading, "gfx\Hbis_297/Hbis_297_VAR1_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR1_loading_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR1_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR1_loading_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR1_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbis_297_VAR1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR1_loading_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR1_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbis_297_VAR1
+		{loaded: 	[spriteset_Hbis_297_VAR1];
+		 loading: 	[spriteset_Hbis_297_VAR1_loading];}		
+		 
+		 
+//Spriteset Variante 2
+
+spriteset (spriteset_Hbis_297_VAR2, "gfx\Hbis_297/Hbis_297_VAR2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR2_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR2_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbis_297_VAR2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR2_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR2_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbis_297_VAR2_loading, "gfx\Hbis_297/Hbis_297_VAR2_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR2_loading_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR2_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR2_loading_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR2_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbis_297_VAR2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR2_loading_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR2_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbis_297_VAR2
+		{loaded: 	[spriteset_Hbis_297_VAR2];
+		 loading: 	[spriteset_Hbis_297_VAR2_loading];}	
+		 
+		 
+//Spriteset Variante 3
+
+spriteset (spriteset_Hbis_297_VAR3, "gfx\Hbis_297/Hbis_297_VAR3_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR3_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR3_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR3_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR3_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbis_297_VAR3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR3_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR3_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbis_297_VAR3_loading, "gfx\Hbis_297/Hbis_297_VAR3_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR3_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR3_loading_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR3_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR3_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR3_loading_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR3_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbis_297_VAR3_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR3_loading_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR3_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbis_297_VAR3
+		{loaded: 	[spriteset_Hbis_297_VAR3];
+		 loading: 	[spriteset_Hbis_297_VAR3_loading];}	
+		 
+		 
+//Spriteset Variante 4
+
+spriteset (spriteset_Hbis_297_VAR4, "gfx\Hbis_297/Hbis_297_VAR4_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR4_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR4_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR4_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR4_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbis_297_VAR4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR4_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR4_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbis_297_VAR4_loading, "gfx\Hbis_297/Hbis_297_VAR4_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR4_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR4_loading_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR4_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR4_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR4_loading_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR4_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbis_297_VAR4_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR4_loading_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR4_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbis_297_VAR4
+		{loaded: 	[spriteset_Hbis_297_VAR4];
+		 loading: 	[spriteset_Hbis_297_VAR4_loading];}	
+		 
+
+//Spriteset Variante 5
+
+spriteset (spriteset_Hbis_297_VAR5, "gfx\Hbis_297/Hbis_297_VAR5_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR5_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR5_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR5, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR5_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR5_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbis_297_VAR5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR5_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR5_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbis_297_VAR5_loading, "gfx\Hbis_297/Hbis_297_VAR5_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR5_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR5_loading_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR5_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR5_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR5_loading_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR5_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbis_297_VAR5_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR5_loading_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR5_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbis_297_VAR5
+		{loaded: 	[spriteset_Hbis_297_VAR5];
+		 loading: 	[spriteset_Hbis_297_VAR5_loading];}	
+		 
+		 
+//Spriteset Variante 6
+
+spriteset (spriteset_Hbis_297_VAR6, "gfx\Hbis_297/Hbis_297_VAR6_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR6_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR6_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR6_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR6_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbis_297_VAR6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR6_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR6_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbis_297_VAR6_loading, "gfx\Hbis_297/Hbis_297_VAR6_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR6_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR6_loading_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR6_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_VAR6_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR6_loading_2x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR6_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbis_297_VAR6_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR6_loading_4x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR6_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbis_297_VAR6
+		{loaded: 	[spriteset_Hbis_297_VAR6];
+		 loading: 	[spriteset_Hbis_297_VAR6_loading];}
+		 
+		 
+//Spriteset purchase
+
+spriteset (spriteset_Hbis_297_purchase, "gfx\Hbis_297/Hbis_297_VAR1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR1_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR1_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Hbis_297_purchase_ADV, "gfx\Hbis_297/Hbis_297_VAR6_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbis_297_purchase_ADV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbis_297/Hbis_297_VAR6_1x_32bpp.png", "gfx\Hbis_297/Hbis_297_VAR6_1x_mask.png")
+					{template_purchase(0, 0)}					
+					
+//Switches
+
+						switch (FEAT_TRAINS, SELF, random_choose_Hbis_297, switch_alternative_var_random_bits(1, 3)) {			
+							1: spritegroup_Hbis_297_VAR2;
+							2: spritegroup_Hbis_297_VAR3;
+							3: spritegroup_Hbis_297_VAR4;
+							4: spritegroup_Hbis_297_VAR1;
+							5: spritegroup_Hbis_297_VAR2;
+							6: spritegroup_Hbis_297_VAR5;							
+							7: spritegroup_Hbis_297_VAR6;							
+								spritegroup_Hbis_297_VAR1;}	
+
+						switch (FEAT_TRAINS, SELF, random_choose_Hbis_297_NEUT, switch_alternative_var_random_bits(1, 2)) {			
+							0: spritegroup_Hbis_297_VAR2;
+							1: spritegroup_Hbis_297_VAR3;
+							2: spritegroup_Hbis_297_VAR4;
+							3: spritegroup_Hbis_297_VAR1;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_Hbis_297_ADV, switch_alternative_var_random_bits(1, 1)) {			
+							0: spritegroup_Hbis_297_VAR5;
+							1: spritegroup_Hbis_297_VAR6;}							
+													
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Hbis_297, 1){
+						return 210;}								 			 		 		 		 		 
+
+item (FEAT_TRAINS , ITEM_HBIS_297, 8325)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HBIS_297);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1970,01,01);
+						model_life: 					40;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Hbis_297;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Hbis_297_purchase;
+			cost_factor						: 105;
+			running_cost_factor				: switch_running_cost_Hbis_297;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_HBIS_297_NEUT, 8326)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HBIS_297_NEUT);
+						variant_group:					8325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1970,01,01);
+						model_life: 					40;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Hbis_297_NEUT;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Hbis_297_purchase;
+			cost_factor						: 105;
+			running_cost_factor				: switch_running_cost_Hbis_297;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_HBIS_297_ADV, 8327)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HBIS_297_ADV);
+						variant_group:					8325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1970,01,01);
+						model_life: 					40;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						15 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Hbis_297_ADV;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Hbis_297_purchase_ADV;
+			cost_factor						: 105;
+			running_cost_factor				: switch_running_cost_Hbis_297;				
+			
+			 }
+		}

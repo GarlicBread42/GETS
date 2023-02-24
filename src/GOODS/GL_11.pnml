@@ -1,0 +1,330 @@
+//#####################
+//###GL 11 - Dresden###
+//#####################	
+//Spriteset KPEV ohne Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GL11_KPEV_OBH, "gfx\GL11/GL11_KPEV_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_KPEV_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_OBH_1x_32bpp.png", "gfx\GL11/GL11_KPEV_OBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_KPEV_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_OBH_2x_32bpp.png", "gfx\GL11/GL11_KPEV_OBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GL11_KPEV_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_OBH_4x_32bpp.png", "gfx\GL11/GL11_KPEV_OBH_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GL11_KPEV_OBH_loading, "gfx\GL11/GL11_KPEV_OBH_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_KPEV_OBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_OBH_loading_1x_32bpp.png", "gfx\GL11/GL11_KPEV_OBH_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_KPEV_OBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_OBH_loading_2x_32bpp.png", "gfx\GL11/GL11_KPEV_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GL11_KPEV_OBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_OBH_loading_4x_32bpp.png", "gfx\GL11/GL11_KPEV_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GL11_KPEV_OBH
+		{
+			loaded: 	[spriteset_GL11_KPEV_OBH];
+			loading: 	[spriteset_GL11_KPEV_OBH_loading];		
+		}	
+		
+		
+//Spriteset KPEV mit Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GL11_KPEV_MBH, "gfx\GL11/GL11_KPEV_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_KPEV_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_MBH_1x_32bpp.png", "gfx\GL11/GL11_KPEV_MBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_KPEV_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_MBH_2x_32bpp.png", "gfx\GL11/GL11_KPEV_MBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GL11_KPEV_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_MBH_4x_32bpp.png", "gfx\GL11/GL11_KPEV_MBH_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GL11_KPEV_MBH_loading, "gfx\GL11/GL11_KPEV_MBH_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_KPEV_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_MBH_loading_1x_32bpp.png", "gfx\GL11/GL11_KPEV_MBH_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_KPEV_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_MBH_loading_2x_32bpp.png", "gfx\GL11/GL11_KPEV_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GL11_KPEV_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_MBH_loading_4x_32bpp.png", "gfx\GL11/GL11_KPEV_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GL11_KPEV_MBH
+		{
+			loaded: 	[spriteset_GL11_KPEV_MBH];
+			loading: 	[spriteset_GL11_KPEV_MBH_loading];		
+		}	
+		
+		
+//Spriteset DRG ohne Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GL11_DRG_OBH, "gfx\GL11/GL11_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DRG_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_OBH_1x_32bpp.png", "gfx\GL11/GL11_DRG_OBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DRG_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_OBH_2x_32bpp.png", "gfx\GL11/GL11_DRG_OBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GL11_DRG_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_OBH_4x_32bpp.png", "gfx\GL11/GL11_DRG_OBH_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GL11_DRG_OBH_loading, "gfx\GL11/GL11_DRG_OBH_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DRG_OBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_OBH_loading_1x_32bpp.png", "gfx\GL11/GL11_DRG_OBH_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DRG_OBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_OBH_loading_2x_32bpp.png", "gfx\GL11/GL11_DRG_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GL11_DRG_OBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_OBH_loading_4x_32bpp.png", "gfx\GL11/GL11_DRG_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GL11_DRG_OBH
+		{
+			loaded: 	[spriteset_GL11_DRG_OBH];
+			loading: 	[spriteset_GL11_DRG_OBH_loading];		
+		}	
+		
+		
+//Spriteset DRG mit Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GL11_DRG_MBH, "gfx\GL11/GL11_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DRG_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_MBH_1x_32bpp.png", "gfx\GL11/GL11_DRG_MBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DRG_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_MBH_2x_32bpp.png", "gfx\GL11/GL11_DRG_MBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GL11_DRG_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_MBH_4x_32bpp.png", "gfx\GL11/GL11_DRG_MBH_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GL11_DRG_MBH_loading, "gfx\GL11/GL11_DRG_MBH_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DRG_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_MBH_loading_1x_32bpp.png", "gfx\GL11/GL11_DRG_MBH_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DRG_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_MBH_loading_2x_32bpp.png", "gfx\GL11/GL11_DRG_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GL11_DRG_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_MBH_loading_4x_32bpp.png", "gfx\GL11/GL11_DRG_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GL11_DRG_MBH
+		{
+			loaded: 	[spriteset_GL11_DRG_MBH];
+			loading: 	[spriteset_GL11_DRG_MBH_loading];		
+		}
+		
+		
+//Spriteset DB ohne Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GL11_DB_OBH, "gfx\GL11/GL11_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_OBH_1x_32bpp.png", "gfx\GL11/GL11_DB_OBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_OBH_2x_32bpp.png", "gfx\GL11/GL11_DB_OBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GL11_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_OBH_4x_32bpp.png", "gfx\GL11/GL11_DB_OBH_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GL11_DB_OBH_loading, "gfx\GL11/GL11_DB_OBH_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DB_OBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_OBH_loading_1x_32bpp.png", "gfx\GL11/GL11_DB_OBH_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DB_OBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_OBH_loading_2x_32bpp.png", "gfx\GL11/GL11_DB_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GL11_DB_OBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_OBH_loading_4x_32bpp.png", "gfx\GL11/GL11_DB_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GL11_DB_OBH
+		{
+			loaded: 	[spriteset_GL11_DB_OBH];
+			loading: 	[spriteset_GL11_DB_OBH_loading];		
+		}	
+		
+		
+//Spriteset DB mit Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GL11_DB_MBH, "gfx\GL11/GL11_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DB_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_MBH_1x_32bpp.png", "gfx\GL11/GL11_DB_MBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DB_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_MBH_2x_32bpp.png", "gfx\GL11/GL11_DB_MBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GL11_DB_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_MBH_4x_32bpp.png", "gfx\GL11/GL11_DB_MBH_4x_mask.png")
+						{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GL11_DB_MBH_loading, "gfx\GL11/GL11_DB_MBH_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DB_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_MBH_loading_1x_32bpp.png", "gfx\GL11/GL11_DB_MBH_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_DB_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_MBH_loading_2x_32bpp.png", "gfx\GL11/GL11_DB_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GL11_DB_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_MBH_loading_4x_32bpp.png", "gfx\GL11/GL11_DB_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GL11_DB_MBH
+		{
+			loaded: 	[spriteset_GL11_DB_MBH];
+			loading: 	[spriteset_GL11_DB_MBH_loading];		
+		}
+		
+
+//Spriteset Purchase
+
+		spriteset (spriteset_GL11_Purchase_1, "gfx\GL11/GL11_KPEV_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_Purchase_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_KPEV_MBH_1x_32bpp.png", "gfx\GL11/GL11_KPEV_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+					
+		spriteset (spriteset_GL11_Purchase_2, "gfx\GL11/GL11_DRG_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_Purchase_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DRG_MBH_1x_32bpp.png", "gfx\GL11/GL11_DRG_MBH_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+		spriteset (spriteset_GL11_Purchase_3, "gfx\GL11/GL11_DB_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GL11_Purchase_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GL11/GL11_DB_MBH_1x_32bpp.png", "gfx\GL11/GL11_DB_MBH_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+//Switches
+					 switch (FEAT_TRAINS,SELF, switch_GL11_purchase,current_year){
+							1880 .. 1919: spriteset_GL11_Purchase_1;
+							1920 .. 1946: spriteset_GL11_Purchase_2;		
+							1947 .. 2000: spriteset_GL11_Purchase_3;										 					 
+							spriteset_GL11_Purchase_3;}
+
+					switch (FEAT_TRAINS, SELF, random_choose_GL11_KPEV, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_GL11_KPEV_MBH;
+								spritegroup_GL11_KPEV_OBH;}	
+								
+					switch (FEAT_TRAINS, SELF, random_choose_GL11_DRG, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_GL11_DRG_MBH;
+								spritegroup_GL11_DRG_OBH;}	
+								
+					switch (FEAT_TRAINS, SELF, random_choose_GL11_DB, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_GL11_DB_MBH;
+								spritegroup_GL11_DB_OBH;}
+								
+					switch (FEAT_TRAINS,SELF,switch_graphics_GL11,current_year) {
+						1880 .. 1919 : random_choose_GL11_KPEV;
+						1920 .. 1946 : random_choose_GL11_DRG;
+						1947 .. 2000 : random_choose_GL11_DB;						
+						random_choose_GL11_DB;}
+
+					switch (FEAT_TRAINS, PARENT, switch_speed_GL11,  switch_check_PWG_0()) {
+						1: return 65;
+						0: return 50;}
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_GL11, 1){
+						return 75;}							
+
+item (FEAT_TRAINS , ITEM_GL11, 8260)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GL11);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1914,01,01);
+						model_life: 					59;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						13 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					36;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_GL11;
+			additional_text					: string(STR_DESC_CABOOSE_65);
+			purchase						: switch_GL11_purchase;
+			speed							: switch_speed_GL11;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_GL11;				
+			
+			 }
+		}

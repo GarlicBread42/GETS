@@ -1,0 +1,625 @@
+//###################
+//###UIC-X Gepäckwagen###
+//###################				
+
+//Spriteset grün
+
+spriteset (spriteset_UICX_D_gruen, "gfx\UICX/UICX_D_gruen_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_gruen_1x_32bpp.png", "gfx\UICX/UICX_D_gruen_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_D_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_gruen_2x_32bpp.png", "gfx\UICX/UICX_D_gruen_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_D_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_gruen_4x_32bpp.png", "gfx\UICX/UICX_D_gruen_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset popfarben1
+
+spriteset (spriteset_UICX_D_popfarben1, "gfx\UICX/UICX_D_popfarben1_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_popfarben1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_popfarben1_1x_32bpp.png", "gfx\UICX/UICX_D_popfarben1_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_D_popfarben1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_popfarben1_2x_32bpp.png", "gfx\UICX/UICX_D_popfarben1_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_D_popfarben1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_popfarben1_4x_32bpp.png", "gfx\UICX/UICX_D_popfarben1_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset popfarben2
+
+spriteset (spriteset_UICX_D_popfarben2, "gfx\UICX/UICX_D_popfarben2_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_popfarben2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_popfarben2_1x_32bpp.png", "gfx\UICX/UICX_D_popfarben2_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_D_popfarben2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_popfarben2_2x_32bpp.png", "gfx\UICX/UICX_D_popfarben2_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_D_popfarben2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_popfarben2_4x_32bpp.png", "gfx\UICX/UICX_D_popfarben2_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset ozeanblau
+
+spriteset (spriteset_UICX_D_ozeanblau, "gfx\UICX/UICX_D_ozeanblau_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_ozeanblau_1x_32bpp.png", "gfx\UICX/UICX_D_ozeanblau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_D_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_ozeanblau_2x_32bpp.png", "gfx\UICX/UICX_D_ozeanblau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_D_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_ozeanblau_4x_32bpp.png", "gfx\UICX/UICX_D_ozeanblau_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset grau
+
+spriteset (spriteset_UICX_D_grau, "gfx\UICX/UICX_D_grau_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_grau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_grau_1x_32bpp.png", "gfx\UICX/UICX_D_grau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_D_grau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_grau_2x_32bpp.png", "gfx\UICX/UICX_D_grau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_D_grau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_grau_4x_32bpp.png", "gfx\UICX/UICX_D_grau_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+//Spriteset Regio
+
+spriteset (spriteset_UICX_D_Regio, "gfx\UICX/UICX_D_Regio_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_Regio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_Regio_1x_32bpp.png", "gfx\UICX/UICX_D_Regio_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_D_Regio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_Regio_2x_32bpp.png", "gfx\UICX/UICX_D_Regio_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_D_Regio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_Regio_4x_32bpp.png", "gfx\UICX/UICX_D_Regio_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+//Spriteset loading
+
+spriteset (spriteset_UICX_D_loading, "gfx\UICX/UICX_D_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_loading_1x_32bpp.png", "gfx\UICX/UICX_D_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_D_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_loading_2x_32bpp.png", "gfx\UICX/UICX_D_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_D_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_loading_4x_32bpp.png", "gfx\UICX/UICX_D_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+
+spritegroup spritegroup_UICX_D_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_UICX_D_loading];}
+			
+
+//Spritesets purchase
+
+spriteset (spriteset_UICX_D_purchase_gruen, "gfx\UICX/UICX_D_gruen_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_purchase_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_gruen_1x_32bpp.png", "gfx\UICX/UICX_D_gruen_1x_mask.png")
+					{template_purchase(0,0)}			
+
+spriteset (spriteset_UICX_D_purchase_popfarben, "gfx\UICX/UICX_D_popfarben1_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_purchase_popfarben, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_popfarben1_1x_32bpp.png", "gfx\UICX/UICX_D_popfarben1_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_UICX_D_purchase_ozeanblau, "gfx\UICX/UICX_D_ozeanblau_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_purchase_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_ozeanblau_1x_32bpp.png", "gfx\UICX/UICX_D_ozeanblau_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_UICX_D_purchase_grau, "gfx\UICX/UICX_D_grau_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_purchase_grau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_grau_1x_32bpp.png", "gfx\UICX/UICX_D_grau_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_UICX_D_purchase_Regio, "gfx\UICX/UICX_D_Regio_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_UICX_D_purchase_Regio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\UICX/UICX_D_Regio_1x_32bpp.png", "gfx\UICX/UICX_D_Regio_1x_mask.png")
+					{template_purchase(0,0)}
+
+
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_UICX_D,current_year) {
+							  00 .. 1974 : spriteset_UICX_D_purchase_gruen;
+							1975 .. 1987 : spriteset_UICX_D_purchase_ozeanblau;
+							1988 .. 1995 : spriteset_UICX_D_purchase_grau;
+							1996 .. 2050 : spriteset_UICX_D_purchase_Regio;
+									spriteset_UICX_D_purchase_Regio;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_D_gruen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_D_gruen;
+							1: spritegroup_UICX_D_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_D_popfarben1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_D_popfarben1;
+							1: spritegroup_UICX_D_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_D_popfarben2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_D_popfarben2;
+							1: spritegroup_UICX_D_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_D_ozeanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_D_ozeanblau;
+							1: spritegroup_UICX_D_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_D_grau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_D_grau;
+							1: spritegroup_UICX_D_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_UICX_D_Regio, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_D_Regio;
+							1: spritegroup_UICX_D_loading;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_UICX_D_popfarben, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_UICX_D_popfarben1;
+								switch_loadstack_UICX_D_popfarben2;}
+													
+						switch(FEAT_TRAINS, SELF, switch_length_UICX_D, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+
+						switch(FEAT_TRAINS, SELF, switch_speed_UICX_D, current_year) {
+							  00 .. 1963 : 140 ;
+							1964 .. 1987 : 160 ;
+							1988 .. 2050 : 200 ;
+								200;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_UICX_D, 1){
+							return 2250;}
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_UICX_D,build_year) {
+							  00 .. 1974 : switch_loadstack_UICX_D_gruen;
+							1975 .. 1987 : switch_loadstack_UICX_D_ozeanblau;
+							1988 .. 1995 : switch_loadstack_UICX_D_grau;
+							1996 .. 2050 : switch_loadstack_UICX_D_Regio;
+								switch_loadstack_UICX_D_Regio;}
+								
+						switch(FEAT_TRAINS, SELF, switch_UICX_D_graphics_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_UICX_D;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_D_build, extra_callback_info1) {
+							1 .. 2: return ITEM_UICX_D_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}								
+	
+item (FEAT_TRAINS , ITEM_UICX_D_BUILD, 5920)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_D_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_D_graphics_build;
+			additional_text					: string(STR_DESC_UICX_D);
+			length							: switch_length_UICX_D;
+			articulated_part				: switch_articulated_UICX_D_build;
+			purchase						: switch_purchase_UICX_D;
+			speed							: switch_speed_UICX_D;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX_D;				
+			
+			 }
+		}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_UICX_D,current_year) {
+							  00 .. 1974 : switch_loadstack_UICX_D_gruen;
+							1975 .. 1987 : switch_loadstack_UICX_D_ozeanblau;
+							1988 .. 1995 : switch_loadstack_UICX_D_grau;
+							1996 .. 2050 : switch_loadstack_UICX_D_Regio;
+								switch_loadstack_UICX_D_Regio;}
+								
+						switch(FEAT_TRAINS, SELF, switch_UICX_D_graphics_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_UICX_D;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_D_current, extra_callback_info1) {
+							1 .. 2: return ITEM_UICX_D_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}								
+	
+item (FEAT_TRAINS , ITEM_UICX_D_CURRENT, 5921)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_D_CURRENT);
+						variant_group:					5920;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_D_graphics_current;
+			additional_text					: string(STR_DESC_UICX_D);
+			length							: switch_length_UICX_D;
+			articulated_part				: switch_articulated_UICX_D_current;
+			purchase						: switch_purchase_UICX_D;
+			speed							: switch_speed_UICX_D;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX_D;				
+			
+			 }
+		}
+								
+						switch(FEAT_TRAINS, SELF, switch_UICX_D_graphics_gruen, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_D_gruen;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_D_gruen, extra_callback_info1) {
+							1 .. 2: return ITEM_UICX_D_GRUEN;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}								
+	
+item (FEAT_TRAINS , ITEM_UICX_D_GRUEN, 5922)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_D_GRUEN);
+						variant_group:					5920;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1952,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_D_graphics_gruen;
+			additional_text					: string(STR_DESC_UICX_D);
+			length							: switch_length_UICX_D;
+			articulated_part				: switch_articulated_UICX_D_gruen;
+			purchase						: spriteset_UICX_D_purchase_gruen;
+			speed							: switch_speed_UICX_D;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX_D;				
+			
+			 }
+		}
+		
+						switch(FEAT_TRAINS, SELF, switch_UICX_D_graphics_popfarben, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_UICX_D_popfarben;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_D_popfarben, extra_callback_info1) {
+							1 .. 2: return ITEM_UICX_D_POPFARBEN;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}								
+	
+item (FEAT_TRAINS , ITEM_UICX_D_POPFARBEN, 5923)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_D_POPFARBEN);
+						variant_group:					5920;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1969,01,01);
+						model_life: 					39;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_D_graphics_popfarben;
+			additional_text					: string(STR_DESC_UICX_D);
+			length							: switch_length_UICX_D;
+			articulated_part				: switch_articulated_UICX_D_popfarben;
+			purchase						: spriteset_UICX_D_purchase_popfarben;
+			speed							: switch_speed_UICX_D;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX_D;				
+			
+			 }
+		}
+		
+						switch(FEAT_TRAINS, SELF, switch_UICX_D_graphics_ozeanblau, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_D_ozeanblau;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_D_ozeanblau, extra_callback_info1) {
+							1 .. 2: return ITEM_UICX_D_OZEANBLAU;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}								
+	
+item (FEAT_TRAINS , ITEM_UICX_D_OZEANBLAU, 5924)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_D_OZEANBLAU);
+						variant_group:					5920;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					33;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_D_graphics_ozeanblau;
+			additional_text					: string(STR_DESC_UICX_D);
+			length							: switch_length_UICX_D;
+			articulated_part				: switch_articulated_UICX_D_ozeanblau;
+			purchase						: spriteset_UICX_D_purchase_ozeanblau;
+			speed							: switch_speed_UICX_D;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX_D;				
+			
+			 }
+		}				
+
+		
+						switch(FEAT_TRAINS, SELF, switch_UICX_D_graphics_grau, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_D_grau;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_D_grau, extra_callback_info1) {
+							1 .. 2: return ITEM_UICX_D_GRAU;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}								
+	
+item (FEAT_TRAINS , ITEM_UICX_D_GRAU, 5925)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_D_GRAU);
+						variant_group:					5920;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1988,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_D_graphics_grau;
+			additional_text					: string(STR_DESC_UICX_D);
+			length							: switch_length_UICX_D;
+			articulated_part				: switch_articulated_UICX_D_grau;
+			purchase						: spriteset_UICX_D_purchase_grau;
+			speed							: switch_speed_UICX_D;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX_D;				
+			
+			 }
+		}
+		
+						switch(FEAT_TRAINS, SELF, switch_UICX_D_graphics_Regio, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_UICX_D_Regio;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_D_Regio, extra_callback_info1) {
+							1 .. 2: return ITEM_UICX_D_REGIO;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}								
+	
+item (FEAT_TRAINS , ITEM_UICX_D_REGIO, 5926)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_D_REGIO);
+						variant_group:					5920;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					12;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					24;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_D_graphics_Regio;
+			additional_text					: string(STR_DESC_UICX_D);
+			length							: switch_length_UICX_D;
+			articulated_part				: switch_articulated_UICX_D_Regio;
+			purchase						: spriteset_UICX_D_purchase_Regio;
+			speed							: switch_speed_UICX_D;
+			cost_factor						: 455;
+			running_cost_factor				: switch_running_cost_UICX_D;				
+			
+			 }
+		}

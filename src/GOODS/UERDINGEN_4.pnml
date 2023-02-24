@@ -1,0 +1,762 @@
+
+//#####################################################
+//###Leichtbau-Kesselwagen Uerdinger 4-achsig (1941)###
+//#####################################################
+	
+	
+//Spriteset  Aral
+
+spriteset (spriteset_Uerdingen_4_ARAL, "gfx\Uerdingen_4/Uerdingen_4_ARAL_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_ARAL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_ARAL_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_ARAL_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_ARAL, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_ARAL_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_ARAL_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_ARAL, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_ARAL_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_ARAL_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+
+//Spriteset  BP 1
+
+spriteset (spriteset_Uerdingen_4_BP, "gfx\Uerdingen_4/Uerdingen_4_BP_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_BP, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_BP_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_BP_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_BP, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_BP_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_BP_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_BP, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_BP_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_BP_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset  BP 2
+
+spriteset (spriteset_Uerdingen_4_BP2, "gfx\Uerdingen_4/Uerdingen_4_BP2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_BP2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_BP2_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_BP2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_BP2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_BP2_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_BP2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_BP2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_BP2_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_BP2_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset  ESSO
+
+spriteset (spriteset_Uerdingen_4_ESSO, "gfx\Uerdingen_4/Uerdingen_4_ESSO_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_ESSO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_ESSO_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_ESSO_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_ESSO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_ESSO_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_ESSO_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_ESSO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_ESSO_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_ESSO_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset  Green
+
+spriteset (spriteset_Uerdingen_4_GREEN, "gfx\Uerdingen_4/Uerdingen_4_GREEN_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_GREEN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_GREEN_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_GREEN_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_GREEN, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_GREEN_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_GREEN_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_GREEN, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_GREEN_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_GREEN_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset  Neutral 1
+
+spriteset (spriteset_Uerdingen_4_NEUT_MBH, "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_NEUT_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_NEUT_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_NEUT_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset  Neutral 2
+
+spriteset (spriteset_Uerdingen_4_NEUT_OBH, "gfx\Uerdingen_4/Uerdingen_4_NEUT_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_NEUT_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_NEUT_OBH_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_NEUT_OBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_NEUT_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_NEUT_OBH_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_NEUT_OBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_NEUT_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_NEUT_OBH_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_NEUT_OBH_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset  OMV
+
+spriteset (spriteset_Uerdingen_4_OMV, "gfx\Uerdingen_4/Uerdingen_4_OMV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_OMV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_OMV_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_OMV_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_OMV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_OMV_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_OMV_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_OMV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_OMV_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_OMV_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset  Valvoline
+
+spriteset (spriteset_Uerdingen_4_VALVOLINE, "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_VALVOLINE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_VALVOLINE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_VALVOLINE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_4x_mask.png")
+					{template_88trains_4x(0, 0)}																																			
+
+//Spriteset  VTG
+
+spriteset (spriteset_Uerdingen_4_VTG_NEW, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_VTG_NEW, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_VTG_NEW, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_VTG_NEW, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_4x_mask.png")
+					{template_88trains_4x(0, 0)}																																			
+						
+//Spriteset  VTG 2
+
+spriteset (spriteset_Uerdingen_4_VTG_NEW_2, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_VTG_NEW_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_VTG_NEW_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_VTG_NEW_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_2_4x_mask.png")
+					{template_88trains_4x(0, 0)}																																			
+						
+//Spriteset  VTG 3
+
+spriteset (spriteset_Uerdingen_4_VTG_OLD, "gfx\Uerdingen_4/Uerdingen_4_VTG_OLD_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_VTG_OLD, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_OLD_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_OLD_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_VTG_OLD, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_OLD_2x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_OLD_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Uerdingen_4_VTG_OLD, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_OLD_4x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_OLD_4x_mask.png")
+					{template_88trains_4x(0, 0)}																																			
+
+//Spriteset  Purchase
+
+spriteset (spriteset_Uerdingen_4_purchase, "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_NEUT_MBH_1x_mask.png")
+					{template_purchase(0, 0)}																																																																
+
+spriteset (spriteset_Uerdingen_4_purchase_VTG, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_purchase_VTG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VTG_NEW_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Uerdingen_4_purchase_OMV, "gfx\Uerdingen_4/Uerdingen_4_OMV_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_purchase_OMV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_OMV_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_OMV_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Uerdingen_4_purchase_VALVOLINE, "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_purchase_VALVOLINE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_VALVOLINE_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Uerdingen_4_purchase_ESSO, "gfx\Uerdingen_4/Uerdingen_4_ESSO_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_purchase_ESSO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_ESSO_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_ESSO_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Uerdingen_4_purchase_BP, "gfx\Uerdingen_4/Uerdingen_4_BP_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_purchase_BP, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_BP_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_BP_1x_mask.png")
+					{template_purchase(0, 0)}	
+																									
+spriteset (spriteset_Uerdingen_4_purchase_ARAL, "gfx\Uerdingen_4/Uerdingen_4_ARAL_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Uerdingen_4_purchase_ARAL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Uerdingen_4/Uerdingen_4_ARAL_1x_32bpp.png", "gfx\Uerdingen_4/Uerdingen_4_ARAL_1x_mask.png")
+					{template_purchase(0, 0)}
+										
+//Switches
+
+					switch (FEAT_TRAINS, SELF, random_choose_Uerdingen_4_CHEM, switch_alternative_var_random_bits(1, 3)) {
+							1: spriteset_Uerdingen_4_GREEN;
+							2: spriteset_Uerdingen_4_NEUT_MBH;
+							3: spriteset_Uerdingen_4_NEUT_OBH;
+							4: spriteset_Uerdingen_4_VTG_NEW;
+							5: spriteset_Uerdingen_4_VTG_NEW_2;																												
+							6: spriteset_Uerdingen_4_VTG_OLD;
+							7: spriteset_Uerdingen_4_GREEN;													
+								spriteset_Uerdingen_4_VTG_OLD;}									
+
+					switch (FEAT_TRAINS, SELF, random_choose_Uerdingen_4_OIL, switch_alternative_var_random_bits(1, 3)) {
+							1: spriteset_Uerdingen_4_ARAL;
+							2: spriteset_Uerdingen_4_BP;
+							3: spriteset_Uerdingen_4_BP2;
+							4: spriteset_Uerdingen_4_ESSO;
+							5: spriteset_Uerdingen_4_OMV;																												
+							6: spriteset_Uerdingen_4_VALVOLINE;
+							7: spriteset_Uerdingen_4_VALVOLINE;													
+								spriteset_Uerdingen_4_OMV;}
+
+					switch (FEAT_TRAINS, SELF, random_choose_Uerdingen_4_NEUT, switch_alternative_var_random_bits(1, 2)) {
+							1: spriteset_Uerdingen_4_GREEN;
+							2: spriteset_Uerdingen_4_NEUT_MBH;
+								spriteset_Uerdingen_4_NEUT_OBH;}	
+
+					switch (FEAT_TRAINS, SELF, random_choose_Uerdingen_4_VTG, switch_alternative_var_random_bits(1, 2)) {
+							1: spriteset_Uerdingen_4_VTG_NEW;
+							2: spriteset_Uerdingen_4_VTG_NEW_2;
+								spriteset_Uerdingen_4_VTG_OLD;}	
+
+					switch (FEAT_TRAINS, SELF, random_choose_Uerdingen_4_BP, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_Uerdingen_4_BP;
+								spriteset_Uerdingen_4_BP2;}	
+																					
+					switch (FEAT_TRAINS, SELF, switch_Uerdingen_4_sprite_choose, cargo_type_in_veh) {
+							OIL_: random_choose_Uerdingen_4_OIL;
+							RUBR: random_choose_Uerdingen_4_OIL; 
+							WATR: random_choose_Uerdingen_4_CHEM;
+							BEER: random_choose_Uerdingen_4_CHEM;
+							DYES: random_choose_Uerdingen_4_CHEM; 
+							PETR: random_choose_Uerdingen_4_OIL;
+							RFPR: random_choose_Uerdingen_4_OIL;
+							SULP: random_choose_Uerdingen_4_CHEM;
+							ACID: random_choose_Uerdingen_4_CHEM;
+							CHLO: random_choose_Uerdingen_4_CHEM;
+							COAT: random_choose_Uerdingen_4_CHEM;
+							FUEL: random_choose_Uerdingen_4_CHEM;
+							LYE_: random_choose_Uerdingen_4_CHEM;
+							MOLS: random_choose_Uerdingen_4_CHEM;
+							NH3_: random_choose_Uerdingen_4_CHEM;
+							OILI: random_choose_Uerdingen_4_OIL;
+							OILD: random_choose_Uerdingen_4_OIL;
+							O2__: random_choose_Uerdingen_4_CHEM;
+							SOAP: random_choose_Uerdingen_4_CHEM;
+							PLST: random_choose_Uerdingen_4_OIL;
+								random_choose_Uerdingen_4_CHEM;}									
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Uerdingen_4, 1){
+						return 675;}								
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_AUTO, 9325)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_AUTO);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Uerdingen_4_sprite_choose;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_CHEM, 9326)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_CHEM);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Uerdingen_4_CHEM;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_OIL, 9327)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_OIL);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Uerdingen_4_OIL;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase_OMV;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_NEUT, 9328)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_NEUT);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Uerdingen_4_NEUT;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_VTG, 9329)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_VTG);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Uerdingen_4_VTG;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase_VTG;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}
+
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_OMV, 9330)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_OMV);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_Uerdingen_4_OMV;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase_OMV;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}
+
+
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_VALVOLINE, 9331)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_VALVOLINE);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_Uerdingen_4_VALVOLINE;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase_VALVOLINE;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_ESSO, 9332)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_ESSO);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_Uerdingen_4_ESSO;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase_ESSO;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_BP, 9333)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_BP);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Uerdingen_4_BP;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase_BP;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}
+
+
+item (FEAT_TRAINS , ITEM_UERDINGEN_4_ARAL, 9334)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UERDINGEN_4_ARAL);
+						variant_group:					9325;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					58;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_LIQUID);
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					63;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spriteset_Uerdingen_4_ARAL;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Uerdingen_4_purchase_ARAL;
+			cost_factor						: 310;
+			running_cost_factor				: switch_running_cost_Uerdingen_4;				
+			
+			 }
+		}

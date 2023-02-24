@@ -1,0 +1,245 @@
+//########################
+//###V23 Altona 2-Achser###
+//########################			
+		
+		
+//Spriteset DRG mit Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_V23_Altona_DRG_MBH, "gfx\V23_Altona/V23_Altona_DRG_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DRG_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_MBH_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DRG_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_MBH_2x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_V23_Altona_DRG_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_MBH_4x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_V23_Altona_DRG_MBH_loading, "gfx\V23_Altona/V23_Altona_DRG_MBH_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DRG_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_MBH_loading_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_MBH_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DRG_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_MBH_loading_2x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_MBH_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_V23_Altona_DRG_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_MBH_loading_4x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_MBH_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}		
+	
+						
+spritegroup spritegroup_V23_Altona_DRG_MBH
+		{
+			loaded: 	[spriteset_V23_Altona_DRG_MBH];
+			loading: 	[spriteset_V23_Altona_DRG_MBH_loading];		
+		}
+		
+		
+//Spriteset DRG ohne Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_V23_Altona_DRG_OBH, "gfx\V23_Altona/V23_Altona_DRG_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DRG_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_OBH_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DRG_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_OBH_2x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_V23_Altona_DRG_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_OBH_4x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_V23_Altona_DRG_OBH_loading, "gfx\V23_Altona/V23_Altona_DRG_OBH_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DRG_OBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_OBH_loading_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_OBH_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DRG_OBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_OBH_loading_2x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_OBH_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_V23_Altona_DRG_OBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_OBH_loading_4x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_OBH_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}		
+	
+						
+spritegroup spritegroup_V23_Altona_DRG_OBH
+		{
+			loaded: 	[spriteset_V23_Altona_DRG_OBH];
+			loading: 	[spriteset_V23_Altona_DRG_OBH_loading];		
+		}	
+
+
+//Spriteset DB mit Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_V23_Altona_DB_MBH, "gfx\V23_Altona/V23_Altona_DB_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DB_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_MBH_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DB_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_MBH_2x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_V23_Altona_DB_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_MBH_4x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_V23_Altona_DB_MBH_loading, "gfx\V23_Altona/V23_Altona_DB_MBH_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DB_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_MBH_loading_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_MBH_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DB_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_MBH_loading_2x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_MBH_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_V23_Altona_DB_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_MBH_loading_4x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_MBH_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}		
+	
+						
+spritegroup spritegroup_V23_Altona_DB_MBH
+		{
+			loaded: 	[spriteset_V23_Altona_DB_MBH];
+			loading: 	[spriteset_V23_Altona_DB_MBH_loading];		
+		}
+		
+		
+//Spriteset DB ohne Bremserhaus
+
+	//Spriteset loaded
+
+		spriteset (spriteset_V23_Altona_DB_OBH, "gfx\V23_Altona/V23_Altona_DB_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_OBH_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_OBH_2x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_V23_Altona_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_OBH_4x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_V23_Altona_DB_OBH_loading, "gfx\V23_Altona/V23_Altona_DB_OBH_loading_1x_8bpp.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DB_OBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_OBH_loading_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_OBH_loading_1x_mask.png")
+						{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_DB_OBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_OBH_loading_2x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_OBH_loading_2x_mask.png")
+					{template_68trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_V23_Altona_DB_OBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_OBH_loading_4x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_OBH_loading_4x_mask.png")
+					{template_68trains_4x(0,0)}		
+	
+						
+spritegroup spritegroup_V23_Altona_DB_OBH
+		{
+			loaded: 	[spriteset_V23_Altona_DB_OBH];
+			loading: 	[spriteset_V23_Altona_DB_OBH_loading];		
+		}			
+	
+		
+//Spriteset Purchase
+
+		spriteset (spriteset_V23_Altona_purchase_1, "gfx\V23_Altona/V23_Altona_DRG_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_V23_Altona_purchase_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DRG_MBH_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DRG_MBH_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+
+		spriteset (spriteset_V23_Altona_purchase_2, "gfx\V23_Altona/V23_Altona_DB_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_V23_Altona_purchase_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\V23_Altona/V23_Altona_DB_MBH_1x_32bpp.png", "gfx\V23_Altona/V23_Altona_DB_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+		
+					
+//Switches
+
+					 switch (FEAT_TRAINS,SELF, switch_V23_Altona_purchase,current_year){
+							1800 .. 1945: spriteset_V23_Altona_purchase_1;
+							1946 .. 2050: spriteset_V23_Altona_purchase_2;				 					 
+							spriteset_V23_Altona_purchase_2;}					
+
+					switch (FEAT_TRAINS, SELF, random_choose_V23_Altona_DRG, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_V23_Altona_DRG_OBH;
+								spritegroup_V23_Altona_DRG_MBH;}	
+								
+					switch (FEAT_TRAINS, SELF, random_choose_V23_Altona_DB, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_V23_Altona_DB_OBH;
+								spritegroup_V23_Altona_DB_MBH;}	
+								
+					switch (FEAT_TRAINS,SELF,switch_graphics_V23_Altona,current_year) {
+							1800 .. 1945 : random_choose_V23_Altona_DRG;
+							1946 .. 2050 : random_choose_V23_Altona_DB;
+							random_choose_V23_Altona_DRG;}															
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_V23_Altona, 1){
+							return 95;}	
+							
+					switch (FEAT_TRAINS, PARENT, switch_speed_V23_Altona,  switch_check_PWG_0()) {
+						1: return 80;
+						0: return 65;}							
+
+item (FEAT_TRAINS , ITEM_V23_Altona, 8503)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_V23_ALTONA);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					36;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [LVST];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						13 ton;
+						dual_headed: 					0;
+						default_cargo_type:				LVST;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_V23_Altona;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: switch_V23_Altona_purchase;
+			speed							: switch_speed_V23_Altona;
+			cost_factor						: 46;
+			running_cost_factor				: switch_running_cost_V23_Altona;				
+			
+			 }
+		}

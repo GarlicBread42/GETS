@@ -1,0 +1,180 @@
+//##############################
+//###Donnerbüchse Steuerwagen###
+//##############################
+
+//Spriteset grün
+
+
+spriteset (spriteset_Dobue_DVT_DB, "gfx\Dobue_DVT\Dobue_DVT_DB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Dobue_DVT_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_2x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Dobue_DVT_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_4x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+			
+				
+spriteset (spriteset_Dobue_DVT_DB_loading, "gfx\Dobue_DVT\Dobue_DVT_DB_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_DB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_loading_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Dobue_DVT_DB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_loading_2x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Dobue_DVT_DB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_loading_4x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+					
+spritegroup spritegroup_Dobue_DVT_DB
+		{loaded: 	[spriteset_Dobue_DVT_DB];
+			loading: 	[spriteset_Dobue_DVT_DB_loading];}
+
+
+//Spriteset rot
+
+
+spriteset (spriteset_Dobue_DVT_red, "gfx\Dobue_DVT\Dobue_DVT_red_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Dobue_DVT_red, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_2x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Dobue_DVT_red, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_4x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+			
+				
+spriteset (spriteset_Dobue_DVT_red_loading, "gfx\Dobue_DVT\Dobue_DVT_red_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_red_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_loading_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Dobue_DVT_red_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_loading_2x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Dobue_DVT_red_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_loading_4x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+					
+spritegroup spritegroup_Dobue_DVT_red
+		{loaded: 	[spriteset_Dobue_DVT_red];
+			loading: 	[spriteset_Dobue_DVT_red_loading];}
+
+
+//Spriteset purchase
+
+spriteset (spriteset_Dobue_DVT_purchase, "gfx\Dobue_DVT\Dobue_DVT_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_Dobue_DVT_purchase_red, "gfx\Dobue_DVT\Dobue_DVT_red_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_purchase_red, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_1x_mask.png")
+					{template_purchase(0,0)}
+					
+					
+//Switches
+							
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Dobue_DVT, 1){
+							return 1200;}
+							
+item (FEAT_TRAINS , ITEM_DOBUE_DVT, 7900)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DOBUE_DVT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: spritegroup_Dobue_DVT_DB;
+			additional_text					: string(STR_DESC_PASS);
+			purchase						: spriteset_Dobue_DVT_purchase;
+			cost_factor						: 250;
+			running_cost_factor				: switch_running_cost_Dobue_DVT;
+			}
+		}	
+
+item (FEAT_TRAINS , ITEM_DOBUE_DVT_RED, 7901)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DOBUE_DVT_RED);
+						variant_group:					7900;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						21 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: spritegroup_Dobue_DVT_red;
+			additional_text					: string(STR_DESC_PASS);
+			purchase						: spriteset_Dobue_DVT_purchase_red;
+			cost_factor						: 250;
+			running_cost_factor				: switch_running_cost_Dobue_DVT;
+			}
+		}

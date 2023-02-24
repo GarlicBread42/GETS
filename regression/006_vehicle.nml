@@ -1,0 +1,91 @@
+/*
+A simple vehicle from OpenGFX+
+Code is modified in some places for testing reasons.
+*/
+
+//Add action8, so we can test the vehicle in-game
+grf {
+    grfid: "NML\6";
+    name: string(STR_REGRESSION_NAME);
+    desc: string(STR_REGRESSION_DESC);
+    version: 0;
+    min_compatible_version: 0;
+}
+
+
+cargotable {
+    PASS, MAIL, GOOD, IORE, "GOLD", "FOOD"
+}
+
+
+// Foster Express tram
+spriteset(foster_express_set, "opengfx_generic_trams1.pcx") {
+    [ 48,56,  8,18,   -3,-10]
+    [ 64,56, 20,19,  -14, -5]
+    [ 96,56, 28,15,  -14, -8]
+    [144,56, 20,19,   -6, -7]
+    [176,56,  8,18,   -3,-10]
+    [192,56, 20,19,  -14, -9]
+    [224,56, 28,15,  -14, -8]
+    [272,56, 20,19,   -6, -7]
+}
+
+alternative_sprites(foster_express_set, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "opengfx_generic_trams1.pcx") {
+    [ 48,56,  8,18,   -3,-10]
+    [ 64,56, 20,19,  -14, -5]
+    [ 96,56, 28,15,  -14, -8]
+    [144,56, 20,19,   -6, -7]
+    [176,56,  8,18,   -3,-10]
+    [192,56, 20,19,  -14, -9]
+    [224,56, 28,15,  -14, -8]
+    [272,56, 20,19,   -6, -7]
+}
+
+alternative_sprites(foster_express_set, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "opengfx_generic_trams1.png", "opengfx_generic_trams1.pcx") {
+    [ 48,56,  8,18,   -3,-10]
+    [ 64,56, 20,19,  -14, -5]
+    [ 96,56, 28,15,  -14, -8]
+    [144,56, 20,19,   -6, -7]
+    [176,56,  8,18,   -3,-10]
+    [192,56, 20,19,  -14, -9]
+    [224,56, 28,15,  -14, -8]
+    [272,56, 20,19,   -6, -7]
+}
+
+
+param[0] = 9;
+
+switch(FEAT_ROADVEHS, SELF, switch_length, d, position_in_consist + d) {
+    1: return 5;
+    return 6;
+}
+
+// Trams:
+item(FEAT_ROADVEHS, foster_express_tram, 89) {
+    property {
+        name:                         string(STR_NAME_FOSTER_EXPRESS_TRAM);
+        climates_available:           bitmask(CLIMATE_TEMPERATE, CLIMATE_ARCTIC);
+        model_life:                   40;                       // years
+        vehicle_life:                 30;                       // years
+        introduction_date:            date(1965,1,1);
+        reliability_decay:            1;
+        running_cost_base:            RUNNING_COST_ROADVEH;     // Default road vehicle running cost base
+        running_cost_factor:          135;
+        cost_factor:                  143;
+        speed:                        90 km/h;
+        power:                        220 hp;
+        weight:                       22 ton;
+        sprite_id:                    SPRITE_ID_NEW_ROADVEH;    // We have our own sprites
+        loading_speed:                16;                       // loading speed
+        tractive_effort_coefficient:  0.3;
+        air_drag_coefficient:         0.5;
+        cargo_capacity:               param[0] * 5 + 5;             // passengers
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: NO_CARGO_CLASS;           // Disallow other cargos
+        misc_flags:                   bitmask(ROADVEH_FLAG_TRAM); // This is a tram
+    }
+    graphics {
+        length:  switch_length(0);
+        default: foster_express_set;
+    }
+}

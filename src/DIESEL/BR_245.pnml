@@ -1,0 +1,179 @@
+//###############
+//###BR 245 DB###
+//###############
+
+//Spriteset Verkehrsrot
+spriteset(spriteset_BR_245, "gfx/BR_245/BR_245_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_245, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_245/BR_245_1x_32bpp.png", "gfx/BR_245/BR_245_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_245, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_245/BR_245_2x_32bpp.png", "gfx/BR_245/BR_245_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_245, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_245/BR_245_4x_32bpp.png", "gfx/BR_245/BR_245_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+									
+//Spriteset Metronom
+
+spriteset(spriteset_BR_245_Metronom, "gfx/BR_245/BR_245_Metronom_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_245_Metronom, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_245/BR_245_Metronom_1x_32bpp.png", "gfx/BR_245/BR_245_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_245_Metronom, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_245/BR_245_Metronom_2x_32bpp.png", "gfx/BR_245/BR_245_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_245_Metronom, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_245/BR_245_Metronom_4x_32bpp.png", "gfx/BR_245/BR_245_4x_mask.png")
+									{template_128trains_4x(0, 0)}									
+									
+//Spriteset purchase
+spriteset(spriteset_BR_245_purchase, "gfx/BR_245/BR_245_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_245_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_245/BR_245_1x_32bpp.png", "gfx/BR_245/BR_245_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+	spriteset(spriteset_BR_245_purchase_Metronom, "gfx/BR_245/BR_245_Metronom_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_245_purchase_Metronom, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_245/BR_245_Metronom_1x_32bpp.png", "gfx/BR_245/BR_245_1x_mask.png")
+									{template_purchase(0, 0)}																		
+									
+						switch(FEAT_TRAINS, SELF, switch_BR_245_graphics, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_245;
+							2:	   spriteset_empty;}									
+					
+						switch(FEAT_TRAINS, SELF, switch_length_BR_245, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_BR_245, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+						1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_245, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_245; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_245, 1){
+							return 4300;}						
+						
+item (FEAT_TRAINS , ITEM_BR_245, 2450)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_245);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2013,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						3062 hp;
+						weight: 						81 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.370;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_245_graphics;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_245;
+			articulated_part				: switch_articulated_BR_245;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_245_purchase;
+			cost_factor						: 97;
+			running_cost_factor				: switch_running_cost_BR_245;
+			visual_effect_and_powered		: switch_FX_BR_245;
+			}
+	}	
+									
+						switch(FEAT_TRAINS, SELF, switch_BR_245_graphics_Metronom, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_245_Metronom;
+							2:	   spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_245_Metronom, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_245_METRONOM; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_245_METRONOM, 2451)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_245_METRONOM);
+						variant_group:					2450;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2013,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						3062 hp;
+						weight: 						81 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.370;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_245_graphics_Metronom;
+			additional_text					: string(STR_DESC_UNIVERSAL);
+			length							: switch_length_BR_245;
+			articulated_part				: switch_articulated_BR_245_Metronom;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_245_purchase_Metronom;
+			cost_factor						: 97;
+			running_cost_factor				: switch_running_cost_BR_245;
+			visual_effect_and_powered		: switch_FX_BR_245;
+			}
+	}

@@ -1,0 +1,119 @@
+//#######################
+//###Pfannenwagen 1980###
+//#######################		
+	
+	
+//Spriteset
+
+spriteset (spriteset_Pfanne_1980, "gfx\Pfanne_1980/Pfanne_1980_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Pfanne_1980, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Pfanne_1980/Pfanne_1980_1x_32bpp.png", "gfx\Pfanne_1980/Pfanne_1980_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Pfanne_1980, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Pfanne_1980/Pfanne_1980_2x_32bpp.png", "gfx\Pfanne_1980/Pfanne_1980_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Pfanne_1980, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Pfanne_1980/Pfanne_1980_4x_32bpp.png", "gfx\Pfanne_1980/Pfanne_1980_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+//Spritesets loading
+
+spriteset (spriteset_Pfanne_1980_loading_30, "gfx\Pfanne_1980/Pfanne_1980_loading_30_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_Pfanne_1980_loading_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Pfanne_1980/Pfanne_1980_loading_30_2x_8bpp.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Pfanne_1980_loading_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Pfanne_1980/Pfanne_1980_loading_30_4x_8bpp.png")
+					{template_68trains_4x(0, 0)}				
+
+spriteset (spriteset_Pfanne_1980_loading_60, "gfx\Pfanne_1980/Pfanne_1980_loading_60_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_Pfanne_1980_loading_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Pfanne_1980/Pfanne_1980_loading_60_2x_8bpp.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Pfanne_1980_loading_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Pfanne_1980/Pfanne_1980_loading_60_4x_8bpp.png")
+					{template_68trains_4x(0, 0)}
+					
+spriteset (spriteset_Pfanne_1980_loading_100, "gfx\Pfanne_1980/Pfanne_1980_loading_100_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}		
+				
+		alternative_sprites (spriteset_Pfanne_1980_loading_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Pfanne_1980/Pfanne_1980_loading_100_2x_8bpp.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Pfanne_1980_loading_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Pfanne_1980/Pfanne_1980_loading_100_4x_8bpp.png")
+					{template_68trains_4x(0, 0)}
+					
+									
+					
+spritegroup spritegroup_Pfanne_1980_loading
+		{loaded: 	[spriteset_empty, spriteset_empty, spriteset_Pfanne_1980_loading_30, spriteset_Pfanne_1980_loading_60];
+			loading: 	[spriteset_empty, spriteset_empty, spriteset_Pfanne_1980_loading_30, spriteset_Pfanne_1980_loading_60];}								
+
+
+//Spriteset purchase
+
+spriteset (spriteset_Pfanne_1980_purchase, "gfx\Pfanne_1980/Pfanne_1980_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Pfanne_1980_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Pfanne_1980/Pfanne_1980_1x_32bpp.png", "gfx\Pfanne_1980/Pfanne_1980_1x_mask.png")
+					{template_purchase(0, 0)}			
+
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Pfanne_1980, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Pfanne_1980;
+						1: spritegroup_Pfanne_1980_loading;}													
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Pfanne_1980, 1){
+						return 205;}				
+
+item (FEAT_TRAINS , ITEM_PFANNE_1980, 9904)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PFANNE);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1980,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask( 	);
+						cargo_allow_refit:              [IRON, SLAG];
+						cargo_disallow_refit: 			[ ];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						43 ton;
+						dual_headed: 					0;
+						default_cargo_type:				IRON;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_loadstack_Pfanne_1980;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Pfanne_1980_purchase;
+			cost_factor						: 104;
+			running_cost_factor				: switch_running_cost_Pfanne_1980;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}	

@@ -1,0 +1,185 @@
+//##############################
+//###Donnerbüchse Steuerwagen###
+//##############################
+
+//Spriteset grün
+
+
+spriteset (spriteset_Dobue_DVT_DB_LOCO, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_DB_LOCO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Dobue_DVT_DB_LOCO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_2x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Dobue_DVT_DB_LOCO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_4x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+			
+				
+spriteset (spriteset_Dobue_DVT_DB_LOCO_loading, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_DB_LOCO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_loading_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Dobue_DVT_DB_LOCO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_loading_2x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Dobue_DVT_DB_LOCO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_loading_4x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+					
+spritegroup spritegroup_Dobue_DVT_DB_LOCO
+		{
+			loaded: 	[spriteset_Dobue_DVT_DB_LOCO];
+			loading: 	[spriteset_Dobue_DVT_DB_LOCO_loading];}
+
+
+//Spriteset rot
+
+
+spriteset (spriteset_Dobue_DVT_red_LOCO, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_red_LOCO, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Dobue_DVT_red_LOCO, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_2x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Dobue_DVT_red_LOCO, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_4x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+			
+				
+spriteset (spriteset_Dobue_DVT_red_LOCO_loading, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_red_LOCO_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_loading_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Dobue_DVT_red_LOCO_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_loading_2x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Dobue_DVT_red_LOCO_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_loading_4x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+					
+spritegroup spritegroup_Dobue_DVT_red_LOCO
+		{
+			loaded: 	[spriteset_Dobue_DVT_red_LOCO];
+			loading: 	[spriteset_Dobue_DVT_red_LOCO_loading];}
+
+//Spriteset purchase
+
+spriteset (spriteset_Dobue_DVT_LOCO_purchase, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_LOCO_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_DB_LOCO_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Dobue_DVT_LOCO_purchase2, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Dobue_DVT_LOCO_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_1x_32bpp.png", "gfx\Dobue_DVT\Dobue_DVT_red_LOCO_1x_mask.png")
+					{template_purchase(0, 0)}
+//Switches
+							
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Dobue_DVT_LOCO, 1){
+							return 1200;}
+							
+item (FEAT_TRAINS , ITEM_DOBUE_DVT_LOCO, 5000)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DOBUE_DVT_LOCO);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 58 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						misc_flags:						bitmask(TRAIN_FLAG_MU);
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						21 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: spritegroup_Dobue_DVT_DB_LOCO;
+			additional_text				: string(STR_DESC_DOBUE_DVT);
+			purchase					: spriteset_Dobue_DVT_LOCO_purchase;
+			cost_factor					: 10;
+			running_cost_factor			: switch_running_cost_Dobue_DVT_LOCO;							
+			}
+	}	
+
+item (FEAT_TRAINS , ITEM_DOBUE_DVT_LOCO_RED, 5001)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DOBUE_DVT_LOCO_RED);
+						variant_group:					5000;
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 58 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						misc_flags:						bitmask(TRAIN_FLAG_MU);
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						21 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: spritegroup_Dobue_DVT_red_LOCO;
+			additional_text				: string(STR_DESC_DOBUE_DVT);
+			purchase					: spriteset_Dobue_DVT_LOCO_purchase2;
+			cost_factor					: 10;
+			running_cost_factor			: switch_running_cost_Dobue_DVT_LOCO;							
+			}
+	}

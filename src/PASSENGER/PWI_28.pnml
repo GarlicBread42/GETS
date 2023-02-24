@@ -1,0 +1,291 @@
+
+//######################################
+//###"Donnerbüchsen"-Packwagen Pwi 28###
+//######################################
+
+//Spriteset DRG
+
+
+spriteset (spriteset_Pwi28_DRG, "gfx\Pwi28\Pwi28_DRG_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Pwi28_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DRG_1x_32bpp.png", "gfx\Pwi28\Pwi28_DRG_1x_mask.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Pwi28_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DRG_2x_32bpp.png", "gfx\Pwi28\Pwi28_DRG_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Pwi28_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DRG_4x_32bpp.png", "gfx\Pwi28\Pwi28_DRG_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+			
+				
+spriteset (spriteset_Pwi28_DRG_loading, "gfx\Pwi28\Pwi28_DRG_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Pwi28_DRG_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DRG_loading_1x_32bpp.png", "gfx\Pwi28\Pwi28_DRG_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Pwi28_DRG_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DRG_loading_2x_32bpp.png", "gfx\Pwi28\Pwi28_DRG_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Pwi28_DRG_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DRG_loading_4x_32bpp.png", "gfx\Pwi28\Pwi28_DRG_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+					
+spritegroup spritegroup_Pwi28_DRG
+		{
+			loaded: 	[spriteset_Pwi28_DRG];
+			loading: 	[spriteset_Pwi28_DRG_loading];}	
+			
+			
+//Spriteset DB
+
+
+spriteset (spriteset_Pwi28_DB, "gfx\Pwi28\Pwi28_DB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Pwi28_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DB_1x_32bpp.png", "gfx\Pwi28\Pwi28_DB_1x_mask.png")
+					{template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Pwi28_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DB_2x_32bpp.png", "gfx\Pwi28\Pwi28_DB_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Pwi28_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DB_4x_32bpp.png", "gfx\Pwi28\Pwi28_DB_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+			
+				
+spriteset (spriteset_Pwi28_DB_loading, "gfx\Pwi28\Pwi28_DB_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Pwi28_DB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DB_loading_1x_32bpp.png", "gfx\Pwi28\Pwi28_DB_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Pwi28_DB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DB_loading_2x_32bpp.png", "gfx\Pwi28\Pwi28_DB_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Pwi28_DB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DB_loading_4x_32bpp.png", "gfx\Pwi28\Pwi28_DB_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+					
+spritegroup spritegroup_Pwi28_DB
+		{
+			loaded: 	[spriteset_Pwi28_DB];
+			loading: 	[spriteset_Pwi28_DB_loading];}				
+
+//Spriteset Purchase
+
+
+spriteset (spriteset_Pwi28_purchase1, "gfx\Pwi28\Pwi28_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Pwi28_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DRG_1x_32bpp.png", "gfx\Pwi28\Pwi28_DRG_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+spriteset (spriteset_Pwi28_purchase2, "gfx\Pwi28\Pwi28_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}		
+				
+		alternative_sprites (spriteset_Pwi28_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Pwi28\Pwi28_DB_1x_32bpp.png", "gfx\Pwi28\Pwi28_DB_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+					
+//Switches
+
+						switch (FEAT_TRAINS, SELF, switch_purchase_Pwi28, current_year){
+							   0 .. 1945 : spriteset_Pwi28_purchase1;
+							1946 .. 2050 : spriteset_Pwi28_purchase2;
+							spriteset_Pwi28_purchase2;}	
+
+						switch (FEAT_TRAINS, SELF, switch_build_year_Pwi28, build_year){
+							   0 .. 1945 : spritegroup_Pwi28_DRG;
+							1946 .. 2050 : spritegroup_Pwi28_DB;
+							spritegroup_Pwi28_DB;}
+							
+						switch (FEAT_TRAINS, SELF, switch_current_year_Pwi28, current_year){
+							   0 .. 1945 : spritegroup_Pwi28_DRG;
+							1946 .. 2050 : spritegroup_Pwi28_DB;
+							spritegroup_Pwi28_DB;}							
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Pwi28, 1){
+							return 1200;}
+						
+						
+item (FEAT_TRAINS , ITEM_PWI28_BUILD, 5750)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PWI28_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1923,01,01);
+						model_life: 					53;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					116;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_build_year_Pwi28;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: switch_purchase_Pwi28;
+			cost_factor						: 250;
+			running_cost_factor				: switch_running_cost_Pwi28;
+			}
+		}
+
+item (FEAT_TRAINS , ITEM_PWI28_CURRENT, 5751)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PWI28_CURRENT);
+						variant_group:					5750;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1923,01,01);
+						model_life: 					53;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					116;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_current_year_Pwi28;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: switch_purchase_Pwi28;
+			cost_factor						: 250;
+			running_cost_factor				: switch_running_cost_Pwi28;
+			}
+		}
+
+item (FEAT_TRAINS , ITEM_PWI28_DRG, 5752)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PWI28_DRG);
+						variant_group:					5750;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1923,01,01);
+						model_life: 					53;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					116;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: spritegroup_Pwi28_DRG;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: spriteset_Pwi28_purchase1;
+			cost_factor						: 250;
+			running_cost_factor				: switch_running_cost_Pwi28;
+			}
+		}
+
+item (FEAT_TRAINS , ITEM_PWI28_DB, 5753)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PWI28_DB);
+						variant_group:					5750;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					30;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						20 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					116;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: spritegroup_Pwi28_DB;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: spriteset_Pwi28_purchase2;
+			cost_factor						: 250;
+			running_cost_factor				: switch_running_cost_Pwi28;
+			}
+		}

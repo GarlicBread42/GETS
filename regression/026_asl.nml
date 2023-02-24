@@ -1,0 +1,53 @@
+spritelayout layout1 {
+    building {
+        sprite: 0xA68 + animation_frame;
+    }
+}
+
+item(FEAT_AIRPORTTILES, tile1) {
+    graphics {
+        layout1;
+    }
+}
+
+template tmpl() {
+    [ 64,56, 20,19,  -14, -5, "opengfx_generic_trams1.pcx"]
+    b: []
+}
+
+spriteset(set2) {
+    tmpl()
+    []
+}
+
+spriteset(recset) {
+    recolour_sprite { 0x80 : 0x81; }
+    lbl: recolour_sprite { 0x80 : 0x82; }
+    []
+}
+
+spritelayout layout2 {
+    building {
+        sprite: set2(animation_frame);
+    }
+    building {
+        sprite: set2(b);
+        hide_sprite: nearby_tile_is_water(0, 0);
+        recolour_mode: RECOLOUR_REMAP;
+        palette: recset(lbl);
+    }
+}
+
+item(FEAT_AIRPORTTILES, tile2) {
+    graphics {
+        layout2;
+    }
+}
+
+item(FEAT_OBJECTS, tile2) {
+    graphics {
+        default: layout2;
+        colour: CB_FAILED;
+    }
+}
+

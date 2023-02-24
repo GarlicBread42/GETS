@@ -1,0 +1,79 @@
+//##################
+//### Laaijrs 587###
+//##################
+		
+		
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_Laaijrs_587_graphics, position_in_articulated_veh % 4) {
+							0:	   spriteset_empty;
+							1:     spritegroup_Kijls_450;
+							2:	   spriteset_empty;
+							3:     spritegroup_Kijls_450;}
+							
+							
+						switch(FEAT_TRAINS, SELF, switch_length_Laaijrs_587, position_in_vehid_chain % 4) {
+							0: 4;
+							1: 6;
+							2: 4;
+							3: 6;}															
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Laaijrs_587, extra_callback_info1) {
+						1: return ITEM_LAAIJRS_587;
+						2: return ITEM_LAAIJRS_587;
+						3: return ITEM_LAAIJRS_587;											
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Laaijrs_587, 1){
+						return 450;}				
+
+item (FEAT_TRAINS , ITEM_LAAIJRS_587, 8870)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_LAAIJRS_587);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2003,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS, CC_COVERED );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI, CLAY, KAOL, SASH];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						34 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					10;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Laaijrs_587_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Laaijrs_587;
+			length							: switch_length_Laaijrs_587;
+			purchase						: spriteset_Kijls_450_purchase;
+			cost_factor						: 215;
+			running_cost_factor				: switch_running_cost_Laaijrs_587;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

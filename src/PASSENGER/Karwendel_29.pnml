@@ -1,0 +1,464 @@
+//#############################
+//###Karwendel-Express Wagen###
+//#############################
+
+//Spritesets
+
+//Spritegroup Karwendel Express DRG Zweite Klasse Beige/Lila
+
+spriteset (spriteset_Karwendel_29_DRG_B_beige, "gfx/Karwendel_29/Karwendel_29_DRG_B_beige_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_DRG_B_beige, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_B_beige_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_B_beige_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Karwendel_29_DRG_B_beige, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_B_beige_2x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_B_beige_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Karwendel_29_DRG_B_beige, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_B_beige_4x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_B_beige_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Karwendel Express DRG Zweite Klasse Blau
+
+spriteset (spriteset_Karwendel_29_DRG_B_blau, "gfx/Karwendel_29/Karwendel_29_DRG_B_blau_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_DRG_B_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_B_blau_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_B_blau_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Karwendel_29_DRG_B_blau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_B_blau_2x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_B_blau_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Karwendel_29_DRG_B_blau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_B_blau_4x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_B_blau_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+//Spritegroup Karwendel Express DRG Dritte Klasse Beige/Lila
+
+spriteset (spriteset_Karwendel_29_DRG_C_beige, "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_DRG_C_beige, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Karwendel_29_DRG_C_beige, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_2x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Karwendel_29_DRG_C_beige, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_4x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritegroup Karwendel Express DRG Dritte Klasse Blau
+
+spriteset (spriteset_Karwendel_29_DRG_C_blau, "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_DRG_C_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Karwendel_29_DRG_C_blau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_2x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Karwendel_29_DRG_C_blau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_4x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_4x_mask.png")
+					{template_138trains_4x(0,0)}										
+
+//Spritegroup Karwendel Express DB Zweite Klasse
+
+spriteset (spriteset_Karwendel_29_DB_B, "gfx/Karwendel_29/Karwendel_29_DB_B_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_DB_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DB_B_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DB_B_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Karwendel_29_DB_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DB_B_2x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DB_B_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Karwendel_29_DB_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DB_B_4x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DB_B_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+//Spritegroup Karwendel Express DB Dritte Klasse
+
+spriteset (spriteset_Karwendel_29_DB_C, "gfx/Karwendel_29/Karwendel_29_DB_C_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_DB_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DB_C_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DB_C_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Karwendel_29_DB_C, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DB_C_2x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DB_C_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Karwendel_29_DB_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DB_C_4x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DB_C_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+//Spritesets purchase
+
+spriteset (spriteset_Karwendel_29_purchase1, "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_C_blau_1x_mask.png")
+					{template_purchase(0,0)}					
+					
+spriteset (spriteset_Karwendel_29_purchase2, "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DRG_C_beige_1x_mask.png")
+					{template_purchase(0,0)}									
+											
+spriteset (spriteset_Karwendel_29_purchase3, "gfx/Karwendel_29/Karwendel_29_DB_C_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Karwendel_29_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Karwendel_29/Karwendel_29_DB_C_1x_32bpp.png", "gfx/Karwendel_29/Karwendel_29_DB_C_1x_mask.png")
+					{template_purchase(0,0)}
+					
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_Karwendel_29,current_year) {
+							   0 .. 1932 : spriteset_Karwendel_29_purchase1;
+							1933 .. 1945 : spriteset_Karwendel_29_purchase2;
+							1946 .. 2050 : spriteset_Karwendel_29_purchase3;							
+								spriteset_Karwendel_29_purchase3;}	
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karwendel_29_DRG_B_beige, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karwendel_29_DRG_B_beige;
+							1: spritegroup_Gruppe_28_loading_2doors_beige;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karwendel_29_DRG_C_beige, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karwendel_29_DRG_C_beige;
+							1: spritegroup_Gruppe_28_loading_2doors_beige;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karwendel_29_DRG_B_blau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karwendel_29_DRG_B_blau;
+							1: spritegroup_Gruppe_28_loading_2doors_blau;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karwendel_29_DRG_C_blau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karwendel_29_DRG_C_blau;
+							1: spritegroup_Gruppe_28_loading_2doors_blau;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karwendel_29_DB_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karwendel_29_DB_B;
+							1: spritegroup_Gruppe_28_loading_2doors_DB;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Karwendel_29_DB_C, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Karwendel_29_DB_C;
+							1: spritegroup_Gruppe_28_loading_2doors_DB;}	
+
+						switch (FEAT_TRAINS, SELF, random_choose_Karwendel_29_DRG_beige, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_Karwendel_29_DRG_B_beige;
+								switch_spritestack_Karwendel_29_DRG_C_beige;}							
+
+						switch (FEAT_TRAINS, SELF, random_choose_Karwendel_29_DRG_blau, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_Karwendel_29_DRG_B_blau;
+								switch_spritestack_Karwendel_29_DRG_C_blau;}		
+								
+						switch (FEAT_TRAINS, SELF, random_choose_Karwendel_29_DB, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_Karwendel_29_DB_B;
+								switch_spritestack_Karwendel_29_DB_C;}																																																							
+
+						switch (FEAT_TRAINS,SELF,switch_build_year_Karwendel_29,build_year) {
+							   0 .. 1932 : random_choose_Karwendel_29_DRG_blau;
+							1933 .. 1945 : random_choose_Karwendel_29_DRG_beige;
+							1946 .. 2050 : random_choose_Karwendel_29_DB;
+								random_choose_Karwendel_29_DB;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_Karwendel_29,current_year) {
+							   0 .. 1932 : random_choose_Karwendel_29_DRG_blau;
+							1933 .. 1945 : random_choose_Karwendel_29_DRG_beige;
+							1946 .. 2050 : random_choose_Karwendel_29_DB;
+								random_choose_Karwendel_29_DB;}								
+																			
+					switch(FEAT_TRAINS, SELF, switch_length_Karwendel_29, position_in_vehid_chain % 3) {
+						0: 4;
+						1: 5;
+						2: 4;}
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Karwendel_29, 1){
+						return 2225;}
+
+					switch(FEAT_TRAINS, SELF, switch_Karwendel_29_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_Karwendel_29;
+							2:     spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Karwendel_29_build, extra_callback_info1) {
+						1 .. 2: return ITEM_KARWENDEL_29_BUILD;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+													
+item (FEAT_TRAINS , ITEM_KARWENDEL_29_BUILD, 7615)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARWENDEL_29_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1930,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					26;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Karwendel_29_graphics_build;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Karwendel_29;
+			articulated_part				: switch_articulated_Karwendel_29_build;
+			purchase						: switch_purchase_Karwendel_29;
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			 }
+		}	
+
+					switch(FEAT_TRAINS, SELF, switch_Karwendel_29_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_Karwendel_29;
+							2:     spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Karwendel_29_current, extra_callback_info1) {
+						1 .. 2: return ITEM_KARWENDEL_29_CURRENT;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+													
+item (FEAT_TRAINS , ITEM_KARWENDEL_29_CURRENT, 7616)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARWENDEL_29_CURRENT);
+						variant_group:					7615;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1930,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					26;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Karwendel_29_graphics_current;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Karwendel_29;
+			articulated_part				: switch_articulated_Karwendel_29_current;
+			purchase						: switch_purchase_Karwendel_29;
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			 }
+		}	
+
+
+					switch(FEAT_TRAINS, SELF, switch_Karwendel_29_graphics_DRG_blau, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Karwendel_29_DRG_blau;
+							2:     spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Karwendel_29_DRG_blau, extra_callback_info1) {
+						1 .. 2: return ITEM_KARWENDEL_29_DRG_BLAU;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+													
+item (FEAT_TRAINS , ITEM_KARWENDEL_29_DRG_BLAU, 7617)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARWENDEL_29_DRG_BLAU);
+						variant_group:					7615;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1930,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					26;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Karwendel_29_graphics_DRG_blau;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Karwendel_29;
+			articulated_part				: switch_articulated_Karwendel_29_DRG_blau;
+			purchase						: spriteset_Karwendel_29_purchase1;
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			 }
+		}	
+
+
+					switch(FEAT_TRAINS, SELF, switch_Karwendel_29_graphics_DRG_beige, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Karwendel_29_DRG_beige;
+							2:     spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Karwendel_29_DRG_beige, extra_callback_info1) {
+						1 .. 2: return ITEM_KARWENDEL_29_DRG_BEIGE;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+													
+item (FEAT_TRAINS , ITEM_KARWENDEL_29_DRG_BEIGE, 7618)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARWENDEL_29_DRG_BEIGE);
+						variant_group:					7615;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1933,01,01);
+						model_life: 					47;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					26;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Karwendel_29_graphics_DRG_beige;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Karwendel_29;
+			articulated_part				: switch_articulated_Karwendel_29_DRG_beige;
+			purchase						: spriteset_Karwendel_29_purchase2;
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_Karwendel_29_graphics_DB, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Karwendel_29_DB;
+							2:     spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Karwendel_29_DB, extra_callback_info1) {
+						1 .. 2: return ITEM_KARWENDEL_29_DB;												
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+													
+item (FEAT_TRAINS , ITEM_KARWENDEL_29_DB, 7619)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KARWENDEL_29_DB);
+						variant_group:					7615;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					34;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					26;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Karwendel_29_graphics_DB;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Karwendel_29;
+			articulated_part				: switch_articulated_Karwendel_29_DB;
+			purchase						: spriteset_Karwendel_29_purchase3;
+			cost_factor						: 450;
+			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			 }
+		}

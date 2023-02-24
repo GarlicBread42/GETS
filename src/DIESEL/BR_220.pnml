@@ -1,0 +1,409 @@
+//###############
+//### V 200.0 ###
+//###############
+
+//Altrot - Schriftzug Deutsche Bundesbahn
+
+spriteset(spriteset_v_200_0_altrot, "gfx/V_200_0/BR_V_200_0_altrot_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_altrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_altrot_1x_32bpp.png", "gfx/V_200_0/BR_V_200_0_altrot_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_altrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_altrot_2x_32bpp.png", "gfx/V_200_0/BR_V_200_0_altrot_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_altrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_altrot_4x_32bpp.png", "gfx/V_200_0/BR_V_200_0_altrot_4x_mask.png")
+									{template_118trains_4x(0, 0)}		
+									
+//Altrot - DB-Keks
+
+spriteset(spriteset_v_200_0_altrot_Keks, "gfx/V_200_0/BR_V_200_0_altrot_Keks_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_altrot_Keks, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_altrot_Keks_1x_32bpp.png", "gfx/V_200_0/BR_V_200_0_altrot_Keks_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_altrot_Keks, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_altrot_Keks_2x_32bpp.png", "gfx/V_200_0/BR_V_200_0_altrot_Keks_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_altrot_Keks, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_altrot_Keks_4x_32bpp.png", "gfx/V_200_0/BR_V_200_0_altrot_Keks_4x_mask.png")
+									{template_118trains_4x(0, 0)}										
+
+//Ozeanblau
+
+spriteset(spriteset_v_200_0_ozeanblau, "gfx/V_200_0/BR_V_200_0_ozeanblau_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_ozeanblau_1x_32bpp.png", "gfx/V_200_0/BR_V_200_0_ozeanblau_1x_mask.png")
+									{template_118trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_ozeanblau_2x_32bpp.png", "gfx/V_200_0/BR_V_200_0_ozeanblau_2x_mask.png")
+									{template_118trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_v_200_0_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_ozeanblau_4x_32bpp.png", "gfx/V_200_0/BR_V_200_0_ozeanblau_4x_mask.png")
+									{template_118trains_4x(0, 0)}
+
+//Spritesets purchase
+
+spriteset(spriteset_V_200_0_purchase1, "gfx/V_200_0/BR_V_200_0_altrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+									
+alternative_sprites (spriteset_V_200_0_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_altrot_1x_32bpp.png", "gfx/V_200_0/BR_V_200_0_altrot_1x_mask.png")
+									{template_purchase(0, 0)}	
+									
+spriteset(spriteset_V_200_0_purchase2, "gfx/V_200_0/BR_V_200_0_altrot_Keks_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_V_200_0_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_altrot_Keks_1x_32bpp.png", "gfx/V_200_0/BR_V_200_0_altrot_Keks_1x_mask.png")
+									{template_purchase(0, 0)}																	
+
+spriteset(spriteset_V_200_0_purchase3, "gfx/V_200_0/BR_V_200_0_ozeanblau_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+alternative_sprites (spriteset_V_200_0_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/V_200_0/BR_V_200_0_ozeanblau_1x_32bpp.png", "gfx/V_200_0/BR_V_200_0_ozeanblau_1x_mask.png")
+									{template_purchase(0, 0)}
+				
+//Switches	
+
+					switch (FEAT_TRAINS,SELF, switch_V_200_0_purchase,current_year){
+						    0 .. 1964: spriteset_V_200_0_purchase1;
+						 1965 .. 1974: spriteset_V_200_0_purchase2;
+						 1975 .. 2050: spriteset_V_200_0_purchase3;							 					 
+						 spriteset_V_200_0_purchase3;}
+
+					switch (FEAT_TRAINS,SELF, switch_V_200_0_current_year,current_year){
+						    0 .. 1964: spriteset_v_200_0_altrot;
+						 1965 .. 1974: spriteset_v_200_0_altrot_Keks;
+						 1975 .. 2050: spriteset_v_200_0_ozeanblau;							 					 
+						 spriteset_v_200_0_ozeanblau;}
+		
+					switch (FEAT_TRAINS,SELF, switch_V_200_0_build_year,build_year){
+						    0 .. 1964: spriteset_v_200_0_altrot;
+						 1965 .. 1974: spriteset_v_200_0_altrot_Keks;
+						 1975 .. 2050: spriteset_v_200_0_ozeanblau;							 					 
+						 spriteset_v_200_0_ozeanblau;}
+					
+					switch(FEAT_TRAINS, SELF, switch_length_V200_0, position_in_vehid_chain % 3) {
+						0: 4;
+						1: 3;
+						2: 4;}
+						
+					switch(FEAT_TRAINS, SELF, switch_FX_V_200_0, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+						1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+						
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_V_200_0, 1){
+						return 2700;}
+
+					switch(FEAT_TRAINS, SELF, switch_V200_0_graphics_build, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_V_200_0_build_year;
+						2:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_V200_0_build, extra_callback_info1) {
+						1: return ITEM_BR_220_BUILD; 
+						2: return ITEM_BR_220_BUILD;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+
+item (FEAT_TRAINS , ITEM_BR_220_BUILD, 2200)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_220_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2203 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.293;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_V200_0_graphics_build;
+			additional_text					:string(STR_DESC_EXPRESS);
+			length							:switch_length_V200_0;
+			articulated_part				:switch_articulated_V200_0_build;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:66;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:switch_V_200_0_purchase;
+			running_cost_factor				:switch_running_cost_V_200_0;
+			visual_effect_and_powered		:switch_FX_V_200_0;
+			
+			}
+	}
+	
+					switch(FEAT_TRAINS, SELF, switch_V200_0_graphics_current, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_V_200_0_current_year;
+						2:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_V200_0_current, extra_callback_info1) {
+						1: return ITEM_BR_220_CURRENT; 
+						2: return ITEM_BR_220_CURRENT;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+
+item (FEAT_TRAINS , ITEM_BR_220_CURRENT, 2201)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_220_CURRENT);
+						variant_group:					2200;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2203 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.293;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_V200_0_graphics_current;
+			additional_text					:string(STR_DESC_EXPRESS);
+			length							:switch_length_V200_0;
+			articulated_part				:switch_articulated_V200_0_current;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:66;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:switch_V_200_0_purchase;
+			running_cost_factor				:switch_running_cost_V_200_0;
+			visual_effect_and_powered		:switch_FX_V_200_0;
+			
+			}
+	}	
+	
+					switch(FEAT_TRAINS, SELF, switch_V200_0_graphics_altrot, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return spriteset_v_200_0_altrot;
+						2:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_V200_0_altrot, extra_callback_info1) {
+						1: return ITEM_BR_220_DB1; 
+						2: return ITEM_BR_220_DB1;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+							
+item (FEAT_TRAINS , ITEM_BR_220_DB1, 2202)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_220_DB1);
+						variant_group:					2200;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2203 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.293;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_V200_0_graphics_altrot;
+			additional_text					:string(STR_DESC_EXPRESS);
+			length							:switch_length_V200_0;
+			articulated_part				:switch_articulated_V200_0_altrot;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:66;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:spriteset_V_200_0_purchase1;
+			running_cost_factor				:switch_running_cost_V_200_0;
+			visual_effect_and_powered		:switch_FX_V_200_0;
+			
+			}
+	}		
+
+
+					switch(FEAT_TRAINS, SELF, switch_V200_0_graphics_DB2, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return spriteset_v_200_0_altrot_Keks;
+						2:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_V200_0_DB2, extra_callback_info1) {
+						1: return ITEM_BR_220_DB2; 
+						2: return ITEM_BR_220_DB2;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+							
+item (FEAT_TRAINS , ITEM_BR_220_DB2, 2203)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_220_DB2);
+						variant_group:					2200;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1965,01,01);
+						model_life: 					18;
+						vehicle_life: 					30;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2203 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.293;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_V200_0_graphics_DB2;
+			additional_text					:string(STR_DESC_EXPRESS);
+			length							:switch_length_V200_0;
+			articulated_part				:switch_articulated_V200_0_DB2;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:66;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:spriteset_V_200_0_purchase2;
+			running_cost_factor				:switch_running_cost_V_200_0;
+			visual_effect_and_powered		:switch_FX_V_200_0;
+			
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_V200_0_graphics_ozeanblau, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return spriteset_v_200_0_altrot_Keks;
+						2:	   spriteset_empty;}	
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_V200_0_ozeanblau, extra_callback_info1) {
+						1: return ITEM_BR_220_OZEANBLAU; 
+						2: return ITEM_BR_220_OZEANBLAU;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+							
+item (FEAT_TRAINS , ITEM_BR_220_OZEANBLAU, 2204)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_220_OZEANBLAU);
+						variant_group:					2200;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					8;
+						vehicle_life: 					30;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2203 hp;
+						weight: 						80 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.293;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_V200_0_graphics_ozeanblau;
+			additional_text					:string(STR_DESC_EXPRESS);
+			length							:switch_length_V200_0;
+			articulated_part				:switch_articulated_V200_0_ozeanblau;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:66;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:spriteset_V_200_0_purchase3;
+			running_cost_factor				:switch_running_cost_V_200_0;
+			visual_effect_and_powered		:switch_FX_V_200_0;
+			
+			}
+	}

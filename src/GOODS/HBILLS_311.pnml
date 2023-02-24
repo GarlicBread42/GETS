@@ -1,0 +1,149 @@
+//#################
+//###Hbbills 311###
+//#################
+
+	
+//Spriteset Variante 1
+
+spriteset (spriteset_Hbbills311_Var1, "gfx\Hbbills311/Hbbills311_Var1_1x_8bpp.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_Var1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var1_1x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var1_1x_mask.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_Var1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var1_2x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var1_2x_mask.png")
+					{template_108trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbbills311_Var1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var1_4x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var1_4x_mask.png")
+						{template_108trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbbills311_Var1_loading, "gfx\Hbbills311/Hbbills311_Var1_loading_1x_8bpp.png")
+						{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_Var1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var1_loading_1x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var1_loading_1x_mask.png")
+						{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_Var1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var1_loading_2x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var1_loading_2x_mask.png")
+					{template_108trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbbills311_Var1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var1_loading_4x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var1_loading_4x_mask.png")
+					{template_108trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbbills311_Var1
+		{loaded: 	[spriteset_Hbbills311_Var1];
+		 loading: 	[spriteset_Hbbills311_Var1_loading];}
+		 
+		 
+		 
+//Spriteset Variante 2
+
+spriteset (spriteset_Hbbills311_Var2, "gfx\Hbbills311/Hbbills311_Var2_1x_8bpp.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_Var2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var2_1x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var2_1x_mask.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_Var2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var2_2x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var2_2x_mask.png")
+					{template_108trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Hbbills311_Var2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var2_4x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var2_4x_mask.png")
+						{template_108trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Hbbills311_Var2_loading, "gfx\Hbbills311/Hbbills311_Var2_loading_1x_8bpp.png")
+						{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_Var2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var2_loading_1x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var2_loading_1x_mask.png")
+						{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_Var2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var2_loading_2x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var2_loading_2x_mask.png")
+					{template_108trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Hbbills311_Var2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var2_loading_4x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var2_loading_4x_mask.png")
+					{template_108trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Hbbills311_Var2
+		{loaded: 	[spriteset_Hbbills311_Var2];
+		 loading: 	[spriteset_Hbbills311_Var2_loading];}
+		 
+		 
+//Spriteset purchase
+
+spriteset (spriteset_Hbbills311_purchase, "gfx\Hbbills311/Hbbills311_Var1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Hbbills311_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Hbbills311/Hbbills311_Var1_1x_32bpp.png", "gfx\Hbbills311/Hbbills311_Var1_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+					
+//Switches
+
+					switch (FEAT_TRAINS, SELF, random_choose_Hbbills311, switch_alternative_var_random_bits(1, 1)) {			
+						0: spritegroup_Hbbills311_Var1;
+						1: spritegroup_Hbbills311_Var2;}						
+
+					switch(FEAT_TRAINS, SELF, switch_Hbbills311_graphics, position_in_articulated_veh % 2) {
+						0:	   spriteset_empty;
+						1:     random_choose_Hbbills311;}
+
+					switch(FEAT_TRAINS, SELF, switch_length_Hbbills311, position_in_articulated_veh % 2) {
+						0: 4;
+						1: 6;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Hbbills311, extra_callback_info1) {
+						1: return ITEM_HBBILLS311;
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Hbbills311, 1){
+						return 200;}								
+
+item (FEAT_TRAINS , ITEM_HBBILLS311, 8350)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HBBILLS311);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						18 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Hbbills311_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Hbbills311;
+			length							: switch_length_Hbbills311;			
+			purchase						: spriteset_Hbbills311_purchase;
+			cost_factor						: 97;
+			running_cost_factor				: switch_running_cost_Hbbills311;				
+			
+			 }
+		}	

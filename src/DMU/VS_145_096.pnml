@@ -1,0 +1,330 @@
+//####################
+//###DRG VS 145_096###
+//####################
+
+
+//Spriteset DRG
+
+spriteset(spriteset_VS_145_096_DRG, "gfx\VS_145_096/VS_145_096_DRG_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_DRG_1x_32bpp.png", "gfx\VS_145_096/VS_145_096_DRG_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_DRG_2x_32bpp.png", "gfx\VS_145_096/VS_145_096_DRG_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_DRG_4x_32bpp.png", "gfx\VS_145_096/VS_145_096_DRG_4x_mask.png")
+									{ template_148trains_4x(0, 0)}								
+
+
+//Spriteset DB
+
+spriteset(spriteset_VS_145_096_DB, "gfx\VS_145_096/VS_145_096_DB_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_DB_1x_32bpp.png", "gfx\VS_145_096/VS_145_096_DB_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_DB_2x_32bpp.png", "gfx\VS_145_096/VS_145_096_DB_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_DB_4x_32bpp.png", "gfx\VS_145_096/VS_145_096_DB_4x_mask.png")
+									{ template_148trains_4x(0, 0)}
+									
+//Spriteset loading
+
+spriteset(spriteset_VS_145_096_loading, "gfx\VS_145_096/VS_145_096_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_loading_1x_32bpp.png", "gfx\VS_145_096/VS_145_096_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_loading_2x_32bpp.png", "gfx\VS_145_096/VS_145_096_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_loading_4x_32bpp.png", "gfx\VS_145_096/VS_145_096_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}										
+
+		spritegroup spritegroup_VS_145_096_loading
+			{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_VS_145_096_loading];}
+			
+//Spriteset purchase
+
+spriteset(spriteset_VS_145_096_purchase1, "gfx\VS_145_096/VS_145_096_DRG_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_DRG_1x_32bpp.png", "gfx\VS_145_096/VS_145_096_DRG_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_VS_145_096_purchase2, "gfx\VS_145_096/VS_145_096_DB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_VS_145_096_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\VS_145_096/VS_145_096_DB_1x_32bpp.png", "gfx\VS_145_096/VS_145_096_DB_1x_mask.png")
+									{ template_purchase(0, 0)}																						
+
+//Switches
+
+						switch (FEAT_TRAINS,SELF, switch_VS_145_096_purchase,current_year){
+							   0 .. 1945: spriteset_VS_145_096_purchase1;
+							1946 .. 2000: spriteset_VS_145_096_purchase2;						
+										spriteset_VS_145_096_purchase2;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_VS_145_096_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_VS_145_096_DRG;
+							1: spritegroup_VS_145_096_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_VS_145_096_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_VS_145_096_DB;
+							1: spritegroup_VS_145_096_loading;}							
+
+						switch (FEAT_TRAINS,SELF, switch_VS_145_096_current_year,current_year){
+							   0 .. 1945: switch_spritestack_VS_145_096_DRG;
+							1946 .. 2000: switch_spritestack_VS_145_096_DB;						
+								switch_spritestack_VS_145_096_DB;}
+										
+						switch (FEAT_TRAINS,SELF, switch_VS_145_096_build_year,build_year){
+							   0 .. 1945: switch_spritestack_VS_145_096_DRG;
+							1946 .. 2000: switch_spritestack_VS_145_096_DB;						
+								switch_spritestack_VS_145_096_DB;}
+											
+						switch(FEAT_TRAINS, SELF, switch_length_VS_145_096, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_VS_145_096, 1){
+							return 1800;}
+
+						switch(FEAT_TRAINS, SELF, switch_VS_145_096_graphics_build, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_VS_145_096_build_year;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_VS_145_096_build, extra_callback_info1) {
+							1 .. 2: return ITEM_VS_145_096_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_VS_145_096_BUILD, 3450)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_VS_145_096_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1934,01,01);
+						model_life: 					38;
+						vehicle_life: 					38;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							110 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_VS_145_096_graphics_build;
+			additional_text				   : string(STR_DESC_VS_145);
+			length						   : switch_length_VS_145_096;
+			articulated_part			   : switch_articulated_VS_145_096_build;
+			purchase					   : switch_VS_145_096_purchase;		
+			cost_factor					   : 360;
+			running_cost_factor			   : switch_running_cost_VS_145_096;
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_VS_145_096_graphics_current, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_VS_145_096_current_year;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_VS_145_096_current, extra_callback_info1) {
+							1 .. 2: return ITEM_VS_145_096_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_VS_145_096_CURRENT, 3451)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_VS_145_096_CURRENT);
+						variant_group:					3450;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1934,01,01);
+						model_life: 					38;
+						vehicle_life: 					38;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							110 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_VS_145_096_graphics_current;
+			additional_text				   : string(STR_DESC_VS_145);
+			length						   : switch_length_VS_145_096;
+			articulated_part			   : switch_articulated_VS_145_096_current;
+			purchase					   : switch_VS_145_096_purchase;		
+			cost_factor					   : 360;
+			running_cost_factor			   : switch_running_cost_VS_145_096;
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_VS_145_096_graphics_DRG, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_VS_145_096_DRG;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_VS_145_096_DRG, extra_callback_info1) {
+							1 .. 2: return ITEM_VS_145_096_DRG;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_VS_145_096_DRG, 3452)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_VS_145_096_DRG);
+						variant_group:					3450;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1934,01,01);
+						model_life: 					38;
+						vehicle_life: 					38;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							110 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_VS_145_096_graphics_DRG;
+			additional_text				   : string(STR_DESC_VS_145);
+			length						   : switch_length_VS_145_096;
+			articulated_part			   : switch_articulated_VS_145_096_DRG;
+			purchase					   : spriteset_VS_145_096_purchase1;		
+			cost_factor					   : 360;
+			running_cost_factor			   : switch_running_cost_VS_145_096;
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_VS_145_096_graphics_DB, position_in_vehid_chain  % 3) {
+								0:     spriteset_empty;
+								1:     return switch_spritestack_VS_145_096_DB;
+								2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_VS_145_096_DB, extra_callback_info1) {
+							1 .. 2: return ITEM_VS_145_096_DB;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_VS_145_096_DB, 3453)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_VS_145_096_DB);
+						variant_group:					3450;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					26;
+						vehicle_life: 					38;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							110 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_VS_145_096_graphics_DB;
+			additional_text				   : string(STR_DESC_VS_145);
+			length						   : switch_length_VS_145_096;
+			articulated_part			   : switch_articulated_VS_145_096_DB;
+			purchase					   : spriteset_VS_145_096_purchase2;		
+			cost_factor					   : 360;
+			running_cost_factor			   : switch_running_cost_VS_145_096;
+			}
+	}

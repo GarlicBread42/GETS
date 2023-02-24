@@ -1,0 +1,218 @@
+//#####################
+//###Ootz 74/Fad 172###
+//#####################	
+	
+//Spriteset DB
+
+spriteset (spriteset_Fad172, "gfx\Fad172/Fad172_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fad172, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fad172/Fad172_1x_32bpp.png", "gfx\Fad172/Fad172_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fad172, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fad172/Fad172_2x_32bpp.png", "gfx\Fad172/Fad172_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fad172, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fad172/Fad172_4x_32bpp.png", "gfx\Fad172/Fad172_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+					
+//Spriteset RAG
+
+spriteset (spriteset_Fad172_RAG, "gfx\Fad172/Fad172_RAG_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fad172_RAG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fad172/Fad172_RAG_1x_32bpp.png", "gfx\Fad172/Fad172_RAG_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fad172_RAG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fad172/Fad172_RAG_2x_32bpp.png", "gfx\Fad172/Fad172_RAG_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fad172_RAG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fad172/Fad172_RAG_4x_32bpp.png", "gfx\Fad172/Fad172_RAG_4x_mask.png")
+					{template_88trains_4x(0, 0)}						
+					
+//Spriteset Purchase
+
+spriteset (spriteset_Fad172_purchase, "gfx\Fad172/Fad172_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Fad172_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fad172/Fad172_1x_32bpp.png", "gfx\Fad172/Fad172_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Fad172_purchase_RAG, "gfx\Fad172/Fad172_RAG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Fad172_purchase_RAG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fad172/Fad172_RAG_1x_32bpp.png", "gfx\Fad172/Fad172_RAG_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+//Switches
+
+							
+					switch(FEAT_TRAINS, SELF, switch_Fad172_loadstack, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Fad172;
+						1: spritegroup_Fad167_load;}
+						
+					switch(FEAT_TRAINS, SELF, switch_Fad172_RAG_loadstack, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Fad172_RAG;
+						1: spritegroup_Fad167_load;}	
+						
+					switch (FEAT_TRAINS, SELF, random_choose_Fad172, switch_alternative_var_random_bits(1, 1)) {
+						1: switch_Fad172_loadstack;
+						   switch_Fad172_RAG_loadstack;}	
+						   
+					 switch (FEAT_TRAINS,SELF, switch_Fad172_current,current_year){
+							   0 .. 1967: switch_Fad172_loadstack;
+							1968 .. 2050: random_choose_Fad172;				 					 
+							random_choose_Fad172;}						   										
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Fad172, 1){
+						return 305;}
+						
+item (FEAT_TRAINS , ITEM_FAD172, 8764)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_FAD172);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1964,01,01);
+						model_life: 					36;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					56;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Fad172_current;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Fad172_purchase;
+			cost_factor						: 155;
+			running_cost_factor				: switch_running_cost_Fad172;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+						
+item (FEAT_TRAINS , ITEM_FAD172_DB, 8765)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_FAD172_DB);
+						variant_group:					8764;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1964,01,01);
+						model_life: 					36;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					56;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Fad172_loadstack;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Fad172_purchase;
+			cost_factor						: 155;
+			running_cost_factor				: switch_running_cost_Fad172;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+		
+item (FEAT_TRAINS , ITEM_FAD172_RAG, 8766)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_FAD172_RAG);
+						variant_group:					8764;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1968,01,01);
+						model_life: 					36;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					56;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Fad172_RAG_loadstack;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Fad172_purchase_RAG;
+			cost_factor						: 155;
+			running_cost_factor				: switch_running_cost_Fad172;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}		

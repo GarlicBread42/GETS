@@ -1,0 +1,19 @@
+//#####################
+//###Empty spriteset###				
+//#####################	
+
+spriteset (spriteset_empty, "gfx/Empty/empty_pallette_1x_8bpp.png")
+//8bpp normal zoom
+				{template_empty(0, 0)}	
+				
+alternative_sprites (spriteset_empty, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Empty/empty_pallette_1x_32bpp.png", "gfx/Empty/empty_pallette_1x_mask.png")
+//32bpp normal zoom
+				{template_empty(0, 0)}
+				
+alternative_sprites (spriteset_empty, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Empty/empty_pallette_2x_32bpp.png", "gfx/Empty/empty_pallette_2x_mask.png")
+//32bpp 2x zoom
+				{template_empty(0, 0)}				
+			
+alternative_sprites (spriteset_empty, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Empty/empty_pallette_4x_32bpp.png", "gfx/Empty/empty_pallette_4x_mask.png")
+//32bpp 4x zoom
+				{template_empty(0, 0)}

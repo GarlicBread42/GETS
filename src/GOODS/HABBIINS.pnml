@@ -1,0 +1,299 @@
+//###############
+//###Habbiins ###
+//###############
+
+	
+//Spriteset Railion
+
+spriteset (spriteset_Habbiins_Railion, "gfx\Habbiins/Habbiins_Railion_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_Railion, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Railion_1x_32bpp.png", "gfx\Habbiins/Habbiins_Railion_1x_mask.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_Railion, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Railion_2x_32bpp.png", "gfx\Habbiins/Habbiins_Railion_2x_mask.png")
+					{template_148trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Habbiins_Railion, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Railion_4x_32bpp.png", "gfx\Habbiins/Habbiins_Railion_4x_mask.png")
+						{template_148trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Habbiins_Railion_loading, "gfx\Habbiins/Habbiins_Railion_loading_1x_8bpp.png")
+						{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_Railion_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Railion_loading_1x_32bpp.png", "gfx\Habbiins/Habbiins_Railion_loading_1x_mask.png")
+						{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_Railion_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Railion_loading_2x_32bpp.png", "gfx\Habbiins/Habbiins_Railion_loading_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Habbiins_Railion_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Railion_loading_4x_32bpp.png", "gfx\Habbiins/Habbiins_Railion_loading_4x_mask.png")
+					{template_148trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Habbiins_Railion
+		{loaded: 	[spriteset_Habbiins_Railion];
+		 loading: 	[spriteset_Habbiins_Railion_loading];}
+		 
+		 
+//Spriteset DB
+
+spriteset (spriteset_Habbiins_DB, "gfx\Habbiins/Habbiins_DB_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_DB_1x_32bpp.png", "gfx\Habbiins/Habbiins_DB_1x_mask.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_DB_2x_32bpp.png", "gfx\Habbiins/Habbiins_DB_2x_mask.png")
+					{template_148trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Habbiins_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_DB_4x_32bpp.png", "gfx\Habbiins/Habbiins_DB_4x_mask.png")
+						{template_148trains_4x(0, 0)}							
+						
+spritegroup spritegroup_Habbiins_DB
+		{loaded: 	[spriteset_Habbiins_DB];
+		 loading: 	[spriteset_Habbiins_Railion_loading];}		 
+		 
+	
+//Spriteset Transwaggon
+
+spriteset (spriteset_Habbiins_Transwaggon, "gfx\Habbiins/Habbiins_Transwaggon_1x_8bpp.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_Transwaggon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Transwaggon_1x_32bpp.png", "gfx\Habbiins/Habbiins_Transwaggon_1x_mask.png")
+					{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_Transwaggon, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Transwaggon_2x_32bpp.png", "gfx\Habbiins/Habbiins_Transwaggon_2x_mask.png")
+					{template_148trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Habbiins_Transwaggon, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Transwaggon_4x_32bpp.png", "gfx\Habbiins/Habbiins_Transwaggon_4x_mask.png")
+						{template_148trains_4x(0, 0)}		
+		
+
+spriteset (spriteset_Habbiins_Transwaggon_loading, "gfx\Habbiins/Habbiins_Transwaggon_loading_1x_8bpp.png")
+						{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_Transwaggon_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Transwaggon_loading_1x_32bpp.png", "gfx\Habbiins/Habbiins_Transwaggon_loading_1x_mask.png")
+						{template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_Transwaggon_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Transwaggon_loading_2x_32bpp.png", "gfx\Habbiins/Habbiins_Transwaggon_loading_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Habbiins_Transwaggon_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Transwaggon_loading_4x_32bpp.png", "gfx\Habbiins/Habbiins_Transwaggon_loading_4x_mask.png")
+					{template_148trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Habbiins_Transwaggon
+		{loaded: 	[spriteset_Habbiins_Transwaggon];
+		 loading: 	[spriteset_Habbiins_Transwaggon_loading];}
+
+
+//Spriteset purchase		 
+
+spriteset (spriteset_Habbiins_purchase, "gfx\Habbiins/Habbiins_Railion_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Railion_1x_32bpp.png", "gfx\Habbiins/Habbiins_Railion_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_Habbiins_purchase_Transwaggon, "gfx\Habbiins/Habbiins_Transwaggon_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Habbiins_purchase_Transwaggon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Habbiins/Habbiins_Transwaggon_1x_32bpp.png", "gfx\Habbiins/Habbiins_Transwaggon_1x_mask.png")
+					{template_purchase(0, 0)}
+										
+//Switches
+
+					switch (FEAT_TRAINS, SELF, random_choose_Habbiins, switch_alternative_var_random_bits(1, 2)) {
+							1: spritegroup_Habbiins_Railion;
+							2: spritegroup_Habbiins_Transwaggon;
+							3: spritegroup_Habbiins_DB;
+								spritegroup_Habbiins_DB;}	
+
+					switch (FEAT_TRAINS, SELF, random_choose_Habbiins_DB, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_Habbiins_Railion;
+								spritegroup_Habbiins_DB;}
+													
+					switch(FEAT_TRAINS, SELF, switch_length_Habbiins, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}
+						 		 
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Habbiins, 1){
+						return 450;}								
+
+					switch(FEAT_TRAINS, SELF, switch_Habbiins_graphics, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Habbiins;
+							2:     spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Habbiins, extra_callback_info1) {
+						1 .. 2: return ITEM_HABBIINS;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_HABBIINS, 8365)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HABBIINS);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						27 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					42;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Habbiins_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Habbiins;
+			length							: switch_length_Habbiins;			
+			purchase						: spriteset_Habbiins_purchase;
+			cost_factor						: 123;
+			running_cost_factor				: switch_running_cost_Habbiins;				
+			
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_Habbiins_graphics_DB, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_Habbiins_DB;
+							2:     spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Habbiins_DB, extra_callback_info1) {
+						1 .. 2: return ITEM_HABBIINS_DB;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_HABBIINS_DB, 8366)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HABBIINS_DB);
+						variant_group:					8365;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						27 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					42;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Habbiins_graphics_DB;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Habbiins_DB;
+			length							: switch_length_Habbiins;			
+			purchase						: spriteset_Habbiins_purchase;
+			cost_factor						: 123;
+			running_cost_factor				: switch_running_cost_Habbiins;				
+			
+			 }
+		}
+
+					switch(FEAT_TRAINS, SELF, switch_Habbiins_graphics_TRANSWAGGON, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return spritegroup_Habbiins_Transwaggon;
+							2:     spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Habbiins_TRANSWAGGON, extra_callback_info1) {
+						1 .. 2: return ITEM_HABBIINS_TRANSWAGGON;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_HABBIINS_TRANSWAGGON, 8367)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_HABBIINS_TRANSWAGGON);
+						variant_group:					8365;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PIECE_GOODS);
+						cargo_allow_refit:              [MAIL,GOOD,VALU,PAPR,DIAM,BDMT,BEER,BOOM,BRCK,CERA,CERE,DYES,ENSP,FERT,FICR,FMSP,GLAS,JAVA,PLAS,TYRE,WDPR,WOOL,ZINC,ALUM,BAKE,CIGR,COAT,COBL,FURN,METL,MNSP,MPTS,NUTS,PCL_,PIPE,SEED,SESP,SOAP,STAL,STCB,STSE,STSH,STST,STWR,TATO,VENG,VPTS,BATT,BUBL,FZDR,TOYS,];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						27 ton;
+						dual_headed: 					0;
+						default_cargo_type:				GOOD;
+						cargo_capacity:					42;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Habbiins_graphics_TRANSWAGGON;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Habbiins_TRANSWAGGON;
+			length							: switch_length_Habbiins;			
+			purchase						: spriteset_Habbiins_purchase_Transwaggon;
+			cost_factor						: 123;
+			running_cost_factor				: switch_running_cost_Habbiins;				
+			
+			 }
+		}

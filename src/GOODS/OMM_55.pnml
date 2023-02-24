@@ -1,0 +1,171 @@
+//############
+//###Omm 55###
+//############
+				
+					
+//Spriteset DB ohne Bremserhaus
+
+spriteset (spriteset_Omm_55_DB_OBH, "gfx\Omm_55/Omm_55_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Omm_55_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Omm_55/Omm_55_1x_32bpp.png", "gfx\Omm_55/Omm_55_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Omm_55_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Omm_55/Omm_55_2x_32bpp.png", "gfx\Omm_55/Omm_55_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Omm_55_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Omm_55/Omm_55_4x_32bpp.png", "gfx\Omm_55/Omm_55_4x_mask.png")
+					{template_68trains_4x(0, 0)}					
+
+
+//Spriteset Purchase
+spriteset (spriteset_Omm_55_purchase, "gfx\Omm_55/Omm_55_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Omm_55_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Omm_55/Omm_55_1x_32bpp.png", "gfx\Omm_55/Omm_55_1x_mask.png")
+					{template_purchase(0, 0)}					
+										
+
+//Switches
+																				
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_Barren;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_Box;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_Bulk;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_Bulk_covered;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_COPR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_COPR;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_Fass, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_Fass;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_Rohr, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_Rohr;}
+												
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_Timber;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Omm_55_OBH_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Omm_55_DB_OBH;
+						1: spritegroup_Oc_Muenster_OBH_load_Wood;}							
+								
+					switch(FEAT_TRAINS, SELF, switch_Omm_55_cargo_classes, cargo_classes) {
+							bitmask(CC_BULK): return switch_loadstack_Omm_55_OBH_Bulk;
+							bitmask(CC_COVERED): return switch_loadstack_Omm_55_OBH_Bulk_covered;
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_Omm_55_OBH_Box;
+							bitmask(CC_LIQUID): switch_loadstack_Omm_55_OBH_Fass;
+								switch_loadstack_Omm_55_OBH_Bulk;}									
+
+					switch (FEAT_TRAINS, SELF, switch_Omm_55_cargo_type, cargo_type_in_veh) {
+							STEL: return switch_loadstack_Omm_55_OBH_Barren;
+							METL: return switch_loadstack_Omm_55_OBH_Rohr;
+							ZINC: return switch_loadstack_Omm_55_OBH_Rohr;
+							COPR: return switch_loadstack_Omm_55_OBH_COPR;
+							STST: return switch_loadstack_Omm_55_OBH_Barren;
+							STSH: return switch_loadstack_Omm_55_OBH_Barren;
+							STSE: return switch_loadstack_Omm_55_OBH_Barren;
+							STAL: return switch_loadstack_Omm_55_OBH_Barren;
+							STCB: return switch_loadstack_Omm_55_OBH_Rohr;
+							STWR: return switch_loadstack_Omm_55_OBH_Rohr; 
+							CSTI: return switch_loadstack_Omm_55_OBH_Rohr;
+							PIPE: return switch_loadstack_Omm_55_OBH_Rohr;
+
+							ENSP: return switch_loadstack_Omm_55_OBH_Box;
+							FMSP: return switch_loadstack_Omm_55_OBH_Box;
+							MNSP: return switch_loadstack_Omm_55_OBH_Box;
+							POWR: return switch_loadstack_Omm_55_OBH_Box;
+							VPTS: return switch_loadstack_Omm_55_OBH_Box;
+							MPTS: return switch_loadstack_Omm_55_OBH_Box;
+							GOOD: return switch_loadstack_Omm_55_OBH_Box;
+							PAPR: return switch_loadstack_Omm_55_OBH_Box;
+							TYRE: return switch_loadstack_Omm_55_OBH_Box;
+							WOOL: return switch_loadstack_Omm_55_OBH_Box;
+							TEXT: return switch_loadstack_Omm_55_OBH_Box;	
+							SEED: return switch_loadstack_Omm_55_OBH_Box;	
+							FERT: return switch_loadstack_Omm_55_OBH_Box;
+	
+							FRVG: return switch_loadstack_Omm_55_OBH_Bulk_covered;
+							TATO: return switch_loadstack_Omm_55_OBH_Bulk_covered;
+	
+							BDMT: return switch_loadstack_Omm_55_OBH_Timber;
+							WDPR: return switch_loadstack_Omm_55_OBH_Timber;
+							WOOD: return switch_loadstack_Omm_55_OBH_Wood;
+							GLAS: return switch_loadstack_Omm_55_OBH_Box;
+							BRCK: return switch_loadstack_Omm_55_OBH_Box;
+							
+							ACID: return switch_loadstack_Omm_55_OBH_Fass;
+							COAT: return switch_loadstack_Omm_55_OBH_Fass;
+								switch_Omm_55_cargo_classes;}
+								
+						switch(FEAT_TRAINS, SELF, switch_speed_Omm_55, current_year){
+						1900 .. 1969: 80;
+						1970 .. 2050: 100;
+						100;}															
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Omm_55, 1){
+						return 175;}
+
+item (FEAT_TRAINS , ITEM_OMM_55, 8612)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OMM_55);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1955,01,01);
+						model_life: 					51;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED, CC_PIECE_GOODS, CC_LIQUID );
+						cargo_allow_refit:              [WOOD, BDMT, WDPR, TWOD];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						11 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Omm_55_cargo_type;
+			additional_text					: string(STR_DESC_OMM_55);
+			purchase						: spriteset_Omm_55_purchase;
+			cost_factor						: 80;
+			speed							: switch_speed_Omm_55;
+			running_cost_factor				: switch_running_cost_Omm_55;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}	

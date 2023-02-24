@@ -1,0 +1,951 @@
+//############################################
+//###KPEV/DRG/DB PR99 3-Achsige Abteilwagen###
+//############################################
+
+//KPEV-Sprites
+
+//KPEV AB
+
+spriteset (spriteset_PR99_AB_KPEV, "gfx\KPEV_PR99\PR99_AB_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_KPEV_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_KPEV_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_KPEV_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_KPEV_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_KPEV_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_KPEV_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_AB_KPEV_LOADING, "gfx\KPEV_PR99\PR99_AB_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_KPEV_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_KPEV_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_KPEV_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_KPEV_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_KPEV_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_KPEV_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_KPEV_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_KPEV_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_KPEV_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+										
+spritegroup spritegroup_PR99_AB_KPEV
+		{	loaded: 	[spriteset_PR99_AB_KPEV];
+			loading: 	[spriteset_PR99_AB_KPEV_LOADING];}
+			
+//KPEV BC
+
+spriteset (spriteset_PR99_BC_KPEV, "gfx\KPEV_PR99\PR99_BC_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_KPEV_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_KPEV_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_KPEV_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_KPEV_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_KPEV_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_KPEV_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_BC_KPEV_LOADING, "gfx\KPEV_PR99\PR99_BC_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_KPEV_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_KPEV_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_KPEV_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_KPEV_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_KPEV_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_KPEV_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_KPEV_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_KPEV_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_KPEV_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+										
+spritegroup spritegroup_PR99_BC_KPEV
+		{	loaded: 	[spriteset_PR99_BC_KPEV];
+			loading: 	[spriteset_PR99_BC_KPEV_LOADING];}			
+
+
+//KPEV C
+
+spriteset (spriteset_PR99_C_KPEV, "gfx\KPEV_PR99\PR99_C_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_KPEV_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_KPEV_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_KPEV_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_KPEV_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_KPEV_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_KPEV_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_C_KPEV_LOADING, "gfx\KPEV_PR99\PR99_C_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_KPEV_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_KPEV_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_KPEV_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_KPEV_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_KPEV_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_KPEV_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_KPEV_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_KPEV_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_KPEV_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+										
+spritegroup spritegroup_PR99_C_KPEV
+		{	loaded: 	[spriteset_PR99_C_KPEV];
+			loading: 	[spriteset_PR99_C_KPEV_LOADING];}			
+
+
+//KPEV D
+
+spriteset (spriteset_PR99_D_KPEV, "gfx\KPEV_PR99\PR99_D_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_KPEV_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_KPEV_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_KPEV_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_KPEV_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_KPEV_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_KPEV_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_D_KPEV_LOADING, "gfx\KPEV_PR99\PR99_D_KPEV_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_KPEV_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_KPEV_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_KPEV_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_KPEV_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_KPEV_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_KPEV_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_KPEV_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_KPEV_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_KPEV_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+										
+spritegroup spritegroup_PR99_D_KPEV
+		{	loaded: 	[spriteset_PR99_D_KPEV];
+			loading: 	[spriteset_PR99_D_KPEV_LOADING];}
+			
+			
+//DRG-Sprites
+
+//DRG AB mit Bremserhaus
+
+spriteset (spriteset_PR99_AB_DRG_MBH, "gfx\KPEV_PR99\PR99_AB_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_DRG_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_MBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_DRG_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_MBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_MBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_DRG_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_MBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_MBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_AB_DRG_MBH_LOADING, "gfx\KPEV_PR99\PR99_AB_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_DRG_MBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_MBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_MBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_DRG_MBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_MBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_DRG_MBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_MBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_AB_DRG_MBH
+		{	loaded: 	[spriteset_PR99_AB_DRG_MBH];
+			loading: 	[spriteset_PR99_AB_DRG_MBH_LOADING];}	
+			
+			
+//DRG AB ohne Bremserhaus
+
+spriteset (spriteset_PR99_AB_DRG_OBH, "gfx\KPEV_PR99\PR99_AB_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_DRG_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_OBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_OBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_DRG_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_OBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_OBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_DRG_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_OBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_OBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_AB_DRG_OBH_LOADING, "gfx\KPEV_PR99\PR99_AB_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_DRG_OBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_OBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_OBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_DRG_OBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_OBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_DRG_OBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DRG_OBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DRG_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_AB_DRG_OBH
+		{	loaded: 	[spriteset_PR99_AB_DRG_OBH];
+			loading: 	[spriteset_PR99_AB_DRG_OBH_LOADING];}
+			
+			
+//DRG BC mit Bremserhaus
+
+spriteset (spriteset_PR99_BC_DRG_MBH, "gfx\KPEV_PR99\PR99_BC_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_DRG_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_MBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_DRG_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_MBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_MBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_DRG_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_MBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_MBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_BC_DRG_MBH_LOADING, "gfx\KPEV_PR99\PR99_BC_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_DRG_MBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_MBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_MBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_DRG_MBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_MBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_DRG_MBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_MBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_BC_DRG_MBH
+		{	loaded: 	[spriteset_PR99_BC_DRG_MBH];
+			loading: 	[spriteset_PR99_BC_DRG_MBH_LOADING];}
+			
+			
+//DRG BC ohne Bremserhaus
+
+spriteset (spriteset_PR99_BC_DRG_OBH, "gfx\KPEV_PR99\PR99_BC_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_DRG_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_OBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_OBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_DRG_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_OBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_OBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_DRG_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_OBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_OBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_BC_DRG_OBH_LOADING, "gfx\KPEV_PR99\PR99_BC_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_DRG_OBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_OBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_OBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_DRG_OBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_OBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_DRG_OBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DRG_OBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DRG_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_BC_DRG_OBH
+		{	loaded: 	[spriteset_PR99_BC_DRG_OBH];
+			loading: 	[spriteset_PR99_BC_DRG_OBH_LOADING];}
+			
+			
+//DRG C mit Bremserhaus
+
+spriteset (spriteset_PR99_C_DRG_MBH, "gfx\KPEV_PR99\PR99_C_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_DRG_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_MBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_DRG_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_MBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_MBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_DRG_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_MBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_MBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_C_DRG_MBH_LOADING, "gfx\KPEV_PR99\PR99_C_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_DRG_MBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_MBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_MBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_DRG_MBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_MBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_DRG_MBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_MBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_C_DRG_MBH
+		{	loaded: 	[spriteset_PR99_C_DRG_MBH];
+			loading: 	[spriteset_PR99_C_DRG_MBH_LOADING];}
+			
+			
+//DRG C ohne Bremserhaus
+
+spriteset (spriteset_PR99_C_DRG_OBH, "gfx\KPEV_PR99\PR99_C_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_DRG_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_OBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_OBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_DRG_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_OBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_OBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_DRG_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_OBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_OBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_C_DRG_OBH_LOADING, "gfx\KPEV_PR99\PR99_C_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_DRG_OBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_OBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_OBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_DRG_OBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_OBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_DRG_OBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_OBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_C_DRG_OBH
+		{	loaded: 	[spriteset_PR99_C_DRG_OBH];
+			loading: 	[spriteset_PR99_C_DRG_OBH_LOADING];}
+			
+			
+//DRG D mit Bremserhaus
+
+spriteset (spriteset_PR99_D_DRG_MBH, "gfx\KPEV_PR99\PR99_D_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_DRG_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_MBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_DRG_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_MBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_MBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_DRG_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_MBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_MBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_D_DRG_MBH_LOADING, "gfx\KPEV_PR99\PR99_D_DRG_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_DRG_MBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_MBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_MBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_DRG_MBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_MBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_DRG_MBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_MBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_D_DRG_MBH
+		{	loaded: 	[spriteset_PR99_D_DRG_MBH];
+			loading: 	[spriteset_PR99_D_DRG_MBH_LOADING];}
+			
+			
+//DRG D ohne Bremserhaus
+
+spriteset (spriteset_PR99_D_DRG_OBH, "gfx\KPEV_PR99\PR99_D_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_DRG_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_OBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_OBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_DRG_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_OBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_OBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_DRG_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_OBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_OBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_D_DRG_OBH_LOADING, "gfx\KPEV_PR99\PR99_D_DRG_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_DRG_OBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_OBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_OBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_DRG_OBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_OBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_DRG_OBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DRG_OBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DRG_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_D_DRG_OBH
+		{	loaded: 	[spriteset_PR99_D_DRG_OBH];
+			loading: 	[spriteset_PR99_D_DRG_OBH_LOADING];}
+			
+			
+//DB-Sprites
+
+//DB AB mit Bremserhaus
+
+spriteset (spriteset_PR99_AB_DB_MBH, "gfx\KPEV_PR99\PR99_AB_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_DB_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_MBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_DB_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_MBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_MBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_DB_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_MBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_MBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_AB_DB_MBH_LOADING, "gfx\KPEV_PR99\PR99_AB_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_DB_MBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_MBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_MBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_DB_MBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_MBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_DB_MBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_MBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_AB_DB_MBH
+		{	loaded: 	[spriteset_PR99_AB_DB_MBH];
+			loading: 	[spriteset_PR99_AB_DB_MBH_LOADING];}
+			
+			
+//DB AB ohne Bremserhaus
+
+spriteset (spriteset_PR99_AB_DB_OBH, "gfx\KPEV_PR99\PR99_AB_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_OBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_OBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_OBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_OBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_OBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_OBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_AB_DB_OBH_LOADING, "gfx\KPEV_PR99\PR99_AB_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_AB_DB_OBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_OBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_OBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_AB_DB_OBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_OBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_AB_DB_OBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_AB_DB_OBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_AB_DB_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_AB_DB_OBH
+		{	loaded: 	[spriteset_PR99_AB_DB_OBH];
+			loading: 	[spriteset_PR99_AB_DB_OBH_LOADING];}
+			
+			
+//DB BC mit Bremserhaus
+
+spriteset (spriteset_PR99_BC_DB_MBH, "gfx\KPEV_PR99\PR99_BC_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_DB_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_MBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_DB_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_MBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_MBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_DB_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_MBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_MBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_BC_DB_MBH_LOADING, "gfx\KPEV_PR99\PR99_BC_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_DB_MBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_MBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_MBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_DB_MBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_MBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_DB_MBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_MBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_BC_DB_MBH
+		{	loaded: 	[spriteset_PR99_BC_DB_MBH];
+			loading: 	[spriteset_PR99_BC_DB_MBH_LOADING];}
+			
+			
+//DB BC ohne Bremserhaus
+
+spriteset (spriteset_PR99_BC_DB_OBH, "gfx\KPEV_PR99\PR99_BC_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_OBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_OBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_OBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_OBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_OBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_OBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_BC_DB_OBH_LOADING, "gfx\KPEV_PR99\PR99_BC_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_BC_DB_OBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_OBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_OBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_BC_DB_OBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_OBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_BC_DB_OBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_BC_DB_OBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_BC_DB_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_BC_DB_OBH
+		{	loaded: 	[spriteset_PR99_BC_DB_OBH];
+			loading: 	[spriteset_PR99_BC_DB_OBH_LOADING];}
+			
+			
+//DB C mit Bremserhaus
+
+spriteset (spriteset_PR99_C_DB_MBH, "gfx\KPEV_PR99\PR99_C_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_DB_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_MBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_DB_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_MBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_MBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_DB_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_MBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_MBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_C_DB_MBH_LOADING, "gfx\KPEV_PR99\PR99_C_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_DB_MBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_MBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_MBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_DB_MBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_MBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_DB_MBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_MBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_C_DB_MBH
+		{	loaded: 	[spriteset_PR99_C_DB_MBH];
+			loading: 	[spriteset_PR99_C_DB_MBH_LOADING];}
+			
+			
+//DB C ohne Bremserhaus
+
+spriteset (spriteset_PR99_C_DB_OBH, "gfx\KPEV_PR99\PR99_C_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_OBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_OBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_OBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_OBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_OBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_OBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_C_DB_OBH_LOADING, "gfx\KPEV_PR99\PR99_C_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_C_DB_OBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_OBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_OBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_C_DB_OBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_OBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_C_DB_OBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_OBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_C_DB_OBH
+		{	loaded: 	[spriteset_PR99_C_DB_OBH];
+			loading: 	[spriteset_PR99_C_DB_OBH_LOADING];}
+			
+			
+//DB D mit Bremserhaus
+
+spriteset (spriteset_PR99_D_DB_MBH, "gfx\KPEV_PR99\PR99_D_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_DB_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_MBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_DB_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_MBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_MBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_DB_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_MBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_MBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_D_DB_MBH_LOADING, "gfx\KPEV_PR99\PR99_D_DB_MBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_DB_MBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_MBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_MBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_DB_MBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_MBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_MBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_DB_MBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_MBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_MBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_D_DB_MBH
+		{	loaded: 	[spriteset_PR99_D_DB_MBH];
+			loading: 	[spriteset_PR99_D_DB_MBH_LOADING];}
+			
+			
+//DB D ohne Bremserhaus
+
+spriteset (spriteset_PR99_D_DB_OBH, "gfx\KPEV_PR99\PR99_D_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_OBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_OBH_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_OBH_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_OBH_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_OBH_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_OBH_4x_mask.png")
+					{template_88trains_4x(0,0)}
+
+
+spriteset (spriteset_PR99_D_DB_OBH_LOADING, "gfx\KPEV_PR99\PR99_D_DB_OBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_D_DB_OBH_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_OBH_loading_1x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_OBH_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_D_DB_OBH_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_OBH_loading_2x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_OBH_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_D_DB_OBH_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_D_DB_OBH_loading_4x_32bpp.png", "gfx\KPEV_PR99\PR99_D_DB_OBH_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}
+					
+spritegroup spritegroup_PR99_D_DB_OBH
+		{	loaded: 	[spriteset_PR99_D_DB_OBH];
+			loading: 	[spriteset_PR99_D_DB_OBH_LOADING];}	
+			
+			
+//Spriteset Purchase
+
+spriteset (spriteset_PR99_purchase1, "gfx\KPEV_PR99\PR99_C_KPEV_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_KPEV_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_KPEV_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_PR99_purchase2, "gfx\KPEV_PR99\PR99_C_DRG_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DRG_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DRG_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_PR99_purchase3, "gfx\KPEV_PR99\PR99_C_DB_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\KPEV_PR99\PR99_C_DB_MBH_1x_32bpp.png", "gfx\KPEV_PR99\PR99_C_DB_MBH_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+					
+//Switches
+
+					switch (FEAT_TRAINS,SELF,switch_purchase_KPEV_PR99,current_year) {
+						   0 .. 1919 : spriteset_PR99_purchase1;
+						1920 .. 1945 : spriteset_PR99_purchase2;
+						1946 .. 1980 : spriteset_PR99_purchase3;
+						spriteset_PR99_purchase3;}
+						
+					switch (FEAT_TRAINS, SELF, random_choose_PR99_KPEV, switch_alternative_var_random_bits(2, 2)) {
+						1: spritegroup_PR99_AB_KPEV;
+						2: spritegroup_PR99_BC_KPEV;
+						3: spritegroup_PR99_D_KPEV;											
+						spritegroup_PR99_C_KPEV;}
+						
+					random_switch (FEAT_TRAINS, SELF, random_choose_PR99_DRG,) {
+						1: spritegroup_PR99_AB_DRG_MBH;
+						1: spritegroup_PR99_AB_DRG_OBH; 
+						1: spritegroup_PR99_BC_DRG_MBH;
+						1: spritegroup_PR99_BC_DRG_OBH;
+						2: spritegroup_PR99_C_DRG_MBH; 
+						2: spritegroup_PR99_C_DRG_OBH;
+						1: spritegroup_PR99_D_DRG_MBH;
+						1: spritegroup_PR99_D_DRG_OBH;}	
+							
+					random_switch (FEAT_TRAINS, SELF, random_choose_PR99_DB,) {
+						1: spritegroup_PR99_AB_DB_MBH;
+						1: spritegroup_PR99_AB_DB_OBH; 
+						1: spritegroup_PR99_BC_DB_MBH;
+						1: spritegroup_PR99_BC_DB_OBH;
+						2: spritegroup_PR99_C_DB_MBH; 
+						2: spritegroup_PR99_C_DB_OBH;
+						1: spritegroup_PR99_D_DB_MBH;
+						1: spritegroup_PR99_D_DB_OBH;}	
+							
+					switch (FEAT_TRAINS,SELF,switch_current_year_KPEV_PR99,current_year) {
+						   0 .. 1919 : random_choose_PR99_KPEV;
+						1920 .. 1945 : random_choose_PR99_DRG;
+						1946 .. 1990 : random_choose_PR99_DB;
+						random_choose_PR99_DB;}	
+						
+					switch (FEAT_TRAINS,SELF,switch_build_year_KPEV_PR99,build_year) {
+						   0 .. 1919 : random_choose_PR99_KPEV;
+						1920 .. 1945 : random_choose_PR99_DRG;
+						1946 .. 1990 : random_choose_PR99_DB;
+						random_choose_PR99_DB;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_KPEV_PR99, 1){
+						return 870;}
+
+item (FEAT_TRAINS , ITEM_KPEV_PR99_BUILD, 7205)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KPEV_PR99_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					62;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					46;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_build_year_KPEV_PR99;
+			additional_text					: string(STR_DESC_PASS);
+			purchase						: switch_purchase_KPEV_PR99;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_KPEV_PR99;
+			}}
+
+item (FEAT_TRAINS , ITEM_KPEV_PR99_CURRENT, 7206)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KPEV_PR99_CURRENT);
+						variant_group:					7205;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					62;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					46;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_current_year_KPEV_PR99;
+			additional_text					: string(STR_DESC_PASS);
+			purchase						: switch_purchase_KPEV_PR99;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_KPEV_PR99;
+			}}
+
+item (FEAT_TRAINS , ITEM_KPEV_PR99_KPEV, 7207)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KPEV_PR99_KPEV);
+						variant_group:					7205;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					62;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					46;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_PR99_KPEV;
+			additional_text					: string(STR_DESC_PASS);
+			purchase						: spriteset_PR99_purchase1;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_KPEV_PR99;
+			}}
+
+item (FEAT_TRAINS , ITEM_KPEV_PR99_DRG, 7208)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KPEV_PR99_DRG);
+						variant_group:					7205;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					33;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					46;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_PR99_DRG;
+			additional_text					: string(STR_DESC_PASS);
+			purchase						: spriteset_PR99_purchase2;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_KPEV_PR99;
+			}}
+
+item (FEAT_TRAINS , ITEM_KPEV_PR99_DB, 7209)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KPEV_PR99_DB);
+						variant_group:					7205;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					7;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					46;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_PR99_DB;
+			additional_text					: string(STR_DESC_PASS);
+			purchase						: spriteset_PR99_purchase3;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_KPEV_PR99;
+			}}

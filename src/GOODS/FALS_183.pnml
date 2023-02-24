@@ -1,0 +1,297 @@
+//##############
+//###Fals 183###
+//##############
+	
+//Spriteset DB
+
+spriteset (spriteset_Fals183_DB, "gfx\Fals183/Fals183_DB_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_DB_1x_32bpp.png", "gfx\Fals183/Fals183_DB_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_DB_2x_32bpp.png", "gfx\Fals183/Fals183_DB_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fals183_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_DB_4x_32bpp.png", "gfx\Fals183/Fals183_DB_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+					
+					
+//Spriteset DB Cargo
+
+spriteset (spriteset_Fals183_Cargo, "gfx\Fals183/Fals183_Cargo_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_Cargo_1x_32bpp.png", "gfx\Fals183/Fals183_Cargo_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_Cargo_2x_32bpp.png", "gfx\Fals183/Fals183_Cargo_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fals183_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_Cargo_4x_32bpp.png", "gfx\Fals183/Fals183_Cargo_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+					
+//Spriteset DB RBH
+
+spriteset (spriteset_Fals183_RBH, "gfx\Fals183/Fals183_RBH_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_RBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_RBH_1x_32bpp.png", "gfx\Fals183/Fals183_RBH_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_RBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_RBH_2x_32bpp.png", "gfx\Fals183/Fals183_RBH_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Fals183_RBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_RBH_4x_32bpp.png", "gfx\Fals183/Fals183_RBH_4x_mask.png")
+					{template_88trains_4x(0, 0)}						
+					
+//Spriteset Purchase
+
+spriteset (spriteset_Fals183_purchase1, "gfx\Fals183/Fals183_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_DB_1x_32bpp.png", "gfx\Fals183/Fals183_DB_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Fals183_purchase2, "gfx\Fals183/Fals183_Cargo_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_Cargo_1x_32bpp.png", "gfx\Fals183/Fals183_Cargo_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Fals183_purchase3, "gfx\Fals183/Fals183_RBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Fals183_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_RBH_1x_32bpp.png", "gfx\Fals183/Fals183_RBH_1x_mask.png")
+					{template_purchase(0, 0)}					
+					
+//Switches
+
+					 switch (FEAT_TRAINS,SELF, switch_Fals183_purchase,current_year){
+							1900 .. 1998: spriteset_Fals183_purchase1;
+							1999 .. 2050: spriteset_Fals183_purchase2;				 					 
+							spriteset_Fals183_purchase2;}
+							
+					 switch (FEAT_TRAINS,SELF, switch_Fals183_current_year,current_year){
+							1900 .. 1998: spriteset_Fals183_DB;
+							1999 .. 2050: spriteset_Fals183_Cargo;				 					 
+							spriteset_Fals183_Cargo;}
+							
+					switch(FEAT_TRAINS, SELF, switch_Fals183_loadstack_current, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Fals183_current_year;
+						1: spritegroup_Fads176_load;}
+						
+					switch(FEAT_TRAINS, SELF, switch_Fals183_loadstack_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Fals183_DB;
+						1: spritegroup_Fads176_load;}
+						
+					switch(FEAT_TRAINS, SELF, switch_Fals183_loadstack_Cargo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Fals183_Cargo;
+						1: spritegroup_Fads176_load;}
+						
+					switch(FEAT_TRAINS, SELF, switch_Fals183_loadstack_RBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return spriteset_Fals183_RBH;
+						1: spritegroup_Fads176_load;}																		
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Fals183, 1){
+						return 475;}
+						
+item (FEAT_TRAINS , ITEM_FALS183, 8780)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_FALS183);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1981,01,01);
+						model_life: 					46;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						26 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					65;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Fals183_loadstack_current;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: switch_Fals183_purchase;
+			cost_factor						: 235;
+			running_cost_factor				: switch_running_cost_Fals183;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}		
+
+item (FEAT_TRAINS , ITEM_FALS183_DB, 8781)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_FALS183_DB);
+						variant_group:					8780;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1981,01,01);
+						model_life: 					46;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						26 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					65;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Fals183_loadstack_DB;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Fals183_purchase1;
+			cost_factor						: 235;
+			running_cost_factor				: switch_running_cost_Fals183;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+
+item (FEAT_TRAINS , ITEM_FALS183_CARGO, 8782)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_FALS183_CARGO);
+						variant_group:					8780;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life: 					28;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						26 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					65;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Fals183_loadstack_Cargo;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Fals183_purchase2;
+			cost_factor						: 235;
+			running_cost_factor				: switch_running_cost_Fals183;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_FALS183_RBH, 8783)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_FALS183_RBH);
+						variant_group:					8780;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life: 					28;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						26 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					65;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Fals183_loadstack_RBH;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Fals183_purchase3;
+			cost_factor						: 235;
+			running_cost_factor				: switch_running_cost_Fals183;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

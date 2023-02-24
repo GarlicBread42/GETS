@@ -1,0 +1,377 @@
+//############################################
+//###PR99 Preussischer 3-Achser Gepäckwagen###
+//############################################
+
+//Spritesets
+
+
+//Spriteset KPEV 
+
+spriteset (spriteset_PR99_PW_KPEV, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_1x_8bpp.png")
+					{ template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_PW_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_KPEV_1x_mask.png")
+					{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_PR99_PW_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_2x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_KPEV_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_PW_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_4x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_KPEV_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+		
+//Spriteset loading				
+				
+spriteset (spriteset_PR99_PW_KPEV_LOADING, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_loading_1x_8bpp.png")
+					{ template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_PW_KPEV_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_loading_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_KPEV_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_PW_KPEV_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_loading_2x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_KPEV_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_PW_KPEV_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_loading_4x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_KPEV_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}		
+						
+spritegroup spritegroup_PR99_PW_KPEV
+		{loaded: 	[spriteset_PR99_PW_KPEV];
+			loading: 	[spriteset_PR99_PW_KPEV_LOADING];}
+
+
+//Spriteset DRG 
+
+spriteset (spriteset_PR99_PW_DRG, "gfx/KPEV_PR99_PW/PR99_PW_DRG_1x_8bpp.png")
+					{ template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_PW_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DRG_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DRG_1x_mask.png")
+					{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_PR99_PW_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DRG_2x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DRG_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_PW_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DRG_4x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DRG_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+		
+//Spriteset loading				
+				
+spriteset (spriteset_PR99_PW_DRG_LOADING, "gfx/KPEV_PR99_PW/PR99_PW_DRG_loading_1x_8bpp.png")
+					{ template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_PW_DRG_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DRG_loading_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DRG_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_PW_DRG_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DRG_loading_2x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DRG_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_PW_DRG_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DRG_loading_4x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DRG_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}		
+						
+spritegroup spritegroup_PR99_PW_DRG
+		{loaded: 	[spriteset_PR99_PW_DRG];
+			loading: 	[spriteset_PR99_PW_DRG_LOADING];}
+		
+		
+//Spriteset DB
+
+spriteset (spriteset_PR99_PW_DB, "gfx/KPEV_PR99_PW/PR99_PW_DB_1x_8bpp.png")
+					{ template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_PW_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DB_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DB_1x_mask.png")
+					{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_PR99_PW_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DB_2x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DB_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_PW_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DB_4x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DB_4x_mask.png")
+					{template_88trains_4x(0,0)}	
+		
+//Spriteset loading				
+				
+spriteset (spriteset_PR99_PW_DB_LOADING, "gfx/KPEV_PR99_PW/PR99_PW_DB_loading_1x_8bpp.png")
+					{ template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_PW_DB_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DB_loading_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DB_loading_1x_mask.png")
+					{template_88trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_PR99_PW_DB_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DB_loading_2x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DB_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_PR99_PW_DB_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DB_loading_4x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DB_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}		
+						
+spritegroup spritegroup_PR99_PW_DB
+		{loaded: 	[spriteset_PR99_PW_DB];
+			loading: 	[spriteset_PR99_PW_DB_LOADING];}					
+
+//Spriteset Purchase 
+
+spriteset (spriteset_PR99_PW_purchase1, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_1x_8bpp.png")
+						{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_PW_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_KPEV_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_KPEV_1x_mask.png")
+						{template_purchase(0, 0)}
+					
+spriteset (spriteset_PR99_PW_purchase2, "gfx/KPEV_PR99_PW/PR99_PW_DRG_1x_8bpp.png")
+						{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_PR99_PW_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DRG_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DRG_1x_mask.png")
+						{template_purchase(0, 0)}
+						
+spriteset (spriteset_PR99_PW_purchase3, "gfx/KPEV_PR99_PW/PR99_PW_DB_1x_8bpp.png")
+						{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_PR99_PW_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/KPEV_PR99_PW/PR99_PW_DB_1x_32bpp.png", "gfx/KPEV_PR99_PW/PR99_PW_DB_1x_mask.png")
+						{template_purchase(0, 0)}	
+						
+//Switches					
+
+					switch (FEAT_TRAINS,SELF,switch_purchase_PR99_PW,current_year) {
+						   0 .. 1919 : spriteset_PR99_PW_purchase1;
+						1920 .. 1945 : spriteset_PR99_PW_purchase2;
+						1946 .. 2050 : spriteset_PR99_PW_purchase3;
+							spriteset_PR99_PW_purchase3;}
+						
+					switch (FEAT_TRAINS,SELF,switch_build_year_PR99_PW,build_year) {
+						   0 .. 1919 : spritegroup_PR99_PW_KPEV;
+						1920 .. 1945 : spritegroup_PR99_PW_DRG;
+						1946 .. 2050 : spritegroup_PR99_PW_DB;
+							spritegroup_PR99_PW_DB;}
+
+					switch (FEAT_TRAINS,SELF,switch_current_year_PR99_PW,current_year) {
+						   0 .. 1919 : spritegroup_PR99_PW_KPEV;
+						1920 .. 1945 : spritegroup_PR99_PW_DRG;
+						1946 .. 2050 : spritegroup_PR99_PW_DB;
+							spritegroup_PR99_PW_DB;}					
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_PR99_PW, 1){
+						return 870;}																																
+
+
+item (FEAT_TRAINS , ITEM_PR99_PW_BUILD, 5604)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PR99_PW_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					63;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					92;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_build_year_PR99_PW;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: switch_purchase_PR99_PW;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_PR99_PW;				
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_PR99_PW_CURRENT, 5605)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PR99_PW_CURRENT);
+						variant_group:					5604;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					63;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					92;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_current_year_PR99_PW;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: switch_purchase_PR99_PW;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_PR99_PW;				
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_PR99_PW_KPEV, 5606)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PR99_PW_KPEV);
+						variant_group:					5604;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					63;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					92;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_PR99_PW_KPEV;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: spriteset_PR99_PW_purchase1;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_PR99_PW;				
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_PR99_PW_DRG, 5607)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PR99_PW_DRG);
+						variant_group:					5604;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					34;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					92;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_PR99_PW_DRG;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: spriteset_PR99_PW_purchase2;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_PR99_PW;				
+			 }
+		}
+		
+item (FEAT_TRAINS , ITEM_PR99_PW_DB, 5608)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_PR99_PW_DB);
+						variant_group:					5604;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					8;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					92;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_PR99_PW_DB;
+			additional_text					: string(STR_DESC_BAGG);
+			purchase						: spriteset_PR99_PW_purchase3;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_PR99_PW;				
+			 }
+		}

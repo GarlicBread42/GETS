@@ -1,0 +1,8 @@
+//#########################################
+//Andys random procedure
+//#########################################
+switch (FEAT_TRAINS, SELF, switch_alternative_var_random_bits, bits_offset, bits_count,
+                                            [STORE_TEMP(-1 * position_in_articulated_veh, 0x10F),
+                                             getbits(var[0x61, 8, 0x00FFFFFF, 0x5F], bits_offset, bits_count)]) {
+    return;
+}
