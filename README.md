@@ -19,7 +19,9 @@ This grf uses StarRaids NML-Patcher to build. To build from source, you'll need 
 **Licensing and Thanks**
 
 This grf is licensed under GPL v2.0. Non-comercial redistribution, decompiling, and modifying are all encouraged.
+
 The Team wants to thank:
+
 Timberwolf for creating, providing and teaching the Voxel-to-Sprite-Toolchain.
 StarRaid for his NML-patcher.
 andythenorth, 2TallTyler, EmperorJake, and countless other Dev's for advice, remarks and suggestions - but most of all for patient answers on tons of questions.
