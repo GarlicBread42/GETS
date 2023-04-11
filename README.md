@@ -9,6 +9,8 @@ Trains are carefully modelled after their real-life models using Magica Voxel an
 Compatible with OpenTTD 13.0 and after, the grf makes use of the new variants feature, displaying most trains in historic and up-to-date liveries 
 of either German State or Privately owned railway companies.
 
+The trains in this grf are longer than standard and do not contain a Company-Colour Option. Multiple-Units are fixed length and try to resemble those consists found on german rails. 
+
 **How to build from source?**
 
 The pre-compiled grf is only available via OpenTTD's online content downloader at the moment.
@@ -21,4 +23,3 @@ The Team wants to thank:
 Timberwolf for creating, providing and teaching the Voxel-to-Sprite-Toolchain.
 StarRaid for his NML-patcher.
 andythenorth, 2TallTyler, EmperorJake, and countless other Dev's for advice, remarks and suggestions - but most of all for patient answers on tons of questions.
-
