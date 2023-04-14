@@ -130,7 +130,9 @@ item (FEAT_TRAINS , ITEM_E_73_0_BUILD, 1730)
 			graphics
 			{
 			default							: switch_E_73_0_build_year;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_E_73_0_purchase;
@@ -180,7 +182,9 @@ item (FEAT_TRAINS , ITEM_E_73_0_CURRENT, 1731)
 			graphics
 			{
 			default							: switch_E_73_0_current_year;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_E_73_0_purchase;
@@ -230,7 +234,9 @@ item (FEAT_TRAINS , ITEM_E_73_0_BAY, 1732)
 			graphics
 			{
 			default							: spriteset_E_73_0_bay;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_E_73_0_purchase1;
@@ -280,7 +286,9 @@ item (FEAT_TRAINS , ITEM_E_73_0_DRG2, 1733)
 			graphics
 			{
 			default							: spriteset_E_73_0_DRG2;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_E_73_0_purchase2;
@@ -330,7 +338,9 @@ item (FEAT_TRAINS , ITEM_E_73_0_DRG, 1734)
 			graphics
 			{
 			default							: spriteset_E_73_0_DRG;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_E_73_0_purchase3;

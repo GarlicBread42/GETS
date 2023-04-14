@@ -755,7 +755,9 @@ item (FEAT_TRAINS , ITEM_BR_401_12_BUILD, 4010)
 			graphics
 			{
 			default							: switch_reverse_BR_401_12_build;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_12;
 			articulated_part				: switch_articulated_BR_401_12_build;
 			can_attach_wagon				: switch_coupling_BR_401_12;
@@ -906,7 +908,9 @@ item (FEAT_TRAINS , ITEM_BR_401_12_CURRENT, 4011)
 			graphics
 			{
 			default							: switch_reverse_BR_401_12_current;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_12;
 			articulated_part				: switch_articulated_BR_401_12_current;
 			can_attach_wagon				: switch_coupling_BR_401_12;
@@ -1057,7 +1061,9 @@ item (FEAT_TRAINS , ITEM_BR_401_12_ALT, 4012)
 			graphics
 			{
 			default							: switch_reverse_BR_401_12_alt;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_12;
 			articulated_part				: switch_articulated_BR_401_12_alt;
 			can_attach_wagon				: switch_coupling_BR_401_12;
@@ -1208,7 +1214,9 @@ item (FEAT_TRAINS , ITEM_BR_401_12_NEU, 4013)
 			graphics
 			{
 			default							: switch_reverse_BR_401_12_neu;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_12;
 			articulated_part				: switch_articulated_BR_401_12_neu;
 			can_attach_wagon				: switch_coupling_BR_401_12;
@@ -1360,7 +1368,9 @@ item (FEAT_TRAINS , ITEM_BR_401_12_KLIMA, 4014)
 			graphics
 			{
 			default							: switch_reverse_BR_401_12_Klima;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_12;
 			articulated_part				: switch_articulated_BR_401_12_Klima;
 			can_attach_wagon				: switch_coupling_BR_401_12;
@@ -1547,7 +1557,9 @@ item (FEAT_TRAINS , ITEM_BR_401_9_BUILD, 4015)
 			graphics
 			{
 			default							: switch_reverse_BR_401_9_build;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_9;
 			articulated_part				: switch_articulated_BR_401_9_build;
 			can_attach_wagon				: switch_coupling_BR_401_9;
@@ -1680,7 +1692,9 @@ item (FEAT_TRAINS , ITEM_BR_401_9_CURRENT, 4016)
 			graphics
 			{
 			default							: switch_reverse_BR_401_9_current;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_9;
 			articulated_part				: switch_articulated_BR_401_9_current;
 			can_attach_wagon				: switch_coupling_BR_401_9;
@@ -1813,7 +1827,9 @@ item (FEAT_TRAINS , ITEM_BR_401_9_ALT, 4017)
 			graphics
 			{
 			default							: switch_reverse_BR_401_9_alt;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_9;
 			articulated_part				: switch_articulated_BR_401_9_alt;
 			can_attach_wagon				: switch_coupling_BR_401_9;
@@ -1946,7 +1962,9 @@ item (FEAT_TRAINS , ITEM_BR_401_9_NEU, 4018)
 			graphics
 			{
 			default							: switch_reverse_BR_401_9_neu;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_9;
 			articulated_part				: switch_articulated_BR_401_9_neu;
 			can_attach_wagon				: switch_coupling_BR_401_9;
@@ -2079,7 +2097,9 @@ item (FEAT_TRAINS , ITEM_BR_401_9_KLIMA, 4019)
 			graphics
 			{
 			default							: switch_reverse_BR_401_9_Klima;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_401_9;
 			articulated_part				: switch_articulated_BR_401_9_Klima;
 			can_attach_wagon				: switch_coupling_BR_401_9;

@@ -381,7 +381,9 @@ item (FEAT_TRAINS , ITEM_E_62_BUILD, 1620)
 			graphics
 			{
 			default							: switch_E_62_build_year;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_E_62_purchase;
@@ -432,7 +434,9 @@ item (FEAT_TRAINS , ITEM_E_62_CURRENT, 1621)
 			graphics
 			{
 			default							: switch_E_62_current_year;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_E_62_purchase;
@@ -483,7 +487,9 @@ item (FEAT_TRAINS , ITEM_E_62_BAY, 1622)
 			graphics
 			{
 			default							: switch_spritestack_E_62_BAY;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_spritestack_E_62_purchase1;
@@ -534,7 +540,9 @@ item (FEAT_TRAINS , ITEM_E_62_DRG2, 1623)
 			graphics
 			{
 			default							: switch_spritestack_E_62_DRG2;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_spritestack_E_62_purchase2;
@@ -586,7 +594,9 @@ item (FEAT_TRAINS , ITEM_E_62_DRG1, 1624)
 			graphics
 			{
 			default							: switch_spritestack_E_62_DRG1;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_spritestack_E_62_purchase3;
@@ -606,8 +616,8 @@ item (FEAT_TRAINS , ITEM_E_62_DB, 1625)
 						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
 						climates_available: 			ALL_CLIMATES;
 						engine_class: 					ENGINE_CLASS_ELECTRIC;						
-						introduction_date: 				date(1927,01,01);
-						model_life: 					28;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					9;
 						vehicle_life: 					40;
 						retire_early: 					-10;							
 						reliability_decay: 				20;
@@ -637,7 +647,9 @@ item (FEAT_TRAINS , ITEM_E_62_DB, 1625)
 			graphics
 			{
 			default							: switch_spritestack_E_62_DB;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_spritestack_E_62_purchase4;

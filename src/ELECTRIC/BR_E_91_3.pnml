@@ -206,7 +206,9 @@ item (FEAT_TRAINS , ITEM_E_91_3_BUILD, 1910)
 			graphics
 			{
 			default							: switch_E_91_3_graphics_build;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_91_3;
 			articulated_part				: switch_articulated_E_91_3_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -269,7 +271,9 @@ item (FEAT_TRAINS , ITEM_E_91_3_CURRENT, 1911)
 			graphics
 			{
 			default							: switch_E_91_3_graphics_current;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_91_3;
 			articulated_part				: switch_articulated_E_91_3_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -332,7 +336,9 @@ item (FEAT_TRAINS , ITEM_E_91_3_KPEV, 1912)
 			graphics
 			{
 			default							: switch_E_91_3_graphics_KPEV;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_91_3;
 			articulated_part				: switch_articulated_E_91_3_KPEV;
 			purchase_cargo_capacity		    : 0 ;
@@ -395,7 +401,9 @@ item (FEAT_TRAINS , ITEM_E_91_3_DRG, 1913)
 			graphics
 			{
 			default							: switch_E_91_3_graphics_DRG;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_91_3;
 			articulated_part				: switch_articulated_E_91_3_DRG;
 			purchase_cargo_capacity		    : 0 ;

@@ -282,7 +282,9 @@ item (FEAT_TRAINS , ITEM_BR_92_1, 0920)
 					graphics
 				{
 						default						    : switch_BR_92_1_build_year;
-						additional_text				    : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_92_1_purchase;
@@ -334,7 +336,9 @@ item (FEAT_TRAINS , ITEM_BR_92_1_CURRENT, 0921)
 					graphics
 				{
 						default						    : switch_BR_92_1_current_year;
-						additional_text				    : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_92_1_purchase;
@@ -385,7 +389,9 @@ item (FEAT_TRAINS , ITEM_BR_92_1_KWSE, 0922)
 					graphics
 				{
 						default						    : switch_reverse_BR_92_1_KWSE;
-						additional_text				    : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_92_1_purchase1;
@@ -436,7 +442,9 @@ item (FEAT_TRAINS , ITEM_BR_92_1_DRG, 0923)
 					graphics
 				{
 						default						    : switch_reverse_BR_92_1_DRG;
-						additional_text				    : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_92_1_purchase2;

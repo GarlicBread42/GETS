@@ -206,7 +206,9 @@ item (FEAT_TRAINS , ITEM_BR_44, 0440)
 			graphics
 			{
 			default						   : switch_BR_44_graphics_build;
-			additional_text				   : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   : switch_length_BR_44;
 			articulated_part			   : switch_articulated_BR_44_build;
 			purchase_cargo_capacity        : 0 ;
@@ -272,7 +274,9 @@ item (FEAT_TRAINS , ITEM_BR_44_CURRENT, 0441)
 			graphics
 			{
 			default						   : switch_BR_44_graphics_current;
-			additional_text				   : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   : switch_length_BR_44;
 			articulated_part			   : switch_articulated_BR_44_current;
 			purchase_cargo_capacity        : 0 ;
@@ -338,7 +342,9 @@ item (FEAT_TRAINS , ITEM_BR_44_DRG, 0442)
 			graphics
 			{
 			default						   : switch_BR_44_graphics_DRG;
-			additional_text				   : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   : switch_length_BR_44;
 			articulated_part			   : switch_articulated_BR_44_DRG;
 			purchase_cargo_capacity        : 0 ;
@@ -404,7 +410,9 @@ item (FEAT_TRAINS , ITEM_BR_44_DB, 0443)
 			graphics
 			{
 			default						   : switch_BR_44_graphics_DB;
-			additional_text				   : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   : switch_length_BR_44; 
 			articulated_part			   : switch_articulated_BR_44_DB;
 			purchase_cargo_capacity        : 0 ;

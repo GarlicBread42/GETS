@@ -374,7 +374,9 @@ item (FEAT_TRAINS , ITEM_ET_31_3_BUILD, 4310)
 			graphics
 			{
 			default							: switch_ET_31_3_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_31_3;
 			articulated_part				: switch_articulated_ET_31_3_build;
 			can_attach_wagon				: switch_coupling_ET_31;
@@ -445,7 +447,9 @@ item (FEAT_TRAINS , ITEM_ET_31_3_CURRENT, 4311)
 			graphics
 			{
 			default							: switch_ET_31_3_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_31_3;
 			articulated_part				: switch_articulated_ET_31_3_current;
 			can_attach_wagon				: switch_coupling_ET_31;
@@ -516,7 +520,9 @@ item (FEAT_TRAINS , ITEM_ET_31_3_DRG, 4312)
 			graphics
 			{
 			default							: switch_ET_31_3_graphics_DRG;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_31_3;
 			articulated_part				: switch_articulated_ET_31_3_DRG;
 			can_attach_wagon				: switch_coupling_ET_31;
@@ -588,7 +594,9 @@ item (FEAT_TRAINS , ITEM_ET_31_3_DB, 4313)
 			graphics
 			{
 			default							: switch_ET_31_3_graphics_DB;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_31_3;
 			articulated_part				: switch_articulated_ET_31_3_DB;
 			can_attach_wagon				: switch_coupling_ET_31;
@@ -695,7 +703,9 @@ item (FEAT_TRAINS , ITEM_ET_31_4_BUILD, 4314)
 			graphics
 			{
 			default							: switch_ET_31_4_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_31_4;
 			articulated_part				: switch_articulated_ET_31_4_build;
 			can_attach_wagon				: switch_coupling_ET_31;
@@ -771,7 +781,9 @@ item (FEAT_TRAINS , ITEM_ET_31_4_CURRENT, 4315)
 			graphics
 			{
 			default							: switch_ET_31_4_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_31_4;
 			articulated_part				: switch_articulated_ET_31_4_current;
 			can_attach_wagon				: switch_coupling_ET_31;
@@ -845,7 +857,9 @@ item (FEAT_TRAINS , ITEM_ET_31_4_DRG, 4316)
 			graphics
 			{
 			default							: switch_ET_31_4_graphics_DRG;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_31_4;
 			articulated_part				: switch_articulated_ET_31_4_DRG;
 			can_attach_wagon				: switch_coupling_ET_31;
@@ -919,7 +933,9 @@ item (FEAT_TRAINS , ITEM_ET_31_4_DB, 4317)
 			graphics
 			{
 			default							: switch_ET_31_4_graphics_DB;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_31_4;
 			articulated_part				: switch_articulated_ET_31_4_DB;
 			can_attach_wagon				: switch_coupling_ET_31;

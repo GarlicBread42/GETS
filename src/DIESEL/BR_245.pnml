@@ -104,7 +104,9 @@ item (FEAT_TRAINS , ITEM_BR_245, 2450)
 			graphics
 			{
 			default							: switch_BR_245_graphics;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESELELECTRIC), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_245;
 			articulated_part				: switch_articulated_BR_245;
 			purchase_cargo_capacity		    : 0 ;
@@ -133,7 +135,7 @@ item (FEAT_TRAINS , ITEM_BR_245_METRONOM, 2451)
 			//common properties
 						name: 							string(STR_NAME_BR_245_METRONOM);
 						variant_group:					2450;
-						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
 						climates_available: 			ALL_CLIMATES;
 						introduction_date: 				date(2013,01,01);
 						model_life: 					30;
@@ -166,7 +168,9 @@ item (FEAT_TRAINS , ITEM_BR_245_METRONOM, 2451)
 			graphics
 			{
 			default							: switch_BR_245_graphics_Metronom;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESELELECTRIC), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_245;
 			articulated_part				: switch_articulated_BR_245_Metronom;
 			purchase_cargo_capacity		    : 0 ;

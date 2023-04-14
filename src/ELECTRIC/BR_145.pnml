@@ -256,7 +256,9 @@ item (FEAT_TRAINS , ITEM_BR_145_BUILD, 1450)
 			graphics
 			{
 			default							: switch_BR_145_graphics_build;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -317,7 +319,9 @@ item (FEAT_TRAINS , ITEM_BR_145_CURRENT, 1451)
 			graphics
 			{
 			default							: switch_BR_145_graphics_current;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -379,7 +383,9 @@ item (FEAT_TRAINS , ITEM_BR_145_VERKEHRSROT, 1452)
 			graphics
 			{
 			default							: switch_BR_145_graphics_verkehrsrot;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_verkehrsrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -441,7 +447,9 @@ item (FEAT_TRAINS , ITEM_BR_145_CARGO, 1453)
 			graphics
 			{
 			default							: switch_BR_145_graphics_cargo;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_cargo;
 			purchase_cargo_capacity		    : 0 ;
@@ -503,7 +511,9 @@ item (FEAT_TRAINS , ITEM_BR_145_RAILION, 1454)
 			graphics
 			{
 			default							: switch_BR_145_graphics_Railion;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_Railion;
 			purchase_cargo_capacity		    : 0 ;
@@ -564,7 +574,9 @@ item (FEAT_TRAINS , ITEM_BR_145_PRIVATE, 1455)
 			graphics
 			{
 			default							: switch_BR_145_graphics_private;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_private;
 			purchase_cargo_capacity		    : 0 ;
@@ -626,7 +638,9 @@ item (FEAT_TRAINS , ITEM_BR_145_ALPHA, 1456)
 			graphics
 			{
 			default							: switch_BR_145_graphics_Alpha;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_Alpha;
 			purchase_cargo_capacity		    : 0 ;
@@ -688,7 +702,9 @@ item (FEAT_TRAINS , ITEM_BR_145_ARCELOR, 1457)
 			graphics
 			{
 			default							: switch_BR_145_graphics_Arcelor;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_Arcelor;
 			purchase_cargo_capacity		    : 0 ;
@@ -749,7 +765,9 @@ item (FEAT_TRAINS , ITEM_BR_145_HGK, 1458)
 			graphics
 			{
 			default							: switch_BR_145_graphics_HGK;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_HGK;
 			purchase_cargo_capacity		    : 0 ;
@@ -810,7 +828,9 @@ item (FEAT_TRAINS , ITEM_BR_145_MRCE, 1459)
 			graphics
 			{
 			default							: switch_BR_145_graphics_MRCE;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_MRCE;
 			purchase_cargo_capacity		    : 0 ;
@@ -872,7 +892,9 @@ item (FEAT_TRAINS , ITEM_BR_145_RBH, 1460)
 			graphics
 			{
 			default							: switch_BR_145_graphics_RBH;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_145;
 			articulated_part				: switch_articulated_BR_145_RBH;
 			purchase_cargo_capacity		    : 0 ;

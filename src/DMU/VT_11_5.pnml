@@ -425,7 +425,9 @@ item (FEAT_TRAINS , ITEM_VT_11_5_7_BUILD, 6010)
 			graphics
 			{
 			default							: switch_VT_11_5_7_graphics_build;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_VT_11_5_7_length;
 			articulated_part				: switch_articulated_VT_11_5_7_build;
 			visual_effect_and_powered		: switch_VT_11_5_7;
@@ -505,7 +507,9 @@ item (FEAT_TRAINS , ITEM_VT_11_5_7_CURRENT, 6011)
 			graphics
 			{
 			default							: switch_VT_11_5_7_graphics_current;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_VT_11_5_7_length;
 			articulated_part				: switch_articulated_VT_11_5_7_current;
 			visual_effect_and_powered		: switch_VT_11_5_7;
@@ -586,7 +590,9 @@ item (FEAT_TRAINS , ITEM_VT_11_5_7_TEE, 6012)
 			graphics
 			{
 			default							: switch_VT_11_5_7_graphics_TEE;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_VT_11_5_7_length;
 			articulated_part				: switch_articulated_VT_11_5_7_TEE;
 			visual_effect_and_powered		: switch_VT_11_5_7;
@@ -666,7 +672,9 @@ item (FEAT_TRAINS , ITEM_VT_11_5_7_IC, 6013)
 			graphics
 			{
 			default							: switch_VT_11_5_7_graphics_IC;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_VT_11_5_7_length;
 			articulated_part				: switch_articulated_VT_11_5_7_IC;
 			visual_effect_and_powered		: switch_VT_11_5_7;
@@ -800,7 +808,9 @@ item (FEAT_TRAINS , ITEM_VT_11_5_10_BUILD, 6014)
 			graphics
 			{
 			default							: switch_VT_11_5_10_graphics_build;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_VT_11_5_10_length;
 			articulated_part				: switch_articulated_VT_11_5_10_build;
 			visual_effect_and_powered		: switch_VT_11_5_10;
@@ -890,7 +900,9 @@ item (FEAT_TRAINS , ITEM_VT_11_5_10_CURRENT, 6015)
 			graphics
 			{
 			default							: switch_VT_11_5_10_graphics_current;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_VT_11_5_10_length;
 			articulated_part				: switch_articulated_VT_11_5_10_current;
 			visual_effect_and_powered		: switch_VT_11_5_10;
@@ -979,7 +991,9 @@ item (FEAT_TRAINS , ITEM_VT_11_5_10_TEE, 6016)
 			graphics
 			{
 			default							: switch_VT_11_5_10_graphics_TEE;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_VT_11_5_10_length;
 			articulated_part				: switch_articulated_VT_11_5_10_TEE;
 			visual_effect_and_powered		: switch_VT_11_5_10;
@@ -1068,7 +1082,9 @@ item (FEAT_TRAINS , ITEM_VT_11_5_10_IC, 6017)
 			graphics
 			{
 			default							: switch_VT_11_5_10_graphics_IC;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_VT_11_5_10_length;
 			articulated_part				: switch_articulated_VT_11_5_10_IC;
 			visual_effect_and_powered		: switch_VT_11_5_10;

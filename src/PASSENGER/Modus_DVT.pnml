@@ -1,0 +1,114 @@
+//######################
+//###Modus_DVT/Puma-Wagen###
+//######################
+
+//Spritesets
+
+spriteset(spriteset_Modus_DVT, "gfx\Modus_DVT/Modus_DVT_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Modus_DVT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Modus_DVT/Modus_DVT_1x_32bpp.png", "gfx\Modus_DVT/Modus_DVT_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Modus_DVT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Modus_DVT/Modus_DVT_2x_32bpp.png", "gfx\Modus_DVT/Modus_DVT_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Modus_DVT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Modus_DVT/Modus_DVT_4x_32bpp.png", "gfx\Modus_DVT/Modus_DVT_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+
+spriteset(spriteset_Modus_DVT_loading, "gfx\Modus_DVT/Modus_DVT_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Modus_DVT_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Modus_DVT/Modus_DVT_loading_1x_32bpp.png", "gfx\Modus_DVT/Modus_DVT_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Modus_DVT_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Modus_DVT/Modus_DVT_loading_2x_32bpp.png", "gfx\Modus_DVT/Modus_DVT_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Modus_DVT_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Modus_DVT/Modus_DVT_loading_4x_32bpp.png", "gfx\Modus_DVT/Modus_DVT_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+spritegroup spritegroup_Modus_DVT_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Modus_DVT_loading];}
+			
+//Spriteset purchase
+
+spriteset(spriteset_Modus_DVT_purchase, "gfx\Modus_DVT/Modus_DVT_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Modus_DVT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Modus_DVT/Modus_DVT_1x_32bpp.png", "gfx\Modus_DVT/Modus_DVT_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_Modus_DVT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Modus_DVT;
+							1: spritegroup_Modus_DVT_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_length_Modus_DVT, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}																	
+			
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Modus_DVT, 1){
+							return 2200;}
+							
+						switch(FEAT_TRAINS, SELF, switch_Modus_DVT_graphics, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_Modus_DVT;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_Modus_DVT, extra_callback_info1) {
+							1 .. 2: return ITEM_MODUS_DVT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_MODUS_DVT, 7946)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_MODUS_DVT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1998,01,01);
+						model_life: 					60;
+						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						41 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Modus_DVT_graphics;
+			additional_text					: string(STR_DESC_DVT_MODUS);
+			length							: switch_length_Modus_DVT;
+			articulated_part				: switch_articulated_Modus_DVT;
+			purchase						: spriteset_Modus_DVT_purchase;
+			cost_factor						: 440;
+			running_cost_factor				: switch_running_cost_Modus_DVT;					
+			 }
+		}	

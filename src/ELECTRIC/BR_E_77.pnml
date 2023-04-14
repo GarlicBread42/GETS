@@ -204,7 +204,9 @@ item (FEAT_TRAINS , ITEM_E_77_BUILD, 1770)
 			graphics
 			{
 			default							: switch_E_77_graphics_build;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_77; 
 			articulated_part				: switch_articulated_E_77_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -265,7 +267,9 @@ item (FEAT_TRAINS , ITEM_E_77_CURRENT, 1771)
 			graphics
 			{
 			default							: switch_E_77_graphics_current;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_77; 
 			articulated_part				: switch_articulated_E_77_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -326,7 +330,9 @@ item (FEAT_TRAINS , ITEM_E_77_DRG1, 1772)
 			graphics
 			{
 			default							: switch_E_77_graphics_DRG1;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_77; 
 			articulated_part				: switch_articulated_E_77_DRG1;
 			purchase_cargo_capacity		    : 0 ;
@@ -387,7 +393,9 @@ item (FEAT_TRAINS , ITEM_E_77_DRG2, 1773)
 			graphics
 			{
 			default							: switch_E_77_graphics_DRG2;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_77; 
 			articulated_part				: switch_articulated_E_77_DRG2;
 			purchase_cargo_capacity		    : 0 ;

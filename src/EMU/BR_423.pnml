@@ -690,7 +690,9 @@ item (FEAT_TRAINS , ITEM_BR_423_MUENCHEN, 4230)
 			graphics
 			{
 			default							: switch_BR_423_graphics_Muenchen;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_423;
 			articulated_part				: switch_articulated_BR_423_Muenchen;
 			can_attach_wagon				: switch_coupling_BR_423;
@@ -763,7 +765,9 @@ item (FEAT_TRAINS , ITEM_BR_423_KOELN, 4231)
 			graphics
 			{
 			default							: switch_BR_423_graphics_Koeln;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_423;
 			articulated_part				: switch_articulated_BR_423_Koeln;
 			can_attach_wagon				: switch_coupling_BR_423;
@@ -836,7 +840,9 @@ item (FEAT_TRAINS , ITEM_BR_423_RMV, 4232)
 			graphics
 			{
 			default							: switch_BR_423_graphics_RMV;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_423;
 			articulated_part				: switch_articulated_BR_423_RMV;
 			can_attach_wagon				: switch_coupling_BR_423;
@@ -909,7 +915,9 @@ item (FEAT_TRAINS , ITEM_BR_423_STGART, 4233)
 			graphics
 			{
 			default							: switch_BR_423_graphics_Stgart;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_423;
 			articulated_part				: switch_articulated_BR_423_Stgart;
 			can_attach_wagon				: switch_coupling_BR_423;
@@ -982,7 +990,9 @@ item (FEAT_TRAINS , ITEM_BR_423_STGART_NEO, 4234)
 			graphics
 			{
 			default							: switch_BR_423_graphics_Stgart_neo;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_423;
 			articulated_part				: switch_articulated_BR_423_Stgart_neo;
 			can_attach_wagon				: switch_coupling_BR_423;

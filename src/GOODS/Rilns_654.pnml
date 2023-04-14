@@ -1,0 +1,584 @@
+//############
+//###RS 685###
+//############
+	
+//Spriteset Rilns 654 DB
+
+spriteset (spriteset_Rilns_654_DB, "gfx\Rilns_654/Rilns_654_DB_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_DB_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_DB_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_DB_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_DB_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_DB_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_DB_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+					
+spriteset (spriteset_Rilns_654_DB_loading, "gfx\Rilns_654/Rilns_654_DB_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_DB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_DB_loading_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_DB_loading_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_DB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_DB_loading_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_DB_loading_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_DB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_DB_loading_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_DB_loading_4x_mask.png")
+					{template_128trains_4x(0, 0)}		
+					
+spritegroup spritegroup_Rilns_654_DB
+		{loaded: 	[spriteset_Rilns_654_DB];
+			loading: 	[spriteset_Rilns_654_DB_loading];}		
+
+			
+//Spriteset Rilns 654 Cargo
+
+spriteset (spriteset_Rilns_654_Cargo, "gfx\Rilns_654/Rilns_654_Cargo_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Cargo_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_Cargo_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Cargo_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_Cargo_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Cargo_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_Cargo_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+					
+spriteset (spriteset_Rilns_654_Cargo_loading, "gfx\Rilns_654/Rilns_654_Cargo_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_Cargo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Cargo_loading_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_Cargo_loading_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_Cargo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Cargo_loading_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_Cargo_loading_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_Cargo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Cargo_loading_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_Cargo_loading_4x_mask.png")
+					{template_128trains_4x(0, 0)}		
+					
+spritegroup spritegroup_Rilns_654_Cargo
+		{loaded: 	[spriteset_Rilns_654_Cargo];
+			loading: 	[spriteset_Rilns_654_Cargo_loading];}
+			
+			
+//Spriteset Rilns 654 Railion
+
+spriteset (spriteset_Rilns_654_Railion, "gfx\Rilns_654/Rilns_654_Railion_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_Railion, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Railion_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_Railion_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_Railion, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Railion_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_Railion_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_Railion, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Railion_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_Railion_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+					
+spriteset (spriteset_Rilns_654_Railion_loading, "gfx\Rilns_654/Rilns_654_Railion_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_Railion_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Railion_loading_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_Railion_loading_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_Railion_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Railion_loading_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_Railion_loading_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_Railion_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Railion_loading_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_Railion_loading_4x_mask.png")
+					{template_128trains_4x(0, 0)}		
+					
+spritegroup spritegroup_Rilns_654_Railion
+		{loaded: 	[spriteset_Rilns_654_Railion];
+			loading: 	[spriteset_Rilns_654_Railion_loading];}															
+
+//Spriteset Rilns 654 PRIV1
+
+spriteset (spriteset_Rilns_654_PRIV1, "gfx\Rilns_654/Rilns_654_PRIV1_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV1_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV1_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV1_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV1_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_PRIV1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV1_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV1_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+					
+spriteset (spriteset_Rilns_654_PRIV1_loading, "gfx\Rilns_654/Rilns_654_PRIV1_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV1_loading_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV1_loading_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV1_loading_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV1_loading_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_PRIV1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV1_loading_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV1_loading_4x_mask.png")
+					{template_128trains_4x(0, 0)}		
+					
+spritegroup spritegroup_Rilns_654_PRIV1
+		{loaded: 	[spriteset_Rilns_654_PRIV1];
+			loading: 	[spriteset_Rilns_654_PRIV1_loading];}	
+
+			
+//Spriteset Rilns 654 PRIV2
+
+spriteset (spriteset_Rilns_654_PRIV2, "gfx\Rilns_654/Rilns_654_PRIV2_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV2_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV2_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV2_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV2_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_PRIV2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV2_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV2_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+					
+spriteset (spriteset_Rilns_654_PRIV2_loading, "gfx\Rilns_654/Rilns_654_PRIV2_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV2_loading_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV2_loading_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV2_loading_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV2_loading_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_PRIV2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV2_loading_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV2_loading_4x_mask.png")
+					{template_128trains_4x(0, 0)}		
+					
+spritegroup spritegroup_Rilns_654_PRIV2
+		{loaded: 	[spriteset_Rilns_654_PRIV2];
+			loading: 	[spriteset_Rilns_654_PRIV2_loading];}	
+
+			
+//Spriteset Rilns 654 PRIV3
+
+spriteset (spriteset_Rilns_654_PRIV3, "gfx\Rilns_654/Rilns_654_PRIV3_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV3_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV3_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV3_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV3_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_PRIV3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV3_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV3_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+					
+spriteset (spriteset_Rilns_654_PRIV3_loading, "gfx\Rilns_654/Rilns_654_PRIV3_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV3_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV3_loading_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV3_loading_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV3_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV3_loading_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV3_loading_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_PRIV3_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV3_loading_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV3_loading_4x_mask.png")
+					{template_128trains_4x(0, 0)}		
+					
+spritegroup spritegroup_Rilns_654_PRIV3
+		{loaded: 	[spriteset_Rilns_654_PRIV3];
+			loading: 	[spriteset_Rilns_654_PRIV3_loading];}	
+
+			
+//Spriteset Rilns 654 PRIV4
+
+spriteset (spriteset_Rilns_654_PRIV4, "gfx\Rilns_654/Rilns_654_PRIV4_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV4_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV4_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV4_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV4_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_PRIV4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV4_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV4_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+					
+spriteset (spriteset_Rilns_654_PRIV4_loading, "gfx\Rilns_654/Rilns_654_PRIV4_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV4_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV4_loading_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV4_loading_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_PRIV4_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV4_loading_2x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV4_loading_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rilns_654_PRIV4_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV4_loading_4x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV4_loading_4x_mask.png")
+					{template_128trains_4x(0, 0)}		
+					
+spritegroup spritegroup_Rilns_654_PRIV4
+		{loaded: 	[spriteset_Rilns_654_PRIV4];
+			loading: 	[spriteset_Rilns_654_PRIV4_loading];}
+			
+//Spritesets purchase
+
+spriteset (spriteset_Rilns_654_purchase_DB, "gfx\Rilns_654/Rilns_654_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_DB_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_DB_1x_mask.png")
+					{template_purchase(0, 0)}					
+												
+spriteset (spriteset_Rilns_654_purchase_Cargo, "gfx\Rilns_654/Rilns_654_Cargo_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_purchase_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Cargo_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_Cargo_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Rilns_654_purchase_Railion, "gfx\Rilns_654/Rilns_654_Railion_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_purchase_Railion, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_Railion_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_Railion_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Rilns_654_purchase_PRIV, "gfx\Rilns_654/Rilns_654_PRIV3_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rilns_654_purchase_PRIV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rilns_654/Rilns_654_PRIV3_1x_32bpp.png", "gfx\Rilns_654/Rilns_654_PRIV3_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+//Switches
+						 switch (FEAT_TRAINS,SELF, switch_Rilns_654_purchase,current_year){
+							1900 .. 1995: spriteset_Rilns_654_purchase_DB;
+							1996 .. 1999: spriteset_Rilns_654_purchase_Cargo;
+							2000 .. 2009: spriteset_Rilns_654_purchase_Railion;	
+							2010 .. 2100: spriteset_Rilns_654_purchase_Cargo;				 					 
+								spriteset_Rilns_654_purchase_Cargo;}
+
+
+						 switch (FEAT_TRAINS,SELF, switch_Rilns_654_current_year,current_year){
+							1900 .. 1995: spritegroup_Rilns_654_DB;
+							1996 .. 1999: spritegroup_Rilns_654_Cargo;
+							2000 .. 2009: spritegroup_Rilns_654_Railion;	
+							2010 .. 2100: spritegroup_Rilns_654_Cargo;				 					 
+								spritegroup_Rilns_654_Cargo;}	
+
+					switch (FEAT_TRAINS, SELF, random_choose_Rilns_654_PRIV, switch_alternative_var_random_bits(3,3)) {
+							0: spritegroup_Rilns_654_DB;
+							1: spritegroup_Rilns_654_PRIV1;
+							2: spritegroup_Rilns_654_PRIV2;
+							3: spritegroup_Rilns_654_PRIV3;
+							4: spritegroup_Rilns_654_PRIV3;
+							5: spritegroup_Rilns_654_PRIV4;
+							6: spritegroup_Rilns_654_PRIV4;
+							7: spritegroup_Rilns_654_PRIV2;
+								spritegroup_Rilns_654_PRIV3;}
+								
+						switch(FEAT_TRAINS, SELF, switch_length_Rilns_654, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}																						
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Rilns_654, 1){
+							return 500;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_Rilns_654_graphics_current, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_Rilns_654_current_year;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rilns_654_current, extra_callback_info1) {
+							1 .. 2: return ITEM_RILNS_654_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_RILNS_654_CURRENT, 8945)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RILNS_654_CURRENT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					50;
+						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					22;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rilns_654_graphics_current;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Rilns_654_current;
+			length							: switch_length_Rilns_654;
+			purchase						: switch_Rilns_654_purchase;
+			cost_factor						: 195;
+			running_cost_factor				: switch_running_cost_Rilns_654;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}																	
+
+						switch(FEAT_TRAINS, SELF, switch_Rilns_654_graphics_DB, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     spritegroup_Rilns_654_DB;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rilns_654_DB, extra_callback_info1) {
+							1 .. 2: return ITEM_RILNS_654_DB;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_RILNS_654_DB, 8946)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RILNS_654_DB);
+						variant_group:					8945;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					50;
+						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					22;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rilns_654_graphics_DB;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Rilns_654_DB;
+			length							: switch_length_Rilns_654;
+			purchase						: spriteset_Rilns_654_purchase_DB;
+			cost_factor						: 195;
+			running_cost_factor				: switch_running_cost_Rilns_654;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Rilns_654_graphics_Cargo, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     spritegroup_Rilns_654_Cargo;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rilns_654_Cargo, extra_callback_info1) {
+							1 .. 2: return ITEM_RILNS_654_CARGO;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_RILNS_654_CARGO, 8947)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RILNS_654_CARGO);
+						variant_group:					8945;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					50;
+						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					22;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rilns_654_graphics_Cargo;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Rilns_654_Cargo;
+			length							: switch_length_Rilns_654;
+			purchase						: spriteset_Rilns_654_purchase_Cargo;
+			cost_factor						: 195;
+			running_cost_factor				: switch_running_cost_Rilns_654;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Rilns_654_graphics_Railion, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     spritegroup_Rilns_654_Railion;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rilns_654_Railion, extra_callback_info1) {
+							1 .. 2: return ITEM_RILNS_654_RAILION;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_RILNS_654_RAILION, 8948)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RILNS_654_RAILION);
+						variant_group:					8945;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					50;
+						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					22;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rilns_654_graphics_Railion;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Rilns_654_Railion;
+			length							: switch_length_Rilns_654;
+			purchase						: spriteset_Rilns_654_purchase_Railion;
+			cost_factor						: 195;
+			running_cost_factor				: switch_running_cost_Rilns_654;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_Rilns_654_graphics_PRIV, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return random_choose_Rilns_654_PRIV;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rilns_654_PRIV, extra_callback_info1) {
+							1 .. 2: return ITEM_RILNS_654_PRIV;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+
+item (FEAT_TRAINS , ITEM_RILNS_654_PRIV, 8949)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RILNS_654_PRIV);
+						variant_group:					8945;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1993,01,01);
+						model_life: 					50;
+						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					22;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rilns_654_graphics_PRIV;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Rilns_654_PRIV;
+			length							: switch_length_Rilns_654;
+			purchase						: spriteset_Rilns_654_purchase_PRIV;
+			cost_factor						: 195;
+			running_cost_factor				: switch_running_cost_Rilns_654;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

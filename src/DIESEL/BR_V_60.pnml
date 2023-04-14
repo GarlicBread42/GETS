@@ -380,7 +380,9 @@ item (FEAT_TRAINS , ITEM_V_60, 2600)
 					graphics
 				{
 						default						   : switch_V_60_build_year;
-						additional_text				   : string(STR_DESC_SHUNT); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_V_60_purchase;
@@ -431,7 +433,9 @@ item (FEAT_TRAINS , ITEM_V_60_CURRENT, 2601)
 					graphics
 				{
 						default						   : switch_V_60_current_year;
-						additional_text				   : string(STR_DESC_SHUNT); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_V_60_purchase;
@@ -482,7 +486,9 @@ item (FEAT_TRAINS , ITEM_V_60_ALTROT, 2602)
 					graphics
 				{
 						default						   : switch_reverse_V_60_altrot;
-						additional_text				   : string(STR_DESC_SHUNT); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_spritestack_V_60_purchase1;
@@ -533,7 +539,9 @@ item (FEAT_TRAINS , ITEM_V_60_OZEANBLAU, 2603)
 					graphics
 				{
 						default						   : switch_reverse_V_60_ozeanblau;
-						additional_text				   : string(STR_DESC_SHUNT); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_spritestack_V_60_purchase2;
@@ -585,7 +593,9 @@ item (FEAT_TRAINS , ITEM_V_60_ORIENTROT, 2604)
 					graphics
 				{
 						default						   : switch_reverse_V_60_orientrot;
-						additional_text				   : string(STR_DESC_SHUNT); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_spritestack_V_60_purchase3;
@@ -636,7 +646,9 @@ item (FEAT_TRAINS , ITEM_V_60_VERKEHRSROT, 2605)
 					graphics
 				{
 						default						   : switch_reverse_V_60_verkehrsrot;
-						additional_text				   : string(STR_DESC_SHUNT); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_spritestack_V_60_purchase4;

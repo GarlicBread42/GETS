@@ -162,7 +162,9 @@ item (FEAT_TRAINS , ITEM_V_188, 2880)
 			graphics
 			{
 			default							: switch_V_188_graphics_build;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESELELECTRIC), 
+											string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_V_188;
 			articulated_part				: switch_articulated_V_188_build;				
 			purchase_cargo_capacity		    : 0 ;
@@ -223,7 +225,9 @@ item (FEAT_TRAINS , ITEM_V_188_CURRENT, 2881)
 			graphics
 			{
 			default							: switch_V_188_graphics_current;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESELELECTRIC), 
+											string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_V_188;
 			articulated_part				: switch_articulated_V_188_current;				
 			purchase_cargo_capacity		    : 0 ;
@@ -285,7 +289,9 @@ item (FEAT_TRAINS , ITEM_V_188_GRUEN, 2882)
 			graphics
 			{
 			default							: switch_V_188_graphics_gruen;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESELELECTRIC), 
+											string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_V_188;
 			articulated_part				: switch_articulated_V_188_gruen;				
 			purchase_cargo_capacity		    : 0 ;
@@ -347,7 +353,9 @@ item (FEAT_TRAINS , ITEM_V_188_ALTROT, 2883)
 			graphics
 			{
 			default							: switch_V_188_graphics_altrot;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESELELECTRIC), 
+											string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_V_188;
 			articulated_part				: switch_articulated_V_188_altrot;				
 			purchase_cargo_capacity		    : 0 ;

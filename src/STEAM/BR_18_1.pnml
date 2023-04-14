@@ -256,7 +256,9 @@ item (FEAT_TRAINS , ITEM_BR_18_1, 0180)
 			graphics
 			{
 			default						   : switch_BR_18_1_graphics_build;
-			additional_text				   : string(STR_DESC_EXPRESS);
+						additional_text:				string(STR_CONCAT_2, 
+														string(STR_TRACTION_STEAM), 
+														string(STR_DESC_EXPRESS),);
 			length						   : switch_length_BR_18_1;
 			articulated_part			   : switch_articulated_BR_18_1_build;
 			purchase_cargo_capacity        : 0 ;
@@ -322,7 +324,9 @@ item (FEAT_TRAINS , ITEM_BR_18_1_CURRENT, 0181)
 			graphics
 			{
 			default						   : switch_BR_18_1_graphics_current;
-			additional_text				   : string(STR_DESC_EXPRESS);
+						additional_text:				string(STR_CONCAT_2, 
+														string(STR_TRACTION_STEAM), 
+														string(STR_DESC_EXPRESS),);
 			length						   : switch_length_BR_18_1;
 			articulated_part			   : switch_articulated_BR_18_1_current;
 			purchase_cargo_capacity        : 0 ;
@@ -388,7 +392,9 @@ item (FEAT_TRAINS , ITEM_BR_18_1_KWSE, 0182)
 			graphics
 			{
 			default						   : switch_BR_18_1_graphics_KWSE;
-			additional_text				   : string(STR_DESC_EXPRESS);
+						additional_text:				string(STR_CONCAT_2, 
+														string(STR_TRACTION_STEAM), 
+														string(STR_DESC_EXPRESS),);
 			length						   : switch_length_BR_18_1;
 			articulated_part			   : switch_articulated_BR_18_1_KWSE;
 			purchase_cargo_capacity        : 0 ;
@@ -453,7 +459,9 @@ item (FEAT_TRAINS , ITEM_BR_18_1_DRG, 0183)
 			graphics
 			{
 			default						   : switch_BR_18_1_graphics_DRG;
-			additional_text				   : string(STR_DESC_EXPRESS);
+						additional_text:				string(STR_CONCAT_2, 
+														string(STR_TRACTION_STEAM), 
+														string(STR_DESC_EXPRESS),);
 			length						   : switch_length_BR_18_1;
 			articulated_part			   : switch_articulated_BR_18_1_DRG;
 			purchase_cargo_capacity        : 0 ;
@@ -518,7 +526,9 @@ item (FEAT_TRAINS , ITEM_BR_18_1_OLYMPIA, 0184)
 			graphics
 			{
 			default						   : switch_BR_18_1_graphics_OLYMPIA;
-			additional_text				   : string(STR_DESC_EXPRESS);
+						additional_text:				string(STR_CONCAT_2, 
+														string(STR_TRACTION_STEAM), 
+														string(STR_DESC_EXPRESS),);
 			length						   : switch_length_BR_18_1;
 			articulated_part			   : switch_articulated_BR_18_1_OLYMPIA;
 			purchase_cargo_capacity        : 0 ;
@@ -583,7 +593,9 @@ item (FEAT_TRAINS , ITEM_BR_18_1_DB, 0185)
 			graphics
 			{
 			default						   : switch_BR_18_1_graphics_DB;
-			additional_text				   : string(STR_DESC_EXPRESS);
+						additional_text:				string(STR_CONCAT_2, 
+														string(STR_TRACTION_STEAM), 
+														string(STR_DESC_EXPRESS),);
 			length						   : switch_length_BR_18_1;
 			articulated_part			   : switch_articulated_BR_18_1_DB;
 			purchase_cargo_capacity        : 0 ;

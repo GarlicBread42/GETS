@@ -102,7 +102,9 @@ item (FEAT_TRAINS , ITEM_BR_193_VERKEHRSROT, 1938)
 			graphics
 			{
 			default							: switch_BR_193_graphics_verkehrsrot;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_193;
 			articulated_part				: switch_articulated_BR_193_verkehrsrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -164,7 +166,9 @@ item (FEAT_TRAINS , ITEM_BR_193_MRCE, 1939)
 			graphics
 			{
 			default							: switch_BR_193_graphics_MRCE;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_193;
 			articulated_part				: switch_articulated_BR_193_MRCE;
 			purchase_cargo_capacity		    : 0 ;

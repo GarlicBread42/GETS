@@ -150,7 +150,9 @@ item (FEAT_TRAINS , ITEM_V100, 2110)
 			graphics
 			{
 						default						   : switch_V_100_build_year;
-						additional_text				   : string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_V_100_purchase;
@@ -200,7 +202,9 @@ item (FEAT_TRAINS , ITEM_V100_CURRENT, 2111)
 			graphics
 			{
 						default						   : switch_V_100_current_year;
-						additional_text				   : string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_V_100_purchase;
@@ -250,7 +254,9 @@ item (FEAT_TRAINS , ITEM_V100_ALTROT, 2112)
 			graphics
 			{
 						default						   : spriteset_v_100_altrot;
-						additional_text				   : string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : spriteset_v_100_purchase1;
@@ -301,7 +307,9 @@ item (FEAT_TRAINS , ITEM_V100_OZEANBLAU, 2113)
 			graphics
 			{
 						default						   : spriteset_v_100_ozeanblau;
-						additional_text				   : string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : spriteset_v_100_purchase2;
@@ -351,7 +359,9 @@ item (FEAT_TRAINS , ITEM_V100_ORIENTROT, 2114)
 			graphics
 			{
 						default						   : spriteset_v_100_orientrot;
-						additional_text				   : string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : spriteset_v_100_purchase3;
@@ -401,7 +411,9 @@ item (FEAT_TRAINS , ITEM_V100_VERKEHRSROT, 2115)
 			graphics
 			{
 						default						   : spriteset_v_100_verkehrsrot;
-						additional_text				   : string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : spriteset_v_100_purchase4;

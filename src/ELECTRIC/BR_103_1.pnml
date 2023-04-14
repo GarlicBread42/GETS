@@ -193,7 +193,9 @@ item (FEAT_TRAINS , ITEM_BR_103_1, 1031)
 			graphics
 			{
 			default							: switch_BR_103_1_graphics;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_1;
 			articulated_part				: switch_articulated_BR_103_1;
 			purchase_cargo_capacity		    : 0 ;
@@ -256,7 +258,9 @@ item (FEAT_TRAINS , ITEM_BR_103_1_CURRENT, 1032)
 			graphics
 			{
 			default							: switch_BR_103_1_graphics_current;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_1;
 			articulated_part				: switch_articulated_BR_103_1_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -318,7 +322,9 @@ item (FEAT_TRAINS , ITEM_BR_103_1_SCHERE, 1033)
 			graphics
 			{
 			default							: switch_BR_103_1_graphics_Schere;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_1;
 			articulated_part				: switch_articulated_BR_103_1_Schere;
 			purchase_cargo_capacity		    : 0 ;
@@ -381,7 +387,9 @@ item (FEAT_TRAINS , ITEM_BR_103_1_EINHOLM, 1034)
 			graphics
 			{
 			default							: switch_BR_103_1_graphics_Einholm;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_1;
 			articulated_part				: switch_articulated_BR_103_1_Einholm;
 			purchase_cargo_capacity		    : 0 ;
@@ -444,7 +452,9 @@ item (FEAT_TRAINS , ITEM_BR_103_1_REDFRAME, 1035)
 			graphics
 			{
 			default							: switch_BR_103_1_graphics_Redframe;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_1;
 			articulated_part				: switch_articulated_BR_103_1_Redframe;
 			purchase_cargo_capacity		    : 0 ;
@@ -506,7 +516,9 @@ item (FEAT_TRAINS , ITEM_BR_103_1_ORIENTROT, 1036)
 			graphics
 			{
 			default							: switch_BR_103_1_graphics_orientrot;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_1;
 			articulated_part				: switch_articulated_BR_103_1_orientrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -568,7 +580,9 @@ item (FEAT_TRAINS , ITEM_BR_103_1_LAX, 1037)
 			graphics
 			{
 			default							: switch_BR_103_1_graphics_LAX;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_1;
 			articulated_part				: switch_articulated_BR_103_1_LAX;
 			purchase_cargo_capacity		    : 0 ;

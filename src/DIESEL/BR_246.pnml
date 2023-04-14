@@ -1,0 +1,188 @@
+//###############
+//###BR 245 DB###
+//###############
+								
+//Spriteset Metronom
+
+spriteset(spriteset_BR_246_Metronom, "gfx/BR_246/BR_246_Metronom_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_246_Metronom, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_246/BR_246_Metronom_1x_32bpp.png", "gfx/BR_246/BR_246_Metronom_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_246_Metronom, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_246/BR_246_Metronom_2x_32bpp.png", "gfx/BR_246/BR_246_Metronom_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_246_Metronom, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_246/BR_246_Metronom_4x_32bpp.png", "gfx/BR_246/BR_246_Metronom_4x_mask.png")
+									{template_128trains_4x(0, 0)}	
+									
+//Spriteset HVLE
+
+spriteset(spriteset_BR_246_HVLE, "gfx/BR_246/BR_246_HVLE_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_246_HVLE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_246/BR_246_HVLE_1x_32bpp.png", "gfx/BR_246/BR_246_HVLE_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_246_HVLE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_246/BR_246_HVLE_2x_32bpp.png", "gfx/BR_246/BR_246_HVLE_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_246_HVLE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_246/BR_246_HVLE_4x_32bpp.png", "gfx/BR_246/BR_246_HVLE_4x_mask.png")
+									{template_128trains_4x(0, 0)}																		
+									
+//Spriteset purchase
+									
+	spriteset(spriteset_BR_246_purchase_Metronom, "gfx/BR_246/BR_246_Metronom_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_246_purchase_Metronom, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_246/BR_246_Metronom_1x_32bpp.png", "gfx/BR_246/BR_246_Metronom_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_246_purchase_HVLE, "gfx/BR_246/BR_246_HVLE_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_246_purchase_HVLE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_246/BR_246_HVLE_1x_32bpp.png", "gfx/BR_246/BR_246_HVLE_1x_mask.png")
+									{template_purchase(0, 0)}																											
+
+//Switches									
+					
+						switch(FEAT_TRAINS, SELF, switch_length_BR_246, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_BR_246, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+						1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_246, 1){
+							return 4300;}						
+
+									
+						switch(FEAT_TRAINS, SELF, switch_BR_246_graphics_Metronom, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_246_Metronom;
+							2:	   spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_246_Metronom, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_246_METRONOM; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_246_METRONOM, 2460)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_246_METRONOM);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2006,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						3000 hp;
+						weight: 						81 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.370;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_246_graphics_Metronom;
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESELELECTRIC), 
+														 string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_BR_246;
+			articulated_part				: switch_articulated_BR_246_Metronom;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_246_purchase_Metronom;
+			cost_factor						: 97;
+			running_cost_factor				: switch_running_cost_BR_246;
+			visual_effect_and_powered		: switch_FX_BR_246;
+			}
+	}
+									
+						switch(FEAT_TRAINS, SELF, switch_BR_246_graphics_HVLE, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_BR_246_HVLE;
+							2:	   spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_246_HVLE, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_246_HVLE; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_BR_246_HVLE, 2461)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_246_HVLE);
+						variant_group:					2460;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2006,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						3000 hp;
+						weight: 						81 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.370;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_246_graphics_HVLE;
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESELELECTRIC), 
+														 string(STR_DESC_UNIVERSAL),);
+			length							: switch_length_BR_246;
+			articulated_part				: switch_articulated_BR_246_HVLE;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_BR_246_purchase_HVLE;
+			cost_factor						: 97;
+			running_cost_factor				: switch_running_cost_BR_246;
+			visual_effect_and_powered		: switch_FX_BR_246;
+			}
+	}

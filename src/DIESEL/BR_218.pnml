@@ -205,7 +205,9 @@ item (FEAT_TRAINS , ITEM_BR_218_BUILD, 2180)
 			graphics
 			{
 			default							:switch_BR218_graphics_build;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR218;
 			articulated_part				:switch_articulated_BR218_build;
 			purchase_cargo_capacity        	:0 ;
@@ -267,7 +269,9 @@ item (FEAT_TRAINS , ITEM_BR_218_CURRENT, 2181)
 			graphics
 			{
 			default							:switch_BR218_graphics_current;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR218;
 			articulated_part				:switch_articulated_BR218_current;
 			purchase_cargo_capacity        	:0 ;
@@ -329,7 +333,9 @@ item (FEAT_TRAINS , ITEM_BR_218_ALTROT, 2182)
 			graphics
 			{
 			default							:switch_BR218_graphics_altrot;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR218;
 			articulated_part				:switch_articulated_BR218_altrot;
 			purchase_cargo_capacity        	:0 ;
@@ -391,7 +397,9 @@ item (FEAT_TRAINS , ITEM_BR_218_OZEANBLAU, 2183)
 			graphics
 			{
 			default							:switch_BR218_graphics_ozeanblau;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR218;
 			articulated_part				:switch_articulated_BR218_ozeanblau;
 			purchase_cargo_capacity        	:0 ;
@@ -454,7 +462,9 @@ item (FEAT_TRAINS , ITEM_BR_218_ORIENTROT, 2184)
 			graphics
 			{
 			default							:switch_BR218_graphics_orientrot;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR218;
 			articulated_part				:switch_articulated_BR218_orientrot;
 			purchase_cargo_capacity        	:0 ;
@@ -516,7 +526,9 @@ item (FEAT_TRAINS , ITEM_BR_218_VERKEHRSROT, 2185)
 			graphics
 			{
 			default							:switch_BR218_graphics_verkehrsrot;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR218;
 			articulated_part				:switch_articulated_BR218_verkehrsrot;
 			purchase_cargo_capacity        	:0 ;
@@ -579,7 +591,9 @@ item (FEAT_TRAINS , ITEM_BR_218_TEE, 2186)
 			graphics
 			{
 			default							:switch_BR218_graphics_TEE;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR218;
 			articulated_part				:switch_articulated_BR218_TEE;
 			purchase_cargo_capacity        	:0 ;
@@ -641,7 +655,9 @@ item (FEAT_TRAINS , ITEM_BR_218_SBahn, 2187)
 			graphics
 			{
 			default							:switch_BR218_graphics_SBahn;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR218;
 			articulated_part				:switch_articulated_BR218_SBahn;
 			purchase_cargo_capacity        	:0 ;

@@ -170,7 +170,9 @@ item (FEAT_TRAINS , ITEM_BR_321, 2370)
 			graphics
 			{
 			default							: switch_BR_321_build_year;
-			additional_text					: string(STR_DESC_SHUNT);			
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);		
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_BR_321_purchase;
@@ -221,7 +223,9 @@ item (FEAT_TRAINS , ITEM_BR_321_CURRENT, 2371)
 			graphics
 			{
 			default							: switch_BR_321_current_year;
-			additional_text					: string(STR_DESC_SHUNT);			
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);		
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_BR_321_purchase;
@@ -272,7 +276,9 @@ item (FEAT_TRAINS , ITEM_BR_321_DRG, 2372)
 			graphics
 			{
 			default							: spriteset_BR_321_DRG;
-			additional_text					: string(STR_DESC_SHUNT);			
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);		
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_BR_321_purchase1;
@@ -323,7 +329,9 @@ item (FEAT_TRAINS , ITEM_BR_321_ALTROT, 2373)
 			graphics
 			{
 			default							: spriteset_BR_321_DB_altrot;
-			additional_text					: string(STR_DESC_SHUNT);			
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);		
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_BR_321_purchase2;
@@ -375,7 +383,9 @@ item (FEAT_TRAINS , ITEM_BR_321_ALTROT2, 2374)
 			graphics
 			{
 			default							: spriteset_BR_321_DB_altrot2;
-			additional_text					: string(STR_DESC_SHUNT);			
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);		
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_BR_321_purchase3;
@@ -427,7 +437,9 @@ item (FEAT_TRAINS , ITEM_BR_321_CLOSECAB, 2375)
 			graphics
 			{
 			default							: spriteset_BR_321_DB_altrot_closecab;
-			additional_text					: string(STR_DESC_SHUNT);			
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);		
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_BR_321_purchase5;
@@ -479,7 +491,9 @@ item (FEAT_TRAINS , ITEM_BR_321_VERKEHRSROT, 2376)
 			graphics
 			{
 			default							: spriteset_BR_321_DB_verkehrsrot;
-			additional_text					: string(STR_DESC_SHUNT);			
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);		
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_BR_321_purchase4;

@@ -117,7 +117,9 @@ item (FEAT_TRAINS , ITEM_BR_110_12_BUILD, 1106)
 			graphics
 			{
 			default:						switch_BR_110_12_graphics_build;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_BR_110_12;
 			articulated_part:				switch_articulated_BR_110_12_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -177,7 +179,9 @@ item (FEAT_TRAINS , ITEM_BR_110_12_CURRENT, 1107)
 			graphics
 			{
 			default:						switch_BR_110_12_graphics_current;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_BR_110_12;
 			articulated_part:				switch_articulated_BR_110_12_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -237,7 +241,9 @@ item (FEAT_TRAINS , ITEM_BR_110_12_RHEINGOLD, 1108)
 			graphics
 			{
 			default:						switch_BR_110_12_graphics_Rheingold;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_BR_110_12;
 			articulated_part:				switch_articulated_BR_110_12_Rheingold;
 			purchase_cargo_capacity		    : 0 ;
@@ -298,7 +304,9 @@ item (FEAT_TRAINS , ITEM_BR_110_12_TEE, 1109)
 			graphics
 			{
 			default:						switch_BR_110_12_graphics_TEE;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_BR_110_12;
 			articulated_part:				switch_articulated_BR_110_12_TEE;
 			purchase_cargo_capacity		    : 0 ;

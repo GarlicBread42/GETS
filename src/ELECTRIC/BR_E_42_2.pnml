@@ -186,7 +186,9 @@ item (FEAT_TRAINS , ITEM_E_42_2_BUILD, 1420)
 			graphics
 			{
 			default							: switch_E_42_2_build_year;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_purchase_E_42_2;
@@ -237,7 +239,9 @@ item (FEAT_TRAINS , ITEM_E_42_2_CURRENT, 1421)
 			graphics
 			{
 			default							: switch_E_42_2_current_year;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_purchase_E_42_2;
@@ -288,7 +292,9 @@ item (FEAT_TRAINS , ITEM_E_42_2_KPEV, 1422)
 			graphics
 			{
 			default							: switch_spritestack_E_42_2_KPEV;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_spritestack_E_42_2_purchase1;
@@ -339,7 +345,9 @@ item (FEAT_TRAINS , ITEM_E_42_2_DRG, 1423)
 			graphics
 			{
 			default							: switch_spritestack_E_42_2_DRG;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: switch_spritestack_E_42_2_purchase2;

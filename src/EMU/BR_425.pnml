@@ -285,7 +285,9 @@ item (FEAT_TRAINS , ITEM_BR_425, 4255)
 			graphics
 			{
 			default							: switch_BR_425_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_425;
 			articulated_part				: switch_articulated_BR_425;
 			can_attach_wagon				: switch_coupling_BR_425;

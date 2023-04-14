@@ -471,7 +471,9 @@ item (FEAT_TRAINS , ITEM_ET_30_BUILD, 4300)
 			graphics
 			{
 			default							: switch_ET_30_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_30;
 			articulated_part				: switch_articulated_ET_30_build;
 			can_attach_wagon				: switch_coupling_ET_30;
@@ -560,7 +562,9 @@ item (FEAT_TRAINS , ITEM_ET_30_CURRENT, 4301)
 			graphics
 			{
 			default							: switch_ET_30_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_30;
 			articulated_part				: switch_articulated_ET_30_current;
 			can_attach_wagon				: switch_coupling_ET_30;
@@ -630,7 +634,9 @@ item (FEAT_TRAINS , ITEM_ET_30_ALTROT2, 4302)
 			graphics
 			{
 			default							: switch_ET_30_graphics_altrot2;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_30;
 			articulated_part				: switch_articulated_ET_30_altrot2;
 			can_attach_wagon				: switch_coupling_ET_30;
@@ -700,7 +706,9 @@ item (FEAT_TRAINS , ITEM_ET_30_ALTROT, 4303)
 			graphics
 			{
 			default							: switch_ET_30_graphics_altrot;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_30;
 			articulated_part				: switch_articulated_ET_30_altrot;
 			can_attach_wagon				: switch_coupling_ET_30;
@@ -771,7 +779,9 @@ item (FEAT_TRAINS , ITEM_ET_30_OZEANBLAU, 4304)
 			graphics
 			{
 			default							: switch_ET_30_graphics_ozeanblau;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_30;
 			articulated_part				: switch_articulated_ET_30_ozeanblau;
 			can_attach_wagon				: switch_coupling_ET_30;

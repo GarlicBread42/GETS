@@ -80,7 +80,9 @@ item (FEAT_TRAINS , ITEM_BR_189, 1890)
 			graphics
 			{
 			default							: switch_BR_189_graphics;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_189;
 			articulated_part				: switch_articulated_BR_189;
 			purchase_cargo_capacity		    : 0 ;

@@ -1,0 +1,175 @@
+//############
+//###RS 685###
+//############
+	
+//Spriteset Rs 685
+
+spriteset (spriteset_Rs_685, "gfx\Rs_685/Rs_685_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rs_685, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rs_685/Rs_685_1x_32bpp.png", "gfx\Rs_685/Rs_685_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rs_685, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rs_685/Rs_685_2x_32bpp.png", "gfx\Rs_685/Rs_685_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rs_685, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rs_685/Rs_685_4x_32bpp.png", "gfx\Rs_685/Rs_685_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+
+//Spriteset purchase
+
+spriteset (spriteset_Rs_685_purchase, "gfx\Rs_685/Rs_685_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rs_685_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rs_685/Rs_685_1x_32bpp.png", "gfx\Rs_685/Rs_685_1x_mask.png")
+					{template_purchase(0, 0)}
+
+					
+//Switches
+
+
+//Uses Loading Sprites from Rs 683
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: spritegroup_Rs_683_load_Barren;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: spritegroup_Rs_683_load_Box;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_ENSP, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: switch_Rs_683_load_ENSP_current_year;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_Farm, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: switch_Rs_683_load_Farm_current_year;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_Draht, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: spritegroup_Rs_683_load_Draht;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_Pipe, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: spritegroup_Rs_683_load_Pipe;}
+												
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_Profile, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: spritegroup_Rs_683_load_Profile;}							
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: spritegroup_Rs_683_load_Timber;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rs_685_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rs_685;
+						1: spritegroup_Rs_683_load_Wood;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_Rs_685_cargo_classes, cargo_classes) {
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_Rs_685_Box;
+								return switch_loadstack_Rs_685_Box;}									
+
+					switch (FEAT_TRAINS, SELF, switch_Rs_685_cargo_type, cargo_type_in_veh) {
+
+//FIRS-Cargos					
+							STAL: return switch_loadstack_Rs_685_Barren;
+							ALUM: return switch_loadstack_Rs_685_Barren;
+							STCB: return switch_loadstack_Rs_685_Barren;
+							STST: return switch_loadstack_Rs_685_Barren;
+							STSH: return switch_loadstack_Rs_685_Barren;
+							
+							POWR: return switch_loadstack_Rs_685_Box;
+							VENG: return switch_loadstack_Rs_685_Box;
+							VPTS: return switch_loadstack_Rs_685_Box;
+							GOOD: return switch_loadstack_Rs_685_Box;
+							GLAS: return switch_loadstack_Rs_685_Box;
+							
+							ENSP: return switch_loadstack_Rs_685_ENSP;
+							FMSP: return switch_loadstack_Rs_685_Farm;
+							
+							STWR: return switch_loadstack_Rs_685_Draht;
+							
+							STEL: return switch_loadstack_Rs_685_Profile;
+							STSE: return switch_loadstack_Rs_685_Profile;
+							
+							PIPE: return switch_loadstack_Rs_685_Pipe;
+							
+							BDMT: return switch_loadstack_Rs_685_Timber;
+							WDPR: return switch_loadstack_Rs_685_Timber;
+							
+							WOOD: return switch_loadstack_Rs_685_Wood;
+							
+//Other Cargoes
+							MNSP: return switch_loadstack_Rs_685_Box;
+							MPTS: return switch_loadstack_Rs_685_Box;
+							PAPR: return switch_loadstack_Rs_685_Box;							
+							
+								switch_Rs_685_cargo_classes;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_Rs_685_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_Rs_685_cargo_type;
+							2:	   spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Rs_685, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}													
+						 		 
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rs_685, extra_callback_info1) {
+							1 .. 2: return ITEM_RS_685;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Rs_685, 1){
+							return 480;}	
+							
+item (FEAT_TRAINS , ITEM_RS_685, 8933)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RS_685);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1971,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					19;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rs_685_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Rs_685;
+			length							: switch_length_Rs_685;
+			purchase						: spriteset_Rs_685_purchase;
+			cost_factor						: 195;
+			running_cost_factor				: switch_running_cost_Rs_685;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}																																					

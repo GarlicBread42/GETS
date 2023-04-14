@@ -442,7 +442,9 @@ item (FEAT_TRAINS , ITEM_BR_402, 4020)
 			graphics
 			{
 			default							: switch_graphics_BR_402;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_402;
 			articulated_part				: switch_articulated_BR_402;
 			purchase						: spriteset_BR_402_purchase;

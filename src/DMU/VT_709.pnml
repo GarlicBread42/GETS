@@ -146,7 +146,9 @@ item (FEAT_TRAINS , ITEM_VT_709_BUILD, 6740)
 			graphics
 			{
 			default							: switch_VT_709_build_year;
-			additional_text					: string(STR_DESC_PASS);	
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);	
 			purchase						: switch_purchase_VT_709;
 			cost_factor						: 10;
 			running_cost_factor				: switch_running_cost_VT_709;		
@@ -195,7 +197,9 @@ item (FEAT_TRAINS , ITEM_VT_709_CURRENT, 6741)
 			graphics
 			{
 			default							: switch_VT_709_current_year;
-			additional_text					: string(STR_DESC_PASS);	
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);	
 			purchase						: switch_purchase_VT_709;
 			cost_factor						: 10;
 			running_cost_factor				: switch_running_cost_VT_709;		
@@ -244,7 +248,9 @@ item (FEAT_TRAINS , ITEM_VT_709_GRUEN, 6742)
 			graphics
 			{
 			default							: spritegroup_VT_709_DRG_gruen;
-			additional_text					: string(STR_DESC_PASS);	
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);	
 			purchase						: spriteset_VT_709_purchase1;
 			cost_factor						: 10;
 			running_cost_factor				: switch_running_cost_VT_709;		
@@ -293,7 +299,9 @@ item (FEAT_TRAINS , ITEM_VT_709_ROTWEISS, 6743)
 			graphics
 			{
 			default							: spritegroup_VT_709_DRG_rotweiss;
-			additional_text					: string(STR_DESC_PASS);	
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);	
 			purchase						: spriteset_VT_709_purchase2;
 			cost_factor						: 10;
 			running_cost_factor				: switch_running_cost_VT_709;		

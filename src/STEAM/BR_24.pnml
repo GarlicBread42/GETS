@@ -276,7 +276,9 @@ item (FEAT_TRAINS , ITEM_BR_24, 0240)
 			graphics
 			{
 			default						   : switch_BR_24_graphics_build;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),);
 			length						   : switch_length_BR_24;
 			articulated_part			   : switch_articulated_BR_24_build;
 			purchase_cargo_capacity        : 0 ;
@@ -340,7 +342,9 @@ item (FEAT_TRAINS , ITEM_BR_24_CURRENT, 0241)
 			graphics
 			{
 			default						   : switch_BR_24_graphics_current;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),);
 			length						   : switch_length_BR_24;
 			articulated_part			   : switch_articulated_BR_24_current;
 			purchase_cargo_capacity        : 0 ;
@@ -403,7 +407,9 @@ item (FEAT_TRAINS , ITEM_BR_24_DRG, 0242)
 			graphics
 			{
 			default						   : switch_BR_24_graphics_DRG;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),);
 			length						   : switch_length_BR_24;
 			articulated_part			   : switch_articulated_BR_24_DRG;
 			purchase_cargo_capacity        : 0 ;
@@ -467,7 +473,9 @@ item (FEAT_TRAINS , ITEM_BR_24_DB_WAGNER, 0243)
 			graphics
 			{
 			default						   : switch_BR_24_graphics_DB_Wagner;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),);
 			length						   : switch_length_BR_24;
 			articulated_part			   : switch_articulated_BR_24_DB_Wagner;
 			purchase_cargo_capacity        : 0 ;
@@ -486,7 +494,7 @@ item (FEAT_TRAINS , ITEM_BR_24_DB_WAGNER, 0243)
 							1:     return spriteset_BR_24_Tender_DB;}
 
 						switch (FEAT_TRAINS, SELF, switch_articulated_BR_24_DB_Witte, extra_callback_info1) {
-							1: return ITEM_BR_24_DB_WAGNER;
+							1: return ITEM_BR_24_DB_WITTE;
 							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}															
 
 item (FEAT_TRAINS , ITEM_BR_24_DB_WITTE, 0244)
@@ -531,7 +539,9 @@ item (FEAT_TRAINS , ITEM_BR_24_DB_WITTE, 0244)
 			graphics
 			{
 			default						   : switch_BR_24_graphics_DB_Witte;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),);
 			length						   : switch_length_BR_24;
 			articulated_part			   : switch_articulated_BR_24_DB_Witte;
 			purchase_cargo_capacity        : 0 ;

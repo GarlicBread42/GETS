@@ -177,7 +177,9 @@ item (FEAT_TRAINS , ITEM_BR_146_2, 1462)
 			graphics
 			{
 			default							: switch_BR_146_2_graphics_automatic;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_146_2;
 			articulated_part				: switch_articulated_BR_146_2_automatic;
 			purchase_cargo_capacity		    : 0 ;
@@ -239,7 +241,9 @@ item (FEAT_TRAINS , ITEM_BR_146_2_VERKEHRSROT, 1463)
 			graphics
 			{
 			default							: switch_BR_146_2_graphics_verkehrsrot;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_146_2;
 			articulated_part				: switch_articulated_BR_146_2_verkehrsrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -302,7 +306,9 @@ item (FEAT_TRAINS , ITEM_BR_146_2_IC, 1464)
 			graphics
 			{
 			default							: switch_BR_146_2_graphics_ic;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_146_2;
 			articulated_part				: switch_articulated_BR_146_2_ic;
 			purchase_cargo_capacity		    : 0 ;
@@ -364,7 +370,9 @@ item (FEAT_TRAINS , ITEM_BR_146_2_INTERCONNEX, 1465)
 			graphics
 			{
 			default							: switch_BR_146_2_graphics_interconnex;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_146_2;
 			articulated_part				: switch_articulated_BR_146_2_interconnex;
 			purchase_cargo_capacity		    : 0 ;
@@ -427,7 +435,9 @@ item (FEAT_TRAINS , ITEM_BR_146_2_INTERCONNEXUB, 1466)
 			graphics
 			{
 			default							: switch_BR_146_2_graphics_interconnexUB;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_146_2;
 			articulated_part				: switch_articulated_BR_146_2_interconnexUB;
 			purchase_cargo_capacity		    : 0 ;
@@ -489,7 +499,9 @@ item (FEAT_TRAINS , ITEM_BR_146_2_METRONOM, 1467)
 			graphics
 			{
 			default							: switch_BR_146_2_graphics_metronom;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_146_2;
 			articulated_part				: switch_articulated_BR_146_2_metronom;
 			purchase_cargo_capacity		    : 0 ;

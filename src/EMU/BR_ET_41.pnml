@@ -175,7 +175,9 @@ item (FEAT_TRAINS , ITEM_ET_41_BUILD, 4410)
 			graphics
 			{
 			default							: switch_ET_41_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_41;
 			articulated_part				: switch_articulated_ET_41_build;
 			can_attach_wagon				: switch_coupling_ET_41;
@@ -239,7 +241,9 @@ item (FEAT_TRAINS , ITEM_ET_41_CURRENT, 4411)
 			graphics
 			{
 			default							: switch_ET_41_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_41;
 			articulated_part				: switch_articulated_ET_41_current;
 			can_attach_wagon				: switch_coupling_ET_41;
@@ -303,7 +307,9 @@ item (FEAT_TRAINS , ITEM_ET_41_TWOTONE, 4412)
 			graphics
 			{
 			default							: switch_ET_41_graphics_Twotone;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_41;
 			articulated_part				: switch_articulated_ET_41_Twotone;
 			can_attach_wagon				: switch_coupling_ET_41;
@@ -367,7 +373,9 @@ item (FEAT_TRAINS , ITEM_ET_41_GRAU, 4413)
 			graphics
 			{
 			default							: switch_ET_41_graphics_Grau;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_41;
 			articulated_part				: switch_articulated_ET_41_Grau;
 			can_attach_wagon				: switch_coupling_ET_41;
@@ -431,7 +439,9 @@ item (FEAT_TRAINS , ITEM_ET_41_ROT, 4414)
 			graphics
 			{
 			default							: switch_ET_41_graphics_Rot;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_ET_41;
 			articulated_part				: switch_articulated_ET_41_Rot;
 			can_attach_wagon				: switch_coupling_ET_41;

@@ -58,6 +58,20 @@ spriteset(spriteset_E_94_DB_ob, "gfx/E_94/BR_E_94_DB_ob_1x_8bpp.png")
 		alternative_sprites (spriteset_E_94_DB_ob, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/E_94/BR_E_94_DB_ob_4x_32bpp.png", "gfx/E_94/BR_E_94_DB_ob_4x_mask.png")
 									{ template_128trains_4x(0, 0)}
 
+//Spriteset MWB
+
+spriteset(spriteset_E_94_MWB, "gfx/E_94/BR_E_94_MWB_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_E_94_MWB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/E_94/BR_E_94_MWB_1x_32bpp.png", "gfx/E_94/BR_E_94_MWB_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_E_94_MWB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/E_94/BR_E_94_MWB_2x_32bpp.png", "gfx/E_94/BR_E_94_MWB_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_E_94_MWB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/E_94/BR_E_94_MWB_4x_32bpp.png", "gfx/E_94/BR_E_94_MWB_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
 //Spriteset Purchase
 
 spriteset(spriteset_E_94_purchase1, "gfx/E_94/BR_E_94_DRG_1x_8bpp.png")
@@ -78,10 +92,16 @@ spriteset(spriteset_E_94_purchase3, "gfx/E_94/BR_E_94_DB_late_1x_8bpp.png")
 		alternative_sprites (spriteset_E_94_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/E_94/BR_E_94_DB_late_1x_32bpp.png", "gfx/E_94/BR_E_94_DB_late_1x_mask.png")
 									{ template_purchase(0, 0)}																
 
-spriteset(spriteset_E_94_purchase4, "gfx/E_94/BR_E_94_DRG_1x_8bpp.png")
+spriteset(spriteset_E_94_purchase4, "gfx/E_94/BR_E_94_DB_ob_1x_8bpp.png")
 									{ template_purchase(0, 0)}
 				
 		alternative_sprites (spriteset_E_94_purchase4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/E_94/BR_E_94_DB_ob_1x_32bpp.png", "gfx/E_94/BR_E_94_DB_ob_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_E_94_purchase5, "gfx/E_94/BR_E_94_MWB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_E_94_purchase5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/E_94/BR_E_94_MWB_1x_32bpp.png", "gfx/E_94/BR_E_94_MWB_1x_mask.png")
 									{ template_purchase(0, 0)}
 
 //Switches
@@ -168,7 +188,9 @@ item (FEAT_TRAINS , ITEM_E_94_BUILD, 1940)
 			graphics
 			{
 			default							: switch_E_94_graphics_build;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_94;
 			articulated_part				: switch_articulated_E_94_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -229,7 +251,9 @@ item (FEAT_TRAINS , ITEM_E_94_CURRENT, 1941)
 			graphics
 			{
 			default							: switch_E_94_graphics_current;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_94;
 			articulated_part				: switch_articulated_E_94_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -290,7 +314,9 @@ item (FEAT_TRAINS , ITEM_E_94_DRG, 1942)
 			graphics
 			{
 			default							: switch_E_94_graphics_DRG;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_94;
 			articulated_part				: switch_articulated_E_94_DRG;
 			purchase_cargo_capacity		    : 0 ;
@@ -352,7 +378,9 @@ item (FEAT_TRAINS , ITEM_E_94_DB_EARLY, 1943)
 			graphics
 			{
 			default							: switch_E_94_graphics_DB_early;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_94;
 			articulated_part				: switch_articulated_E_94_DB_early;
 			purchase_cargo_capacity		    : 0 ;
@@ -414,7 +442,9 @@ item (FEAT_TRAINS , ITEM_E_94_DB_LATE, 1944)
 			graphics
 			{
 			default							: switch_E_94_graphics_DB_late;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_94;
 			articulated_part				: switch_articulated_E_94_DB_late;
 			purchase_cargo_capacity		    : 0 ;
@@ -475,12 +505,78 @@ item (FEAT_TRAINS , ITEM_E_94_OZEANBLAU, 1945)
 			graphics
 			{
 			default							: switch_E_94_graphics_ozeanblau;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_94;
 			articulated_part				: switch_articulated_E_94_ozeanblau;
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_E_94_purchase4;
+			cost_factor						: 103;
+			running_cost_factor				: switch_running_cost_E_94;
+			visual_effect_and_powered		: switch_FX_E_94;
+			}
+	}
+
+
+						switch(FEAT_TRAINS, SELF, switch_E_94_graphics_MWB, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_E_94_MWB;
+							2:	   spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_E_94_MWB, extra_callback_info1) {
+						1 .. 2: return ITEM_E_94_MWB;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																			
+item (FEAT_TRAINS , ITEM_E_94_MWB, 1946)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_E_94_MWB);
+						variant_group:					1940;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;						
+						introduction_date: 				date(2000,01,01);
+						model_life:						48;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base:   			RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					ELRL;
+						power:  						4488 hp;
+						weight: 						119 ton;
+						ai_engine_rank: 				0;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.305;
+						length: 						8;
+												
+			}
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_E_94_graphics_MWB;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
+			length							: switch_length_E_94;
+			articulated_part				: switch_articulated_E_94_MWB;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_E_94_purchase5;
 			cost_factor						: 103;
 			running_cost_factor				: switch_running_cost_E_94;
 			visual_effect_and_powered		: switch_FX_E_94;

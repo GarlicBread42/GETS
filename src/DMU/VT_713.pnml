@@ -250,7 +250,9 @@ item (FEAT_TRAINS , ITEM_VT_713_BUILD, 6744)
 			graphics
 			{
 			default							: switch_VT_713_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_VT_713_length;
 			articulated_part				: switch_articulated_VT_713_build;
 			visual_effect_and_powered		: switch_FX_VT_713;
@@ -312,7 +314,9 @@ item (FEAT_TRAINS , ITEM_VT_713_CURRENT, 6745)
 			graphics
 			{
 			default							: switch_VT_713_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_VT_713_length;
 			articulated_part				: switch_articulated_VT_713_current;
 			visual_effect_and_powered		: switch_FX_VT_713;
@@ -373,7 +377,9 @@ item (FEAT_TRAINS , ITEM_VT_713_GRUEN, 6746)
 			graphics
 			{
 			default							: switch_VT_713_graphics_gruen;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_VT_713_length;
 			articulated_part				: switch_articulated_VT_713_gruen;
 			visual_effect_and_powered		: switch_FX_VT_713;
@@ -434,7 +440,9 @@ item (FEAT_TRAINS , ITEM_VT_713_ROTWEISS, 6747)
 			graphics
 			{
 			default							: switch_VT_713_graphics_rotweiss;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_VT_713_length;
 			articulated_part				: switch_articulated_VT_713_rotweiss;
 			visual_effect_and_powered		: switch_FX_VT_713;

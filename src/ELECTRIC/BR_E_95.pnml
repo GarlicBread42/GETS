@@ -156,7 +156,9 @@ item (FEAT_TRAINS , ITEM_E_95_BUILD, 1950)
 			graphics
 			{
 			default							: switch_E_95_graphics_build;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_95;
 			articulated_part				: switch_articulated_E_95_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -217,7 +219,9 @@ item (FEAT_TRAINS , ITEM_E_95_CURRENT, 1951)
 			graphics
 			{
 			default							: switch_E_95_graphics_current;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_95;
 			articulated_part				: switch_articulated_E_95_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -278,7 +282,9 @@ item (FEAT_TRAINS , ITEM_E_95_GRAY, 1952)
 			graphics
 			{
 			default							: switch_E_95_graphics_gray;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_95;
 			articulated_part				: switch_articulated_E_95_gray;
 			purchase_cargo_capacity		    : 0 ;
@@ -340,7 +346,9 @@ item (FEAT_TRAINS , ITEM_E_95_GREEN, 1953)
 			graphics
 			{
 			default							: switch_E_95_graphics_green;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_E_95;
 			articulated_part				: switch_articulated_E_95_green;
 			purchase_cargo_capacity		    : 0 ;

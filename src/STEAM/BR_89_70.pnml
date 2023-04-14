@@ -336,7 +336,9 @@ item (FEAT_TRAINS , ITEM_BR_89_70_BUILD, 0895)
 					graphics
 				{
 						default						    : switch_BR_89_70_build_year;
-						additional_text				    : string(STR_DESC_UNIVERSAL);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_89_70_purchase;
@@ -388,7 +390,9 @@ item (FEAT_TRAINS , ITEM_BR_89_70_CURRENT, 0896)
 					graphics
 				{
 						default						    : switch_BR_89_70_current_year;
-						additional_text				    : string(STR_DESC_UNIVERSAL);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_89_70_purchase;
@@ -441,7 +445,9 @@ item (FEAT_TRAINS , ITEM_BR_89_70_KPEV, 0897)
 					graphics
 				{
 						default						    : switch_reverse_BR_89_70_KPEV;
-						additional_text				    : string(STR_DESC_UNIVERSAL);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_89_70_purchase_KPEV;
@@ -494,7 +500,9 @@ item (FEAT_TRAINS , ITEM_BR_89_70_DRG, 0898)
 					graphics
 				{
 						default						    : switch_reverse_BR_89_70_DRG;
-						additional_text				    : string(STR_DESC_UNIVERSAL);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_89_70_purchase_DRG;
@@ -547,7 +555,9 @@ item (FEAT_TRAINS , ITEM_BR_89_70_DB, 0899)
 					graphics
 				{
 						default						    : switch_reverse_BR_89_70_DB;
-						additional_text				    : string(STR_DESC_UNIVERSAL);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_UNIVERSAL),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_89_70_purchase_DB;

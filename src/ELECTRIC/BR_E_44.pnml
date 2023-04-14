@@ -144,7 +144,9 @@ item (FEAT_TRAINS , ITEM_E_44_BUILD, 1440)
 			graphics
 			{
 			default:						switch_E_44_graphics_build;
-			additional_text:				string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length:							switch_length_E_44;
 			articulated_part:				switch_articulated_E_44_build;
 			purchase_cargo_capacity		    :0 ;
@@ -207,7 +209,9 @@ item (FEAT_TRAINS , ITEM_E_44_CURRENT, 1441)
 			graphics
 			{
 			default:						switch_E_44_graphics_current;
-			additional_text:				string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length:							switch_length_E_44;
 			articulated_part:				switch_articulated_E_44_current;
 			purchase_cargo_capacity		    :0 ;
@@ -271,7 +275,9 @@ item (FEAT_TRAINS , ITEM_E_44_DRG, 1442)
 			graphics
 			{
 			default:						switch_E_44_graphics_DRG;
-			additional_text:				string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length:							switch_length_E_44;
 			articulated_part:				switch_articulated_E_44_DRG;
 			purchase_cargo_capacity		    :0 ;
@@ -334,7 +340,9 @@ item (FEAT_TRAINS , ITEM_E_44_DB, 1443)
 			graphics
 			{
 			default:						switch_E_44_graphics_DB;
-			additional_text:				string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length:							switch_length_E_44;
 			articulated_part:				switch_articulated_E_44_DB;
 			purchase_cargo_capacity		    :0 ;
@@ -397,7 +405,9 @@ item (FEAT_TRAINS , ITEM_E_44_OZEANBLAU, 1444)
 			graphics
 			{
 			default:						switch_E_44_graphics_ozeanblau;
-			additional_text:				string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length:							switch_length_E_44;
 			articulated_part:				switch_articulated_E_44_ozeanblau;
 			purchase_cargo_capacity		    :0 ;

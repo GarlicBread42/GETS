@@ -223,7 +223,9 @@ item (FEAT_TRAINS , ITEM_E_32_BUILD, 1320)
 			graphics
 			{
 			default							:switch_E_32_build_year;
-			additional_text					:string(STR_DESC_E_32);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_32),);
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:switch_purchase_E_32;
@@ -275,7 +277,9 @@ item (FEAT_TRAINS , ITEM_E_32_CURRENT, 1321)
 			graphics
 			{
 			default							:switch_E_32_current_year;
-			additional_text					:string(STR_DESC_E_32);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_32),);
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:switch_purchase_E_32;
@@ -327,7 +331,9 @@ item (FEAT_TRAINS , ITEM_E_32_BAY, 1322)
 			graphics
 			{
 			default							:switch_spritestack_E_32_BAY;
-			additional_text					:string(STR_DESC_E_32);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_32),);
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:switch_spritestack_E_32_purchase1;
@@ -379,7 +385,9 @@ item (FEAT_TRAINS , ITEM_E_32_DRG, 1323)
 			graphics
 			{
 			default							:switch_spritestack_E_32_DRG;
-			additional_text					:string(STR_DESC_E_32);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_32),);
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:switch_spritestack_E_32_purchase2;
@@ -431,7 +439,9 @@ item (FEAT_TRAINS , ITEM_E_32_DB, 1324)
 			graphics
 			{
 			default							:switch_spritestack_E_32_DB;
-			additional_text					:string(STR_DESC_E_32);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_32),);
 			purchase_cargo_capacity		    :0 ;
 			cargo_capacity	                :return 0 ;
 			purchase						:switch_spritestack_E_32_purchase3;

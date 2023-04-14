@@ -249,7 +249,9 @@ item (FEAT_TRAINS , ITEM_BR_53_80, 0530)
 			graphics
 			{
 			default						   	: switch_BR_53_80_graphics_build;
-			additional_text				   	: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   	: switch_length_BR_53_80;
 			articulated_part			   	: switch_articulated_BR_53_80_build;
 			purchase_cargo_capacity        	: 0 ;
@@ -313,7 +315,9 @@ item (FEAT_TRAINS , ITEM_BR_53_80_CURRENT, 0531)
 			graphics
 			{
 			default						   	: switch_BR_53_80_graphics_current;
-			additional_text				   	: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   	: switch_length_BR_53_80;
 			articulated_part			   	: switch_articulated_BR_53_80_current;
 			purchase_cargo_capacity        	: 0 ;
@@ -377,7 +381,9 @@ item (FEAT_TRAINS , ITEM_BR_53_80_GREEN, 0532)
 			graphics
 			{
 			default						   	: switch_BR_53_80_graphics_GREEN;
-			additional_text				   	: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   	: switch_length_BR_53_80;
 			articulated_part			   	: switch_articulated_BR_53_80_GREEN;
 			purchase_cargo_capacity        	: 0 ;
@@ -442,7 +448,9 @@ item (FEAT_TRAINS , ITEM_BR_53_80_GRAY, 0533)
 			graphics
 			{
 			default						   	: switch_BR_53_80_graphics_GRAY;
-			additional_text				   	: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   	: switch_length_BR_53_80;
 			articulated_part			   	: switch_articulated_BR_53_80_GRAY;
 			purchase_cargo_capacity        	: 0 ;
@@ -507,7 +515,9 @@ item (FEAT_TRAINS , ITEM_BR_53_80_DRG, 0534)
 			graphics
 			{
 			default						   	: switch_BR_53_80_graphics_DRG;
-			additional_text				   	: string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 			length						   	: switch_length_BR_53_80;
 			articulated_part			   	: switch_articulated_BR_53_80_DRG;
 			purchase_cargo_capacity        	: 0 ;

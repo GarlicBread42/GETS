@@ -165,7 +165,9 @@ item (FEAT_TRAINS , ITEM_E_40_BUILD, 1400)
 			graphics
 			{
 			default:						switch_E_40_graphics_build;
-			additional_text:				string(STR_DESC_E_40);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_40),);
 			length:							switch_length_E_40;
 			articulated_part:				switch_articulated_E_40_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -227,7 +229,9 @@ item (FEAT_TRAINS , ITEM_E_40_CURRENT, 1401)
 			graphics
 			{
 			default:						switch_E_40_graphics_current;
-			additional_text:				string(STR_DESC_E_40);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_40),);
 			length:							switch_length_E_40;
 			articulated_part:				switch_articulated_E_40_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -288,7 +292,9 @@ item (FEAT_TRAINS , ITEM_E_40_GRUEN, 1402)
 			graphics
 			{
 			default:						switch_E_40_graphics_gruen;
-			additional_text:				string(STR_DESC_E_40);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_40),);
 			length:							switch_length_E_40;
 			articulated_part:				switch_articulated_E_40_gruen;
 			purchase_cargo_capacity		    : 0 ;
@@ -350,7 +356,9 @@ item (FEAT_TRAINS , ITEM_E_40_OZEANBLAU, 1403)
 			graphics
 			{
 			default:						switch_E_40_graphics_ozeanblau;
-			additional_text:				string(STR_DESC_E_40);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_40),);
 			length:							switch_length_E_40;
 			articulated_part:				switch_articulated_E_40_ozeanblau;
 			purchase_cargo_capacity		    : 0 ;
@@ -412,7 +420,9 @@ item (FEAT_TRAINS , ITEM_E_40_ORIENTROT, 1404)
 			graphics
 			{
 			default:						switch_E_40_graphics_orientrot;
-			additional_text:				string(STR_DESC_E_40);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_40),);
 			length:							switch_length_E_40;
 			articulated_part:				switch_articulated_E_40_orientrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -474,7 +484,9 @@ item (FEAT_TRAINS , ITEM_E_40_CARGO, 1405)
 			graphics
 			{
 			default:						switch_E_40_graphics_cargo;
-			additional_text:				string(STR_DESC_E_40);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_E_40),);
 			length:							switch_length_E_40;
 			articulated_part:				switch_articulated_E_40_cargo;
 			purchase_cargo_capacity		    : 0 ;

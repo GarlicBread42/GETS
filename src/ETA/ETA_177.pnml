@@ -394,7 +394,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_2_BUILD, 3901)
 			graphics
 			{
 			default:						switch_ETA_177_graphics_build;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_2;
 			articulated_part:				switch_articulated_ETA_177_2_build;
 			purchase:						switch_purchase_ETA_177;
@@ -468,7 +470,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_2_CURRENT, 3902)
 			graphics
 			{
 			default:						switch_ETA_177_graphics_current;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_2;
 			articulated_part:				switch_articulated_ETA_177_2_current;
 			purchase:						switch_purchase_ETA_177;
@@ -530,7 +534,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_2_KPEV, 3903)
 			graphics
 			{
 			default:						switch_ETA_177_graphics_KPEV;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_2;
 			articulated_part:				switch_articulated_ETA_177_2_KPEV;
 			purchase:						spriteset_ETA_177_purchase_KPEV;
@@ -592,7 +598,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_2_DRG, 3904)
 			graphics
 			{
 			default:						switch_ETA_177_graphics_DRG;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_2;
 			articulated_part:				switch_articulated_ETA_177_2_DRG;
 			purchase:						spriteset_ETA_177_purchase_DRG;
@@ -654,7 +662,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_2_DB, 3905)
 			graphics
 			{
 			default:						switch_ETA_177_graphics_DB;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_2;
 			articulated_part:				switch_articulated_ETA_177_2_DB;
 			purchase:						spriteset_ETA_177_purchase_DB;
@@ -745,7 +755,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_3_BUILD, 3906)
 			graphics
 			{
 			default:						switch_ETA_177_3_graphics_build;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_3;
 			articulated_part:				switch_articulated_ETA_177_3_build;
 			purchase:						switch_purchase_ETA_177;
@@ -826,7 +838,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_3_CURRENT, 3907)
 			graphics
 			{
 			default:						switch_ETA_177_3_graphics_current;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_3;
 			articulated_part:				switch_articulated_ETA_177_3_current;
 			purchase:						switch_purchase_ETA_177;
@@ -889,7 +903,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_3_KPEV, 3908)
 			graphics
 			{
 			default:						switch_ETA_177_3_graphics_KPEV;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_3;
 			articulated_part:				switch_articulated_ETA_177_3_KPEV;
 			purchase:						spriteset_ETA_177_purchase_KPEV;
@@ -952,7 +968,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_3_DRG, 3909)
 			graphics
 			{
 			default:						switch_ETA_177_3_graphics_DRG;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_3;
 			articulated_part:				switch_articulated_ETA_177_3_DRG;
 			purchase:						spriteset_ETA_177_purchase_DRG;
@@ -1016,7 +1034,9 @@ item (FEAT_TRAINS , ITEM_ETA_177_3_DB, 3910)
 			graphics
 			{
 			default:						switch_ETA_177_3_graphics_DB;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_177_3;
 			articulated_part:				switch_articulated_ETA_177_3_DB;
 			purchase:						spriteset_ETA_177_purchase_DB;

@@ -1,5 +1,5 @@
 //#############
-//###BR 240 ###
+//###BR 263 ###
 //#############
 
 //Spriteset MaK
@@ -127,7 +127,9 @@ item (FEAT_TRAINS , ITEM_BR_263, 2630)
 			graphics
 			{
 			default							: switch_BR_263_graphics_Voithexpo;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_263;
 			articulated_part				: switch_articulated_BR_263_Voithexpo; 				
 			purchase_cargo_capacity		    : 0 ;
@@ -190,7 +192,9 @@ item (FEAT_TRAINS , ITEM_BR_263_YELLOW, 2631)
 			graphics
 			{
 			default							: switch_BR_263_graphics_Voithyellow;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_263;
 			articulated_part				: switch_articulated_BR_263_Voithyellow; 				
 			purchase_cargo_capacity		    : 0 ;
@@ -253,7 +257,9 @@ item (FEAT_TRAINS , ITEM_BR_263_HVLE, 2632)
 			graphics
 			{
 			default							: switch_BR_263_graphics_HVLE;
-			additional_text					: string(STR_DESC_UNIVERSAL);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_263;
 			articulated_part				: switch_articulated_BR_263_HVLE; 				
 			purchase_cargo_capacity		    : 0 ;

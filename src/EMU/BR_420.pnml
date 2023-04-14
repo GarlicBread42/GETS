@@ -668,7 +668,9 @@ item (FEAT_TRAINS , ITEM_BR_420_BUILD, 4200)
 			graphics
 			{
 			default							: switch_BR_420_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_420;
 			articulated_part				: switch_articulated_BR_420_build;
 			can_attach_wagon				: switch_coupling_BR_420;
@@ -756,7 +758,9 @@ item (FEAT_TRAINS , ITEM_BR_420_CURRENT, 4201)
 			graphics
 			{
 			default							: switch_BR_420_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_420;
 			articulated_part				: switch_articulated_BR_420_current;
 			can_attach_wagon				: switch_coupling_BR_420;
@@ -825,7 +829,9 @@ item (FEAT_TRAINS , ITEM_BR_420_FFM, 4202)
 			graphics
 			{
 			default							: switch_BR_420_graphics_FFM;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_420;
 			articulated_part				: switch_articulated_BR_420_FFM;
 			can_attach_wagon				: switch_coupling_BR_420;
@@ -894,7 +900,9 @@ item (FEAT_TRAINS , ITEM_BR_420_MUC, 4203)
 			graphics
 			{
 			default							: switch_BR_420_graphics_MUC;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_420;
 			articulated_part				: switch_articulated_BR_420_MUC;
 			can_attach_wagon				: switch_coupling_BR_420;
@@ -963,7 +971,9 @@ item (FEAT_TRAINS , ITEM_BR_420_KARMIN, 4204)
 			graphics
 			{
 			default							: switch_BR_420_graphics_Karmin;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_420;
 			articulated_part				: switch_articulated_BR_420_Karmin;
 			can_attach_wagon				: switch_coupling_BR_420;
@@ -1032,7 +1042,9 @@ item (FEAT_TRAINS , ITEM_BR_420_SBAHN, 4205)
 			graphics
 			{
 			default							: switch_BR_420_graphics_SBahn;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_420;
 			articulated_part				: switch_articulated_BR_420_SBahn;
 			can_attach_wagon				: switch_coupling_BR_420;
@@ -1101,7 +1113,9 @@ item (FEAT_TRAINS , ITEM_BR_420_VERKEHRSROT, 4206)
 			graphics
 			{
 			default							: switch_BR_420_graphics_verkehrsrot;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_420;
 			articulated_part				: switch_articulated_BR_420_verkehrsrot;
 			can_attach_wagon				: switch_coupling_BR_420;

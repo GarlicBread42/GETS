@@ -257,7 +257,9 @@ item (FEAT_TRAINS , ITEM_ET_11_BUILD, 4110)
 			graphics
 			{
 			default:						switch_ET_11_graphics_build;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_ET_11;
 			articulated_part:				switch_articulated_ET_11_build;
 			visual_effect_and_powered:    	switch_FX_ET_11;
@@ -332,7 +334,9 @@ item (FEAT_TRAINS , ITEM_ET_11_CURRENT, 4111)
 			graphics
 			{
 			default:						switch_ET_11_graphics_current;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_ET_11;
 			articulated_part:				switch_articulated_ET_11_current;
 			visual_effect_and_powered:    	switch_FX_ET_11;
@@ -397,7 +401,9 @@ item (FEAT_TRAINS , ITEM_ET_11_DRG, 4112)
 			graphics
 			{
 			default:						switch_ET_11_graphics_DRG;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_ET_11;
 			articulated_part:				switch_articulated_ET_11_DRG;
 			visual_effect_and_powered:    	switch_FX_ET_11;
@@ -462,7 +468,9 @@ item (FEAT_TRAINS , ITEM_ET_11_DB_ROT, 4113)
 			graphics
 			{
 			default:						switch_ET_11_graphics_DB_rot;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_ET_11;
 			articulated_part:				switch_articulated_ET_11_DB_rot;
 			visual_effect_and_powered:    	switch_FX_ET_11;
@@ -527,7 +535,9 @@ item (FEAT_TRAINS , ITEM_ET_11_DB_BLAU, 4114)
 			graphics
 			{
 			default:						switch_ET_11_graphics_DB_blau;
-			additional_text:				string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length:							switch_length_ET_11;
 			articulated_part:				switch_articulated_ET_11_DB_blau;
 			visual_effect_and_powered:    	switch_FX_ET_11;

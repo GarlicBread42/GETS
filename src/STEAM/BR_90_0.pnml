@@ -284,7 +284,9 @@ item (FEAT_TRAINS , ITEM_BR_90_0, 0900)
 					graphics
 				{
 						default						    : switch_BR_90_0_build_year;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_90_0_purchase;
@@ -335,7 +337,9 @@ item (FEAT_TRAINS , ITEM_BR_90_0_CURRENT, 0901)
 					graphics
 				{
 						default						    : switch_BR_90_0_current_year;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_90_0_purchase;
@@ -387,7 +391,9 @@ item (FEAT_TRAINS , ITEM_BR_90_0_KPEV, 0902)
 					graphics
 				{
 						default						    : switch_reverse_BR_90_0_KPEV;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_90_0_purchase1;
@@ -438,7 +444,9 @@ item (FEAT_TRAINS , ITEM_BR_90_0_DRG, 0903)
 					graphics
 				{
 						default						    : switch_reverse_BR_90_0_DRG;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_90_0_purchase2;

@@ -241,7 +241,9 @@ item (FEAT_TRAINS , ITEM_BR_644_REGIO, 6440)
 			graphics
 			{
 			default							: switch_BR_644_Regio_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_644;
 			articulated_part				: switch_articulated_BR_644_Regio;
 			visual_effect_and_powered		: switch_FX_BR_644;
@@ -311,7 +313,9 @@ item (FEAT_TRAINS , ITEM_BR_644_EUREGIO, 6441)
 			graphics
 			{
 			default							: switch_BR_644_EURegio_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_644;
 			articulated_part				: switch_articulated_BR_644_EURegio;
 			visual_effect_and_powered		: switch_FX_BR_644;

@@ -506,7 +506,9 @@ item (FEAT_TRAINS , ITEM_BR_428_3_ABELLIO, 4280)
 			graphics
 			{
 			default							: switch_BR_428_3_graphics_Abellio;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_428_3;
 			articulated_part				: switch_articulated_BR_428_3_Abellio;
 			visual_effect_and_powered		: switch_FX_BR_428_3;
@@ -574,7 +576,9 @@ item (FEAT_TRAINS , ITEM_BR_428_3_VIAS, 4281)
 			graphics
 			{
 			default							: switch_BR_428_3_graphics_VIAS;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_428_3;
 			articulated_part				: switch_articulated_BR_428_3_VIAS;
 			visual_effect_and_powered		: switch_FX_BR_428_3;
@@ -671,7 +675,9 @@ item (FEAT_TRAINS , ITEM_BR_428_4_VIAS, 4285)
 			graphics
 			{
 			default							: switch_BR_428_4_graphics_VIAS;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_428_4;
 			articulated_part				: switch_articulated_BR_428_4_VIAS;
 			visual_effect_and_powered		: switch_FX_BR_428_4;
@@ -741,7 +747,9 @@ item (FEAT_TRAINS , ITEM_BR_428_4_RRX, 4286)
 			graphics
 			{
 			default							: switch_BR_428_4_graphics_RRX;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_428_4;
 			articulated_part				: switch_articulated_BR_428_4_RRX;
 			visual_effect_and_powered		: switch_FX_BR_428_4;

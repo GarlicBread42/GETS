@@ -593,7 +593,9 @@ item (FEAT_TRAINS , ITEM_BR_407, 4070)
 			graphics
 			{
 			default							: switch_graphics_BR_407;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_407;
 			articulated_part				: switch_articulated_BR_407;
 			purchase						: spriteset_BR_407_purchase;

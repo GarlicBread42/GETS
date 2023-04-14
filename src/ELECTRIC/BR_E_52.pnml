@@ -234,7 +234,9 @@ item (FEAT_TRAINS , ITEM_E_52_BUILD, 1520)
 			graphics
 			{
 			default							: switch_E_52_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_E_52; 
 			articulated_part				: switch_articulated_E_52_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -296,7 +298,9 @@ item (FEAT_TRAINS , ITEM_E_52_CURRENT, 1521)
 			graphics
 			{
 			default							: switch_E_52_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_E_52; 
 			articulated_part				: switch_articulated_E_52_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -359,7 +363,9 @@ item (FEAT_TRAINS , ITEM_E_52_BAY, 1522)
 			graphics
 			{
 			default							: switch_E_52_graphics_BAY;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_E_52; 
 			articulated_part				: switch_articulated_E_52_BAY;
 			purchase_cargo_capacity		    : 0 ;
@@ -421,7 +427,9 @@ item (FEAT_TRAINS , ITEM_E_52_DRG, 1523)
 			graphics
 			{
 			default							: switch_E_52_graphics_DRG;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_E_52; 
 			articulated_part				: switch_articulated_E_52_DRG;
 			purchase_cargo_capacity		    : 0 ;
@@ -453,8 +461,8 @@ item (FEAT_TRAINS , ITEM_E_52_DB, 1524)
 						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);						
 						climates_available: 			ALL_CLIMATES;
 						engine_class: 					ENGINE_CLASS_ELECTRIC;						
-						introduction_date: 				date(1927,01,01);
-						model_life: 					46;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					27;
 						vehicle_life: 					40;
 						retire_early: 					-10;							
 						reliability_decay: 				20;
@@ -483,7 +491,9 @@ item (FEAT_TRAINS , ITEM_E_52_DB, 1524)
 			graphics
 			{
 			default							: switch_E_52_graphics_DB;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_E_52; 
 			articulated_part				: switch_articulated_E_52_DB;
 			purchase_cargo_capacity		    : 0 ;

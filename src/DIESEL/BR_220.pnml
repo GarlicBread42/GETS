@@ -145,7 +145,9 @@ item (FEAT_TRAINS , ITEM_BR_220_BUILD, 2200)
 		graphics
 			{
 			default							:switch_V200_0_graphics_build;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_0;
 			articulated_part				:switch_articulated_V200_0_build;
 			purchase_cargo_capacity        	:0 ;
@@ -207,7 +209,9 @@ item (FEAT_TRAINS , ITEM_BR_220_CURRENT, 2201)
 		graphics
 			{
 			default							:switch_V200_0_graphics_current;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_0;
 			articulated_part				:switch_articulated_V200_0_current;
 			purchase_cargo_capacity        	:0 ;
@@ -269,7 +273,9 @@ item (FEAT_TRAINS , ITEM_BR_220_DB1, 2202)
 		graphics
 			{
 			default							:switch_V200_0_graphics_altrot;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_0;
 			articulated_part				:switch_articulated_V200_0_altrot;
 			purchase_cargo_capacity        	:0 ;
@@ -332,7 +338,9 @@ item (FEAT_TRAINS , ITEM_BR_220_DB2, 2203)
 		graphics
 			{
 			default							:switch_V200_0_graphics_DB2;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_0;
 			articulated_part				:switch_articulated_V200_0_DB2;
 			purchase_cargo_capacity        	:0 ;
@@ -395,7 +403,9 @@ item (FEAT_TRAINS , ITEM_BR_220_OZEANBLAU, 2204)
 		graphics
 			{
 			default							:switch_V200_0_graphics_ozeanblau;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_0;
 			articulated_part				:switch_articulated_V200_0_ozeanblau;
 			purchase_cargo_capacity        	:0 ;

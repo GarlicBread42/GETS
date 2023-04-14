@@ -218,7 +218,9 @@ item (FEAT_TRAINS , ITEM_VT_757_BUILD, 6755)
 			graphics
 			{
 			default							: switch_VT_757_graphics_build;
-			additional_text					: string(STR_DESC_VT_757);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_VT_757),);
 			length							: switch_VT_757_length;	
 			articulated_part				: switch_articulated_VT_757_build;
 			power							: switch_hp_VT_757;
@@ -282,7 +284,9 @@ item (FEAT_TRAINS , ITEM_VT_757_CURRENT, 6756)
 			graphics
 			{
 			default							: switch_VT_757_graphics_current;
-			additional_text					: string(STR_DESC_VT_757);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_VT_757),);
 			length							: switch_VT_757_length;	
 			articulated_part				: switch_articulated_VT_757_current;
 			power							: switch_hp_VT_757;
@@ -346,7 +350,9 @@ item (FEAT_TRAINS , ITEM_VT_757_GRUEN, 6757)
 			graphics
 			{
 			default							: switch_VT_757_graphics_gruen;
-			additional_text					: string(STR_DESC_VT_757);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_VT_757),);
 			length							: switch_VT_757_length;	
 			articulated_part				: switch_articulated_VT_757_gruen;
 			power							: switch_hp_VT_757;
@@ -410,7 +416,9 @@ item (FEAT_TRAINS , ITEM_VT_757_ROTWEISS_2, 6758)
 			graphics
 			{
 			default							: switch_VT_757_graphics_rotweiss_2;
-			additional_text					: string(STR_DESC_VT_757);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_VT_757),);
 			length							: switch_VT_757_length;	
 			articulated_part				: switch_articulated_VT_757_rotweiss_2;
 			power							: switch_hp_VT_757;
@@ -474,7 +482,9 @@ item (FEAT_TRAINS , ITEM_VT_757_ROTWEISS_3, 6759)
 			graphics
 			{
 			default							: switch_VT_757_graphics_rotweiss_3;
-			additional_text					: string(STR_DESC_VT_757);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_VT_757),);
 			length							: switch_VT_757_length;	
 			articulated_part				: switch_articulated_VT_757_rotweiss_3;
 			power							: switch_hp_VT_757;
@@ -538,7 +548,9 @@ item (FEAT_TRAINS , ITEM_VT_757_DB, 6760)
 			graphics
 			{
 			default							: switch_VT_757_graphics_DB;
-			additional_text					: string(STR_DESC_VT_757);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_VT_757),);
 			length							: switch_VT_757_length;	
 			articulated_part				: switch_articulated_VT_757_DB;
 			power							: switch_hp_VT_757;

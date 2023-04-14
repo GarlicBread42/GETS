@@ -308,7 +308,9 @@ item (FEAT_TRAINS , ITEM_BR_151_BUILD, 1506)
 			graphics
 			{
 			default							: switch_BR_151_graphics_build;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -371,7 +373,9 @@ item (FEAT_TRAINS , ITEM_BR_151_CURRENT, 1507)
 			graphics
 			{
 			default							: switch_BR_151_graphics_current;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -433,7 +437,9 @@ item (FEAT_TRAINS , ITEM_BR_151_GRUEN, 1508)
 			graphics
 			{
 			default							: switch_BR_151_graphics_gruen;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_gruen;
 			purchase_cargo_capacity		    : 0 ;
@@ -496,7 +502,9 @@ item (FEAT_TRAINS , ITEM_BR_151_OZEANBLAU, 1509)
 			graphics
 			{
 			default							: switch_BR_151_graphics_ozeanblau;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_ozeanblau;
 			purchase_cargo_capacity		    : 0 ;
@@ -559,7 +567,9 @@ item (FEAT_TRAINS , ITEM_BR_151_ORIENTROT, 1510)
 			graphics
 			{
 			default							: switch_BR_151_graphics_orientrot;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_orientrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -622,7 +632,9 @@ item (FEAT_TRAINS , ITEM_BR_151_VERKEHRSROT, 1511)
 			graphics
 			{
 			default							: switch_BR_151_graphics_verkehrsrot;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_verkehrsrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -685,7 +697,9 @@ item (FEAT_TRAINS , ITEM_BR_151_CARGO, 1512)
 			graphics
 			{
 			default							: switch_BR_151_graphics_cargo;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_cargo;
 			purchase_cargo_capacity		    : 0 ;
@@ -747,7 +761,9 @@ item (FEAT_TRAINS , ITEM_BR_151_PRIV_RANDOM, 1513)
 			graphics
 			{
 			default							: switch_BR_151_graphics_priv_random;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_priv_random;
 			purchase_cargo_capacity		    : 0 ;
@@ -810,7 +826,9 @@ item (FEAT_TRAINS , ITEM_BR_151_PRIV1, 1514)
 			graphics
 			{
 			default							: switch_BR_151_graphics_priv1;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_priv1;
 			purchase_cargo_capacity		    : 0 ;
@@ -873,7 +891,9 @@ item (FEAT_TRAINS , ITEM_BR_151_PRIV2, 1515)
 			graphics
 			{
 			default							: switch_BR_151_graphics_priv2;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_priv2;
 			purchase_cargo_capacity		    : 0 ;
@@ -935,7 +955,9 @@ item (FEAT_TRAINS , ITEM_BR_151_PRIV3, 1516)
 			graphics
 			{
 			default							: switch_BR_151_graphics_priv3;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_priv3;
 			purchase_cargo_capacity		    : 0 ;
@@ -997,7 +1019,9 @@ item (FEAT_TRAINS , ITEM_BR_151_PRIV4, 1517)
 			graphics
 			{
 			default							: switch_BR_151_graphics_priv4;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_priv4;
 			purchase_cargo_capacity		    : 0 ;
@@ -1059,7 +1083,9 @@ item (FEAT_TRAINS , ITEM_BR_151_PRIV5, 1518)
 			graphics
 			{
 			default							: switch_BR_151_graphics_priv5;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_priv5;
 			purchase_cargo_capacity		    : 0 ;
@@ -1121,7 +1147,9 @@ item (FEAT_TRAINS , ITEM_BR_151_PRIV6, 1519)
 			graphics
 			{
 			default							: switch_BR_151_graphics_priv6;
-			additional_text					: string(STR_DESC_GOODS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
 			length							: switch_length_BR_151;
 			articulated_part				: switch_articulated_BR_151_priv6;
 			purchase_cargo_capacity		    : 0 ;

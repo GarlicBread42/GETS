@@ -146,7 +146,9 @@ item (FEAT_TRAINS , ITEM_BR_E_16_BUILD, 1160)
 			graphics
 			{
 			default							:switch_BR_E_16_graphics_build;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_16;
 			articulated_part				:switch_articulated_BR_E_16_build;
 			purchase_cargo_capacity		    :0 ;
@@ -208,7 +210,9 @@ item (FEAT_TRAINS , ITEM_BR_E_16_CURRENT, 1161)
 			graphics
 			{
 			default							:switch_BR_E_16_graphics_current;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_16;
 			articulated_part				:switch_articulated_BR_E_16_current;
 			purchase_cargo_capacity		    :0 ;
@@ -269,7 +273,9 @@ item (FEAT_TRAINS , ITEM_BR_E_16_BAY, 1162)
 			graphics
 			{
 			default							:switch_BR_E_16_graphics_bay;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_16;
 			articulated_part				:switch_articulated_BR_E_16_bay;
 			purchase_cargo_capacity		    :0 ;
@@ -331,7 +337,9 @@ item (FEAT_TRAINS , ITEM_BR_E_16_DRG, 1163)
 			graphics
 			{
 			default							:switch_BR_E_16_graphics_DRG;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_16;
 			articulated_part				:switch_articulated_BR_E_16_DRG;
 			purchase_cargo_capacity		    :0 ;
@@ -393,7 +401,9 @@ item (FEAT_TRAINS , ITEM_BR_E_16_DB, 1164)
 			graphics
 			{
 			default							:switch_BR_E_16_graphics_DB;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_16;
 			articulated_part				:switch_articulated_BR_E_16_DB;
 			purchase_cargo_capacity		    :0 ;

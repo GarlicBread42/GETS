@@ -102,7 +102,9 @@ item (FEAT_TRAINS , ITEM_ETA_176, 3900)
 			graphics
 			{
 			default:						switch_ETA_176_graphics;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ETA_176;
 			articulated_part:				switch_articulated_ETA_176;
 			purchase:						spriteset_ETA_176_purchase;				

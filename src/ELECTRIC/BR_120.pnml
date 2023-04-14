@@ -167,7 +167,9 @@ item (FEAT_TRAINS , ITEM_BR_120_BUILD, 1200)
 			graphics
 			{
 			default							:switch_BR_120_graphics_build;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR_120;
 			articulated_part				:switch_articulated_BR_120_build;
 			purchase_cargo_capacity		    :0 ;
@@ -228,7 +230,9 @@ item (FEAT_TRAINS , ITEM_BR_120_CURRENT, 1201)
 			graphics
 			{
 			default							:switch_BR_120_graphics_current;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR_120;
 			articulated_part				:switch_articulated_BR_120_current;
 			purchase_cargo_capacity		    :0 ;
@@ -290,7 +294,9 @@ item (FEAT_TRAINS , ITEM_BR_120_TEE, 1202)
 			graphics
 			{
 			default							:switch_BR_120_graphics_TEE;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR_120;
 			articulated_part				:switch_articulated_BR_120_TEE;
 			purchase_cargo_capacity		    :0 ;
@@ -352,7 +358,9 @@ item (FEAT_TRAINS , ITEM_BR_120_ORIENTROT1, 1203)
 			graphics
 			{
 			default							:switch_BR_120_graphics_orientrot1;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR_120;
 			articulated_part				:switch_articulated_BR_120_orientrot1;
 			purchase_cargo_capacity		    :0 ;
@@ -414,7 +422,9 @@ item (FEAT_TRAINS , ITEM_BR_120_ORIENTROT2, 1204)
 			graphics
 			{
 			default							:switch_BR_120_graphics_orientrot2;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR_120;
 			articulated_part				:switch_articulated_BR_120_orientrot2;
 			purchase_cargo_capacity		    :0 ;
@@ -475,7 +485,9 @@ item (FEAT_TRAINS , ITEM_BR_120_VERKEHRSROT, 1205)
 			graphics
 			{
 			default							:switch_BR_120_graphics_verkehrsrot;
-			additional_text					:string(STR_DESC_UNIVERSAL);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_UNIVERSAL),);
 			length							:switch_length_BR_120;
 			articulated_part				:switch_articulated_BR_120_verkehrsrot;
 			purchase_cargo_capacity		    :0 ;

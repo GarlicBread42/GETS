@@ -794,7 +794,9 @@ item (FEAT_TRAINS , ITEM_BR_643_2_REGIO, 6430)
 			graphics
 			{
 			default							: switch_BR_643_2_Regio_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_2;
 			articulated_part				: switch_articulated_BR_643_2_Regio;
 			visual_effect_and_powered		: switch_FX_BR_643_2;
@@ -859,7 +861,9 @@ item (FEAT_TRAINS , ITEM_BR_643_2_EUREGIO, 6431)
 			graphics
 			{
 			default							: switch_BR_643_2_EURegio_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_2;
 			articulated_part				: switch_articulated_BR_643_2_EURegio;
 			visual_effect_and_powered		: switch_FX_BR_643_2;
@@ -925,7 +929,9 @@ item (FEAT_TRAINS , ITEM_BR_643_2_RRS, 6432)
 			graphics
 			{
 			default							: switch_BR_643_2_RRS_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_2;
 			articulated_part				: switch_articulated_BR_643_2_RRS;
 			visual_effect_and_powered		: switch_FX_BR_643_2;
@@ -991,7 +997,9 @@ item (FEAT_TRAINS , ITEM_BR_643_2_VLB, 6433)
 			graphics
 			{
 			default							: switch_BR_643_2_VLB_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_2;
 			articulated_part				: switch_articulated_BR_643_2_VLB;
 			visual_effect_and_powered		: switch_FX_BR_643_2;
@@ -1082,7 +1090,9 @@ item (FEAT_TRAINS , ITEM_BR_643_3_REGIO, 6434)
 			graphics
 			{
 			default							: switch_BR_643_3_Regio_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_3;
 			articulated_part				: switch_articulated_BR_643_3_Regio;
 			visual_effect_and_powered		: switch_FX_BR_643_3;
@@ -1150,7 +1160,9 @@ item (FEAT_TRAINS , ITEM_BR_643_3_ENSCHEDE, 6435)
 			graphics
 			{
 			default							: switch_BR_643_3_Enschede_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_3;
 			articulated_part				: switch_articulated_BR_643_3_Enschede;
 			visual_effect_and_powered		: switch_FX_BR_643_3;
@@ -1218,7 +1230,9 @@ item (FEAT_TRAINS , ITEM_BR_643_3_NOB, 6436)
 			graphics
 			{
 			default							: switch_BR_643_3_NOB_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_3;
 			articulated_part				: switch_articulated_BR_643_3_NOB;
 			visual_effect_and_powered		: switch_FX_BR_643_3;
@@ -1286,7 +1300,9 @@ item (FEAT_TRAINS , ITEM_BR_643_3_NWB, 6437)
 			graphics
 			{
 			default							: switch_BR_643_3_NWB_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_3;
 			articulated_part				: switch_articulated_BR_643_3_NWB;
 			visual_effect_and_powered		: switch_FX_BR_643_3;
@@ -1355,7 +1371,9 @@ item (FEAT_TRAINS , ITEM_BR_643_3_BOB, 6438)
 			graphics
 			{
 			default							: switch_BR_643_3_BOB_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_3;
 			articulated_part				: switch_articulated_BR_643_3_BOB;
 			visual_effect_and_powered		: switch_FX_BR_643_3;
@@ -1424,7 +1442,9 @@ item (FEAT_TRAINS , ITEM_BR_643_3_OME, 6439)
 			graphics
 			{
 			default							: switch_BR_643_3_OME_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_length_BR_643_3;
 			articulated_part				: switch_articulated_BR_643_3_OME;
 			visual_effect_and_powered		: switch_FX_BR_643_3;

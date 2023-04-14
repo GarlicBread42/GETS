@@ -110,7 +110,9 @@ item (FEAT_TRAINS , ITEM_BR_ES6_KPEV, 1006)
 			graphics
 			{
 			default							: switch_animation_BR_ES6_KPEV;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
 			purchase						: spriteset_BR_ES6_KPEV_purchase;

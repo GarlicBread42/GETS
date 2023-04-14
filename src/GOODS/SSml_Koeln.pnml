@@ -1,0 +1,706 @@
+//##############
+//###SSml Köln###
+//##############
+	
+//Spriteset SSml Köln KPEV
+
+spriteset (spriteset_SSml_Koeln_KPEV, "gfx\SSml_Koeln/SSml_Koeln_KPEV_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_KPEV_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_KPEV_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_KPEV_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_KPEV_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_KPEV_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_KPEV_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+
+//Spriteset SSml Köln DRG
+
+spriteset (spriteset_SSml_Koeln_DRG, "gfx\SSml_Koeln/SSml_Koeln_DRG_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_DRG_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_DRG_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_DRG_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_DRG_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_DRG_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_DRG_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+
+//Spriteset purchase
+
+spriteset (spriteset_SSml_Koeln_purchase_KPEV, "gfx\SSml_Koeln/SSml_Koeln_KPEV_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_purchase_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_KPEV_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_KPEV_1x_mask.png")
+					{template_purchase(0, 0)}			
+
+spriteset (spriteset_SSml_Koeln_purchase_DRG, "gfx\SSml_Koeln/SSml_Koeln_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_purchase_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_DRG_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_DRG_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+//Loading sprites Barren
+
+spriteset (spriteset_SSml_Koeln_load_Barren_30, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_30_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_30_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_30_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_30_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_30_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_30_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_30_4x_mask.png")
+					{template_118trains_4x(0, 0)}	
+
+spriteset (spriteset_SSml_Koeln_load_Barren_60, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_60_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_60_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_60_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_60_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_60_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_60_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_60_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+
+spriteset (spriteset_SSml_Koeln_load_Barren_100, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Barren_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Barren_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Barren_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spritegroup spritegroup_SSml_Koeln_load_Barren
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Barren_30, spriteset_SSml_Koeln_load_Barren_60, spriteset_SSml_Koeln_load_Barren_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Barren_30, spriteset_SSml_Koeln_load_Barren_60, spriteset_SSml_Koeln_load_Barren_100];}	
+			
+			
+//Loading sprites Box
+
+spriteset (spriteset_SSml_Koeln_load_Box_50, "gfx\SSml_Koeln/SSml_Koeln_load_Box_50_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Box_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Box_50_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Box_50_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Box_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Box_50_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Box_50_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Box_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Box_50_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Box_50_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_Box_100, "gfx\SSml_Koeln/SSml_Koeln_load_Box_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Box_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Box_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Box_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Box_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Box_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Box_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Box_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Box_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Box_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}														
+
+spritegroup spritegroup_SSml_Koeln_load_Box
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Box_50, spriteset_SSml_Koeln_load_Box_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Box_50, spriteset_SSml_Koeln_load_Box_100];}	
+
+
+//Loading Sprites Draht
+
+
+spriteset (spriteset_SSml_Koeln_load_Draht_25, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_25_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_25_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_25_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_25_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_25_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_25_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_25_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_Draht_50, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_50_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_50_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_50_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_50_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_50_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_50_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_50_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_Draht_75, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_75_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_75_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_75_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_75_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_75_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_75_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_75_4x_mask.png")
+					{template_118trains_4x(0, 0)}										
+
+spriteset (spriteset_SSml_Koeln_load_Draht_100, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Draht_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Draht_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Draht_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}										
+
+spritegroup spritegroup_SSml_Koeln_load_Draht
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Draht_25, spriteset_SSml_Koeln_load_Draht_50, spriteset_SSml_Koeln_load_Draht_75, spriteset_SSml_Koeln_load_Draht_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Draht_25, spriteset_SSml_Koeln_load_Draht_50, spriteset_SSml_Koeln_load_Draht_75, spriteset_SSml_Koeln_load_Draht_100];}
+
+			
+//Loading Sprites Engineering Supplies			
+
+spriteset (spriteset_SSml_Koeln_load_ENSP1920_25, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_25_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_25_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_25_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_25_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_25_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_25_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_25_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_ENSP1920_50, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_50_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_50_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_50_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_50_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_50_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_50_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_50_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_ENSP1920_75, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_75_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_75_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_75_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_75_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_75_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_75_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_75_4x_mask.png")
+					{template_118trains_4x(0, 0)}										
+
+spriteset (spriteset_SSml_Koeln_load_ENSP1920_100, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1920_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1920_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}										
+
+spritegroup spritegroup_SSml_Koeln_load_ENSP1920
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_ENSP1920_25, spriteset_SSml_Koeln_load_ENSP1920_50, spriteset_SSml_Koeln_load_ENSP1920_75, spriteset_SSml_Koeln_load_ENSP1920_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_ENSP1920_25, spriteset_SSml_Koeln_load_ENSP1920_50, spriteset_SSml_Koeln_load_ENSP1920_75, spriteset_SSml_Koeln_load_ENSP1920_100];}
+
+
+spriteset (spriteset_SSml_Koeln_load_ENSP1950_50, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_50_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1950_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_50_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_50_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1950_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_50_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_50_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1950_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_50_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_50_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_ENSP1950_100, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1950_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1950_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_ENSP1950_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_ENSP1950_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}														
+
+spritegroup spritegroup_SSml_Koeln_load_ENSP1950
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_ENSP1950_50, spriteset_SSml_Koeln_load_ENSP1950_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_ENSP1950_50, spriteset_SSml_Koeln_load_ENSP1950_100];}	
+			
+					switch (FEAT_TRAINS,SELF, switch_SSml_Koeln_load_ENSP_current_year,current_year){
+						   0 .. 1919: spritegroup_SSml_Koeln_load_Box;
+						1920 .. 1949: spritegroup_SSml_Koeln_load_ENSP1920;
+						1950 .. 2050: spritegroup_SSml_Koeln_load_ENSP1950;												
+							spritegroup_SSml_Koeln_load_ENSP1950;}	
+							
+
+//Loading Sprites Farm Supplies									
+
+spriteset (spriteset_SSml_Koeln_load_Farm1880_30, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_30_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_30_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_30_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_30_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_30_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_30_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_30_4x_mask.png")
+					{template_118trains_4x(0, 0)}	
+
+spriteset (spriteset_SSml_Koeln_load_Farm1880_60, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_60_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_60_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_60_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_60_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_60_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_60_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_60_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+
+spriteset (spriteset_SSml_Koeln_load_Farm1880_100, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1880_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1880_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spritegroup spritegroup_SSml_Koeln_load_Farm1880
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Farm1880_30, spriteset_SSml_Koeln_load_Farm1880_60, spriteset_SSml_Koeln_load_Farm1880_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Farm1880_30, spriteset_SSml_Koeln_load_Farm1880_60, spriteset_SSml_Koeln_load_Farm1880_100];}	
+
+
+spriteset (spriteset_SSml_Koeln_load_Farm1920_25, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_25_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_25, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_25_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_25_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_25, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_25_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_25_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_25, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_25_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_25_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_Farm1920_50, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_50_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_50_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_50_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_50_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_50_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_50_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_50_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_Farm1920_75, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_75_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_75, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_75_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_75_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_75, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_75_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_75_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_75, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_75_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_75_4x_mask.png")
+					{template_118trains_4x(0, 0)}										
+
+spriteset (spriteset_SSml_Koeln_load_Farm1920_100, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1920_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1920_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}										
+
+spritegroup spritegroup_SSml_Koeln_load_Farm1920
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Farm1920_25, spriteset_SSml_Koeln_load_Farm1920_50, spriteset_SSml_Koeln_load_Farm1920_75, spriteset_SSml_Koeln_load_Farm1920_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Farm1920_25, spriteset_SSml_Koeln_load_Farm1920_50, spriteset_SSml_Koeln_load_Farm1920_75, spriteset_SSml_Koeln_load_Farm1920_100];}
+
+
+spriteset (spriteset_SSml_Koeln_load_Farm1950_30, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_30_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_30_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_30_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_30_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_30_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_30_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_30_4x_mask.png")
+					{template_118trains_4x(0, 0)}	
+
+spriteset (spriteset_SSml_Koeln_load_Farm1950_60, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_60_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_60_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_60_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_60_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_60_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_60_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_60_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+
+spriteset (spriteset_SSml_Koeln_load_Farm1950_100, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Farm1950_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Farm1950_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spritegroup spritegroup_SSml_Koeln_load_Farm1950
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Farm1950_30, spriteset_SSml_Koeln_load_Farm1950_60, spriteset_SSml_Koeln_load_Farm1950_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Farm1950_30, spriteset_SSml_Koeln_load_Farm1950_60, spriteset_SSml_Koeln_load_Farm1950_100];}	
+
+			
+					switch (FEAT_TRAINS,SELF, switch_SSml_Koeln_load_Farm_current_year,current_year){
+						   0 .. 1919: spritegroup_SSml_Koeln_load_Farm1880;
+						1920 .. 1949: spritegroup_SSml_Koeln_load_Farm1920;
+						1950 .. 2050: spritegroup_SSml_Koeln_load_Farm1950;												
+							spritegroup_SSml_Koeln_load_Farm1950;}
+							
+							
+//Loading Sprites Pipe							
+
+spriteset (spriteset_SSml_Koeln_load_Pipe_50, "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_50_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Pipe_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_50_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_50_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Pipe_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_50_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_50_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Pipe_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_50_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_50_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_Pipe_100, "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Pipe_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Pipe_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Pipe_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Pipe_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}														
+
+spritegroup spritegroup_SSml_Koeln_load_Pipe
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Pipe_50, spriteset_SSml_Koeln_load_Pipe_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Pipe_50, spriteset_SSml_Koeln_load_Pipe_100];}	
+			
+//Loading Sprites Profile							
+
+spriteset (spriteset_SSml_Koeln_load_Profile_50, "gfx\SSml_Koeln/SSml_Koeln_load_Profile_50_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Profile_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Profile_50_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Profile_50_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Profile_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Profile_50_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Profile_50_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Profile_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Profile_50_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Profile_50_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_Profile_100, "gfx\SSml_Koeln/SSml_Koeln_load_Profile_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Profile_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Profile_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Profile_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Profile_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Profile_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Profile_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Profile_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Profile_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Profile_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}														
+
+spritegroup spritegroup_SSml_Koeln_load_Profile
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Profile_50, spriteset_SSml_Koeln_load_Profile_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Profile_50, spriteset_SSml_Koeln_load_Profile_100];}				
+
+
+//Loading Sprites Timber
+
+spriteset (spriteset_SSml_Koeln_load_Timber_30, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_30_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_30_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_30_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_30_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_30_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_30_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_30_4x_mask.png")
+					{template_118trains_4x(0, 0)}	
+
+spriteset (spriteset_SSml_Koeln_load_Timber_60, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_60_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_60, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_60_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_60_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_60_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_60_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_60_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_60_4x_mask.png")
+					{template_118trains_4x(0, 0)}
+
+spriteset (spriteset_SSml_Koeln_load_Timber_100, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Timber_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Timber_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Timber_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spritegroup spritegroup_SSml_Koeln_load_Timber
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Timber_30, spriteset_SSml_Koeln_load_Timber_60, spriteset_SSml_Koeln_load_Timber_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Timber_30, spriteset_SSml_Koeln_load_Timber_60, spriteset_SSml_Koeln_load_Timber_100];}	
+
+			
+//Loading Sprites Wood							
+
+spriteset (spriteset_SSml_Koeln_load_Wood_50, "gfx\SSml_Koeln/SSml_Koeln_load_Wood_50_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Wood_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Wood_50_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Wood_50_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Wood_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Wood_50_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Wood_50_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Wood_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Wood_50_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Wood_50_4x_mask.png")
+					{template_118trains_4x(0, 0)}					
+
+spriteset (spriteset_SSml_Koeln_load_Wood_100, "gfx\SSml_Koeln/SSml_Koeln_load_Wood_100_1x_8bpp.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Wood_100_1x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Wood_100_1x_mask.png")
+					{template_118trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_SSml_Koeln_load_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Wood_100_2x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Wood_100_2x_mask.png")
+					{template_118trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_SSml_Koeln_load_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\SSml_Koeln/SSml_Koeln_load_Wood_100_4x_32bpp.png", "gfx\SSml_Koeln/SSml_Koeln_load_Wood_100_4x_mask.png")
+					{template_118trains_4x(0, 0)}														
+
+spritegroup spritegroup_SSml_Koeln_load_Wood
+		{loaded: 	[spriteset_empty, spriteset_SSml_Koeln_load_Wood_50, spriteset_SSml_Koeln_load_Wood_100];
+			loading: 	[spriteset_empty, spriteset_SSml_Koeln_load_Wood_50, spriteset_SSml_Koeln_load_Wood_100];}	
+			
+			
+//Switches
+
+					switch (FEAT_TRAINS,SELF, switch_SSml_Koeln_purchase,current_year){
+						    0 .. 1919: spriteset_SSml_Koeln_purchase_KPEV;
+						 1920 .. 2050: spriteset_SSml_Koeln_purchase_DRG;						 
+							spriteset_SSml_Koeln_purchase_DRG;}			
+
+					switch (FEAT_TRAINS,SELF, switch_SSml_Koeln_current_year,current_year){
+						    0 .. 1919: spriteset_SSml_Koeln_KPEV;
+						 1920 .. 2050: spriteset_SSml_Koeln_DRG;						 
+							spriteset_SSml_Koeln_DRG;}									
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: spritegroup_SSml_Koeln_load_Barren;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: spritegroup_SSml_Koeln_load_Box;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_ENSP, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: switch_SSml_Koeln_load_ENSP_current_year;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_Farm, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: switch_SSml_Koeln_load_Farm_current_year;}	
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_Draht, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: spritegroup_SSml_Koeln_load_Draht;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_Pipe, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: spritegroup_SSml_Koeln_load_Pipe;}
+												
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_Profile, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: spritegroup_SSml_Koeln_load_Profile;}							
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: spritegroup_SSml_Koeln_load_Timber;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_SSml_Koeln_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: switch_SSml_Koeln_current_year;
+						1: spritegroup_SSml_Koeln_load_Wood;}	
+
+					switch(FEAT_TRAINS, SELF, switch_SSml_Koeln_cargo_classes, cargo_classes) {
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_SSml_Koeln_Box;
+								return switch_loadstack_SSml_Koeln_Box;}	
+														
+					switch (FEAT_TRAINS, SELF, switch_SSml_Koeln_cargo_type, cargo_type_in_veh) {
+
+//FIRS-Cargos					
+							STAL: return switch_loadstack_SSml_Koeln_Barren;
+							ALUM: return switch_loadstack_SSml_Koeln_Barren;
+							STCB: return switch_loadstack_SSml_Koeln_Barren;
+							STST: return switch_loadstack_SSml_Koeln_Barren;
+							STSH: return switch_loadstack_SSml_Koeln_Barren;
+							
+							POWR: return switch_loadstack_SSml_Koeln_Box;
+							VENG: return switch_loadstack_SSml_Koeln_Box;
+							VPTS: return switch_loadstack_SSml_Koeln_Box;
+							GOOD: return switch_loadstack_SSml_Koeln_Box;
+							GLAS: return switch_loadstack_SSml_Koeln_Box;
+							
+							ENSP: return switch_loadstack_SSml_Koeln_ENSP;
+							FMSP: return switch_loadstack_SSml_Koeln_Farm;
+							
+							STWR: return switch_loadstack_SSml_Koeln_Draht;
+							
+							STEL: return switch_loadstack_SSml_Koeln_Profile;
+							STSE: return switch_loadstack_SSml_Koeln_Profile;
+							
+							PIPE: return switch_loadstack_SSml_Koeln_Pipe;
+							
+							BDMT: return switch_loadstack_SSml_Koeln_Timber;
+							WDPR: return switch_loadstack_SSml_Koeln_Timber;
+							
+							WOOD: return switch_loadstack_SSml_Koeln_Wood;
+							
+//Other Cargoes
+							MNSP: return switch_loadstack_SSml_Koeln_Box;
+							MPTS: return switch_loadstack_SSml_Koeln_Box;
+							PAPR: return switch_loadstack_SSml_Koeln_Box;							
+							
+								switch_SSml_Koeln_cargo_classes;}	
+								
+								
+						switch(FEAT_TRAINS, SELF, switch_SSml_Koeln_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_SSml_Koeln_cargo_type;
+							2:	   spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_SSml_Koeln, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 3;
+							2: 4;}			
+								
+						switch (FEAT_TRAINS, PARENT, switch_speed_SSml_Koeln,  switch_check_PWG_0()) {
+							1: return 65;
+							0: return 50;}																					
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_SSml_Koeln, extra_callback_info1) {
+							1 .. 2: return ITEM_SSML_KOELN;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_SSml_Koeln, 1){
+							return 150;}																				
+
+item (FEAT_TRAINS , ITEM_SSML_KOELN, 8923)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SSML_KOELN);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1910,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							50 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						17 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					12;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_SSml_Koeln_graphics;
+			additional_text					: string(STR_DESC_CABOOSE_65);
+			articulated_part			  	: switch_articulated_SSml_Koeln;
+			length							: switch_length_SSml_Koeln;
+			purchase						: switch_SSml_Koeln_purchase;
+			speed							: switch_speed_SSml_Koeln;
+			cost_factor						: 70;
+			running_cost_factor				: switch_running_cost_SSml_Koeln;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}	

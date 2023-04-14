@@ -337,7 +337,9 @@ item (FEAT_TRAINS , ITEM_BR_75, 0750)
 					graphics
 				{
 						default						    : switch_BR_75_0_build_year;
-						additional_text				    : string(STR_DESC_PASS); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),); 
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_75_0_purchase;
@@ -391,7 +393,9 @@ item (FEAT_TRAINS , ITEM_BR_75_CURRENT, 0751)
 					graphics
 				{
 						default						    : switch_BR_75_0_current_year;
-						additional_text				    : string(STR_DESC_PASS); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),); 
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_75_0_purchase;
@@ -446,7 +450,9 @@ item (FEAT_TRAINS , ITEM_BR_75_KWSE, 0752)
 					graphics
 				{
 						default						    : switch_reverse_BR_75_0_KWSE;
-						additional_text				    : string(STR_DESC_PASS); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),); 
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_75_0_purchase1;
@@ -501,7 +507,9 @@ item (FEAT_TRAINS , ITEM_BR_75_DRG, 0753)
 					graphics
 				{
 						default						    : switch_reverse_BR_75_0_DRG;
-						additional_text				    : string(STR_DESC_PASS); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),); 
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_75_0_purchase2;
@@ -556,7 +564,9 @@ item (FEAT_TRAINS , ITEM_BR_75_DB, 0754)
 					graphics
 				{
 						default						    : switch_reverse_BR_75_0_DB;
-						additional_text				    : string(STR_DESC_PASS); 
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_PASS),); 
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_75_0_purchase3;

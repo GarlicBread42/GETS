@@ -357,7 +357,9 @@ item (FEAT_TRAINS , ITEM_BR_465_2, 4662)
 			graphics
 			{
 			default							: switch_BR_465_2_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_465_2_length;
 			articulated_part				: switch_articulated_BR_465_2;
 			visual_effect_and_powered		: switch_BR_465_2_FX;
@@ -458,7 +460,9 @@ item (FEAT_TRAINS , ITEM_BR_465_3, 4663)
 			graphics
 			{
 			default							: switch_BR_465_3_graphics;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_465_3_length;
 			articulated_part				: switch_articulated_BR_465_3;
 			visual_effect_and_powered		: switch_BR_465_3_FX;

@@ -1,0 +1,578 @@
+//######################################
+//###Gr. 39 - Schürzenwagen-Packwagen###
+//######################################
+
+//Spritesets DRG
+
+spriteset (spriteset_Schuerze_PW_KANZEL_DRG, "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_2x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_4x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_4x_mask.png")
+					{template_138trains_4x(0,0)}
+
+//Spritesets DB_blau
+
+spriteset (spriteset_Schuerze_PW_KANZEL_DB_blau, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB_blau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_2x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB_blau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_4x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+//Spritesets DB_Schrift
+
+spriteset (spriteset_Schuerze_PW_KANZEL_DB_Schrift, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB_Schrift, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB_Schrift, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_2x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB_Schrift, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_4x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_4x_mask.png")
+					{template_138trains_4x(0,0)}			
+					
+//Spritesets DB
+
+spriteset (spriteset_Schuerze_PW_KANZEL_DB, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_2x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Schuerze_PW_KANZEL_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_4x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+//Spritesets DB ohne Kanzel
+
+spriteset (spriteset_Schuerze_PW_OK_DB, "gfx/Schuerze/Schuerze_PW_OK_DB_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_OK_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_OK_DB_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_OK_DB_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Schuerze_PW_OK_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_OK_DB_2x_32bpp.png", "gfx/Schuerze/Schuerze_PW_OK_DB_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Schuerze_PW_OK_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_OK_DB_4x_32bpp.png", "gfx/Schuerze/Schuerze_PW_OK_DB_4x_mask.png")
+					{template_138trains_4x(0,0)}												
+
+//Spriteset Loading
+					
+spriteset (spriteset_Schuerze_PW_loading, "gfx/Schuerze/Schuerze_PW_loading_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_loading_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_loading_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Schuerze_PW_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_loading_2x_32bpp.png", "gfx/Schuerze/Schuerze_PW_loading_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Schuerze_PW_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_loading_4x_32bpp.png", "gfx/Schuerze/Schuerze_PW_loading_4x_mask.png")
+					{template_138trains_4x(0,0)}											
+						
+spritegroup spritegroup_Schuerze_PW_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Schuerze_PW_loading];}	
+			
+//Purchase sprites			
+
+spriteset (spriteset_Schuerze_PW_purchase_DRG, "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_purchase_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DRG_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_Schuerze_PW_purchase_DB_blau, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_purchase_DB_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_blau_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_Schuerze_PW_purchase_DB_Schrift, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_purchase_DB_Schrift, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_Schrift_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_Schuerze_PW_purchase_DB, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_KANZEL_DB_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_KANZEL_DB_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_Schuerze_PW_purchase_OK_DB, "gfx/Schuerze/Schuerze_PW_OK_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Schuerze_PW_purchase_OK_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Schuerze/Schuerze_PW_OK_DB_1x_32bpp.png", "gfx/Schuerze/Schuerze_PW_OK_DB_1x_mask.png")
+					{template_purchase(0,0)}
+					
+//Switches
+
+						switch (FEAT_TRAINS,SELF, switch_Schuerze_PW_purchase,current_year){
+							   0 .. 1945: spriteset_Schuerze_PW_purchase_DRG;
+							1946 .. 2050: spriteset_Schuerze_PW_purchase_DB;						
+										spriteset_Schuerze_PW_purchase_DB;}
+										
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Schuerze_PW_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Schuerze_PW_KANZEL_DRG;
+							1: spritegroup_Schuerze_PW_loading;}										
+					
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Schuerze_PW_DB_blau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Schuerze_PW_KANZEL_DB_blau;
+							1: spritegroup_Schuerze_PW_loading;}				
+					
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Schuerze_PW_DB_Schrift, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Schuerze_PW_KANZEL_DB_Schrift;
+							1: spritegroup_Schuerze_PW_loading;}	
+											
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Schuerze_PW_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Schuerze_PW_KANZEL_DB;
+							1: spritegroup_Schuerze_PW_loading;}							
+					
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Schuerze_PW_OK_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Schuerze_PW_OK_DB;
+							1: spritegroup_Schuerze_PW_loading;}	
+							
+						switch (FEAT_TRAINS, SELF, random_choose_Schuerze_PW_DB, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_Schuerze_PW_DB;
+							   switch_spritestack_Schuerze_PW_OK_DB;}	
+								 
+						switch (FEAT_TRAINS,SELF, switch_Schuerze_PW_current_year,current_year){
+							   0 .. 1945: switch_spritestack_Schuerze_PW_DRG;
+							1946 .. 2050: random_choose_Schuerze_PW_DB;						
+										random_choose_Schuerze_PW_DB;}	
+										
+						switch (FEAT_TRAINS,SELF, switch_Schuerze_PW_build_year,build_year){
+							   0 .. 1945: switch_spritestack_Schuerze_PW_DRG;
+							1946 .. 2050: random_choose_Schuerze_PW_DB;						
+										random_choose_Schuerze_PW_DB;}														
+					
+						switch(FEAT_TRAINS, SELF, switch_length_Schuerze_PW, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 5;
+							2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Schuerze_PW, 1){
+							return 2050;}							   												
+
+						switch(FEAT_TRAINS, SELF, switch_Schuerze_PW_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_Schuerze_PW_build_year;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Schuerze_PW_build, extra_callback_info1) {
+							1 ..2 : return ITEM_SCHUERZE_PW_BUILD;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																			
+item (FEAT_TRAINS , ITEM_SCHUERZE_PW_BUILD, 5900)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SCHUERZE_PW_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					45;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						40 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					38;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Schuerze_PW_graphics_build;
+			additional_text					: string(STR_DESC_BAGG_EXP);
+			length							: switch_length_Schuerze_PW;
+			articulated_part				: switch_articulated_Schuerze_PW_build;
+			purchase						: switch_Schuerze_PW_purchase;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_Schuerze_PW;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Schuerze_PW_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_Schuerze_PW_current_year;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Schuerze_PW_current, extra_callback_info1) {
+							1 ..2 : return ITEM_SCHUERZE_PW_CURRENT;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																			
+item (FEAT_TRAINS , ITEM_SCHUERZE_PW_CURRENT, 5901)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SCHUERZE_PW_CURRENT);
+						variant_group:					5900;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					45;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						40 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					38;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Schuerze_PW_graphics_current;
+			additional_text					: string(STR_DESC_BAGG_EXP);
+			length							: switch_length_Schuerze_PW;
+			articulated_part				: switch_articulated_Schuerze_PW_current;
+			purchase						: switch_Schuerze_PW_purchase;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_Schuerze_PW;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Schuerze_PW_graphics_DRG, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_Schuerze_PW_DRG;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Schuerze_PW_DRG, extra_callback_info1) {
+							1 ..2 : return ITEM_SCHUERZE_PW_DRG;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																			
+item (FEAT_TRAINS , ITEM_SCHUERZE_PW_DRG, 5902)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SCHUERZE_PW_DRG);
+						variant_group:					5900;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					45;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						40 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					38;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Schuerze_PW_graphics_DRG;
+			additional_text					: string(STR_DESC_BAGG_EXP);
+			length							: switch_length_Schuerze_PW;
+			articulated_part				: switch_articulated_Schuerze_PW_DRG;
+			purchase						: spriteset_Schuerze_PW_purchase_DRG;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_Schuerze_PW;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Schuerze_PW_graphics_DB_Schrift, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_Schuerze_PW_DB_Schrift;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Schuerze_PW_DB_Schrift, extra_callback_info1) {
+							1 ..2 : return ITEM_SCHUERZE_PW_DB_SCHRIFT;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																			
+item (FEAT_TRAINS , ITEM_SCHUERZE_PW_DB_SCHRIFT, 5903)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SCHUERZE_PW_DB_SCHRIFT);
+						variant_group:					5900;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					38;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						40 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					38;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Schuerze_PW_graphics_DB_Schrift;
+			additional_text					: string(STR_DESC_BAGG_EXP);
+			length							: switch_length_Schuerze_PW;
+			articulated_part				: switch_articulated_Schuerze_PW_DB_Schrift;
+			purchase						: spriteset_Schuerze_PW_purchase_DB_Schrift;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_Schuerze_PW;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Schuerze_PW_graphics_DB_blau, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_Schuerze_PW_DB_blau;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Schuerze_PW_DB_blau, extra_callback_info1) {
+							1 ..2 : return ITEM_SCHUERZE_PW_DB_BLAU;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																			
+item (FEAT_TRAINS , ITEM_SCHUERZE_PW_DB_BLAU, 5904)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SCHUERZE_PW_DB_BLAU);
+						variant_group:					5900;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					38;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						40 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					38;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Schuerze_PW_graphics_DB_blau;
+			additional_text					: string(STR_DESC_BAGG_EXP);
+			length							: switch_length_Schuerze_PW;
+			articulated_part				: switch_articulated_Schuerze_PW_DB_blau;
+			purchase						: spriteset_Schuerze_PW_purchase_DB_blau;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_Schuerze_PW;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_Schuerze_PW_graphics_DB, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_Schuerze_PW_DB;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Schuerze_PW_DB, extra_callback_info1) {
+							1 ..2 : return ITEM_SCHUERZE_PW_DB;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																			
+item (FEAT_TRAINS , ITEM_SCHUERZE_PW_DB, 5905)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SCHUERZE_PW_DB);
+						variant_group:					5900;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					38;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						40 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					38;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Schuerze_PW_graphics_DB;
+			additional_text					: string(STR_DESC_BAGG_EXP);
+			length							: switch_length_Schuerze_PW;
+			articulated_part				: switch_articulated_Schuerze_PW_DB;
+			purchase						: spriteset_Schuerze_PW_purchase_DB;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_Schuerze_PW;				
+			 }
+		}
+		
+								switch(FEAT_TRAINS, SELF, switch_Schuerze_PW_graphics_OK_DB, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_Schuerze_PW_OK_DB;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Schuerze_PW_OK_DB, extra_callback_info1) {
+							1 ..2 : return ITEM_SCHUERZE_PW_OK_DB;													
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																			
+item (FEAT_TRAINS , ITEM_SCHUERZE_PW_OK_DB, 5906)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SCHUERZE_PW_OK_DB);
+						variant_group:					5900;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					38;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							175 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						40 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					38;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Schuerze_PW_graphics_OK_DB;
+			additional_text					: string(STR_DESC_BAGG_EXP);
+			length							: switch_length_Schuerze_PW;
+			articulated_part				: switch_articulated_Schuerze_PW_OK_DB;
+			purchase						: spriteset_Schuerze_PW_purchase_OK_DB;
+			cost_factor						: 410;
+			running_cost_factor				: switch_running_cost_Schuerze_PW;				
+			 }
+		}

@@ -183,7 +183,9 @@ item (FEAT_TRAINS , ITEM_BR_80, 0800)
 					graphics
 				{
 						default						   : switch_BR_80_build_year;
-						additional_text				   : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_BR_80_purchase;
@@ -233,7 +235,9 @@ item (FEAT_TRAINS , ITEM_BR_80_CURRENT, 0801)
 					graphics
 				{
 						default						   : switch_BR_80_current_year;
-						additional_text				   : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : switch_BR_80_purchase;
@@ -283,7 +287,9 @@ item (FEAT_TRAINS , ITEM_BR_80_FOTO, 0802)
 					graphics
 				{
 						default						   : switch_animation_BR_80_DRG_FOTO;
-						additional_text				   : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : spriteset_BR_80_purchase_FOTO;
@@ -333,7 +339,9 @@ item (FEAT_TRAINS , ITEM_BR_80_DRG, 0803)
 					graphics
 				{
 						default						   : switch_animation_BR_80_DRG;
-						additional_text				   : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : spriteset_BR_80_purchase_DRG;
@@ -384,7 +392,9 @@ item (FEAT_TRAINS , ITEM_BR_80_DB, 0804)
 					graphics
 				{
 						default						   : switch_animation_BR_80_DB;
-						additional_text				   : string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_SHUNT),);
 						purchase_cargo_capacity        : 0 ;
 						cargo_capacity                 : return 0 ;
 						purchase					   : spriteset_BR_80_purchase_DB;

@@ -324,7 +324,9 @@ item (FEAT_TRAINS , ITEM_BR_628_2_BUILD, 6285)
 			graphics
 			{
 			default							: switch_BR_628_2_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_628_2_length;	
 			articulated_part				: switch_articulated_BR_628_2_build;
 			visual_effect_and_powered		: switch_FX_BR_628_2;

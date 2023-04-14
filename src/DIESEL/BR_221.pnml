@@ -116,7 +116,9 @@ item (FEAT_TRAINS , ITEM_BR_221_BUILD, 2210)
 		graphics
 			{
 			default							:switch_V200_1_graphics_build;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_1;
 			articulated_part				:switch_articulated_V200_1_build;
 			purchase_cargo_capacity        	:0 ;
@@ -178,7 +180,9 @@ item (FEAT_TRAINS , ITEM_BR_221_CURRENT, 2211)
 		graphics
 			{
 			default							:switch_V200_1_graphics_current;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_1;
 			articulated_part				:switch_articulated_V200_1_current;
 			purchase_cargo_capacity        	:0 ;
@@ -240,7 +244,9 @@ item (FEAT_TRAINS , ITEM_BR_221_ALTROT, 2212)
 		graphics
 			{
 			default							:switch_V200_1_graphics_altrot;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_1;
 			articulated_part				:switch_articulated_V200_1_altrot;
 			purchase_cargo_capacity        	:0 ;
@@ -302,7 +308,9 @@ item (FEAT_TRAINS , ITEM_BR_221_OZEANBLAU, 2213)
 		graphics
 			{
 			default							:switch_V200_1_graphics_ozeanblau;
-			additional_text					:string(STR_DESC_EXPRESS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_EXPRESS),);
 			length							:switch_length_V200_1;
 			articulated_part				:switch_articulated_V200_1_ozeanblau;
 			purchase_cargo_capacity        	:0 ;

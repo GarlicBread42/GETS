@@ -164,7 +164,9 @@ item (FEAT_TRAINS , ITEM_BR_103_2, 1038)
 			graphics
 			{
 			default							: switch_BR_103_2_graphics;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_2;
 			articulated_part				: switch_articulated_BR_103_2;
 			purchase_cargo_capacity		    : 0 ;
@@ -226,7 +228,9 @@ item (FEAT_TRAINS , ITEM_BR_103_2_CURRENT, 1039)
 			graphics
 			{
 			default							: switch_BR_103_2_graphics_current;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_2;
 			articulated_part				: switch_articulated_BR_103_2_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -288,7 +292,9 @@ item (FEAT_TRAINS , ITEM_BR_103_2_TEE, 1040)
 			graphics
 			{
 			default							: switch_BR_103_2_graphics_TEE;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_2;
 			articulated_part				: switch_articulated_BR_103_2_TEE;
 			purchase_cargo_capacity		    : 0 ;
@@ -350,7 +356,9 @@ item (FEAT_TRAINS , ITEM_BR_103_2_ORIENTROT, 1041)
 			graphics
 			{
 			default							: switch_BR_103_2_graphics_orientrot;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_2;
 			articulated_part				: switch_articulated_BR_103_2_orientrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -412,7 +420,9 @@ item (FEAT_TRAINS , ITEM_BR_103_2_TOURISTIC, 1042)
 			graphics
 			{
 			default							: switch_BR_103_2_graphics_touristic;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_2;
 			articulated_part				: switch_articulated_BR_103_2_touristic;
 			purchase_cargo_capacity		    : 0 ;
@@ -473,7 +483,9 @@ item (FEAT_TRAINS , ITEM_BR_103_2_RAILADVENTURE, 1043)
 			graphics
 			{
 			default							: switch_BR_103_2_graphics_railadventure;
-			additional_text					: string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							: switch_length_BR_103_2;
 			articulated_part				: switch_articulated_BR_103_2_railadventure;
 			purchase_cargo_capacity		    : 0 ;

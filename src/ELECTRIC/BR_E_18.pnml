@@ -79,10 +79,10 @@ spriteset(spriteset_E_18_DRG_purchase, "gfx/E_18/E_18_DRG_grau_1x_8bpp.png")
 spriteset(spriteset_E_18_DB_gruen_purchase, "gfx/E_18/E_18_DB_gruen_1x_8bpp.png")
 									{ template_purchase(0, 0)}																		
 
-spriteset(spriteset_E_18_DB_blau_alt_purchase, "gfx/E_18/E_18_DB_Blau2_1x_8bpp.png")
+spriteset(spriteset_E_18_DB_blau_alt_purchase, "gfx/E_18/E_18_DB_blau1_1x_8bpp.png")
 									{ template_purchase(0, 0)}	
 									
-spriteset(spriteset_E_18_DB_blau_neu_purchase, "gfx/E_18/E_18_DB_blau1_1x_8bpp.png")
+spriteset(spriteset_E_18_DB_blau_neu_purchase, "gfx/E_18/E_18_DB_Blau2_1x_8bpp.png")
 									{ template_purchase(0, 0)}										
 									
 spriteset(spriteset_E_18_DB_ozeanblau_purchase, "gfx/E_18/E_18_DB_ozeanblau_1x_8bpp.png")
@@ -175,7 +175,9 @@ item (FEAT_TRAINS , ITEM_BR_E_18_BUILD, 1180)
 			graphics
 			{
 			default							:switch_BR_E_18_graphics_build;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_18;
 			articulated_part				:switch_articulated_BR_E_18_build;
 			purchase_cargo_capacity		    :0 ;
@@ -237,7 +239,9 @@ item (FEAT_TRAINS , ITEM_BR_E_18_CURRENT, 1181)
 			graphics
 			{
 			default							:switch_BR_E_18_graphics_current;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_18;
 			articulated_part				:switch_articulated_BR_E_18_current;
 			purchase_cargo_capacity		    :0 ;
@@ -300,7 +304,9 @@ item (FEAT_TRAINS , ITEM_BR_E_18_DRG, 1182)
 			graphics
 			{
 			default							:switch_BR_E_18_graphics_DRG;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_18;
 			articulated_part				:switch_articulated_BR_E_18_DRG;
 			purchase_cargo_capacity		    :0 ;
@@ -363,7 +369,9 @@ item (FEAT_TRAINS , ITEM_BR_E_18_DB_GRUEN, 1183)
 			graphics
 			{
 			default							:switch_BR_E_18_graphics_DB_gruen;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_18;
 			articulated_part				:switch_articulated_BR_E_18_DB_gruen;
 			purchase_cargo_capacity		    :0 ;
@@ -426,7 +434,9 @@ item (FEAT_TRAINS , ITEM_BR_E_18_DB_BLAU_ALT, 1184)
 			graphics
 			{
 			default							:switch_BR_E_18_graphics_DB_blau_alt;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_18;
 			articulated_part				:switch_articulated_BR_E_18_DB_blau_alt;
 			purchase_cargo_capacity		    :0 ;
@@ -489,7 +499,9 @@ item (FEAT_TRAINS , ITEM_BR_E_18_DB_BLAU_NEU, 1185)
 			graphics
 			{
 			default							:switch_BR_E_18_graphics_DB_blau_neu;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_18;
 			articulated_part				:switch_articulated_BR_E_18_DB_blau_neu;
 			purchase_cargo_capacity		    :0 ;
@@ -551,7 +563,9 @@ item (FEAT_TRAINS , ITEM_BR_E_18_DB_OZEANBLAU, 1186)
 			graphics
 			{
 			default							:switch_BR_E_18_graphics_DB_ozeanblau;
-			additional_text					:string(STR_DESC_EXPRESS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_EXPRESS),);
 			length							:switch_length_BR_E_18;
 			articulated_part				:switch_articulated_BR_E_18_DB_ozeanblau;
 			purchase_cargo_capacity		    :0 ;

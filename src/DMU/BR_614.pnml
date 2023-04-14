@@ -438,7 +438,9 @@ item (FEAT_TRAINS , ITEM_BR_614_3_BUILD, 6140)
 			graphics
 			{
 			default							: switch_BR_614_3_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_3_length;
 			articulated_part				: switch_articulated_BR_614_3_build;
 			visual_effect_and_powered		: switch_FX_BR_614_3;
@@ -506,7 +508,9 @@ item (FEAT_TRAINS , ITEM_BR_614_3_CURRENT, 6141)
 			graphics
 			{
 			default							: switch_BR_614_3_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_3_length;
 			articulated_part				: switch_articulated_BR_614_3_current;
 			visual_effect_and_powered		: switch_FX_BR_614_3;
@@ -574,7 +578,9 @@ item (FEAT_TRAINS , ITEM_BR_614_3_POP, 6142)
 			graphics
 			{
 			default							: switch_BR_614_3_graphics_popfarben;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_3_length;
 			articulated_part				: switch_articulated_BR_614_3_popfarben;
 			visual_effect_and_powered		: switch_FX_BR_614_3;
@@ -642,7 +648,9 @@ item (FEAT_TRAINS , ITEM_BR_614_3_OZEANBLAU, 6143)
 			graphics
 			{
 			default							: switch_BR_614_3_graphics_ozeanblau;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_3_length;
 			articulated_part				: switch_articulated_BR_614_3_ozeanblau;
 			visual_effect_and_powered		: switch_FX_BR_614_3;
@@ -710,7 +718,9 @@ item (FEAT_TRAINS , ITEM_BR_614_3_MINT, 6144)
 			graphics
 			{
 			default							: switch_BR_614_3_graphics_mint;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_3_length;
 			articulated_part				: switch_articulated_BR_614_3_mint;
 			visual_effect_and_powered		: switch_FX_BR_614_3;
@@ -778,7 +788,9 @@ item (FEAT_TRAINS , ITEM_BR_614_3_VERKEHRSROT, 6145)
 			graphics
 			{
 			default							: switch_BR_614_3_graphics_verkehrsrot;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_3_length;
 			articulated_part				: switch_articulated_BR_614_3_verkehrsrot;
 			visual_effect_and_powered		: switch_FX_BR_614_3;
@@ -874,7 +886,9 @@ item (FEAT_TRAINS , ITEM_BR_614_4_BUILD, 6146)
 			graphics
 			{
 			default							: switch_BR_614_4_graphics_build;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_4_length;
 			articulated_part				: switch_articulated_BR_614_4_build;
 			visual_effect_and_powered		: switch_FX_BR_614_4;
@@ -946,7 +960,9 @@ item (FEAT_TRAINS , ITEM_BR_614_4_CURRENT, 6147)
 			graphics
 			{
 			default							: switch_BR_614_4_graphics_current;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_4_length;
 			articulated_part				: switch_articulated_BR_614_4_current;
 			visual_effect_and_powered		: switch_FX_BR_614_4;
@@ -1017,7 +1033,9 @@ item (FEAT_TRAINS , ITEM_BR_614_4_POP, 6148)
 			graphics
 			{
 			default							: switch_BR_614_4_graphics_popfarben;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_4_length;
 			articulated_part				: switch_articulated_BR_614_4_popfarben;
 			visual_effect_and_powered		: switch_FX_BR_614_4;
@@ -1088,7 +1106,9 @@ item (FEAT_TRAINS , ITEM_BR_614_4_OZEANBLAU, 6149)
 			graphics
 			{
 			default							: switch_BR_614_4_graphics_ozeanblau;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_4_length;
 			articulated_part				: switch_articulated_BR_614_4_ozeanblau;
 			visual_effect_and_powered		: switch_FX_BR_614_4;
@@ -1159,7 +1179,9 @@ item (FEAT_TRAINS , ITEM_BR_614_4_MINT, 6150)
 			graphics
 			{
 			default							: switch_BR_614_4_graphics_mint;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_4_length;
 			articulated_part				: switch_articulated_BR_614_4_mint;
 			visual_effect_and_powered		: switch_FX_BR_614_4;
@@ -1231,7 +1253,9 @@ item (FEAT_TRAINS , ITEM_BR_614_4_VERKEHRSROT, 6151)
 			graphics
 			{
 			default							: switch_BR_614_4_graphics_verkehrsrot;
-			additional_text					: string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length							: switch_BR_614_4_length;
 			articulated_part				: switch_articulated_BR_614_4_verkehrsrot;
 			visual_effect_and_powered		: switch_FX_BR_614_4;

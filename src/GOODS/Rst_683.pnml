@@ -1,0 +1,172 @@
+//##############
+//###Rs-t 683###
+//##############
+	
+//Spriteset Rst 680
+
+spriteset (spriteset_Rst_683, "gfx\Rst_683/Rst_683_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_1x_32bpp.png", "gfx\Rst_683/Rst_683_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_2x_32bpp.png", "gfx\Rst_683/Rst_683_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rst_683, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_4x_32bpp.png", "gfx\Rst_683/Rst_683_4x_mask.png")
+					{template_128trains_4x(0, 0)}
+
+//Spriteset purchase
+
+spriteset (spriteset_Rst_683_purchase, "gfx\Rst_683/Rst_683_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_1x_32bpp.png", "gfx\Rst_683/Rst_683_1x_mask.png")
+					{template_purchase(0, 0)}
+
+
+//Spriteset Loading Timber
+
+spriteset (spriteset_Rst_683_load_Timber_50, "gfx\Rst_683/Rst_683_load_Timber_50_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_load_Timber_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Timber_50_1x_32bpp.png", "gfx\Rst_683/Rst_683_load_Timber_50_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_load_Timber_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Timber_50_2x_32bpp.png", "gfx\Rst_683/Rst_683_load_Timber_50_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rst_683_load_Timber_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Timber_50_4x_32bpp.png", "gfx\Rst_683/Rst_683_load_Timber_50_4x_mask.png")
+					{template_128trains_4x(0, 0)}					
+
+spriteset (spriteset_Rst_683_load_Timber_100, "gfx\Rst_683/Rst_683_load_Timber_100_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_load_Timber_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Timber_100_1x_32bpp.png", "gfx\Rst_683/Rst_683_load_Timber_100_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_load_Timber_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Timber_100_2x_32bpp.png", "gfx\Rst_683/Rst_683_load_Timber_100_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rst_683_load_Timber_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Timber_100_4x_32bpp.png", "gfx\Rst_683/Rst_683_load_Timber_100_4x_mask.png")
+					{template_128trains_4x(0, 0)}												
+
+spritegroup spritegroup_Rst_683_load_Timber
+		{loaded: 	[spriteset_empty, spriteset_Rst_683_load_Timber_50, spriteset_Rst_683_load_Timber_100];
+			loading: 	[spriteset_empty, spriteset_Rst_683_load_Timber_50, spriteset_Rst_683_load_Timber_100];}		
+			
+			
+//Spriteset Loading Wood
+
+spriteset (spriteset_Rst_683_load_Wood_50, "gfx\Rst_683/Rst_683_load_Wood_50_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_load_Wood_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Wood_50_1x_32bpp.png", "gfx\Rst_683/Rst_683_load_Wood_50_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_load_Wood_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Wood_50_2x_32bpp.png", "gfx\Rst_683/Rst_683_load_Wood_50_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rst_683_load_Wood_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Wood_50_4x_32bpp.png", "gfx\Rst_683/Rst_683_load_Wood_50_4x_mask.png")
+					{template_128trains_4x(0, 0)}					
+
+spriteset (spriteset_Rst_683_load_Wood_100, "gfx\Rst_683/Rst_683_load_Wood_100_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_load_Wood_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Wood_100_1x_32bpp.png", "gfx\Rst_683/Rst_683_load_Wood_100_1x_mask.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Rst_683_load_Wood_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Wood_100_2x_32bpp.png", "gfx\Rst_683/Rst_683_load_Wood_100_2x_mask.png")
+					{template_128trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Rst_683_load_Wood_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Rst_683/Rst_683_load_Wood_100_4x_32bpp.png", "gfx\Rst_683/Rst_683_load_Wood_100_4x_mask.png")
+					{template_128trains_4x(0, 0)}							
+					
+
+spritegroup spritegroup_Rst_683_load_Wood
+		{loaded: 	[spriteset_empty, spriteset_Rst_683_load_Wood_50, spriteset_Rst_683_load_Wood_100];
+			loading: 	[spriteset_empty, spriteset_Rst_683_load_Wood_50, spriteset_Rst_683_load_Wood_100];}	
+			
+
+//Switches
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rst_683_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rst_683;
+						1: spritegroup_Rst_683_load_Timber;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Rst_683_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Rst_683;
+						1: spritegroup_Rst_683_load_Wood;}		
+						
+					switch (FEAT_TRAINS, SELF, switch_Rst_683_cargo_type, cargo_type_in_veh) {		
+							BDMT: return switch_loadstack_Rst_683_Timber;
+							WDPR: return switch_loadstack_Rst_683_Timber;						
+							WOOD: return switch_loadstack_Rst_683_Wood;							
+								switch_loadstack_Rst_683_Wood;}		
+								
+						switch(FEAT_TRAINS, SELF, switch_Rst_683_graphics, position_in_articulated_veh % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_Rst_683_cargo_type;
+							2:	   spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Rst_683, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}													
+						 		 
+						switch (FEAT_TRAINS, SELF, switch_articulated_Rst_683, extra_callback_info1) {
+							1 .. 2: return ITEM_RST_683;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Rst_683, 1){
+							return 425;}	
+							
+item (FEAT_TRAINS , ITEM_RST_683, 8970)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_RST_683);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1987,01,01);
+						model_life: 					20;
+						vehicle_life: 					200;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask( 	);
+						cargo_allow_refit:              [WOOD, WDPR, BDMT];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI, CLAY, KAOL, SASH];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				WOOD;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Rst_683_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Rst_683;
+			length							: switch_length_Rst_683;
+			purchase						: spriteset_Rst_683_purchase;
+			cost_factor						: 195;
+			running_cost_factor				: switch_running_cost_Rst_683;
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}														

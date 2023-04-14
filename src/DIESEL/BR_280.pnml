@@ -62,7 +62,9 @@ item (FEAT_TRAINS , ITEM_V_80, 2800)
 					graphics
 				{
 						default						   : spriteset_V_80_altrot;
-						additional_text				   : string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 						purchase					   : spriteset_V_80_purchase;
 						cost_factor					   : 24;
 						running_cost_factor			   : switch_running_cost_V_80;	

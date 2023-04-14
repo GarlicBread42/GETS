@@ -142,7 +142,9 @@ item (FEAT_TRAINS , ITEM_BR_61_001, 0611)
 					graphics
 				{
 						default						   : switch_BR_61_001_graphics_build;
-						additional_text				   : string(STR_DESC_EXPRESS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_EXPRESS),);
 						articulated_part			   : switch_articulated_BR_61_001_build;
 						length 						   : switch_length_BR_61_001;
 						purchase_cargo_capacity        : 0 ;
@@ -205,7 +207,9 @@ item (FEAT_TRAINS , ITEM_BR_61_001_CURRENT, 0612)
 					graphics
 				{
 						default						   : switch_BR_61_001_graphics_current;
-						additional_text				   : string(STR_DESC_EXPRESS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_EXPRESS),);
 						articulated_part			   : switch_articulated_BR_61_001_current;
 						length 						   : switch_length_BR_61_001;
 						purchase_cargo_capacity        : 0 ;
@@ -269,7 +273,9 @@ item (FEAT_TRAINS , ITEM_BR_61_001_LILA, 0613)
 					graphics
 				{
 						default						   : switch_BR_61_001_graphics_lila;
-						additional_text				   : string(STR_DESC_EXPRESS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_EXPRESS),);
 						articulated_part			   : switch_articulated_BR_61_001_lila;
 						length 						   : switch_length_BR_61_001;
 						purchase_cargo_capacity        : 0 ;
@@ -333,7 +339,9 @@ item (FEAT_TRAINS , ITEM_BR_61_001_GRAY, 0614)
 					graphics
 				{
 						default						   : switch_BR_61_001_graphics_gray;
-						additional_text				   : string(STR_DESC_EXPRESS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_EXPRESS),);
 						articulated_part			   : switch_articulated_BR_61_001_gray;
 						length 						   : switch_length_BR_61_001;
 						purchase_cargo_capacity        : 0 ;
@@ -397,7 +405,9 @@ item (FEAT_TRAINS , ITEM_BR_61_001_DB, 0615)
 					graphics
 				{
 						default						   : switch_BR_61_001_graphics_DB;
-						additional_text				   : string(STR_DESC_EXPRESS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_EXPRESS),);
 						articulated_part			   : switch_articulated_BR_61_001_DB;
 						length 						   : switch_length_BR_61_001;
 						purchase_cargo_capacity        : 0 ;

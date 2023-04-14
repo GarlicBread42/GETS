@@ -199,7 +199,9 @@ item (FEAT_TRAINS , ITEM_BR_111_BUILD, 1110)
 			graphics
 			{
 			default							:switch_111_graphics_build;
-			additional_text					:string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							:switch_length_111;
 			articulated_part				:switch_articulated_111_build;
 			purchase_cargo_capacity		    :0 ;
@@ -261,7 +263,9 @@ item (FEAT_TRAINS , ITEM_BR_111_CURRENT, 1111)
 			graphics
 			{
 			default							:switch_111_graphics_current;
-			additional_text					:string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							:switch_length_111;
 			articulated_part				:switch_articulated_111_current;
 			purchase_cargo_capacity		    :0 ;
@@ -322,7 +326,9 @@ item (FEAT_TRAINS , ITEM_BR_111_OZEANBLAU, 1112)
 			graphics
 			{
 			default							:switch_111_graphics_ozeanblau;
-			additional_text					:string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							:switch_length_111;
 			articulated_part				:switch_articulated_111_ozeanblau;
 			purchase_cargo_capacity		    :0 ;
@@ -384,7 +390,9 @@ item (FEAT_TRAINS , ITEM_BR_111_ORIENTROT, 1113)
 			graphics
 			{
 			default							:switch_111_graphics_orientrot;
-			additional_text					:string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							:switch_length_111;
 			articulated_part				:switch_articulated_111_orientrot;
 			purchase_cargo_capacity		    :0 ;
@@ -446,7 +454,9 @@ item (FEAT_TRAINS , ITEM_BR_111_VERKEHRSROT, 1114)
 			graphics
 			{
 			default							:switch_111_graphics_verkehrsrot;
-			additional_text					:string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							:switch_length_111;
 			articulated_part				:switch_articulated_111_verkehrsrot;
 			purchase_cargo_capacity		    :0 ;
@@ -508,7 +518,9 @@ item (FEAT_TRAINS , ITEM_BR_111_SBAHN, 1115)
 			graphics
 			{
 			default							:switch_111_graphics_sbahn;
-			additional_text					:string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							:switch_length_111;
 			articulated_part				:switch_articulated_111_sbahn;
 			purchase_cargo_capacity		    :0 ;
@@ -570,7 +582,9 @@ item (FEAT_TRAINS , ITEM_BR_111_LAX, 1116)
 			graphics
 			{
 			default							:switch_111_graphics_lax;
-			additional_text					:string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							:switch_length_111;
 			articulated_part				:switch_articulated_111_lax;
 			purchase_cargo_capacity		    :0 ;
@@ -632,7 +646,9 @@ item (FEAT_TRAINS , ITEM_BR_111_RAILADVENTURE, 1117)
 			graphics
 			{
 			default							:switch_111_graphics_railadventure;
-			additional_text					:string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length							:switch_length_111;
 			articulated_part				:switch_articulated_111_railadventure;
 			purchase_cargo_capacity		    :0 ;

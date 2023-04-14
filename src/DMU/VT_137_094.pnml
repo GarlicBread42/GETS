@@ -151,7 +151,9 @@ item (FEAT_TRAINS , ITEM_VT_137_094_BUILD, 6374)
 			graphics
 			{
 			default						   : switch_VT_137_094_graphics_build;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length						   : switch_length_VT_137_094;
 			articulated_part			   : switch_articulated_VT_137_094_build;
 			purchase					   : switch_VT_137_094_purchase;
@@ -214,7 +216,9 @@ item (FEAT_TRAINS , ITEM_VT_137_094_CURRENT, 6375)
 			graphics
 			{
 			default						   : switch_VT_137_094_graphics_current;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length						   : switch_length_VT_137_094;
 			articulated_part			   : switch_articulated_VT_137_094_current;
 			purchase					   : switch_VT_137_094_purchase;
@@ -277,7 +281,9 @@ item (FEAT_TRAINS , ITEM_VT_137_094_DRG, 6376)
 			graphics
 			{
 			default						   : switch_VT_137_094_graphics_DRG;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length						   : switch_length_VT_137_094;
 			articulated_part			   : switch_articulated_VT_137_094_DRG;
 			purchase					   : spriteset_VT_137_094_purchase1;
@@ -340,7 +346,9 @@ item (FEAT_TRAINS , ITEM_VT_137_094_DB, 6377)
 			graphics
 			{
 			default						   : switch_VT_137_094_graphics_DB;
-			additional_text				   : string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length						   : switch_length_VT_137_094;
 			articulated_part			   : switch_articulated_VT_137_094_DB;
 			purchase					   : spriteset_VT_137_094_purchase2;

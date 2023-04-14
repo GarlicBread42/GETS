@@ -227,7 +227,9 @@ item (FEAT_TRAINS , ITEM_BR_216_BUILD, 2160)
 		graphics
 			{
 			default							:switch_BR_216_graphics_build;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216; 
 			articulated_part				:switch_articulated_BR_216_build;
 			purchase_cargo_capacity        	:0 ;
@@ -286,7 +288,9 @@ item (FEAT_TRAINS , ITEM_BR_216_CURRENT, 2161)
 		graphics
 			{
 			default							:switch_BR_216_graphics_current;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216;articulated_part				:switch_articulated_BR_216_current;
 			purchase_cargo_capacity        	:0 ;
 			cost_factor						:49;
@@ -344,7 +348,9 @@ item (FEAT_TRAINS , ITEM_BR_216_0_ROTWEISS, 2162)
 		graphics
 			{
 			default							:switch_BR_216_0_rotweiss_graphics;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216; 
 			articulated_part				:switch_articulated_BR_216_0_rotweiss;
 			purchase_cargo_capacity        	:0 ;
@@ -403,7 +409,9 @@ item (FEAT_TRAINS , ITEM_BR_216_0_ALTROT, 2163)
 		graphics
 			{
 			default							:switch_BR_216_0_altrot_graphics;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216; 
 			articulated_part				:switch_articulated_BR_216_0_altrot;
 			purchase_cargo_capacity        	:0 ;
@@ -462,7 +470,9 @@ item (FEAT_TRAINS , ITEM_BR_216_1_ALTROT, 2164)
 		graphics
 			{
 			default							:switch_BR_216_1_altrot_graphics;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216; 
 			articulated_part				:switch_articulated_BR_216_1_altrot;
 			purchase_cargo_capacity        	:0 ;
@@ -521,7 +531,9 @@ item (FEAT_TRAINS , ITEM_BR_216_ALTROT, 2165)
 		graphics
 			{
 			default							:switch_BR_216_altrot_graphics;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216; 
 			articulated_part				:switch_articulated_BR_216_altrot;
 			purchase_cargo_capacity        	:0 ;
@@ -580,7 +592,9 @@ item (FEAT_TRAINS , ITEM_BR_216_OZEANBLAU, 2166)
 		graphics
 			{
 			default							:switch_BR_216_ozeanblau_graphics;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216; 
 			articulated_part				:switch_articulated_BR_216_ozeanblau;
 			purchase_cargo_capacity        	:0 ;
@@ -639,7 +653,9 @@ item (FEAT_TRAINS , ITEM_BR_216_ORIENTROT, 2167)
 		graphics
 			{
 			default							:switch_BR_216_orientrot_graphics;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216; 
 			articulated_part				:switch_articulated_BR_216_orientrot;
 			purchase_cargo_capacity        	:0 ;
@@ -698,7 +714,9 @@ item (FEAT_TRAINS , ITEM_BR_216_VERKEHRSROT, 2168)
 		graphics
 			{
 			default							:switch_BR_216_verkehrsrot_graphics;
-			additional_text					:string(STR_DESC_PASS);
+						additional_text				   : string(STR_CONCAT_2, 
+													     string(STR_TRACTION_DIESEL), 
+														 string(STR_DESC_PASS),);
 			length							:switch_length_BR_216; 
 			articulated_part				:switch_articulated_BR_216_verkehrsrot;
 			purchase_cargo_capacity        	:0 ;

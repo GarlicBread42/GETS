@@ -246,7 +246,9 @@ item (FEAT_TRAINS , ITEM_ET_25_BUILD, 4250)
 			graphics
 			{
 			default:						switch_ET_25_graphics_build;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ET_25;
 			articulated_part:				switch_articulated_ET_25_build;
 			visual_effect_and_powered:    	switch_FX_ET_25;
@@ -321,7 +323,9 @@ item (FEAT_TRAINS , ITEM_ET_25_CURRENT, 4251)
 			graphics
 			{
 			default:						switch_ET_25_graphics_current;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ET_25;
 			articulated_part:				switch_articulated_ET_25_current;
 			visual_effect_and_powered:    	switch_FX_ET_25;
@@ -386,7 +390,9 @@ item (FEAT_TRAINS , ITEM_ET_25_DRG, 4252)
 			graphics
 			{
 			default:						switch_ET_25_graphics_DRG;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ET_25;
 			articulated_part:				switch_articulated_ET_25_DRG;
 			visual_effect_and_powered:    	switch_FX_ET_25;
@@ -451,7 +457,9 @@ item (FEAT_TRAINS , ITEM_ET_25_DB, 4253)
 			graphics
 			{
 			default:						switch_ET_25_graphics_DB;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_ET_25;
 			articulated_part:				switch_articulated_ET_25_DB;
 			visual_effect_and_powered:    	switch_FX_ET_25;

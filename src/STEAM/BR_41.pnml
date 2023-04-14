@@ -242,7 +242,9 @@ item (FEAT_TRAINS , ITEM_BR_41, 0410)
 			graphics
 			{
 			default						   : switch_BR_41_graphics_build;
-			additional_text				   : string(STR_DESC_BR_41);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BR_41),);
 			length						   : switch_length_BR_41;
 			articulated_part			   : switch_articulated_BR_41_build;
 			purchase_cargo_capacity        : 0 ;
@@ -309,7 +311,9 @@ item (FEAT_TRAINS , ITEM_BR_41_CURRENT, 0411)
 			graphics
 			{
 			default						   : switch_BR_41_graphics_current;
-			additional_text				   : string(STR_DESC_BR_41);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BR_41),);
 			length						   : switch_length_BR_41;
 			articulated_part			   : switch_articulated_BR_41_current;
 			purchase_cargo_capacity        : 0 ;
@@ -376,7 +380,9 @@ item (FEAT_TRAINS , ITEM_BR_41_DRG, 0412)
 			graphics
 			{
 			default						   : switch_BR_41_graphics_DRG;
-			additional_text				   : string(STR_DESC_BR_41);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BR_41),);
 			length						   : switch_length_BR_41;
 			articulated_part			   : switch_articulated_BR_41_DRG;
 			purchase_cargo_capacity        : 0 ;
@@ -443,7 +449,9 @@ item (FEAT_TRAINS , ITEM_BR_41_DB, 0413)
 			graphics
 			{
 			default						   : switch_BR_41_graphics_DB;
-			additional_text				   : string(STR_DESC_BR_41);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BR_41),);
 			length						   : switch_length_BR_41;
 			articulated_part			   : switch_articulated_BR_41_DB;
 			purchase_cargo_capacity        : 0 ;
@@ -510,7 +518,9 @@ item (FEAT_TRAINS , ITEM_BR_41_NBK, 0414)
 			graphics
 			{
 			default						   : switch_BR_41_graphics_NBK;
-			additional_text				   : string(STR_DESC_BR_41);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_BR_41),);
 			length						   : switch_length_BR_41;
 			articulated_part			   : switch_articulated_BR_41_NBK;
 			purchase_cargo_capacity        : 0 ;

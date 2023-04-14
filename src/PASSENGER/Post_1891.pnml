@@ -1,0 +1,378 @@
+//############################################################
+//###Post 1891 Preussischer Postwagen (3-Achser Abteilwagen###
+//############################################################
+
+//Spritesets
+
+
+//Spriteset KPEV
+
+spriteset (spriteset_Post_1891_KPEV, "gfx/Post_1891/Post_1891_KPEV_1x_8bpp.png")
+					{ template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_KPEV_1x_32bpp.png", "gfx/Post_1891/Post_1891_KPEV_1x_mask.png")
+					{template_78trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Post_1891_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_KPEV_2x_32bpp.png", "gfx/Post_1891/Post_1891_KPEV_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Post_1891_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_KPEV_4x_32bpp.png", "gfx/Post_1891/Post_1891_KPEV_4x_mask.png")
+					{template_78trains_4x(0,0)}	
+		
+//Spriteset loading				
+				
+spriteset (spriteset_Post_1891_KPEV_LOADING, "gfx/Post_1891/Post_1891_KPEV_loading_1x_8bpp.png")
+					{ template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_KPEV_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_KPEV_loading_1x_32bpp.png", "gfx/Post_1891/Post_1891_KPEV_loading_1x_mask.png")
+					{template_78trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Post_1891_KPEV_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_KPEV_loading_2x_32bpp.png", "gfx/Post_1891/Post_1891_KPEV_loading_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Post_1891_KPEV_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_KPEV_loading_4x_32bpp.png", "gfx/Post_1891/Post_1891_KPEV_loading_4x_mask.png")
+					{template_78trains_4x(0,0)}		
+						
+spritegroup spritegroup_Post_1891_KPEV
+		{loaded: 	[spriteset_Post_1891_KPEV];
+			loading: 	[spriteset_Post_1891_KPEV_LOADING];	}
+		
+				
+//Spriteset DRG
+
+spriteset (spriteset_Post_1891_DRG, "gfx/Post_1891/Post_1891_DRG_1x_8bpp.png")
+					{ template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DRG_1x_32bpp.png", "gfx/Post_1891/Post_1891_DRG_1x_mask.png")
+					{template_78trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Post_1891_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DRG_2x_32bpp.png", "gfx/Post_1891/Post_1891_DRG_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Post_1891_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DRG_4x_32bpp.png", "gfx/Post_1891/Post_1891_DRG_4x_mask.png")
+					{template_78trains_4x(0,0)}	
+		
+//Spriteset loading				
+				
+spriteset (spriteset_Post_1891_DRG_LOADING, "gfx/Post_1891/Post_1891_DRG_loading_1x_8bpp.png")
+					{ template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_DRG_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DRG_loading_1x_32bpp.png", "gfx/Post_1891/Post_1891_DRG_loading_1x_mask.png")
+					{template_78trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Post_1891_DRG_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DRG_loading_2x_32bpp.png", "gfx/Post_1891/Post_1891_DRG_loading_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Post_1891_DRG_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DRG_loading_4x_32bpp.png", "gfx/Post_1891/Post_1891_DRG_loading_4x_mask.png")
+					{template_78trains_4x(0,0)}		
+						
+spritegroup spritegroup_Post_1891_DRG
+		{loaded: 	[spriteset_Post_1891_DRG];
+			loading: 	[spriteset_Post_1891_DRG_LOADING];}
+
+
+//Spriteset DB
+
+spriteset (spriteset_Post_1891_DB, "gfx/Post_1891/Post_1891_DB_1x_8bpp.png")
+					{ template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DB_1x_32bpp.png", "gfx/Post_1891/Post_1891_DB_1x_mask.png")
+					{template_78trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Post_1891_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DB_2x_32bpp.png", "gfx/Post_1891/Post_1891_DB_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Post_1891_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DB_4x_32bpp.png", "gfx/Post_1891/Post_1891_DB_4x_mask.png")
+					{template_78trains_4x(0,0)}	
+		
+//Spriteset loading				
+				
+spriteset (spriteset_Post_1891_DB_LOADING, "gfx/Post_1891/Post_1891_DB_loading_1x_8bpp.png")
+					{ template_78trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_DB_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DB_loading_1x_32bpp.png", "gfx/Post_1891/Post_1891_DB_loading_1x_mask.png")
+					{template_78trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Post_1891_DB_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DB_loading_2x_32bpp.png", "gfx/Post_1891/Post_1891_DB_loading_2x_mask.png")
+					{template_78trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Post_1891_DB_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DB_loading_4x_32bpp.png", "gfx/Post_1891/Post_1891_DB_loading_4x_mask.png")
+					{template_78trains_4x(0,0)}		
+						
+spritegroup spritegroup_Post_1891_DB
+		{loaded: 	[spriteset_Post_1891_DB];
+			loading: 	[spriteset_Post_1891_DB_LOADING];}		
+
+
+//Spriteset Purchase
+
+spriteset (spriteset_Post_1891_purchase1, "gfx/Post_1891/Post_1891_KPEV_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_KPEV_1x_32bpp.png", "gfx/Post_1891/Post_1891_KPEV_1x_mask.png")
+					{template_purchase(0, 0)}	
+					
+spriteset (spriteset_Post_1891_purchase2, "gfx/Post_1891/Post_1891_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DRG_1x_32bpp.png", "gfx/Post_1891/Post_1891_DRG_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Post_1891_purchase3, "gfx/Post_1891/Post_1891_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Post_1891_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Post_1891/Post_1891_DB_1x_32bpp.png", "gfx/Post_1891/Post_1891_DB_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+//Switches					
+
+					switch (FEAT_TRAINS,SELF,switch_purchase_Post_1891,current_year) {
+						   0 .. 1919 : spriteset_Post_1891_purchase1;
+						1920 .. 1945 : spriteset_Post_1891_purchase2;
+						1946 .. 2050 : spriteset_Post_1891_purchase3;
+							spriteset_Post_1891_purchase3;}
+						
+					switch (FEAT_TRAINS,SELF,switch_build_year_Post_1891,build_year) {
+						   0 .. 1919 : spritegroup_Post_1891_KPEV;
+						1920 .. 1945 : spritegroup_Post_1891_DRG;
+						1946 .. 2050 : spritegroup_Post_1891_DB;
+							spritegroup_Post_1891_DB;}
+
+					switch (FEAT_TRAINS,SELF,switch_current_year_Post_1891,current_year) {
+						   0 .. 1919 : spritegroup_Post_1891_KPEV;
+						1920 .. 1945 : spritegroup_Post_1891_DRG;
+						1946 .. 2050 : spritegroup_Post_1891_DB;
+							spritegroup_Post_1891_DB;}					
+							
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Post_1891, 1){
+						return 770;}																																
+
+
+item (FEAT_TRAINS , ITEM_Post_1891_BUILD, 3507)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_Post_1891_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					65;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						7;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_build_year_Post_1891;
+			additional_text					: string(STR_DESC_POST);
+			purchase						: switch_purchase_Post_1891;
+			cost_factor						: 170;
+			running_cost_factor				: switch_running_cost_Post_1891;				
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_Post_1891_CURRENT, 3508)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_Post_1891_CURRENT);
+						variant_group:					3507;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					65;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						7;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_current_year_Post_1891;
+			additional_text					: string(STR_DESC_POST);
+			purchase						: switch_purchase_Post_1891;
+			cost_factor						: 170;
+			running_cost_factor				: switch_running_cost_Post_1891;				
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_Post_1891_KPEV, 3509)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_Post_1891_KPEV);
+						variant_group:					3507;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1891,01,01);
+						model_life: 					65;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						7;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_Post_1891_KPEV;
+			additional_text					: string(STR_DESC_POST);
+			purchase						: spriteset_Post_1891_purchase1;
+			cost_factor						: 170;
+			running_cost_factor				: switch_running_cost_Post_1891;				
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_Post_1891_DRG, 3510)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_Post_1891_DRG);
+						variant_group:					3507;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					36;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						7;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_Post_1891_DRG;
+			additional_text					: string(STR_DESC_POST);
+			purchase						: spriteset_Post_1891_purchase2;
+			cost_factor						: 170;
+			running_cost_factor				: switch_running_cost_Post_1891;				
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_Post_1891_DB, 3511)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_Post_1891_DB);
+						variant_group:					3507;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					10;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					30;
+						ai_engine_rank: 				0;
+						length: 						7;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_Post_1891_DB;
+			additional_text					: string(STR_DESC_POST);
+			purchase						: spriteset_Post_1891_purchase3;
+			cost_factor						: 170;
+			running_cost_factor				: switch_running_cost_Post_1891;				
+			 }
+		}

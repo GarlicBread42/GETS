@@ -140,7 +140,9 @@ item (FEAT_TRAINS , ITEM_BR_159_CARGO, 1590)
 			graphics
 			{
 			default							: switch_BR_159_graphics_Cargo;
-			additional_text					: string(STR_DESC_BR_159);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DUAL), 
+											  string(STR_DESC_BR_159),);
 			length							: switch_length_BR_159;
 			articulated_part				: switch_articulated_BR_159_Cargo; 
 			purchase_cargo_capacity		    : 0 ;
@@ -204,7 +206,9 @@ item (FEAT_TRAINS , ITEM_BR_159_HVLE, 1591)
 			graphics
 			{
 			default							: switch_BR_159_graphics_HVLE;
-			additional_text					: string(STR_DESC_BR_159);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DUAL), 
+											  string(STR_DESC_BR_159),);
 			length							: switch_length_BR_159;
 			articulated_part				: switch_articulated_BR_159_HVLE; 
 			purchase_cargo_capacity		    : 0 ;
@@ -268,7 +272,9 @@ item (FEAT_TRAINS , ITEM_BR_159_CAPTRAIN, 1592)
 			graphics
 			{
 			default							: switch_BR_159_graphics_Captrain;
-			additional_text					: string(STR_DESC_BR_159);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DUAL), 
+											  string(STR_DESC_BR_159),);
 			length							: switch_length_BR_159;
 			articulated_part				: switch_articulated_BR_159_Captrain; 
 			purchase_cargo_capacity		    : 0 ;

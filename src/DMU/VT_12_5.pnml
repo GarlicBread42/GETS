@@ -219,7 +219,9 @@ item (FEAT_TRAINS , ITEM_VT_125_3, 6125)
 			graphics
 			{
 			default:						switch_VT_125_3_graphics;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_VT_125_3;
 			articulated_part:				switch_articulated_VT_125_3;
 			can_attach_wagon:				switch_coupling_VT_085;
@@ -313,7 +315,9 @@ item (FEAT_TRAINS , ITEM_VT_125_4, 6126)
 			graphics
 			{
 			default:						switch_VT_125_4_graphics;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_VT_125_4;
 			articulated_part:				switch_articulated_VT_125_4;
 			can_attach_wagon:				switch_coupling_VT_085;

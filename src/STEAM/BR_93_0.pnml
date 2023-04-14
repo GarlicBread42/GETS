@@ -334,7 +334,9 @@ item (FEAT_TRAINS , ITEM_BR_93_0, 0930)
 					graphics
 				{
 						default						    : switch_BR_93_0_build_year;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_93_0_purchase;
@@ -384,7 +386,9 @@ item (FEAT_TRAINS , ITEM_BR_93_0_CURRENT, 0931)
 					graphics
 				{
 						default						    : switch_BR_93_0_current_year;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_BR_93_0_purchase;
@@ -435,7 +439,9 @@ item (FEAT_TRAINS , ITEM_BR_93_0_KPEV, 0932)
 					graphics
 				{
 						default						    : switch_reverse_BR_93_0_KPEV;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_93_0_purchase1;
@@ -485,7 +491,9 @@ item (FEAT_TRAINS , ITEM_BR_93_0_DRG, 0933)
 					graphics
 				{
 						default						    : switch_reverse_BR_93_0_DRG;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_93_0_purchase2;
@@ -536,7 +544,9 @@ item (FEAT_TRAINS , ITEM_BR_93_0_DB, 0934)
 					graphics
 				{
 						default						    : switch_reverse_BR_93_0_DB;
-						additional_text				    : string(STR_DESC_GOODS);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_GOODS),);
 						purchase_cargo_capacity         : 0 ;
 						cargo_capacity                  : return 0 ;
 						purchase					    : switch_spritestack_BR_93_0_purchase3;

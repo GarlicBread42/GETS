@@ -1,0 +1,343 @@
+//#############################
+//###KPEV 3-axle D-Zug Wagen###
+//#############################
+
+//Spriteset KPEV AB
+
+spriteset(spriteset_3UE_1897_KPEV_AB, "gfx\3UE_1897/3UE_1897_KPEV_AB_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_AB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_AB_1x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_AB_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_AB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_AB_2x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_AB_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_AB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_AB_4x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_AB_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+
+//Spriteset KPEV AB loading
+
+spriteset(spriteset_3UE_1897_KPEV_AB_loading, "gfx\3UE_1897/3UE_1897_KPEV_AB_loading_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_AB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_AB_loading_1x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_AB_loading_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_AB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_AB_loading_2x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_AB_loading_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_AB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_AB_loading_4x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_AB_loading_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+									
+spritegroup spritegroup_3UE_1897_KPEV_AB_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_3UE_1897_KPEV_AB_loading];}										
+
+//Spriteset KPEV C
+
+spriteset(spriteset_3UE_1897_KPEV_C, "gfx\3UE_1897/3UE_1897_KPEV_C_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_C_1x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_C_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_C, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_C_2x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_C_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_C_4x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_C_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+
+//Spriteset KPEV C loading
+
+spriteset(spriteset_3UE_1897_KPEV_C_loading, "gfx\3UE_1897/3UE_1897_KPEV_C_loading_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_C_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_C_loading_1x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_C_loading_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_C_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_C_loading_2x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_C_loading_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_C_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_C_loading_4x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_C_loading_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+									
+spritegroup spritegroup_3UE_1897_KPEV_C_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_3UE_1897_KPEV_C_loading];}				
+
+//Spriteset DRG
+
+spriteset(spriteset_3UE_1897_DRG, "gfx\3UE_1897/3UE_1897_DRG_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_DRG_1x_32bpp.png", "gfx\3UE_1897/3UE_1897_DRG_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_DRG_2x_32bpp.png", "gfx\3UE_1897/3UE_1897_DRG_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_DRG_4x_32bpp.png", "gfx\3UE_1897/3UE_1897_DRG_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+
+//Spriteset DRG loading
+
+spriteset(spriteset_3UE_1897_DRG_loading, "gfx\3UE_1897/3UE_1897_DRG_loading_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_DRG_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_DRG_loading_1x_32bpp.png", "gfx\3UE_1897/3UE_1897_DRG_loading_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_DRG_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_DRG_loading_2x_32bpp.png", "gfx\3UE_1897/3UE_1897_DRG_loading_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_DRG_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_DRG_loading_4x_32bpp.png", "gfx\3UE_1897/3UE_1897_DRG_loading_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+									
+spritegroup spritegroup_3UE_1897_DRG_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_3UE_1897_DRG_loading];}				
+
+
+//Spriteset purchase
+
+spriteset(spriteset_3UE_1897_KPEV_purchase, "gfx\3UE_1897/3UE_1897_KPEV_AB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_KPEV_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_KPEV_AB_1x_32bpp.png", "gfx\3UE_1897/3UE_1897_KPEV_AB_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_3UE_1897_DRG_purchase, "gfx\3UE_1897/3UE_1897_DRG_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_3UE_1897_DRG_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\3UE_1897/3UE_1897_DRG_1x_32bpp.png", "gfx\3UE_1897/3UE_1897_DRG_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+									
+//Switches
+
+					switch (FEAT_TRAINS,SELF, switch_3UE_1897_purchase,current_year){
+						    0 .. 1919: spriteset_3UE_1897_KPEV_purchase;
+						 1920 .. 2050: spriteset_3UE_1897_DRG_purchase;						 
+							spriteset_3UE_1897_DRG_purchase;}																	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_3UE_1897_KPEV_AB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_3UE_1897_KPEV_AB;
+							1: spritegroup_3UE_1897_KPEV_AB_loading;}																									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_3UE_1897_KPEV_C, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_3UE_1897_KPEV_C;
+							1: spritegroup_3UE_1897_KPEV_C_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_3UE_1897_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_3UE_1897_DRG;
+							1: spritegroup_3UE_1897_DRG_loading;}								
+
+					switch (FEAT_TRAINS, SELF, random_choose_3UE_1897_KPEV, switch_alternative_var_random_bits(2, 2)) {
+							1: switch_spritestack_3UE_1897_KPEV_AB;
+							2: switch_spritestack_3UE_1897_KPEV_C;
+							3:switch_spritestack_3UE_1897_KPEV_C;											
+								switch_spritestack_3UE_1897_KPEV_C;}
+								
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_3UE_1897, 1){
+						return 1025;}								
+								
+					switch (FEAT_TRAINS,SELF,switch_current_year_3UE_1897,current_year) {
+							   0 .. 1919 : random_choose_3UE_1897_KPEV;
+							1920 .. 2050 : switch_spritestack_3UE_1897_DRG;
+								switch_spritestack_3UE_1897_DRG;}
+						
+					switch (FEAT_TRAINS,SELF,switch_build_year_3UE_1897,build_year) {
+							   0 .. 1919 : random_choose_3UE_1897_KPEV;
+							1920 .. 2050 : switch_spritestack_3UE_1897_DRG;
+								switch_spritestack_3UE_1897_DRG;}
+								
+								
+item (FEAT_TRAINS , ITEM_3UE_1897_BUILD, 7502)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_3UE_1897_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1897,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						18 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					36;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_build_year_3UE_1897;
+			additional_text					: string(STR_DESC_EXPRESS);
+			purchase						: switch_3UE_1897_purchase;
+			cost_factor						: 204;
+			running_cost_factor				: switch_running_cost_3UE_1897;
+			}}												
+
+item (FEAT_TRAINS , ITEM_3UE_1897_CURRENT, 7503)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_3UE_1897_CURRENT);
+						variant_group:					7502;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1897,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						18 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					36;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_current_year_3UE_1897;
+			additional_text					: string(STR_DESC_EXPRESS);
+			purchase						: switch_3UE_1897_purchase;
+			cost_factor						: 204;
+			running_cost_factor				: switch_running_cost_3UE_1897;
+			}}	
+
+
+item (FEAT_TRAINS , ITEM_3UE_1897_KPEV, 7504)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_3UE_1897_KPEV);
+						variant_group:					7502;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1897,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						18 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					36;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_3UE_1897_KPEV;
+			additional_text					: string(STR_DESC_EXPRESS);
+			purchase						: spriteset_3UE_1897_KPEV_purchase;
+			cost_factor						: 204;
+			running_cost_factor				: switch_running_cost_3UE_1897;
+			}}	
+
+
+item (FEAT_TRAINS , ITEM_3UE_1897_DRG, 7505)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_3UE_1897_DRG);
+						variant_group:					7502;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					17;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						18 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					36;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_spritestack_3UE_1897_DRG;
+			additional_text					: string(STR_DESC_EXPRESS);
+			purchase						: spriteset_3UE_1897_DRG_purchase;
+			cost_factor						: 204;
+			running_cost_factor				: switch_running_cost_3UE_1897;
+			}}

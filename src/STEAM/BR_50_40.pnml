@@ -98,7 +98,9 @@ item (FEAT_TRAINS , ITEM_BR_50_40, 0507)
 			graphics
 			{
 			default						   : switch_BR_50_40_graphics;
-			additional_text				   : string(STR_DESC_UNIVERSAL);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_STEAM), 
+											string(STR_DESC_UNIVERSAL),);
 			length						   : switch_length_BR_50_40;
 			articulated_part			   : switch_articulated_BR_50_40;
 			purchase_cargo_capacity        : 0 ;

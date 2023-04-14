@@ -222,7 +222,9 @@ item (FEAT_TRAINS , ITEM_E_41_BUILD, 1410)
 			graphics
 			{
 			default:						switch_E_41_graphics_build;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_build;
 			purchase_cargo_capacity		    : 0 ;
@@ -285,7 +287,9 @@ item (FEAT_TRAINS , ITEM_E_41_CURRENT, 1411)
 			graphics
 			{
 			default:						switch_E_41_graphics_current;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_current;
 			purchase_cargo_capacity		    : 0 ;
@@ -348,7 +352,9 @@ item (FEAT_TRAINS , ITEM_E_41_BLAU, 1412)
 			graphics
 			{
 			default:						switch_E_41_graphics_blau;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_blau;
 			purchase_cargo_capacity		    : 0 ;
@@ -413,7 +419,9 @@ item (FEAT_TRAINS , ITEM_E_41_GRUEN, 1413)
 			graphics
 			{
 			default:						switch_E_41_graphics_gruen;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_gruen;
 			purchase_cargo_capacity		    : 0 ;
@@ -474,7 +482,9 @@ item (FEAT_TRAINS , ITEM_E_41_OZEANBLAU, 1414)
 			graphics
 			{
 			default:						switch_E_41_graphics_ozeanblau;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_ozeanblau;
 			purchase_cargo_capacity		    : 0 ;
@@ -535,7 +545,9 @@ item (FEAT_TRAINS , ITEM_E_41_ORIENTROT, 1415)
 			graphics
 			{
 			default:						switch_E_41_graphics_orientrot;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_orientrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -596,7 +608,9 @@ item (FEAT_TRAINS , ITEM_E_41_VERKEHRSROT, 1416)
 			graphics
 			{
 			default:						switch_E_41_graphics_verkehrsrot;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_verkehrsrot;
 			purchase_cargo_capacity		    : 0 ;
@@ -658,7 +672,9 @@ item (FEAT_TRAINS , ITEM_E_41_SBAHN, 1417)
 			graphics
 			{
 			default:						switch_E_41_graphics_sbahn;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_sbahn;
 			purchase_cargo_capacity		    : 0 ;
@@ -720,7 +736,9 @@ item (FEAT_TRAINS , ITEM_E_41_KARLSRUHE, 1418)
 			graphics
 			{
 			default:						switch_E_41_graphics_karlsruhe;
-			additional_text:				string(STR_DESC_PASS);
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
 			length:							switch_length_E_41;
 			articulated_part:				switch_articulated_E_41_karlsruhe;
 			purchase_cargo_capacity		    : 0 ;

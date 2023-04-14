@@ -111,7 +111,9 @@ item (FEAT_TRAINS , ITEM_V_36, 2360)
 			graphics
 			{
 			default				: switch_animation_V_36;
-			additional_text		: string(STR_DESC_SHUNT);
+			additional_text				   : string(STR_CONCAT_2, 
+											string(STR_TRACTION_DIESEL), 
+											string(STR_DESC_SHUNT),);
 			purchase			: spriteset_V_36_purchase;
 			cost_factor						:6;
 			running_cost_factor				: switch_running_cost_V_36;			
