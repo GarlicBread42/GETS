@@ -245,6 +245,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_BUILD, 5015)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -312,6 +313,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_CURRENT, 5016)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -372,6 +374,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_SCHWARZ, 5017)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -432,6 +435,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_BINDE, 5018)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -492,6 +496,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_OZEANBLAU, 5019)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -552,6 +557,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_MINT, 5020)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -612,6 +618,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_VERKEHRSROT, 5021)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -672,6 +679,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_KARLSRUHE, 5022)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -732,6 +740,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_CITYBAHN, 5023)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -792,6 +801,7 @@ item (FEAT_TRAINS , ITEM_KARLSRUHER_LOCO_NATX, 5024)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;

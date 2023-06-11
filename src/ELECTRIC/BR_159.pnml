@@ -71,7 +71,7 @@ spriteset(spriteset_BR_159_purchase_Captrain, "gfx/BR_159/BR_159_Captrain_1x_8bp
 							1: 7;
 							2: 4;}	
 							
-						switch (FEAT_TRAINS, SELF, switch_power_BR_159, tile_powers_railtype("ELRL")) {
+						switch (FEAT_TRAINS, SELF, switch_power_BR_159, tile_powers_railtype("AC15")) {
 							1: return 8432;
 							return 3807;}						
 
@@ -110,8 +110,8 @@ item (FEAT_TRAINS , ITEM_BR_159_CARGO, 1590)
 						climates_available: 			ALL_CLIMATES;
 						engine_class: 					ENGINE_CLASS_ELECTRIC;						
 						introduction_date: 				date(2020,01,01);
-						model_life: 					43;
-						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
 						retire_early: 					-10;							
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
@@ -176,8 +176,8 @@ item (FEAT_TRAINS , ITEM_BR_159_HVLE, 1591)
 						climates_available: 			ALL_CLIMATES;
 						engine_class: 					ENGINE_CLASS_ELECTRIC;						
 						introduction_date: 				date(2020,01,01);
-						model_life: 					43;
-						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
 						retire_early: 					-10;							
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
@@ -242,8 +242,8 @@ item (FEAT_TRAINS , ITEM_BR_159_CAPTRAIN, 1592)
 						climates_available: 			ALL_CLIMATES;
 						engine_class: 					ENGINE_CLASS_ELECTRIC;						
 						introduction_date: 				date(2020,01,01);
-						model_life: 					43;
-						vehicle_life: 					VEHICLE_NEVER_EXPIRES;
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
 						retire_early: 					-10;							
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);

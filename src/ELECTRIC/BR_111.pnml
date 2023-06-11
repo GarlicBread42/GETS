@@ -183,7 +183,7 @@ item (FEAT_TRAINS , ITEM_BR_111_BUILD, 1110)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					AC15;
 						power:  						4924 hp;
 						weight: 						83 ton;
 						ai_engine_rank: 				0;
@@ -247,7 +247,7 @@ item (FEAT_TRAINS , ITEM_BR_111_CURRENT, 1111)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					AC15;
 						power:  						4924 hp;
 						weight: 						83 ton;
 						ai_engine_rank: 				0;
@@ -310,7 +310,7 @@ item (FEAT_TRAINS , ITEM_BR_111_OZEANBLAU, 1112)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					AC15;
 						power:  						4924 hp;
 						weight: 						83 ton;
 						ai_engine_rank: 				0;
@@ -374,7 +374,7 @@ item (FEAT_TRAINS , ITEM_BR_111_ORIENTROT, 1113)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					AC15;
 						power:  						4924 hp;
 						weight: 						83 ton;
 						ai_engine_rank: 				0;
@@ -438,7 +438,7 @@ item (FEAT_TRAINS , ITEM_BR_111_VERKEHRSROT, 1114)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					AC15;
 						power:  						4924 hp;
 						weight: 						83 ton;
 						ai_engine_rank: 				0;
@@ -502,7 +502,7 @@ item (FEAT_TRAINS , ITEM_BR_111_SBAHN, 1115)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					AC15;
 						power:  						4924 hp;
 						weight: 						83 ton;
 						ai_engine_rank: 				0;
@@ -566,7 +566,7 @@ item (FEAT_TRAINS , ITEM_BR_111_LAX, 1116)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					AC15;
 						power:  						4924 hp;
 						weight: 						83 ton;
 						ai_engine_rank: 				0;
@@ -613,7 +613,7 @@ item (FEAT_TRAINS , ITEM_BR_111_RAILADVENTURE, 1117)
 			//common properties
 						name: 							string(STR_NAME_BR_111_RAILADVENTURE);
 						variant_group:					1110;
-						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
 						climates_available: 			ALL_CLIMATES;
 						introduction_date: 				date(2000,01,01);
 						model_life: 					26;
@@ -630,7 +630,7 @@ item (FEAT_TRAINS , ITEM_BR_111_RAILADVENTURE, 1117)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					AC15;
 						power:  						4924 hp;
 						weight: 						83 ton;
 						ai_engine_rank: 				0;

@@ -2,6 +2,8 @@
 //###BD4yg-Umbauwagen, Halbgepäck##
 //#################################
 
+//Spriteset DB
+
 spriteset (spriteset_4YG_DB_D, "gfx/4YG/4YG_DB_D_1x_8bpp.png")
 					{template_128trains_1x(0, 0)}	
 				
@@ -13,6 +15,8 @@ spriteset (spriteset_4YG_DB_D, "gfx/4YG/4YG_DB_D_1x_8bpp.png")
 			
 		alternative_sprites (spriteset_4YG_DB_D, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/4YG/4YG_DB_D_4x_32bpp.png", "gfx/4YG/4YG_DB_D_4x_mask.png")
 					{template_128trains_4x(0,0)}
+
+										
 
 spriteset (spriteset_4YG_DB_D_loading, "gfx/4YG/4YG_DB_D_loading_1x_8bpp.png")
 					{template_128trains_1x(0, 0)}	
@@ -30,12 +34,50 @@ spritegroup spritegroup_4YG_DB_D
 		{loaded: 	[spriteset_4YG_DB_D];
 			loading: 	[spriteset_4YG_DB_D_loading];}
 
+//Spriteset AZB
+
+spriteset (spriteset_4YG_AZB_D, "gfx/4YG/4YG_AZB_D_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_4YG_AZB_D, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/4YG/4YG_AZB_D_1x_32bpp.png", "gfx/4YG/4YG_AZB_D_1x_mask.png")
+					{template_128trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_4YG_AZB_D, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/4YG/4YG_AZB_D_2x_32bpp.png", "gfx/4YG/4YG_AZB_D_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_4YG_AZB_D, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/4YG/4YG_AZB_D_4x_32bpp.png", "gfx/4YG/4YG_AZB_D_4x_mask.png")
+					{template_128trains_4x(0,0)}
+
+										
+
+spriteset (spriteset_4YG_AZB_D_loading, "gfx/4YG/4YG_AZB_D_loading_1x_8bpp.png")
+					{template_128trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_4YG_AZB_D_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/4YG/4YG_AZB_D_loading_1x_32bpp.png", "gfx/4YG/4YG_AZB_D_loading_1x_mask.png")
+					{template_128trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_4YG_AZB_D_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/4YG/4YG_AZB_D_loading_2x_32bpp.png", "gfx/4YG/4YG_AZB_D_loading_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_4YG_AZB_D_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/4YG/4YG_AZB_D_loading_4x_32bpp.png", "gfx/4YG/4YG_AZB_D_loading_4x_mask.png")
+					{template_128trains_4x(0,0)}
+									
+spritegroup spritegroup_4YG_AZB_D
+		{loaded: 	[spriteset_4YG_AZB_D];
+			loading: 	[spriteset_4YG_AZB_D_loading];}					
+					
 
 spriteset (spriteset_4YG_DB_D_purchase, "gfx/4YG/4YG_DB_D_1x_8bpp.png")
 					{template_purchase(0, 0)}	
 				
 		alternative_sprites (spriteset_4YG_DB_D_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/4YG/4YG_DB_D_1x_32bpp.png", "gfx/4YG/4YG_DB_D_1x_mask.png")
 					{template_purchase(0,0)}			
+					
+spriteset (spriteset_4YG_AZB_D_purchase, "gfx/4YG/4YG_AZB_D_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_4YG_AZB_D_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/4YG/4YG_AZB_D_1x_32bpp.png", "gfx/4YG/4YG_AZB_D_1x_mask.png")
+					{template_purchase(0,0)}						
 
 //Switches
 
@@ -141,3 +183,63 @@ item (FEAT_TRAINS , ITEM_4YG_DB_D_MAIL, 3950)
 			default							: spriteset_empty;		
 			 }
 		}	
+
+						switch(FEAT_TRAINS, SELF, switch_4YG_AZB_D_graphics, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     spritegroup_4YG_AZB_D;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_4YG_AZB_D, extra_callback_info1) {
+							1: return ITEM_4YG_AZB_D;
+							2: return ITEM_4YG_DB_D_MAIL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_4YG_AZB_D, 5804)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_4YG_AZB_D);
+						variant_group:					5803;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1955,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default:						switch_4YG_AZB_D_graphics;
+			additional_text:				string(STR_DESC_BAGG);
+			length:							switch_length_4YG_DB_D;
+			articulated_part:				switch_articulated_4YG_AZB_D;
+			purchase:						spriteset_4YG_AZB_D_purchase;
+			cost_factor						: 355;
+			running_cost_factor				: switch_running_cost_4YG;		
+			}
+			
+		}

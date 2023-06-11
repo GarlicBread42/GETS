@@ -1,5 +1,9 @@
 railtypetable 
 	{
-		"RAIL", "ELRL", MTRO: ["3RDR", ELRL]
+		"RAIL",
+		ELEC: [ELRL],
+		ELRL: [ELRL],
+		AC15: [SAAa, SAAA, SAAE, ELRL],
+		MTRO: ["3RDR", ELRL]
 	}
 	

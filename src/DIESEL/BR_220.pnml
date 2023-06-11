@@ -356,7 +356,7 @@ item (FEAT_TRAINS , ITEM_BR_220_DB2, 2203)
 
 					switch(FEAT_TRAINS, SELF, switch_V200_0_graphics_ozeanblau, position_in_vehid_chain % 3) {
 						0:	   spriteset_empty;
-						1:     return spriteset_v_200_0_altrot_Keks;
+						1:     return spriteset_v_200_0_ozeanblau;
 						2:	   spriteset_empty;}	
 
 					switch (FEAT_TRAINS, SELF, switch_articulated_V200_0_ozeanblau, extra_callback_info1) {

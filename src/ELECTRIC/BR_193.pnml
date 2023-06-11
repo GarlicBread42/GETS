@@ -86,7 +86,7 @@ item (FEAT_TRAINS , ITEM_BR_193_VERKEHRSROT, 1938)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					ELEC;
 						power:  						8704 hp;
 						weight: 						87 ton;
 						ai_engine_rank: 				0;
@@ -103,7 +103,7 @@ item (FEAT_TRAINS , ITEM_BR_193_VERKEHRSROT, 1938)
 			{
 			default							: switch_BR_193_graphics_verkehrsrot;
 			additional_text					: string(STR_CONCAT_2, 
-											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_193;
 			articulated_part				: switch_articulated_BR_193_verkehrsrot;
@@ -133,7 +133,7 @@ item (FEAT_TRAINS , ITEM_BR_193_MRCE, 1939)
 			//common properties
 						name: 							string(STR_NAME_BR_193_MRCE);
 						variant_group:					1938;
-						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
 						climates_available: 			ALL_CLIMATES;
 						introduction_date: 				date(2012,01,01);
 						model_life:						30;
@@ -150,7 +150,7 @@ item (FEAT_TRAINS , ITEM_BR_193_MRCE, 1939)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;
+						track_type: 					ELEC;
 						power:  						8704 hp;
 						weight: 						87 ton;
 						ai_engine_rank: 				0;
@@ -167,7 +167,7 @@ item (FEAT_TRAINS , ITEM_BR_193_MRCE, 1939)
 			{
 			default							: switch_BR_193_graphics_MRCE;
 			additional_text					: string(STR_CONCAT_2, 
-											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_193;
 			articulated_part				: switch_articulated_BR_193_MRCE;

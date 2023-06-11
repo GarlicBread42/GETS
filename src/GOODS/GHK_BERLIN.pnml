@@ -1,0 +1,436 @@
+//#########################
+//###GKH Berlin 3-Achser###
+//#########################				
+	
+	
+//Spriteset neutral
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GHK_Berlin_neutral, "gfx\GHK_Berlin/GHK_Berlin_NEUT_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_neutral, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_NEUT_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_NEUT_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_neutral, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_NEUT_2x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_NEUT_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GHK_Berlin_neutral, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_NEUT_4x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_NEUT_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GHK_Berlin_neutral_loading, "gfx\GHK_Berlin/GHK_Berlin_NEUT_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_neutral_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_NEUT_loading_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_NEUT_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_neutral_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_NEUT_loading_2x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_NEUT_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GHK_Berlin_neutral_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_NEUT_loading_4x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_NEUT_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GHK_Berlin_neutral
+		{
+			loaded: 	[spriteset_GHK_Berlin_neutral];
+			loading: 	[spriteset_GHK_Berlin_neutral_loading];		
+		}
+		
+		
+//Spriteset Bier
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GHK_Berlin_Bier, "gfx\GHK_Berlin/GHK_Berlin_Bier_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Bier, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Bier_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Bier_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Bier, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Bier_2x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Bier_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GHK_Berlin_Bier, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Bier_4x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Bier_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GHK_Berlin_Bier_loading, "gfx\GHK_Berlin/GHK_Berlin_Bier_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Bier_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Bier_loading_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Bier_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Bier_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Bier_loading_2x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Bier_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GHK_Berlin_Bier_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Bier_loading_4x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Bier_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GHK_Berlin_Bier
+		{
+			loaded: 	[spriteset_GHK_Berlin_Bier];
+			loading: 	[spriteset_GHK_Berlin_Bier_loading];		
+		}		
+		
+		
+//Spriteset Kuehlwagen
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GHK_Berlin_Kuehlwagen, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Kuehlwagen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Kuehlwagen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_2x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GHK_Berlin_Kuehlwagen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_4x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GHK_Berlin_Kuehlwagen_loading, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Kuehlwagen_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_loading_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Kuehlwagen_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_loading_2x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GHK_Berlin_Kuehlwagen_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_loading_4x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GHK_Berlin_Kuehlwagen
+		{
+			loaded: 	[spriteset_GHK_Berlin_Kuehlwagen];
+			loading: 	[spriteset_GHK_Berlin_Kuehlwagen_loading];		
+		}		
+
+
+//Spriteset Seefische
+
+	//Spriteset loaded
+
+		spriteset (spriteset_GHK_Berlin_Seefische, "gfx\GHK_Berlin/GHK_Berlin_Seefische_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Seefische, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Seefische_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Seefische_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Seefische, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Seefische_2x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Seefische_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GHK_Berlin_Seefische, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Seefische_4x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Seefische_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_GHK_Berlin_Seefische_loading, "gfx\GHK_Berlin/GHK_Berlin_Seefische_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Seefische_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Seefische_loading_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Seefische_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_Seefische_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Seefische_loading_2x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Seefische_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GHK_Berlin_Seefische_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Seefische_loading_4x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Seefische_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GHK_Berlin_Seefische
+		{
+			loaded: 	[spriteset_GHK_Berlin_Seefische];
+			loading: 	[spriteset_GHK_Berlin_Seefische_loading];		
+		}			
+
+
+//Spriteset Purchase
+
+spriteset (spriteset_GHK_Berlin_purchase, "gfx\GHK_Berlin/GHK_Berlin_NEUT_1x_8bpp.png")
+					{template_purchase(0, 0)}		
+				
+		alternative_sprites (spriteset_GHK_Berlin_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_NEUT_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_NEUT_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_GHK_Berlin_purchase_KW, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_purchase_KW, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Kuehlwagen_1x_mask.png")
+					{template_purchase(0, 0)}					
+
+spriteset (spriteset_GHK_Berlin_purchase_Seefische, "gfx\GHK_Berlin/GHK_Berlin_Seefische_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_purchase_Seefische, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Seefische_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Seefische_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_GHK_Berlin_purchase_Bier, "gfx\GHK_Berlin/GHK_Berlin_Bier_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GHK_Berlin_purchase_Bier, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GHK_Berlin/GHK_Berlin_Bier_1x_32bpp.png", "gfx\GHK_Berlin/GHK_Berlin_Bier_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+															
+//Switches
+
+					switch (FEAT_TRAINS, SELF, switch_GHK_Berlin_sprite_choose, cargo_type_in_veh) {
+						FOOD: spritegroup_GHK_Berlin_neutral;
+						FRUT: spritegroup_GHK_Berlin_Kuehlwagen; 
+						BEER: spritegroup_GHK_Berlin_Bier;
+						FISH: spritegroup_GHK_Berlin_Seefische;
+						MILK: spritegroup_GHK_Berlin_Kuehlwagen; 
+						CHSE: spritegroup_GHK_Berlin_neutral;
+						FRVG: spritegroup_GHK_Berlin_Kuehlwagen;
+						MEAT: spritegroup_GHK_Berlin_neutral;
+						OYST: spritegroup_GHK_Berlin_Seefische;
+						TATO: spritegroup_GHK_Berlin_neutral;
+						SWET: spritegroup_GHK_Berlin_Kuehlwagen;
+						TOFF: spritegroup_GHK_Berlin_neutral;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_GHK_BERLIN, 1){
+						return 70;}						
+						
+item (FEAT_TRAINS , ITEM_GHK_BERLIN, 8415)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GHK_BERLIN);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1922,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							85 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_GHK_Berlin_sprite_choose;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_GHK_Berlin_purchase;
+			cost_factor						: 33;
+			running_cost_factor				: switch_running_cost_GHK_BERLIN;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_GHK_BERLIN_NEUT, 8416)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GHK_BERLIN_NEUT);
+						variant_group:					8415;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1922,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							85 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_GHK_Berlin_neutral;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_GHK_Berlin_purchase;
+			cost_factor						: 33;
+			running_cost_factor				: switch_running_cost_GHK_BERLIN;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_GHK_BERLIN_KW, 8417)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GHK_BERLIN_KW);
+						variant_group:					8415;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1922,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							85 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_GHK_Berlin_Kuehlwagen;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_GHK_Berlin_purchase_KW;
+			cost_factor						: 33;
+			running_cost_factor				: switch_running_cost_GHK_BERLIN;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_GHK_BERLIN_FISH, 8418)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GHK_BERLIN_FISH);
+						variant_group:					8415;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1922,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							85 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_GHK_Berlin_Seefische;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_GHK_Berlin_purchase_Seefische;
+			cost_factor						: 33;
+			running_cost_factor				: switch_running_cost_GHK_BERLIN;				
+			
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_GHK_BERLIN_BEER, 8419)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GHK_BERLIN_BEER);
+						variant_group:					8415;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1922,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							85 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_GHK_Berlin_Bier;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_GHK_Berlin_purchase_Bier;
+			cost_factor						: 33;
+			running_cost_factor				: switch_running_cost_GHK_BERLIN;				
+			
+			 }
+		}

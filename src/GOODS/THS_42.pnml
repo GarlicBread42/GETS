@@ -1,0 +1,331 @@
+//######################
+//###Ths 42 KÜhlwagen###
+//######################					
+	
+//Spriteset neutral 1
+
+	//Spriteset loaded
+
+		spriteset (spriteset_THS_42_neutral1, "gfx\THS_42/THS_42_NEUT1_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT1_1x_32bpp.png", "gfx\THS_42/THS_42_NEUT1_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT1_2x_32bpp.png", "gfx\THS_42/THS_42_NEUT1_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_THS_42_neutral1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT1_4x_32bpp.png", "gfx\THS_42/THS_42_NEUT1_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_THS_42_neutral1_loading, "gfx\THS_42/THS_42_NEUT1_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT1_loading_1x_32bpp.png", "gfx\THS_42/THS_42_NEUT1_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT1_loading_2x_32bpp.png", "gfx\THS_42/THS_42_NEUT1_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_THS_42_neutral1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT1_loading_4x_32bpp.png", "gfx\THS_42/THS_42_NEUT1_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_THS_42_neutral1
+		{	loaded: 	[spriteset_THS_42_neutral1];
+			loading: 	[spriteset_THS_42_neutral1_loading];}
+
+//Spriteset neutral 1
+
+	//Spriteset loaded
+
+		spriteset (spriteset_THS_42_neutral2, "gfx\THS_42/THS_42_NEUT2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT2_1x_32bpp.png", "gfx\THS_42/THS_42_NEUT2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT2_2x_32bpp.png", "gfx\THS_42/THS_42_NEUT2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_THS_42_neutral2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT2_4x_32bpp.png", "gfx\THS_42/THS_42_NEUT2_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_THS_42_neutral2_loading, "gfx\THS_42/THS_42_NEUT2_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT2_loading_1x_32bpp.png", "gfx\THS_42/THS_42_NEUT2_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT2_loading_2x_32bpp.png", "gfx\THS_42/THS_42_NEUT2_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_THS_42_neutral2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT2_loading_4x_32bpp.png", "gfx\THS_42/THS_42_NEUT2_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_THS_42_neutral2
+		{	loaded: 	[spriteset_THS_42_neutral2];
+			loading: 	[spriteset_THS_42_neutral2_loading];}
+			
+
+//Spriteset Interfrigo 1
+
+	//Spriteset loaded
+
+		spriteset (spriteset_THS_42_Interfrigo1, "gfx\THS_42/THS_42_Interfrigo1_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo1_1x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo1_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo1_2x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo1_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_THS_42_Interfrigo1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo1_4x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo1_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_THS_42_Interfrigo1_loading, "gfx\THS_42/THS_42_Interfrigo1_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo1_loading_1x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo1_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo1_loading_2x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo1_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_THS_42_Interfrigo1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo1_loading_4x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo1_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_THS_42_Interfrigo1
+		{	loaded: 	[spriteset_THS_42_Interfrigo1];
+			loading: 	[spriteset_THS_42_Interfrigo1_loading];}
+
+//Spriteset Interfrigo 1
+
+	//Spriteset loaded
+
+		spriteset (spriteset_THS_42_Interfrigo2, "gfx\THS_42/THS_42_Interfrigo2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo2_1x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo2_2x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_THS_42_Interfrigo2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo2_4x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo2_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+		
+		//Spriteset loading		
+				
+		spriteset (spriteset_THS_42_Interfrigo2_loading, "gfx\THS_42/THS_42_Interfrigo2_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo2_loading_1x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo2_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo2_loading_2x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo2_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_THS_42_Interfrigo2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo2_loading_4x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo2_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_THS_42_Interfrigo2
+		{	loaded: 	[spriteset_THS_42_Interfrigo2];
+			loading: 	[spriteset_THS_42_Interfrigo2_loading];}			
+
+
+
+//Spritesets purchase
+
+
+spriteset (spriteset_THS_42_neutral_purchase, "gfx\THS_42/THS_42_NEUT1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_neutral_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_NEUT1_1x_32bpp.png", "gfx\THS_42/THS_42_NEUT1_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_THS_42_Interfrigo_purchase, "gfx\THS_42/THS_42_Interfrigo1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_THS_42_Interfrigo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\THS_42/THS_42_Interfrigo1_1x_32bpp.png", "gfx\THS_42/THS_42_Interfrigo1_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+
+//Switches
+
+					switch (FEAT_TRAINS, SELF, random_choose_THS_42_ALL, switch_alternative_var_random_bits(2, 1)) {
+							1: spritegroup_THS_42_neutral1;
+							2: spritegroup_THS_42_neutral2;
+							3: spritegroup_THS_42_Interfrigo2;
+								spritegroup_THS_42_Interfrigo1;}												
+
+						switch (FEAT_TRAINS,SELF,switch_THS_42_all_current,current_year) {
+							  00 .. 1949 : spritegroup_THS_42_neutral1;
+							1950 .. 2150 : random_choose_THS_42_ALL;
+											random_choose_THS_42_ALL;}
+
+					switch (FEAT_TRAINS, SELF, random_choose_THS_42_NEUT, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_THS_42_neutral1;
+								spritegroup_THS_42_neutral2;}
+
+						switch (FEAT_TRAINS,SELF,switch_THS_42_NEUT_current,current_year) {
+							  00 .. 1949 : spritegroup_THS_42_neutral1;
+							1950 .. 2150 : random_choose_THS_42_NEUT;
+											random_choose_THS_42_NEUT;}
+
+					switch (FEAT_TRAINS, SELF, random_choose_THS_42_INTERFRIGO, switch_alternative_var_random_bits(1, 1)) {
+							1: spritegroup_THS_42_Interfrigo1;
+								spritegroup_THS_42_Interfrigo2;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_THS_42, 1){
+						return 70;}
+
+item (FEAT_TRAINS , ITEM_THS_42, 8426)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_THS_42);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1943,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					17;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_THS_42_all_current;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_THS_42_neutral_purchase;
+			cost_factor						: 33;
+			running_cost_factor				: switch_running_cost_THS_42;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_THS_42_NEUT, 8427)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_THS_42_NEUT);
+						variant_group:					8426;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1943,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					17;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_THS_42_NEUT_current;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_THS_42_neutral_purchase;
+			cost_factor						: 33;
+			running_cost_factor				: switch_running_cost_THS_42;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_THS_42_INTERFRIGO, 8428)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_THS_42_INTERFRIGO);
+						variant_group:					8426;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					26;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					17;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_THS_42_INTERFRIGO;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_THS_42_Interfrigo_purchase;
+			cost_factor						: 33;
+			running_cost_factor				: switch_running_cost_THS_42;				
+			
+			 }
+		}	

@@ -1,0 +1,360 @@
+//######################################
+//###DB yl-Wagen/Mitteleinstiegswagen###
+//######################################
+
+//Spriteset gruen 2. Klasse
+
+spriteset(spriteset_YL_DVT_LOCO_gruen, "gfx\YL/YL_DVT_LOCO_gruen_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_gruen_1x_32bpp.png", "gfx\YL/YL_DVT_LOCO_gruen_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_gruen_2x_32bpp.png", "gfx\YL/YL_DVT_LOCO_gruen_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_gruen_4x_32bpp.png", "gfx\YL/YL_DVT_LOCO_gruen_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+//Spriteset gruen loading
+
+spriteset(spriteset_YL_DVT_LOCO_gruen_loading, "gfx\YL/YL_DVT_LOCO_gruen_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_gruen_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_gruen_loading_1x_32bpp.png", "gfx\YL/YL_DVT_LOCO_gruen_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_gruen_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_gruen_loading_2x_32bpp.png", "gfx\YL/YL_DVT_LOCO_gruen_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_gruen_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_gruen_loading_4x_32bpp.png", "gfx\YL/YL_DVT_LOCO_gruen_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+spritegroup spritegroup_YL_DVT_LOCO_gruen_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_YL_DVT_LOCO_gruen_loading];}			
+			
+//Spriteset ozeanblau 2. Klasse
+
+spriteset(spriteset_YL_DVT_LOCO_ozeanblau, "gfx\YL/YL_DVT_LOCO_ozeanblau_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_ozeanblau_1x_32bpp.png", "gfx\YL/YL_DVT_LOCO_ozeanblau_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_ozeanblau_2x_32bpp.png", "gfx\YL/YL_DVT_LOCO_ozeanblau_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_ozeanblau_4x_32bpp.png", "gfx\YL/YL_DVT_LOCO_ozeanblau_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+//Spriteset ozeanblau loading
+
+spriteset(spriteset_YL_DVT_LOCO_ozeanblau_loading, "gfx\YL/YL_DVT_LOCO_ozeanblau_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_ozeanblau_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_ozeanblau_loading_1x_32bpp.png", "gfx\YL/YL_DVT_LOCO_ozeanblau_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_ozeanblau_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_ozeanblau_loading_2x_32bpp.png", "gfx\YL/YL_DVT_LOCO_ozeanblau_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_ozeanblau_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_ozeanblau_loading_4x_32bpp.png", "gfx\YL/YL_DVT_LOCO_ozeanblau_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+spritegroup spritegroup_YL_DVT_LOCO_ozeanblau_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_YL_DVT_LOCO_ozeanblau_loading];}	
+
+
+//Spriteset purchase
+
+spriteset(spriteset_YL_DVT_LOCO_gruen_purchase, "gfx\YL/YL_DVT_LOCO_gruen_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_gruen_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_gruen_1x_32bpp.png", "gfx\YL/YL_DVT_LOCO_gruen_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_YL_DVT_LOCO_ozeanblau_purchase, "gfx\YL/YL_DVT_LOCO_ozeanblau_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_YL_DVT_LOCO_ozeanblau_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\YL/YL_DVT_LOCO_ozeanblau_1x_32bpp.png", "gfx\YL/YL_DVT_LOCO_ozeanblau_1x_mask.png")
+									{ template_purchase(0, 0)}									
+																
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_YL_DVT_LOCO,current_year) {
+							  00 .. 1974 : spriteset_YL_DVT_LOCO_gruen_purchase;
+							1975 .. 2050 : spriteset_YL_DVT_LOCO_ozeanblau_purchase;
+								spriteset_YL_DVT_LOCO_ozeanblau_purchase;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_YL_DVT_LOCO_gruen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_YL_DVT_LOCO_gruen;
+							1: spritegroup_YL_DVT_LOCO_gruen_loading;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_YL_DVT_LOCO_ozeanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_YL_DVT_LOCO_ozeanblau;
+							1: spritegroup_YL_DVT_LOCO_ozeanblau_loading;}									   
+							   						   																																
+						switch(FEAT_TRAINS, SELF, switch_length_YL_DVT_LOCO, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_YL_DVT_LOCO, 1){
+							return 2050;}
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_YL_DVT_LOCO,build_year) {
+							  00 .. 1974 : switch_loadstack_YL_DVT_LOCO_gruen;
+							1975 .. 2050 : switch_loadstack_YL_DVT_LOCO_ozeanblau;
+								switch_loadstack_YL_DVT_LOCO_ozeanblau;}							
+
+						switch(FEAT_TRAINS, SELF, switch_YL_DVT_LOCO_graphics_build, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_YL_DVT_LOCO;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_YL_DVT_LOCO_build, extra_callback_info1) {
+							1 .. 2: return ITEM_YL_DVT_LOCO_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_YL_DVT_LOCO_BUILD, 5005)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_YL_DVT_LOCO_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					10;
+						cargo_capacity:                 28 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_YL_DVT_LOCO_graphics_build;
+			additional_text				: string(STR_DESC_YL_DVT);
+			length						: switch_length_YL_DVT_LOCO;
+			articulated_part			: switch_articulated_YL_DVT_LOCO_build;
+			purchase					: switch_purchase_YL_DVT_LOCO;
+			cost_factor					: 13;
+			running_cost_factor			: switch_running_cost_YL_DVT_LOCO;							
+			}
+	}									
+
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_YL_DVT_LOCO,current_year) {
+							  00 .. 1974 : switch_loadstack_YL_DVT_LOCO_gruen;
+							1975 .. 2050 : switch_loadstack_YL_DVT_LOCO_ozeanblau;
+								switch_loadstack_YL_DVT_LOCO_ozeanblau;}							
+
+						switch(FEAT_TRAINS, SELF, switch_YL_DVT_LOCO_graphics_current, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_YL_DVT_LOCO;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_YL_DVT_LOCO_current, extra_callback_info1) {
+							1 .. 2: return ITEM_YL_DVT_LOCO_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_YL_DVT_LOCO_CURRENT, 5006)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_YL_DVT_LOCO_CURRENT);
+						variant_group:					5005;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					10;
+						cargo_capacity:                 28 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_YL_DVT_LOCO_graphics_current;
+			additional_text				: string(STR_DESC_YL_DVT);
+			length						: switch_length_YL_DVT_LOCO;
+			articulated_part			: switch_articulated_YL_DVT_LOCO_current;
+			purchase					: switch_purchase_YL_DVT_LOCO;
+			cost_factor					: 13;
+			running_cost_factor			: switch_running_cost_YL_DVT_LOCO;							
+			}
+	}									
+						
+
+						switch(FEAT_TRAINS, SELF, switch_YL_DVT_LOCO_graphics_gruen, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_YL_DVT_LOCO_gruen;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_YL_DVT_LOCO_gruen, extra_callback_info1) {
+							1 .. 2: return ITEM_YL_DVT_LOCO_GRUEN;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_YL_DVT_LOCO_GRUEN, 5007)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_YL_DVT_LOCO_GRUEN);
+						variant_group:					5005;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					10;
+						cargo_capacity:                 28 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_YL_DVT_LOCO_graphics_gruen;
+			additional_text				: string(STR_DESC_YL_DVT);
+			length						: switch_length_YL_DVT_LOCO;
+			articulated_part			: switch_articulated_YL_DVT_LOCO_gruen;
+			purchase					: spriteset_YL_DVT_LOCO_gruen_purchase;
+			cost_factor					: 13;
+			running_cost_factor			: switch_running_cost_YL_DVT_LOCO;							
+			}
+	}
+
+						switch(FEAT_TRAINS, SELF, switch_YL_DVT_LOCO_graphics_ozeanblau, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_YL_DVT_LOCO_ozeanblau;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_YL_DVT_LOCO_ozeanblau, extra_callback_info1) {
+							1 .. 2: return ITEM_YL_DVT_LOCO_OZEANBLAU;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_YL_DVT_LOCO_OZEANBLAU, 5008)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_YL_DVT_LOCO_OZEANBLAU);
+						variant_group:					5005;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1951,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					10;
+						cargo_capacity:                 28 ;
+						cost_factor: 					108;
+						running_cost_factor: 			90;
+						running_cost_base:              RUNNING_COST_DIESEL;	
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;
+						weight: 						33 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						: switch_YL_DVT_LOCO_graphics_ozeanblau;
+			additional_text				: string(STR_DESC_YL_DVT);
+			length						: switch_length_YL_DVT_LOCO;
+			articulated_part			: switch_articulated_YL_DVT_LOCO_ozeanblau;
+			purchase					: spriteset_YL_DVT_LOCO_ozeanblau_purchase;
+			cost_factor					: 13;
+			running_cost_factor			: switch_running_cost_YL_DVT_LOCO;							
+			}
+	}

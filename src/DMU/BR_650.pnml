@@ -315,7 +315,53 @@ spriteset(spriteset_BR_650_WB_loading, "gfx\BR_650/BR_650_WB_loading_1x_8bpp.png
 
 spritegroup spritegroup_BR_650_WB_loading
 		{	loaded: 	[spriteset_empty];
-			loading: 	[spriteset_BR_650_WB_loading];}								
+			loading: 	[spriteset_BR_650_WB_loading];}	
+			
+		
+//Spriteset EB
+
+spriteset(spriteset_BR_650_EB, "gfx\BR_650/BR_650_EB_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_EB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_EB_1x_32bpp.png", "gfx\BR_650/BR_650_EB_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_EB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_EB_2x_32bpp.png", "gfx\BR_650/BR_650_EB_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_EB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_EB_4x_32bpp.png", "gfx\BR_650/BR_650_EB_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+									
+spriteset(spriteset_BR_650_EB_loading, "gfx\BR_650/BR_650_EB_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_EB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_EB_loading_1x_32bpp.png", "gfx\BR_650/BR_650_EB_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_EB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_EB_loading_2x_32bpp.png", "gfx\BR_650/BR_650_EB_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_EB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_EB_loading_4x_32bpp.png", "gfx\BR_650/BR_650_EB_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+									
+spritegroup spritegroup_BR_650_EB_loading
+			{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_650_EB_loading];}		
+
+		
+//Spriteset STB
+
+spriteset(spriteset_BR_650_STB, "gfx\BR_650/BR_650_STB_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_STB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_STB_1x_32bpp.png", "gfx\BR_650/BR_650_STB_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_STB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_STB_2x_32bpp.png", "gfx\BR_650/BR_650_STB_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_STB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_STB_4x_32bpp.png", "gfx\BR_650/BR_650_STB_4x_mask.png")
+									{ template_158trains_4x(0, 0)}													
 
 //Spritesets purchase
 
@@ -372,7 +418,18 @@ spriteset(spriteset_BR_650_purchase_WB, "gfx\BR_650/BR_650_WB_1x_8bpp.png")
 				
 		alternative_sprites (spriteset_BR_650_purchase_WB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_WB_1x_32bpp.png", "gfx\BR_650/BR_650_WB_1x_mask.png")
 									{ template_purchase(0, 0)}
-																		
+
+spriteset(spriteset_BR_650_purchase_EB, "gfx\BR_650/BR_650_EB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_purchase_EB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_EB_1x_32bpp.png", "gfx\BR_650/BR_650_EB_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+spriteset(spriteset_BR_650_purchase_STB, "gfx\BR_650/BR_650_STB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_650_purchase_STB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_650/BR_650_STB_1x_32bpp.png", "gfx\BR_650/BR_650_STB_1x_mask.png")
+									{ template_purchase(0, 0)}																										
 //Switches							
 						 
 						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_650_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
@@ -413,7 +470,15 @@ spriteset(spriteset_BR_650_purchase_WB, "gfx\BR_650/BR_650_WB_1x_8bpp.png")
 							
 						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_650_WB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 							0: spriteset_BR_650_WB;
-							1: spritegroup_BR_650_WB_loading;}																																							
+							1: spritegroup_BR_650_WB_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_650_EB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_650_EB;
+							1: spritegroup_BR_650_EB_loading;}		
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_650_STB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_650_STB;
+							1: spritegroup_BR_650_EB_loading;}																																																				
 
 						switch(FEAT_TRAINS, SELF, switch_BR_650_length, position_in_vehid_chain % 3) {
 							0: 4;
@@ -1006,3 +1071,132 @@ item (FEAT_TRAINS , ITEM_BR_650_WB, 6508)
 			running_cost_factor				: switch_running_cost_BR_650;		
 			}
 	}	
+		
+						switch(FEAT_TRAINS, SELF, switch_BR_650_graphics_EB, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_650_EB;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_650_EB, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_650_EB; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_BR_650_EB, 6509)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_650_EB);
+						variant_group:					6500;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 25 ;
+						loading_speed:					6;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						700 hp;
+						weight: 						40 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_650_graphics_EB;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_BR_650_length;	
+			articulated_part				: switch_articulated_BR_650_EB;
+			visual_effect_and_powered		: switch_FX_BR_650;
+			purchase						: spriteset_BR_650_purchase_EB;
+			cost_factor						: 21;
+			running_cost_factor				: switch_running_cost_BR_650;		
+			}
+	}
+		
+						switch(FEAT_TRAINS, SELF, switch_BR_650_graphics_STB, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_650_STB;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_650_STB, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_650_STB; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_BR_650_STB, 6510)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_650_STB);
+						variant_group:					6500;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 25 ;
+						loading_speed:					6;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						700 hp;
+						weight: 						40 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_650_graphics_STB;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_BR_650_length;	
+			articulated_part				: switch_articulated_BR_650_STB;
+			visual_effect_and_powered		: switch_FX_BR_650;
+			purchase						: spriteset_BR_650_purchase_STB;
+			cost_factor						: 21;
+			running_cost_factor				: switch_running_cost_BR_650;		
+			}
+	}	
+	

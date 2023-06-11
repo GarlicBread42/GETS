@@ -164,6 +164,7 @@ item (FEAT_TRAINS , ITEM_HASENKASTEN_LOCO_BUILD, 5010)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -230,6 +231,7 @@ item (FEAT_TRAINS , ITEM_HASENKASTEN_LOCO_CURRENT, 5011)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -291,6 +293,7 @@ item (FEAT_TRAINS , ITEM_HASENKASTEN_LOCO_SCHWARZ, 5012)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -352,6 +355,7 @@ item (FEAT_TRAINS , ITEM_HASENKASTEN_LOCO_OZEANBLAU, 5013)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
 						cargo_allow_refit:              [PASS, TOUR, MAIL, GOOD, VALU];
+						loading_speed:					15;
 						cargo_capacity:                 32 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;

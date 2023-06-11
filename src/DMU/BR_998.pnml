@@ -1,0 +1,220 @@
+//######################################
+//###DB VB 98 "Uerdinger Schienenbus"###
+//######################################
+
+//Spriteset DB altrot
+
+spriteset(spriteset_BR_998_DB, "gfx\BR_998/BR_998_DB_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_DB_1x_32bpp.png", "gfx\BR_998/BR_998_DB_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_DB_2x_32bpp.png", "gfx\BR_998/BR_998_DB_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_DB_4x_32bpp.png", "gfx\BR_998/BR_998_DB_4x_mask.png")
+									{ template_88trains_4x(0, 0)}							
+
+spriteset(spriteset_BR_998_AKN, "gfx\BR_998/BR_998_AKN_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_AKN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_AKN_1x_32bpp.png", "gfx\BR_998/BR_998_AKN_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_AKN, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_AKN_2x_32bpp.png", "gfx\BR_998/BR_998_AKN_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_AKN, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_AKN_4x_32bpp.png", "gfx\BR_998/BR_998_AKN_4x_mask.png")
+									{ template_88trains_4x(0, 0)}
+									
+spriteset(spriteset_BR_998_ULM, "gfx\BR_998/BR_998_ULM_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_ULM, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_ULM_1x_32bpp.png", "gfx\BR_998/BR_998_ULM_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_ULM, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_ULM_2x_32bpp.png", "gfx\BR_998/BR_998_ULM_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_ULM, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_ULM_4x_32bpp.png", "gfx\BR_998/BR_998_ULM_4x_mask.png")
+									{ template_88trains_4x(0, 0)}									
+
+//Spritesets purchase
+
+spriteset(spriteset_BR_998_purchase_DB, "gfx\BR_998/BR_998_DB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_DB_1x_32bpp.png", "gfx\BR_998/BR_998_DB_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_998_purchase_AKN, "gfx\BR_998/BR_998_AKN_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_purchase_AKN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_AKN_1x_32bpp.png", "gfx\BR_998/BR_998_AKN_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_998_purchase_ULM, "gfx\BR_998/BR_998_ULM_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_998_purchase_ULM, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_998/BR_998_ULM_1x_32bpp.png", "gfx\BR_998/BR_998_ULM_1x_mask.png")
+									{ template_purchase(0, 0)}									
+									
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_998_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_998_DB;
+							1: spritegroup_BR_698_DB_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_998_ULM, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_998_ULM;
+							1: spritegroup_BR_698_ULM_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_998_AKN, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_998_AKN;
+							1: spritegroup_BR_698_AKN_loading;}		
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_998, 1){
+							return 475;}	
+
+													
+item (FEAT_TRAINS , ITEM_BR_998_DB, 3490)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_998_DB);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					50;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_spritestack_BR_998_DB;
+			additional_text				   : string(STR_DESC_PASS_TRAIL);
+			purchase					   : spriteset_BR_998_purchase_DB;		
+			cost_factor					   : 360;
+			running_cost_factor			   : switch_running_cost_BR_998;
+			}
+	}
+													
+item (FEAT_TRAINS , ITEM_BR_998_ULM, 3491)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_998_ULM);
+						variant_group:					3490;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1988,01,01);
+						model_life: 					12;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_spritestack_BR_998_ULM;
+			additional_text				   : string(STR_DESC_PASS_TRAIL);
+			purchase					   : spriteset_BR_998_purchase_ULM;		
+			cost_factor					   : 360;
+			running_cost_factor			   : switch_running_cost_BR_998;
+			}
+	}
+
+													
+item (FEAT_TRAINS , ITEM_BR_998_AKN, 3492)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_998_AKN);
+						variant_group:					3490;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1981,01,01);
+						model_life: 					19;
+						vehicle_life: 					50;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					58;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default						   : switch_spritestack_BR_998_AKN;
+			additional_text				   : string(STR_DESC_PASS_TRAIL);
+			purchase					   : spriteset_BR_998_purchase_AKN;		
+			cost_factor					   : 360;
+			running_cost_factor			   : switch_running_cost_BR_998;
+			}
+	}

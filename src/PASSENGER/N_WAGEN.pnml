@@ -310,6 +310,21 @@ spriteset(spriteset_N_Wagen_NatX_AB, "gfx\N_WAGEN/N_Wagen_NatX_AB_1x_8bpp.png")
 		alternative_sprites (spriteset_N_Wagen_NatX_AB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN/N_Wagen_NatX_AB_4x_32bpp.png", "gfx\N_WAGEN/N_Wagen_NatX_AB_4x_mask.png")
 									{ template_158trains_4x(0, 0)}									
 
+//Spriteset ALEX 2. Klasse
+
+spriteset(spriteset_N_Wagen_ALEX_B, "gfx\N_WAGEN/N_Wagen_ALEX_B_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_N_Wagen_ALEX_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN/N_Wagen_ALEX_B_1x_32bpp.png", "gfx\N_WAGEN/N_Wagen_ALEX_B_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_N_Wagen_ALEX_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\N_WAGEN/N_Wagen_ALEX_B_2x_32bpp.png", "gfx\N_WAGEN/N_Wagen_ALEX_B_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_N_Wagen_ALEX_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\N_WAGEN/N_Wagen_ALEX_B_4x_32bpp.png", "gfx\N_WAGEN/N_Wagen_ALEX_B_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+									
+									
 //Spriteset loading
 
 spriteset(spriteset_N_Wagen_loading, "gfx\N_WAGEN/N_Wagen_loading_1x_8bpp.png")
@@ -389,7 +404,13 @@ spriteset(spriteset_N_Wagen_purchase_NatX, "gfx\N_WAGEN/N_Wagen_NatX_B_1x_8bpp.p
 				
 		alternative_sprites (spriteset_N_Wagen_purchase_NatX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN/N_Wagen_NatX_B_1x_32bpp.png", "gfx\N_WAGEN/N_Wagen_NatX_B_1x_mask.png")
 									{ template_purchase(0, 0)}	
-									
+
+spriteset(spriteset_N_Wagen_purchase_ALEX, "gfx\N_WAGEN/N_Wagen_ALEX_B_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_N_Wagen_purchase_ALEX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\N_WAGEN/N_Wagen_ALEX_B_1x_32bpp.png", "gfx\N_WAGEN/N_Wagen_ALEX_B_1x_mask.png")
+									{ template_purchase(0, 0)}
+																		
 //Switches																																	
 
 						switch (FEAT_TRAINS,SELF,switch_purchase_N_Wagen,current_year) {
@@ -486,7 +507,11 @@ spriteset(spriteset_N_Wagen_purchase_NatX, "gfx\N_WAGEN/N_Wagen_NatX_B_1x_8bpp.p
 						switch(FEAT_TRAINS, SELF, switch_loadstack_N_Wagen_Bwegt_AB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 							0: spriteset_N_Wagen_Bwegt_AB;
 							1: spritegroup_N_Wagen_loading;}													
-							   
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_N_Wagen_ALEX_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_N_Wagen_ALEX_B;
+							1: spritegroup_N_Wagen_loading;}
+														   
 						switch (FEAT_TRAINS, SELF, random_choose_N_Wagen_schwarz, switch_alternative_var_random_bits(1, 2)) {
 							1: switch_loadstack_N_Wagen_schwarz_B;
 							2: switch_loadstack_N_Wagen_schwarz_B;
@@ -1296,3 +1321,64 @@ item (FEAT_TRAINS , ITEM_N_WAGEN_BWEGT, 7387)
 			running_cost_factor				: switch_running_cost_N_Wagen;					
 			 }
 		}		
+
+
+						switch(FEAT_TRAINS, SELF, switch_N_Wagen_graphics_ALEX, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_N_Wagen_ALEX_B;
+							2:     spriteset_empty;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_N_Wagen_ALEX, extra_callback_info1) {
+							1 .. 2: return ITEM_N_WAGEN_ALEX;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_N_WAGEN_ALEX, 7388)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_N_WAGEN_ALEX);
+						variant_group:					7375;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					19;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						31 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					32;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_N_Wagen_graphics_ALEX;
+			additional_text					: string(STR_DESC_N_WAGEN);
+			length							: switch_length_N_Wagen;
+			articulated_part				: switch_articulated_N_Wagen_ALEX;
+			purchase						: spriteset_N_Wagen_purchase_ALEX;
+			speed							: switch_speed_N_Wagen;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_N_Wagen;					
+			 }
+		}

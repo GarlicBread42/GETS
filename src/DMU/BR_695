@@ -1,0 +1,161 @@
+//######################################
+//###DB VT 98 "Uerdinger Schienenbus"###
+//######################################
+
+//Spriteset DB altrot
+
+spriteset(spriteset_BR_695_DB, "gfx\BR_695/BR_695_DB_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_DB_1x_32bpp.png", "gfx\BR_695/BR_695_DB_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_DB_2x_32bpp.png", "gfx\BR_695/BR_695_DB_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_DB_4x_32bpp.png", "gfx\BR_695/BR_695_DB_4x_mask.png")
+									{ template_88trains_4x(0, 0)}								
+
+
+		spriteset(spriteset_BR_695_DB_loading, "gfx\BR_695/BR_695_DB_loading_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_DB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_DB_loading_1x_32bpp.png", "gfx\BR_695/BR_695_DB_loading_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_DB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_DB_loading_2x_32bpp.png", "gfx\BR_695/BR_695_DB_loading_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_DB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_DB_loading_4x_32bpp.png", "gfx\BR_695/BR_695_DB_loading_4x_mask.png")
+									{ template_88trains_4x(0, 0)}			
+
+spritegroup spritegroup_BR_695_DB_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_695_DB_loading];}
+
+
+//Spriteset 150 Jahre Deutsche Eisenbahn
+
+spriteset(spriteset_BR_695_150, "gfx\BR_695/BR_695_150_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_150, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_150_1x_32bpp.png", "gfx\BR_695/BR_695_150_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_150, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_150_2x_32bpp.png", "gfx\BR_695/BR_695_150_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_150, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_150_4x_32bpp.png", "gfx\BR_695/BR_695_150_4x_mask.png")
+									{ template_88trains_4x(0, 0)}								
+
+
+		spriteset(spriteset_BR_695_150_loading, "gfx\BR_695/BR_695_150_loading_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_150_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_150_loading_1x_32bpp.png", "gfx\BR_695/BR_695_150_loading_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_150_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_150_loading_2x_32bpp.png", "gfx\BR_695/BR_695_150_loading_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_150_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_150_loading_4x_32bpp.png", "gfx\BR_695/BR_695_150_loading_4x_mask.png")
+									{ template_88trains_4x(0, 0)}			
+
+spritegroup spritegroup_BR_695_150_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_695_150_loading];}
+			
+			
+//Spriteset ULM altrot
+
+spriteset(spriteset_BR_695_ULM, "gfx\BR_695/BR_695_ULM_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_ULM, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_ULM_1x_32bpp.png", "gfx\BR_695/BR_695_ULM_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_ULM, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_ULM_2x_32bpp.png", "gfx\BR_695/BR_695_ULM_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_ULM, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_ULM_4x_32bpp.png", "gfx\BR_695/BR_695_ULM_4x_mask.png")
+									{ template_88trains_4x(0, 0)}								
+
+
+		spriteset(spriteset_BR_695_ULM_loading, "gfx\BR_695/BR_695_ULM_loading_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_ULM_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_ULM_loading_1x_32bpp.png", "gfx\BR_695/BR_695_ULM_loading_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_ULM_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_ULM_loading_2x_32bpp.png", "gfx\BR_695/BR_695_ULM_loading_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_ULM_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_ULM_loading_4x_32bpp.png", "gfx\BR_695/BR_695_ULM_loading_4x_mask.png")
+									{ template_88trains_4x(0, 0)}			
+
+spritegroup spritegroup_BR_695_ULM_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_695_ULM_loading];}			
+
+
+//Spriteset AKN altrot
+
+spriteset(spriteset_BR_695_AKN, "gfx\BR_695/BR_695_AKN_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_AKN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_AKN_1x_32bpp.png", "gfx\BR_695/BR_695_AKN_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_AKN, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_AKN_2x_32bpp.png", "gfx\BR_695/BR_695_AKN_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_AKN, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_AKN_4x_32bpp.png", "gfx\BR_695/BR_695_AKN_4x_mask.png")
+									{ template_88trains_4x(0, 0)}								
+
+
+		spriteset(spriteset_BR_695_AKN_loading, "gfx\BR_695/BR_695_AKN_loading_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_AKN_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_AKN_loading_1x_32bpp.png", "gfx\BR_695/BR_695_AKN_loading_1x_mask.png")
+									{ template_88trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_AKN_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_AKN_loading_2x_32bpp.png", "gfx\BR_695/BR_695_AKN_loading_2x_mask.png")
+									{ template_88trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_AKN_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_AKN_loading_4x_32bpp.png", "gfx\BR_695/BR_695_AKN_loading_4x_mask.png")
+									{ template_88trains_4x(0, 0)}			
+
+spritegroup spritegroup_BR_695_AKN_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_695_AKN_loading];}
+
+
+//Spritesets purchase
+
+spriteset(spriteset_BR_695_purchase_DB, "gfx\BR_695/BR_695_DB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_DB_1x_32bpp.png", "gfx\BR_695/BR_695_DB_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_695_purchase_150, "gfx\BR_695/BR_695_150_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_purchase_150, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_150_1x_32bpp.png", "gfx\BR_695/BR_695_150_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_695_purchase_ULM, "gfx\BR_695/BR_695_ULM_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_purchase_ULM, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_ULM_1x_32bpp.png", "gfx\BR_695/BR_695_ULM_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_695_purchase_AKN, "gfx\BR_695/BR_695_AKN_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_695_purchase_AKN, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_695/BR_695_AKN_1x_32bpp.png", "gfx\BR_695/BR_695_AKN_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+//Switches
+
+

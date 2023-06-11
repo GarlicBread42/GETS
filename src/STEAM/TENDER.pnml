@@ -177,8 +177,43 @@ alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH
 									{ template_58trains_2x(0, 0)}
 				
 alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_4x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_4x_mask.png")
-									{ template_58trains_4x(0, 0)}																										
+									{ template_58trains_4x(0, 0)}	
+									
+																																		
+//#################################
+//### Tender 3 T 12 (Preussen) ###
+//#################################
 
+//KPEV grün
+
+spriteset(spriteset_Tender_PR3T12_KPEV, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}
+									
+alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_1x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_1x_mask.png")
+									{ template_48trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_2x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_2x_mask.png")
+									{ template_48trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_4x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_4x_mask.png")
+									{ template_48trains_4x(0, 0)}	
+									
+									
+//DRG schwarz
+
+spriteset(spriteset_Tender_PR3T12_DRG, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}
+									
+alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_1x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_1x_mask.png")
+									{ template_48trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_2x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_2x_mask.png")
+									{ template_48trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_4x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_4x_mask.png")
+									{ template_48trains_4x(0, 0)}									
+									
+									
 //#################################
 //### Tender 3 T16,5 (Preussen) ###
 //#################################

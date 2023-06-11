@@ -102,6 +102,21 @@
 		alternative_sprites (spriteset_Gruppe_28_DB_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_C_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_C_4x_mask.png")
 					{template_138trains_4x(0,0)}
 
+//Spritegroup Gr. 28 DB F-Zug blau mit Keks
+
+		spriteset (spriteset_Gruppe_28_DB_F_Keks, "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_DB_F_Keks, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_DB_F_Keks, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_2x_mask.png")
+					{template_138trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Gruppe_28_DB_F_Keks, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_4x_mask.png")
+					{template_138trains_4x(0,0)}
+					
+					
 //Spritegroup Gr. 30 DB Zweite Klasse
 
 		spriteset (spriteset_Gruppe_30_DB_B, "gfx/Gruppe_28/Gruppe_30_DB_B_1x_8bpp.png")
@@ -142,7 +157,8 @@
 					{template_138trains_2x(0,0)}				
 			
 		alternative_sprites (spriteset_Gruppe_30_DB_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_C_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_C_4x_mask.png")
-					{template_138trains_4x(0,0)}					
+					{template_138trains_4x(0,0)}	
+					
 					
 //Loading Sprites
 
@@ -201,7 +217,26 @@ spritegroup spritegroup_Gruppe_28_loading_2doors_blau
 spritegroup spritegroup_Gruppe_28_loading_2doors_DB
 		{loaded: 	[spriteset_empty];
 			loading: 	[spriteset_Gruppe_28_loading_2doors_DB];}
+
+
+//Spritegroup Gr. 28 2 Doors, DB_F colour
+
+		spriteset (spriteset_Gruppe_28_loading_2doors_DB_F, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_F_1x_8bpp.png")
+					{template_138trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DB_F, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_F_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_F_1x_mask.png")
+					{template_138trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DB_F, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_F_2x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_F_2x_mask.png")
+					{template_138trains_2x(0,0)}				
 			
+		alternative_sprites (spriteset_Gruppe_28_loading_2doors_DB_F, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_F_4x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_loading_2doors_DB_F_4x_mask.png")
+					{template_138trains_4x(0,0)}	
+					
+spritegroup spritegroup_Gruppe_28_loading_2doors_DB_F
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Gruppe_28_loading_2doors_DB_F];}
+						
 			
 //Spritegroup Gr. 28 2 Doors, DRG colour
 
@@ -332,7 +367,13 @@ spriteset (spriteset_Gruppe_28_purchase_DB_30, "gfx/Gruppe_28/Gruppe_30_DB_B_1x_
 					{template_purchase(0, 0)}		
 				
 		alternative_sprites (spriteset_Gruppe_28_purchase_DB_30, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_30_DB_B_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_30_DB_B_1x_mask.png")
-					{template_purchase(0, 0)}											
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Gruppe_28_purchase_DB_F_Keks, "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Gruppe_28_purchase_DB_F_Keks, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_1x_32bpp.png", "gfx/Gruppe_28/Gruppe_28_DB_F_Keks_1x_mask.png")
+					{template_purchase(0,0)}																
 //Switches
 
 						switch (FEAT_TRAINS,SELF,switch_purchase_Gruppe_28,current_year) {
@@ -379,6 +420,10 @@ spriteset (spriteset_Gruppe_28_purchase_DB_30, "gfx/Gruppe_28/Gruppe_30_DB_B_1x_
 						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DB_C2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 							0: spriteset_Gruppe_30_DB_C;
 							1: spritegroup_Gruppe_28_loading_4doors_DB;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Gruppe_28_DB_F, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Gruppe_28_DB_F_Keks;
+							1: spritegroup_Gruppe_28_loading_2doors_DB_F;}							
 
 						switch (FEAT_TRAINS, SELF, random_choose_Gruppe_28_DRG_all, switch_alternative_var_random_bits(1, 3)) {
 							0: switch_spritestack_Gruppe_28_DRG_AB;
@@ -784,6 +829,65 @@ item (FEAT_TRAINS , ITEM_GRUPPE_28_DB_30, 7612)
 			length							: switch_length_Gruppe_28; 
 			articulated_part				: switch_articulated_Gruppe_28_DB_30;
 			purchase						: spriteset_Gruppe_28_purchase_DB_30;
+			cost_factor						: 485;
+			running_cost_factor				: switch_running_cost_Gruppe_28;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_Gruppe_28_graphics_DB_F_Keks, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Gruppe_28_DB_F;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Gruppe_28_DB_F_Keks, extra_callback_info1) {
+								1 .. 2: return ITEM_GRUPPE_28_DB_F_KEKS;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_GRUPPE_28_DB_F_KEKS, 7613)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GRUPPE_28_DB_F_KEKS);
+						variant_group:					7607;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					36;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						38 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Gruppe_28_graphics_DB_F_Keks;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Gruppe_28; 
+			articulated_part				: switch_articulated_Gruppe_28_DB_F_Keks;
+			purchase						: spriteset_Gruppe_28_purchase_DB_F_Keks;
 			cost_factor						: 485;
 			running_cost_factor				: switch_running_cost_Gruppe_28;				
 			 }

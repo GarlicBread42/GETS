@@ -3,7 +3,7 @@
 
 # GRF name and description definitions
 
-STR_GRF_NAME        : GETS 0.2.1
+STR_GRF_NAME        : GETS 0.2.2
 STR_GRF_DESC :{GOLD}German Extra-Zoom Train Set in 32bpp. {}{}Graphics by {RED}Garlic_Bread42; Simozzz; WyndBain; ronetisumen{GOLD}, code by {RED}Garlic_Bread42{GOLD}.{}Many thanks to {RED}Timberwolf {GOLD} for providing and teaching his Voxel-toolchain, {RED}andythenorth, Simozzz, Emperor Jake, 2TallTyler{GOLD} and the whole {RED}Discord{GOLD}-community for advice, help, remarks and suggestions during development of this set. 
 
 STR_PARAM_RUNNING_COST: Running cost
@@ -42,6 +42,8 @@ STR_NAME_BR_13_0					:KPEV S 3 DRG BR 13.0
 STR_NAME_BR_13_0_CURRENT			:KPEV S 3 DRG BR 13.0 Current Year livery
 STR_NAME_BR_13_0_KPEV				:KPEV S 3
 STR_NAME_BR_13_0_DRG				:DRG BR 13.0
+
+STR_NAME_BR_14_0_ALTONA				:KPEV S 9 "Altona 561" 
 
 STR_NAME_BR_13_17					:KWSE ADh DRG BR 13.17
 STR_NAME_BR_13_17_CURRENT			:KWSE ADh DRG BR 13.17 Current Year livery
@@ -106,6 +108,11 @@ STR_NAME_BR_50_DB2					:DB BR 50 w/ Witte deflector
 STR_NAME_BR_50_KAB					:DB BR 50 w/ Kabinentender
 
 STR_NAME_BR_50_40					:DB BR 50.40 "Franco Crosti"
+
+STR_NAME_BR_53_0					:KPEV G 4.2 DRG BR 53.0
+STR_NAME_BR_53_0_CURRENT			:KPEV G 4.2 DRG BR 53.0 Current Year livery
+STR_NAME_BR_53_0_KPEV				:KPEV G 4.2
+STR_NAME_BR_53_0_DRG				:DRG BR 53.0
 
 STR_NAME_BR_53_80					:K.Bay. C IV DRG BR 53.80
 STR_NAME_BR_53_80_CURRENT			:K.Bay. C IV DRG BR 53.80 Current Year livery
@@ -174,6 +181,11 @@ STR_NAME_BR_80_FOTO					:DRG BR 80 black/white photgraphic livery
 STR_NAME_BR_80_DRG					:DRG BR 80
 STR_NAME_BR_80_DB					:DB BR 80
 
+STR_NAME_BR_85						:DRG/DB BR 85
+STR_NAME_BR_85_CURRENT				:DRG/DB BR 85 Current Year livery
+STR_NAME_BR_85_DRG					:DRG BR 85
+STR_NAME_BR_85_DB					:DB BR 85
+
 STR_NAME_ITEM_BR_89_70				:KPEV T3 DRG/DB BR 89.75
 STR_NAME_ITEM_BR_89_70_CURRENT		:KPEV T3 DRG/DB BR 89.75 Current Year livery
 STR_NAME_ITEM_BR_89_70_KPEV			:KPEV T3
@@ -238,6 +250,8 @@ STR_NAME_E_04_CURRENT				:DRG/DB E 04 Current Year livery
 STR_NAME_E_04_DRG					:DRG/DB E 04 DRG livery
 STR_NAME_E_04_DB					:DRG/DB E 04 DB livery
 
+STR_NAME_BR_105						:DB BR 105
+
 STR_NAME_E_10						:DB BR E10/110
 STR_NAME_E_10_CURRENT				:DB BR E10/110 Current Year livery
 STR_NAME_E_10_001					:DB BR E10 001 prototype
@@ -281,11 +295,17 @@ STR_NAME_BR_E_17_DB					:DB E 17
 
 STR_NAME_BR_E_18_BUILD				:DRG/DB E 18
 STR_NAME_BR_E_18_CURRENT			:DRG/DB E 18 Current Year livery
-STR_NAME_BR_E_18_DRG				:DRG/DB E 18 DRG livery	
-STR_NAME_BR_E_18_DB_GRUEN			:DRG/DB E 18 DB green livery
-STR_NAME_BR_E_18_DB_BLAU_ALT		:DRG/DB E 18 DB blue livery
-STR_NAME_BR_E_18_DB_BLAU_NEU		:DRG/DB E 18 DB blue livery
-STR_NAME_BR_E_18_DB_OZEANBLAU		:DRG/DB E 18 DB oceanblue/beige livery
+STR_NAME_BR_E_18_DRG				:DRG E 18 DRG livery
+STR_NAME_BR_E_18_DB_GRUEN			:DB E 18 DB green livery
+STR_NAME_BR_E_18_DB_BLAU_ALT		:DB E 18 DB blue livery
+STR_NAME_BR_E_18_DB_BLAU_NEU		:DB E 18 DB blue livery
+STR_NAME_BR_E_18_DB_OZEANBLAU		:DB E 18 DB oceanblue/beige livery
+
+STR_NAME_BR_E_19_BUILD				:DRG/DB E 19
+STR_NAME_BR_E_19_CURRENT			:DRG/DB E 19 Current Year livery
+STR_NAME_BR_E_19_DRG				:DRG E 19 DRG livery
+STR_NAME_BR_E_19_DB_GRUEN			:DB E 19 DB green livery
+STR_NAME_BR_E_19_DB_BLAU			:DB E 19 DB blue livery
 
 STR_NAME_BR_120_BUILD				:DB BR 120
 STR_NAME_BR_120_CURRENT				:DB BR 120 Current Year livery
@@ -388,6 +408,13 @@ STR_NAME_E_62_DRG2					:DRG E 62 DRG brown livery
 STR_NAME_E_62_DRG1					:DRG E 62
 STR_NAME_E_62_DB					:DB E 62
 
+STR_NAME_E_70_2_BUILD				:K.Bay. EG 2 DRG/DB E 70.2
+STR_NAME_E_70_2_CURRENT				:K.Bay. EG 2 DRG/DB E 70.2 Current Year livery
+STR_NAME_E_70_2_DRG_BROWN			:K.Bay. EG 2 brown livery
+STR_NAME_E_70_2_DRG_GREY			:DRG E 70.2 DRG grey livery
+STR_NAME_E_70_2_DB_GREEN			:DB E 70.2 green livery
+STR_NAME_E_70_2_DB_BLUE				:DB E 70.2 blue livery
+
 STR_NAME_E_73_0_BUILD				:K.Bay. EG 1 DRG E 73
 STR_NAME_E_73_0_CURRENT				:K.Bay. EG 1 DRG E 73 Current Year livery
 STR_NAME_E_73_0_BAY					:K.Bay. EG 1 Green livery
@@ -398,6 +425,37 @@ STR_NAME_E_77_BUILD					:DRG E 77
 STR_NAME_E_77_CURRENT				:DRG E 77 Current Year livery
 STR_NAME_E_77_DRG1					:DRG E 77 brown livery
 STR_NAME_E_77_DRG2					:DRG E 77
+
+STR_NAME_BR_181_0_BUILD				:DB BR E310/BR 181.0
+STR_NAME_BR_181_0_CURRENT			:DB BR E310/BR 181.0 Current Year livery
+STR_NAME_BR_181_0_BLAU				:DB BR E310/BR 181.0 steelblue livery
+STR_NAME_BR_181_0_OZEANBLAU			:DB BR E310/BR 181.0 oceanblue/beige livery
+STR_NAME_BR_181_0_OZEANBLAU_DBAG	:DB BR E310/BR 181.0 oceanblue/beige DB-AG livery
+
+STR_NAME_BR_181_2_BUILD				:DB BR 181.2
+STR_NAME_BR_181_2_CURRENT			:DB BR 181.2 Current Year livery
+STR_NAME_BR_181_2_BLAU				:DB BR 181.2 steelblue livery
+STR_NAME_BR_181_2_OZEANBLAU			:DB BR 181.2 oceanblue/beige livery
+STR_NAME_BR_181_2_ORIENTROT			:DB BR 181.2 orient red livery
+STR_NAME_BR_181_2_VERKEHRSROT		:DB BR 181.2 traffic red livery
+STR_NAME_BR_181_2_NORDLINER			:DB BR 181.2 Nordliner livery
+
+STR_NAME_BR_182_DB					:DB BR 182 "Siemens ES64U2"
+STR_NAME_BR_182_DISPO				:BR 182 "DispoLok" livery
+STR_NAME_BR_182_FLIX				:BR 182 FlixTrain livery
+STR_NAME_BR_182_MRCE				:BR 182 MRCE livery
+STR_NAME_BR_182_SETG				:BR 182 SETG livery
+
+STR_NAME_BR_183_DB					:DB BR 183 "Siemens ES64U4"
+STR_NAME_BR_183_ALEX				:BR 183 "Alex" livery
+STR_NAME_BR_183_RAV					:BR 183 "RailAdventure" livery
+STR_NAME_BR_183_STB					:BR 183 STB livery
+STR_NAME_BR_183_WLC					:BR 183 WLC livery
+
+STR_NAME_BR_184_BUILD				:DB BR E410/BR 184
+STR_NAME_BR_184_CURRENT				:DB BR E410/BR 184 Current Year livery
+STR_NAME_BR_184_BLAU				:DB BR E410/BR 184 steelblue livery
+STR_NAME_BR_184_OZEANBLAU			:DB BR E410/BR 184 oceanblue/beige livery
 
 STR_NAME_BR_185_2					:DB BR 185.2 "Traxx 2"
 
@@ -464,6 +522,11 @@ STR_NAME_BR_221_BUILD				:DB BR 221
 STR_NAME_BR_221_CURRENT				:DB BR 221 Current Year livery
 STR_NAME_BR_221_ALTROT				:DB BR 221 dark red livery
 STR_NAME_BR_221_OZEANBLAU			:DB BR 221 oceanblue/beige livery
+
+STR_NAME_BR_230_BUILD				:DB V300/BR 230
+STR_NAME_BR_230_CURRENT				:DB V300/BR 230 Current Year livery
+STR_NAME_BR_230_KME					:DB V300/BR 230 Krauss-Maffei livery
+STR_NAME_BR_230_DB					:DB V300/BR 230 dark red livery
 
 STR_NAME_BR_240						:DB BR 240/MaK DE 1024
 STR_NAME_BR_240_CURRENT				:DB BR 240/MaK DE 1024 Current Year livery
@@ -620,6 +683,7 @@ STR_NAME_BR_442_5_MIX				:DB BR 442 Five part, mixed doors
 STR_NAME_BR_442_3_SMITTEL			:DB BR 442 Three part, S-Bahn Mitteldeutschland
 STR_NAME_BR_442_4_SMITTEL			:DB BR 442 Four part, S-Bahn Mitteldeutschland
 STR_NAME_BR_442_5_SMITTEL			:DB BR 442 Five part, S-Bahn Mitteldeutschland
+STR_NAME_BR_442_3_CANTUS			:BR 442 Three part, Cantus livery
 
 STR_NAME_ET_65_2_BUILD				:DRG/DB ET 65 Two part
 STR_NAME_ET_65_2_CURRENT			:DRG/DB ET 65 Two part Current Year
@@ -637,7 +701,15 @@ STR_NAME_ET_65_6_DB					:DRG/DB ET 65 Six part DB livery
 STR_NAME_BR_465_2					:DB BR 465 Two part
 STR_NAME_BR_465_3					:DB BR 465 Three part
 
+STR_NAME_ET_87_BUILD				:KPEV/DRG/DB ET 87
+STR_NAME_ET_87_CURRENT				:KPEV/DRG/DB ET 87 Current Year livery
+STR_NAME_ET_87_KPEV					:KPEV ET 87
+STR_NAME_ET_87_DRG2					:DRG ET 87 green livery
+STR_NAME_ET_87_DRG1					:DRG ET 87 red/cream livery
+STR_NAME_ET_87_DB					:DB ET 87
+
 ###MU-Trailer###
+
 STR_NAME_ES_25_BUILD				:DRG/DB ES 25 - Trailer for ET 25
 STR_NAME_ES_25_CURRENT				:DRG/DB ES 25 Current Year livery
 STR_NAME_ES_25_DRG					:DRG ES 25
@@ -653,6 +725,10 @@ STR_NAME_VS_145_096_BUILD			:DRG/DB VS 145
 STR_NAME_VS_145_096_CURRENT			:DRG/DB VS 145 Current Year livery
 STR_NAME_VS_145_096_DRG				:DRG VS 145
 STR_NAME_VS_145_096_DB				:DB VS 145
+
+STR_NAME_BR_998_DB					:DB VB 998 "Uerdinger Schienenbus"
+STR_NAME_BR_998_ULM					:DB VB 998 "Ulmer Spatz" livery
+STR_NAME_BR_998_AKN					:VB 998 AKN livery
 
 ###Diesel Multiple Units (DMU)###
 
@@ -731,6 +807,8 @@ STR_NAME_BR_650_PEB					:BR 650 "Regioshuttle" Prignitzer Eisenbahn livery
 STR_NAME_BR_650_RTB					:BR 650 "Regioshuttle" Rurtalbahn livery
 STR_NAME_BR_650_SWEG				:BR 650 "Regioshuttle" Südwestdeutsche Verkehrs AG
 STR_NAME_BR_650_WB					:BR 650 "Regioshuttle" Waldbahn livery
+STR_NAME_BR_650_EB					:BR 650 "Regioshuttle" Erfurter Bahn livery
+STR_NAME_BR_650_STB					:BR 650 "Regioshuttle" Süd-Thüringen-Bahn livery
 
 STR_NAME_VT_709_BUILD				:DRG VT 709
 STR_NAME_VT_709_CURRENT				:DRG VT 709 Current Year livery
@@ -749,6 +827,10 @@ STR_NAME_VT_757_ROTWEISS_2			:DRG VT 757 red/white livery w/ 2 Air inlets
 STR_NAME_VT_757_ROTWEISS_3			:DRG VT 757 red/white livery w/ 3 Air inlets
 STR_NAME_VT_757_DB					:DB VT 757
 
+STR_NAME_BR_698_DB					:DB VT 98 "Uerdinger Schienenbus"
+STR_NAME_BR_698_150					:DB VT 98 "150 Jahre Deutsche Eisenbahn" livery
+STR_NAME_BR_698_ULM					:DB VT 98 "Ulmer Spatz" livery
+STR_NAME_BR_698_AKN					:VT 98 AKN livery
 
 ###Battery powered Multiple Units ETA###
 
@@ -771,6 +853,11 @@ STR_NAME_ETA_177_3_DB				:DB ETA 177 Three part
 
 STR_NAME_DOBUE_DVT_LOCO				:DB "Donnerbüchse" DVT
 STR_NAME_DOBUE_DVT_LOCO_RED			:DB "Donnerbüchse" DB red livery
+
+STR_NAME_YL_DVT_LOCO_BUILD			:DB "Mitteleinstiegswagen" DVT
+STR_NAME_YL_DVT_LOCO_CURRENT		:DB "Mitteleinstiegswagen" DVT Current Year livery
+STR_NAME_YL_DVT_LOCO_GRUEN			:DB "Mitteleinstiegswagen" DVT green livery
+STR_NAME_YL_DVT_LOCO_OZEANBLAU		:DB "Mitteleinstiegswagen" DVT oceanblue/beige livery
 
 STR_NAME_HASENKASTEN_LOCO_BUILD			:DB n-Coach DVT "Hasenkasten"
 STR_NAME_HASENKASTEN_LOCO_CURRENT		:DB n-Coach DVT "Hasenkasten" Current Year livery
@@ -797,7 +884,8 @@ STR_NAME_MODUS_DVT_LOCO					:DB "Modus" DVT
 
 STR_NAME_DOSTO_2GEN_DVT_LOCO_VERKEHRSROT:DB 2nd Gen Bi-Level DVT traffic red livery
 STR_NAME_DOSTO_2GEN_DVT_LOCO_METRONOM	:DB 2nd Gen Bi-Level DVT metronom livery
-
+STR_NAME_DOSTO_2GEN_DVT_LOCO_FEX		:DB 2nd Gen Bi-Level DVT "Flughafen Express" livery
+STR_NAME_DOSTO_2GEN_DVT_LOCO_VVO		:DB 2nd Gen Bi-Level DVT S-Bahn VVO livery
 
 ###Passenger Coaches regional###
 
@@ -858,6 +946,11 @@ STR_NAME_WUE_29_DRG					:DRG "Stuttgarter Vorortwagen" Coach
 STR_NAME_WUE_29_DB					:DB "Stuttgarter Vorortwagen" Coach
 STR_NAME_WUE_29_RED					:DB "Stuttgarter Vorortwagen" Coach Red livery
 
+STR_NAME_YL_BUILD					:DB "Mitteleinstiegswagen" Coach
+STR_NAME_YL_CURRENT					:DB "Mitteleinstiegswagen" Coach Current Year livery
+STR_NAME_YL_GRUEN					:DB "Mitteleinstiegswagen" Coach green livery
+STR_NAME_YL_OZEANBLAU				:DB "Mitteleinstiegswagen" Coach oceanblue/beige livery
+
 STR_NAME_DOSTO_57_BUILD				:DB 1950's Bi-Level Coach
 STR_NAME_DOSTO_57_CURRENT			:DB 1950's Bi-Level Coach Current Year livery
 STR_NAME_DOSTO_57_BLAU				:DB 1950's Bi-Level Coach Blue livery
@@ -866,6 +959,7 @@ STR_NAME_DOSTO_57_GRUEN				:DB 1950's Bi-Level Coach Green livery
 STR_NAME_3YG						:DB 3yg "Umbauwagen" Twin coaches
 
 STR_NAME_4YG_DB						:DB 4yg "Umbauwagen" Coach
+STR_NAME_4YG_AZB					:4yg "Umbauwagen" Coach "Allgäu-Zollern Bahn" livery
 
 STR_NAME_N_WAGEN_BUILD				:DB n-Wagen "Silberling"
 STR_NAME_N_WAGEN_CURRENT			:DB n-Wagen "Silberling" Current Year livery
@@ -879,17 +973,25 @@ STR_NAME_N_WAGEN_CITYBAHN			:DB n-Wagen City-Bahn livery
 STR_NAME_N_WAGEN_NATX				:DB n-Wagen National Express livery
 STR_NAME_N_WAGEN_GFF				:DB n-Wagen GFF livery
 STR_NAME_N_WAGEN_BWEGT				:DB n-Wagen "Bwegt" livery
+STR_NAME_N_WAGEN_ALEX				:DB n-Wagen "Alex" livery
 
 
 STR_NAME_DOSTO_1GEN_BUILD			:DB 1st Gen Bi-Level Coach
 STR_NAME_DOSTO_1GEN_CURRENT			:DB 1st Gen Bi-Level Coach Current Year livery
 STR_NAME_DOSTO_1GEN_MINT			:DB 1st Gen Bi-Level Coach mint livery
 STR_NAME_DOSTO_1GEN_VERKEHRSROT		:DB 1st Gen Bi-Level Coach traffic red livery
+STR_NAME_DOSTO_1GEN_FEX				:DB 1st Gen Bi-Level Coach "Flughafen Express" livery
+STR_NAME_DOSTO_1GEN_METRONOM		:DB 1st Gen Bi-Level Coach Metronom livery
+STR_NAME_DOSTO_1GEN_NAHSH1			:DB 1st Gen Bi-Level Coach Nah.SH (2015) livery
+STR_NAME_DOSTO_1GEN_NAHSH2			:DB 1st Gen Bi-Level Coach Nah.SH (2023) livery
 
 STR_NAME_MODUS						:DB "Modus" Passenger Coach
 
 STR_NAME_DOSTO_2GEN_VERKEHRSROT		:DB 2nd Gen Bi-Level Coach traffic red livery
+STR_NAME_DOSTO_2GEN_VVO				:2nd Gen Bi-Level Coach S-Bahn VVO livery
 STR_NAME_DOSTO_2GEN_METRONOM		:2nd Gen Bi-Level Coach Metronom livery
+STR_NAME_DOSTO_2GEN_HKX				:2nd Gen Bi-Level Coach Hamburg-Köln Express HKX livery
+STR_NAME_DOSTO_2GEN_ALEX			:2nd Gen Bi-Level Coach "Alex" livery
 
 ###Passenger Coaches express###
 
@@ -917,6 +1019,7 @@ STR_NAME_GRUPPE_28_DRG_28			:DRG "Bauart 1928" Express Coaches
 STR_NAME_GRUPPE_28_DRG_30			:DRG "Bauart 1930" Express Coaches
 STR_NAME_GRUPPE_28_DB_28			:DB "Bauart 1928" Express Coaches
 STR_NAME_GRUPPE_28_DB_30			:DB "Bauart 1930" Express Coaches
+STR_NAME_GRUPPE_28_DB_F_KEKS		:DB "Bauart 1928" Express Coaches Blue "F-Zug" livery
 
 STR_NAME_KARWENDEL_29_BUILD			:DRG/DB "Karwendel" Express Coaches
 STR_NAME_KARWENDEL_29_CURRENT		:DRG/DB "Karwendel" Express Coaches Current Year livery
@@ -950,6 +1053,8 @@ STR_NAME_UICX_IC_ALT				:DB "UIC-X" Express Coaches (old) InterCity livery
 STR_NAME_UICX_FERNVERKEHR			:DB "UIC-X" Express Coaches DB Fernverkehr livery
 STR_NAME_UICX_INTERCITY				:DB "UIC-X" Express Coaches (new) InterCity livery
 STR_NAME_UICX_REGIO					:DB "UIC-X" Express Coaches traffic red livery
+STR_NAME_UICX_ALEX					:DB "UIC-X" Express Coaches "Alex" livery
+STR_NAME_UICX_FLIX					:DB "UIC-X" Express Coaches "FlixTrain" livery
 
 STR_NAME_MZ_COACH_BUILD				:DB mz-Coaches "IC 79"
 STR_NAME_MZ_COACH_CURRENT			:DB mz-Coaches "IC 79" Current Year livery
@@ -962,12 +1067,19 @@ STR_NAME_MZ_COACH_LAX				:DB mz-Coaches Lufthansa-Airport Express livery
 STR_NAME_MZ_COACH_BWX				:DB mz-Coaches Berlin-Warszwawa Express livery
 STR_NAME_MZ_COACH_MNX				:DB mz-Coaches München-Nürnberg Express livery
 STR_NAME_MZ_COACH_TOUR				:DB mz-Coaches "Touristikzug" livery
+STR_NAME_MZ_COACH_ALEX				:DB mz-Coaches "Alex" livery
 
+STR_NAME_ICEL						:DB ICE-L Talgo Express Train
 
 ###DVT's as Waggons###
 
 STR_NAME_DOBUE_DVT					:DB "Donnerbüchse" DVT
 STR_NAME_DOBUE_DVT_RED				:DB "Donnerbüchse" DB red livery
+
+STR_NAME_YL_DVT_BUILD				:DB "Mitteleinstiegswagen" DVT
+STR_NAME_YL_DVT_CURRENT				:DB "Mitteleinstiegswagen" DVT Current Year livery
+STR_NAME_YL_DVT_GRUEN				:DB "Mitteleinstiegswagen" DVT green livery
+STR_NAME_YL_DVT_OZEANBLAU			:DB "Mitteleinstiegswagen" DVT oceanblue/beige livery
 
 STR_NAME_HASENKASTEN_BUILD			:DB n-Coach DVT "Hasenkasten"
 STR_NAME_HASENKASTEN_CURRENT		:DB n-Coach DVT "Hasenkasten" Current Year livery
@@ -994,6 +1106,8 @@ STR_NAME_MODUS_DVT					:DB "Modus" DVT
 
 STR_NAME_DOSTO_2GEN_DVT_VERKEHRSROT :DB 2nd Gen Bi-Level DVT traffic red livery
 STR_NAME_DOSTO_2GEN_DVT_METRONOM	:DB 2nd Gen Bi-Level DVT metronom livery
+STR_NAME_DOSTO_2GEN_DVT_FEX			:DB 2nd Gen Bi-Level DVT "Flughafen Express" livery
+STR_NAME_DOSTO_2GEN_DVT_VVO			:DB 2nd Gen Bi-Level DVT S-Bahn VVO livery
 
 
 ###Sleepers###
@@ -1023,6 +1137,7 @@ STR_NAME_PWI28_DB					:DB "Donnerbüchse" Baggage Car
 STR_NAME_3YG_BD						:DB 3yg "Umbauwagen" w/ Baggage Car
 
 STR_NAME_4YG_DB_D					:DB 4yg "Umbauwagen" Half-Baggage Coach
+STR_NAME_4YG_AZB_D					:4yg Half-Baggage Coach "Allgäu-Zollern Bahn" livery
 
 STR_NAME_BDUU						:DB Half-Baggage Car "Bduu"
 
@@ -1164,10 +1279,27 @@ STR_NAME_GKH_BERLIN_KW				:"Gkh Berlin" Kühlwagen livery
 STR_NAME_GKH_BERLIN_FISH			:"Gkh Berlin" as Fish van
 STR_NAME_GKH_BERLIN_BEER			:"Gkh Berlin" as Beer van
 
+STR_NAME_GHK_BERLIN					:Refrigerated Van "Ghk Berlin"
+STR_NAME_GHK_BERLIN_NEUT			:"Ghk Berlin" neutral livery
+STR_NAME_GHK_BERLIN_KW				:"Ghk Berlin" Kühlwagen livery
+STR_NAME_GHK_BERLIN_FISH			:"Ghk Berlin" as Fish van
+STR_NAME_GHK_BERLIN_BEER			:"Ghk Berlin" as Beer van
+
+STR_NAME_GKHS_BERLIN				:Refrigerated Van "Gkhs Berlin"
+STR_NAME_GKHS_BERLIN_NEUT			:"Gkhs Berlin" neutral livery
+STR_NAME_GKHS_BERLIN_KW				:"Gkhs Berlin" Kühlwagen livery
+STR_NAME_GKHS_BERLIN_FISH			:"Gkhs Berlin" as Fish van
+STR_NAME_GKHS_BERLIN_BEER			:"Gkhs Berlin" as Beer van
+
+STR_NAME_THS_42						:Refrigerated Van "Ths 42"
+STR_NAME_THS_42_NEUT				:"Ths 42" neutral livery
+STR_NAME_THS_42_INTERFRIGO			:"Ths 42" Interfrigo livery
+
 STR_NAME_VH_ALTONA					:Livestock van "Vh Altona"
 STR_NAME_VH04_Altona				:Livestock van "Vh04 Altona"
 STR_NAME_VH14_Altona				:Livestock van "Vh14 Altona"
 STR_NAME_V23_ALTONA					:Livestock van "V23 Altona"
+STR_NAME_VLMMS_63					:Livestock van "Vlmms 63"
 
 STR_NAME_OCW_MUENSTER				:Open Wagon "Ocw Münster"
 
@@ -1191,6 +1323,10 @@ STR_NAME_EANOS_ONLYNEW				:Eanos late brown livery
 STR_NAME_EANOS_ONLYCARGO			:Eanos DB Cargo livery
 STR_NAME_EANOS_ONLYRAILION			:Eanos DB Railion livery
 STR_NAME_EANOS_ONLYVTG				:Eanos VTG livery
+
+STR_NAME_EANOSX059_RANDOM			:Open Wagon "Eanos-x 059"
+STR_NAME_EANOSX059_DB				:Eanos-x 059 DB livery
+STR_NAME_EANOSX059_GRAF				:Eanos-x 059 w/ Grafitti
 
 STR_NAME_ORK_Karlsruhe				:Mineral Wagon "Ork Karlsruhe"
 
@@ -1277,11 +1413,17 @@ STR_NAME_RS_683						:Flatbed "Rs 683"
 
 STR_NAME_RS_685						:Flatbed "Rs 685"
 
+STR_NAME_SNPS_719_CURRENT			:Flatbed "Snps 719"
+STR_NAME_SNPS_719_DB				:Snps 719 DB livery
+STR_NAME_SNPS_719_CARGO				:Snps 719 DB Cargo livery
+
 STR_NAME_RILNS_654_CURRENT			:Covered Flatbed "Rilns 654"
 STR_NAME_RILNS_654_DB				:Rilns 654 DB livery
 STR_NAME_RILNS_654_CARGO			:Rilns 654 DB Cargo livery
 STR_NAME_RILNS_654_RAILION			:Rilns 654 Railion livery
 STR_NAME_RILNS_654_PRIV				:Rilns 654 Private Operators
+
+STR_NAME_RNSZ_643					:Flatbed "Rns-z 643"
 
 STR_NAME_KESSEL_1885_AUTO			:1885 Tanker Van
 STR_NAME_KESSEL_1885_CHEM			:1885 Chemical Tanker Van
@@ -1368,6 +1510,11 @@ STR_NAME_PWG_14_KPEV				:KPEV Caboose "Pwg 14"
 STR_NAME_PWG_14_DRG					:DRG Caboose "Pwg 14"
 STR_NAME_PWG_14_DB					:DB Caboose "Pwg 14"
 
+STR_NAME_PWGS_44					:DRG/DB Caboose "Pwgs 44"
+STR_NAME_PWGS_44_CURRENT			:DRG/DB Caboose "Pwgs 44" Current Year livery
+STR_NAME_PWGS_44_DRG				:DRG Caboose "Pwgs 44"
+STR_NAME_PWGS_44_DB					:DB Caboose "Pwgs 44"
+
 ###########################
 ####Vehicle Description ###
 ###########################
@@ -1375,9 +1522,9 @@ STR_NAME_PWG_14_DB					:DB Caboose "Pwg 14"
 ###Standards###
 STR_DESC_GOODS			:Usage:{LTBROWN} Goods
 STR_DESC_EXP_GOODS		:Usage:{BROWN} Express Goods
-STR_DESC_CABOOSE_65		:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with PWG:{GOLD} 65 km/h{BLACK}.{}
-STR_DESC_CABOOSE_80		:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 65 km/h{BLACK}, with PWG:{GOLD} 80 km/h{BLACK}.{}
-STR_DESC_CABOOSE_100	:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 80 km/h{BLACK}, with PWG:{GOLD} 100 km/h{BLACK}.{}
+STR_DESC_CABOOSE_65		:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with Caboose:{GOLD} 65 km/h{BLACK}.{}
+STR_DESC_CABOOSE_80		:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 65 km/h{BLACK}, with Caboose:{GOLD} 80 km/h{BLACK}.{}
+STR_DESC_CABOOSE_100	:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 80 km/h{BLACK}, with Caboose:{GOLD} 100 km/h{BLACK}.{}
 STR_DESC_EXPRESS		:Usage:{PURPLE} Express Passenger{}
 STR_DESC_PASS			:Usage:{DKGREEN} Passenger{}
 STR_DESC_SLEEP			:Usage:{PURPLE} Sleeper{}
@@ -1397,6 +1544,7 @@ STR_DESC_BR_41		:Usage:{BLUE} Universal{}{BLACK}Power {GOLD} 1.900 Hp{BLACK}, af
 STR_DESC_E_32		:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 75 km/h{BLACK}, after 1936: {GOLD}90 km/h{}
 STR_DESC_E_40		:Usage:{BROWN}Goods{}{BLACK}Speed limit: {GOLD} 100 km/h{BLACK}, after 1968: {GOLD}110 km/h{}
 STR_DESC_VT_757		:Usage: {DKGREEN}Passenger{}{BLACK} speed limit: {GOLD} 70 km/h, after 1940: 85 km/h{}{BLACK} power: {GOLD} 75 hp, after 1940: 90 hp{}
+STR_DESC_YL_DVT		:Usage:{DKGREEN} Passenger{}{BLACK} DVT for "Mitteleinstiegswagen". Use with an appropiate loco.
 STR_DESC_N_WAGEN	:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 120 km/h{BLACK}, after 1968: {GOLD}140 km/h{}
 STR_DESC_HASE		:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 120 km/h{BLACK}, after 1968: {GOLD}140 km/h{}{BLACK} DVT for n-Wagen "Silberlinge". Use with an appropiate loco.
 STR_DESC_KARL		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for n-Wagen "Silberlinge". Use with an appropiate loco.
@@ -1423,13 +1571,15 @@ STR_TRACTION_DIESEL						:{BLACK}Type:{GOLD} Diesel{}{BLACK}
 STR_TRACTION_DIESELELECTRIC				:{BLACK}Type:{GOLD} Diesel-Electric{}{BLACK}
 STR_TRACTION_DIESELHYBRID				:{BLACK}Type:{GOLD} Diesel-Hybrid{}{BLACK}
 
-STR_TRACTION_ELECTRIC					:{BLACK}Type:{GOLD} Electric{}{BLACK}
+STR_TRACTION_ELECTRIC					:{BLACK}Type:{GOLD} Electric (15 Kv AC){}{BLACK}
+STR_TRACTION_MULTISYS					:{BLACK}Type:{GOLD} Electric (Multisystem){}{BLACK}
 
 STR_TRACTION_DUAL						:{BLACK}Type:{GOLD} Dual-Mode (Electric and Diesel){}{BLACK}
 
 STR_TRACTION_BEMU						:{BLACK}Type:{GOLD} Battery-Electric Multiple Unit{}{BLACK}
 STR_TRACTION_DMU						:{BLACK}Type:{GOLD} Diesel Multiple Unit{}{BLACK}
 STR_TRACTION_EMU						:{BLACK}Type:{GOLD} Electric Multiple Unit{}{BLACK}
+STR_TRACTION_EMU_MULTI					:{BLACK}Type:{GOLD} Electric Multiple Unit{}{BLACK}
 
 ############################
 ####Coupling restrictions###

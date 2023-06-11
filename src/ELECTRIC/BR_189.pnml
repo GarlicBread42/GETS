@@ -64,7 +64,7 @@ item (FEAT_TRAINS , ITEM_BR_189, 1890)
 						sprite_id: SPRITE_ID_NEW_TRAIN;
 						speed: 140 km/h;
 						refit_cost: 0;
-						track_type: ELRL;
+						track_type: ELEC;
 						power:  8704 hp;
 						weight: 87 ton;
 						ai_engine_rank: 0;
@@ -81,7 +81,7 @@ item (FEAT_TRAINS , ITEM_BR_189, 1890)
 			{
 			default							: switch_BR_189_graphics;
 			additional_text					: string(STR_CONCAT_2, 
-											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_189;
 			articulated_part				: switch_articulated_BR_189;

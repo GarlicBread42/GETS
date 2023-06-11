@@ -1,0 +1,486 @@
+//#################
+//###Eanos-x 059###
+//#################
+				
+					
+//Spriteset DB
+
+spriteset (spriteset_Eanosx_059_DB, "gfx\Eanosx_059/Eanosx_059_DB_1x_8bpp.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Eanosx_059_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Eanosx_059/Eanosx_059_DB_1x_32bpp.png", "gfx\Eanosx_059/Eanosx_059_DB_1x_mask.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Eanosx_059_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Eanosx_059/Eanosx_059_DB_2x_32bpp.png", "gfx\Eanosx_059/Eanosx_059_DB_2x_mask.png")
+					{template_108trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Eanosx_059_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Eanosx_059/Eanosx_059_DB_4x_32bpp.png", "gfx\Eanosx_059/Eanosx_059_DB_4x_mask.png")
+					{template_108trains_4x(0, 0)}
+
+//Spriteset Grafitti 1
+
+spriteset (spriteset_Eanosx_059_GRAF1, "gfx\Eanosx_059/Eanosx_059_GRAF1_1x_8bpp.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Eanosx_059_GRAF1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Eanosx_059/Eanosx_059_GRAF1_1x_32bpp.png", "gfx\Eanosx_059/Eanosx_059_GRAF1_1x_mask.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Eanosx_059_GRAF1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Eanosx_059/Eanosx_059_GRAF1_2x_32bpp.png", "gfx\Eanosx_059/Eanosx_059_GRAF1_2x_mask.png")
+					{template_108trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Eanosx_059_GRAF1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Eanosx_059/Eanosx_059_GRAF1_4x_32bpp.png", "gfx\Eanosx_059/Eanosx_059_GRAF1_4x_mask.png")
+					{template_108trains_4x(0, 0)}
+
+//Spritesets purchase
+
+spriteset (spriteset_Eanosx_059_purchase_DB, "gfx\Eanosx_059/Eanosx_059_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Eanosx_059_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Eanosx_059/Eanosx_059_DB_1x_32bpp.png", "gfx\Eanosx_059/Eanosx_059_DB_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Eanosx_059_purchase_GRAF, "gfx\Eanosx_059/Eanosx_059_GRAF1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Eanosx_059_purchase_GRAF, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Eanosx_059/Eanosx_059_GRAF1_1x_32bpp.png", "gfx\Eanosx_059/Eanosx_059_GRAF1_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+//Switches
+
+					switch (FEAT_TRAINS, SELF, random_choose_Eanosx_059, switch_alternative_var_random_bits(1, 1)) {
+							1: spriteset_Eanosx_059_DB;
+								spriteset_Eanosx_059_GRAF1;}
+								
+//Stacking + Loading Random
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_random_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return random_choose_Eanosx_059;
+						1: spritegroup_Eanos_load_Barren;}																	
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_random_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return random_choose_Eanosx_059;
+						1: spritegroup_Eanos_load_Box;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_random_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return random_choose_Eanosx_059;
+						1: spritegroup_Eanos_load_Bulk;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_random_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return random_choose_Eanosx_059;
+						1: spritegroup_Eanos_load_Bulk_covered;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_random_COPR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return random_choose_Eanosx_059;
+						1: spritegroup_Eanos_load_COPR;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_random_Rohr, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return random_choose_Eanosx_059;
+						1: spritegroup_Eanos_load_Rohr;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_random_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return random_choose_Eanosx_059;
+						1: spritegroup_Eanos_load_Timber;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_random_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return random_choose_Eanosx_059;
+						1: spritegroup_Eanos_load_Wood;}	
+							
+
+					switch(FEAT_TRAINS, SELF, switch_Eanosx_059_random_cargo_classes, cargo_classes) {
+							bitmask(CC_BULK): return switch_loadstack_Eanosx_059_random_Bulk;
+							bitmask(CC_COVERED): return switch_loadstack_Eanosx_059_random_Bulk_covered;
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_Eanosx_059_random_Box;
+								switch_loadstack_Eanosx_059_random_Box;}									
+
+					switch (FEAT_TRAINS, SELF, switch_Eanosx_059_random_cargo_type, cargo_type_in_veh) {
+							STEL: return switch_loadstack_Eanosx_059_random_Barren;
+							METL: return switch_loadstack_Eanosx_059_random_Rohr;
+							ZINC: return switch_loadstack_Eanosx_059_random_Rohr;
+							COPR: return switch_loadstack_Eanosx_059_random_COPR;
+							STST: return switch_loadstack_Eanosx_059_random_Barren;
+							STSH: return switch_loadstack_Eanosx_059_random_Barren;
+							STSE: return switch_loadstack_Eanosx_059_random_Barren;
+							STAL: return switch_loadstack_Eanosx_059_random_Barren;
+							STCB: return switch_loadstack_Eanosx_059_random_Rohr;
+							STWR: return switch_loadstack_Eanosx_059_random_Rohr; 
+							CSTI: return switch_loadstack_Eanosx_059_random_Rohr;
+							PIPE: return switch_loadstack_Eanosx_059_random_Rohr;
+
+							ENSP: return switch_loadstack_Eanosx_059_random_Box;
+							FMSP: return switch_loadstack_Eanosx_059_random_Box;
+							MNSP: return switch_loadstack_Eanosx_059_random_Box;
+							POWR: return switch_loadstack_Eanosx_059_random_Box;
+							VPTS: return switch_loadstack_Eanosx_059_random_Box;
+							MPTS: return switch_loadstack_Eanosx_059_random_Box;
+							GOOD: return switch_loadstack_Eanosx_059_random_Box;
+							PAPR: return switch_loadstack_Eanosx_059_random_Box;
+							TYRE: return switch_loadstack_Eanosx_059_random_Box;
+							WOOL: return switch_loadstack_Eanosx_059_random_Box;
+							TEXT: return switch_loadstack_Eanosx_059_random_Box;	
+							SEED: return switch_loadstack_Eanosx_059_random_Box;	
+							FERT: return switch_loadstack_Eanosx_059_random_Box;
+	
+							FRVG: return switch_loadstack_Eanosx_059_random_Bulk_covered;
+							TATO: return switch_loadstack_Eanosx_059_random_Bulk_covered;
+	
+							BDMT: return switch_loadstack_Eanosx_059_random_Timber;
+							WDPR: return switch_loadstack_Eanosx_059_random_Timber;
+							WOOD: return switch_loadstack_Eanosx_059_random_Wood;
+							GLAS: return switch_loadstack_Eanosx_059_random_Box;
+							BRCK: return switch_loadstack_Eanosx_059_random_Box;
+								switch_Eanosx_059_random_cargo_classes;}		
+								
+//Stacking + Loading DB
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_DB_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_DB;
+						1: spritegroup_Eanos_load_Barren;}																	
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_DB_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_DB;
+						1: spritegroup_Eanos_load_Box;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_DB_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_DB;
+						1: spritegroup_Eanos_load_Bulk;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_DB_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_DB;
+						1: spritegroup_Eanos_load_Bulk_covered;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_DB_COPR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_DB;
+						1: spritegroup_Eanos_load_COPR;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_DB_Rohr, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_DB;
+						1: spritegroup_Eanos_load_Rohr;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_DB_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_DB;
+						1: spritegroup_Eanos_load_Timber;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_DB_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_DB;
+						1: spritegroup_Eanos_load_Wood;}	
+							
+
+					switch(FEAT_TRAINS, SELF, switch_Eanosx_059_DB_cargo_classes, cargo_classes) {
+							bitmask(CC_BULK): return switch_loadstack_Eanosx_059_DB_Bulk;
+							bitmask(CC_COVERED): return switch_loadstack_Eanosx_059_DB_Bulk_covered;
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_Eanosx_059_DB_Box;
+								switch_loadstack_Eanosx_059_DB_Box;}									
+
+					switch (FEAT_TRAINS, SELF, switch_Eanosx_059_DB_cargo_type, cargo_type_in_veh) {
+							STEL: return switch_loadstack_Eanosx_059_DB_Barren;
+							METL: return switch_loadstack_Eanosx_059_DB_Rohr;
+							ZINC: return switch_loadstack_Eanosx_059_DB_Rohr;
+							COPR: return switch_loadstack_Eanosx_059_DB_COPR;
+							STST: return switch_loadstack_Eanosx_059_DB_Barren;
+							STSH: return switch_loadstack_Eanosx_059_DB_Barren;
+							STSE: return switch_loadstack_Eanosx_059_DB_Barren;
+							STAL: return switch_loadstack_Eanosx_059_DB_Barren;
+							STCB: return switch_loadstack_Eanosx_059_DB_Rohr;
+							STWR: return switch_loadstack_Eanosx_059_DB_Rohr; 
+							CSTI: return switch_loadstack_Eanosx_059_DB_Rohr;
+							PIPE: return switch_loadstack_Eanosx_059_DB_Rohr;
+
+							ENSP: return switch_loadstack_Eanosx_059_DB_Box;
+							FMSP: return switch_loadstack_Eanosx_059_DB_Box;
+							MNSP: return switch_loadstack_Eanosx_059_DB_Box;
+							POWR: return switch_loadstack_Eanosx_059_DB_Box;
+							VPTS: return switch_loadstack_Eanosx_059_DB_Box;
+							MPTS: return switch_loadstack_Eanosx_059_DB_Box;
+							GOOD: return switch_loadstack_Eanosx_059_DB_Box;
+							PAPR: return switch_loadstack_Eanosx_059_DB_Box;
+							TYRE: return switch_loadstack_Eanosx_059_DB_Box;
+							WOOL: return switch_loadstack_Eanosx_059_DB_Box;
+							TEXT: return switch_loadstack_Eanosx_059_DB_Box;	
+							SEED: return switch_loadstack_Eanosx_059_DB_Box;	
+							FERT: return switch_loadstack_Eanosx_059_DB_Box;
+	
+							FRVG: return switch_loadstack_Eanosx_059_DB_Bulk_covered;
+							TATO: return switch_loadstack_Eanosx_059_DB_Bulk_covered;
+	
+							BDMT: return switch_loadstack_Eanosx_059_DB_Timber;
+							WDPR: return switch_loadstack_Eanosx_059_DB_Timber;
+							WOOD: return switch_loadstack_Eanosx_059_DB_Wood;
+							GLAS: return switch_loadstack_Eanosx_059_DB_Box;
+							BRCK: return switch_loadstack_Eanosx_059_DB_Box;
+								switch_Eanosx_059_DB_cargo_classes;}							
+								
+//Stacking + Loading Grafitti
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_GRAF_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_GRAF1;
+						1: spritegroup_Eanos_load_Barren;}																	
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_GRAF_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_GRAF1;
+						1: spritegroup_Eanos_load_Box;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_GRAF_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_GRAF1;
+						1: spritegroup_Eanos_load_Bulk;}
+
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_GRAF_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_GRAF1;
+						1: spritegroup_Eanos_load_Bulk_covered;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_GRAF_COPR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_GRAF1;
+						1: spritegroup_Eanos_load_COPR;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_GRAF_Rohr, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_GRAF1;
+						1: spritegroup_Eanos_load_Rohr;}						
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_GRAF_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_GRAF1;
+						1: spritegroup_Eanos_load_Timber;}
+						
+					switch(FEAT_TRAINS, SELF, switch_loadstack_Eanosx_059_GRAF_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: spriteset_Eanosx_059_GRAF1;
+						1: spritegroup_Eanos_load_Wood;}	
+							
+
+					switch(FEAT_TRAINS, SELF, switch_Eanosx_059_GRAF_cargo_classes, cargo_classes) {
+							bitmask(CC_BULK): return switch_loadstack_Eanosx_059_GRAF_Bulk;
+							bitmask(CC_COVERED): return switch_loadstack_Eanosx_059_GRAF_Bulk_covered;
+							bitmask(CC_PIECE_GOODS) : return switch_loadstack_Eanosx_059_GRAF_Box;
+								switch_loadstack_Eanosx_059_GRAF_Box;}									
+
+					switch (FEAT_TRAINS, SELF, switch_Eanosx_059_GRAF_cargo_type, cargo_type_in_veh) {
+							STEL: return switch_loadstack_Eanosx_059_GRAF_Barren;
+							METL: return switch_loadstack_Eanosx_059_GRAF_Rohr;
+							ZINC: return switch_loadstack_Eanosx_059_GRAF_Rohr;
+							COPR: return switch_loadstack_Eanosx_059_GRAF_COPR;
+							STST: return switch_loadstack_Eanosx_059_GRAF_Barren;
+							STSH: return switch_loadstack_Eanosx_059_GRAF_Barren;
+							STSE: return switch_loadstack_Eanosx_059_GRAF_Barren;
+							STAL: return switch_loadstack_Eanosx_059_GRAF_Barren;
+							STCB: return switch_loadstack_Eanosx_059_GRAF_Rohr;
+							STWR: return switch_loadstack_Eanosx_059_GRAF_Rohr; 
+							CSTI: return switch_loadstack_Eanosx_059_GRAF_Rohr;
+							PIPE: return switch_loadstack_Eanosx_059_GRAF_Rohr;
+
+							ENSP: return switch_loadstack_Eanosx_059_GRAF_Box;
+							FMSP: return switch_loadstack_Eanosx_059_GRAF_Box;
+							MNSP: return switch_loadstack_Eanosx_059_GRAF_Box;
+							POWR: return switch_loadstack_Eanosx_059_GRAF_Box;
+							VPTS: return switch_loadstack_Eanosx_059_GRAF_Box;
+							MPTS: return switch_loadstack_Eanosx_059_GRAF_Box;
+							GOOD: return switch_loadstack_Eanosx_059_GRAF_Box;
+							PAPR: return switch_loadstack_Eanosx_059_GRAF_Box;
+							TYRE: return switch_loadstack_Eanosx_059_GRAF_Box;
+							WOOL: return switch_loadstack_Eanosx_059_GRAF_Box;
+							TEXT: return switch_loadstack_Eanosx_059_GRAF_Box;	
+							SEED: return switch_loadstack_Eanosx_059_GRAF_Box;	
+							FERT: return switch_loadstack_Eanosx_059_GRAF_Box;
+	
+							FRVG: return switch_loadstack_Eanosx_059_GRAF_Bulk_covered;
+							TATO: return switch_loadstack_Eanosx_059_GRAF_Bulk_covered;
+	
+							BDMT: return switch_loadstack_Eanosx_059_GRAF_Timber;
+							WDPR: return switch_loadstack_Eanosx_059_GRAF_Timber;
+							WOOD: return switch_loadstack_Eanosx_059_GRAF_Wood;
+							GLAS: return switch_loadstack_Eanosx_059_GRAF_Box;
+							BRCK: return switch_loadstack_Eanosx_059_GRAF_Box;
+								switch_Eanosx_059_GRAF_cargo_classes;}																															
+					
+//General Switches for all variants
+						
+					switch(FEAT_TRAINS, SELF, switch_length_Eanosx_059, position_in_vehid_chain % 2) {
+							0: 4;
+							1: 6;}	
+												
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Eanosx_059, 1){
+							return 475;}
+							
+//Random variant
+
+						switch(FEAT_TRAINS, SELF, switch_Eanosx_059_random_graphics, position_in_articulated_veh % 2) {
+							0:	   spriteset_empty;
+							1:     return switch_Eanosx_059_random_cargo_type;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Eanosx_059_random, extra_callback_info1) {
+						1: return ITEM_EANOSX_059_RANDOM;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_EANOSX_059_RANDOM, 8640)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_EANOSX059_RANDOM);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED, CC_PIECE_GOODS,);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID);
+						cargo_allow_refit:              [WOOD, BDMT, WDPR, TWOD];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					33;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Eanosx_059_random_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Eanosx_059_purchase_DB;
+			cost_factor						: 235;
+			running_cost_factor				: switch_running_cost_Eanosx_059;
+			articulated_part			  	: switch_articulated_Eanosx_059_random;
+			length							: switch_length_Eanosx_059;			
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}							
+
+//DB variant
+
+						switch(FEAT_TRAINS, SELF, switch_Eanosx_059_DB_graphics, position_in_articulated_veh % 2) {
+							0:	   spriteset_empty;
+							1:     return switch_Eanosx_059_DB_cargo_type;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Eanosx_059_DB, extra_callback_info1) {
+						1: return ITEM_EANOSX_059_DB;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_EANOSX_059_DB, 8641)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_EANOSX059_DB);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						variant_group:					8640;
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED, CC_PIECE_GOODS,);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID);
+						cargo_allow_refit:              [WOOD, BDMT, WDPR, TWOD];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					33;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Eanosx_059_DB_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Eanosx_059_purchase_DB;
+			cost_factor						: 235;
+			running_cost_factor				: switch_running_cost_Eanosx_059;
+			articulated_part			  	: switch_articulated_Eanosx_059_DB;
+			length							: switch_length_Eanosx_059;			
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}		
+		
+//GRAF variant
+
+						switch(FEAT_TRAINS, SELF, switch_Eanosx_059_GRAF_graphics, position_in_articulated_veh % 2) {
+							0:	   spriteset_empty;
+							1:     return switch_Eanosx_059_GRAF_cargo_type;}
+						 		 
+					switch (FEAT_TRAINS, SELF, switch_articulated_Eanosx_059_GRAF, extra_callback_info1) {
+						1: return ITEM_EANOSX_059_GRAF;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													
+item (FEAT_TRAINS , ITEM_EANOSX_059_GRAF, 8644)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_EANOSX059_GRAF);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						variant_group:					8640;
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED, CC_PIECE_GOODS,);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID);
+						cargo_allow_refit:              [WOOD, BDMT, WDPR, TWOD];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						25 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					33;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Eanosx_059_GRAF_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Eanosx_059_purchase_GRAF;
+			cost_factor						: 235;
+			running_cost_factor				: switch_running_cost_Eanosx_059;
+			articulated_part			  	: switch_articulated_Eanosx_059_GRAF;
+			length							: switch_length_Eanosx_059;			
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}				

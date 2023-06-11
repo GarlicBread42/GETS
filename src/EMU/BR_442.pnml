@@ -124,6 +124,69 @@ spritegroup spritegroup_BR_442_front_SMITTEL_loading_REV
 		{	loaded: 	[spriteset_empty];
 			loading: 	[spriteset_BR_442_front_SMITTEL_loading_REV];}					
 
+
+//Spriteset front_Cantus 
+
+spriteset(spriteset_BR_442_front_Cantus, "gfx\BR_442/BR_442_front_Cantus_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_1x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_2x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_4x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_front_Cantus_REV, "gfx\BR_442/BR_442_front_Cantus_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_1x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_2x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_4x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}
+
+
+//Spriteset front Loading Cantus
+
+spriteset(spriteset_BR_442_front_Cantus_loading, "gfx\BR_442/BR_442_front_Cantus_loading_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_loading_1x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_loading_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_loading_2x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_loading_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_loading_4x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_loading_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_front_Cantus_loading_REV, "gfx\BR_442/BR_442_front_Cantus_loading_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_loading_1x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_loading_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_loading_2x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_loading_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_Cantus_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_Cantus_loading_4x_32bpp.png", "gfx\BR_442/BR_442_front_Cantus_loading_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}									
+
+spritegroup spritegroup_BR_442_front_Cantus_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_front_Cantus_loading];}
+			
+spritegroup spritegroup_BR_442_front_Cantus_loading_REV
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_front_Cantus_loading_REV];}	
+			
+			
 //Spriteset back_verkehrsrot 
 
 spriteset(spriteset_BR_442_back_verkehrsrot, "gfx\BR_442/BR_442_back_verkehrsrot_1x_8bpp.png")
@@ -245,7 +308,70 @@ spritegroup spritegroup_BR_442_back_SMITTEL_loading
 spritegroup spritegroup_BR_442_back_SMITTEL_loading_REV
 		{	loaded: 	[spriteset_empty];
 			loading: 	[spriteset_BR_442_back_SMITTEL_loading_REV];}			
+
 			
+//Spriteset back_Cantus 
+
+spriteset(spriteset_BR_442_back_Cantus, "gfx\BR_442/BR_442_back_Cantus_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_1x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_2x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_4x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_back_Cantus_REV, "gfx\BR_442/BR_442_back_Cantus_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_1x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_2x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_4x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}
+
+
+//Spriteset back Loading
+
+spriteset(spriteset_BR_442_back_Cantus_loading, "gfx\BR_442/BR_442_back_Cantus_loading_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_loading_1x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_loading_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_loading_2x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_loading_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_loading_4x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_loading_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_back_Cantus_loading_REV, "gfx\BR_442/BR_442_back_Cantus_loading_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_loading_1x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_loading_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_loading_2x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_loading_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_Cantus_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_loading_4x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_loading_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}									
+
+spritegroup spritegroup_BR_442_back_Cantus_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_back_Cantus_loading];}
+			
+spritegroup spritegroup_BR_442_back_Cantus_loading_REV
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_back_Cantus_loading_REV];}
+			
+						
 //Spriteset middle Bottom A2
 
 spriteset(spriteset_BR_442_middle_verkehrsrot_bottomA2, "gfx\BR_442/BR_442_middle_verkehrsrot_bottomA2_1x_8bpp.png")
@@ -675,7 +801,68 @@ spritegroup spritegroup_BR_442_middle_SMITTEL_loading
 			
 spritegroup spritegroup_BR_442_middle_SMITTEL_loading_REV
 		{	loaded: 	[spriteset_empty];
-			loading: 	[spriteset_BR_442_middle_SMITTEL_loading_REV];}										
+			loading: 	[spriteset_BR_442_middle_SMITTEL_loading_REV];}						
+
+									
+//Spriteset middle Cantus
+
+spriteset(spriteset_BR_442_middle_Cantus, "gfx\BR_442/BR_442_middle_Cantus_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_1x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_2x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_4x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_Cantus_REV, "gfx\BR_442/BR_442_middle_Cantus_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_1x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_2x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_4x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}			
+
+//Spriteset middle Loading Cantus
+
+spriteset(spriteset_BR_442_middle_Cantus_loading, "gfx\BR_442/BR_442_middle_Cantus_loading_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_loading_1x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_loading_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_loading_2x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_loading_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_loading_4x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_loading_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_Cantus_loading_REV, "gfx\BR_442/BR_442_middle_Cantus_loading_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_loading_1x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_loading_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_loading_2x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_loading_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_Cantus_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_Cantus_loading_4x_32bpp.png", "gfx\BR_442/BR_442_middle_Cantus_loading_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}									
+
+spritegroup spritegroup_BR_442_middle_Cantus_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_middle_Cantus_loading];}
+			
+spritegroup spritegroup_BR_442_middle_Cantus_loading_REV
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_442_middle_Cantus_loading_REV];}												
 
 //Spriteset purchase
 
@@ -691,6 +878,12 @@ spriteset(spriteset_BR_442_purchase_SMITTEL, "gfx\BR_442/BR_442_back_SMITTEL_1x_
 		alternative_sprites (spriteset_BR_442_purchase_SMITTEL, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_SMITTEL_1x_32bpp.png", "gfx\BR_442/BR_442_back_SMITTEL_1x_mask.png")
 									{ template_purchase(0, 0)}									
 
+spriteset(spriteset_BR_442_purchase_Cantus, "gfx\BR_442/BR_442_back_Cantus_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_purchase_Cantus, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_1x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
 //Switches
 
 						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_front_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
@@ -800,7 +993,31 @@ spriteset(spriteset_BR_442_purchase_SMITTEL, "gfx\BR_442/BR_442_back_SMITTEL_1x_
 						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middle_B_SMITTEL_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 							0: spriteset_BR_442_middle_B_SMITTEL_REV;
 							1: spritegroup_BR_442_middle_SMITTEL_loading_REV;}															
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_front_Cantus, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_front_Cantus;
+							1: spritegroup_BR_442_front_Cantus_loading;}	
 
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_front_Cantus_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_front_Cantus_REV;
+							1: spritegroup_BR_442_front_Cantus_loading_REV;}									
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_back_Cantus, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_back_Cantus;
+							1: spritegroup_BR_442_back_Cantus_loading;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_back_Cantus_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_back_Cantus_REV;
+							1: spritegroup_BR_442_back_Cantus_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middle_Cantus, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_Cantus;
+							1: spritegroup_BR_442_middle_Cantus_loading;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middle_Cantus_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_Cantus_REV;
+							1: spritegroup_BR_442_middle_Cantus_loading_REV;}									
+							
 //Universal Switches for the Heads - front and head got mixed up, so they just been switched
 
 						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_back_verkehrsrot, vehicle_is_reversed) {
@@ -818,6 +1035,14 @@ spriteset(spriteset_BR_442_purchase_SMITTEL, "gfx\BR_442/BR_442_back_SMITTEL_1x_
 						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_front_SMITTEL, vehicle_is_reversed) {
 							0: switch_spritestack_BR_442_front_SMITTEL_REV;
 								switch_spritestack_BR_442_back_SMITTEL;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_back_Cantus, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_back_Cantus_REV;
+								switch_spritestack_BR_442_front_Cantus;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_front_Cantus, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_front_Cantus_REV;
+								switch_spritestack_BR_442_back_Cantus;}								
 
 //Switches for Two-Part Consist																																
 
@@ -887,7 +1112,7 @@ item (FEAT_TRAINS , ITEM_BR_442_2, 4420)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						2747 hp;
 						weight: 						104 ton;
 						ai_engine_rank: 				0;
@@ -928,7 +1153,11 @@ item (FEAT_TRAINS , ITEM_BR_442_2, 4420)
 								
 						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_3_middle_SMITTEL, vehicle_is_reversed) {
 							0: switch_spritestack_BR_442_middle_A_SMITTEL;
-								switch_spritestack_BR_442_middle_A_SMITTEL_REV;}								
+								switch_spritestack_BR_442_middle_A_SMITTEL_REV;}		
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_3_middle_Cantus, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middle_Cantus;
+								switch_spritestack_BR_442_middle_Cantus_REV;}															
 							
 						switch(FEAT_TRAINS, SELF, switch_BR_442_3_length, position_in_vehid_chain % 9) {
 							0: 4;
@@ -1002,7 +1231,7 @@ item (FEAT_TRAINS , ITEM_BR_442_3_REGIO, 4421)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						2747 hp;
 						weight: 						114 ton;
 						ai_engine_rank: 				0;
@@ -1072,7 +1301,7 @@ item (FEAT_TRAINS , ITEM_BR_442_3_SBAHN, 4422)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						2747 hp;
 						weight: 						114 ton;
 						ai_engine_rank: 				0;
@@ -1142,7 +1371,7 @@ item (FEAT_TRAINS , ITEM_BR_442_3_SMITTEL, 4429)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						2747 hp;
 						weight: 						114 ton;
 						ai_engine_rank: 				0;
@@ -1169,6 +1398,76 @@ item (FEAT_TRAINS , ITEM_BR_442_3_SMITTEL, 4429)
 			running_cost_factor				: switch_running_cost_BR_442_3;		
 			}
 	}	
+	
+						switch(FEAT_TRAINS, SELF, switch_BR_442_3_graphics_Cantus, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_Cantus;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_3_middle_Cantus;
+							5:     spriteset_empty;
+							6:	   spriteset_empty;
+							7:     return switch_reverse_BR_442_back_Cantus;
+							8:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_3_Cantus, extra_callback_info1) {
+							1 .. 8: return ITEM_BR_442_3_CANTUS; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_BR_442_3_CANTUS, 4434)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_3_CANTUS);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						2747 hp;
+						weight: 						114 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_3_graphics_Cantus;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
+			length							: switch_BR_442_3_length;	
+			articulated_part				: switch_articulated_BR_442_3_Cantus;			
+			visual_effect_and_powered		: switch_BR_442_3_FX;
+			purchase						: spriteset_BR_442_purchase_Cantus;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_BR_442_3;		
+			}
+	}		
 
 //Switches for Four part Consist -Regio means 2 Doors, SBAHN means 4 doors, RMIX means 2+4 doors
 
@@ -1282,7 +1581,7 @@ item (FEAT_TRAINS , ITEM_BR_442_4_REGIO, 4423)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						4120 hp;
 						weight: 						144 ton;
 						ai_engine_rank: 				0;
@@ -1355,7 +1654,7 @@ item (FEAT_TRAINS , ITEM_BR_442_4_SBAHN, 4424)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						4120 hp;
 						weight: 						144 ton;
 						ai_engine_rank: 				0;
@@ -1428,7 +1727,7 @@ item (FEAT_TRAINS , ITEM_BR_442_4_MIX, 4425)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						4120 hp;
 						weight: 						144 ton;
 						ai_engine_rank: 				0;
@@ -1503,7 +1802,7 @@ item (FEAT_TRAINS , ITEM_BR_442_4_SMITTEL, 4430)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						4120 hp;
 						weight: 						144 ton;
 						ai_engine_rank: 				0;
@@ -1666,7 +1965,7 @@ item (FEAT_TRAINS , ITEM_BR_442_5_REGIO, 4426)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						4120 hp;
 						weight: 						173 ton;
 						ai_engine_rank: 				0;
@@ -1742,7 +2041,7 @@ item (FEAT_TRAINS , ITEM_BR_442_5_SBAHN, 4427)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						4120 hp;
 						weight: 						173 ton;
 						ai_engine_rank: 				0;
@@ -1818,7 +2117,7 @@ item (FEAT_TRAINS , ITEM_BR_442_5_MIX, 4428)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						4120 hp;
 						weight: 						173 ton;
 						ai_engine_rank: 				0;
@@ -1894,7 +2193,7 @@ item (FEAT_TRAINS , ITEM_BR_442_5_SMITTEL, 4431)
 						sprite_id: 						SPRITE_ID_NEW_TRAIN;
 						speed: 							160 km/h;
 						refit_cost: 					0;
-						track_type: 					ELRL;	
+						track_type: 					AC15;	
 						power:  						4120 hp;
 						weight: 						173 ton;
 						ai_engine_rank: 				0;

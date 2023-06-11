@@ -309,7 +309,21 @@
 					{template_158trains_2x(0,0)}				
 			
 		alternative_sprites (spriteset_MZ_B_MNX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_B_MNX_4x_32bpp.png", "gfx\MZ_WAGEN/MZ_B_MNX_4x_mask.png")
-					{template_158trains_4x(0,0)}																																																																																			
+					{template_158trains_4x(0,0)}	
+					
+//Spriteset Zweite Klasse "ALEX"
+
+		spriteset (spriteset_MZ_B_ALEX, "gfx\MZ_WAGEN/MZ_B_ALEX_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_MZ_B_ALEX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_B_ALEX_1x_32bpp.png", "gfx\MZ_WAGEN/MZ_B_ALEX_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_MZ_B_ALEX, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_B_ALEX_2x_32bpp.png", "gfx\MZ_WAGEN/MZ_B_ALEX_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_MZ_B_ALEX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_B_ALEX_4x_32bpp.png", "gfx\MZ_WAGEN/MZ_B_ALEX_4x_mask.png")
+					{template_158trains_4x(0,0)}																																																																																							
 
 //Spriteset Loading Erste Klasse TEE
 
@@ -490,7 +504,27 @@ spritegroup spritegroup_MZ_loading_MNX
 spritegroup spritegroup_MZ_loading_TOUR
 		{loaded: 	[spriteset_empty];
 		loading: 	[spriteset_MZ_loading_TOUR];}		
+
+							
+//Spriteset Loading Lufthansa-Airport Express
+
+		spriteset (spriteset_MZ_loading_ALEX, "gfx\MZ_WAGEN/MZ_loading_ALEX_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_MZ_loading_ALEX, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_loading_ALEX_1x_32bpp.png", "gfx\MZ_WAGEN/MZ_loading_ALEX_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_MZ_loading_ALEX, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_loading_ALEX_2x_32bpp.png", "gfx\MZ_WAGEN/MZ_loading_ALEX_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_MZ_loading_ALEX, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_loading_ALEX_4x_32bpp.png", "gfx\MZ_WAGEN/MZ_loading_ALEX_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spritegroup spritegroup_MZ_loading_ALEX
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_MZ_loading_ALEX];}
 		
+				
 //Spriteset purchase
 
 	spriteset (spriteset_MZ_COACH_purchase1, "gfx\MZ_WAGEN/MZ_A1_TEE_1x_8bpp.png")
@@ -545,6 +579,12 @@ spritegroup spritegroup_MZ_loading_TOUR
 					{template_purchase(0, 0)}
 				
 		alternative_sprites (spriteset_MZ_COACH_purchase9, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_A2_TOUR_1x_32bpp.png", "gfx\MZ_WAGEN/MZ_A2_TOUR_1x_mask.png")
+					{template_purchase(0,0)}
+
+	spriteset (spriteset_MZ_COACH_purchase10, "gfx\MZ_WAGEN/MZ_B_ALEX_1x_8bpp.png")
+					{template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_MZ_COACH_purchase10, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\MZ_WAGEN/MZ_B_ALEX_1x_32bpp.png", "gfx\MZ_WAGEN/MZ_B_ALEX_1x_mask.png")
 					{template_purchase(0,0)}
 																				
 //Switches
@@ -643,7 +683,11 @@ spritegroup spritegroup_MZ_loading_TOUR
 						switch(FEAT_TRAINS, SELF, switch_loadstack_MZ_TOUR_A2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 							0: spriteset_MZ_A2_TOUR;
 							1: spritegroup_MZ_loading_TOUR;}																																																							
-																																				
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_MZ_ALEX_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_MZ_B_ALEX;
+							1: spritegroup_MZ_loading_ALEX;}	
+																																											
 						switch (FEAT_TRAINS, SELF, random_choose_MZ_TEE, switch_alternative_var_random_bits(1, 2)) {
 							1: switch_loadstack_MZ_TEE_A1;
 							2: switch_loadstack_MZ_TEE_A2;
@@ -1325,6 +1369,64 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_TOUR, 7785)
 			length							: switch_length_MZ_COACH;
 			articulated_part				: switch_articulated_MZ_COACH_TOUR;
 			purchase						: spriteset_MZ_COACH_purchase9;
+			cost_factor						: 540;
+			running_cost_factor				: switch_running_cost_MZ_COACH;
+			}
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_MZ_COACH_graphics_ALEX, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     switch_loadstack_MZ_ALEX_B;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_MZ_COACH_ALEX, extra_callback_info1) {
+							1 .. 2: return ITEM_MZ_COACH_ALEX;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																						
+item (FEAT_TRAINS , ITEM_MZ_COACH_ALEX, 7786)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_MZ_COACH_ALEX);
+						variant_group:					7775;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					27;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_MZ_COACH_graphics_ALEX;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_MZ_COACH;
+			articulated_part				: switch_articulated_MZ_COACH_ALEX;
+			purchase						: spriteset_MZ_COACH_purchase10;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
 			}

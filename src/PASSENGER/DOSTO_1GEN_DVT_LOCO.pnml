@@ -131,6 +131,7 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO_BUILD, 5040)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cargo_allow_refit:              [PASS, TOUR];
+						loading_speed:					15;
 						cargo_capacity:                 31 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -196,6 +197,7 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO_CURRENT, 5041)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cargo_allow_refit:              [PASS, TOUR];
+						loading_speed:					15;
 						cargo_capacity:                 31 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -257,6 +259,7 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO_MINT, 5042)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cargo_allow_refit:              [PASS, TOUR];
+						loading_speed:					15;
 						cargo_capacity:                 31 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
@@ -317,6 +320,7 @@ item (FEAT_TRAINS , ITEM_DOSTO_1GEN_DVT_LOCO_VERKEHRSROT, 5043)
 						reliability_decay: 				20;
 						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
 						cargo_allow_refit:              [PASS, TOUR];
+						loading_speed:					15;
 						cargo_capacity:                 31 ;
 						cost_factor: 					108;
 						running_cost_factor: 			90;
