@@ -207,7 +207,7 @@ spriteset(spriteset_BR_93_0_anim_purchase, "gfx/BR_93_0/BR_93_0_anim1_1x_8bpp.pn
 	alternative_sprites (spriteset_BR_93_0_anim_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_93_0/BR_93_0_anim1_1x_32bpp.png", "gfx/BR_93_0/BR_93_0_anim1_1x_mask.png")
 									{template_purchase(0, 0)}
 																		
-//Switches
+
 //Switches
 						switch (FEAT_TRAINS, SELF, switch_animation_BR_93_0, motion_counter % 4) {
 								0: spriteset_BR_93_0_anim1;

@@ -740,9 +740,14 @@ spritegroup spritegroup_MZ_loading_ALEX
 							0: 4;
 							1: 7;
 							2: 4;}	
-						
-						switch(FEAT_TRAINS,PARENT,switch_running_cost_MZ_COACH, 1){
-							return 2650;}
+
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_MZ_COACH,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 2650;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_MZ_COACH,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}								
 							
 						switch(FEAT_TRAINS, SELF, switch_MZ_COACH_graphics_build, position_in_articulated_veh  % 3) {
 							0:     spriteset_empty;
@@ -797,6 +802,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_BUILD, 7775)
 			purchase						: switch_purchase_MZ_COACH;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 							
@@ -854,6 +861,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_CURRENT, 7776)
 			purchase						: switch_purchase_MZ_COACH;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 
@@ -912,6 +921,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_TEE, 7777)
 			purchase						: spriteset_MZ_COACH_purchase1;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 							
@@ -969,6 +980,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_ICOLD, 7778)
 			purchase						: spriteset_MZ_COACH_purchase2;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 							
@@ -1026,6 +1039,9 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_FERN, 7779)
 			purchase						: spriteset_MZ_COACH_purchase3;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
+			
 			}
 		}
 
@@ -1084,6 +1100,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_ICNEW, 7780)
 			purchase						: spriteset_MZ_COACH_purchase4;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 		
@@ -1142,6 +1160,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_INTERREGIO, 7781)
 			purchase						: spriteset_MZ_COACH_purchase6;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 				
@@ -1200,6 +1220,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_LAX, 7782)
 			purchase						: spriteset_MZ_COACH_purchase5;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 									
@@ -1257,6 +1279,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_BWX, 7783)
 			purchase						: spriteset_MZ_COACH_purchase7;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 									
@@ -1314,6 +1338,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_MNX, 7784)
 			purchase						: spriteset_MZ_COACH_purchase8;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 
@@ -1371,6 +1397,8 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_TOUR, 7785)
 			purchase						: spriteset_MZ_COACH_purchase9;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}
 
@@ -1429,5 +1457,7 @@ item (FEAT_TRAINS , ITEM_MZ_COACH_ALEX, 7786)
 			purchase						: spriteset_MZ_COACH_purchase10;
 			cost_factor						: 540;
 			running_cost_factor				: switch_running_cost_MZ_COACH;
+			purchase_running_cost_factor	: 2650;
+			cargo_age_period				: switch_cargo_aging_MZ_COACH;	
 			}
 		}

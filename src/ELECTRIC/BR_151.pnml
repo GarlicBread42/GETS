@@ -599,7 +599,7 @@ item (FEAT_TRAINS , ITEM_BR_151_VERKEHRSROT, 1511)
 			//common properties
 						name: 							string(STR_NAME_BR_151_VERKEHRSROT);
 						variant_group:					1506;
-						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);						
 						climates_available: 			ALL_CLIMATES;
 						introduction_date: 				date(1996,01,01);
 						model_life: 					33;

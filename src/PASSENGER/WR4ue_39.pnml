@@ -1,0 +1,597 @@
+//########################################
+//###WR6ü 1907 Preussischer Speisewagen###
+//########################################
+
+//Spritesets
+				
+
+//Spriteset DRG
+
+spriteset (spriteset_WR4ue_39_DRG, "gfx/WR4ue_39/WR4ue_39_DRG_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_DRG_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_DRG_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WR4ue_39_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_DRG_2x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_DRG_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WR4ue_39_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_DRG_4x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_DRG_4x_mask.png")
+					{template_148trains_4x(0,0)}
+
+//Spriteset DSG
+
+spriteset (spriteset_WR4ue_39_DSG, "gfx/WR4ue_39/WR4ue_39_DSG_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_DSG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_DSG_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_DSG_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WR4ue_39_DSG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_DSG_2x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_DSG_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WR4ue_39_DSG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_DSG_4x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_DSG_4x_mask.png")
+					{template_148trains_4x(0,0)}
+
+//Spriteset rot
+
+spriteset (spriteset_WR4ue_39_rot, "gfx/WR4ue_39/WR4ue_39_rot_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_rot_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_rot_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WR4ue_39_rot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_rot_2x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_rot_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WR4ue_39_rot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_rot_4x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_rot_4x_mask.png")
+					{template_148trains_4x(0,0)}
+					
+
+//Spriteset popfarben
+
+spriteset (spriteset_WR4ue_39_popfarben, "gfx/WR4ue_39/WR4ue_39_popfarben_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_popfarben, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_popfarben_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_popfarben_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WR4ue_39_popfarben, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_popfarben_2x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_popfarben_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WR4ue_39_popfarben, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_popfarben_4x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_popfarben_4x_mask.png")
+					{template_148trains_4x(0,0)}
+					
+
+//Spriteset ozeanblau
+
+spriteset (spriteset_WR4ue_39_ozeanblau, "gfx/WR4ue_39/WR4ue_39_ozeanblau_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_ozeanblau_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_ozeanblau_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WR4ue_39_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_ozeanblau_2x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_ozeanblau_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WR4ue_39_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_ozeanblau_4x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_ozeanblau_4x_mask.png")
+					{template_148trains_4x(0,0)}										
+			
+//Spriteset loading				
+				
+spriteset (spriteset_WR4ue_39_loading, "gfx/WR4ue_39/WR4ue_39_loading_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_loading_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_loading_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WR4ue_39_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_loading_2x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_loading_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WR4ue_39_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_loading_4x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_loading_4x_mask.png")
+					{template_148trains_4x(0,0)}	
+						
+spritegroup spritegroup_WR4ue_39_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_WR4ue_39_loading];}
+			
+			
+								
+//Spritesets purchase				
+
+spriteset (spriteset_WR4ue_39_purchase_DRG, "gfx/WR4ue_39/WR4ue_39_DRG_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_purchase_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_DRG_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_DRG_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WR4ue_39_purchase_DSG, "gfx/WR4ue_39/WR4ue_39_DSG_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_purchase_DSG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_DSG_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_DSG_1x_mask.png")
+					{template_purchase(0,0)}
+					
+spriteset (spriteset_WR4ue_39_purchase_rot, "gfx/WR4ue_39/WR4ue_39_rot_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_purchase_rot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_rot_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_rot_1x_mask.png")
+					{template_purchase(0,0)}					
+
+spriteset (spriteset_WR4ue_39_purchase_popfarben, "gfx/WR4ue_39/WR4ue_39_popfarben_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_purchase_popfarben, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_popfarben_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_popfarben_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WR4ue_39_purchase_ozeanblau, "gfx/WR4ue_39/WR4ue_39_ozeanblau_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WR4ue_39_purchase_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WR4ue_39/WR4ue_39_ozeanblau_1x_32bpp.png", "gfx/WR4ue_39/WR4ue_39_ozeanblau_1x_mask.png")
+					{template_purchase(0,0)}					
+																
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_WR4ue_39,current_year) {
+						       0 .. 1945 : spriteset_WR4ue_39_purchase_DRG;
+							1946 .. 1965 : spriteset_WR4ue_39_purchase_DSG;
+							1966 .. 1973 : spriteset_WR4ue_39_purchase_rot;
+							1974 .. 2050 : spriteset_WR4ue_39_purchase_ozeanblau;
+								spriteset_WR4ue_39_purchase_ozeanblau;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WR4ue_39_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WR4ue_39_DRG;
+							1: spritegroup_WR4ue_39_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WR4ue_39_DSG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WR4ue_39_DSG;
+							1: spritegroup_WR4ue_39_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WR4ue_39_rot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WR4ue_39_rot;
+							1: spritegroup_WR4ue_39_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WR4ue_39_ozeanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WR4ue_39_ozeanblau;
+							1: spritegroup_WR4ue_39_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WR4ue_39_popfarben, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WR4ue_39_popfarben;
+							1: spritegroup_WR4ue_39_loading;}										
+																			
+						switch(FEAT_TRAINS, SELF, switch_length_WR4ue_39, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_WR4ue_39, 1){
+							return 7200;}	
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_WR4ue_39,build_year) {
+							   0 .. 1945 : switch_spritestack_WR4ue_39_DRG;
+							1946 .. 1965 : switch_spritestack_WR4ue_39_DSG;
+							1966 .. 1973 : switch_spritestack_WR4ue_39_rot;
+							1974 .. 2050 : switch_spritestack_WR4ue_39_ozeanblau;
+								switch_spritestack_WR4ue_39_ozeanblau;}		
+
+						switch(FEAT_TRAINS, SELF, switch_WR4ue_39_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_WR4ue_39;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WR4ue_39_build, extra_callback_info1) {
+							1 ..2: return ITEM_WR4UE_39_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WR4UE_39_BUILD, 5538)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WR4UE_39_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					45;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							180 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						53 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WR4ue_39_graphics_build;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WR4ue_39;
+			articulated_part				: switch_articulated_WR4ue_39_build;
+			purchase						: switch_purchase_WR4ue_39;
+			cost_factor						: 720;
+			running_cost_factor				: switch_running_cost_WR4ue_39;				
+			 }
+		}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_WR4ue_39,current_year) {
+							   0 .. 1945 : switch_spritestack_WR4ue_39_DRG;
+							1946 .. 1965 : switch_spritestack_WR4ue_39_DSG;
+							1966 .. 1973 : switch_spritestack_WR4ue_39_rot;
+							1974 .. 2050 : switch_spritestack_WR4ue_39_ozeanblau;
+								switch_spritestack_WR4ue_39_ozeanblau;}			
+
+						switch(FEAT_TRAINS, SELF, switch_WR4ue_39_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_WR4ue_39;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WR4ue_39_current, extra_callback_info1) {
+							1 ..2: return ITEM_WR4UE_39_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WR4UE_39_CURRENT, 5539)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WR4UE_39_CURRENT);
+						variant_group:					5538;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					45;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							180 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						53 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WR4ue_39_graphics_current;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WR4ue_39;
+			articulated_part				: switch_articulated_WR4ue_39_current;
+			purchase						: switch_purchase_WR4ue_39;
+			cost_factor						: 720;
+			running_cost_factor				: switch_running_cost_WR4ue_39;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_WR4ue_39_graphics_DRG, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_WR4ue_39_DRG;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WR4ue_39_DRG, extra_callback_info1) {
+							1 ..2: return ITEM_WR4UE_39_DRG;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WR4UE_39_DRG, 5540)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WR4UE_39_DRG);
+						variant_group:					5538;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					45;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							180 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						53 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;													
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WR4ue_39_graphics_DRG;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WR4ue_39;
+			articulated_part				: switch_articulated_WR4ue_39_DRG;
+			purchase						: spriteset_WR4ue_39_purchase_DRG;
+			cost_factor						: 720;
+			running_cost_factor				: switch_running_cost_WR4ue_39;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_WR4ue_39_graphics_DSG, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_WR4ue_39_DSG;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WR4ue_39_DSG, extra_callback_info1) {
+							1 ..2: return ITEM_WR4UE_39_DSG;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WR4UE_39_DSG, 5541)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WR4UE_39_DSG);
+						variant_group:					5538;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					38;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							180 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						53 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;													
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WR4ue_39_graphics_DSG;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WR4ue_39;
+			articulated_part				: switch_articulated_WR4ue_39_DSG;
+			purchase						: spriteset_WR4ue_39_purchase_DSG;
+			cost_factor						: 720;
+			running_cost_factor				: switch_running_cost_WR4ue_39;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_WR4ue_39_graphics_rot, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_WR4ue_39_rot;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WR4ue_39_rot, extra_callback_info1) {
+							1 ..2: return ITEM_WR4UE_39_ROT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WR4UE_39_ROT, 5542)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WR4UE_39_ROT);
+						variant_group:					5538;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1967,01,01);
+						model_life: 					17;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							180 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						53 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;													
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WR4ue_39_graphics_rot;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WR4ue_39;
+			articulated_part				: switch_articulated_WR4ue_39_rot;
+			purchase						: spriteset_WR4ue_39_purchase_rot;
+			cost_factor						: 720;
+			running_cost_factor				: switch_running_cost_WR4ue_39;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_WR4ue_39_graphics_popfarben, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_WR4ue_39_popfarben;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WR4ue_39_popfarben, extra_callback_info1) {
+							1 ..2: return ITEM_WR4UE_39_POPFARBEN;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WR4UE_39_POPFARBEN, 5543)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WR4UE_39_POPFARBEN);
+						variant_group:					5538;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1971,01,01);
+						model_life: 					13;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							180 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						53 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;													
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WR4ue_39_graphics_popfarben;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WR4ue_39;
+			articulated_part				: switch_articulated_WR4ue_39_popfarben;
+			purchase						: spriteset_WR4ue_39_purchase_popfarben;
+			cost_factor						: 720;
+			running_cost_factor				: switch_running_cost_WR4ue_39;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_WR4ue_39_graphics_ozeanblau, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_WR4ue_39_ozeanblau;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WR4ue_39_ozeanblau, extra_callback_info1) {
+							1 ..2: return ITEM_WR4UE_39_OZEANBLAU;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WR4UE_39_OZEANBLAU, 5544)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WR4UE_39_OZEANBLAU);
+						variant_group:					5538;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1974,01,01);
+						model_life: 					10;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							180 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						53 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;													
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WR4ue_39_graphics_ozeanblau;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WR4ue_39;
+			articulated_part				: switch_articulated_WR4ue_39_ozeanblau;
+			purchase						: spriteset_WR4ue_39_purchase_ozeanblau;
+			cost_factor						: 720;
+			running_cost_factor				: switch_running_cost_WR4ue_39;				
+			 }
+		}

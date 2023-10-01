@@ -1,0 +1,266 @@
+//###########################
+//###GGkhs Berlin 4-Achser###
+//###########################				
+	
+//Spriteset neutral
+
+spriteset (spriteset_GGKHS_neutral, "gfx\GGKHS/GGKHS_NEUT_1x_8bpp.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GGKHS_neutral, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_NEUT_1x_32bpp.png", "gfx\GGKHS/GGKHS_NEUT_1x_mask.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GGKHS_neutral, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_NEUT_2x_32bpp.png", "gfx\GGKHS/GGKHS_NEUT_2x_mask.png")
+					{template_108trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GGKHS_neutral, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_NEUT_4x_32bpp.png", "gfx\GGKHS/GGKHS_NEUT_4x_mask.png")
+					{template_108trains_4x(0, 0)}		
+
+
+//Spriteset Transthermos
+
+spriteset (spriteset_GGKHS_Transthermos, "gfx\GGKHS/GGKHS_Transthermos_1x_8bpp.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GGKHS_Transthermos, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_Transthermos_1x_32bpp.png", "gfx\GGKHS/GGKHS_Transthermos_1x_mask.png")
+					{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GGKHS_Transthermos, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_Transthermos_2x_32bpp.png", "gfx\GGKHS/GGKHS_Transthermos_2x_mask.png")
+					{template_108trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_GGKHS_Transthermos, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_Transthermos_4x_32bpp.png", "gfx\GGKHS/GGKHS_Transthermos_4x_mask.png")
+					{template_108trains_4x(0, 0)}
+
+		
+//Spriteset loading
+
+spriteset (spriteset_GGKHS_loading, "gfx\GGKHS/GGKHS_loading_1x_8bpp.png")
+						{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GGKHS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_loading_1x_32bpp.png", "gfx\GGKHS/GGKHS_loading_1x_mask.png")
+						{template_108trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_GGKHS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_loading_2x_32bpp.png", "gfx\GGKHS/GGKHS_loading_2x_mask.png")
+					{template_108trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_GGKHS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_loading_4x_32bpp.png", "gfx\GGKHS/GGKHS_loading_4x_mask.png")
+					{template_108trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_GGKHS_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_GGKHS_loading];}
+
+
+//Spriteset Purchase
+
+spriteset (spriteset_GGKHS_neutral_purchase, "gfx\GGKHS/GGKHS_NEUT_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GGKHS_neutral_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_NEUT_1x_32bpp.png", "gfx\GGKHS/GGKHS_NEUT_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_GGKHS_Transthermos_purchase, "gfx\GGKHS/GGKHS_Transthermos_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_GGKHS_Transthermos_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\GGKHS/GGKHS_Transthermos_1x_32bpp.png", "gfx\GGKHS/GGKHS_Transthermos_1x_mask.png")
+					{template_purchase(0, 0)}
+
+					
+															
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_GGKHS_neutral, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_GGKHS_neutral;
+							1: spritegroup_GGKHS_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_GGKHS_Transthermos, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_GGKHS_Transthermos;
+							1: spritegroup_GGKHS_loading;}							
+							
+							
+						switch (FEAT_TRAINS, SELF, random_choose_GGKHS, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_GGKHS_neutral;
+							   switch_loadstack_GGKHS_Transthermos;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_GGKHS, position_in_vehid_chain % 2) {
+							0: 4;
+							1: 6;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_GGKHS, 1){
+							return 275;}		
+
+						switch(FEAT_TRAINS, SELF, switch_GGKHS_graphics, position_in_articulated_veh % 2) {
+							0:	   spriteset_empty;
+							1:     return random_choose_GGKHS;}
+													
+						switch (FEAT_TRAINS, SELF, switch_articulated_GGKHS, extra_callback_info1) {
+							1: return ITEM_GGKHS;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}											
+						
+item (FEAT_TRAINS , ITEM_GGKHS, 8430)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GGKHS);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1949,01,01);
+						model_life: 					28;
+						vehicle_life: 					28;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						26 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_GGKHS_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_GGKHS_neutral_purchase;
+			cost_factor						: 121;
+			running_cost_factor				: switch_running_cost_GGKHS;
+			articulated_part			  	: switch_articulated_GGKHS;
+			length							: switch_length_GGKHS;				
+			
+			 }
+		}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_GGKHS_NEUT_graphics, position_in_articulated_veh % 2) {
+							0:	   spriteset_empty;
+							1:     return switch_loadstack_GGKHS_neutral;}
+													
+						switch (FEAT_TRAINS, SELF, switch_articulated_GGKHS_NEUT, extra_callback_info1) {
+							1: return ITEM_GGKHS_NEUT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}											
+						
+item (FEAT_TRAINS , ITEM_GGKHS_NEUT, 8431)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GGKHS_NEUT);
+						variant_group:					8430;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1949,01,01);
+						model_life: 					28;
+						vehicle_life: 					28;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						26 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_GGKHS_NEUT_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_GGKHS_neutral_purchase;
+			cost_factor						: 121;
+			running_cost_factor				: switch_running_cost_GGKHS;
+			articulated_part			  	: switch_articulated_GGKHS_NEUT;
+			length							: switch_length_GGKHS;				
+			
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_GGKHS_Transthermos_graphics, position_in_articulated_veh % 2) {
+							0:	   spriteset_empty;
+							1:     return switch_loadstack_GGKHS_Transthermos;}
+													
+						switch (FEAT_TRAINS, SELF, switch_articulated_GGKHS_Transthermos, extra_callback_info1) {
+							1: return ITEM_GGKHS_TRANSTHERMOS;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}											
+						
+item (FEAT_TRAINS , ITEM_GGKHS_TRANSTHERMOS, 8432)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GGKHS_TRANSTHERMOS);
+						variant_group:					8430;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1949,01,01);
+						model_life: 					28;
+						vehicle_life: 					28;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						26 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_GGKHS_Transthermos_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_GGKHS_Transthermos_purchase;
+			cost_factor						: 121;
+			running_cost_factor				: switch_running_cost_GGKHS;
+			articulated_part			  	: switch_articulated_GGKHS_Transthermos;
+			length							: switch_length_GGKHS;				
+			
+			 }
+		}

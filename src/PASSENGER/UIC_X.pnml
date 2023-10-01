@@ -624,8 +624,13 @@ spriteset (spriteset_UICX_B_purchase10, "gfx\UICX/UICX_B_FLIX1_1x_8bpp.png")
 							1988 .. 2050 : 200 ;
 								200;}
 						
-						switch(FEAT_TRAINS,PARENT,switch_running_cost_UICX, 1){
-							return 2250;}
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_UICX,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 2250;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_UICX,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}								
 								
 						switch(FEAT_TRAINS, SELF, switch_UICX_graphics_build, position_in_articulated_veh  % 3) {
 							0:     spriteset_empty;
@@ -682,7 +687,9 @@ item (FEAT_TRAINS , ITEM_UICX_BUILD, 7650)
 			purchase						: switch_purchase_UICX;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;				
 		
 			 }
 		}
@@ -743,7 +750,9 @@ item (FEAT_TRAINS , ITEM_UICX_CURRENT, 7651)
 			purchase						: switch_purchase_UICX;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;	
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;		
 		
 			 }
 		}
@@ -804,7 +813,9 @@ item (FEAT_TRAINS , ITEM_UICX_BLUEGREEN, 7652)
 			purchase						: spriteset_UICX_B_purchase1;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;			
 		
 			 }
 		}
@@ -865,7 +876,9 @@ item (FEAT_TRAINS , ITEM_UICX_POPFARBEN, 7653)
 			purchase						: spriteset_UICX_B_purchase5;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;	
+			cargo_age_period				: switch_cargo_aging_UICX;		
 		
 			 }
 		}
@@ -926,7 +939,9 @@ item (FEAT_TRAINS , ITEM_UICX_OZEANBLAU, 7654)
 			purchase						: spriteset_UICX_B_purchase2;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;			
 		
 			 }
 		}
@@ -987,7 +1002,9 @@ item (FEAT_TRAINS , ITEM_UICX_INTERREGIO, 7655)
 			purchase						: spriteset_UICX_B_purchase3;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;		
 		
 			 }
 		}
@@ -1048,7 +1065,9 @@ item (FEAT_TRAINS , ITEM_UICX_IC_ALT, 7656)
 			purchase						: spriteset_UICX_B_purchase6;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;			
 		
 			 }
 		}
@@ -1110,7 +1129,9 @@ item (FEAT_TRAINS , ITEM_UICX_FERNVERKEHR, 7657)
 			purchase						: spriteset_UICX_B_purchase7;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;			
 		
 			 }
 		}
@@ -1171,7 +1192,9 @@ item (FEAT_TRAINS , ITEM_UICX_INTERCITY, 7658)
 			purchase						: spriteset_UICX_B_purchase4;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;			
 		
 			 }
 		}
@@ -1232,7 +1255,9 @@ item (FEAT_TRAINS , ITEM_UICX_REGIO, 7659)
 			purchase						: spriteset_UICX_B_purchase8;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;	
+			cargo_age_period				: switch_cargo_aging_UICX;		
 		
 			 }
 		}
@@ -1294,7 +1319,9 @@ item (FEAT_TRAINS , ITEM_UICX_ALEX, 7660)
 			purchase						: spriteset_UICX_B_purchase9;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;			
 		
 			 }
 		}
@@ -1356,7 +1383,9 @@ item (FEAT_TRAINS , ITEM_UICX_FLIX, 7661)
 			purchase						: spriteset_UICX_B_purchase10;
 			speed							: switch_speed_UICX;
 			cost_factor						: 455;
-			running_cost_factor				: switch_running_cost_UICX;			
+			running_cost_factor				: switch_running_cost_UICX;
+			purchase_running_cost_factor	: 2250;
+			cargo_age_period				: switch_cargo_aging_UICX;			
 		
 			 }
 		}

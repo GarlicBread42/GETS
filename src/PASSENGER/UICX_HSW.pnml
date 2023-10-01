@@ -1,0 +1,446 @@
+//####################################
+//###Arm 216/BR4ymg Halbspeisewagen###
+//####################################
+
+//Spritesets
+
+//Spriteset blau
+
+spriteset (spriteset_UICX_HSW_blau, "gfx/UICX_HSW/UICX_HSW_blau_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_UICX_HSW_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_blau_1x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_blau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_HSW_blau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_blau_2x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_blau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_HSW_blau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_blau_4x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_blau_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset blau-rot "Kakadu"
+
+spriteset (spriteset_UICX_HSW_blaurot, "gfx/UICX_HSW/UICX_HSW_blaurot_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_UICX_HSW_blaurot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_blaurot_1x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_blaurot_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_HSW_blaurot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_blaurot_2x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_blaurot_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_HSW_blaurot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_blaurot_4x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_blaurot_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+//Spriteset gruen
+
+spriteset (spriteset_UICX_HSW_gruen, "gfx/UICX_HSW/UICX_HSW_gruen_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_UICX_HSW_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_gruen_1x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_gruen_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_HSW_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_gruen_2x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_gruen_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_HSW_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_gruen_4x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_gruen_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset gruen-rot "Kakadu"
+
+spriteset (spriteset_UICX_HSW_gruenrot, "gfx/UICX_HSW/UICX_HSW_gruenrot_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_UICX_HSW_gruenrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_gruenrot_1x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_gruenrot_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_HSW_gruenrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_gruenrot_2x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_gruenrot_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_HSW_gruenrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_gruenrot_4x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_gruenrot_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+//Spriteset ozeanblau
+
+spriteset (spriteset_UICX_HSW_ozeanblau, "gfx/UICX_HSW/UICX_HSW_ozeanblau_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_UICX_HSW_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_ozeanblau_1x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_ozeanblau_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_UICX_HSW_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_ozeanblau_2x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_ozeanblau_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_UICX_HSW_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_ozeanblau_4x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_ozeanblau_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spritesets purchase
+
+spriteset (spriteset_UICX_HSW_purchase_blau, "gfx/UICX_HSW/UICX_HSW_blau_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_UICX_HSW_purchase_blau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_blau_1x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_blau_1x_mask.png")
+					{template_purchase(0,0)}	
+													
+spriteset (spriteset_UICX_HSW_purchase_blaurot, "gfx/UICX_HSW/UICX_HSW_blaurot_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_UICX_HSW_purchase_blaurot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_blaurot_1x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_blaurot_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_UICX_HSW_purchase_ozeanblau, "gfx/UICX_HSW/UICX_HSW_ozeanblau_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_UICX_HSW_purchase_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/UICX_HSW/UICX_HSW_ozeanblau_1x_32bpp.png", "gfx/UICX_HSW/UICX_HSW_ozeanblau_1x_mask.png")
+					{template_purchase(0,0)}
+					
+										
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_UICX_HSW,current_year) {
+							   0 .. 1963 : spriteset_UICX_HSW_purchase_blau;
+							1964 .. 1973 : spriteset_UICX_HSW_purchase_blaurot;
+							1974 .. 2050 : spriteset_UICX_HSW_purchase_ozeanblau;
+								spriteset_UICX_HSW_purchase_ozeanblau;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_UICX_HSW_blau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_HSW_blau;
+							1: spritegroup_UICX_loading_1;}											
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_UICX_HSW_gruen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_HSW_gruen;
+							1: spritegroup_UICX_loading_1;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_UICX_HSW_blaurot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_HSW_blaurot;
+							1: spritegroup_UICX_loading_1;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_UICX_HSW_gruenrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_HSW_gruenrot;
+							1: spritegroup_UICX_loading_1;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_UICX_HSW_ozeanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_UICX_HSW_ozeanblau;
+							1: spritegroup_UICX_loading_1;}																						
+
+						switch (FEAT_TRAINS, SELF, random_choose_UICX_HSW_full, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_UICX_HSW_blau;
+							   switch_spritestack_UICX_HSW_gruen;}	
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_UICX_HSW_half, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_UICX_HSW_blaurot;
+							   switch_spritestack_UICX_HSW_gruenrot;}
+							   																			
+						switch(FEAT_TRAINS, SELF, switch_length_UICX_HSW, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_UICX_HSW, 1){
+							return 7800;}							   							
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_UICX_HSW,build_year) {
+							   0 .. 1963 : random_choose_UICX_HSW_full;
+							1964 .. 1973 : random_choose_UICX_HSW_half;
+							1974 .. 2050 : switch_spritestack_UICX_HSW_ozeanblau;
+								switch_spritestack_UICX_HSW_ozeanblau;}		
+
+						switch(FEAT_TRAINS, SELF, switch_UICX_HSW_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_UICX_HSW;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_HSW_build, extra_callback_info1) {
+							1 ..2: return ITEM_UICX_HSW_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_UICX_HSW_BUILD, 5550)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_HSW_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1954,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_HSW_graphics_build;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_UICX_HSW;
+			articulated_part				: switch_articulated_UICX_HSW_build;
+			purchase						: switch_purchase_UICX_HSW;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_UICX_HSW;				
+			 }
+		}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_UICX_HSW,current_year) {
+							   0 .. 1963 : random_choose_UICX_HSW_full;
+							1964 .. 1973 : random_choose_UICX_HSW_half;
+							1974 .. 2050 : switch_spritestack_UICX_HSW_ozeanblau;
+								switch_spritestack_UICX_HSW_ozeanblau;}		
+
+						switch(FEAT_TRAINS, SELF, switch_UICX_HSW_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_UICX_HSW;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_HSW_current, extra_callback_info1) {
+							1 ..2: return ITEM_UICX_HSW_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_UICX_HSW_CURRENT, 5551)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_HSW_CURRENT);
+						variant_group:					5550;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1954,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_HSW_graphics_current;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_UICX_HSW;
+			articulated_part				: switch_articulated_UICX_HSW_current;
+			purchase						: switch_purchase_UICX_HSW;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_UICX_HSW;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_UICX_HSW_graphics_full, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_UICX_HSW_full;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_HSW_full, extra_callback_info1) {
+							1 ..2: return ITEM_UICX_HSW_FULL;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_UICX_HSW_FULL, 5552)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_HSW_FULL);
+						variant_group:					5550;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1954,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_HSW_graphics_full;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_UICX_HSW;
+			articulated_part				: switch_articulated_UICX_HSW_full;
+			purchase						: spriteset_UICX_HSW_purchase_blau;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_UICX_HSW;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_UICX_HSW_graphics_half, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_UICX_HSW_half;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_HSW_half, extra_callback_info1) {
+							1 ..2: return ITEM_UICX_HSW_HALF;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_UICX_HSW_HALF, 5553)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_HSW_HALF);
+						variant_group:					5550;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1964,01,01);
+						model_life: 					45;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_HSW_graphics_half;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_UICX_HSW;
+			articulated_part				: switch_articulated_UICX_HSW_half;
+			purchase						: spriteset_UICX_HSW_purchase_blaurot;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_UICX_HSW;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_UICX_HSW_graphics_ozeanblau, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_UICX_HSW_ozeanblau;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_UICX_HSW_ozeanblau, extra_callback_info1) {
+							1 ..2: return ITEM_UICX_HSW_OZEANBLAU;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_UICX_HSW_OZEANBLAU, 5554)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_UICX_HSW_OZEANBLAU);
+						variant_group:					5550;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1974,01,01);
+						model_life: 					35;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						39 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_UICX_HSW_graphics_ozeanblau;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_UICX_HSW;
+			articulated_part				: switch_articulated_UICX_HSW_ozeanblau;
+			purchase						: spriteset_UICX_HSW_purchase_ozeanblau;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_UICX_HSW;				
+			 }
+		}

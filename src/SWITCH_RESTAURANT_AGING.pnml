@@ -1,0 +1,7 @@
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_1, [count_veh_id(5504) > 0]) {
+            1: return 1;
+           return 0;}
+            				
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_aging_0, [count_veh_id(5503) > 0]) {
+            1: return 1;
+            return switch_check_Restaurant_cost_1;}	

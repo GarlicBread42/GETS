@@ -572,6 +572,12 @@ spriteset(spriteset_BR_420_verkehrsrot_purchase, "gfx\BR_420/BR_420_verkehrsrot_
 														
 						switch(FEAT_TRAINS, SELF, switch_coupling_BR_420, vehicle_type_id) {
 							4200: return CB_RESULT_ATTACH_ALLOW;
+							4201: return CB_RESULT_ATTACH_ALLOW;
+							4202: return CB_RESULT_ATTACH_ALLOW;
+							4203: return CB_RESULT_ATTACH_ALLOW;
+							4204: return CB_RESULT_ATTACH_ALLOW;
+							4205: return CB_RESULT_ATTACH_ALLOW;
+							4206: return CB_RESULT_ATTACH_ALLOW;
 								return string (STR_COUPLING_SAME);}
 
 					switch (FEAT_TRAINS, SELF, random_choose_BR_420_front, switch_alternative_var_random_bits(2,2)) {

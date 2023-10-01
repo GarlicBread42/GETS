@@ -247,9 +247,14 @@ spriteset (spriteset_Hecht_23_purchase2, "gfx/Hecht_23/Hecht_23_C_DB_1x_8bpp.png
 							0: 4;
 							1: 5;
 							2: 4;}
-						
-						switch(FEAT_TRAINS,PARENT,switch_running_cost_Hecht_23, 1){
-							return 1925;}
+							
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_Hecht_23,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 1925;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_Hecht_23,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}											
 							
 						switch(FEAT_TRAINS, SELF, switch_Hecht_23_graphics_build, position_in_vehid_chain  % 3) {
 							0:     spriteset_empty;
@@ -304,7 +309,9 @@ item (FEAT_TRAINS , ITEM_HECHT_23_BUILD, 7600)
 			articulated_part				: switch_articulated_Hecht_23_build;
 			purchase						: switch_Hecht_23_purchase;
 			cost_factor						: 660;
-			running_cost_factor				: switch_running_cost_Hecht_23;				
+			running_cost_factor				: switch_running_cost_Hecht_23;
+			purchase_running_cost_factor	: 1925;
+			cargo_age_period				: switch_cargo_aging_Hecht_23;				
 			 }
 		}	
 
@@ -362,7 +369,9 @@ item (FEAT_TRAINS , ITEM_HECHT_23_CURRENT, 7601)
 			articulated_part				: switch_articulated_Hecht_23_current;
 			purchase						: switch_Hecht_23_purchase;
 			cost_factor						: 660;
-			running_cost_factor				: switch_running_cost_Hecht_23;				
+			running_cost_factor				: switch_running_cost_Hecht_23;
+			purchase_running_cost_factor	: 1925;
+			cargo_age_period				: switch_cargo_aging_Hecht_23;							
 			 }
 		}	
 
@@ -420,7 +429,9 @@ item (FEAT_TRAINS , ITEM_HECHT_23_DRG, 7602)
 			articulated_part				: switch_articulated_Hecht_23_DRG;
 			purchase						: spriteset_Hecht_23_purchase1;
 			cost_factor						: 660;
-			running_cost_factor				: switch_running_cost_Hecht_23;				
+			running_cost_factor				: switch_running_cost_Hecht_23;	
+			purchase_running_cost_factor	: 1925;
+			cargo_age_period				: switch_cargo_aging_Hecht_23;						
 			 }
 		}	
 
@@ -479,6 +490,8 @@ item (FEAT_TRAINS , ITEM_HECHT_23_DB, 7603)
 			articulated_part				: switch_articulated_Hecht_23_DB;
 			purchase						: spriteset_Hecht_23_purchase2;
 			cost_factor						: 660;
-			running_cost_factor				: switch_running_cost_Hecht_23;				
+			running_cost_factor				: switch_running_cost_Hecht_23;	
+			purchase_running_cost_factor	: 1925;
+			cargo_age_period				: switch_cargo_aging_Hecht_23;						
 			 }
 		}

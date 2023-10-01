@@ -1,0 +1,823 @@
+//##############################################
+//###WRmz 135 u.A. Speisewagen mit Pantograph###
+//##############################################
+
+//Spritesets
+
+//Spriteset TEE
+
+spriteset (spriteset_WRmz_135_TEE, "gfx/WRmz_135/WRmz_135_TEE_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_TEE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_TEE_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_TEE_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_TEE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_TEE_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_TEE_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_TEE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_TEE_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_TEE_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset TEE_late
+
+spriteset (spriteset_WRmz_135_TEE_late, "gfx/WRmz_135/WRmz_135_TEE_late_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_TEE_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_TEE_late_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_TEE_late_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_TEE_late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_TEE_late_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_TEE_late_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_TEE_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_TEE_late_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_TEE_late_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+
+//Spriteset IC79
+
+spriteset (spriteset_WRmz_135_IC79, "gfx/WRmz_135/WRmz_135_IC79_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_IC79, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_IC79_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_IC79_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_IC79, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_IC79_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_IC79_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_IC79, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_IC79_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_IC79_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+					
+//Spriteset Quickpick1
+
+spriteset (spriteset_WRmz_135_Quickpick1, "gfx/WRmz_135/WRmz_135_Quickpick1_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_Quickpick1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Quickpick1_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_Quickpick1_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_Quickpick1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Quickpick1_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_Quickpick1_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_Quickpick1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Quickpick1_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_Quickpick1_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+
+//Spriteset Quickpick2
+
+spriteset (spriteset_WRmz_135_Quickpick2, "gfx/WRmz_135/WRmz_135_Quickpick2_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_Quickpick2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Quickpick2_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_Quickpick2_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_Quickpick2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Quickpick2_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_Quickpick2_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_Quickpick2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Quickpick2_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_Quickpick2_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+					
+//Spriteset icalt
+
+spriteset (spriteset_WRmz_135_icalt, "gfx/WRmz_135/WRmz_135_icalt_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_icalt, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_icalt_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_icalt_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_icalt, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_icalt_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_icalt_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_icalt, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_icalt_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_icalt_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+					
+//Spriteset McTrain
+
+spriteset (spriteset_WRmz_135_McTrain, "gfx/WRmz_135/WRmz_135_McTrain_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_McTrain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_McTrain_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_McTrain_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_McTrain, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_McTrain_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_McTrain_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_McTrain, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_McTrain_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_McTrain_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+					
+//Spriteset Fern
+
+spriteset (spriteset_WRmz_135_Fern, "gfx/WRmz_135/WRmz_135_Fern_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_Fern, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Fern_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_Fern_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_Fern, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Fern_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_Fern_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_Fern, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Fern_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_Fern_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+					
+//Spriteset Regio
+
+spriteset (spriteset_WRmz_135_Regio, "gfx/WRmz_135/WRmz_135_Regio_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_Regio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Regio_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_Regio_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_Regio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Regio_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_Regio_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_Regio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Regio_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_Regio_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+					
+//Spriteset ICneu
+
+spriteset (spriteset_WRmz_135_ICneu, "gfx/WRmz_135/WRmz_135_ICneu_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_ICneu, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_ICneu_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_ICneu_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRmz_135_ICneu, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_ICneu_2x_32bpp.png", "gfx/WRmz_135/WRmz_135_ICneu_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRmz_135_ICneu, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_ICneu_4x_32bpp.png", "gfx/WRmz_135/WRmz_135_ICneu_4x_mask.png")
+					{template_158trains_4x(0,0)}
+																																		
+					
+//Spritesets purchase
+
+spriteset (spriteset_WRmz_135_TEE_purchase, "gfx/WRmz_135/WRmz_135_TEE_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_TEE_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_TEE_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_TEE_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WRmz_135_IC79_purchase, "gfx/WRmz_135/WRmz_135_IC79_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_IC79_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_IC79_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_IC79_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WRmz_135_Quickpick2_purchase, "gfx/WRmz_135/WRmz_135_Quickpick2_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_Quickpick2_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Quickpick2_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_Quickpick2_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WRmz_135_icalt_purchase, "gfx/WRmz_135/WRmz_135_icalt_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_icalt_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_icalt_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_icalt_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WRmz_135_Fern_purchase, "gfx/WRmz_135/WRmz_135_Fern_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_Fern_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Fern_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_Fern_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WRmz_135_Regio_purchase, "gfx/WRmz_135/WRmz_135_Regio_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_Regio_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_Regio_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_Regio_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WRmz_135_ICneu_purchase, "gfx/WRmz_135/WRmz_135_ICneu_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRmz_135_ICneu_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRmz_135/WRmz_135_ICneu_1x_32bpp.png", "gfx/WRmz_135/WRmz_135_ICneu_1x_mask.png")
+					{template_purchase(0,0)}
+
+																				
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_WRmz_135,current_year) {
+							   0 .. 1977 : spriteset_WRmz_135_TEE_purchase;
+							1978 .. 1985 : spriteset_WRmz_135_IC79_purchase;
+							1986 .. 1995 : spriteset_WRmz_135_icalt_purchase;
+							1996 .. 1999 : spriteset_WRmz_135_Fern_purchase;
+							2000 .. 2050 : spriteset_WRmz_135_ICneu_purchase;
+								spriteset_WRmz_135_ICneu_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_TEE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_TEE;
+							1: spritegroup_Arm_217_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_TEE_late, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_TEE_late;
+							1: spritegroup_Arm_217_loading;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_IC79, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_IC79;
+							1: spritegroup_Arm_217_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_Quickpick1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_Quickpick1;
+							1: spritegroup_Arm_217_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_Quickpick2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_Quickpick2;
+							1: spritegroup_Arm_217_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_icalt, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_icalt;
+							1: spritegroup_Arm_217_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_McTrain, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_McTrain;
+							1: spritegroup_Arm_217_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_Fern, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_Fern;
+							1: spritegroup_Arm_217_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_Regio, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_Regio;
+							1: spritegroup_Arm_217_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRmz_135_ICneu, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRmz_135_ICneu;
+							1: spritegroup_Arm_217_loading;}
+							   																			
+						switch(FEAT_TRAINS, SELF, switch_length_WRmz_135, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_WRmz_135, 1){
+							return 7800;}	
+							
+						switch (FEAT_TRAINS, SELF, random_choose_WRmz_135_TEE, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_WRmz_135_TEE;
+							   switch_spritestack_WRmz_135_TEE_late;}
+							   
+						switch (FEAT_TRAINS, SELF, random_choose_WRmz_135_Quickpick, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_WRmz_135_Quickpick1;
+							   switch_spritestack_WRmz_135_Quickpick2;}							   
+
+						switch (FEAT_TRAINS, SELF, random_choose_WRmz_135_icalt, switch_alternative_var_random_bits(1, 2)) {
+							1: switch_spritestack_WRmz_135_icalt;
+							2: switch_spritestack_WRmz_135_McTrain;
+							3: switch_spritestack_WRmz_135_icalt;
+							   switch_spritestack_WRmz_135_icalt;}
+													
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_WRmz_135,build_year) {
+							   0 .. 1977 : random_choose_WRmz_135_TEE;
+							1978 .. 1985 : switch_spritestack_WRmz_135_IC79;
+							1986 .. 1992 : switch_spritestack_WRmz_135_icalt;
+							1993 .. 1995 : random_choose_WRmz_135_icalt;
+							1996 .. 1999 : switch_spritestack_WRmz_135_Fern;
+							2000 .. 2050 : switch_spritestack_WRmz_135_ICneu;
+								switch_spritestack_WRmz_135_ICneu;}													   								
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_WRmz_135;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_build, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_BUILD, 5583)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1969,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_build;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_build;
+			purchase						: switch_purchase_WRmz_135;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}
+
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_WRmz_135,current_year) {
+							   0 .. 1977 : random_choose_WRmz_135_TEE;
+							1978 .. 1985 : switch_spritestack_WRmz_135_IC79;
+							1986 .. 1992 : switch_spritestack_WRmz_135_icalt;
+							1993 .. 1995 : random_choose_WRmz_135_icalt;
+							1996 .. 1999 : switch_spritestack_WRmz_135_Fern;
+							2000 .. 2050 : switch_spritestack_WRmz_135_ICneu;
+								switch_spritestack_WRmz_135_ICneu;}															   								
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_WRmz_135;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_current, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_CURRENT, 5584)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_CURRENT);
+						variant_group:					5583;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1969,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;													
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_current;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_current;
+			purchase						: switch_purchase_WRmz_135;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_TEE, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_WRmz_135_TEE;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_TEE, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_TEE;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_TEE, 5585)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_TEE);
+						variant_group:					5583;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1969,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_TEE;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_TEE;
+			purchase						: spriteset_WRmz_135_TEE_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_Quickpick, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_WRmz_135_Quickpick;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_Quickpick, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_QUICKPICK;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_QUICKPICK, 5586)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_QUICKPICK);
+						variant_group:					5583;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;																
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_Quickpick;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_Quickpick;
+			purchase						: spriteset_WRmz_135_Quickpick2_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_IC79, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_WRmz_135_IC79;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_IC79, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_IC79;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_IC79, 5587)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_IC79);
+						variant_group:					5583;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1978,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_IC79;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_IC79;
+			purchase						: spriteset_WRmz_135_IC79_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_icalt, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return random_choose_WRmz_135_icalt;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_icalt, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_ICALT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_ICALT, 5588)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_ICALT);
+						variant_group:					5583;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1978,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_icalt;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_icalt;
+			purchase						: spriteset_WRmz_135_icalt_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_Fern, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_WRmz_135_Fern;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_Fern, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_FERN;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_FERN, 5589)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_FERN);
+						variant_group:					5583;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_Fern;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_Fern;
+			purchase						: spriteset_WRmz_135_Fern_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_ICneu, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_WRmz_135_ICneu;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_ICneu, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_ICNEU;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_ICNEU, 5590)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_ICNEU);
+						variant_group:					5583;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_ICneu;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_ICneu;
+			purchase						: spriteset_WRmz_135_ICneu_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_WRmz_135_graphics_Regio, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     switch_spritestack_WRmz_135_Regio;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRmz_135_Regio, extra_callback_info1) {
+							1 ..2: return ITEM_WRMZ_135_REGIO;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRMZ_135_REGIO, 5591)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRMZ_135_REGIO);
+						variant_group:					5583;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2002,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					14;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRmz_135_graphics_Regio;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRmz_135;
+			articulated_part				: switch_articulated_WRmz_135_Regio;
+			purchase						: spriteset_WRmz_135_Regio_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_WRmz_135;				
+			 }
+		}

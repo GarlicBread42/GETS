@@ -1,0 +1,171 @@
+//##################################
+//###Kurckenberg Schienenzeppelin###
+//##################################
+
+//Spriteset
+
+spriteset(spriteset_Schienenzepp, "gfx\Schienenzepp/Schienenzepp_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_1x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_2x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_4x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_4x_mask.png")
+									{ template_158trains_4x(0, 0)}								
+
+//Spriteset Animation
+
+spriteset(spriteset_Schienenzepp_anim1, "gfx\Schienenzepp/Schienenzepp_anim1_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim1_1x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim1_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim1_2x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim1_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim1_4x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim1_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+spriteset(spriteset_Schienenzepp_anim2, "gfx\Schienenzepp/Schienenzepp_anim2_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim2_1x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim2_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim2_2x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim2_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim2_4x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim2_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+spriteset(spriteset_Schienenzepp_anim3, "gfx\Schienenzepp/Schienenzepp_anim3_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim3_1x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim3_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim3_2x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim3_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_anim3_4x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_anim3_4x_mask.png")
+									{ template_158trains_4x(0, 0)}	
+
+
+//Spriteset loading
+
+spriteset(spriteset_Schienenzepp_loading, "gfx\Schienenzepp/Schienenzepp_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_loading_1x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_loading_2x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_loading_4x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}				
+
+spritegroup spritegroup_Schienenzepp_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Schienenzepp_loading];}
+
+
+//Spriteset purchase
+
+spriteset(spriteset_Schienenzepp_purchase, "gfx\Schienenzepp/Schienenzepp_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_Schienenzepp_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Schienenzepp/Schienenzepp_1x_32bpp.png", "gfx\Schienenzepp/Schienenzepp_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+
+//Switches
+
+						switch (FEAT_TRAINS, SELF, switch_animation_Schienenzepp, motion_counter % 4) {
+								0: spriteset_Schienenzepp_anim1;
+								1: spriteset_Schienenzepp_anim2;
+								2: spriteset_Schienenzepp_anim1;
+								3: spriteset_Schienenzepp_anim3;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Schienenzepp, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+								0: spriteset_Schienenzepp;
+								1: switch_animation_Schienenzepp;
+								2: spritegroup_Schienenzepp_loading;}
+								
+					switch(FEAT_TRAINS, SELF, switch_coupling_Schienenzepp, vehicle_type_id) {
+							return string (STR_COUPLING_NOPE);}								
+													
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Schienenzepp, 1){
+							return 1250;}	
+
+						switch(FEAT_TRAINS, SELF, switch_Schienenzepp_length, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_Schienenzepp_graphics, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_Schienenzepp;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Schienenzepp, extra_callback_info1) {
+							1 .. 2: return ITEM_SCHIENENZEPP; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																				
+
+item (FEAT_TRAINS , ITEM_SCHIENENZEPP, 6000)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SCHIENENZEPP);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1930,01,01);
+						model_life: 					9;
+						vehicle_life: 					9;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 13 ;
+						loading_speed:					4;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							230 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						600 hp;
+						weight: 						20 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.12;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Schienenzepp_graphics;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ZEPP), 
+											  string(STR_DESC_ZEPP),);
+			length							: switch_Schienenzepp_length;	
+			articulated_part				: switch_articulated_Schienenzepp;
+			can_attach_wagon				: switch_coupling_Schienenzepp;			
+			purchase						: spriteset_Schienenzepp_purchase;
+			cost_factor						: 75;
+			running_cost_factor				: switch_running_cost_Schienenzepp;		
+			}
+	}

@@ -1,0 +1,328 @@
+//######################
+//###Henschel E 1200 ###
+//######################
+
+//Spriteset RAG
+
+spriteset(spriteset_E_1200_RAG, "gfx/E_1200/E_1200_RAG_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_E_1200_RAG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/E_1200/E_1200_RAG_1x_32bpp.png", "gfx/E_1200/E_1200_RAG_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_E_1200_RAG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/E_1200/E_1200_RAG_2x_32bpp.png", "gfx/E_1200/E_1200_RAG_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_E_1200_RAG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/E_1200/E_1200_RAG_4x_32bpp.png", "gfx/E_1200/E_1200_RAG_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+									
+//Spriteset RBH
+
+spriteset(spriteset_E_1200_RBH, "gfx/E_1200/E_1200_RBH_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_E_1200_RBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/E_1200/E_1200_RBH_1x_32bpp.png", "gfx/E_1200/E_1200_RBH_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_E_1200_RBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/E_1200/E_1200_RBH_2x_32bpp.png", "gfx/E_1200/E_1200_RBH_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_E_1200_RBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/E_1200/E_1200_RBH_4x_32bpp.png", "gfx/E_1200/E_1200_RBH_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+									
+//Spriteset Purchase
+spriteset(spriteset_E_1200_RAG_purchase, "gfx/E_1200/E_1200_RAG_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_E_1200_RAG_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/E_1200/E_1200_RAG_1x_32bpp.png", "gfx/E_1200/E_1200_RAG_1x_mask.png")
+									{ template_purchase(0, 0)}	
+
+spriteset(spriteset_E_1200_RBH_purchase, "gfx/E_1200/E_1200_RBH_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_E_1200_RBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/E_1200/E_1200_RBH_1x_32bpp.png", "gfx/E_1200/E_1200_RBH_1x_mask.png")
+									{ template_purchase(0, 0)}
+																					
+//Switches
+
+						 switch (FEAT_TRAINS,SELF, switch_E_1200_purchase,current_year){
+							   0 .. 2003: spriteset_E_1200_RAG_purchase;
+							2002 .. 2100: spriteset_E_1200_RBH_purchase;					 					 
+								spriteset_E_1200_RBH_purchase;} 																												
+					
+						switch(FEAT_TRAINS, SELF, switch_length_E_1200, position_in_vehid_chain % 3) {
+							0: 3;
+							1: 3;
+							2: 3;}
+						
+						switch(FEAT_TRAINS, SELF, switch_FX_E_1200, position_in_vehid_chain % 3) {
+						    0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							1: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -3, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}						
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_E_1200, 1){
+						return 950;}
+	
+						 switch (FEAT_TRAINS,SELF, switch_E_1200_build_year,build_year){
+							   0 .. 2003: spriteset_E_1200_RAG;
+							2002 .. 2100: spriteset_E_1200_RBH;					 					 
+								spriteset_E_1200_RBH;}  	
+								
+						switch(FEAT_TRAINS, SELF, switch_E_1200_graphics_build, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_E_1200_build_year;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_E_1200_build, extra_callback_info1) {
+							1 .. 2: return ITEM_E_1200_BUILD; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_E_1200_BUILD, 1996)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_E_1200_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1976,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						2040 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_E_1200_graphics_build;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
+			length							: switch_length_E_1200;
+			articulated_part				: switch_articulated_E_1200_build;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_E_1200_purchase;
+			cost_factor						: 50;
+			running_cost_factor				: switch_running_cost_E_1200;
+			visual_effect_and_powered		: switch_FX_E_1200;
+			}
+	}	
+
+						 switch (FEAT_TRAINS,SELF, switch_E_1200_current_year,current_year){
+							   0 .. 2003: spriteset_E_1200_RAG;
+							2002 .. 2100: spriteset_E_1200_RBH;					 					 
+								spriteset_E_1200_RBH;} 	
+								
+						switch(FEAT_TRAINS, SELF, switch_E_1200_graphics_current, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_E_1200_current_year;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_E_1200_current, extra_callback_info1) {
+							1 .. 2: return ITEM_E_1200_CURRENT; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_E_1200_CURRENT, 1997)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_E_1200_CURRENT);
+						variant_group:					1996;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1976,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						2040 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_E_1200_graphics_current;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
+			length							: switch_length_E_1200;
+			articulated_part				: switch_articulated_E_1200_current;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: switch_E_1200_purchase;
+			cost_factor						: 50;
+			running_cost_factor				: switch_running_cost_E_1200;
+			visual_effect_and_powered		: switch_FX_E_1200;
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_E_1200_graphics_RAG, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_E_1200_RAG;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_E_1200_RAG, extra_callback_info1) {
+							1 .. 2: return ITEM_E_1200_RAG; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_E_1200_RAG, 1998)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_E_1200_RAG);
+						variant_group:					1996;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1976,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						2040 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;													
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_E_1200_graphics_RAG;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
+			length							: switch_length_E_1200;
+			articulated_part				: switch_articulated_E_1200_RAG;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_E_1200_RAG_purchase;
+			cost_factor						: 50;
+			running_cost_factor				: switch_running_cost_E_1200;
+			visual_effect_and_powered		: switch_FX_E_1200;
+			}
+	}	
+
+
+						switch(FEAT_TRAINS, SELF, switch_E_1200_graphics_RBH, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     spriteset_E_1200_RBH;
+							2:	   spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_E_1200_RBH, extra_callback_info1) {
+							1 .. 2: return ITEM_E_1200_RBH; 				
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																
+item (FEAT_TRAINS , ITEM_E_1200_RBH, 1999)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_E_1200_RBH);
+						variant_group:					1996;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);								
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2004,01,01);
+						model_life: 					30;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;
+						power:  						2040 hp;
+						weight: 						88 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.375;
+						length: 						8;											
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_E_1200_graphics_RBH;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_GOODS),);
+			length							: switch_length_E_1200;
+			articulated_part				: switch_articulated_E_1200_RBH;
+			purchase_cargo_capacity		    : 0 ;
+			cargo_capacity	                : return 0 ;
+			purchase						: spriteset_E_1200_RBH_purchase;
+			cost_factor						: 50;
+			running_cost_factor				: switch_running_cost_E_1200;
+			visual_effect_and_powered		: switch_FX_E_1200;
+			}
+	}

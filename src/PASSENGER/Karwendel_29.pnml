@@ -168,9 +168,14 @@ spriteset (spriteset_Karwendel_29_purchase3, "gfx/Karwendel_29/Karwendel_29_DB_C
 						0: 4;
 						1: 5;
 						2: 4;}
-						
-					switch(FEAT_TRAINS,PARENT,switch_running_cost_Karwendel_29, 1){
-						return 2225;}
+
+					switch (FEAT_TRAINS, PARENT, switch_running_cost_Karwendel_29,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 2225;}	
+							
+					switch (FEAT_TRAINS, PARENT, switch_cargo_aging_Karwendel_29,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}														
 
 					switch(FEAT_TRAINS, SELF, switch_Karwendel_29_graphics_build, position_in_vehid_chain  % 3) {
 							0:     spriteset_empty;
@@ -225,7 +230,9 @@ item (FEAT_TRAINS , ITEM_KARWENDEL_29_BUILD, 7615)
 			articulated_part				: switch_articulated_Karwendel_29_build;
 			purchase						: switch_purchase_Karwendel_29;
 			cost_factor						: 450;
-			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			running_cost_factor				: switch_running_cost_Karwendel_29;
+			purchase_running_cost_factor	: 2225;
+			cargo_age_period				: switch_cargo_aging_Karwendel_29;					
 			 }
 		}	
 
@@ -283,7 +290,9 @@ item (FEAT_TRAINS , ITEM_KARWENDEL_29_CURRENT, 7616)
 			articulated_part				: switch_articulated_Karwendel_29_current;
 			purchase						: switch_purchase_Karwendel_29;
 			cost_factor						: 450;
-			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			running_cost_factor				: switch_running_cost_Karwendel_29;	
+			purchase_running_cost_factor	: 2225;
+			cargo_age_period				: switch_cargo_aging_Karwendel_29;			
 			 }
 		}	
 
@@ -342,7 +351,9 @@ item (FEAT_TRAINS , ITEM_KARWENDEL_29_DRG_BLAU, 7617)
 			articulated_part				: switch_articulated_Karwendel_29_DRG_blau;
 			purchase						: spriteset_Karwendel_29_purchase1;
 			cost_factor						: 450;
-			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			running_cost_factor				: switch_running_cost_Karwendel_29;
+			purchase_running_cost_factor	: 2225;	
+			cargo_age_period				: switch_cargo_aging_Karwendel_29;			
 			 }
 		}	
 
@@ -401,7 +412,9 @@ item (FEAT_TRAINS , ITEM_KARWENDEL_29_DRG_BEIGE, 7618)
 			articulated_part				: switch_articulated_Karwendel_29_DRG_beige;
 			purchase						: spriteset_Karwendel_29_purchase2;
 			cost_factor						: 450;
-			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			running_cost_factor				: switch_running_cost_Karwendel_29;
+			purchase_running_cost_factor	: 2225;	
+			cargo_age_period				: switch_cargo_aging_Karwendel_29;			
 			 }
 		}
 
@@ -459,6 +472,8 @@ item (FEAT_TRAINS , ITEM_KARWENDEL_29_DB, 7619)
 			articulated_part				: switch_articulated_Karwendel_29_DB;
 			purchase						: spriteset_Karwendel_29_purchase3;
 			cost_factor						: 450;
-			running_cost_factor				: switch_running_cost_Karwendel_29;				
+			running_cost_factor				: switch_running_cost_Karwendel_29;
+			purchase_running_cost_factor	: 2225;
+			cargo_age_period				: switch_cargo_aging_Karwendel_29;				
 			 }
 		}

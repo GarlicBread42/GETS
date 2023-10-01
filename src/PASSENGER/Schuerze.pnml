@@ -313,9 +313,14 @@ spriteset (spriteset_Schuerze_purchase_DB_gruen, "gfx/Schuerze/Schuerze_DB_gruen
 							0: 4;
 							1: 5;
 							2: 4;}
-						
-						switch(FEAT_TRAINS,PARENT,switch_running_cost_Schuerze, 1){
-							return 2050;}
+							
+						switch (FEAT_TRAINS, PARENT, switch_running_cost_Schuerze,  switch_check_Restaurant_0()) {
+							1: return 0;
+							0: return 2050;}	
+							
+						switch (FEAT_TRAINS, PARENT, switch_cargo_aging_Schuerze,  switch_check_Restaurant_0()) {
+							1: return 233;
+							0: return 185;}							
 							
 						switch(FEAT_TRAINS, SELF, switch_Schuerze_graphics_build, position_in_vehid_chain  % 3) {
 							0:     spriteset_empty;
@@ -370,7 +375,9 @@ item (FEAT_TRAINS , ITEM_SCHUERZE_BUILD, 7630)
 			articulated_part				: switch_articulated_Schuerze_build;
 			purchase						: switch_Schuerze_purchase;
 			cost_factor						: 410;
-			running_cost_factor				: switch_running_cost_Schuerze;				
+			running_cost_factor				: switch_running_cost_Schuerze;
+			purchase_running_cost_factor	: 2050;
+			cargo_age_period				: switch_cargo_aging_Schuerze;				
 			 }
 		}	
 
@@ -428,7 +435,9 @@ item (FEAT_TRAINS , ITEM_SCHUERZE_CURRENT, 7631)
 			articulated_part				: switch_articulated_Schuerze_current;
 			purchase						: switch_Schuerze_purchase;
 			cost_factor						: 410;
-			running_cost_factor				: switch_running_cost_Schuerze;				
+			running_cost_factor				: switch_running_cost_Schuerze;
+			purchase_running_cost_factor	: 2050;	
+			cargo_age_period				: switch_cargo_aging_Schuerze;			
 			 }
 		}	
 
@@ -486,7 +495,9 @@ item (FEAT_TRAINS , ITEM_SCHUERZE_DRG, 7632)
 			articulated_part				: switch_articulated_Schuerze_DRG;
 			purchase						: spriteset_Schuerze_purchase_DRG;
 			cost_factor						: 410;
-			running_cost_factor				: switch_running_cost_Schuerze;				
+			running_cost_factor				: switch_running_cost_Schuerze;
+			purchase_running_cost_factor	: 2050;
+			cargo_age_period				: switch_cargo_aging_Schuerze;				
 			 }
 		}	
 
@@ -544,7 +555,9 @@ item (FEAT_TRAINS , ITEM_SCHUERZE_DB_SCHRIFT, 7633)
 			articulated_part				: switch_articulated_Schuerze_DB_Schrift;
 			purchase						: spriteset_Schuerze_purchase_DB_Schrift;
 			cost_factor						: 410;
-			running_cost_factor				: switch_running_cost_Schuerze;				
+			running_cost_factor				: switch_running_cost_Schuerze;
+			purchase_running_cost_factor	: 2050;
+			cargo_age_period				: switch_cargo_aging_Schuerze;				
 			 }
 		}
 
@@ -602,7 +615,9 @@ item (FEAT_TRAINS , ITEM_SCHUERZE_DB_BLAU, 7634)
 			articulated_part				: switch_articulated_Schuerze_DB_blau;
 			purchase						: spriteset_Schuerze_purchase_DB_blau;
 			cost_factor						: 410;
-			running_cost_factor				: switch_running_cost_Schuerze;				
+			running_cost_factor				: switch_running_cost_Schuerze;
+			purchase_running_cost_factor	: 2050;	
+			cargo_age_period				: switch_cargo_aging_Schuerze;			
 			 }
 		}
 
@@ -660,6 +675,8 @@ item (FEAT_TRAINS , ITEM_SCHUERZE_DB_GRUEN, 7635)
 			articulated_part				: switch_articulated_Schuerze_DB_gruen;
 			purchase						: spriteset_Schuerze_purchase_DB_gruen;
 			cost_factor						: 410;
-			running_cost_factor				: switch_running_cost_Schuerze;				
+			running_cost_factor				: switch_running_cost_Schuerze;	
+			purchase_running_cost_factor	: 2050;
+			cargo_age_period				: switch_cargo_aging_Schuerze;			
 			 }
 		}

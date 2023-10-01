@@ -42,7 +42,7 @@ spriteset(spriteset_V_200_1_purchase2, "gfx/V_200_1/BR_V_200_1_ozeanblau_1x_8bpp
 //Switches	
 
 					switch (FEAT_TRAINS,SELF, switch_V_200_1_purchase,current_year){
-						    0 .. 1964: spriteset_V_200_1_purchase1;
+						    0 .. 1974: spriteset_V_200_1_purchase1;
 						 1975 .. 2050: spriteset_V_200_1_purchase2;							 					 
 						 spriteset_V_200_1_purchase2;}
 

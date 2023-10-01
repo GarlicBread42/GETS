@@ -1,0 +1,340 @@
+//########################################
+//###WR6ü 1907 Preussischer Speisewagen###
+//########################################
+
+//Spritesets
+				
+
+//Spriteset DRG
+
+spriteset (spriteset_WRue_28_DRG, "gfx/WRue_28/WRue_28_DRG_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRue_28_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_DRG_1x_32bpp.png", "gfx/WRue_28/WRue_28_DRG_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRue_28_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_DRG_2x_32bpp.png", "gfx/WRue_28/WRue_28_DRG_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRue_28_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_DRG_4x_32bpp.png", "gfx/WRue_28/WRue_28_DRG_4x_mask.png")
+					{template_148trains_4x(0,0)}
+
+
+//Spriteset DB
+
+spriteset (spriteset_WRue_28_DB, "gfx/WRue_28/WRue_28_DB_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRue_28_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_DB_1x_32bpp.png", "gfx/WRue_28/WRue_28_DB_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRue_28_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_DB_2x_32bpp.png", "gfx/WRue_28/WRue_28_DB_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRue_28_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_DB_4x_32bpp.png", "gfx/WRue_28/WRue_28_DB_4x_mask.png")
+					{template_148trains_4x(0,0)}
+
+			
+//Spriteset loading				
+				
+spriteset (spriteset_WRue_28_loading, "gfx/WRue_28/WRue_28_loading_1x_8bpp.png")
+					{ template_148trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_WRue_28_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_loading_1x_32bpp.png", "gfx/WRue_28/WRue_28_loading_1x_mask.png")
+					{template_148trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_WRue_28_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_loading_2x_32bpp.png", "gfx/WRue_28/WRue_28_loading_2x_mask.png")
+					{template_148trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_WRue_28_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_loading_4x_32bpp.png", "gfx/WRue_28/WRue_28_loading_4x_mask.png")
+					{template_148trains_4x(0,0)}	
+						
+spritegroup spritegroup_WRue_28_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_WRue_28_loading];}
+			
+			
+								
+//Spritesets purchase				
+
+spriteset (spriteset_WRue_28_purchase_DRG, "gfx/WRue_28/WRue_28_DRG_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRue_28_purchase_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_DRG_1x_32bpp.png", "gfx/WRue_28/WRue_28_DRG_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_WRue_28_purchase_DB, "gfx/WRue_28/WRue_28_DB_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_WRue_28_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/WRue_28/WRue_28_DB_1x_32bpp.png", "gfx/WRue_28/WRue_28_DB_1x_mask.png")
+					{template_purchase(0,0)}
+											
+//Switches
+
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_WRue_28,current_year) {
+						       0 .. 1945 : spriteset_WRue_28_purchase_DRG;
+							1946 .. 2050 : spriteset_WRue_28_purchase_DB;
+								spriteset_WRue_28_purchase_DB;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRue_28_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRue_28_DRG;
+							1: spritegroup_WRue_28_loading;}
+														
+						switch(FEAT_TRAINS, SELF, switch_spritestack_WRue_28_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_WRue_28_DB;
+							1: spritegroup_WRue_28_loading;}											
+																			
+						switch(FEAT_TRAINS, SELF, switch_length_WRue_28, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 6;
+							2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_WRue_28, 1){
+							return 8400;}	
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_WRue_28,build_year) {
+							   0 .. 1945 : switch_spritestack_WRue_28_DRG;
+							1946 .. 2050 : switch_spritestack_WRue_28_DB;
+								switch_spritestack_WRue_28_DB;}		
+
+						switch(FEAT_TRAINS, SELF, switch_WRue_28_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_WRue_28;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRue_28_build, extra_callback_info1) {
+							1 ..2: return ITEM_WRUE_28_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRUE_28_BUILD, 5530)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRUE_28_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						54 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRue_28_graphics_build;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRue_28;
+			articulated_part				: switch_articulated_WRue_28_build;
+			purchase						: switch_purchase_WRue_28;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_WRue_28;				
+			 }
+		}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_WRue_28,current_year) {
+							   0 .. 1919 : switch_spritestack_WRue_28_DRG;
+							1920 .. 2050 : switch_spritestack_WRue_28_DB;
+								switch_spritestack_WRue_28_DB;}		
+
+						switch(FEAT_TRAINS, SELF, switch_WRue_28_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_WRue_28;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRue_28_current, extra_callback_info1) {
+							1 ..2: return ITEM_WRUE_28_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRUE_28_CURRENT, 5531)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRUE_28_CURRENT);
+						variant_group:					5530;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						54 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRue_28_graphics_current;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRue_28;
+			articulated_part				: switch_articulated_WRue_28_current;
+			purchase						: switch_purchase_WRue_28;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_WRue_28;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_WRue_28_graphics_DRG, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_WRue_28_DRG;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRue_28_DRG, extra_callback_info1) {
+							1 ..2: return ITEM_WRUE_28_DRG;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRUE_28_DRG, 5532)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRUE_28_DRG);
+						variant_group:					5530;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						54 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRue_28_graphics_DRG;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRue_28;
+			articulated_part				: switch_articulated_WRue_28_DRG;
+			purchase						: spriteset_WRue_28_purchase_DRG;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_WRue_28;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_WRue_28_graphics_DB, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_WRue_28_DB;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_WRue_28_DB, extra_callback_info1) {
+							1 ..2: return ITEM_WRUE_28_DB;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_WRUE_28_DB, 5533)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_WRUE_28_DB);
+						variant_group:					5530;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					12;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					9;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						54 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					15;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_WRue_28_graphics_DB;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_WRue_28;
+			articulated_part				: switch_articulated_WRue_28_DB;
+			purchase						: spriteset_WRue_28_purchase_DB;
+			cost_factor						: 820;
+			running_cost_factor				: switch_running_cost_WRue_28;				
+			 }
+		}

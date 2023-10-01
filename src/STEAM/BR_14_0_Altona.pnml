@@ -116,8 +116,8 @@ spriteset(spriteset_BR_14_0_Altona_purchase_anim, "gfx/BR_14_0/BR_14_0_Altona_an
 							2: 3;
 							3: 7;}
 							
-						switch(FEAT_TRAINS, SELF, switch_FX_BR_14_0_Altona, position_in_vehid_chain % 2) {
-							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -4, DISABLE_WAGON_POWER);
+						switch(FEAT_TRAINS, SELF, switch_FX_BR_14_0_Altona, position_in_vehid_chain % 4) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -1, DISABLE_WAGON_POWER);
 							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
 													
 						switch (FEAT_TRAINS, PARENT, switch_running_cost_BR_14_0_Altona, 1) {

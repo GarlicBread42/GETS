@@ -1,0 +1,439 @@
+//####################
+//###ETA 150/BR 515###
+//####################
+
+
+spriteset(spriteset_BR_515_altrot, "gfx/BR_515/BR_515_altrot_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_altrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_altrot_1x_32bpp.png", "gfx/BR_515/BR_515_altrot_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_altrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_altrot_2x_32bpp.png", "gfx/BR_515/BR_515_altrot_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_altrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_altrot_4x_32bpp.png", "gfx/BR_515/BR_515_altrot_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+									
+spriteset(spriteset_BR_515_ozeanblau, "gfx/BR_515/BR_515_ozeanblau_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_ozeanblau, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_ozeanblau_1x_32bpp.png", "gfx/BR_515/BR_515_ozeanblau_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_ozeanblau, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_ozeanblau_2x_32bpp.png", "gfx/BR_515/BR_515_ozeanblau_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_ozeanblau, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_ozeanblau_4x_32bpp.png", "gfx/BR_515/BR_515_ozeanblau_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+
+spriteset(spriteset_BR_515_Nokia, "gfx/BR_515/BR_515_Nokia_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_Nokia, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_Nokia_1x_32bpp.png", "gfx/BR_515/BR_515_Nokia_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_Nokia, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_Nokia_2x_32bpp.png", "gfx/BR_515/BR_515_Nokia_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_Nokia, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_Nokia_4x_32bpp.png", "gfx/BR_515/BR_515_Nokia_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+
+
+//Spriteset loading
+
+spriteset(spriteset_BR_515_loading, "gfx/BR_515/BR_515_loading_1x_8bpp.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_loading_1x_32bpp.png", "gfx/BR_515/BR_515_loading_1x_mask.png")
+									{ template_158trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_loading_2x_32bpp.png", "gfx/BR_515/BR_515_loading_2x_mask.png")
+									{ template_158trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_loading_4x_32bpp.png", "gfx/BR_515/BR_515_loading_4x_mask.png")
+									{ template_158trains_4x(0, 0)}
+
+															
+spritegroup spritegroup_BR_515_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BR_515_loading];}		
+
+
+//Spritesets purchase
+
+spriteset(spriteset_BR_515_altrot_purchase, "gfx/BR_515/BR_515_altrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_altrot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_altrot_1x_32bpp.png", "gfx/BR_515/BR_515_altrot_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_515_ozeanblau_purchase, "gfx/BR_515/BR_515_ozeanblau_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_ozeanblau_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_ozeanblau_1x_32bpp.png", "gfx/BR_515/BR_515_ozeanblau_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BR_515_Nokia_purchase, "gfx/BR_515/BR_515_Nokia_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_515_Nokia_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_515/BR_515_Nokia_1x_32bpp.png", "gfx/BR_515/BR_515_Nokia_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+		
+//Switches		
+
+						switch (FEAT_TRAINS, SELF, switch_purchase_BR_515, current_year){
+							1900 .. 1974 : spriteset_BR_515_altrot_purchase;
+							1975 .. 1992 : spriteset_BR_515_ozeanblau_purchase;
+							1993 .. 2100 : spriteset_BR_515_Nokia_purchase;													
+							spriteset_BR_515_Nokia_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_515_altrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_515_altrot;
+							1: spritegroup_BR_515_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_515_ozeanblau, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_515_ozeanblau;
+							1: spritegroup_BR_515_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_515_Nokia, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_515_Nokia;
+							1: spritegroup_BR_515_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_BR_515, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+							
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_515, 1){
+							return 800;}							
+
+						switch (FEAT_TRAINS, SELF, switch_build_year_BR_515, build_year){
+							1900 .. 1974 : switch_spritestack_BR_515_altrot;
+							1975 .. 1992 : switch_spritestack_BR_515_ozeanblau;
+							1993 .. 2100 : switch_spritestack_BR_515_Nokia;													
+								switch_spritestack_BR_515_Nokia;}
+							
+						switch(FEAT_TRAINS, SELF, switch_BR_515_graphics_build, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_build_year_BR_515;
+							2:     spriteset_empty;}		
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_515_build, extra_callback_info1) {
+							1 .. 2 : return ITEM_BR_515_BUILD; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																						
+item (FEAT_TRAINS , ITEM_BR_515_BUILD, 3916)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_515_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1954,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 29 ;
+						loading_speed:					6;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;					
+						running_cost_factor: 			90;
+						
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						272 hp;
+						weight: 						56 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.21;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_515_graphics_build;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_BR_515;
+			articulated_part				: switch_articulated_BR_515_build;
+			purchase						: switch_purchase_BR_515;			
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BR_515;							
+			} }
+
+
+						switch (FEAT_TRAINS, SELF, switch_current_year_BR_515, current_year){
+							1900 .. 1974 : switch_spritestack_BR_515_altrot;
+							1975 .. 1992 : switch_spritestack_BR_515_ozeanblau;
+							1993 .. 2100 : switch_spritestack_BR_515_Nokia;													
+								switch_spritestack_BR_515_Nokia;}
+							
+						switch(FEAT_TRAINS, SELF, switch_BR_515_graphics_current, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_current_year_BR_515;
+							2:     spriteset_empty;}		
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_515_current, extra_callback_info1) {
+							1 .. 2 : return ITEM_BR_515_CURRENT; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																						
+item (FEAT_TRAINS , ITEM_BR_515_CURRENT, 3917)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_515_CURRENT);
+						variant_group:					3916;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1954,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 29 ;
+						loading_speed:					6;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;					
+						running_cost_factor: 			90;
+						
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						272 hp;
+						weight: 						56 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.21;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_515_graphics_current;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_BR_515;
+			articulated_part				: switch_articulated_BR_515_current;
+			purchase						: switch_purchase_BR_515;			
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BR_515;							
+			} }
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_515_graphics_altrot, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_515_altrot;
+							2:     spriteset_empty;}		
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_515_altrot, extra_callback_info1) {
+							1 .. 2 : return ITEM_BR_515_ALTROT; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																						
+item (FEAT_TRAINS , ITEM_BR_515_ALTROT, 3918)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_515_ALTROT);
+						variant_group:					3916;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1954,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 29 ;
+						loading_speed:					6;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;					
+						running_cost_factor: 			90;
+						
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						272 hp;
+						weight: 						56 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.21;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_515_graphics_altrot;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_BR_515;
+			articulated_part				: switch_articulated_BR_515_altrot;
+			purchase						: spriteset_BR_515_altrot_purchase;			
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BR_515;							
+			} }
+
+						switch(FEAT_TRAINS, SELF, switch_BR_515_graphics_ozeanblau, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_515_ozeanblau;
+							2:     spriteset_empty;}		
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_515_ozeanblau, extra_callback_info1) {
+							1 .. 2 : return ITEM_BR_515_OZEANBLAU; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																						
+item (FEAT_TRAINS , ITEM_BR_515_OZEANBLAU, 3919)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_515_OZEANBLAU);
+						variant_group:					3916;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					19;
+						vehicle_life: 					40;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 29 ;
+						loading_speed:					6;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;					
+						running_cost_factor: 			90;
+						
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						272 hp;
+						weight: 						56 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.21;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_515_graphics_ozeanblau;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_BR_515;
+			articulated_part				: switch_articulated_BR_515_ozeanblau;
+			purchase						: spriteset_BR_515_ozeanblau_purchase;			
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BR_515;							
+			} }
+
+
+						switch(FEAT_TRAINS, SELF, switch_BR_515_graphics_Nokia, position_in_vehid_chain % 3) {
+							0:	   spriteset_empty;
+							1:     return switch_spritestack_BR_515_Nokia;
+							2:     spriteset_empty;}		
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_515_Nokia, extra_callback_info1) {
+							1 .. 2 : return ITEM_BR_515_NOKIA; 
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																						
+item (FEAT_TRAINS , ITEM_BR_515_NOKIA, 3920)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_515_NOKIA);
+						variant_group:					3916;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1975,01,01);
+						model_life: 					19;
+						vehicle_life: 					40;
+						retire_early: 					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 29 ;
+						loading_speed:					6;
+						cost_factor: 					108;
+						running_cost_base:              RUNNING_COST_STEAM;					
+						running_cost_factor: 			90;
+						
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							100 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						272 hp;
+						weight: 						56 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.21;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_515_graphics_Nokia;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_BEMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_length_BR_515;
+			articulated_part				: switch_articulated_BR_515_Nokia;
+			purchase						: spriteset_BR_515_Nokia_purchase;			
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BR_515;							
+			} }

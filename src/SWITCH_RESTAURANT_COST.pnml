@@ -1,0 +1,156 @@
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_38, [count_veh_id(5582) > 0]) {
+            1: return 1;
+           return 0;}
+
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_37, [count_veh_id(5581) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_38;} 
+
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_36, [count_veh_id(5580) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_37;} 
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_35, [count_veh_id(5579) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_36;} 
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_34, [count_veh_id(5578) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_35;} 
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_33, [count_veh_id(5577) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_34;} 
+                      
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_32, [count_veh_id(5570) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_33;}                       
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_31, [count_veh_id(5569) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_32;}           
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_30, [count_veh_id(5568) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_31;}           
+           
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_29, [count_veh_id(5567) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_30;}          
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_28, [count_veh_id(5565) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_29;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_27, [count_veh_id(5564) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_28;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_26, [count_veh_id(5563) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_27;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_25, [count_veh_id(5562) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_26;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_24, [count_veh_id(5561) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_25;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_23, [count_veh_id(5554) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_24;}
+                                                                  
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_22, [count_veh_id(5553) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_23;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_21, [count_veh_id(5552) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_22;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_20, [count_veh_id(5551) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_21;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_19, [count_veh_id(5550) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_20;}
+           
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_18, [count_veh_id(5544) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_19;}                                                       
+  
+      switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_17, [count_veh_id(5543) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_18;} 
+
+
+      switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_16, [count_veh_id(5542) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_17;} 
+ 
+      switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_15, [count_veh_id(5541) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_16;} 
+                                 
+      switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_14, [count_veh_id(5540) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_15;} 
+ 
+      switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_13, [count_veh_id(5539) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_14;} 
+ 
+      switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_12, [count_veh_id(5538) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_13;} 
+ 
+      switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_11, [count_veh_id(5533) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_12;} 
+           
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_10, [count_veh_id(5532) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_11;} 
+           
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_9, [count_veh_id(5531) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_10;}     
+                             
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_8, [count_veh_id(5530) > 0]) {
+            1: return 1;
+          return switch_check_Restaurant_9;} 
+           
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_7, [count_veh_id(5514) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_8;} 
+                                 
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_6, [count_veh_id(5513) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_7;} 
+           
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_5, [count_veh_id(5512) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_6;} 
+           
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_4, [count_veh_id(5511) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_5;}            
+           
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_3, [count_veh_id(5506) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_4;}                                  
+ 
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_2, [count_veh_id(5505) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_3;} 
+                     
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_1, [count_veh_id(5504) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_2;}           
+            				
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_0, [count_veh_id(5503) > 0]) {
+            1: return 1;
+            return switch_check_Restaurant_1;}	

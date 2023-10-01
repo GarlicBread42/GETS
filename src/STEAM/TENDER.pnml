@@ -476,6 +476,19 @@ spriteset(spriteset_Tender_22T26_FRANCOCROSTI, "gfx/Tender_22T26/Tender_22T26_FR
 //### Wannentender ###
 //####################
 
+//DRG grau
+
+spriteset(spriteset_Wannentender_DRG, "gfx\Wannentender/Wannentender_DRG_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_1x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_2x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_4x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_4x_mask.png")
+									{ template_58trains_4x(0, 0)}																		
 
 //DB-Version
 
@@ -490,3 +503,35 @@ alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BP
 				
 alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DB_4x_32bpp.png", "gfx\Wannentender/Wannentender_DB_4x_mask.png")
 									{ template_58trains_4x(0, 0)}																		
+
+//#########################
+//### Steifrahmentender ###
+//#########################
+
+//DRG grau
+
+spriteset(spriteset_Steifrahmentender_DRG, "gfx\Steifrahmentender/Steifrahmentender_DRG_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_1x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_2x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_4x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_4x_mask.png")
+									{ template_58trains_4x(0, 0)}	
+									
+//DB schwarz
+
+spriteset(spriteset_Steifrahmentender_DB, "gfx\Steifrahmentender/Steifrahmentender_DB_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_1x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_2x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_4x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_4x_mask.png")
+									{ template_58trains_4x(0, 0)}									

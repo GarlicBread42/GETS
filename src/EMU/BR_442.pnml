@@ -185,7 +185,35 @@ spritegroup spritegroup_BR_442_front_Cantus_loading
 spritegroup spritegroup_BR_442_front_Cantus_loading_REV
 		{	loaded: 	[spriteset_empty];
 			loading: 	[spriteset_BR_442_front_Cantus_loading_REV];}	
-			
+
+
+//Spriteset front National Express
+
+spriteset(spriteset_BR_442_front_natex, "gfx\BR_442/BR_442_front_natex_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_natex, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_natex_1x_32bpp.png", "gfx\BR_442/BR_442_front_natex_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_natex, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_natex_2x_32bpp.png", "gfx\BR_442/BR_442_front_natex_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_natex, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_natex_4x_32bpp.png", "gfx\BR_442/BR_442_front_natex_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_front_natex_REV, "gfx\BR_442/BR_442_front_natex_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_natex_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_natex_1x_32bpp.png", "gfx\BR_442/BR_442_front_natex_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_natex_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_natex_2x_32bpp.png", "gfx\BR_442/BR_442_front_natex_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_front_natex_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_front_natex_4x_32bpp.png", "gfx\BR_442/BR_442_front_natex_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}
+									
+												
 			
 //Spriteset back_verkehrsrot 
 
@@ -370,7 +398,33 @@ spritegroup spritegroup_BR_442_back_Cantus_loading
 spritegroup spritegroup_BR_442_back_Cantus_loading_REV
 		{	loaded: 	[spriteset_empty];
 			loading: 	[spriteset_BR_442_back_Cantus_loading_REV];}
-			
+
+
+//Spriteset back National Express
+
+spriteset(spriteset_BR_442_back_natex, "gfx\BR_442/BR_442_back_natex_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_natex, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_natex_1x_32bpp.png", "gfx\BR_442/BR_442_back_natex_1x_mask.png")
+									{ template_128trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_natex, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_natex_2x_32bpp.png", "gfx\BR_442/BR_442_back_natex_2x_mask.png")
+									{ template_128trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_natex, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_natex_4x_32bpp.png", "gfx\BR_442/BR_442_back_natex_4x_mask.png")
+									{ template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_back_natex_REV, "gfx\BR_442/BR_442_back_natex_1x_8bpp.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_natex_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_natex_1x_32bpp.png", "gfx\BR_442/BR_442_back_natex_1x_mask.png")
+									{ template_128trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_natex_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_natex_2x_32bpp.png", "gfx\BR_442/BR_442_back_natex_2x_mask.png")
+									{ template_128trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_back_natex_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_natex_4x_32bpp.png", "gfx\BR_442/BR_442_back_natex_4x_mask.png")
+									{ template_128trains_REV_4x(0, 0)}			
 						
 //Spriteset middle Bottom A2
 
@@ -864,6 +918,59 @@ spritegroup spritegroup_BR_442_middle_Cantus_loading_REV
 		{	loaded: 	[spriteset_empty];
 			loading: 	[spriteset_BR_442_middle_Cantus_loading_REV];}												
 
+//Spriteset middle A National Express
+
+spriteset(spriteset_BR_442_middle_A_natex, "gfx\BR_442/BR_442_middle_A_natex_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_A_natex, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_A_natex_1x_32bpp.png", "gfx\BR_442/BR_442_middle_A_natex_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_A_natex, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_A_natex_2x_32bpp.png", "gfx\BR_442/BR_442_middle_A_natex_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_A_natex, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_A_natex_4x_32bpp.png", "gfx\BR_442/BR_442_middle_A_natex_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_A_natex_REV, "gfx\BR_442/BR_442_middle_A_natex_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_A_natex_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_A_natex_1x_32bpp.png", "gfx\BR_442/BR_442_middle_A_natex_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_A_natex_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_A_natex_2x_32bpp.png", "gfx\BR_442/BR_442_middle_A_natex_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_A_natex_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_A_natex_4x_32bpp.png", "gfx\BR_442/BR_442_middle_A_natex_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}
+
+
+//Spriteset middle B National Express
+
+spriteset(spriteset_BR_442_middle_B_natex, "gfx\BR_442/BR_442_middle_B_natex_1x_8bpp.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_B_natex, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_B_natex_1x_32bpp.png", "gfx\BR_442/BR_442_middle_B_natex_1x_mask.png")
+									{ template_98trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_B_natex, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_B_natex_2x_32bpp.png", "gfx\BR_442/BR_442_middle_B_natex_2x_mask.png")
+									{ template_98trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_B_natex, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_B_natex_4x_32bpp.png", "gfx\BR_442/BR_442_middle_B_natex_4x_mask.png")
+									{ template_98trains_4x(0, 0)}
+
+spriteset(spriteset_BR_442_middle_B_natex_REV, "gfx\BR_442/BR_442_middle_B_natex_1x_8bpp.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_B_natex_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_B_natex_1x_32bpp.png", "gfx\BR_442/BR_442_middle_B_natex_1x_mask.png")
+									{ template_98trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_B_natex_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_B_natex_2x_32bpp.png", "gfx\BR_442/BR_442_middle_B_natex_2x_mask.png")
+									{ template_98trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_middle_B_natex_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_middle_B_natex_4x_32bpp.png", "gfx\BR_442/BR_442_middle_B_natex_4x_mask.png")
+									{ template_98trains_REV_4x(0, 0)}									
+									
 //Spriteset purchase
 
 spriteset(spriteset_BR_442_purchase, "gfx\BR_442/BR_442_back_verkehrsrot_1x_8bpp.png")
@@ -883,7 +990,13 @@ spriteset(spriteset_BR_442_purchase_Cantus, "gfx\BR_442/BR_442_back_Cantus_1x_8b
 				
 		alternative_sprites (spriteset_BR_442_purchase_Cantus, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_Cantus_1x_32bpp.png", "gfx\BR_442/BR_442_back_Cantus_1x_mask.png")
 									{ template_purchase(0, 0)}	
-									
+
+spriteset(spriteset_BR_442_purchase_natex, "gfx\BR_442/BR_442_back_natex_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BR_442_purchase_natex, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_442/BR_442_back_natex_1x_32bpp.png", "gfx\BR_442/BR_442_back_natex_1x_mask.png")
+									{ template_purchase(0, 0)}
+																		
 //Switches
 
 						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_front_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
@@ -1017,7 +1130,39 @@ spriteset(spriteset_BR_442_purchase_Cantus, "gfx\BR_442/BR_442_back_Cantus_1x_8b
 						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middle_Cantus_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 							0: spriteset_BR_442_middle_Cantus_REV;
 							1: spritegroup_BR_442_middle_Cantus_loading_REV;}									
-							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_front_natex, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_front_natex;
+							1: spritegroup_BR_442_front_verkehrsrot_loading;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_front_natex_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_front_natex_REV;
+							1: spritegroup_BR_442_front_verkehrsrot_loading_REV;}		
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_back_natex, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_back_natex;
+							1: spritegroup_BR_442_back_verkehrsrot_loading;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_back_natex_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_back_natex_REV;
+							1: spritegroup_BR_442_back_verkehrsrot_loading_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middle_A_natex, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_A_natex;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middle_A_natex_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_A_natex_REV;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4_REV;}														
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middle_B_natex, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_B_natex;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_442_middle_B_natex_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_442_middle_B_natex_REV;
+							1: spritegroup_BR_442_middle_verkehrsrot_loading_ABC4_REV;}
+																					
 //Universal Switches for the Heads - front and head got mixed up, so they just been switched
 
 						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_back_verkehrsrot, vehicle_is_reversed) {
@@ -1042,7 +1187,15 @@ spriteset(spriteset_BR_442_purchase_Cantus, "gfx\BR_442/BR_442_back_Cantus_1x_8b
 
 						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_front_Cantus, vehicle_is_reversed) {
 							0: switch_spritestack_BR_442_front_Cantus_REV;
-								switch_spritestack_BR_442_back_Cantus;}								
+								switch_spritestack_BR_442_back_Cantus;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_back_natex, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_back_natex_REV;
+								switch_spritestack_BR_442_front_natex;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_front_natex, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_front_natex_REV;
+								switch_spritestack_BR_442_back_natex;}																
 
 //Switches for Two-Part Consist																																
 
@@ -1157,7 +1310,11 @@ item (FEAT_TRAINS , ITEM_BR_442_2, 4420)
 								
 						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_3_middle_Cantus, vehicle_is_reversed) {
 							0: switch_spritestack_BR_442_middle_Cantus;
-								switch_spritestack_BR_442_middle_Cantus_REV;}															
+								switch_spritestack_BR_442_middle_Cantus_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_3_middle_natex, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middle_B_natex;
+								switch_spritestack_BR_442_middle_B_natex_REV;}	
 							
 						switch(FEAT_TRAINS, SELF, switch_BR_442_3_length, position_in_vehid_chain % 9) {
 							0: 4;
@@ -1468,6 +1625,79 @@ item (FEAT_TRAINS , ITEM_BR_442_3_CANTUS, 4434)
 			running_cost_factor				: switch_running_cost_BR_442_3;		
 			}
 	}		
+
+	
+						switch(FEAT_TRAINS, SELF, switch_BR_442_3_graphics_natex, position_in_vehid_chain % 9) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_natex;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_3_middle_natex;
+							5:     spriteset_empty;
+							6:	   spriteset_empty;
+							7:     return switch_reverse_BR_442_back_natex;
+							8:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_3_natex, extra_callback_info1) {
+							1 .. 8: return ITEM_BR_442_3_NATEX; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}							
+
+item (FEAT_TRAINS , ITEM_BR_442_3_NATEX, 4435)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_3_NATEX);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						2747 hp;
+						weight: 						114 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_3_graphics_natex;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
+			length							: switch_BR_442_3_length;	
+			articulated_part				: switch_articulated_BR_442_3_natex;			
+			visual_effect_and_powered		: switch_BR_442_3_FX;
+			purchase						: spriteset_BR_442_purchase_natex;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_BR_442_3;		
+			}
+	}		
+
+
 
 //Switches for Four part Consist -Regio means 2 Doors, SBAHN means 4 doors, RMIX means 2+4 doors
 
@@ -1880,6 +2110,19 @@ item (FEAT_TRAINS , ITEM_BR_442_4_SMITTEL, 4430)
 						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle3_SMITTEL, vehicle_is_reversed) {
 							0: switch_spritestack_BR_442_middle_B_SMITTEL;
 								switch_spritestack_BR_442_middle_A_SMITTEL_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle1_natex, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middle_B_natex;
+								switch_spritestack_BR_442_middle_A_natex_REV;}	
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle2_natex, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middle_A_natex;
+								switch_spritestack_BR_442_middle_A_natex_REV;}		
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_BR_442_5_middle3_natex, vehicle_is_reversed) {
+							0: switch_spritestack_BR_442_middle_A_natex;
+								switch_spritestack_BR_442_middle_B_natex_REV;}																								
+									
 							
 						switch(FEAT_TRAINS, SELF, switch_BR_442_5_length, position_in_vehid_chain % 15) {
 							0: 4;
@@ -2216,6 +2459,82 @@ item (FEAT_TRAINS , ITEM_BR_442_5_SMITTEL, 4431)
 			articulated_part				: switch_articulated_BR_442_5_SMITTEL;			
 			visual_effect_and_powered		: switch_BR_442_5_FX;
 			purchase						: spriteset_BR_442_purchase_SMITTEL;
+			cost_factor						: 308;
+			running_cost_factor				: switch_running_cost_BR_442_5;		
+			}
+	}	
+
+						switch(FEAT_TRAINS, SELF, switch_BR_442_5_graphics_natex, position_in_vehid_chain % 15) {
+							0:	   spriteset_empty;
+							1:     return switch_reverse_BR_442_front_natex;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_reverse_BR_442_5_middle1_natex;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_reverse_BR_442_5_middle2_natex;
+							8:     spriteset_empty;	
+							9:     spriteset_empty;
+						   10:     return switch_reverse_BR_442_5_middle3_natex;
+						   11:     spriteset_empty;													
+						   12:	   spriteset_empty;
+						   13:     return switch_reverse_BR_442_back_natex;
+						   14:     spriteset_empty;}
+						   
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_442_5_natex, extra_callback_info1) {
+							1 .. 14: return ITEM_BR_442_5_NATEX; 
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+													   							
+item (FEAT_TRAINS , ITEM_BR_442_5_NATEX, 4436)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_442_5_NATEX);
+						variant_group:					4420;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2009,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 20 ;
+						loading_speed:					7;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						4120 hp;
+						weight: 						173 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_442_5_graphics_natex;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_ELECTRIC), 
+											  string(STR_DESC_PASS),);
+			length							: switch_BR_442_5_length;	
+			articulated_part				: switch_articulated_BR_442_5_natex;			
+			visual_effect_and_powered		: switch_BR_442_5_FX;
+			purchase						: spriteset_BR_442_purchase_natex;
 			cost_factor						: 308;
 			running_cost_factor				: switch_running_cost_BR_442_5;		
 			}

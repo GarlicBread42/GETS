@@ -1,0 +1,516 @@
+//#############################
+//###Arm 217 Halbspeisewagen###
+//#############################
+
+//Spritesets
+
+//Spriteset "Kakadu"
+
+spriteset (spriteset_Arm_217_blaurot, "gfx/Arm_217/Arm_217_blaurot_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_blaurot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_blaurot_1x_32bpp.png", "gfx/Arm_217/Arm_217_blaurot_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Arm_217_blaurot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_blaurot_2x_32bpp.png", "gfx/Arm_217/Arm_217_blaurot_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Arm_217_blaurot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_blaurot_4x_32bpp.png", "gfx/Arm_217/Arm_217_blaurot_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset TEE
+
+spriteset (spriteset_Arm_217_TEE, "gfx/Arm_217/Arm_217_TEE_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_TEE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_TEE_1x_32bpp.png", "gfx/Arm_217/Arm_217_TEE_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Arm_217_TEE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_TEE_2x_32bpp.png", "gfx/Arm_217/Arm_217_TEE_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Arm_217_TEE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_TEE_4x_32bpp.png", "gfx/Arm_217/Arm_217_TEE_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset IC79
+
+spriteset (spriteset_Arm_217_IC79, "gfx/Arm_217/Arm_217_IC79_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_IC79, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_IC79_1x_32bpp.png", "gfx/Arm_217/Arm_217_IC79_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Arm_217_IC79, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_IC79_2x_32bpp.png", "gfx/Arm_217/Arm_217_IC79_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Arm_217_IC79, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_IC79_4x_32bpp.png", "gfx/Arm_217/Arm_217_IC79_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+//Spriteset InterCity (Violett)
+
+spriteset (spriteset_Arm_217_ICold, "gfx/Arm_217/Arm_217_ICold_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_ICold, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_ICold_1x_32bpp.png", "gfx/Arm_217/Arm_217_ICold_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Arm_217_ICold, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_ICold_2x_32bpp.png", "gfx/Arm_217/Arm_217_ICold_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Arm_217_ICold, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_ICold_4x_32bpp.png", "gfx/Arm_217/Arm_217_ICold_4x_mask.png")
+					{template_158trains_4x(0,0)}		
+
+//Spriteset loading
+
+spriteset (spriteset_Arm_217_loading, "gfx/Arm_217/Arm_217_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_loading_1x_32bpp.png", "gfx/Arm_217/Arm_217_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+				
+		alternative_sprites (spriteset_Arm_217_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_loading_2x_32bpp.png", "gfx/Arm_217/Arm_217_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Arm_217_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_loading_4x_32bpp.png", "gfx/Arm_217/Arm_217_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}						
+					
+spritegroup spritegroup_Arm_217_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Arm_217_loading];}																															
+					
+//Spritesets purchase
+
+spriteset (spriteset_Arm_217_purchase_blaurot, "gfx/Arm_217/Arm_217_blaurot_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_purchase_blaurot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_blaurot_1x_32bpp.png", "gfx/Arm_217/Arm_217_blaurot_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_Arm_217_purchase_TEE, "gfx/Arm_217/Arm_217_TEE_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_purchase_TEE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_TEE_1x_32bpp.png", "gfx/Arm_217/Arm_217_TEE_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_Arm_217_purchase_IC79, "gfx/Arm_217/Arm_217_IC79_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_purchase_IC79, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_IC79_1x_32bpp.png", "gfx/Arm_217/Arm_217_IC79_1x_mask.png")
+					{template_purchase(0,0)}
+					
+spriteset (spriteset_Arm_217_purchase_ICold, "gfx/Arm_217/Arm_217_ICold_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Arm_217_purchase_ICold, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Arm_217/Arm_217_ICold_1x_32bpp.png", "gfx/Arm_217/Arm_217_ICold_1x_mask.png")
+					{template_purchase(0,0)}																				
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_Arm_217,current_year) {
+							   0 .. 1977 : spriteset_Arm_217_purchase_blaurot;
+							1978 .. 1985 : spriteset_Arm_217_purchase_IC79;
+							1986 .. 2050 : spriteset_Arm_217_purchase_ICold;
+								spriteset_Arm_217_purchase_ICold;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Arm_217_blaurot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Arm_217_blaurot;
+							1: spritegroup_Arm_217_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Arm_217_TEE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Arm_217_TEE;
+							1: spritegroup_Arm_217_loading;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Arm_217_IC79, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Arm_217_IC79;
+							1: spritegroup_Arm_217_loading;}							
+																								
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Arm_217_icalt, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Arm_217_ICold;
+							1: spritegroup_Arm_217_loading;}
+							   																			
+						switch(FEAT_TRAINS, SELF, switch_length_Arm_217, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Arm_217, 1){
+							return 7800;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_speed_Arm_217, current_year) {
+							  00 .. 1977 : 160 ;
+							1978 .. 2050 : 200 ;
+								200;}							
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_Arm_217,build_year) {
+							   0 .. 1977 : switch_spritestack_Arm_217_blaurot;
+							1978 .. 1985 : switch_spritestack_Arm_217_IC79;
+							1986 .. 2050 : switch_spritestack_Arm_217_icalt;
+								switch_spritestack_Arm_217_icalt;}													   								
+
+						switch(FEAT_TRAINS, SELF, switch_Arm_217_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_Arm_217;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Arm_217_build, extra_callback_info1) {
+							1 ..2: return ITEM_ARM_217_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARM_217_BUILD, 5577)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARM_217_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1966,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						47 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Arm_217_graphics_build;
+			additional_text					: string(STR_DESC_WRMH_132);
+			length							: switch_length_Arm_217;
+			articulated_part				: switch_articulated_Arm_217_build;
+			speed							: switch_speed_Arm_217;
+			purchase						: switch_purchase_Arm_217;
+			cost_factor						: 830;
+			running_cost_factor				: switch_running_cost_Arm_217;				
+			 }
+		}
+
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_Arm_217,current_year) {
+							   0 .. 1977 : switch_spritestack_Arm_217_blaurot;
+							1978 .. 1985 : switch_spritestack_Arm_217_IC79;
+							1986 .. 2050 : switch_spritestack_Arm_217_icalt;
+								switch_spritestack_Arm_217_icalt;}														   								
+
+						switch(FEAT_TRAINS, SELF, switch_Arm_217_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_Arm_217;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Arm_217_current, extra_callback_info1) {
+							1 ..2: return ITEM_ARM_217_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARM_217_CURRENT, 5578)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARM_217_CURRENT);
+						variant_group:					5577;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1966,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						47 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;													
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Arm_217_graphics_current;
+			additional_text					: string(STR_DESC_WRMH_132);
+			length							: switch_length_Arm_217;
+			articulated_part				: switch_articulated_Arm_217_current;
+			speed							: switch_speed_Arm_217;
+			purchase						: switch_purchase_Arm_217;
+			cost_factor						: 830;
+			running_cost_factor				: switch_running_cost_Arm_217;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_Arm_217_graphics_blaurot, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Arm_217_blaurot;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Arm_217_blaurot, extra_callback_info1) {
+							1 ..2: return ITEM_ARM_217_BLAUROT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARM_217_BLAUROT, 5579)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARM_217_BLAUROT);
+						variant_group:					5577;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1966,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						47 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Arm_217_graphics_blaurot;
+			additional_text					: string(STR_DESC_WRMH_132);
+			length							: switch_length_Arm_217;
+			articulated_part				: switch_articulated_Arm_217_blaurot;
+			speed							: switch_speed_Arm_217;
+			purchase						: spriteset_Arm_217_purchase_blaurot;
+			cost_factor						: 830;
+			running_cost_factor				: switch_running_cost_Arm_217;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_Arm_217_graphics_TEE, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Arm_217_TEE;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Arm_217_TEE, extra_callback_info1) {
+							1 ..2: return ITEM_ARM_217_TEE;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARM_217_TEE, 5580)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARM_217_TEE);
+						variant_group:					5577;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1966,01,01);
+						model_life: 					50;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						47 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;																
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Arm_217_graphics_TEE;
+			additional_text					: string(STR_DESC_WRMH_132);
+			length							: switch_length_Arm_217;
+			articulated_part				: switch_articulated_Arm_217_TEE;
+			speed							: switch_speed_Arm_217;
+			purchase						: spriteset_Arm_217_purchase_TEE;
+			cost_factor						: 830;
+			running_cost_factor				: switch_running_cost_Arm_217;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_Arm_217_graphics_IC79, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Arm_217_IC79;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Arm_217_IC79, extra_callback_info1) {
+							1 ..2: return ITEM_ARM_217_IC79;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARM_217_IC79, 5581)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARM_217_IC79);
+						variant_group:					5577;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1978,01,01);
+						model_life: 					38;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						47 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;																
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Arm_217_graphics_IC79;
+			additional_text					: string(STR_DESC_WRMH_132);
+			length							: switch_length_Arm_217;
+			articulated_part				: switch_articulated_Arm_217_IC79;
+			speed							: switch_speed_Arm_217;
+			purchase						: spriteset_Arm_217_purchase_IC79;
+			cost_factor						: 830;
+			running_cost_factor				: switch_running_cost_Arm_217;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_Arm_217_graphics_icalt, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Arm_217_icalt;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Arm_217_icalt, extra_callback_info1) {
+							1 ..2: return ITEM_ARM_217_ICALT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARM_217_ICALT, 5582)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARM_217_ICALT);
+						variant_group:					5577;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1986,01,01);
+						model_life: 					26;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					7;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						47 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Arm_217_graphics_icalt;
+			additional_text					: string(STR_DESC_WRMH_132);
+			length							: switch_length_Arm_217;
+			articulated_part				: switch_articulated_Arm_217_icalt;
+			speed							: switch_speed_Arm_217;
+			purchase						: spriteset_Arm_217_purchase_ICold;
+			cost_factor						: 830;
+			running_cost_factor				: switch_running_cost_Arm_217;				
+			 }
+		}

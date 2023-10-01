@@ -111,7 +111,7 @@ spriteset(spriteset_E_40_purchase4, "gfx/E_40/BR_E40_cargo_1x_8bpp.png")
 							0: 4;
 							1: 6;}
 						
-						switch(FEAT_TRAINS, SELF, switch_FX_E_40, position_in_vehid_chain % 3) {
+						switch(FEAT_TRAINS, SELF, switch_FX_E_40, position_in_vehid_chain % 2) {
 							0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
 							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);} 
 													

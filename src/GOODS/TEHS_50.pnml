@@ -1,0 +1,274 @@
+//######################
+//###Tehs 50 KÜhlwagen###
+//######################					
+	
+//Spriteset neutral 1
+
+		spriteset (spriteset_Tehs_50_neutral1, "gfx\Tehs_50/Tehs_50_NEUT1_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_neutral1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_NEUT1_1x_32bpp.png", "gfx\Tehs_50/Tehs_50_NEUT1_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_neutral1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_NEUT1_2x_32bpp.png", "gfx\Tehs_50/Tehs_50_NEUT1_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Tehs_50_neutral1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_NEUT1_4x_32bpp.png", "gfx\Tehs_50/Tehs_50_NEUT1_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+
+
+//Spriteset neutral 2
+
+		spriteset (spriteset_Tehs_50_neutral2, "gfx\Tehs_50/Tehs_50_NEUT2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_neutral2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_NEUT2_1x_32bpp.png", "gfx\Tehs_50/Tehs_50_NEUT2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_neutral2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_NEUT2_2x_32bpp.png", "gfx\Tehs_50/Tehs_50_NEUT2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Tehs_50_neutral2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_NEUT2_4x_32bpp.png", "gfx\Tehs_50/Tehs_50_NEUT2_4x_mask.png")
+					{template_88trains_4x(0, 0)}		
+			
+
+//Spriteset Transthermos 1
+
+		spriteset (spriteset_Tehs_50_Transthermos1, "gfx\Tehs_50/Tehs_50_Transthermos1_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_Transthermos1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_Transthermos1_1x_32bpp.png", "gfx\Tehs_50/Tehs_50_Transthermos1_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_Transthermos1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_Transthermos1_2x_32bpp.png", "gfx\Tehs_50/Tehs_50_Transthermos1_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Tehs_50_Transthermos1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_Transthermos1_4x_32bpp.png", "gfx\Tehs_50/Tehs_50_Transthermos1_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+//Spriteset Transthermos 1
+
+		spriteset (spriteset_Tehs_50_Transthermos2, "gfx\Tehs_50/Tehs_50_Transthermos2_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_Transthermos2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_Transthermos2_1x_32bpp.png", "gfx\Tehs_50/Tehs_50_Transthermos2_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_Transthermos2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_Transthermos2_2x_32bpp.png", "gfx\Tehs_50/Tehs_50_Transthermos2_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Tehs_50_Transthermos2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_Transthermos2_4x_32bpp.png", "gfx\Tehs_50/Tehs_50_Transthermos2_4x_mask.png")
+					{template_88trains_4x(0, 0)}							
+
+//Spriteset loading
+
+spriteset (spriteset_Tehs_50_loading, "gfx\Tehs_50/Tehs_50_loading_1x_8bpp.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_loading_1x_32bpp.png", "gfx\Tehs_50/Tehs_50_loading_1x_mask.png")
+						{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_loading_2x_32bpp.png", "gfx\Tehs_50/Tehs_50_loading_2x_mask.png")
+					{template_88trains_2x(0,0)}				
+			
+		alternative_sprites (spriteset_Tehs_50_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_loading_4x_32bpp.png", "gfx\Tehs_50/Tehs_50_loading_4x_mask.png")
+					{template_88trains_4x(0,0)}						
+	
+						
+spritegroup spritegroup_Tehs_50_loading
+		{	loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Tehs_50_loading];}
+
+//Spritesets purchase
+
+
+spriteset (spriteset_Tehs_50_neutral_purchase, "gfx\Tehs_50/Tehs_50_NEUT1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_neutral_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_NEUT1_1x_32bpp.png", "gfx\Tehs_50/Tehs_50_NEUT1_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Tehs_50_Transthermos_purchase, "gfx\Tehs_50/Tehs_50_Transthermos1_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Tehs_50_Transthermos_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tehs_50/Tehs_50_Transthermos1_1x_32bpp.png", "gfx\Tehs_50/Tehs_50_Transthermos1_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_Tehs_50_NEUT1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Tehs_50_neutral1;
+							1: spritegroup_Tehs_50_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_Tehs_50_NEUT2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Tehs_50_neutral2;
+							1: spritegroup_Tehs_50_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_Tehs_50_Transthermos1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Tehs_50_Transthermos1;
+							1: spritegroup_Tehs_50_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_loadstack_Tehs_50_Transthermos2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Tehs_50_Transthermos2;
+							1: spritegroup_Tehs_50_loading;}
+
+						switch (FEAT_TRAINS, SELF, random_choose_Tehs_50_ALL, switch_alternative_var_random_bits(1, 2)) {
+							0: switch_loadstack_Tehs_50_NEUT1;
+							1: switch_loadstack_Tehs_50_NEUT2;
+							2: switch_loadstack_Tehs_50_Transthermos1;
+								switch_loadstack_Tehs_50_Transthermos2;}												
+
+					switch (FEAT_TRAINS, SELF, random_choose_Tehs_50_NEUT, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Tehs_50_NEUT1;
+								switch_loadstack_Tehs_50_NEUT2;}
+
+					switch (FEAT_TRAINS, SELF, random_choose_Tehs_50_Transthermos, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_loadstack_Tehs_50_Transthermos1;
+								switch_loadstack_Tehs_50_Transthermos2;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Tehs_50, 1){
+						return 150;}
+
+item (FEAT_TRAINS , ITEM_TEHS_50, 8434)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_TEHS_50);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Tehs_50_ALL;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Tehs_50_neutral_purchase;
+			cost_factor						: 65;
+			running_cost_factor				: switch_running_cost_Tehs_50;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_TEHS_50_NEUT, 8435)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_TEHS_50_NEUT);
+						variant_group:					8434;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Tehs_50_NEUT;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Tehs_50_neutral_purchase;
+			cost_factor						: 65;
+			running_cost_factor				: switch_running_cost_Tehs_50;				
+			
+			 }
+		}	
+
+item (FEAT_TRAINS , ITEM_TEHS_50_TRANSTHERMOS, 8437)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_TEHS_50_TRANSTHERMOS);
+						variant_group:					8434;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW,);					
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1953,01,01);
+						model_life: 					30;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [FOOD, FRUT, BEER, FISH, MILK, CHSE, FRVG, MEAT, OYST, TATO, SWET, TOFF,];
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						16 ton;
+						dual_headed: 					0;
+						default_cargo_type:				FOOD;
+						cargo_capacity:					16;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Tehs_50_Transthermos;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Tehs_50_Transthermos_purchase;
+			cost_factor						: 65;
+			running_cost_factor				: switch_running_cost_Tehs_50;				
+			
+			 }
+		}	
