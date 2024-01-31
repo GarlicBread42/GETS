@@ -8,7 +8,7 @@ grf {
 			grfid: "SA\08\08" ;
 			name: string(STR_GRF_NAME) ;
 			desc: string(STR_GRF_DESC) ;
-			version: 14;
+			version: 15;
 			min_compatible_version: 36;
 
 	param 0{
@@ -17,14 +17,15 @@ grf {
 			name		: string(STR_PARAM_RUNNING_COST) ;
 			desc		: string(STR_PARAM_RUNNING_COST_DESC) ;
 			min_value	: 0 ;
-			max_value	: 4 ;
-			def_value	: 2 ;
+			max_value	: 5 ;
+			def_value	: 3 ;
 			names		: {
-				 0	: string(STR_PARAM_VERYCHEAP);
-				 1	: string(STR_PARAM_CHEAP);
-				 2	: string(STR_PARAM_DEFAULT);
-				 3	: string(STR_PARAM_HIGH);
-				 4	: string(STR_PARAM_VERYHIGH);};
+				 0	: string(STR_PARAM_VERYVERYCHEAP);
+				 1	: string(STR_PARAM_VERYCHEAP);
+				 2	: string(STR_PARAM_CHEAP);
+				 3	: string(STR_PARAM_DEFAULT);
+				 4	: string(STR_PARAM_HIGH);
+				 5	: string(STR_PARAM_VERYHIGH);};
 				 }
 				 }
 
@@ -53,16 +54,9 @@ traininfo_y_offset = 2 ;
 basecost {
  	PR_BUILD_VEHICLE_TRAIN: (param[1]-4);
  	PR_BUILD_VEHICLE_WAGON: (param[1]-1);
- 	PR_RUNNING_TRAIN_STEAM: (param[0]-4);
- 	PR_RUNNING_TRAIN_DIESEL:(param[0]-6);
+ 	PR_RUNNING_TRAIN_STEAM: (param[0]-6);//original: -4 - zuletzt -5
+ 	PR_RUNNING_TRAIN_DIESEL:(param[0]-8);//original: -6 - zuletzt -7
 }
-/*	
-basecost {
- 	PR_BUILD_VEHICLE_TRAIN: -2;
- 	PR_BUILD_VEHICLE_WAGON: 1;
- 	PR_RUNNING_TRAIN_STEAM: -2;
- 	PR_RUNNING_TRAIN_DIESEL: -4;
-}
-*/	
+
 //Disabling standard trains
 disable_item(FEAT_TRAINS, 0, 115);

@@ -1,6 +1,46 @@
-    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_38, [count_veh_id(5582) > 0]) {
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_48, [count_veh_id(5592) > 0]) {
             1: return 1;
-           return 0;}
+           return 0;} 
+
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_47, [count_veh_id(5591) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_48;}
+
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_46, [count_veh_id(5590) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_47;}
+
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_45, [count_veh_id(5589) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_46;}
+
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_44, [count_veh_id(5588) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_45;}
+
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_43, [count_veh_id(5587) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_44;} 
+ 
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_42, [count_veh_id(5586) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_43;} 
+ 
+     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_41, [count_veh_id(5585) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_42;} 
+ 
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_40, [count_veh_id(5584) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_41;}  
+ 
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_39, [count_veh_id(5583) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_40;}  
+ 
+    switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_38, [count_veh_id(5581) > 0]) {
+            1: return 1;
+           return switch_check_Restaurant_39;} 
 
     switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_37, [count_veh_id(5581) > 0]) {
             1: return 1;
@@ -85,7 +125,6 @@
       switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_17, [count_veh_id(5543) > 0]) {
             1: return 1;
            return switch_check_Restaurant_18;} 
-
 
       switch (FEAT_TRAINS, PARENT, switch_check_Restaurant_16, [count_veh_id(5542) > 0]) {
             1: return 1;

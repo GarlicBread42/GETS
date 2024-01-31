@@ -266,6 +266,20 @@ alternative_sprites (spriteset_Tender_3T16_5_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32B
 //### Tender 2'2' T 16 ###
 //########################
 
+//KPEV grün 
+
+spriteset(spriteset_Tender_22T16_KPEV, "gfx\Tender_22T16/Tender_22T16_KPEV_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_1x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+				
+alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_2x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+				
+alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_4x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_4x_mask.png")
+									{ template_58trains_4x(0, 0)}
+									
 //KPEV grün mit roten Zierlinien
 
 spriteset(spriteset_Tender_22T16_KPEV_Redline, "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_1x_8bpp.png")

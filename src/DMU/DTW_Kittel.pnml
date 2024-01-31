@@ -1,0 +1,665 @@
+//###################################
+//###KWSE Dampftriebwagen "Kittel"###
+//###################################
+
+
+//Spriteset KWSE
+
+spriteset(spriteset_DTW_Kittel_KWSE, "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_KWSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_KWSE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_KWSE_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_KWSE_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_KWSE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_KWSE_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_KWSE_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		
+									
+spriteset(spriteset_DTW_Kittel_KWSE_REV, "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_KWSE_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_KWSE_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_KWSE_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_KWSE_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_KWSE_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_KWSE_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_KWSE_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}																
+
+//Spriteset DRG_gruen
+
+spriteset(spriteset_DTW_Kittel_DRG_gruen, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		
+									
+spriteset(spriteset_DTW_Kittel_DRG_gruen_REV, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_gruen_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_gruen_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_gruen_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}
+									
+//Spriteset DRG_rotweiss
+
+spriteset(spriteset_DTW_Kittel_DRG_rotweiss, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_rotweiss, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_rotweiss, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_rotweiss, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		
+									
+spriteset(spriteset_DTW_Kittel_DRG_rotweiss_REV, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_rotweiss_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_rotweiss_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DRG_rotweiss_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}	
+									
+//Spriteset DB
+
+spriteset(spriteset_DTW_Kittel_DB, "gfx\DTW_Kittel/DTW_Kittel_DB_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DB_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DB_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DB_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DB_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DB_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DB_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		
+									
+spriteset(spriteset_DTW_Kittel_DB_REV, "gfx\DTW_Kittel/DTW_Kittel_DB_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DB_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DB_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DB_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DB_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_DB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DB_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DB_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}																	
+
+
+//Spritesets Animation
+
+spriteset(spriteset_DTW_Kittel_anim1, "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim1_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim1_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim1_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim1_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		
+									
+spriteset(spriteset_DTW_Kittel_anim1_REV, "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim1_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim1_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim1_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim1_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}
+									
+spriteset(spriteset_DTW_Kittel_anim2, "gfx\DTW_Kittel/DTW_Kittel_anim2_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim2_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim2_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim2_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim2_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim2_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim2_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		
+									
+spriteset(spriteset_DTW_Kittel_anim2_REV, "gfx\DTW_Kittel/DTW_Kittel_anim2_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim2_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim2_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim2_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim2_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim2_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim2_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}	
+									
+spriteset(spriteset_DTW_Kittel_anim3, "gfx\DTW_Kittel/DTW_Kittel_anim3_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim3_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim3_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim3_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim3_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim3_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim3_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		
+									
+spriteset(spriteset_DTW_Kittel_anim3_REV, "gfx\DTW_Kittel/DTW_Kittel_anim3_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim3_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim3_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim3_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim3_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim3_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim3_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim3_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim3_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim3_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}	
+									
+spriteset(spriteset_DTW_Kittel_anim4, "gfx\DTW_Kittel/DTW_Kittel_anim4_1x_8bpp.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim4_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim4_1x_mask.png")
+									{ template_78trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim4_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim4_2x_mask.png")
+									{ template_78trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim4_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim4_4x_mask.png")
+									{ template_78trains_4x(0, 0)}		
+									
+spriteset(spriteset_DTW_Kittel_anim4_REV, "gfx\DTW_Kittel/DTW_Kittel_anim4_1x_8bpp.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim4_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim4_1x_mask.png")
+									{ template_78trains_REV_1x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim4_2x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim4_2x_mask.png")
+									{ template_78trains_REV_2x(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_anim4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim4_4x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim4_4x_mask.png")
+									{ template_78trains_REV_4x(0, 0)}																															
+
+//Spritesets Purchase
+
+spriteset(spriteset_DTW_Kittel_purchase_KWSE, "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_purchase_KWSE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_KWSE_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_DTW_Kittel_purchase_DRG_gruen, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_purchase_DRG_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_gruen_1x_mask.png")
+									{ template_purchase(0, 0)}
+										
+spriteset(spriteset_DTW_Kittel_purchase_DRG_rotweiss, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_purchase_DRG_rotweiss, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DRG_rotweiss_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+spriteset(spriteset_DTW_Kittel_purchase_DB, "gfx\DTW_Kittel/DTW_Kittel_DB_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_DB_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_DB_1x_mask.png")
+									{ template_purchase(0, 0)}	
+									
+spriteset(spriteset_DTW_Kittel_purchase_anim, "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_DTW_Kittel_purchase_anim, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_32bpp.png", "gfx\DTW_Kittel/DTW_Kittel_anim1_1x_mask.png")
+									{ template_purchase(0, 0)}
+																																				
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_purchase_KWSE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_purchase_KWSE;
+							1: spriteset_DTW_Kittel_purchase_anim;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_purchase_DRG_gruen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_purchase_DRG_gruen;
+							1: spriteset_DTW_Kittel_purchase_anim;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_purchase_DRG_rotweiss, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_purchase_DRG_rotweiss;
+							1: spriteset_DTW_Kittel_purchase_anim;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_purchase_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_purchase_DB;
+							1: spriteset_DTW_Kittel_purchase_anim;}																					
+							
+						switch (FEAT_TRAINS,SELF,switch_purchase_DTW_Kittel,current_year) {
+							   0 .. 1919 : switch_spritestack_DTW_Kittel_purchase_KWSE;
+							1920 .. 1931 : switch_spritestack_DTW_Kittel_purchase_DRG_gruen;
+							1932 .. 1945 : switch_spritestack_DTW_Kittel_purchase_DRG_rotweiss;
+							1946 .. 2050 : switch_spritestack_DTW_Kittel_purchase_DB;
+							switch_spritestack_DTW_Kittel_purchase_DB;}
+							
+						switch (FEAT_TRAINS, SELF, switch_animation_DTW_Kittel, motion_counter % 4) {
+								0: spriteset_DTW_Kittel_anim1;
+								1: spriteset_DTW_Kittel_anim2;
+								2: spriteset_DTW_Kittel_anim3;
+								3: spriteset_DTW_Kittel_anim4;}	
+								
+						switch (FEAT_TRAINS, SELF, switch_animation_DTW_Kittel_REV, motion_counter % 4) {
+								0: spriteset_DTW_Kittel_anim1_REV;
+								1: spriteset_DTW_Kittel_anim2_REV;
+								2: spriteset_DTW_Kittel_anim3_REV;
+								3: spriteset_DTW_Kittel_anim4_REV;}														
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_KWSE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_KWSE;
+							1: switch_animation_DTW_Kittel;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_KWSE_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_KWSE_REV;
+							1: switch_animation_DTW_Kittel_REV;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_DRG_gruen, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_DRG_gruen;
+							1: switch_animation_DTW_Kittel;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_DRG_gruen_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_DRG_gruen_REV;
+							1: switch_animation_DTW_Kittel_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_DRG_rotweiss, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_DRG_rotweiss;
+							1: switch_animation_DTW_Kittel;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_DRG_rotweiss_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_DRG_rotweiss_REV;
+							1: switch_animation_DTW_Kittel_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_DB;
+							1: switch_animation_DTW_Kittel;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_DTW_Kittel_DB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_DTW_Kittel_DB_REV;
+							1: switch_animation_DTW_Kittel_REV;}	
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_DTW_Kittel_KWSE, vehicle_is_reversed) {
+							0: switch_spritestack_DTW_Kittel_KWSE;
+								switch_spritestack_DTW_Kittel_KWSE_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_DTW_Kittel_DRG_gruen, vehicle_is_reversed) {
+							0: switch_spritestack_DTW_Kittel_DRG_gruen;
+								switch_spritestack_DTW_Kittel_DRG_gruen_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_DTW_Kittel_DRG_rotweiss, vehicle_is_reversed) {
+							0: switch_spritestack_DTW_Kittel_DRG_rotweiss;
+								switch_spritestack_DTW_Kittel_DRG_rotweiss_REV;}
+								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_DTW_Kittel_DB, vehicle_is_reversed) {
+							0: switch_spritestack_DTW_Kittel_DB;
+								switch_spritestack_DTW_Kittel_DB_REV;}																								
+								
+						switch (FEAT_TRAINS,SELF,switch_DTW_Kittel_current_year,current_year) {
+							   0 .. 1919 : switch_reverse_DTW_Kittel_KWSE;
+							1920 .. 1931 : switch_reverse_DTW_Kittel_DRG_gruen;
+							1932 .. 1945 : switch_reverse_DTW_Kittel_DRG_rotweiss;
+							1946 .. 2050 : switch_reverse_DTW_Kittel_DB;
+							switch_reverse_DTW_Kittel_DB;}
+
+						switch (FEAT_TRAINS,SELF,switch_DTW_Kittel_build_year,build_year) {
+							   0 .. 1919 : switch_reverse_DTW_Kittel_KWSE;
+							1920 .. 1931 : switch_reverse_DTW_Kittel_DRG_gruen;
+							1932 .. 1945 : switch_reverse_DTW_Kittel_DRG_rotweiss;
+							1946 .. 2050 : switch_reverse_DTW_Kittel_DB;
+							switch_reverse_DTW_Kittel_DB;}
+													
+						switch(FEAT_TRAINS, PARENT, switch_FX_DTW_Kittel, vehicle_is_reversed) {
+							0: return visual_effect_and_powered(VISUAL_EFFECT_STEAM, -3, DISABLE_WAGON_POWER);
+								return visual_effect_and_powered(VISUAL_EFFECT_STEAM, 2, DISABLE_WAGON_POWER);}														
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_DTW_Kittel, 1){
+							return 500;}																													 																											
+
+														
+item (FEAT_TRAINS , ITEM_DTW_KITTEL_BUILD, 3930)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DTW_KITTEL_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1896,01,01);
+						model_life: 					40;
+						vehicle_life: 					57;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					4;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						80 hp;
+						weight: 						18 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						7;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_DTW_Kittel_build_year;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DTW), 
+											  string(STR_DESC_PASS),);
+			visual_effect_and_powered		: switch_FX_DTW_Kittel;
+			purchase						: switch_purchase_DTW_Kittel;
+			cost_factor						: 22;
+			running_cost_factor				: switch_running_cost_DTW_Kittel;		
+			}
+	}
+
+item (FEAT_TRAINS , ITEM_DTW_KITTEL_CURRENT, 3931)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DTW_KITTEL_CURRENT);
+						variant_group:					3930;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1896,01,01);
+						model_life: 					40;
+						vehicle_life: 					57;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					4;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						80 hp;
+						weight: 						18 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						7;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_DTW_Kittel_current_year;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DTW), 
+											  string(STR_DESC_PASS),);
+			visual_effect_and_powered		: switch_FX_DTW_Kittel;
+			purchase						: switch_purchase_DTW_Kittel;
+			cost_factor						: 22;
+			running_cost_factor				: switch_running_cost_DTW_Kittel;		
+			}
+	}
+
+
+item (FEAT_TRAINS , ITEM_DTW_KITTEL_KWSE, 3932)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DTW_KITTEL_KWSE);
+						variant_group:					3930;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1896,01,01);
+						model_life: 					40;
+						vehicle_life: 					57;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					4;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						80 hp;
+						weight: 						18 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						7;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_reverse_DTW_Kittel_KWSE;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DTW), 
+											  string(STR_DESC_PASS),);
+			visual_effect_and_powered		: switch_FX_DTW_Kittel;
+			purchase						: switch_spritestack_DTW_Kittel_purchase_KWSE;
+			cost_factor						: 22;
+			running_cost_factor				: switch_running_cost_DTW_Kittel;		
+			}
+	}
+
+item (FEAT_TRAINS , ITEM_DTW_KITTEL_DRG_GRUEN, 3933)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DTW_KITTEL_DRG_GRUEN);
+						variant_group:					3930;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					40;
+						vehicle_life: 					33;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					4;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						80 hp;
+						weight: 						18 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						7;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_reverse_DTW_Kittel_DRG_gruen;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DTW), 
+											  string(STR_DESC_PASS),);
+			visual_effect_and_powered		: switch_FX_DTW_Kittel;
+			purchase						: switch_spritestack_DTW_Kittel_purchase_DRG_gruen;
+			cost_factor						: 22;
+			running_cost_factor				: switch_running_cost_DTW_Kittel;		
+			}
+	}
+
+
+item (FEAT_TRAINS , ITEM_DTW_KITTEL_DRG_ROTWEISS, 3934)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DTW_KITTEL_DRG_ROTWEISS);
+						variant_group:					3930;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1932,01,01);
+						model_life: 					40;
+						vehicle_life: 					33;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					4;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						80 hp;
+						weight: 						18 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						7;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_reverse_DTW_Kittel_DRG_rotweiss;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DTW), 
+											  string(STR_DESC_PASS),);
+			visual_effect_and_powered		: switch_FX_DTW_Kittel;
+			purchase						: switch_spritestack_DTW_Kittel_purchase_DRG_rotweiss;
+			cost_factor						: 22;
+			running_cost_factor				: switch_running_cost_DTW_Kittel;		
+			}
+	}
+
+item (FEAT_TRAINS , ITEM_DTW_KITTEL_DB, 3935)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_DTW_KITTEL_DB);
+						variant_group:					3930;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1932,01,01);
+						model_life: 					40;
+						vehicle_life: 					33;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 40 ;
+						loading_speed:					4;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							60 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						80 hp;
+						weight: 						18 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.25;
+						length: 						7;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_reverse_DTW_Kittel_DB;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DTW), 
+											  string(STR_DESC_PASS),);
+			visual_effect_and_powered		: switch_FX_DTW_Kittel;
+			purchase						: switch_spritestack_DTW_Kittel_purchase_DB;
+			cost_factor						: 22;
+			running_cost_factor				: switch_running_cost_DTW_Kittel;		
+			}
+	}

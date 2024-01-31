@@ -1,0 +1,594 @@
+//#################
+//###Shimmnstu_718###
+//#################
+									
+//Spriteset Cargo
+
+spriteset (spriteset_Shimmnstu_718_Cargo, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Shimmnstu_718_Cargo_load_0, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_0_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_0_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_0_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_0_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_0_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_0_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_0_4x_mask.png")
+					{template_88trains_4x(0, 0)}				
+					
+					
+spriteset (spriteset_Shimmnstu_718_Cargo_load_50, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_50_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_50_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_50_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_50_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_50_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_50_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_50_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Shimmnstu_718_Cargo_load_100, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_100_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_100_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_100_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_100_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Cargo_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_100_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_load_100_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+					
+					
+spritegroup spritegroup_Shimmnstu_718_Cargo
+		{	loaded: 	[spriteset_Shimmnstu_718_Cargo];
+			loading: 	[spriteset_Shimmnstu_718_Cargo_load_0, spriteset_Shimmnstu_718_Cargo_load_50, spriteset_Shimmnstu_718_Cargo_load_100];}		
+
+
+//Spriteset Ermewa
+
+spriteset (spriteset_Shimmnstu_718_Ermewa, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Shimmnstu_718_Ermewa_load_0, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_0_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_0_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_0_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_0_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_0_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_0_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_0_4x_mask.png")
+					{template_88trains_4x(0, 0)}				
+					
+					
+spriteset (spriteset_Shimmnstu_718_Ermewa_load_50, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_50_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_50_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_50_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_50_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_50_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_50_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_50_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Shimmnstu_718_Ermewa_load_100, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_100_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_100_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_100_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_100_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Ermewa_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_100_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_load_100_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+					
+					
+spritegroup spritegroup_Shimmnstu_718_Ermewa
+		{	loaded: 	[spriteset_Shimmnstu_718_Ermewa];
+			loading: 	[spriteset_Shimmnstu_718_Ermewa_load_0, spriteset_Shimmnstu_718_Ermewa_load_50, spriteset_Shimmnstu_718_Ermewa_load_100];}		
+
+
+//Spriteset VTG
+
+spriteset (spriteset_Shimmnstu_718_VTG, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_VTG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_VTG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_VTG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Shimmnstu_718_VTG_load_0, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_0_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_0_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_0_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_0_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_0_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_0_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_0_4x_mask.png")
+					{template_88trains_4x(0, 0)}				
+					
+					
+spriteset (spriteset_Shimmnstu_718_VTG_load_50, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_50_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_50_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_50_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_50_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_50_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_50_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_50_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Shimmnstu_718_VTG_load_100, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_100_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_100_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_100_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_100_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_VTG_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_100_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_load_100_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+					
+					
+spritegroup spritegroup_Shimmnstu_718_VTG
+		{	loaded: 	[spriteset_Shimmnstu_718_VTG];
+			loading: 	[spriteset_Shimmnstu_718_VTG_load_0, spriteset_Shimmnstu_718_VTG_load_50, spriteset_Shimmnstu_718_VTG_load_100];}		
+
+
+//Spriteset Wascosa
+
+spriteset (spriteset_Shimmnstu_718_Wascosa, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Shimmnstu_718_Wascosa_load_0, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_0_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_0_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_0_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_0_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_0_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_0_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_0_4x_mask.png")
+					{template_88trains_4x(0, 0)}				
+					
+					
+spriteset (spriteset_Shimmnstu_718_Wascosa_load_50, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_50_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_50_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_50_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_50_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_50_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_50_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_50_4x_mask.png")
+					{template_88trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Shimmnstu_718_Wascosa_load_100, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_100_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_100_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_100_2x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_100_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Shimmnstu_718_Wascosa_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_100_4x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_load_100_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+					
+					
+spritegroup spritegroup_Shimmnstu_718_Wascosa
+		{	loaded: 	[spriteset_Shimmnstu_718_Wascosa];
+			loading: 	[spriteset_Shimmnstu_718_Wascosa_load_0, spriteset_Shimmnstu_718_Wascosa_load_50, spriteset_Shimmnstu_718_Wascosa_load_100];}		
+																																														
+					
+//Spritesets purchase
+
+spriteset (spriteset_Shimmnstu_718_purchase_Cargo, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_purchase_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Cargo_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Shimmnstu_718_purchase_Ermewa, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_purchase_Ermewa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Ermewa_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Shimmnstu_718_purchase_VTG, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_purchase_VTG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_VTG_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_VTG_1x_mask.png")
+					{template_purchase(0, 0)}	
+
+spriteset (spriteset_Shimmnstu_718_purchase_Wascosa, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Shimmnstu_718_purchase_Wascosa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_1x_32bpp.png", "gfx\Shimmnstu_718/Shimmnstu_718_Wascosa_1x_mask.png")
+					{template_purchase(0, 0)}					
+
+
+//Switches
+
+					switch (FEAT_TRAINS, SELF, random_choose_Shimmnstu_718, switch_alternative_var_random_bits(1, 3)) {
+							1: spritegroup_Shimmnstu_718_Cargo;
+							2: spritegroup_Shimmnstu_718_Ermewa;
+							3: spritegroup_Shimmnstu_718_Cargo;
+							4: spritegroup_Shimmnstu_718_Wascosa;
+							5: spritegroup_Shimmnstu_718_Cargo;																												
+							6: spritegroup_Shimmnstu_718_VTG;
+							7: spritegroup_Shimmnstu_718_Cargo;													
+								spritegroup_Shimmnstu_718_Cargo;}
+																
+					switch (FEAT_TRAINS, SELF, random_choose_Shimmnstu_718_PRIV, switch_alternative_var_random_bits(1, 2)) {
+							1: spritegroup_Shimmnstu_718_Ermewa;
+							2: spritegroup_Shimmnstu_718_Wascosa;
+							3: spritegroup_Shimmnstu_718_VTG;														
+								spritegroup_Shimmnstu_718_VTG;}																																
+																				
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Shimmnstu_718, 1){
+						return 475;}
+													
+item (FEAT_TRAINS , ITEM_SHIMMNSTU_718_CURRENT, 9049)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SHIMMNSTU_718_CURRENT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					68;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Shimmnstu_718;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Shimmnstu_718_purchase_Cargo;
+			cost_factor						: 150;
+			running_cost_factor				: switch_running_cost_Shimmnstu_718;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+
+item (FEAT_TRAINS , ITEM_SHIMMNSTU_718_CARGO, 9050)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SHIMMNSTU_718_CARGO);
+						variant_group:					9049;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					68;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_Shimmnstu_718_Cargo;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Shimmnstu_718_purchase_Cargo;
+			cost_factor						: 150;
+			running_cost_factor				: switch_running_cost_Shimmnstu_718;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+
+item (FEAT_TRAINS , ITEM_SHIMMNSTU_718_PRIV, 9052)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SHIMMNSTU_718_PRIV);
+						variant_group:					9049;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					68;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Shimmnstu_718_PRIV;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Shimmnstu_718_purchase_Ermewa;
+			cost_factor						: 150;
+			running_cost_factor				: switch_running_cost_Shimmnstu_718;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_SHIMMNSTU_718_ERMEWA, 9053)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SHIMMNSTU_718_ERMEWA);
+						variant_group:					9052;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					68;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_Shimmnstu_718_Ermewa;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Shimmnstu_718_purchase_Ermewa;
+			cost_factor						: 150;
+			running_cost_factor				: switch_running_cost_Shimmnstu_718;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_SHIMMNSTU_718_VTG, 9054)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SHIMMNSTU_718_VTG);
+						variant_group:					9052;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					68;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_Shimmnstu_718_VTG;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Shimmnstu_718_purchase_VTG;
+			cost_factor						: 150;
+			running_cost_factor				: switch_running_cost_Shimmnstu_718;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+
+item (FEAT_TRAINS , ITEM_SHIMMNSTU_718_WASCOSA, 9055)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SHIMMNSTU_718_WASCOSA);
+						variant_group:					9052;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					68;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: spritegroup_Shimmnstu_718_Wascosa;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: spriteset_Shimmnstu_718_purchase_Wascosa;
+			cost_factor						: 150;
+			running_cost_factor				: switch_running_cost_Shimmnstu_718;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

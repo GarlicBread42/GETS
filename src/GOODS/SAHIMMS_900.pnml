@@ -1,0 +1,342 @@
+//#################
+//###Sahimms_900###
+//#################
+				
+					
+//Spriteset Braun
+
+spriteset (spriteset_Sahimms_900_braun, "gfx\Sahimms_900/Sahimms_900_braun_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_braun, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_braun, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_2x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sahimms_900_braun, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_4x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Sahimms_900_braun_load_0, "gfx\Sahimms_900/Sahimms_900_braun_load_0_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_braun_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_0_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_0_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_braun_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_0_2x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_0_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sahimms_900_braun_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_0_4x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_0_4x_mask.png")
+					{template_98trains_4x(0, 0)}				
+					
+					
+spriteset (spriteset_Sahimms_900_braun_load_50, "gfx\Sahimms_900/Sahimms_900_braun_load_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_braun_load_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_50_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_braun_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_50_2x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sahimms_900_braun_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_50_4x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Sahimms_900_braun_load_100, "gfx\Sahimms_900/Sahimms_900_braun_load_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_braun_load_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_100_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_braun_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_100_2x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sahimms_900_braun_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_load_100_4x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_load_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}					
+					
+					
+spritegroup spritegroup_Sahimms_900_braun
+		{	loaded: 	[spriteset_Sahimms_900_braun];
+			loading: 	[spriteset_Sahimms_900_braun_load_0, spriteset_Sahimms_900_braun_load_50, spriteset_Sahimms_900_braun_load_100];}		
+
+
+//Spriteset DB Cargo
+
+spriteset (spriteset_Sahimms_900_DBCargo, "gfx\Sahimms_900/Sahimms_900_DBCargo_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_DBCargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_DBCargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_2x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sahimms_900_DBCargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_4x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Sahimms_900_DBCargo_load_0, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_0_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_0, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_0_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_0_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_0_2x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_0_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_0_4x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_0_4x_mask.png")
+					{template_98trains_4x(0, 0)}				
+					
+					
+spriteset (spriteset_Sahimms_900_DBCargo_load_50, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_50_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_50, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_50_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_50_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_50, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_50_2x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_50_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_50, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_50_4x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_50_4x_mask.png")
+					{template_98trains_4x(0, 0)}
+					
+					
+spriteset (spriteset_Sahimms_900_DBCargo_load_100, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_100_1x_8bpp.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_100, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_100_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_100_1x_mask.png")
+					{template_98trains_1x(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_100_2x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_100_2x_mask.png")
+					{template_98trains_2x(0, 0)}					
+			
+		alternative_sprites (spriteset_Sahimms_900_DBCargo_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_load_100_4x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_load_100_4x_mask.png")
+					{template_98trains_4x(0, 0)}					
+					
+					
+spritegroup spritegroup_Sahimms_900_DBCargo
+		{	loaded: 	[spriteset_Sahimms_900_DBCargo];
+			loading: 	[spriteset_Sahimms_900_DBCargo_load_0, spriteset_Sahimms_900_DBCargo_load_50, spriteset_Sahimms_900_DBCargo_load_100];}		
+
+
+//Spritesets purchase
+
+spriteset (spriteset_Sahimms_900_purchase_braun, "gfx\Sahimms_900/Sahimms_900_braun_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_purchase_braun, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_braun_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_braun_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Sahimms_900_purchase_DBCargo, "gfx\Sahimms_900/Sahimms_900_DBCargo_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+				
+		alternative_sprites (spriteset_Sahimms_900_purchase_DBCargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Sahimms_900/Sahimms_900_DBCargo_1x_32bpp.png", "gfx\Sahimms_900/Sahimms_900_DBCargo_1x_mask.png")
+					{template_purchase(0, 0)}
+
+
+//Switches
+
+					switch (FEAT_TRAINS,SELF, switch_Sahimms_900_purchase,current_year){
+						1800 .. 1995: spriteset_Sahimms_900_purchase_braun;
+						1996 .. 2050: spriteset_Sahimms_900_purchase_DBCargo;
+							spriteset_Sahimms_900_purchase_DBCargo;}							
+
+					switch(FEAT_TRAINS, SELF, switch_length_Sahimms_900, position_in_vehid_chain % 3) {
+						0: 3;
+						1: 3;
+						2: 3;}							
+																				
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Sahimms_900, 1){
+						return 700;}
+
+					switch (FEAT_TRAINS,SELF, switch_Sahimms_900_current_year,current_year){
+						00 .. 1995: spritegroup_Sahimms_900_braun;
+					  1996 .. 2050: spritegroup_Sahimms_900_DBCargo;					 					 
+							spritegroup_Sahimms_900_DBCargo;}
+								
+					switch(FEAT_TRAINS, SELF, switch_Sahimms_900_current_graphics, position_in_articulated_veh % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_Sahimms_900_current_year;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Sahimms_900_current, extra_callback_info1) {
+						1 .. 2: return ITEM_SAHIMMS_900_CURRENT;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+																			
+item (FEAT_TRAINS , ITEM_SAHIMMS_900_CURRENT, 9038)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SAHIMMS_900_CURRENT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1981,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						34 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Sahimms_900_current_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Sahimms_900_current;
+			length							: switch_length_Sahimms_900;
+			purchase						: switch_Sahimms_900_purchase;
+			cost_factor						: 260;
+			running_cost_factor				: switch_running_cost_Sahimms_900;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+								
+					switch(FEAT_TRAINS, SELF, switch_Sahimms_900_braun_graphics, position_in_articulated_veh % 3) {
+						0:	   spriteset_empty;
+						1:     spritegroup_Sahimms_900_braun;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Sahimms_900_braun, extra_callback_info1) {
+						1 .. 2: return ITEM_SAHIMMS_900_BRAUN;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+																			
+item (FEAT_TRAINS , ITEM_SAHIMMS_900_BRAUN, 9039)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SAHIMMS_900_BRAUN);
+						variant_group:					9038;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1981,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						34 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Sahimms_900_braun_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Sahimms_900_braun;
+			length							: switch_length_Sahimms_900;
+			purchase						: spriteset_Sahimms_900_purchase_braun;
+			cost_factor						: 260;
+			running_cost_factor				: switch_running_cost_Sahimms_900;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}
+								
+					switch(FEAT_TRAINS, SELF, switch_Sahimms_900_DBCargo_graphics, position_in_articulated_veh % 3) {
+						0:	   spriteset_empty;
+						1:     spritegroup_Sahimms_900_DBCargo;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_Sahimms_900_DBCargo, extra_callback_info1) {
+						1 .. 2: return ITEM_SAHIMMS_900_DBCARGO;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+																			
+item (FEAT_TRAINS , ITEM_SAHIMMS_900_DBCARGO, 9040)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_SAHIMMS_900_DBCARGO);
+						variant_group:					9038;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_COVERED, CC_PIECE_GOODS);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_BULK);
+						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, STWR, COPR,];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, ENSP, FMSP, FRUT, PAPR, MPTS, POWR, VPTS, WOOD, WOOL, PIPE, VEHI, VBOD, VENG, MNSP, ZINC, CSTI, GLAS, STSE, TYRE];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						34 ton;
+						dual_headed: 					0;
+						default_cargo_type:				STAL;
+						cargo_capacity:					28;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Sahimms_900_DBCargo_graphics;
+			additional_text					: string(STR_DESC_GOODS);
+			articulated_part			  	: switch_articulated_Sahimms_900_DBCargo;
+			length							: switch_length_Sahimms_900;
+			purchase						: spriteset_Sahimms_900_purchase_DBCargo;
+			cost_factor						: 260;
+			running_cost_factor				: switch_running_cost_Sahimms_900;	
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

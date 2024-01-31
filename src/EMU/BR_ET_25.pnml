@@ -173,7 +173,10 @@ spriteset(spriteset_ET_25_purchase2, "gfx\ET_25/ET25_DB_front_1x_8bpp.png")
 						
 						switch(FEAT_TRAINS,PARENT,switch_running_cost_ET_25, 1){
 							return 2800;}
-							
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_ET_55, 1){
+							return 2800;}
+														
 						switch(FEAT_TRAINS, SELF, switch_FX_ET_25, position_in_vehid_chain % 6) {
 							0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);
 							1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
@@ -466,5 +469,244 @@ item (FEAT_TRAINS , ITEM_ET_25_DB, 4253)
 			purchase						:spriteset_ET_25_purchase2;
 			cost_factor:					126;
 			running_cost_factor:			switch_running_cost_ET_25;			
+			}
+	}
+
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_55_build, extra_callback_info1) {
+						1 .. 5: return ITEM_ET_55_BUILD; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_ET_55_BUILD, 4550)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_55_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					25;
+						vehicle_life: 					25;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 34 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						1320 hp;
+						weight: 						92 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.125;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ET_25_graphics_build;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length:							switch_length_ET_25;
+			articulated_part:				switch_articulated_ET_55_build;
+			visual_effect_and_powered:    	switch_FX_ET_25;
+			purchase						:switch_ET_25_purchase;
+			cost_factor:					120;
+			running_cost_factor:			switch_running_cost_ET_55;			
+			}
+	}	
+
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_55_current, extra_callback_info1) {
+						1 .. 5: return ITEM_ET_55_CURRENT; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+						
+item (FEAT_TRAINS , ITEM_ET_55_CURRENT, 4551)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_55_CURRENT);
+						variant_group:					4550;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					25;
+						vehicle_life: 					25;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 34 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						1320 hp;
+						weight: 						92 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.125;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ET_25_graphics_current;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length:							switch_length_ET_25;
+			articulated_part:				switch_articulated_ET_55_current;
+			visual_effect_and_powered:    	switch_FX_ET_25;
+			purchase						:switch_ET_25_purchase;
+			cost_factor:					120;
+			running_cost_factor:			switch_running_cost_ET_55;			
+			}
+	}
+
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_55_DRG, extra_callback_info1) {
+						1 .. 5: return ITEM_ET_55_DRG; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_ET_55_DRG, 4552)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_55_DRG);
+						variant_group:					4550;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1939,01,01);
+						model_life: 					25;
+						vehicle_life: 					25;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 34 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						1320 hp;
+						weight: 						92 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.125;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ET_25_graphics_DRG;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length:							switch_length_ET_25;
+			articulated_part:				switch_articulated_ET_55_DRG;
+			visual_effect_and_powered:    	switch_FX_ET_25;
+			purchase						:spriteset_ET_25_purchase1;
+			cost_factor:					120;
+			running_cost_factor:			switch_running_cost_ET_55;			
+			}
+	}
+
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_ET_55_DB, extra_callback_info1) {
+						1 .. 5: return ITEM_ET_55_DB; 
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_ET_55_DB, 4553)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_55_DB);
+						variant_group:					4550;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					18;
+						vehicle_life: 					25;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 34 ;
+						loading_speed:					10;
+						cost_factor: 					108;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					AC15;	
+						power:  						1320 hp;
+						weight: 						92 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.125;
+						length: 						8;
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default:						switch_ET_25_graphics_DB;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_EMU), 
+											  string(STR_DESC_PASS),);
+			length:							switch_length_ET_25;
+			articulated_part:				switch_articulated_ET_55_DB;
+			visual_effect_and_powered:    	switch_FX_ET_25;
+			purchase						:spriteset_ET_25_purchase2;
+			cost_factor:					120;
+			running_cost_factor:			switch_running_cost_ET_55;			
 			}
 	}

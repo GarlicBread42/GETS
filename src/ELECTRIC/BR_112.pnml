@@ -122,7 +122,7 @@ spriteset(spriteset_BR_112_1_verkehrsrot_purchase, "gfx/BR_112/BR_112_1_verkehrs
 							1:     return switch_BR_112_build_year;}
 							
 						switch (FEAT_TRAINS, SELF, switch_articulated_BR_112_build, extra_callback_info1) {
-							1: return ITEM_BR_111_BUILD; 
+							1: return ITEM_BR_112_BUILD; 
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 													
 item (FEAT_TRAINS , ITEM_BR_112_BUILD, 1120)

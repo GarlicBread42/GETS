@@ -134,7 +134,7 @@ item (FEAT_TRAINS , ITEM_BR_103_2, 1038)
 						name: 							string(STR_NAME_BR_103_2);
 						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
 						climates_available:				ALL_CLIMATES;
-						introduction_date: 				date(1970,01,01);
+						introduction_date: 				date(1973,01,01);
 						model_life: 					34;
 						vehicle_life: 					30;
 						retire_early: 					-10;							
@@ -198,7 +198,7 @@ item (FEAT_TRAINS , ITEM_BR_103_2_CURRENT, 1039)
 						variant_group:					1038;
 						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
 						climates_available:				ALL_CLIMATES;
-						introduction_date: 				date(1970,01,01);
+						introduction_date: 				date(1973,01,01);
 						model_life: 					34;
 						vehicle_life: 					30;
 						retire_early: 					-10;							
@@ -262,7 +262,7 @@ item (FEAT_TRAINS , ITEM_BR_103_2_TEE, 1040)
 						variant_group:					1038;
 						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
 						climates_available:				ALL_CLIMATES;
-						introduction_date: 				date(1970,01,01);
+						introduction_date: 				date(1973,01,01);
 						model_life: 					34;
 						vehicle_life: 					30;
 						retire_early: 					-10;							
@@ -327,7 +327,7 @@ item (FEAT_TRAINS , ITEM_BR_103_2_ORIENTROT, 1041)
 						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);						
 						climates_available:				ALL_CLIMATES;
 						introduction_date: 				date(1988,01,01);
-						model_life: 					16;
+						model_life: 					19;
 						vehicle_life: 					30;
 						retire_early: 					-10;							
 						reliability_decay: 				20;
@@ -388,10 +388,10 @@ item (FEAT_TRAINS , ITEM_BR_103_2_TOURISTIC, 1042)
 			//common properties
 						name: 							string(STR_NAME_BR_103_2_TOURISTIC);
 						variant_group:					1038;
-						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);							
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);							
 						climates_available:				ALL_CLIMATES;
-						introduction_date: 				date(1970,01,01);
-						model_life: 					34;
+						introduction_date: 				date(1995,01,01);
+						model_life: 					12;
 						vehicle_life: 					30;
 						retire_early: 					-10;							
 						reliability_decay: 				20;
@@ -453,8 +453,8 @@ item (FEAT_TRAINS , ITEM_BR_103_2_RAILADVENTURE, 1043)
 						variant_group:					1038;
 						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);						
 						climates_available:				ALL_CLIMATES;
-						introduction_date: 				date(1970,01,01);
-						model_life: 					34;
+						introduction_date: 				date(2006,01,01);
+						model_life: 					5;
 						vehicle_life: 					30;
 						retire_early: 					-10;							
 						reliability_decay: 				20;

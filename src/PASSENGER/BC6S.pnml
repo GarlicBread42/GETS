@@ -1,0 +1,650 @@
+//#######################################
+//###BC6S - LBE-Stromliniendoppelstock###
+//#######################################
+
+//Spriteset LBE front
+
+spriteset(spriteset_BC6S_LBE_front, "gfx\BC6S/BC6S_LBE_front_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_LBE_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_LBE_front_1x_32bpp.png", "gfx\BC6S/BC6S_LBE_front_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_LBE_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_LBE_front_2x_32bpp.png", "gfx\BC6S/BC6S_LBE_front_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_LBE_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_LBE_front_4x_32bpp.png", "gfx\BC6S/BC6S_LBE_front_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+									
+//Spriteset LBE back
+
+spriteset(spriteset_BC6S_LBE_back, "gfx\BC6S/BC6S_LBE_back_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_LBE_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_LBE_back_1x_32bpp.png", "gfx\BC6S/BC6S_LBE_back_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_LBE_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_LBE_back_2x_32bpp.png", "gfx\BC6S/BC6S_LBE_back_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_LBE_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_LBE_back_4x_32bpp.png", "gfx\BC6S/BC6S_LBE_back_4x_mask.png")
+									{ template_148trains_4x(0, 0)}										
+
+//Spriteset DB front
+
+spriteset(spriteset_BC6S_DB_front, "gfx\BC6S/BC6S_DB_front_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_DB_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_DB_front_1x_32bpp.png", "gfx\BC6S/BC6S_DB_front_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_DB_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_DB_front_2x_32bpp.png", "gfx\BC6S/BC6S_DB_front_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_DB_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_DB_front_4x_32bpp.png", "gfx\BC6S/BC6S_DB_front_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+									
+//Spriteset DB back
+
+spriteset(spriteset_BC6S_DB_back, "gfx\BC6S/BC6S_DB_back_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_DB_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_DB_back_1x_32bpp.png", "gfx\BC6S/BC6S_DB_back_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_DB_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_DB_back_2x_32bpp.png", "gfx\BC6S/BC6S_DB_back_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_DB_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_DB_back_4x_32bpp.png", "gfx\BC6S/BC6S_DB_back_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+									
+//Spriteset front loading
+
+spriteset(spriteset_BC6S_front_loading, "gfx\BC6S/BC6S_front_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_front_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_front_loading_1x_32bpp.png", "gfx\BC6S/BC6S_front_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_front_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_front_loading_2x_32bpp.png", "gfx\BC6S/BC6S_front_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_front_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_front_loading_4x_32bpp.png", "gfx\BC6S/BC6S_front_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+									
+spritegroup spritegroup_BC6S_front_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BC6S_front_loading];}	
+												
+//Spriteset back loading
+
+spriteset(spriteset_BC6S_back_loading, "gfx\BC6S/BC6S_back_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_back_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_back_loading_1x_32bpp.png", "gfx\BC6S/BC6S_back_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_back_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_back_loading_2x_32bpp.png", "gfx\BC6S/BC6S_back_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_back_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_back_loading_4x_32bpp.png", "gfx\BC6S/BC6S_back_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+									
+spritegroup spritegroup_BC6S_back_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BC6S_back_loading];}								
+																		
+
+//Spriteset purchase
+
+spriteset(spriteset_BC6S_purchase_LBE, "gfx\BC6S/BC6S_LBE_front_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_purchase_LBE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_LBE_front_1x_32bpp.png", "gfx\BC6S/BC6S_LBE_front_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_BC6S_purchase_DB, "gfx\BC6S/BC6S_DB_front_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+		alternative_sprites (spriteset_BC6S_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BC6S/BC6S_DB_front_1x_32bpp.png", "gfx\BC6S/BC6S_DB_front_1x_mask.png")
+									{ template_purchase(0, 0)}
+									
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_BC6S,current_year) {
+							  00 .. 1945 : spriteset_BC6S_purchase_LBE;
+							1946 .. 2050 : spriteset_BC6S_purchase_DB;
+								spriteset_BC6S_purchase_DB;}	
+								
+						switch(FEAT_TRAINS, SELF, switch_loadstack_BC6S_LBE_front, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BC6S_LBE_front;
+							1: spritegroup_BC6S_front_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_BC6S_LBE_back, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BC6S_LBE_back;
+							1: spritegroup_BC6S_back_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_BC6S_DB_front, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BC6S_DB_front;
+							1: spritegroup_BC6S_front_loading;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_loadstack_BC6S_DB_back, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BC6S_DB_back;
+							1: spritegroup_BC6S_back_loading;}		
+							
+							   
+							   						   																																
+						switch(FEAT_TRAINS, SELF, switch_length_BC6S, position_in_articulated_veh % 6) {
+							0: 4;
+							1: 6;
+							2: 4;
+							3: 4;
+							4: 6;
+							5: 4;							}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BC6S, 1){
+							return 7200;}
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_BC6S_front,build_year) {
+							  00 .. 1945 : switch_loadstack_BC6S_LBE_front;
+							1946 .. 2050 : switch_loadstack_BC6S_DB_front;
+								switch_loadstack_BC6S_DB_front;}
+								
+						switch (FEAT_TRAINS,SELF,switch_build_year_BC6S_back,build_year) {
+							  00 .. 1945 : switch_loadstack_BC6S_LBE_back;
+							1946 .. 2050 : switch_loadstack_BC6S_DB_back;
+								switch_loadstack_BC6S_DB_back;}																
+
+						switch(FEAT_TRAINS, SELF, switch_BC6S_graphics_build, position_in_articulated_veh  % 6) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_BC6S_front;
+							2:     spriteset_empty;	
+							3:     spriteset_empty;
+							4:     return switch_build_year_BC6S_back;
+							5:     spriteset_empty;}							
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_BC6S_build, extra_callback_info1) {
+							1 .. 5: return ITEM_BC6S_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BC6S_BUILD, 7332)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BC6S_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						71 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BC6S_graphics_build;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BC6S;
+			articulated_part				: switch_articulated_BC6S_build;
+			purchase						: switch_purchase_BC6S;
+			cost_factor						: 1110;
+			running_cost_factor				: switch_running_cost_BC6S;					
+			 }
+		}
+
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_BC6S_front,current_year) {
+							  00 .. 1945 : switch_loadstack_BC6S_LBE_front;
+							1946 .. 2050 : switch_loadstack_BC6S_DB_front;
+								switch_loadstack_BC6S_DB_front;}
+								
+						switch (FEAT_TRAINS,SELF,switch_current_year_BC6S_back,current_year) {
+							  00 .. 1945 : switch_loadstack_BC6S_LBE_back;
+							1946 .. 2050 : switch_loadstack_BC6S_DB_back;
+								switch_loadstack_BC6S_DB_back;}																
+
+						switch(FEAT_TRAINS, SELF, switch_BC6S_graphics_current, position_in_articulated_veh  % 6) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_BC6S_front;
+							2:     spriteset_empty;	
+							3:     spriteset_empty;
+							4:     return switch_current_year_BC6S_back;
+							5:     spriteset_empty;}							
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_BC6S_current, extra_callback_info1) {
+							1 .. 5: return ITEM_BC6S_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BC6S_CURRENT, 7333)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BC6S_CURRENT);
+						variant_group:					7332;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						71 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BC6S_graphics_current;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BC6S;
+			articulated_part				: switch_articulated_BC6S_current;
+			purchase						: switch_purchase_BC6S;
+			cost_factor						: 1110;
+			running_cost_factor				: switch_running_cost_BC6S;					
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_BC6S_graphics_LBE, position_in_articulated_veh  % 6) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_BC6S_LBE_front;
+							2:     spriteset_empty;	
+							3:     spriteset_empty;
+							4:     return switch_loadstack_BC6S_LBE_back;
+							5:     spriteset_empty;}							
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_BC6S_LBE, extra_callback_info1) {
+							1 .. 5: return ITEM_BC6S_LBE;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BC6S_LBE, 7334)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BC6S_LBE);
+						variant_group:					7332;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						71 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BC6S_graphics_LBE;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BC6S;
+			articulated_part				: switch_articulated_BC6S_LBE;
+			purchase						: spriteset_BC6S_purchase_LBE;
+			cost_factor						: 1110;
+			running_cost_factor				: switch_running_cost_BC6S;					
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_BC6S_graphics_DB, position_in_articulated_veh  % 6) {
+							0:     spriteset_empty;
+							1:     return switch_loadstack_BC6S_DB_front;
+							2:     spriteset_empty;	
+							3:     spriteset_empty;
+							4:     return switch_loadstack_BC6S_DB_back;
+							5:     spriteset_empty;}							
+								
+						switch (FEAT_TRAINS, SELF, switch_articulated_BC6S_DB, extra_callback_info1) {
+							1 .. 5: return ITEM_BC6S_DB;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BC6S_DB, 7335)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BC6S_DB);
+						variant_group:					7332;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1946,01,01);
+						model_life: 					30;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						71 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BC6S_graphics_DB;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_BC6S;
+			articulated_part				: switch_articulated_BC6S_DB;
+			purchase						: spriteset_BC6S_purchase_DB;
+			cost_factor						: 1110;
+			running_cost_factor				: switch_running_cost_BC6S;					
+			 }
+		}
+
+//DVT as a Loco
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BC6S_DVT_LOCO, 1){
+							return 7200;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BC6S_DVT_LOCO_build, extra_callback_info1) {
+							1 .. 5: return ITEM_BC6S_DVT_LOCO_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BC6S_DVT_LOCO_BUILD, 5096)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BC6S_DVT_LOCO_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cargo_capacity:					50;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;					
+						weight: 						71 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BC6S_graphics_build;
+			additional_text					: string(STR_DESC_BC6S_DVT);
+			length							: switch_length_BC6S;
+			articulated_part				: switch_articulated_BC6S_DVT_LOCO_build;
+			purchase						: switch_purchase_BC6S;
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BC6S_DVT_LOCO;					
+			 }
+		}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BC6S_DVT_LOCO_current, extra_callback_info1) {
+							1 .. 5: return ITEM_BC6S_DVT_LOCO_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BC6S_DVT_LOCO_CURRENT, 5097)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BC6S_DVT_LOCO_CURRENT);
+						variant_group:					5096;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cargo_capacity:					50;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;					
+						weight: 						71 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+												
+			}
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BC6S_graphics_current;
+			additional_text					: string(STR_DESC_BC6S_DVT);
+			length							: switch_length_BC6S;
+			articulated_part				: switch_articulated_BC6S_DVT_LOCO_current;
+			purchase						: switch_purchase_BC6S;
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BC6S_DVT_LOCO;					
+			 }
+		}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BC6S_DVT_LOCO_LBE, extra_callback_info1) {
+							1 .. 5: return ITEM_BC6S_DVT_LOCO_LBE;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BC6S_DVT_LOCO_LBE, 5098)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BC6S_DVT_LOCO_LBE);
+						variant_group:					5096;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cargo_capacity:					50;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;					
+						weight: 						71 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+												
+			}
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BC6S_graphics_LBE;
+			additional_text					: string(STR_DESC_BC6S_DVT);
+			length							: switch_length_BC6S;
+			articulated_part				: switch_articulated_BC6S_DVT_LOCO_LBE;
+			purchase						: spriteset_BC6S_purchase_LBE;
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BC6S_DVT_LOCO;					
+			 }
+		}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BC6S_DVT_LOCO_DB, extra_callback_info1) {
+							1 .. 5: return ITEM_BC6S_DVT_LOCO_DB;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BC6S_DVT_LOCO_DB, 5099)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BC6S_DVT_LOCO_DB);
+						variant_group:					5096;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1936,01,01);
+						model_life: 					30;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					10;
+						cargo_capacity:					50;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						1 hp;					
+						weight: 						71 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.001;
+						length: 						8;
+												
+			}
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BC6S_graphics_DB;
+			additional_text					: string(STR_DESC_BC6S_DVT);
+			length							: switch_length_BC6S;
+			articulated_part				: switch_articulated_BC6S_DVT_LOCO_DB;
+			purchase						: spriteset_BC6S_purchase_DB;
+			cost_factor						: 45;
+			running_cost_factor				: switch_running_cost_BC6S_DVT_LOCO;					
+			 }
+		}

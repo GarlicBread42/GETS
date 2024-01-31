@@ -362,7 +362,7 @@ item (FEAT_TRAINS , ITEM_YL_OZEANBLAU, 7353)
 			//common properties
 						name: 							string(STR_NAME_YL_OZEANBLAU);
 						variant_group:					7350;
-						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);	
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
 						climates_available: 			ALL_CLIMATES;
 						introduction_date: 				date(1975,01,01);
 						model_life: 					15;
