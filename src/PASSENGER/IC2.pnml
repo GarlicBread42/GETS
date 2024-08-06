@@ -1,0 +1,247 @@
+//###############################
+//###DB "IC2" Bi-Level Coaches###
+//###############################				
+
+//Spriteset 1. Klasse
+
+spriteset (spriteset_IC2_A, "gfx\IC2\IC2_A_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_IC2_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\IC2\IC2_A_1x_32bpp.png", "gfx\IC2\IC2_A_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_IC2_A, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_A_2x_32bpp.png", "gfx\IC2\IC2_A_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_IC2_A, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_A_4x_32bpp.png", "gfx\IC2\IC2_A_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spriteset (spriteset_IC2_A_loading, "gfx\IC2\IC2_A_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_IC2_A_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\IC2\IC2_A_loading_1x_32bpp.png", "gfx\IC2\IC2_A_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_IC2_A_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_A_loading_2x_32bpp.png", "gfx\IC2\IC2_A_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_IC2_A_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_A_loading_4x_32bpp.png", "gfx\IC2\IC2_A_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}						
+
+spritegroup spritegroup_IC2_A_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_IC2_A_loading];}	
+				
+	
+//Spriteset 2. Klasse
+
+spriteset (spriteset_IC2_B, "gfx\IC2\IC2_B_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_IC2_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\IC2\IC2_B_1x_32bpp.png", "gfx\IC2\IC2_B_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_IC2_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_B_2x_32bpp.png", "gfx\IC2\IC2_B_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_IC2_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_B_4x_32bpp.png", "gfx\IC2\IC2_B_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spriteset (spriteset_IC2_B_loading, "gfx\IC2\IC2_B_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_IC2_B_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\IC2\IC2_B_loading_1x_32bpp.png", "gfx\IC2\IC2_B_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_IC2_B_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_B_loading_2x_32bpp.png", "gfx\IC2\IC2_B_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_IC2_B_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_B_loading_4x_32bpp.png", "gfx\IC2\IC2_B_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}						
+
+spritegroup spritegroup_IC2_B_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_IC2_B_loading];}	
+			
+//Spriteset 1. Klasse
+
+spriteset (spriteset_IC2_DVT, "gfx\IC2\IC2_DVT_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_IC2_DVT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\IC2\IC2_DVT_1x_32bpp.png", "gfx\IC2\IC2_DVT_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_IC2_DVT, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_DVT_2x_32bpp.png", "gfx\IC2\IC2_DVT_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_IC2_DVT, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_DVT_4x_32bpp.png", "gfx\IC2\IC2_DVT_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+					
+spriteset (spriteset_IC2_DVT_loading, "gfx\IC2\IC2_DVT_loading_1x_8bpp.png")
+					{template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_IC2_DVT_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\IC2\IC2_DVT_loading_1x_32bpp.png", "gfx\IC2\IC2_DVT_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_IC2_DVT_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_DVT_loading_2x_32bpp.png", "gfx\IC2\IC2_DVT_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_IC2_DVT_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\IC2\IC2_DVT_loading_4x_32bpp.png", "gfx\IC2\IC2_DVT_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}						
+
+spritegroup spritegroup_IC2_DVT_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_IC2_DVT_loading];}	
+
+//Spritesets purchase
+
+spriteset (spriteset_IC2_B_purchase, "gfx\IC2\IC2_B_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_IC2_B_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\IC2\IC2_B_1x_32bpp.png", "gfx\IC2\IC2_B_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_IC2_DVT_purchase, "gfx\IC2\IC2_DVT_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_IC2_DVT_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\IC2\IC2_DVT_1x_32bpp.png", "gfx\IC2\IC2_DVT_1x_mask.png")
+					{template_purchase(0,0)}
+															
+//Switches
+
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_IC2_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_IC2_A;
+							1: spritegroup_IC2_A_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_IC2_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_IC2_B;
+							1: spritegroup_IC2_B_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_IC2_DVT, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_IC2_DVT;
+							1: spritegroup_IC2_DVT_loading;}							
+																					   
+						switch (FEAT_TRAINS, SELF, random_choose_IC2, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_IC2_A;
+							  switch_spritestack_IC2_B;}
+
+						switch(FEAT_TRAINS, SELF, switch_autoconsist_IC2, position_in_vehid_chain) {
+							 1: return switch_spritestack_IC2_A;
+							 4: return switch_spritestack_IC2_B;
+							 7: return switch_spritestack_IC2_B;
+							10: switch_spritestack_IC2_B;
+								default: switch_spritestack_IC2_B;}
+								
+						switch(FEAT_TRAINS, SELF, switch_DVT_IC2, position_in_consist_from_end) {
+							1: return switch_spritestack_IC2_DVT;
+								default: return switch_autoconsist_IC2;}									
+
+						switch (FEAT_TRAINS,PARENT,switch_IC2_check_1462_1464,(count_veh_id(1462))+(count_veh_id(1464))) {
+							0: random_choose_IC2; 
+								switch_DVT_IC2;}									
+					
+						switch(FEAT_TRAINS, SELF, switch_length_IC2, position_in_articulated_veh % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_IC2, 1){
+							return 3000;}	
+													
+						switch(FEAT_TRAINS, SELF, switch_IC2_graphics, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_IC2_check_1462_1464;
+							2:     spriteset_empty;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_IC2, extra_callback_info1) {
+							1 .. 2: return ITEM_IC2;	
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_IC2, 7799)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_IC2);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2015,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						56 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					33;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default:						switch_IC2_graphics;
+			additional_text:				string(STR_DESC_EXPRESS);
+			length:							switch_length_IC2;
+			articulated_part:				switch_articulated_IC2;
+			purchase:						spriteset_IC2_B_purchase;
+			cost_factor:					615;
+			running_cost_factor:			switch_running_cost_IC2;					
+			 }
+		}		
+
+
+						switch(FEAT_TRAINS, SELF, switch_IC2_DVT_graphics, position_in_articulated_veh  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_IC2_DVT;
+							2:     spriteset_empty;}
+							
+						switch (FEAT_TRAINS, SELF, switch_articulated_IC2_DVT, extra_callback_info1) {
+							1 .. 2: return ITEM_IC2_DVT;	
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+item (FEAT_TRAINS , ITEM_IC2_DVT, 7980)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_IC2_DVT);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2015,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						56 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					33;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default:						switch_IC2_DVT_graphics;
+			additional_text:				string(STR_DESC_EXPRESS);
+			length:							switch_length_IC2;
+			articulated_part:				switch_articulated_IC2_DVT;
+			purchase:						spriteset_IC2_DVT_purchase;
+			cost_factor:					615;
+			running_cost_factor:			switch_running_cost_IC2;					
+			 }
+		}		

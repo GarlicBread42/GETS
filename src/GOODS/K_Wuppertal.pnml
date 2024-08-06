@@ -1,0 +1,268 @@
+//###################
+//###K25 Wuppertal###
+//###################					
+					
+//Spritesets with Brakershut DRG
+
+spriteset (spriteset_K_Wuppertal_MBH_DRG, "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_MBH_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_MBH_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_2x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_MBH_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_4x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+					
+spriteset (spriteset_K_Wuppertal_MBH_open_DRG, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DRG_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DRG_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DRG_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DRG_2x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DRG_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DRG_4x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DRG_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+
+spritegroup spritegroup_K_Wuppertal_MBH_DRG
+		{loaded: 	[spriteset_K_Wuppertal_MBH_DRG];
+			loading: 	[spriteset_K_Wuppertal_MBH_open_DRG];}										
+
+
+//Spritesets with Brakershut DB
+
+spriteset (spriteset_K_Wuppertal_MBH_DB, "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_MBH_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_MBH_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_2x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_MBH_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_4x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+					
+spriteset (spriteset_K_Wuppertal_MBH_open_DB, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DB_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DB_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DB_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DB_2x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DB_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DB_4x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_open_DB_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+
+spritegroup spritegroup_K_Wuppertal_MBH_DB
+		{loaded: 	[spriteset_K_Wuppertal_MBH_DB];
+			loading: 	[spriteset_K_Wuppertal_MBH_open_DB];}							
+
+//Spriteset loading with Brakershut
+
+spriteset (spriteset_K_Wuppertal_MBH_open_load_0, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_0_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}		
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_0_2x_8bpp.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_0_4x_8bpp.png")
+					{template_58trains_4x(0, 0)}
+
+spriteset (spriteset_K_Wuppertal_MBH_open_load_30, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_30_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}		
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_load_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_30_2x_8bpp.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_load_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_30_4x_8bpp.png")
+					{template_58trains_4x(0, 0)}
+					
+spriteset (spriteset_K_Wuppertal_MBH_open_load_60, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_60_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}		
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_load_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_60_2x_8bpp.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_load_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_60_4x_8bpp.png")
+					{template_58trains_4x(0, 0)}					
+					
+spriteset (spriteset_K_Wuppertal_MBH_open_load_100, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_100_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}		
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_100_2x_8bpp.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_MBH_open_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_open_load_100_4x_8bpp.png")
+					{template_58trains_4x(0, 0)}	
+
+spritegroup spritegroup_K_Wuppertal_MBH_open_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_K_Wuppertal_MBH_open_load_0, spriteset_K_Wuppertal_MBH_open_load_30, spriteset_K_Wuppertal_MBH_open_load_60, spriteset_K_Wuppertal_MBH_open_load_100];}	
+			
+//Spritesets without Brakershut DRG
+
+spriteset (spriteset_K_Wuppertal_OBH_DRG, "gfx\K_Wuppertal/K_Wuppertal_OBH_DRG_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_OBH_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_DRG_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_DRG_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_OBH_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_DRG_2x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_DRG_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_OBH_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_DRG_4x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_DRG_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+					
+spriteset (spriteset_K_Wuppertal_OBH_open_DRG, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DRG_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DRG_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DRG_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DRG_2x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DRG_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DRG_4x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DRG_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+
+spritegroup spritegroup_K_Wuppertal_OBH_DRG
+		{loaded: 	[spriteset_K_Wuppertal_OBH_DRG];
+			loading: 	[spriteset_K_Wuppertal_OBH_open_DRG];}										
+
+
+//Spritesets without Brakershut DB
+
+spriteset (spriteset_K_Wuppertal_OBH_DB, "gfx\K_Wuppertal/K_Wuppertal_OBH_DB_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_OBH_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_DB_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_DB_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_OBH_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_DB_2x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_DB_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_OBH_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_DB_4x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_DB_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+					
+spriteset (spriteset_K_Wuppertal_OBH_open_DB, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DB_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DB_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DB_1x_mask.png")
+					{template_58trains_1x(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DB_2x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DB_2x_mask.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DB_4x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_OBH_open_DB_4x_mask.png")
+					{template_58trains_4x(0, 0)}
+
+spritegroup spritegroup_K_Wuppertal_OBH_DB
+		{loaded: 	[spriteset_K_Wuppertal_OBH_DB];
+			loading: 	[spriteset_K_Wuppertal_OBH_open_DB];}			
+
+//Spriteset loading with Brakershut
+
+spriteset (spriteset_K_Wuppertal_OBH_open_load_0, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_0_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}		
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_0_2x_8bpp.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_0_4x_8bpp.png")
+					{template_58trains_4x(0, 0)}
+
+spriteset (spriteset_K_Wuppertal_OBH_open_load_30, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_30_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}		
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_load_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_30_2x_8bpp.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_load_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_30_4x_8bpp.png")
+					{template_58trains_4x(0, 0)}
+					
+spriteset (spriteset_K_Wuppertal_OBH_open_load_60, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_60_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}		
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_load_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_60_2x_8bpp.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_load_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_60_4x_8bpp.png")
+					{template_58trains_4x(0, 0)}					
+					
+spriteset (spriteset_K_Wuppertal_OBH_open_load_100, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_100_1x_8bpp.png")
+					{template_58trains_1x(0, 0)}		
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_100_2x_8bpp.png")
+					{template_58trains_2x(0, 0)}					
+		alternative_sprites (spriteset_K_Wuppertal_OBH_open_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\K_Wuppertal/K_Wuppertal_OBH_open_load_100_4x_8bpp.png")
+					{template_58trains_4x(0, 0)}	
+
+spritegroup spritegroup_K_Wuppertal_OBH_open_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_K_Wuppertal_OBH_open_load_0, spriteset_K_Wuppertal_OBH_open_load_30, spriteset_K_Wuppertal_OBH_open_load_60, spriteset_K_Wuppertal_OBH_open_load_100];}	
+
+						
+//Spritesets purchase
+
+spriteset (spriteset_K_Wuppertal_DRG_purchase, "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_DRG_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_DRG_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_K_Wuppertal_DB_purchase, "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_K_Wuppertal_DB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_1x_32bpp.png", "gfx\K_Wuppertal/K_Wuppertal_MBH_DB_1x_mask.png")
+					{template_purchase(0, 0)}				
+
+
+//Switches
+
+					switch (FEAT_TRAINS,SELF, switch_K_Wuppertal_purchase,current_year){
+						   0 .. 1945: spriteset_K_Wuppertal_DRG_purchase;
+						1946 .. 2050: spriteset_K_Wuppertal_DB_purchase;				 					 
+							spriteset_K_Wuppertal_DB_purchase;}
+
+					switch (FEAT_TRAINS,SELF, switch_K_Wuppertal_MBH_current,current_year){
+						   0 .. 1945: spritegroup_K_Wuppertal_MBH_DRG;
+						1946 .. 2050: spritegroup_K_Wuppertal_MBH_DB;				 					 
+							spritegroup_K_Wuppertal_MBH_DB;}
+
+					switch (FEAT_TRAINS,SELF, switch_K_Wuppertal_OBH_current,current_year){
+						   0 .. 1945: spritegroup_K_Wuppertal_OBH_DRG;
+						1946 .. 2050: spritegroup_K_Wuppertal_OBH_DB;				 					 
+							spritegroup_K_Wuppertal_OBH_DB;}							
+							
+					switch(FEAT_TRAINS, SELF, switch_K_Wuppertal_MBH_loadstack_current, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_K_Wuppertal_MBH_current;
+						1: spritegroup_K_Wuppertal_MBH_open_loading;}
+
+					switch(FEAT_TRAINS, SELF, switch_K_Wuppertal_OBH_loadstack_current, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_K_Wuppertal_OBH_current;
+						1: spritegroup_K_Wuppertal_OBH_open_loading;}
+
+					switch (FEAT_TRAINS, SELF, switch_graphics_K_Wuppertal, position_in_vehid_chain % 2) {
+						1: switch_K_Wuppertal_MBH_loadstack_current;
+							switch_K_Wuppertal_OBH_loadstack_current;}
+
+					switch (FEAT_TRAINS, PARENT, switch_speed_K_Wuppertal,  switch_check_PWG_0()) {
+						1: return 80;
+						0: return 65;}
+													
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_K_Wuppertal, 1){
+						return 105;}
+
+item (FEAT_TRAINS , ITEM_K_WUPPERTAL, 8702)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_K_WUPPERTAL);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1924,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED);
+						cargo_allow_refit:              [CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, SALT, SASH, TOFF, CMNT, FERT, FICR, RCYC, SALT, SGBT, SGCN, ];
+						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, ];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						11 ton;
+						dual_headed: 					0;
+						default_cargo_type:				POTA;
+						cargo_capacity:					18;
+						ai_engine_rank: 				0;
+						length: 						5;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_graphics_K_Wuppertal;
+			additional_text					: string(STR_DESC_CABOOSE_65);
+			purchase						: switch_K_Wuppertal_purchase;
+			cost_factor						: 46;
+			running_cost_factor				: switch_running_cost_K_Wuppertal;
+			speed							: switch_speed_K_Wuppertal; 				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

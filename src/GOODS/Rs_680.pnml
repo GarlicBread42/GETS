@@ -521,13 +521,14 @@ spritegroup spritegroup_Rs_680_load_Wood
 						switch (FEAT_TRAINS, PARENT, switch_speed_Rs_680,  switch_check_PWG_0()) {
 							1: return 100;
 							0: return 80;}												
-						 		 
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Rs_680, 1){
+							return 425;}	
+													 		 
 						switch (FEAT_TRAINS, SELF, switch_articulated_Rs_680, extra_callback_info1) {
 							1 .. 2: return ITEM_RS_680;
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}																																																																												
 
-						switch(FEAT_TRAINS,PARENT,switch_running_cost_Rs_680, 1){
-							return 425;}	
 							
 item (FEAT_TRAINS , ITEM_RS_680, 8931)
 		{

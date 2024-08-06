@@ -1,0 +1,897 @@
+//#########################
+//###DB BR 620  Lint 81####
+//#########################
+
+//Spriteset front Vareo
+
+	spriteset(spriteset_BR_620_front_Vareo, "gfx\BR_620/BR_620_front_Vareo_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vareo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vareo_1x_32bpp.png", "gfx\BR_620/BR_620_front_Vareo_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vareo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vareo_2x_32bpp.png", "gfx\BR_620/BR_620_front_Vareo_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vareo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vareo_4x_32bpp.png", "gfx\BR_620/BR_620_front_Vareo_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	
+	spriteset(spriteset_BR_620_front_Vareo_REV, "gfx\BR_620/BR_620_front_Vareo_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vareo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vareo_1x_32bpp.png", "gfx\BR_620/BR_620_front_Vareo_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vareo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vareo_2x_32bpp.png", "gfx\BR_620/BR_620_front_Vareo_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vareo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vareo_4x_32bpp.png", "gfx\BR_620/BR_620_front_Vareo_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_Vareo_loading, "gfx\BR_620/BR_620_Vareo_loading_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vareo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vareo_loading_1x_32bpp.png", "gfx\BR_620/BR_620_Vareo_loading_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vareo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vareo_loading_2x_32bpp.png", "gfx\BR_620/BR_620_Vareo_loading_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vareo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vareo_loading_4x_32bpp.png", "gfx\BR_620/BR_620_Vareo_loading_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_Vareo_loading
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_Vareo_loading];}
+														
+	spriteset(spriteset_BR_620_Vareo_loading_REV, "gfx\BR_620/BR_620_Vareo_loading_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vareo_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vareo_loading_1x_32bpp.png", "gfx\BR_620/BR_620_Vareo_loading_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vareo_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vareo_loading_2x_32bpp.png", "gfx\BR_620/BR_620_Vareo_loading_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vareo_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vareo_loading_4x_32bpp.png", "gfx\BR_620/BR_620_Vareo_loading_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_Vareo_loading_REV
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_Vareo_loading_REV];}										
+
+//Spriteset front Vlexx
+
+	spriteset(spriteset_BR_620_front_Vlexx, "gfx\BR_620/BR_620_front_Vlexx_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vlexx, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vlexx_1x_32bpp.png", "gfx\BR_620/BR_620_front_Vlexx_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vlexx, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vlexx_2x_32bpp.png", "gfx\BR_620/BR_620_front_Vlexx_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vlexx, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vlexx_4x_32bpp.png", "gfx\BR_620/BR_620_front_Vlexx_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	
+	spriteset(spriteset_BR_620_front_Vlexx_REV, "gfx\BR_620/BR_620_front_Vlexx_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vlexx_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vlexx_1x_32bpp.png", "gfx\BR_620/BR_620_front_Vlexx_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vlexx_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vlexx_2x_32bpp.png", "gfx\BR_620/BR_620_front_Vlexx_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_Vlexx_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vlexx_4x_32bpp.png", "gfx\BR_620/BR_620_front_Vlexx_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_Vlexx_loading, "gfx\BR_620/BR_620_Vlexx_loading_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vlexx_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vlexx_loading_1x_32bpp.png", "gfx\BR_620/BR_620_Vlexx_loading_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vlexx_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vlexx_loading_2x_32bpp.png", "gfx\BR_620/BR_620_Vlexx_loading_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vlexx_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vlexx_loading_4x_32bpp.png", "gfx\BR_620/BR_620_Vlexx_loading_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_Vlexx_loading
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_Vlexx_loading];}
+														
+	spriteset(spriteset_BR_620_Vlexx_loading_REV, "gfx\BR_620/BR_620_Vlexx_loading_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vlexx_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vlexx_loading_1x_32bpp.png", "gfx\BR_620/BR_620_Vlexx_loading_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vlexx_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vlexx_loading_2x_32bpp.png", "gfx\BR_620/BR_620_Vlexx_loading_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_Vlexx_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_Vlexx_loading_4x_32bpp.png", "gfx\BR_620/BR_620_Vlexx_loading_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_Vlexx_loading_REV
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_Vlexx_loading_REV];}
+				
+//Spriteset front BRB
+
+	spriteset(spriteset_BR_620_front_BRB, "gfx\BR_620/BR_620_front_BRB_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_BRB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_BRB_1x_32bpp.png", "gfx\BR_620/BR_620_front_BRB_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_BRB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_BRB_2x_32bpp.png", "gfx\BR_620/BR_620_front_BRB_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_BRB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_BRB_4x_32bpp.png", "gfx\BR_620/BR_620_front_BRB_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+		
+	spriteset(spriteset_BR_620_front_BRB_REV, "gfx\BR_620/BR_620_front_BRB_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_BRB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_BRB_1x_32bpp.png", "gfx\BR_620/BR_620_front_BRB_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_BRB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_BRB_2x_32bpp.png", "gfx\BR_620/BR_620_front_BRB_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_BRB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_BRB_4x_32bpp.png", "gfx\BR_620/BR_620_front_BRB_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_BRB_loading, "gfx\BR_620/BR_620_BRB_loading_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_BRB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_BRB_loading_1x_32bpp.png", "gfx\BR_620/BR_620_BRB_loading_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_BRB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_BRB_loading_2x_32bpp.png", "gfx\BR_620/BR_620_BRB_loading_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_BRB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_BRB_loading_4x_32bpp.png", "gfx\BR_620/BR_620_BRB_loading_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_BRB_loading
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_BRB_loading];}
+														
+	spriteset(spriteset_BR_620_BRB_loading_REV, "gfx\BR_620/BR_620_BRB_loading_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_BRB_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_BRB_loading_1x_32bpp.png", "gfx\BR_620/BR_620_BRB_loading_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_BRB_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_BRB_loading_2x_32bpp.png", "gfx\BR_620/BR_620_BRB_loading_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_BRB_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_BRB_loading_4x_32bpp.png", "gfx\BR_620/BR_620_BRB_loading_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_BRB_loading_REV
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_BRB_loading_REV];}				
+
+//Spriteset middle Vareo
+
+	spriteset(spriteset_BR_620_middle_Vareo, "gfx\BR_620/BR_620_middle_Vareo_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_1x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_2x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_4x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_middle_Vareo_REV, "gfx\BR_620/BR_620_middle_Vareo_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_1x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_2x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_4x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_middle_Vareo_loading, "gfx\BR_620/BR_620_middle_Vareo_loading_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_loading_1x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_loading_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_loading_2x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_loading_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_loading_4x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_loading_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_middle_Vareo_loading
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_middle_Vareo_loading];}
+														
+	spriteset(spriteset_BR_620_middle_Vareo_loading_REV, "gfx\BR_620/BR_620_middle_Vareo_loading_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_loading_1x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_loading_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_loading_2x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_loading_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vareo_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vareo_loading_4x_32bpp.png", "gfx\BR_620/BR_620_middle_Vareo_loading_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_middle_Vareo_loading_REV
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_middle_Vareo_loading_REV];}	
+				
+//Spriteset middle Vlexx
+
+	spriteset(spriteset_BR_620_middle_Vlexx, "gfx\BR_620/BR_620_middle_Vlexx_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_1x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_2x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_4x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_middle_Vlexx_REV, "gfx\BR_620/BR_620_middle_Vlexx_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_1x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_2x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_4x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_middle_Vlexx_loading, "gfx\BR_620/BR_620_middle_Vlexx_loading_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_loading_1x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_loading_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_loading_2x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_loading_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_loading_4x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_loading_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_middle_Vlexx_loading
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_middle_Vlexx_loading];}
+														
+	spriteset(spriteset_BR_620_middle_Vlexx_loading_REV, "gfx\BR_620/BR_620_middle_Vlexx_loading_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_loading_1x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_loading_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_loading_2x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_loading_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_Vlexx_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_Vlexx_loading_4x_32bpp.png", "gfx\BR_620/BR_620_middle_Vlexx_loading_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_middle_Vlexx_loading_REV
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_middle_Vlexx_loading_REV];}			
+							
+//Spriteset middle BRB
+
+	spriteset(spriteset_BR_620_middle_BRB, "gfx\BR_620/BR_620_middle_BRB_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_1x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_2x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_4x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_middle_BRB_REV, "gfx\BR_620/BR_620_middle_BRB_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_1x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_2x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_4x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_middle_BRB_loading, "gfx\BR_620/BR_620_middle_BRB_loading_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_loading_1x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_loading_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_loading_2x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_loading_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_loading_4x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_loading_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_middle_BRB_loading
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_middle_BRB_loading];}
+														
+	spriteset(spriteset_BR_620_middle_BRB_loading_REV, "gfx\BR_620/BR_620_middle_BRB_loading_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_loading_1x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_loading_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_loading_2x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_loading_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_middle_BRB_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_middle_BRB_loading_4x_32bpp.png", "gfx\BR_620/BR_620_middle_BRB_loading_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+										
+	spritegroup spritegroup_BR_620_middle_BRB_loading_REV
+			{	loaded: 	[spriteset_empty];
+				loading: 	[spriteset_BR_620_middle_BRB_loading_REV];}		
+				
+//Spriteset back Vareo
+
+	spriteset(spriteset_BR_620_back_Vareo, "gfx\BR_620/BR_620_back_Vareo_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vareo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vareo_1x_32bpp.png", "gfx\BR_620/BR_620_back_Vareo_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vareo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vareo_2x_32bpp.png", "gfx\BR_620/BR_620_back_Vareo_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vareo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vareo_4x_32bpp.png", "gfx\BR_620/BR_620_back_Vareo_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_back_Vareo_REV, "gfx\BR_620/BR_620_back_Vareo_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vareo_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vareo_1x_32bpp.png", "gfx\BR_620/BR_620_back_Vareo_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vareo_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vareo_2x_32bpp.png", "gfx\BR_620/BR_620_back_Vareo_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vareo_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vareo_4x_32bpp.png", "gfx\BR_620/BR_620_back_Vareo_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}					
+
+//Spriteset back Vlexx
+
+	spriteset(spriteset_BR_620_back_Vlexx, "gfx\BR_620/BR_620_back_Vlexx_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vlexx, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vlexx_1x_32bpp.png", "gfx\BR_620/BR_620_back_Vlexx_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vlexx, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vlexx_2x_32bpp.png", "gfx\BR_620/BR_620_back_Vlexx_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vlexx, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vlexx_4x_32bpp.png", "gfx\BR_620/BR_620_back_Vlexx_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_back_Vlexx_REV, "gfx\BR_620/BR_620_back_Vlexx_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vlexx_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vlexx_1x_32bpp.png", "gfx\BR_620/BR_620_back_Vlexx_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vlexx_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vlexx_2x_32bpp.png", "gfx\BR_620/BR_620_back_Vlexx_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_Vlexx_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_Vlexx_4x_32bpp.png", "gfx\BR_620/BR_620_back_Vlexx_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+				
+//Spriteset back BRB
+
+	spriteset(spriteset_BR_620_back_BRB, "gfx\BR_620/BR_620_back_BRB_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_BRB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_BRB_1x_32bpp.png", "gfx\BR_620/BR_620_back_BRB_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_BRB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_BRB_2x_32bpp.png", "gfx\BR_620/BR_620_back_BRB_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_BRB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_BRB_4x_32bpp.png", "gfx\BR_620/BR_620_back_BRB_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+
+	spriteset(spriteset_BR_620_back_BRB_REV, "gfx\BR_620/BR_620_back_BRB_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_BRB_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_BRB_1x_32bpp.png", "gfx\BR_620/BR_620_back_BRB_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_BRB_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_BRB_2x_32bpp.png", "gfx\BR_620/BR_620_back_BRB_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_BRB_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_BRB_4x_32bpp.png", "gfx\BR_620/BR_620_back_BRB_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}			
+
+//Spriteset lights front
+
+	spriteset(spriteset_BR_620_front_lights_front, "gfx\BR_620/BR_620_front_lights_front_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_1x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_2x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_4x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_front_lights_front_REV, "gfx\BR_620/BR_620_front_lights_front_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_1x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_2x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_4x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+
+	spriteset(spriteset_BR_620_front_lights_back, "gfx\BR_620/BR_620_front_lights_back_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_1x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_2x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_4x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_front_lights_back_REV, "gfx\BR_620/BR_620_front_lights_back_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_1x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_2x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_4x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+//Spriteset lights front
+
+	spriteset(spriteset_BR_620_back_lights_front, "gfx\BR_620/BR_620_back_lights_front_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_1x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_2x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_4x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_back_lights_front_REV, "gfx\BR_620/BR_620_back_lights_front_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_1x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_2x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_4x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+
+	spriteset(spriteset_BR_620_back_lights_back, "gfx\BR_620/BR_620_back_lights_back_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_1x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_2x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_4x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_back_lights_back_REV, "gfx\BR_620/BR_620_back_lights_back_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_1x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_2x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_4x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+//Spriteset lights front new
+
+	spriteset(spriteset_BR_620_front_lights_front_new, "gfx\BR_620/BR_620_front_lights_front_new_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_new_1x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_new_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_new_2x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_new_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_new_4x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_new_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_front_lights_front_new_REV, "gfx\BR_620/BR_620_front_lights_front_new_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_new_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_new_1x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_new_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_new_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_new_2x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_new_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_front_new_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_front_new_4x_32bpp.png", "gfx\BR_620/BR_620_front_lights_front_new_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+
+	spriteset(spriteset_BR_620_front_lights_back_new, "gfx\BR_620/BR_620_front_lights_back_new_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_new_1x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_new_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_new_2x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_new_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_new_4x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_new_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_front_lights_back_new_REV, "gfx\BR_620/BR_620_front_lights_back_new_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_new_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_new_1x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_new_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_new_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_new_2x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_new_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_front_lights_back_new_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_lights_back_new_4x_32bpp.png", "gfx\BR_620/BR_620_front_lights_back_new_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+//Spriteset lights front new
+
+	spriteset(spriteset_BR_620_back_lights_front_new, "gfx\BR_620/BR_620_back_lights_front_new_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_new_1x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_new_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_new_2x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_new_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_new_4x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_new_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_back_lights_front_new_REV, "gfx\BR_620/BR_620_back_lights_front_new_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_new_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_new_1x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_new_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_new_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_new_2x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_new_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_front_new_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_front_new_4x_32bpp.png", "gfx\BR_620/BR_620_back_lights_front_new_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+
+	spriteset(spriteset_BR_620_back_lights_back_new, "gfx\BR_620/BR_620_back_lights_back_new_1x_8bpp.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_new_1x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_new_1x_mask.png")
+										{ template_158trains_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_new_2x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_new_2x_mask.png")
+										{ template_158trains_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_new_4x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_new_4x_mask.png")
+										{ template_158trains_4x(0, 0)}
+	spriteset(spriteset_BR_620_back_lights_back_new_REV, "gfx\BR_620/BR_620_back_lights_back_new_1x_8bpp.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_new_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_new_1x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_new_1x_mask.png")
+										{ template_158trains_REV_1x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_new_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_new_2x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_new_2x_mask.png")
+										{ template_158trains_REV_2x(0, 0)}
+			alternative_sprites (spriteset_BR_620_back_lights_back_new_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_back_lights_back_new_4x_32bpp.png", "gfx\BR_620/BR_620_back_lights_back_new_4x_mask.png")
+										{ template_158trains_REV_4x(0, 0)}
+
+//Spritesets purchase
+
+	spriteset(spriteset_BR_620_front_Vareo_purchase, "gfx\BR_620/BR_620_front_Vareo_1x_8bpp.png")
+											{ template_purchase(0, 0)}
+				alternative_sprites (spriteset_BR_620_front_Vareo_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vareo_1x_32bpp.png", "gfx\BR_620/BR_620_front_Vareo_1x_mask.png")
+											{ template_purchase(0, 0)}
+
+	spriteset(spriteset_BR_620_front_Vlexx_purchase, "gfx\BR_620/BR_620_front_Vlexx_1x_8bpp.png")
+											{ template_purchase(0, 0)}
+				alternative_sprites (spriteset_BR_620_front_Vlexx_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_Vlexx_1x_32bpp.png", "gfx\BR_620/BR_620_front_Vlexx_1x_mask.png")
+											{ template_purchase(0, 0)}
+
+	spriteset(spriteset_BR_620_front_BRB_purchase, "gfx\BR_620/BR_620_front_BRB_1x_8bpp.png")
+											{ template_purchase(0, 0)}
+				alternative_sprites (spriteset_BR_620_front_BRB_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_620/BR_620_front_BRB_1x_32bpp.png", "gfx\BR_620/BR_620_front_BRB_1x_mask.png")
+											{ template_purchase(0, 0)}					
+
+//Switches
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_front_Vareo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_front_Vareo;
+							1: spritegroup_BR_620_Vareo_loading;
+							2: spriteset_BR_620_front_lights_front;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_front_Vareo_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_front_Vareo_REV;
+							1: spritegroup_BR_620_Vareo_loading_REV;
+							2: spriteset_BR_620_front_lights_back_REV;}							
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_front_Vlexx, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_front_Vlexx;
+							1: spritegroup_BR_620_Vlexx_loading;
+							2: spriteset_BR_620_front_lights_front;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_front_Vlexx_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_front_Vlexx_REV;
+							1: spritegroup_BR_620_Vlexx_loading_REV;
+							2: spriteset_BR_620_front_lights_back_REV;}		
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_front_BRB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_front_BRB;
+							1: spritegroup_BR_620_BRB_loading;
+							2: spriteset_BR_620_front_lights_front_new;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_front_BRB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_front_BRB_REV;
+							1: spritegroup_BR_620_BRB_loading_REV;
+							2: spriteset_BR_620_front_lights_back_new_REV;}	
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_middle_Vareo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_middle_Vareo;
+							1: spritegroup_BR_620_middle_Vareo_loading;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_middle_Vareo_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_middle_Vareo_REV;
+							1: spritegroup_BR_620_middle_Vareo_loading_REV;}							
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_middle_Vlexx, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_middle_Vlexx;
+							1: spritegroup_BR_620_middle_Vlexx_loading;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_middle_Vlexx_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_middle_Vlexx_REV;
+							1: spritegroup_BR_620_middle_Vlexx_loading_REV;}		
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_middle_BRB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_middle_BRB;
+							1: spritegroup_BR_620_middle_BRB_loading;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_middle_BRB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_middle_BRB_REV;
+							1: spritegroup_BR_620_middle_BRB_loading_REV;}		
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_back_Vareo, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_back_Vareo;
+							1: spritegroup_BR_620_Vareo_loading_REV;
+							2: spriteset_BR_620_back_lights_back;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_back_Vareo_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_back_Vareo_REV;
+							1: spritegroup_BR_620_Vareo_loading;
+							2: spriteset_BR_620_back_lights_front_REV;}							
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_back_Vlexx, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_back_Vlexx;
+							1: spritegroup_BR_620_Vlexx_loading_REV;
+							2: spriteset_BR_620_back_lights_back;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_back_Vlexx_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_back_Vlexx_REV;
+							1: spritegroup_BR_620_Vlexx_loading;
+							2: spriteset_BR_620_back_lights_front_REV;}			
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_back_BRB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_back_BRB;
+							1: spritegroup_BR_620_BRB_loading_REV;
+							2: spriteset_BR_620_back_lights_back_new;}
+
+	switch(FEAT_TRAINS, SELF, switch_spritestack_BR_620_back_BRB_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_620_back_BRB_REV;
+							1: spritegroup_BR_620_BRB_loading;
+							2: spriteset_BR_620_back_lights_front_new_REV;}				
+
+	switch(FEAT_TRAINS, SELF, switch_BR_620_FX_Norm, position_in_vehid_chain % 9) {
+			0 : return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+			1 .. 2 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+			3 : return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER);
+			4 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+			5 : return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 5, DISABLE_WAGON_POWER);
+			6 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+			7 : return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2 , DISABLE_WAGON_POWER);
+			8 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+	switch(FEAT_TRAINS, SELF, switch_BR_620_FX_REV, position_in_vehid_chain % 9) {
+		0 : return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+		1 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); 
+		2 : return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -5, DISABLE_WAGON_POWER);
+		3 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+		4 : return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 0, DISABLE_WAGON_POWER);
+		5 .. 6 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+		7 : return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2 , DISABLE_WAGON_POWER);
+		8 : return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+
+	switch (FEAT_TRAINS, PARENT, switch_BR_620_FX, vehicle_is_reversed) {
+		0: switch_BR_620_FX_Norm;
+			switch_BR_620_FX_REV;}
+
+	switch(FEAT_TRAINS, SELF, switch_BR_620_length, position_in_vehid_chain % 9) {
+			0: 4;
+			1: 7;
+			2: 4;
+			3: 4;
+			4: 7;
+			5: 4;
+			6: 4;
+			7: 7;
+			8: 4;}		
+	
+
+//Switches for Vareo
+
+switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_620_Vareo, 1){
+							return 2525;}	
+
+switch(FEAT_TRAINS, SELF, switch_BR_620_graphics_Vareo, position_in_vehid_chain % 9) {
+					0:	   spriteset_empty;
+					1:     return switch_spritestack_BR_620_front_Vareo;
+					2:     spriteset_empty;
+					3:	   spriteset_empty;
+					4:     return switch_spritestack_BR_620_middle_Vareo;
+					5:     spriteset_empty;
+					6:	   spriteset_empty;
+					7:     return switch_spritestack_BR_620_back_Vareo;
+					8:     spriteset_empty;}														
+
+switch(FEAT_TRAINS, SELF, switch_BR_620_graphics_Vareo_REV, position_in_vehid_chain % 9) {
+					0:	   spriteset_empty;
+					1:     return switch_spritestack_BR_620_back_Vareo_REV;
+					2:     spriteset_empty;
+					3:	   spriteset_empty;
+					4:     return switch_spritestack_BR_620_middle_Vareo_REV;
+					5:     spriteset_empty;
+					6:	   spriteset_empty;
+					7:     return switch_spritestack_BR_620_front_Vareo_REV;
+					8:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, PARENT, switch_BR_620_reverse_Vareo, vehicle_is_reversed) {
+		0: switch_BR_620_graphics_Vareo;
+			switch_BR_620_graphics_Vareo_REV;}
+
+switch (FEAT_TRAINS, SELF, switch_articulated_BR_620_Vareo, extra_callback_info1) {
+							1 .. 8: return ITEM_BR_620_VAREO; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BR_620_VAREO, 6200)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_620_VAREO);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2014,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags						: bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 33 ;
+						loading_speed:					6;
+						cost_factor: 					100;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			100;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						2120 hp;
+						weight: 						138 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.16;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_620_reverse_Vareo;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_BR_620_length;	
+			articulated_part				: switch_articulated_BR_620_Vareo;
+			visual_effect_and_powered		: switch_BR_620_FX;
+			cost_factor					    : 223;
+			purchase						: spriteset_BR_620_front_Vareo_purchase;
+			running_cost_factor				: switch_running_cost_BR_620_Vareo;		
+			}
+	}							
+
+
+//Switches for BRB
+
+switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_620_BRB, 1){
+							return 2250;}	
+
+switch(FEAT_TRAINS, SELF, switch_BR_620_graphics_BRB, position_in_vehid_chain % 9) {
+					0:	   spriteset_empty;
+					1:     return switch_spritestack_BR_620_front_BRB;
+					2:     spriteset_empty;
+					3:	   spriteset_empty;
+					4:     return switch_spritestack_BR_620_middle_BRB;
+					5:     spriteset_empty;
+					6:	   spriteset_empty;
+					7:     return switch_spritestack_BR_620_back_BRB;
+					8:     spriteset_empty;}														
+
+switch(FEAT_TRAINS, SELF, switch_BR_620_graphics_BRB_REV, position_in_vehid_chain % 9) {
+					0:	   spriteset_empty;
+					1:     return switch_spritestack_BR_620_back_BRB_REV;
+					2:     spriteset_empty;
+					3:	   spriteset_empty;
+					4:     return switch_spritestack_BR_620_middle_BRB_REV;
+					5:     spriteset_empty;
+					6:	   spriteset_empty;
+					7:     return switch_spritestack_BR_620_front_BRB_REV;
+					8:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, PARENT, switch_BR_620_reverse_BRB, vehicle_is_reversed) {
+		0: switch_BR_620_graphics_BRB;
+			switch_BR_620_graphics_BRB_REV;}
+
+switch (FEAT_TRAINS, SELF, switch_articulated_BR_620_BRB, extra_callback_info1) {
+							1 .. 8: return ITEM_BR_620_BRB; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BR_620_BRB, 6201)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_620_BRB);
+						variant_group:					6200;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2015,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 29;
+						loading_speed:					6;
+						cost_factor: 					110;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			130;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						2120 hp;
+						weight: 						138 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.16;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_620_reverse_BRB;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_BR_620_length;	
+			articulated_part				: switch_articulated_BR_620_BRB;
+			visual_effect_and_powered		: switch_BR_620_FX;
+			cost_factor					    : 200;
+			purchase						: spriteset_BR_620_front_BRB_purchase;
+			running_cost_factor				: switch_running_cost_BR_620_BRB;		
+			}
+	}
+
+
+//Switches for Vlexx
+
+switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_620_Vlexx, 1){
+							return 2250;}	
+
+switch(FEAT_TRAINS, SELF, switch_BR_620_graphics_Vlexx, position_in_vehid_chain % 9) {
+					0:	   spriteset_empty;
+					1:     return switch_spritestack_BR_620_front_Vlexx;
+					2:     spriteset_empty;
+					3:	   spriteset_empty;
+					4:     return switch_spritestack_BR_620_middle_Vlexx;
+					5:     spriteset_empty;
+					6:	   spriteset_empty;
+					7:     return switch_spritestack_BR_620_back_Vlexx;
+					8:     spriteset_empty;}														
+
+switch(FEAT_TRAINS, SELF, switch_BR_620_graphics_Vlexx_REV, position_in_vehid_chain % 9) {
+					0:	   spriteset_empty;
+					1:     return switch_spritestack_BR_620_back_Vlexx_REV;
+					2:     spriteset_empty;
+					3:	   spriteset_empty;
+					4:     return switch_spritestack_BR_620_middle_Vlexx_REV;
+					5:     spriteset_empty;
+					6:	   spriteset_empty;
+					7:     return switch_spritestack_BR_620_front_Vlexx_REV;
+					8:     spriteset_empty;}
+
+	switch (FEAT_TRAINS, PARENT, switch_BR_620_reverse_Vlexx, vehicle_is_reversed) {
+		0: switch_BR_620_graphics_Vlexx;
+			switch_BR_620_graphics_Vlexx_REV;}
+
+switch (FEAT_TRAINS, SELF, switch_articulated_BR_620_Vlexx, extra_callback_info1) {
+							1 .. 8: return ITEM_BR_620_VLEXX; 				
+							return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+
+
+item (FEAT_TRAINS , ITEM_BR_620_VLEXX, 6202)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_620_VLEXX);
+						variant_group:					6200;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2015,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 29;
+						loading_speed:					6;
+						cost_factor: 					110;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			130;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;	
+						power:  						2120 hp;
+						weight: 						138 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.16;
+						length: 						8;
+												
+			}
+
+		//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BR_620_reverse_Vlexx;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_DMU), 
+											  string(STR_DESC_PASS),);
+			length							: switch_BR_620_length;	
+			articulated_part				: switch_articulated_BR_620_Vlexx;
+			visual_effect_and_powered		: switch_BR_620_FX;
+			cost_factor					    : 200;
+			purchase						: spriteset_BR_620_front_Vlexx_purchase;
+			running_cost_factor				: switch_running_cost_BR_620_Vlexx;		
+			}
+	}							

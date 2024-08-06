@@ -1,0 +1,481 @@
+//#########################
+//###ARkimbz Bistrowagen###
+//#########################
+
+//Spriteset Interregio
+
+spriteset (spriteset_ARkimbz_Interregio, "gfx/ARkimbz/ARkimbz_Interregio_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_Interregio, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_Interregio_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_Interregio_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_ARkimbz_Interregio, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_Interregio_2x_32bpp.png", "gfx/ARkimbz/ARkimbz_Interregio_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_ARkimbz_Interregio, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_Interregio_4x_32bpp.png", "gfx/ARkimbz/ARkimbz_Interregio_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset IC
+
+spriteset (spriteset_ARkimbz_IC, "gfx/ARkimbz/ARkimbz_IC_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_IC, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_IC_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_IC_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_ARkimbz_IC, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_IC_2x_32bpp.png", "gfx/ARkimbz/ARkimbz_IC_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_ARkimbz_IC, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_IC_4x_32bpp.png", "gfx/ARkimbz/ARkimbz_IC_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset BWE
+
+spriteset (spriteset_ARkimbz_BWE, "gfx/ARkimbz/ARkimbz_BWE_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_BWE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_BWE_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_BWE_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_ARkimbz_BWE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_BWE_2x_32bpp.png", "gfx/ARkimbz/ARkimbz_BWE_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_ARkimbz_BWE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_BWE_4x_32bpp.png", "gfx/ARkimbz/ARkimbz_BWE_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+//Spriteset Flix
+
+spriteset (spriteset_ARkimbz_Flix, "gfx/ARkimbz/ARkimbz_Flix_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_Flix, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_Flix_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_Flix_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_ARkimbz_Flix, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_Flix_2x_32bpp.png", "gfx/ARkimbz/ARkimbz_Flix_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_ARkimbz_Flix, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_Flix_4x_32bpp.png", "gfx/ARkimbz/ARkimbz_Flix_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+//Spriteset loading
+
+spriteset (spriteset_ARkimbz_loading, "gfx/ARkimbz/ARkimbz_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_loading_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_ARkimbz_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_loading_2x_32bpp.png", "gfx/ARkimbz/ARkimbz_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_ARkimbz_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_loading_4x_32bpp.png", "gfx/ARkimbz/ARkimbz_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}
+
+spritegroup spritegroup_ARkimbz_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_ARkimbz_loading];}	
+			
+			
+//Spritesets purchase
+
+spriteset (spriteset_ARkimbz_Interregio_purchase, "gfx/ARkimbz/ARkimbz_Interregio_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_Interregio_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_Interregio_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_Interregio_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_ARkimbz_IC_purchase, "gfx/ARkimbz/ARkimbz_IC_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_IC_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_IC_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_IC_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_ARkimbz_BWE_purchase, "gfx/ARkimbz/ARkimbz_BWE_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_BWE_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_BWE_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_BWE_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_ARkimbz_Flix_purchase, "gfx/ARkimbz/ARkimbz_Flix_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_ARkimbz_Flix_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/ARkimbz/ARkimbz_Flix_1x_32bpp.png", "gfx/ARkimbz/ARkimbz_Flix_1x_mask.png")
+					{template_purchase(0,0)}
+																				
+//Switches
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_ARkimbz,current_year) {
+							   0 .. 1999 : spriteset_ARkimbz_Interregio_purchase;
+							2000 .. 2050 : spriteset_ARkimbz_IC_purchase;
+								spriteset_ARkimbz_IC_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ARkimbz_Interregio, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ARkimbz_Interregio;
+							1: spritegroup_ARkimbz_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ARkimbz_IC, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ARkimbz_IC;
+							1: spritegroup_ARkimbz_loading;}							
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ARkimbz_BWE, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ARkimbz_BWE;
+							1: spritegroup_ARkimbz_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_ARkimbz_Flix, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_ARkimbz_Flix;
+							1: spritegroup_ARkimbz_loading;}
+							   																			
+						switch(FEAT_TRAINS, SELF, switch_length_ARkimbz, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 7;
+							2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_ARkimbz, 1){
+							return 7800;}	
+							
+						switch (FEAT_TRAINS,SELF,switch_build_year_ARkimbz,build_year) {
+							   0 .. 1999 : switch_spritestack_ARkimbz_Interregio;
+							2000 .. 2050 : switch_spritestack_ARkimbz_IC;
+								switch_spritestack_ARkimbz_IC;}													   								
+
+						switch(FEAT_TRAINS, SELF, switch_ARkimbz_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_ARkimbz;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_ARkimbz_build, extra_callback_info1) {
+							1 ..2: return ITEM_ARMKIMBZ_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARMKIMBZ_BUILD, 5593)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARMKIMBZ_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1989,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					9;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ARkimbz_graphics_build;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_ARkimbz;
+			articulated_part				: switch_articulated_ARkimbz_build;
+			purchase						: switch_purchase_ARkimbz;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_ARkimbz;				
+			 }
+		}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_ARkimbz,current_year) {
+							   0 .. 1999 : switch_spritestack_ARkimbz_Interregio;
+							2000 .. 2050 : switch_spritestack_ARkimbz_IC;
+								switch_spritestack_ARkimbz_IC;}													   								
+
+						switch(FEAT_TRAINS, SELF, switch_ARkimbz_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_ARkimbz;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_ARkimbz_current, extra_callback_info1) {
+							1 ..2: return ITEM_ARMKIMBZ_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARMKIMBZ_CURRENT, 5594)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARMKIMBZ_CURRENT);
+						variant_group:					5593;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1989,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					9;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ARkimbz_graphics_current;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_ARkimbz;
+			articulated_part				: switch_articulated_ARkimbz_current;
+			purchase						: switch_purchase_ARkimbz;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_ARkimbz;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_ARkimbz_graphics_Interregio, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_ARkimbz_Interregio;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_ARkimbz_Interregio, extra_callback_info1) {
+							1 ..2: return ITEM_ARMKIMBZ_INTERREGIO;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARMKIMBZ_INTERREGIO, 5595)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARMKIMBZ_INTERREGIO);
+						variant_group:					5593;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1989,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					9;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ARkimbz_graphics_Interregio;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_ARkimbz;
+			articulated_part				: switch_articulated_ARkimbz_Interregio;
+			purchase						: spriteset_ARkimbz_Interregio_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_ARkimbz;				
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_ARkimbz_graphics_IC, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_ARkimbz_IC;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_ARkimbz_IC, extra_callback_info1) {
+							1 ..2: return ITEM_ARMKIMBZ_IC;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARMKIMBZ_IC, 5596)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARMKIMBZ_IC);
+						variant_group:					5593;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2000,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					9;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ARkimbz_graphics_IC;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_ARkimbz;
+			articulated_part				: switch_articulated_ARkimbz_IC;
+			purchase						: spriteset_ARkimbz_IC_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_ARkimbz;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_ARkimbz_graphics_BWE, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_ARkimbz_BWE;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_ARkimbz_BWE, extra_callback_info1) {
+							1 ..2: return ITEM_ARMKIMBZ_BWE;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARMKIMBZ_BWE, 5597)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARMKIMBZ_BWE);
+						variant_group:					5593;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2002,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					9;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ARkimbz_graphics_BWE;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_ARkimbz;
+			articulated_part				: switch_articulated_ARkimbz_BWE;
+			purchase						: spriteset_ARkimbz_BWE_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_ARkimbz;				
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_ARkimbz_graphics_Flix, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_ARkimbz_Flix;
+							2:     spriteset_empty;}	
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_ARkimbz_Flix, extra_callback_info1) {
+							1 ..2: return ITEM_ARMKIMBZ_FLIX;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}														
+
+item (FEAT_TRAINS , ITEM_ARMKIMBZ_FLIX, 5598)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ARMKIMBZ_FLIX);
+						variant_group:					5593;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2017,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						cargo_age_period:				232;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							200 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						50 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					9;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_ARkimbz_graphics_Flix;
+			additional_text					: string(STR_DESC_RESTAURANT);
+			length							: switch_length_ARkimbz;
+			articulated_part				: switch_articulated_ARkimbz_Flix;
+			purchase						: spriteset_ARkimbz_Flix_purchase;
+			cost_factor						: 860;
+			running_cost_factor				: switch_running_cost_ARkimbz;				
+			 }
+		}

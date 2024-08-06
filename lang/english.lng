@@ -3,7 +3,7 @@
 
 # GRF name and description definitions
 
-STR_GRF_NAME        : GETS 0.5
+STR_GRF_NAME        : GETS 0.6
 STR_GRF_DESC :{GOLD}German Extra-Zoom Train Set in 32bpp. {}{}{BLACK} Graphics by {GOLD}Garlic_Bread42; Simo333; WyndBain; ronetisumen; witold and others{BLACK}, code by {GOLD}Garlic_Bread42{BLACK}.{}Many thanks to {GOLD}Timberwolf {BLACK} for providing and teaching his Voxel-toolchain, {GOLD}andythenorth, Simozzz, Emperor Jake, 2TallTyler{BLACK} and the whole {RED}Discord{BLACK}-community for advice, help, remarks and suggestions during development of this set. 
 
 STR_PARAM_RUNNING_COST: Running cost
@@ -68,6 +68,11 @@ STR_NAME_BR_18_1_DRG				:DRG BR 18.1
 STR_NAME_BR_18_1_OLYMPIA			:DRG BR 18.1 "Olympia" Tender
 STR_NAME_BR_18_1_DB					:DB BR 18.1
 
+STR_NAME_BR_23_DB					:DB BR 23
+STR_NAME_BR_23_DB_SILBER			:DB BR 23 w/ silver Rings
+STR_NAME_BR_23_DB_SCHWARZ			:DB BR 23 w/ black Rings
+STR_NAME_BR_23_DB_REIFEN			:DB BR 23 w/ white wheels
+
 STR_NAME_BR_24						:DRG/DB BR 24
 STR_NAME_BR_24_CURRENT				:DRG/DB BR 24 Current Year livery
 STR_NAME_BR_24_DRG					:DRG BR 24
@@ -99,6 +104,14 @@ STR_NAME_BR_38_10_RSV				:DRG BR 38.10 "Ruhrschnellverkehr" livery
 STR_NAME_BR_38_10_DB1				:DB BR 38.10 w/ Wagner deflector
 STR_NAME_BR_38_10_DB2				:DB BR 38.10 w/ Witte deflector
 STR_NAME_BR_38_10_DB3				:DB BR 38.10 w/ Wannentender
+
+STR_NAME_BR_39_BUILD				:DRG/DB BR 39
+STR_NAME_BR_39_CURRENT				:DRG/DB BR 39 Current Year livery
+STR_NAME_BR_39_DRG_GRUEN			:DRG BR 39 green livery
+STR_NAME_BR_39_DRG					:DRG BR 39 black livery
+STR_NAME_BR_39_DB_WAGNER			:DB BR 39 w/ Wagner deflector
+STR_NAME_BR_39_DB_WAGNER_SILBER		:DB BR 39 w/ Wagner deflector & silver Rings
+STR_NAME_BR_39_DB_WITTE				:DB BR 39 w/ Witte deflector
 
 STR_NAME_BR_41						:DRG/DB BR 41
 STR_NAME_BR_41_CURRENT				:DRG/DB BR 41 Current Year livery
@@ -506,10 +519,18 @@ STR_NAME_BR_181_2_VERKEHRSROT		:DB BR 181.2 traffic red livery
 STR_NAME_BR_181_2_NORDLINER			:DB BR 181.2 Nordliner livery
 
 STR_NAME_BR_182_DB					:DB BR 182 "Siemens ES64U2"
-STR_NAME_BR_182_DISPO				:BR 182 "DispoLok" livery
+STR_NAME_BR_182_RE1					:DB BR 182 "20 Jahre RE1" livery
+STR_NAME_BR_182_VVO					:DB BR 182 Verkehrsverbund Oberelbe liveries
+STR_NAME_BR_182_RAILION				:DB BR 182 Railion livery
+STR_NAME_BR_182_BLAU				:DB BR 182 Blue special livery
+STR_NAME_BR_182_NETZ				:DB BR 182 DB Netz livery
 STR_NAME_BR_182_FLIX				:BR 182 FlixTrain livery
+STR_NAME_BR_182_PRIVATE				:BR 182 Private Operators (randomized)
+STR_NAME_BR_182_DISPO				:BR 182 "DispoLok" livery
 STR_NAME_BR_182_MRCE				:BR 182 MRCE livery
 STR_NAME_BR_182_SETG				:BR 182 SETG livery
+STR_NAME_BR_182_PORSCHE				:BR 182 Porsche livery
+STR_NAME_BR_182_EVB					:BR 182 EVB livery
 
 STR_NAME_BR_183_DB					:DB BR 183 "Siemens ES64U4"
 STR_NAME_BR_183_ALEX				:BR 183 "Alex" livery
@@ -527,6 +548,7 @@ STR_NAME_BR_185_2					:DB BR 185.2 "Traxx 2"
 STR_NAME_BR_189						:DB BR 189 "Siemens ES64F4"
 STR_NAME_BR_189_DISPOLOK			:BR 189 Dispolok livery
 STR_NAME_BR_189_LOKOMOTION			:BR 189 Lokomotion livery
+STR_NAME_BR_189_MTEG				:BR 189 MTEG livery
 
 STR_NAME_E_91_3_BUILD				:KPEV EG 538 DRG E 91.3
 STR_NAME_E_91_3_CURRENT				:KPEV EG 538 DRG E 91.3 Current Year livery
@@ -534,7 +556,8 @@ STR_NAME_E_91_3_KPEV				:KPEV EG 538
 STR_NAME_E_91_3_DRG					:DRG E 91.3
 
 STR_NAME_BR_193_VERKEHRSROT			:DB BR 193 "Vectron"
-STR_NAME_BR_193_MRCE				:DB BR 193 "Vectron" MRCE livery
+STR_NAME_BR_193_MRCE				:DB BR 193 MRCE livery
+STR_NAME_BR_193_FLIXTRAIN			:DB BR 193 Flixtrain livery
 
 STR_NAME_E_94_BUILD					:DRG/DB E 94/194
 STR_NAME_E_94_CURRENT				:DRG/DB E 94/194 Current Year livery
@@ -594,11 +617,14 @@ STR_NAME_BR_221_BUILD				:DB BR 221
 STR_NAME_BR_221_CURRENT				:DB BR 221 Current Year livery
 STR_NAME_BR_221_ALTROT				:DB BR 221 dark red livery
 STR_NAME_BR_221_OZEANBLAU			:DB BR 221 oceanblue/beige livery
+STR_NAME_BR_221_REUSCHLING			:BR 221 Reuschling GmbH
 
 STR_NAME_BR_230_BUILD				:DB V300/BR 230
 STR_NAME_BR_230_CURRENT				:DB V300/BR 230 Current Year livery
 STR_NAME_BR_230_KME					:DB V300/BR 230 Krauss-Maffei livery
 STR_NAME_BR_230_DB					:DB V300/BR 230 dark red livery
+
+STR_NAME_BR_V320_ALTROT				:DB V320/BR 232
 
 STR_NAME_V_140_BUILD				:DRG/DB V 140
 STR_NAME_V_140_CURRENT				:DRG/DB V 140 Current Year livery
@@ -616,11 +642,20 @@ STR_NAME_BR_245_METRONOM			:DB BR 245 Metronom livery
 STR_NAME_BR_246_METRONOM			:DB BR 246 Metronom livery
 STR_NAME_BR_246_HVLE				:DB BR 246 HVLE livery
 
+STR_NAME_BR_247_DB					:DB BR 247 "Siemens Vectron DE"
+
+STR_NAME_BR_248_PRIVATE_RANDOM		:BR 248 "Siemens Vectron DualMode"
+STR_NAME_BR_248_CAPTRAIN			:BR 248 Captrain livery
+STR_NAME_BR_248_PRESS				:BR 248 Pressnitztalbahn livery
+
+STR_NAME_BR_249_DB					:BR 249 "Siemens Vectron DualMode light"
+
 STR_NAME_BR_263						:Voith Maxima 40CC Expo livery
 STR_NAME_BR_263_YELLOW				:Voith Maxima 40CC blue/yellow livery
 STR_NAME_BR_263_HVLE				:Voith Maxima 40CC HVLE livery
 
 STR_NAME_BR_265_6					:MaK 1200D
+STR_NAME_BR_265_6_WBHE				:MaK 1200D Wanne-Herner Eisenbahn livery
 
 STR_NAME_BR_266_DB					:DB BR 266 "Class 66"
 STR_NAME_BR_266_DB_GM				:DB BR 266 "DB-General Motors" livery
@@ -646,6 +681,9 @@ STR_NAME_BR_273_R4C					:Vossloh G 2000-3 Rail4Chem livery
 STR_NAME_BR_273_RAILPARTNER			:Vossloh G 2000-1 Rail Partner livery
 STR_NAME_BR_273_RBH					:Vossloh G 2000-1 RBH livery
 STR_NAME_BR_273_RF					:Vossloh G 2000-1 Rail Feeding livery
+
+STR_NAME_BR_277_HGK					:Vossloh G 1700 BB HGK livery
+STR_NAME_BR_277_KSW					:Vossloh G 1700 BB KSW livery
 
 STR_NAME_V_188						:DRG/DB V188
 STR_NAME_V_188_CURRENT				:DRG/DB V188 Current Year livery
@@ -692,7 +730,19 @@ STR_NAME_BR_402						:DB BR 402 "ICE 2"
 
 STR_NAME_BR_403						:DB BR 403 "ICE 3"
 
+STR_NAME_BR_406                     :DB BR 406 "ICE 3M"
+
 STR_NAME_BR_407						:DB BR 407 "Velaro D"
+
+STR_NAME_BR_412_7                  :DB BR 412 "ICE 4" (7-part)
+STR_NAME_BR_412_12                 :DB BR 412 "ICE 4" (12-part)
+STR_NAME_BR_412_12_KLIMA           :DB BR 412 "ICE 4" Klimaschützer livery (12-part)
+STR_NAME_BR_412_13                 :DB BR 412 "ICE 4" (13-part)
+STR_NAME_BR_412_13_BRD             :DB BR 412 "ICE 4" Bundesrepublik Deutschland livery (13-part)
+
+STR_NAME_BR_4110					:DB BR 4110 Stadler KISS IC 2 (4-part)
+
+STR_NAME_BR_4010					:DB BR 4010 Stadler KISS IC 2 (6-part)
 
 STR_NAME_ET_11_BUILD				:DRG/DB ET 11
 STR_NAME_ET_11_CURRENT				:DRG/DB ET 11 Current Year livery
@@ -784,6 +834,9 @@ STR_NAME_ET_55_DB					:DB ET 55
 STR_NAME_BR_455						:DB BR 455 (randomised)
 STR_NAME_BR_455_DB					:DB BR 455 red/cream livery
 STR_NAME_BR_455_COM					:DB BR 455 w/ commercials
+
+STR_NAME_BR_460_3_ODEG				:BR 460 "Desiro ML" ODEG 3-part
+STR_NAME_BR_460_4_ODEG				:BR 460 "Desiro ML" ODEG 4-part
 
 STR_BR_462_4_REGIO					:DB BR 462 "Desiro HC" 4-part
 STR_BR_462_4_RRX					:BR 462 4-part "Rhein-Ruhr-Express" livery
@@ -892,6 +945,21 @@ STR_NAME_BR_614_4_OZEANBLAU			:DB BR 614 Four part oceanblue/beige livery
 STR_NAME_BR_614_4_MINT				:DB BR 614 Four part mint livery
 STR_NAME_BR_614_4_VERKEHRSROT		:DB BR 614 Four part traffic red livery
 
+STR_NAME_BR_620_VAREO				:BR 620 "Alstom Coradia LINT 81" Vareo livery
+STR_NAME_BR_620_BRB					:BR 620 Bayerische Regionalbahn livery
+STR_NAME_BR_620_VLEXX				:BR 620 Vlexx livery
+
+
+STR_NAME_BR_622_VERKEHRSROT         :DB BR 622 "Lint 54" 
+STR_NAME_BR_622_VAREO               :DB BR 622 Vareo livery
+STR_NAME_BR_622_BRB                 :BR 622 Bayerische Regiobahn livery
+STR_NAME_BR_622_ERIXX               :BR 622 Erixx livery
+STR_NAME_BR_622_NAHSH               :BR 622 Nah.sh livery
+STR_NAME_BR_622_ODEG                :BR 1622 Odeg livery
+STR_NAME_BR_622_REGIOM              :DB BR 622 DB Regio Mitte livery
+STR_NAME_BR_622_VLEXX               :BR 622 Vlexx livery
+
+
 STR_NAME_BR_626_HZL					:NE 81 Hohenzollerische Landesbahn livery
 STR_NAME_BR_626_KVG					:NE 81 Kahlgrundbahn livery
 STR_NAME_BR_626_SAB					:NE 81 Schwäbische Alb Bahn livery
@@ -903,6 +971,8 @@ STR_NAME_BR_628_2_CURRENT			:DB BR 628 Current Year livery
 STR_NAME_BR_628_2_MINT				:DB BR 628 mint livery
 STR_NAME_BR_628_2_VERKEHRSROT		:DB BR 628 traffic red livery
 STR_NAME_BR_628_2_SYLT				:DB BR 628 SyltShuttle plus livery
+STR_NAME_BR_628_2_HLB				:BR 628 Hessische Landesbahn livery
+STR_NAME_BR_628_2_NEG				:BR 628 Norddeutsche Eisenbahn Niebüll livery
 
 STR_NAME_BR_632_DB					:DB BR 632 "PESA Link"
 STR_NAME_BR_632_RMV					:DB BR 632 RMV livery
@@ -921,6 +991,15 @@ STR_NAME_VT_137_094_BUILD			:DRG/DB VT 137 094
 STR_NAME_VT_137_094_CURRENT			:DRG/DB VT 137 094
 STR_NAME_VT_137_094_DRG				:DRG VT 137 094
 STR_NAME_VT_137_094_DB				:DB VT 137 094
+
+STR_NAME_BR_642_REGIO				:DB BR 642 "Desiro Classic" DB Regio livery
+STR_NAME_BR_642_THUR				:DB BR 642 DB Regio Regio Thüringen livery
+STR_NAME_BR_642_DRS					:DB BR 642 DB Regio Dresden Airport livery
+STR_NAME_BR_642_ORB					:DB BR 642 DB Regio Ostsee-Rebnitz Bahn
+STR_NAME_BR_642_SACHS				:DB BR 642 DB Regio Sachsen livery
+STR_NAME_BR_642_ERZ					:DB BR 642 DB Regio Erzgebirgsbahn livery
+STR_NAME_BR_642_ESB					:DB BR 642 DB Regio Elbe-Saale-Bahn livery
+STR_NAME_BR_642_KVG					:DB BR 642 DB Regio Kahlgrundbahn livery
 
 STR_NAME_BR_643_2_REGIO				:DB BR 643 "Talent" Two part
 STR_NAME_BR_643_2_EUREGIO			:DB BR 643 Two part EURegio Bahn livery
@@ -1041,6 +1120,8 @@ STR_NAME_DOSTO_2GEN_DVT_LOCO_VERKEHRSROT:DB 2nd Gen Bi-Level DVT traffic red liv
 STR_NAME_DOSTO_2GEN_DVT_LOCO_METRONOM	:DB 2nd Gen Bi-Level DVT metronom livery
 STR_NAME_DOSTO_2GEN_DVT_LOCO_FEX		:DB 2nd Gen Bi-Level DVT "Flughafen Express" livery
 STR_NAME_DOSTO_2GEN_DVT_LOCO_VVO		:DB 2nd Gen Bi-Level DVT S-Bahn VVO livery
+
+STR_NAME_IC2_DVT_LOCO					:DB IC 2 DVT
 
 ###Passenger Coaches regional###
 
@@ -1236,6 +1317,8 @@ STR_NAME_MZ_COACH_MNX				:DB mz-Coaches München-Nürnberg Express livery
 STR_NAME_MZ_COACH_TOUR				:DB mz-Coaches "Touristikzug" livery
 STR_NAME_MZ_COACH_ALEX				:DB mz-Coaches "Alex" livery
 
+STR_NAME_IC2						:DB IC 2 Bi-Level Coach
+
 STR_NAME_ICEL						:DB ICE-L Talgo Express Train
 
 ###DVT's as Waggons###
@@ -1275,6 +1358,8 @@ STR_NAME_DOSTO_2GEN_DVT_VERKEHRSROT :DB 2nd Gen Bi-Level DVT traffic red livery
 STR_NAME_DOSTO_2GEN_DVT_METRONOM	:DB 2nd Gen Bi-Level DVT metronom livery
 STR_NAME_DOSTO_2GEN_DVT_FEX			:DB 2nd Gen Bi-Level DVT "Flughafen Express" livery
 STR_NAME_DOSTO_2GEN_DVT_VVO			:DB 2nd Gen Bi-Level DVT S-Bahn VVO livery
+
+STR_NAME_IC2_DVT					:DB IC 2 Bi-Level DVT
 
 
 
@@ -1336,6 +1421,13 @@ STR_NAME_WRMZ_135_ICALT				:DB Dining Coach "WRmz" (old) InterCity livery
 STR_NAME_WRMZ_135_FERN				:DB Dining Coach "WRmz" DB Fernverkehr livery
 STR_NAME_WRMZ_135_ICNEU				:DB Dining Coach "WRmz" (new) InterCity livery
 STR_NAME_WRMZ_135_REGIO				:DB Dining Coach "WRmz" DB Regio Südostbayernbahn livery
+
+STR_NAME_ARMKIMBZ_BUILD				:DB Bistro Coach "ARkimbz"
+STR_NAME_ARMKIMBZ_CURRENT			:DB Bistro Coach "ARkimbz" Current Year livery
+STR_NAME_ARMKIMBZ_INTERREGIO		:DB Bistro Coach "ARkimbz" Interregio livery
+STR_NAME_ARMKIMBZ_IC				:DB Bistro Coach "ARkimbz" (new) InterCity livery
+STR_NAME_ARMKIMBZ_BWE				:DB Bistro Coach "ARkimbz" Berlin-Warszwawa Express livery
+STR_NAME_ARMKIMBZ_FLIX				:DB Bistro Coach "ARkimbz" Flixtrain livery
 
 ###Sleepers###
 
@@ -1451,6 +1543,10 @@ STR_NAME_SCHUERZE_POST_DRG			:DRG "Schürzenwagen" Post Van
 STR_NAME_SCHUERZE_POST_DB			:DB "Schürzenwagen" Post Van
 
 
+###Special Stuff Passenger###
+
+
+STR_NAME_GENERATOR_NEG				:NEG Generator Van
 
 ###Freight Wagons###
 
@@ -1579,6 +1675,24 @@ STR_NAME_O_LUDWIGSHAFEN_1909		:Mineral Wagon "Om Ludwigshafen"
 STR_NAME_O_NUERNBERG				:Mineral Wagon "O Nürnberg"
 
 STR_NAME_OMMI_51					:Side Tipper "Ommi 51"
+
+STR_NAME_K_ELBERFELD				:Lidded Wagon "K Elberfeld"
+
+STR_NAME_K15_ELBERFELD				:Lidded Wagon "K Elberfeld"
+
+STR_NAME_K_WUPPERTAL				:Lidded Wagon "K Wuppertal"
+
+STR_NAME_KKT_57						:Closed Selfdischarger "Kkt 57"
+
+STR_NAME_KKT_SAARBRUECKEN			:Closed Selfdischarger "Kkt Saarbrücken"
+
+STR_NAME_TAD_963					:Closed Selfdischarger "Tad 963"
+
+STR_NAME_TADS_966					:Closed Selfdischarger "Tads 966"
+
+STR_NAME_TALS_968					:Closed Selfdischarger "Tals 968"
+STR_NAME_TALS_968_DB				:Tals 968 brown livery
+STR_NAME_TALS_968_CARGO				:Tals 968 DB Cargo livery
 
 STR_NAME_OTW_MAINZ					:Selfdischarger "Otw Mainz"
 
@@ -1716,6 +1830,18 @@ STR_NAME_KESSEL_1915_OIL			:1915 Oil Tanker Van
 STR_NAME_KESSEL_1915_HOBUM			:1915 Hobum Oil Tanker Van
 STR_NAME_KESSEL_1915_ITT			:1915 ITT Oil Tanker Van
 
+STR_NAME_KESSEL_1928_AUTO			:1928 Tanker Van
+STR_NAME_KESSEL_1928_CHEM			:1928 Chemical Tanker Van
+STR_NAME_KESSEL_1928_OIL			:1928 Oil Tanker Van
+STR_NAME_KESSEL_1928_OIL2			:1928 Hobum Oil Tanker Van
+STR_NAME_KESSEL_1928_OIL3			:1928 Esso Oil Tanker Van
+STR_NAME_KESSEL_1928_OIL4			:1928 Aral Oil Tanker Van
+STR_NAME_KESSEL_1928_OIL5			:1928 DAPG Oil Tanker Van
+STR_NAME_KESSEL_1928_CHEM1			:1928 Bayer Chemical Tanker Van
+STR_NAME_KESSEL_1928_CHEM3			:1928 CTR Chemical Tanker Van
+STR_NAME_KESSEL_1928_CHEM5			:1928 BASF Chemical Tanker Van
+STR_NAME_KESSEL_1928_CHEM6			:1928 Hüls Chemical Tanker Van
+
 STR_NAME_KESSEL_KRUPP				:Tanker Van "Bauart Krupp"
 
 STR_NAME_UERDINGEN_4_AUTO			:Tanker Van "Uerdingen"
@@ -1782,7 +1908,7 @@ STR_NAME_PWG_99_KPEV				:KPEV Caboose "Pwg 99"
 STR_NAME_PWG_99_DRG					:DRG Caboose "Pwg 99"
 
 STR_NAME_PWG_14						:KPEV/DRG/DB Caboose "Pwg 14"
-STR_NAME_PWG_14_CURRENT				:KPEV/DRG/DB Caboose "Pwg 14" Current Year livery
+STR_NAME_PWG_14_CURRENT				:KPEV/DRG/DB Caboose "Pwg 14" Current YeaSTR_NAME_IC2_DVT_LOCOr livery
 STR_NAME_PWG_14_KPEV				:KPEV Caboose "Pwg 14"
 STR_NAME_PWG_14_DRG					:DRG Caboose "Pwg 14"
 STR_NAME_PWG_14_DB					:DB Caboose "Pwg 14"
@@ -1797,11 +1923,11 @@ STR_NAME_PWGS_44_DB					:DB Caboose "Pwgs 44"
 ###########################
 
 ###Standards###
-STR_DESC_GOODS			:Usage:{LTBROWN} Goods
+STR_DESC_GOODS			:Usage:{BROWN} Goods
 STR_DESC_EXP_GOODS		:Usage:{BROWN} Express Goods
-STR_DESC_CABOOSE_65		:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with Caboose:{GOLD} 65 km/h{BLACK}.{}
-STR_DESC_CABOOSE_80		:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 65 km/h{BLACK}, with Caboose:{GOLD} 80 km/h{BLACK}.{}
-STR_DESC_CABOOSE_100	:Usage:{LTBROWN} Goods{}{BLACK} speed limit: {GOLD} 80 km/h{BLACK}, with Caboose:{GOLD} 100 km/h{BLACK}.{}
+STR_DESC_CABOOSE_65		:Usage:{BROWN} Goods{}{BLACK} speed limit: {GOLD} 50 km/h{BLACK}, with Caboose:{GOLD} 65 km/h{BLACK}.{}
+STR_DESC_CABOOSE_80		:Usage:{BROWN} Goods{}{BLACK} speed limit: {GOLD} 65 km/h{BLACK}, with Caboose:{GOLD} 80 km/h{BLACK}.{}
+STR_DESC_CABOOSE_100	:Usage:{BROWN} Goods{}{BLACK} speed limit: {GOLD} 80 km/h{BLACK}, with Caboose:{GOLD} 100 km/h{BLACK}.{}
 STR_DESC_EXPRESS		:Usage:{PURPLE} Express Passenger{}
 STR_DESC_PASS			:Usage:{DKGREEN} Passenger{}
 STR_DESC_SLEEP			:Usage:{PURPLE} Sleeper{}
@@ -1812,36 +1938,40 @@ STR_DESC_POST_EXP		:Usage:{DKGREEN} Express Mail{}
 STR_DESC_BAGG			:Usage:{DKGREEN} Luggage{}
 STR_DESC_BAGG_EXP		:Usage:{PURPLE} Express Luggage{}
 STR_DESC_SHUNT			:Usage:{DKBLUE} Shunter{}
-STR_DESC_PWG			:Usage:{BROWN}Goods{}{BLACK} Increases speed limit of certain goods vans.
+STR_DESC_PWG			:Usage:{BROWN} Goods{}{BLACK} Increases speed limit of certain goods vans.
 
 STR_DESC_RESTAURANT		:Usage:{PURPLE}Restaurant Car{}{BLACK}Reduces running cost for {PURPLE}Express Coaches{BLACK}.{}Reduces Cargo aging for {PURPLE}Express Coaches{BLACK} by {GOLD} 25%{BLACK}.
 
 ###Specials###
-STR_DESC_BR_01		:Usage:{PURPLE} Express Passenger{}{BLACK}Power {GOLD} 2.240 Hp{BLACK}, after 1957: {GOLD}2.330 Hp 
-STR_DESC_BR_01_10	:Usage:{PURPLE} Express Passenger{}{BLACK}Power {GOLD} 2120 Hp{BLACK}, after 1952: {GOLD}2.350 Hp
-STR_DESC_BR_41		:Usage:{BLUE} Universal{}{BLACK}Power {GOLD} 1.900 Hp{BLACK}, after 1956: {GOLD}1.975 Hp 
-STR_DESC_E_32		:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 75 km/h{BLACK}, after 1936: {GOLD}90 km/h{}
-STR_DESC_E_40		:Usage:{BROWN}Goods{}{BLACK}Speed limit: {GOLD} 100 km/h{BLACK}, after 1968: {GOLD}110 km/h{}
-STR_DESC_VT_757		:Usage: {DKGREEN}Passenger{}{BLACK} speed limit: {GOLD} 70 km/h, after 1940: 85 km/h{}{BLACK} power: {GOLD} 75 hp, after 1940: 90 hp{}
-STR_DESC_YL_DVT		:Usage:{DKGREEN} Passenger{}{BLACK} DVT for "Mitteleinstiegswagen". Use with a loco at the end of the train.
-STR_DESC_N_WAGEN	:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 120 km/h{BLACK}, after 1968: {GOLD}140 km/h{}
-STR_DESC_HASE		:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 120 km/h{BLACK}, after 1968: {GOLD}140 km/h{}{BLACK} DVT for n-Wagen "Silberlinge". Use with a loco at the end of the train.
-STR_DESC_KARL		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for n-Wagen "Silberlinge". Use with a loco at the end of the train.
-STR_DESC_DVT_1GEN	:Usage:{DKGREEN} Passenger{}{BLACK}DVT for DB 1st. Gen Bi-Level coaches. Use with a loco at the end of the train.
-STR_DESC_DVT_2GEN	:Usage:{DKGREEN} Passenger{}{BLACK}DVT for DB 2nd. Gen Bi-Level coaches. Use with a loco at the end of the train.
-STR_DESC_DOBUE_DVT	:Usage:{DKGREEN} Passenger{}{BLACK}DVT for "Donnerbüchse" coaches. Use with a loco at the end of the train.
-STR_DESC_DVT_MODUS	:Usage:{DKGREEN} Passenger{}{BLACK}DVT for "Modus" coaches. Use with a loco at the end of the train.
-STR_DESC_VS_145		:Usage:{DKGREEN} Passenger{}{BLACK}Trailer for VT 137 DMU's
-STR_DESC_OMM_55		:Usage:{BROWN}Goods{}{BLACK}Speed limit: {GOLD} 80 km/h{BLACK}, after 1969: {GOLD}100 km/h{}
-STR_DESC_ROLA		:Usage:{LTBROWN} Goods{}{GOLD}Piggyback wagon, used to transport trucks via rail.
-STR_DESC_UICX		:Usage: {PURPLE}Express{}{BLACK}Speed limit: {GOLD} 140 km/h, after 1964: 160 km/h, after 1988: 200 km/h{}{BLACK}
-STR_DESC_UICX_BDMS	:Usage:{PURPLE} Express Luggage{}{BLACK}Speed limit: {GOLD} 140 km/h, after 1964: 160 km/h, after 1988: 200 km/h{}{BLACK}
-STR_DESC_UICX_D		:Usage:{PURPLE} Express Luggage{}{BLACK}Speed limit: {GOLD} 140 km/h, after 1964: 160 km/h, after 1988: 200 km/h{}{BLACK}
-STR_DESC_BR_159		:Usage:{BLUE} Universal{}{BLACK}Power on Diesel {GOLD} 3.807 Hp{}{BLACK}Power on Electric: {GOLD}8.432 Hp 
-STR_DESC_WRMH_132	:Usage:{PURPLE}Restaurant Car{}{BLACK}Reduces running cost for {PURPLE}Express Coaches{BLACK}.{}Reduces Cargo aging for {PURPLE}Express Coaches{BLACK} by {GOLD} 25%{BLACK}.{BLACK}Speed limit: {GOLD} 160 km/h, after 1977: 200 km/h
-STR_DESC_ZEPP		:Usage:{PURPLE} Express Passenger{}
-STR_DESC_BR_626		:Usage: {DKGREEN}Passenger{}{BLACK} speed limit: {GOLD} 80 km/h, after 1984: 90 km/h{}
-STR_DESC_BC6S_DVT	:Usage:{DKGREEN} Passenger{}{BLACK} DVT for Streamlined Bi-Level Coach. Use with a loco at the end of the train.
+STR_DESC_BR_01			:Usage:{PURPLE} Express Passenger{}{BLACK}Power {GOLD} 2.240 Hp{BLACK}, after 1957: {GOLD}2.330 Hp 
+STR_DESC_BR_01_10		:Usage:{PURPLE} Express Passenger{}{BLACK}Power {GOLD} 2120 Hp{BLACK}, after 1952: {GOLD}2.350 Hp
+STR_DESC_BR_41			:Usage:{BLUE} Universal{}{BLACK}Power {GOLD} 1.900 Hp{BLACK}, after 1956: {GOLD}1.975 Hp 
+STR_DESC_E_32			:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 75 km/h{BLACK}, after 1936: {GOLD}90 km/h{}
+STR_DESC_E_40			:Usage: BROWN} Goods{}{BLACK}Speed limit: {GOLD} 100 km/h{BLACK}, after 1968: {GOLD}110 km/h{}
+STR_DESC_VT_757			:Usage:{DKGREEN} Passenger{}{BLACK} speed limit: {GOLD} 70 km/h, after 1940: 85 km/h{}{BLACK} power: {GOLD} 75 hp, after 1940: 90 hp{}
+STR_DESC_YL_DVT			:Usage:{DKGREEN} Passenger{}{BLACK} DVT for "Mitteleinstiegswagen". Use with a loco at the end of the train.
+STR_DESC_N_WAGEN		:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 120 km/h{BLACK}, after 1968: {GOLD}140 km/h{}
+STR_DESC_HASE			:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 120 km/h{BLACK}, after 1968: {GOLD}140 km/h{}{BLACK} DVT for n-Wagen "Silberlinge". Use with a loco at the end of the train.
+STR_DESC_KARL			:Usage:{DKGREEN} Passenger{}{BLACK}DVT for n-Wagen "Silberlinge". Use with a loco at the end of the train.
+STR_DESC_DVT_1GEN		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for DB 1st. Gen Bi-Level coaches. Use with a loco at the end of the train.
+STR_DESC_DVT_2GEN		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for DB 2nd. Gen Bi-Level coaches. Use with a loco at the end of the train.
+STR_DESC_DOBUE_DVT		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for "Donnerbüchse" coaches. Use with a loco at the end of the train.
+STR_DESC_DVT_MODUS		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for "Modus" coaches. Use with a loco at the end of the train.
+STR_DESC_IC2_DVT_LOCO	:Usage:{PURPLE} Express Passenger{}{BLACK}DVT for "IC 2" coaches. Use with a loco at the end of the train.
+STR_DESC_VS_145			:Usage:{DKGREEN} Passenger{}{BLACK}Trailer for VT 137 DMU's
+STR_DESC_OMM_55			:Usage:{BROWN}Goods{}{BLACK}Speed limit: {GOLD} 80 km/h{BLACK}, after 1969: {GOLD}100 km/h{}
+STR_DESC_ROLA			:Usage:{LTBROWN} Goods{}{GOLD}Piggyback wagon, used to transport trucks via rail.
+STR_DESC_UICX			:Usage: {PURPLE}Express{}{BLACK}Speed limit: {GOLD} 140 km/h, after 1964: 160 km/h, after 1988: 200 km/h{}{BLACK}
+STR_DESC_UICX_BDMS		:Usage:{PURPLE} Express Luggage{}{BLACK}Speed limit: {GOLD} 140 km/h, after 1964: 160 km/h, after 1988: 200 km/h{}{BLACK}
+STR_DESC_UICX_D			:Usage:{PURPLE} Express Luggage{}{BLACK}Speed limit: {GOLD} 140 km/h, after 1964: 160 km/h, after 1988: 200 km/h{}{BLACK}
+STR_DESC_BR_159			:Usage:{BLUE} Universal{}{BLACK}Power on Diesel {GOLD} 3.807 Hp{}{BLACK}Power on Electric: {GOLD}8.432 Hp 
+STR_DESC_WRMH_132		:Usage:{PURPLE}Restaurant Car{}{BLACK}Reduces running cost for {PURPLE}Express Coaches{BLACK}.{}Reduces Cargo aging for {PURPLE}Express Coaches{BLACK} by {GOLD} 25%{BLACK}.{BLACK}Speed limit: {GOLD} 160 km/h, after 1977: 200 km/h
+STR_DESC_ZEPP			:Usage:{PURPLE} Express Passenger{}
+STR_DESC_BR_626			:Usage:{DKGREEN}Passenger{}{BLACK} speed limit: {GOLD} 80 km/h, after 1984: 90 km/h{}
+STR_DESC_BC6S_DVT		:Usage:{DKGREEN} Passenger{}{BLACK} DVT for Streamlined Bi-Level Coach. Use with a loco at the end of the train.
+STR_DESC_BR_248			:Usage:{BLUE}Universal{}{BLACK}Power on electrified rail: {GOLD} 3.245 hp{}{BLACK}Power on unelectrified rail: {GOLD}2.758 hp{}
+STR_DESC_BR_249			:Usage:{BLUE}Universal{}{BLACK}Power on electrified rail: {GOLD} 3.047 hp{}{BLACK}Power on unelectrified rail: {GOLD}1.034 hp{}
+STR_DESC_GENERATOR_NEG	:Usage:{GREEN} Mail{}{BLACK}Power Generator used for heating passenger coaches. Useable as a fake mail van.
 
 #####################
 ####Traction Types###

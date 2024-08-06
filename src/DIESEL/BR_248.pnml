@@ -1,0 +1,324 @@
+//#######################################
+//###BR 248 Siemens Vectron Dual mode ###
+//#######################################
+
+//Captrain
+
+spriteset(spriteset_BR_248_Captrain, "gfx/BR_248/BR_248_Captrain_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_Captrain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_Captrain_1x_32bpp.png", "gfx/BR_248/BR_248_Captrain_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_Captrain, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_Captrain_2x_32bpp.png", "gfx/BR_248/BR_248_Captrain_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_Captrain, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_Captrain_4x_32bpp.png", "gfx/BR_248/BR_248_Captrain_4x_mask.png")
+									{template_128trains_4x(0, 0)}		
+
+//Press
+
+spriteset(spriteset_BR_248_Press, "gfx/BR_248/BR_248_Press_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_Press, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_Press_1x_32bpp.png", "gfx/BR_248/BR_248_Press_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_Press, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_Press_2x_32bpp.png", "gfx/BR_248/BR_248_Press_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_Press, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_Press_4x_32bpp.png", "gfx/BR_248/BR_248_Press_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+									
+//Spriteset Panto Up									
+spriteset(spriteset_BR_248_panto_up, "gfx/BR_248/BR_248_panto_up_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_panto_up, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_panto_up_1x_32bpp.png", "gfx/BR_248/BR_248_panto_up_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_panto_up, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_panto_up_2x_32bpp.png", "gfx/BR_248/BR_248_panto_up_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_panto_up, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_panto_up_4x_32bpp.png", "gfx/BR_248/BR_248_panto_up_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+spriteset(spriteset_BR_248_panto_down, "gfx/BR_248/BR_248_panto_down_1x_8bpp.png")
+									{ template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_panto_down, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_panto_down_1x_32bpp.png", "gfx/BR_248/BR_248_panto_down_1x_mask.png")
+									{template_128trains_1x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_panto_down, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_panto_down_2x_32bpp.png", "gfx/BR_248/BR_248_panto_down_2x_mask.png")
+									{template_128trains_2x(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_panto_down, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_panto_down_4x_32bpp.png", "gfx/BR_248/BR_248_panto_down_4x_mask.png")
+									{template_128trains_4x(0, 0)}
+
+//Spritesets purchase
+
+spriteset(spriteset_BR_248_Captrain_purchase, "gfx/BR_248/BR_248_Captrain_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_Captrain_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_Captrain_1x_32bpp.png", "gfx/BR_248/BR_248_Captrain_1x_mask.png")
+									{template_purchase(0, 0)}
+																	
+spriteset(spriteset_BR_248_Press_purchase, "gfx/BR_248/BR_248_Press_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_Press_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_Press_1x_32bpp.png", "gfx/BR_248/BR_248_Press_1x_mask.png")
+									{template_purchase(0, 0)}
+									
+spriteset(spriteset_BR_248_panto_down_purchase, "gfx/BR_248/BR_248_panto_down_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+				
+	alternative_sprites (spriteset_BR_248_panto_down_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_248/BR_248_panto_down_1x_32bpp.png", "gfx/BR_248/BR_248_panto_down_1x_mask.png")
+									{template_purchase(0, 0)}													
+//Switches	
+						
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_248_Captrain_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_248_Captrain_purchase;
+							1: spriteset_BR_248_panto_down_purchase;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_248_Press_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_248_Press_purchase;
+							1: spriteset_BR_248_panto_down_purchase;}
+							
+						switch(FEAT_TRAINS,PARENT,switch_panto_BR_248, tile_powers_railtype("ELRL")){
+							1: return spriteset_BR_248_panto_up;
+								return spriteset_BR_248_panto_down;}								
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_248_Captrain, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_248_Captrain;
+							1: return switch_panto_BR_248;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_248_Press, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BR_248_Press;
+							1: return switch_panto_BR_248;}							
+																						
+					switch(FEAT_TRAINS, SELF, switch_length_BR_248, position_in_vehid_chain % 3) {
+						0: 4;
+						1: 4;
+						2: 4;}
+						
+						switch(FEAT_TRAINS,PARENT,switch_power_BR_248, tile_powers_railtype("ELRL")){
+							1: 3200;
+								2720;}								
+						
+					switch(FEAT_TRAINS, SELF, switch_FX_BR_248_Diesel, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+						1: return visual_effect_and_powered(VISUAL_EFFECT_DIESEL, -1, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+						
+					switch(FEAT_TRAINS, SELF, switch_FX_BR_248_Electric, position_in_vehid_chain % 3) {
+						0: return visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, -2, DISABLE_WAGON_POWER);
+						1: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);
+							return visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER);}
+							
+						switch(FEAT_TRAINS,PARENT,switch_FX_BR_248, tile_powers_railtype("ELRL")){
+							1: return switch_FX_BR_248_Electric;
+								return switch_FX_BR_248_Diesel;}	
+													
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_248, 1){
+						return 4500;}
+
+						switch (FEAT_TRAINS, SELF, switch_random_BR_248_private, switch_alternative_var_random_bits(1, 1)) {
+							1: switch_spritestack_BR_248_Captrain;												
+								 switch_spritestack_BR_248_Press;}
+								 
+								 
+					switch(FEAT_TRAINS, SELF, switch_BR_248_graphics_private_random, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_random_BR_248_private;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_248_private_random, extra_callback_info1) {
+						1: return ITEM_BR_248_PRIVATE_RANDOM; 
+						2: return ITEM_BR_248_PRIVATE_RANDOM;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }									
+
+item (FEAT_TRAINS , ITEM_BR_248_PRIVATE_RANDOM, 2482)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_248_PRIVATE_RANDOM);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2021,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2720 hp;
+						weight: 						89 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.361;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_BR_248_graphics_private_random;
+			additional_text				    : string(STR_CONCAT_2, 
+										      string(STR_TRACTION_DUAL), 
+										      string(STR_DESC_BR_248),);
+			length							:switch_length_BR_248;
+			articulated_part				:switch_articulated_BR_248_private_random;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:120;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:switch_spritestack_BR_248_Captrain_purchase;
+			running_cost_factor				:switch_running_cost_BR_248;
+			visual_effect_and_powered		:switch_FX_BR_248;
+			power							:switch_power_BR_248;
+			
+			}
+	}	
+
+
+					switch(FEAT_TRAINS, SELF, switch_BR_248_graphics_Captrain, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_spritestack_BR_248_Captrain;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_248_Captrain, extra_callback_info1) {
+						1: return ITEM_BR_248_CAPTRAIN; 
+						2: return ITEM_BR_248_CAPTRAIN;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }									
+
+item (FEAT_TRAINS , ITEM_BR_248_CAPTRAIN, 2483)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_248_CAPTRAIN);
+						variant_group:					2482;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2021,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2720 hp;
+						weight: 						89 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.361;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_BR_248_graphics_Captrain;
+			additional_text				    : string(STR_CONCAT_2, 
+										      string(STR_TRACTION_DUAL), 
+										      string(STR_DESC_BR_248),);
+			length							:switch_length_BR_248;
+			articulated_part				:switch_articulated_BR_248_Captrain;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:120;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:switch_spritestack_BR_248_Captrain_purchase;
+			running_cost_factor				:switch_running_cost_BR_248;
+			visual_effect_and_powered		:switch_FX_BR_248;
+			power							:switch_power_BR_248;
+			
+			}
+	}
+
+
+					switch(FEAT_TRAINS, SELF, switch_BR_248_graphics_Press, position_in_vehid_chain % 3) {
+						0:	   spriteset_empty;
+						1:     return switch_spritestack_BR_248_Press;
+						2:	   spriteset_empty;}
+
+					switch (FEAT_TRAINS, SELF, switch_articulated_BR_248_Press, extra_callback_info1) {
+						1: return ITEM_BR_248_PRESS; 
+						2: return ITEM_BR_248_PRESS;
+						return CB_RESULT_NO_MORE_ARTICULATED_PARTS; }									
+
+item (FEAT_TRAINS , ITEM_BR_248_PRESS, 2484)
+		{
+		property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BR_248_PRESS);
+						variant_group:					2482;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2021,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early: 					-10;	
+						reliability_decay: 				20;
+						cargo_allow_refit: 				[PASS] ;
+						cargo_capacity: 				1 ;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						cost_factor: 					108;
+						running_cost_base: 				RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							160 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;
+						power:  						2720 hp;
+						weight: 						89 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_DIESEL;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_DIESEL, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.361;
+						length: 						8;										
+			}
+
+		graphics
+			{
+			default							:switch_BR_248_graphics_Press;
+			additional_text				    : string(STR_CONCAT_2, 
+										      string(STR_TRACTION_DUAL), 
+										      string(STR_DESC_BR_248),);
+			length							:switch_length_BR_248;
+			articulated_part				:switch_articulated_BR_248_Press;
+			purchase_cargo_capacity        	:0 ;
+			cost_factor						:120;
+			cargo_capacity                 	:return 0 ;
+			purchase					   	:switch_spritestack_BR_248_Press_purchase;
+			running_cost_factor				:switch_running_cost_BR_248;
+			visual_effect_and_powered		:switch_FX_BR_248;
+			power							:switch_power_BR_248;
+			
+			}
+	}

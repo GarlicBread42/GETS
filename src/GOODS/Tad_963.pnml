@@ -1,0 +1,167 @@
+//#############
+//###Tad 963###
+//#############
+	
+//Spriteset early
+
+spriteset (spriteset_Tad_963_early, "gfx\Tad_963/Tad_963_early_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_early_1x_32bpp.png", "gfx\Tad_963/Tad_963_early_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_early_2x_32bpp.png", "gfx\Tad_963/Tad_963_early_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Tad_963_early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_early_4x_32bpp.png", "gfx\Tad_963/Tad_963_early_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+spriteset (spriteset_Tad_963_early_open, "gfx\Tad_963/Tad_963_early_open_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_early_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_early_open_1x_32bpp.png", "gfx\Tad_963/Tad_963_early_open_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_early_open, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_early_open_2x_32bpp.png", "gfx\Tad_963/Tad_963_early_open_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Tad_963_early_open, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_early_open_4x_32bpp.png", "gfx\Tad_963/Tad_963_early_open_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+
+spritegroup spritegroup_Tad_963_early
+		{loaded: 	[spriteset_Tad_963_early];
+			loading: 	[spriteset_Tad_963_early_open];}	
+								
+//Spriteset late
+
+spriteset (spriteset_Tad_963_late, "gfx\Tad_963/Tad_963_late_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_late_1x_32bpp.png", "gfx\Tad_963/Tad_963_late_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_late_2x_32bpp.png", "gfx\Tad_963/Tad_963_late_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Tad_963_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_late_4x_32bpp.png", "gfx\Tad_963/Tad_963_late_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+spriteset (spriteset_Tad_963_late_open, "gfx\Tad_963/Tad_963_late_open_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_late_open, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_late_open_1x_32bpp.png", "gfx\Tad_963/Tad_963_late_open_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_late_open, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_late_open_2x_32bpp.png", "gfx\Tad_963/Tad_963_late_open_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Tad_963_late_open, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_late_open_4x_32bpp.png", "gfx\Tad_963/Tad_963_late_open_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+
+spritegroup spritegroup_Tad_963_late
+		{loaded: 	[spriteset_Tad_963_late];
+			loading: 	[spriteset_Tad_963_late_open];}	
+			
+			
+//Spritesets loading
+
+spriteset (spriteset_Tad_963_open_load_0, "gfx\Tad_963/Tad_963_open_load_0_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_Tad_963_open_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Tad_963/Tad_963_open_load_0_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Tad_963_open_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Tad_963/Tad_963_open_load_0_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}
+					
+spriteset (spriteset_Tad_963_open_load_30, "gfx\Tad_963/Tad_963_open_load_30_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_Tad_963_open_load_30, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Tad_963/Tad_963_open_load_30_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Tad_963_open_load_30, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Tad_963/Tad_963_open_load_30_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}					
+
+spriteset (spriteset_Tad_963_open_load_60, "gfx\Tad_963/Tad_963_open_load_60_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_Tad_963_open_load_60, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Tad_963/Tad_963_open_load_60_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Tad_963_open_load_60, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Tad_963/Tad_963_open_load_60_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}
+					
+spriteset (spriteset_Tad_963_open_load_100, "gfx\Tad_963/Tad_963_open_load_100_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}		
+		alternative_sprites (spriteset_Tad_963_open_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\Tad_963/Tad_963_open_load_100_2x_8bpp.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Tad_963_open_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\Tad_963/Tad_963_open_load_100_4x_8bpp.png")
+					{template_88trains_4x(0, 0)}					
+
+					
+spritegroup spritegroup_Tad_963_open_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_Tad_963_open_load_0, spriteset_Tad_963_open_load_30, spriteset_Tad_963_open_load_60, spriteset_Tad_963_open_load_100];}														
+										
+//Spriteset Purchase
+
+spriteset (spriteset_Tad_963_early_purchase, "gfx\Tad_963/Tad_963_early_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_early_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_early_1x_32bpp.png", "gfx\Tad_963/Tad_963_early_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Tad_963_late_purchase, "gfx\Tad_963/Tad_963_late_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Tad_963_late_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tad_963/Tad_963_late_1x_32bpp.png", "gfx\Tad_963/Tad_963_late_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+					
+//Switches
+
+					 switch (FEAT_TRAINS,SELF, switch_Tad_963_purchase,current_year){
+							1900 .. 1960: spriteset_Tad_963_early_purchase;
+							1961 .. 2050: spriteset_Tad_963_late_purchase;				 					 
+							spriteset_Tad_963_late_purchase;}
+							
+					 switch (FEAT_TRAINS,SELF, switch_Tad_963_current_year,current_year){
+							1900 .. 1960: spritegroup_Tad_963_early;
+							1961 .. 2050: spritegroup_Tad_963_late;				 					 
+								spritegroup_Tad_963_late;}
+
+					switch(FEAT_TRAINS, SELF, switch_Tad_963_loadstack, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+						0: return switch_Tad_963_current_year;
+						1: spritegroup_Tad_963_open_loading;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Tad_963, 1){
+						return 305;}
+						
+item (FEAT_TRAINS , ITEM_TAD_963, 8733)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_TAD_963);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1959,01,01);
+						model_life: 					50;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED);
+						cargo_allow_refit:              [CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, SALT, SASH, TOFF, CMNT, FERT, FICR, RCYC, SALT, SGBT, SGCN, ];
+						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, ];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						24 ton;
+						dual_headed: 					0;
+						default_cargo_type:				POTA;
+						cargo_capacity:					55;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Tad_963_loadstack;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: switch_Tad_963_purchase;
+			cost_factor						: 155;
+			running_cost_factor				: switch_running_cost_Tad_963;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

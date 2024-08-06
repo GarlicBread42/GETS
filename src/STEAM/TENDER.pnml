@@ -6,30 +6,23 @@
 //Württemberg grau
 
 spriteset(spriteset_Tender_3achs_Wue, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_1x_8bpp.png")
-									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3achs_Wue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_1x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_1x_mask.png")
-									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3achs_Wue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_2x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_2x_mask.png")
-									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3achs_Wue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_4x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_4x_mask.png")
+									{ template_48trains_1x(0, 0)}			
+			alternative_sprites (spriteset_Tender_3achs_Wue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_1x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_1x_mask.png")
+									{ template_48trains_1x(0, 0)}				
+			alternative_sprites (spriteset_Tender_3achs_Wue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_2x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_2x_mask.png")
+									{ template_48trains_2x(0, 0)}			
+			alternative_sprites (spriteset_Tender_3achs_Wue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_4x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_4x_mask.png")
 									{ template_48trains_4x(0, 0)}
-									
-									
+																		
 //DRG
 
 spriteset(spriteset_Tender_3achs_Wue_DRG, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_1x_8bpp.png")
+									{ template_48trains_1x(0, 0)}				
+				alternative_sprites (spriteset_Tender_3achs_Wue_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_1x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3achs_Wue_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_1x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_1x_mask.png")
-									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3achs_Wue_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_2x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_2x_mask.png")
+				alternative_sprites (spriteset_Tender_3achs_Wue_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_2x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3achs_Wue_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_4x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_4x_mask.png")
+				alternative_sprites (spriteset_Tender_3achs_Wue_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_4x_32bpp.png", "gfx\Tender_Wue_3achs/Tender_Wue_3achs_DRG_4x_mask.png")
 									{ template_48trains_4x(0, 0)}									
 									
 									
@@ -42,108 +35,81 @@ alternative_sprites (spriteset_Tender_3achs_Wue_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH
 
 spriteset(spriteset_Tender_4achs_Wue, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_1x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_1x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_1x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_2x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_2x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_2x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_4x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_4x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_4x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_4x_mask.png")
 									{ template_58trains_4x(0, 0)}
-
 
 //DRG
 
 spriteset(spriteset_Tender_4achs_Wue_DRG, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_1x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_1x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_1x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_2x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_2x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_2x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_4x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_4x_mask.png")
-									{ template_58trains_4x(0, 0)}
-									
+				alternative_sprites (spriteset_Tender_4achs_Wue_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_4x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_4x_mask.png")
+									{ template_58trains_4x(0, 0)}									
 									
 //DRG Olympia
 
 spriteset(spriteset_Tender_4achs_Wue_DRG_Olympia, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DRG_Olympia, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_1x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_1x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue_DRG_Olympia, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_1x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DRG_Olympia, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_2x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_2x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue_DRG_Olympia, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_2x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DRG_Olympia, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_4x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_4x_mask.png")
-									{ template_58trains_4x(0, 0)}
-									
+				alternative_sprites (spriteset_Tender_4achs_Wue_DRG_Olympia, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_4x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DRG_Olympia_4x_mask.png")
+									{ template_58trains_4x(0, 0)}									
 									
 //DB
 
 spriteset(spriteset_Tender_4achs_Wue_DB, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_1x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_1x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_1x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_2x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_2x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_2x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_4achs_Wue_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_4x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_4x_mask.png")
+				alternative_sprites (spriteset_Tender_4achs_Wue_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_4x_32bpp.png", "gfx\Tender_Wue_4achs/Tender_Wue_4achs_DB_4x_mask.png")
 									{ template_58trains_4x(0, 0)}									
 
 //############################
 //### Tender Bayern 3 T 10 ###
 //############################
 
-
 //K. Bay. Sts. B. - green
 
 spriteset(spriteset_Tender_BAY_3T10_green, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_1x_8bpp.png")
 									{ template_48trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_BAY_3T10_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_1x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_1x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_green, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_1x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_3T10_green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_2x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_2x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_green, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_2x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_3T10_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_4x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_4x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_green, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_4x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_green_4x_mask.png")
 									{ template_48trains_4x(0, 0)}
-									
-									
+																		
 //K. Bay. Sts. B. - gray
 
 spriteset(spriteset_Tender_BAY_3T10_gray, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_1x_8bpp.png")
 									{ template_48trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_BAY_3T10_gray, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_1x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_1x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_gray, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_1x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_3T10_gray, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_2x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_2x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_gray, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_2x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_3T10_gray, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_4x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_4x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_gray, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_4x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_gray_4x_mask.png")
 									{ template_48trains_4x(0, 0)}	
-									
-									
+																		
 //DRG - black
 
 spriteset(spriteset_Tender_BAY_3T10_DRG, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_1x_8bpp.png")
 									{ template_48trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_BAY_3T10_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_1x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_1x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_1x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_3T10_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_2x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_2x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_2x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_3T10_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_4x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_4x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_3T10_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_4x_32bpp.png", "gfx\Tender_BAY_3T10/Tender_BAY_3T10_DRG_4x_mask.png")
 									{ template_48trains_4x(0, 0)}
 									
 //#############################
@@ -155,28 +121,22 @@ alternative_sprites (spriteset_Tender_BAY_3T10_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_
 
 spriteset(spriteset_Tender_BAY_22T18_BAY, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_BAY_22T18_BAY, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_1x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_1x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_22T18_BAY, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_1x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_22T18_BAY, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_2x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_2x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_22T18_BAY, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_2x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_22T18_BAY, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_4x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_4x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_22T18_BAY, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_4x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_BAY_4x_mask.png")
 									{ template_58trains_4x(0, 0)}										
 									
 //DRG - black
 
 spriteset(spriteset_Tender_BAY_22T18_DRG, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_1x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_1x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_1x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_2x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_2x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_2x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_4x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_4x_mask.png")
+				alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_4x_32bpp.png", "gfx\Tender_BAY_22T18/Tender_BAY_22T18_DRG_4x_mask.png")
 									{ template_58trains_4x(0, 0)}	
 									
 																																		
@@ -188,29 +148,22 @@ alternative_sprites (spriteset_Tender_BAY_22T18_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH
 
 spriteset(spriteset_Tender_PR3T12_KPEV, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_1x_8bpp.png")
 									{ template_48trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_1x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_1x_mask.png")
+				alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_1x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_2x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_2x_mask.png")
+				alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_2x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_4x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_4x_mask.png")
-									{ template_48trains_4x(0, 0)}	
-									
+				alternative_sprites (spriteset_Tender_PR3T12_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_4x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_KPEV_4x_mask.png")
+									{ template_48trains_4x(0, 0)}										
 									
 //DRG schwarz
 
 spriteset(spriteset_Tender_PR3T12_DRG, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_1x_8bpp.png")
 									{ template_48trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_1x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_1x_mask.png")
+				alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_1x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_2x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_2x_mask.png")
+				alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_2x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_4x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_4x_mask.png")
+				alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_PR3T12/Tender_PR3T12_DRG_4x_32bpp.png", "gfx\Tender_PR3T12/Tender_PR3T12_DRG_4x_mask.png")
 									{ template_48trains_4x(0, 0)}									
 									
 									
@@ -222,44 +175,33 @@ alternative_sprites (spriteset_Tender_PR3T12_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32
 
 spriteset(spriteset_Tender_3T16_5_KPEV, "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_1x_8bpp.png")
 									{ template_48trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_3T16_5_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_1x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_1x_mask.png")
+				alternative_sprites (spriteset_Tender_3T16_5_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_1x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3T16_5_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_2x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_2x_mask.png")
+				alternative_sprites (spriteset_Tender_3T16_5_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_2x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3T16_5_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_4x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_4x_mask.png")
-									{ template_48trains_4x(0, 0)}	
-									
+				alternative_sprites (spriteset_Tender_3T16_5_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_4x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_KPEV_4x_mask.png")
+									{ template_48trains_4x(0, 0)}										
 									
 //DRG schwarz
 
 spriteset(spriteset_Tender_3T16_5_DRG, "gfx\Tender_3T16_5/Tender_3T16_5_DRG_1x_8bpp.png")
 									{ template_48trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_3T16_5_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DRG_1x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DRG_1x_mask.png")
+				alternative_sprites (spriteset_Tender_3T16_5_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DRG_1x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DRG_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3T16_5_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DRG_2x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DRG_2x_mask.png")
+				alternative_sprites (spriteset_Tender_3T16_5_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DRG_2x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DRG_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3T16_5_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DRG_4x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DRG_4x_mask.png")
+				alternative_sprites (spriteset_Tender_3T16_5_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DRG_4x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DRG_4x_mask.png")
 									{ template_48trains_4x(0, 0)}
-									
-									
+																		
 //DB schwarz
 
 spriteset(spriteset_Tender_3T16_5_DB, "gfx\Tender_3T16_5/Tender_3T16_5_DB_1x_8bpp.png")
 									{ template_48trains_1x(0, 0)}
-									
-alternative_sprites (spriteset_Tender_3T16_5_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DB_1x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DB_1x_mask.png")
+				alternative_sprites (spriteset_Tender_3T16_5_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DB_1x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DB_1x_mask.png")
 									{ template_48trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3T16_5_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DB_2x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DB_2x_mask.png")
+				alternative_sprites (spriteset_Tender_3T16_5_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DB_2x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DB_2x_mask.png")
 									{ template_48trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_3T16_5_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DB_4x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DB_4x_mask.png")
+				alternative_sprites (spriteset_Tender_3T16_5_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_3T16_5/Tender_3T16_5_DB_4x_32bpp.png", "gfx\Tender_3T16_5/Tender_3T16_5_DB_4x_mask.png")
 									{ template_48trains_4x(0, 0)}																											
 
 //########################
@@ -270,42 +212,33 @@ alternative_sprites (spriteset_Tender_3T16_5_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32B
 
 spriteset(spriteset_Tender_22T16_KPEV, "gfx\Tender_22T16/Tender_22T16_KPEV_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_1x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_1x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_1x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_2x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_2x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_2x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_4x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_4x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_4x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_4x_mask.png")
 									{ template_58trains_4x(0, 0)}
 									
 //KPEV grün mit roten Zierlinien
 
 spriteset(spriteset_Tender_22T16_KPEV_Redline, "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_KPEV_Redline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_1x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_1x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_KPEV_Redline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_1x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_KPEV_Redline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_2x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_2x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_KPEV_Redline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_2x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_KPEV_Redline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_4x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_4x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_KPEV_Redline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_4x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_KPEV_Redline_4x_mask.png")
 									{ template_58trains_4x(0, 0)}
 									
 //DRG schwarz
 
 spriteset(spriteset_Tender_22T16_DRG, "gfx\Tender_22T16/Tender_22T16_DRG_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_DRG_1x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_DRG_1x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_DRG_1x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_DRG_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_DRG_2x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_DRG_2x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_DRG_2x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_DRG_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T16_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_DRG_4x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_DRG_4x_mask.png")
+				alternative_sprites (spriteset_Tender_22T16_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T16/Tender_22T16_DRG_4x_32bpp.png", "gfx\Tender_22T16/Tender_22T16_DRG_4x_mask.png")
 									{ template_58trains_4x(0, 0)}
 
 //##########################################
@@ -317,44 +250,33 @@ alternative_sprites (spriteset_Tender_22T16_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32B
 
 spriteset(spriteset_Tender_22T215_KPEV, "gfx\Tender_22T215/Tender_22T215_KPEV_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_1x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_1x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_1x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_2x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_2x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_2x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_4x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_4x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_4x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_4x_mask.png")
 									{ template_58trains_4x(0, 0)}	
-									
-									
+																		
 //KPEV grün mit roten Zierlinien
 
 spriteset(spriteset_Tender_22T215_KPEV_Redline, "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_KPEV_Redline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_1x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_1x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_KPEV_Redline, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_1x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_KPEV_Redline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_2x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_2x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_KPEV_Redline, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_2x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_KPEV_Redline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_4x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_4x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_KPEV_Redline, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_4x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_KPEV_Redline_4x_mask.png")
 									{ template_58trains_4x(0, 0)}										
-									
-									
+																		
 //DRG schwarz
 
 spriteset(spriteset_Tender_22T215_DRG, "gfx\Tender_22T215/Tender_22T215_DRG_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DRG_1x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DRG_1x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DRG_1x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DRG_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DRG_2x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DRG_2x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DRG_2x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DRG_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DRG_4x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DRG_4x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DRG_4x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DRG_4x_mask.png")
 									{ template_58trains_4x(0, 0)}
 									
 									
@@ -362,73 +284,82 @@ alternative_sprites (spriteset_Tender_22T215_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32
 
 spriteset(spriteset_Tender_22T215_DB, "gfx\Tender_22T215/Tender_22T215_DB_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DB_1x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DB_1x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DB_1x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DB_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DB_2x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DB_2x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DB_2x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DB_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T215_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DB_4x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DB_4x_mask.png")
+				alternative_sprites (spriteset_Tender_22T215_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Tender_22T215/Tender_22T215_DB_4x_32bpp.png", "gfx\Tender_22T215/Tender_22T215_DB_4x_mask.png")
 									{ template_58trains_4x(0, 0)}																								
 
+//##########################
+//### Tender 2'2' T 31,5 ###
+//##########################
+
+//Spriteset DRG gruen (BR 39)
+spriteset(spriteset_Tender_22T315_DRG_gruen, "gfx/Tender_22T315/Tender_22T315_DRG_gruen_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DRG_gruen, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DRG_gruen_1x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DRG_gruen_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DRG_gruen, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DRG_gruen_2x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DRG_gruen_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DRG_gruen, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DRG_gruen_4x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DRG_gruen_4x_mask.png")
+									{ template_58trains_4x(0, 0)}
+
+//Spriteset DRG 
+spriteset(spriteset_Tender_22T315_DRG, "gfx/Tender_22T315/Tender_22T315_DRG_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DRG_1x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DRG_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DRG_2x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DRG_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DRG_4x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DRG_4x_mask.png")
+									{ template_58trains_4x(0, 0)}
+									
+//Spriteset DB
+spriteset(spriteset_Tender_22T315_DB, "gfx/Tender_22T315/Tender_22T315_DB_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DB_1x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DB_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DB_2x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DB_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+				alternative_sprites (spriteset_Tender_22T315_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T315/Tender_22T315_DB_4x_32bpp.png", "gfx/Tender_22T315/Tender_22T315_DB_4x_mask.png")
+									{ template_58trains_4x(0, 0)}																		
+									
+									
 //#######################
 //### Tender 2'2' T32 ###
 //#######################
 
-
-//GFX-Definition
-
+//Spriteset DRG
 spriteset(spriteset_Tender_22T32_DRG, "gfx/Tender_22T32/Tender_22T32_DRG_1x_8bpp.png")
-//8bpp normal zoom
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T32_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DRG_1x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DRG_1x_mask.png")
-//32bpp normal zoom
+				alternative_sprites (spriteset_Tender_22T32_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DRG_1x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DRG_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T32_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DRG_2x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DRG_2x_mask.png")
-//32bpp 2x Zoom
-					//left_x1, upper_y1, width1, height1, offset_x1, offset_y1
+				alternative_sprites (spriteset_Tender_22T32_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DRG_2x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DRG_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T32_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DRG_4x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DRG_4x_mask.png")
-//32bpp 4x Zoom
-					//left_x1, upper_y1, width1, height1, offset_x1, offset_y1
+				alternative_sprites (spriteset_Tender_22T32_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DRG_4x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DRG_4x_mask.png")
 									{ template_58trains_4x(0, 0)}
 
-
+//Spriteset DB
 spriteset(spriteset_Tender_22T32_DB, "gfx/Tender_22T32/Tender_22T32_DB_1x_8bpp.png")
-//8bpp normal zoom
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T32_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DB_1x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DB_1x_mask.png")
-//32bpp normal zoom
+				alternative_sprites (spriteset_Tender_22T32_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DB_1x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DB_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T32_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DB_2x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DB_2x_mask.png")
-//32bpp 2x Zoom
-					//left_x1, upper_y1, width1, height1, offset_x1, offset_y1
+				alternative_sprites (spriteset_Tender_22T32_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DB_2x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DB_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Tender_22T32_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DB_4x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DB_4x_mask.png")
-//32bpp 4x Zoom
-					//left_x1, upper_y1, width1, height1, offset_x1, offset_y1
+				alternative_sprites (spriteset_Tender_22T32_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T32/Tender_22T32_DB_4x_32bpp.png", "gfx/Tender_22T32/Tender_22T32_DB_4x_mask.png")
 									{ template_58trains_4x(0, 0)}	
 
 
 						switch (FEAT_TRAINS,SELF, switch_Tender_22T32_current_year,current_year){
 							 1920 .. 1945: spriteset_Tender_22T32_DRG;
 							 1945 .. 1987: spriteset_Tender_22T32_DB;						 					 
-							 spriteset_Tender_22T32_DB;
-							 }
-
+							 spriteset_Tender_22T32_DB;}
 		
 						switch (FEAT_TRAINS,SELF, switch_Tender_22T32_build_year,build_year){
 							 1920 .. 1945: spriteset_Tender_22T32_DRG;
 							 1945 .. 1987: spriteset_Tender_22T32_DB;						 					 
-							 spriteset_Tender_22T32_DB;
-							 }									
+							 spriteset_Tender_22T32_DB;}		
 
 //#######################
 //### Tender 2'2' T26 ###
@@ -439,49 +370,37 @@ alternative_sprites (spriteset_Tender_22T32_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BP
 
 spriteset(spriteset_Tender_22T26_DRG, "gfx/Tender_22T26/Tender_22T26_DRG_1x_8bpp.png")
 									{ template_68trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_DRG_1x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_DRG_1x_mask.png")
 									{ template_68trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_DRG_2x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_DRG_2x_mask.png")
 									{ template_68trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_DRG_4x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_DRG_4x_mask.png")
 									{ template_68trains_4x(0, 0)}
 
 spriteset(spriteset_Tender_22T26_DB, "gfx/Tender_22T26/Tender_22T26_DB_1x_8bpp.png")
 									{ template_68trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_DB_1x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_DB_1x_mask.png")
 									{ template_68trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_DB_2x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_DB_2x_mask.png")
 									{ template_68trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_DB_4x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_DB_4x_mask.png")
 									{ template_68trains_4x(0, 0)}
 									
 spriteset(spriteset_Tender_22T26_KAB, "gfx/Tender_22T26/Tender_22T26_KAB_1x_8bpp.png")
 									{ template_68trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_KAB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_KAB_1x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_KAB_1x_mask.png")
 									{ template_68trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_KAB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_KAB_2x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_KAB_2x_mask.png")
 									{ template_68trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_KAB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_KAB_4x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_KAB_4x_mask.png")
 									{ template_68trains_4x(0, 0)}	
 									
 spriteset(spriteset_Tender_22T26_FRANCOCROSTI, "gfx/Tender_22T26/Tender_22T26_FRANCOCROSTI_1x_8bpp.png")
 									{ template_68trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_FRANCOCROSTI, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_FRANCOCROSTI_1x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_FRANCOCROSTI_1x_mask.png")
 									{ template_68trains_1x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_FRANCOCROSTI, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_FRANCOCROSTI_2x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_FRANCOCROSTI_2x_mask.png")
 									{ template_68trains_2x(0, 0)}
-				
 	alternative_sprites (spriteset_Tender_22T26_FRANCOCROSTI, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Tender_22T26/Tender_22T26_FRANCOCROSTI_4x_32bpp.png", "gfx/Tender_22T26/Tender_22T26_FRANCOCROSTI_4x_mask.png")
 									{ template_68trains_4x(0, 0)}																		
 
@@ -494,28 +413,22 @@ spriteset(spriteset_Tender_22T26_FRANCOCROSTI, "gfx/Tender_22T26/Tender_22T26_FR
 
 spriteset(spriteset_Wannentender_DRG, "gfx\Wannentender/Wannentender_DRG_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_1x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_1x_mask.png")
+	alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_1x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_2x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_2x_mask.png")
+	alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_2x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_4x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_4x_mask.png")
+	alternative_sprites (spriteset_Wannentender_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DRG_4x_32bpp.png", "gfx\Wannentender/Wannentender_DRG_4x_mask.png")
 									{ template_58trains_4x(0, 0)}																		
 
 //DB-Version
 
 spriteset(spriteset_Wannentender_DB, "gfx\Wannentender/Wannentender_DB_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DB_1x_32bpp.png", "gfx\Wannentender/Wannentender_DB_1x_mask.png")
+	alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DB_1x_32bpp.png", "gfx\Wannentender/Wannentender_DB_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DB_2x_32bpp.png", "gfx\Wannentender/Wannentender_DB_2x_mask.png")
+	alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DB_2x_32bpp.png", "gfx\Wannentender/Wannentender_DB_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DB_4x_32bpp.png", "gfx\Wannentender/Wannentender_DB_4x_mask.png")
+	alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Wannentender/Wannentender_DB_4x_32bpp.png", "gfx\Wannentender/Wannentender_DB_4x_mask.png")
 									{ template_58trains_4x(0, 0)}																		
 
 //#########################
@@ -526,26 +439,47 @@ alternative_sprites (spriteset_Wannentender_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BP
 
 spriteset(spriteset_Steifrahmentender_DRG, "gfx\Steifrahmentender/Steifrahmentender_DRG_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_1x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_1x_mask.png")
+		alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_1x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_2x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_2x_mask.png")
+		alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_2x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_4x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_4x_mask.png")
+		alternative_sprites (spriteset_Steifrahmentender_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DRG_4x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DRG_4x_mask.png")
 									{ template_58trains_4x(0, 0)}	
 									
 //DB schwarz
 
 spriteset(spriteset_Steifrahmentender_DB, "gfx\Steifrahmentender/Steifrahmentender_DB_1x_8bpp.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_1x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_1x_mask.png")
+		
+		alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_1x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_1x_mask.png")
 									{ template_58trains_1x(0, 0)}
-				
-alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_2x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_2x_mask.png")
+		alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_2x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_2x_mask.png")
 									{ template_58trains_2x(0, 0)}
-				
-alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_4x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_4x_mask.png")
+		alternative_sprites (spriteset_Steifrahmentender_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Steifrahmentender/Steifrahmentender_DB_4x_32bpp.png", "gfx\Steifrahmentender/Steifrahmentender_DB_4x_mask.png")
 									{ template_58trains_4x(0, 0)}									
+
+//#######################
+//### DB BR 23 Tender ###
+//#######################
+
+//Variante A
+
+spriteset(spriteset_BR_23_DB_Tender_A, "gfx\BR_23_DB/BR_23_DB_Tender_A_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+		alternative_sprites (spriteset_BR_23_DB_Tender_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_23_DB/BR_23_DB_Tender_A_1x_32bpp.png", "gfx\BR_23_DB/BR_23_DB_Tender_A_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+		alternative_sprites (spriteset_BR_23_DB_Tender_A, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_23_DB/BR_23_DB_Tender_A_2x_32bpp.png", "gfx\BR_23_DB/BR_23_DB_Tender_A_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+		alternative_sprites (spriteset_BR_23_DB_Tender_A, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_23_DB/BR_23_DB_Tender_A_4x_32bpp.png", "gfx\BR_23_DB/BR_23_DB_Tender_A_4x_mask.png")
+									{ template_58trains_4x(0, 0)}	
+
+//Variante B
+
+spriteset(spriteset_BR_23_DB_Tender_B, "gfx\BR_23_DB/BR_23_DB_Tender_B_1x_8bpp.png")
+									{ template_58trains_1x(0, 0)}
+		alternative_sprites (spriteset_BR_23_DB_Tender_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_23_DB/BR_23_DB_Tender_B_1x_32bpp.png", "gfx\BR_23_DB/BR_23_DB_Tender_B_1x_mask.png")
+									{ template_58trains_1x(0, 0)}
+		alternative_sprites (spriteset_BR_23_DB_Tender_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_23_DB/BR_23_DB_Tender_B_2x_32bpp.png", "gfx\BR_23_DB/BR_23_DB_Tender_B_2x_mask.png")
+									{ template_58trains_2x(0, 0)}
+		alternative_sprites (spriteset_BR_23_DB_Tender_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_23_DB/BR_23_DB_Tender_B_4x_32bpp.png", "gfx\BR_23_DB/BR_23_DB_Tender_B_4x_mask.png")
+									{ template_58trains_4x(0, 0)}

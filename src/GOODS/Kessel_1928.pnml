@@ -1,0 +1,982 @@
+//######################
+//###Kesselwagen 1928###
+//######################			
+	
+	
+//Spriteset Chemiekessel 1
+
+spriteset (spriteset_Kessel_1928_CHEM1_MBH, "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM1_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM1_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM1_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM1_OBH, "gfx\Kessel_1928/Kessel_1928_CHEM1_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM1_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM1_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM1_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM1_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM1_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM1_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM1_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM1_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM1_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+//Spriteset Chemiekessel 2
+
+spriteset (spriteset_Kessel_1928_CHEM2_MBH, "gfx\Kessel_1928/Kessel_1928_CHEM2_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM2_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM2_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM2_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM2_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM2_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM2_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM2_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM2_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM2_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM2_OBH, "gfx\Kessel_1928/Kessel_1928_CHEM2_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM2_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM2_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM2_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM2_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM2_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM2_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM2_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM2_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM2_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Chemiekessel 3
+
+spriteset (spriteset_Kessel_1928_CHEM3_MBH, "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM3_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM3_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM3_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM3_OBH, "gfx\Kessel_1928/Kessel_1928_CHEM3_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM3_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM3_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM3_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM3_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM3_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM3_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM3_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM3_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM3_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Chemiekessel 4
+
+spriteset (spriteset_Kessel_1928_CHEM4_MBH, "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM4_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM4_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM4_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM4_OBH, "gfx\Kessel_1928/Kessel_1928_CHEM4_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM4_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM4_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM4_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM4_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM4_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM4_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM4_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM4_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM4_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Chemiekessel 5
+
+spriteset (spriteset_Kessel_1928_CHEM5_MBH, "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM5_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM5_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM5_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM5_OBH, "gfx\Kessel_1928/Kessel_1928_CHEM5_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM5_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM5_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM5_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM5_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM5_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM5_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM5_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM5_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM5_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}	
+					
+//Spriteset Chemiekessel 6
+
+spriteset (spriteset_Kessel_1928_CHEM6_MBH, "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM6_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM6_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM6_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM6_OBH, "gfx\Kessel_1928/Kessel_1928_CHEM6_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM6_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM6_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM6_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM6_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM6_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM6_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM6_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM6_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM6_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}																			
+					
+//Spriteset Chemiekessel 7
+
+spriteset (spriteset_Kessel_1928_CHEM7_MBH, "gfx\Kessel_1928/Kessel_1928_CHEM7_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM7_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM7_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM7_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM7_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM7_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM7_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM7_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM7_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM7_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM7_OBH, "gfx\Kessel_1928/Kessel_1928_CHEM7_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM7_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM7_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM7_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM7_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM7_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM7_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_CHEM7_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM7_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM7_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Ölkessel 1
+
+spriteset (spriteset_Kessel_1928_OIL1_MBH, "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL1_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL1_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL1_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_OIL1_OBH, "gfx\Kessel_1928/Kessel_1928_OIL1_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL1_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL1_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL1_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL1_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL1_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL1_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL1_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL1_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL1_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}										
+
+//Spriteset Ölkessel 2
+
+spriteset (spriteset_Kessel_1928_OIL2_MBH, "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL2_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL2_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL2_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_OIL2_OBH, "gfx\Kessel_1928/Kessel_1928_OIL2_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL2_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL2_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL2_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL2_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL2_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL2_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL2_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL2_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL2_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Ölkessel 3
+
+spriteset (spriteset_Kessel_1928_OIL3_MBH, "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL3_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL3_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL3_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_OIL3_OBH, "gfx\Kessel_1928/Kessel_1928_OIL3_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL3_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL3_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL3_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL3_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL3_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL3_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL3_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL3_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL3_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Ölkessel 4
+
+spriteset (spriteset_Kessel_1928_OIL4_MBH, "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL4_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL4_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL4_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_OIL4_OBH, "gfx\Kessel_1928/Kessel_1928_OIL4_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL4_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL4_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL4_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL4_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL4_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL4_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL4_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL4_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL4_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Ölkessel 5
+
+spriteset (spriteset_Kessel_1928_OIL5_MBH, "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL5_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL5_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL5_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_OIL5_OBH, "gfx\Kessel_1928/Kessel_1928_OIL5_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL5_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL5_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL5_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL5_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL5_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL5_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL5_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL5_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL5_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Ölkessel 6
+
+spriteset (spriteset_Kessel_1928_OIL6_MBH, "gfx\Kessel_1928/Kessel_1928_OIL6_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL6_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL6_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL6_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL6_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL6_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL6_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL6_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL6_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL6_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_OIL6_OBH, "gfx\Kessel_1928/Kessel_1928_OIL6_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL6_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL6_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL6_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL6_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL6_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL6_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL6_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL6_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL6_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+					
+//Spriteset Ölkessel 7
+
+spriteset (spriteset_Kessel_1928_OIL7_MBH, "gfx\Kessel_1928/Kessel_1928_OIL7_MBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL7_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL7_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL7_MBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL7_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL7_MBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL7_MBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL7_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL7_MBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL7_MBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}
+
+spriteset (spriteset_Kessel_1928_OIL7_OBH, "gfx\Kessel_1928/Kessel_1928_OIL7_OBH_1x_8bpp.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL7_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL7_OBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL7_OBH_1x_mask.png")
+					{template_68trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL7_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL7_OBH_2x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL7_OBH_2x_mask.png")
+					{template_68trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kessel_1928_OIL7_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL7_OBH_4x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL7_OBH_4x_mask.png")
+					{template_68trains_4x(0, 0)}																									
+
+//Spritesets purchase
+
+spriteset (spriteset_Kessel_1928_CHEM1_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM1_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM1_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM3_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM3_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM3_MBH_1x_mask.png")
+					{template_purchase(0, 0)}					
+
+spriteset (spriteset_Kessel_1928_CHEM4_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM4_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM4_MBH_1x_mask.png")
+					{template_purchase(0, 0)}					
+
+spriteset (spriteset_Kessel_1928_CHEM5_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM5_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM5_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Kessel_1928_CHEM6_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_CHEM6_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_CHEM6_MBH_1x_mask.png")
+					{template_purchase(0, 0)}										
+
+spriteset (spriteset_Kessel_1928_OIL1_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL1_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL1_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Kessel_1928_OIL2_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL2_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL2_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Kessel_1928_OIL3_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL3_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL3_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Kessel_1928_OIL4_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL4_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL4_MBH_1x_mask.png")
+					{template_purchase(0, 0)}
+
+spriteset (spriteset_Kessel_1928_OIL5_MBH_purchase, "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kessel_1928_OIL5_MBH_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_1x_32bpp.png", "gfx\Kessel_1928/Kessel_1928_OIL5_MBH_1x_mask.png")
+					{template_purchase(0, 0)}		
+			
+					
+//Switches								
+
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_CHEM1, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_CHEM1_MBH;
+							1: spriteset_Kessel_1928_CHEM1_OBH;}	
+
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_CHEM2, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_CHEM2_MBH;
+							1: spriteset_Kessel_1928_CHEM2_OBH;}
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_CHEM3, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_CHEM3_MBH;
+							1: spriteset_Kessel_1928_CHEM3_OBH;}
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_CHEM4, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_CHEM4_MBH;
+							1: spriteset_Kessel_1928_CHEM4_OBH;}
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_CHEM5, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_CHEM5_MBH;
+							1: spriteset_Kessel_1928_CHEM5_OBH;}
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_CHEM6, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_CHEM6_MBH;
+							1: spriteset_Kessel_1928_CHEM6_OBH;}
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_CHEM7, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_CHEM7_MBH;
+							1: spriteset_Kessel_1928_CHEM7_OBH;}
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_OIL1, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_OIL1_MBH;
+							1: spriteset_Kessel_1928_OIL1_OBH;}																																										
+
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_OIL2, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_OIL2_MBH;
+							1: spriteset_Kessel_1928_OIL2_OBH;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_OIL3, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_OIL3_MBH;
+							1: spriteset_Kessel_1928_OIL3_OBH;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_OIL4, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_OIL4_MBH;
+							1: spriteset_Kessel_1928_OIL4_OBH;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_OIL5, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_OIL5_MBH;
+							1: spriteset_Kessel_1928_OIL5_OBH;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_OIL6, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_OIL6_MBH;
+							1: spriteset_Kessel_1928_OIL6_OBH;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_brakerscab_Kessel_1928_OIL7, position_in_vehid_chain % 2) {
+							0: spriteset_Kessel_1928_OIL7_MBH;
+							1: spriteset_Kessel_1928_OIL7_OBH;}	
+							
+					switch (FEAT_TRAINS, SELF, random_choose_Kessel_1928_CHEM, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_brakerscab_Kessel_1928_CHEM1;
+							2: switch_brakerscab_Kessel_1928_CHEM2;
+							3: switch_brakerscab_Kessel_1928_CHEM3;
+							4: switch_brakerscab_Kessel_1928_CHEM4;
+							5: switch_brakerscab_Kessel_1928_CHEM5;																												
+							6: switch_brakerscab_Kessel_1928_CHEM6;
+							7: switch_brakerscab_Kessel_1928_CHEM7;														
+								switch_brakerscab_Kessel_1928_CHEM1;}																																										
+							
+					switch (FEAT_TRAINS, SELF, random_choose_Kessel_1928_OIL, switch_alternative_var_random_bits(1, 3)) {
+							1: switch_brakerscab_Kessel_1928_OIL1;
+							2: switch_brakerscab_Kessel_1928_OIL2;
+							3: switch_brakerscab_Kessel_1928_OIL3;
+							4: switch_brakerscab_Kessel_1928_OIL4;
+							5: switch_brakerscab_Kessel_1928_OIL5;																												
+							6: switch_brakerscab_Kessel_1928_OIL6;
+							7: switch_brakerscab_Kessel_1928_OIL7;														
+								switch_brakerscab_Kessel_1928_OIL1;}
+							
+					switch (FEAT_TRAINS, SELF, switch_Kessel_1928_sprite_choose, cargo_type_in_veh) {
+						OIL_: random_choose_Kessel_1928_OIL;
+						RUBR: random_choose_Kessel_1928_OIL; 
+						WATR: random_choose_Kessel_1928_CHEM;
+						BEER: random_choose_Kessel_1928_CHEM;
+						DYES: random_choose_Kessel_1928_CHEM; 
+						PETR: random_choose_Kessel_1928_OIL;
+						RFPR: random_choose_Kessel_1928_OIL;
+						SULP: random_choose_Kessel_1928_CHEM;
+						ACID: random_choose_Kessel_1928_CHEM;
+						CHLO: random_choose_Kessel_1928_CHEM;
+						COAT: random_choose_Kessel_1928_CHEM;
+						FUEL: random_choose_Kessel_1928_CHEM;
+						LYE_: random_choose_Kessel_1928_CHEM;
+						MOLS: random_choose_Kessel_1928_CHEM;
+						NH3_: random_choose_Kessel_1928_CHEM;
+						OILI: random_choose_Kessel_1928_OIL;
+						OILD: random_choose_Kessel_1928_OIL;
+						O2__: random_choose_Kessel_1928_CHEM;
+						SOAP: random_choose_Kessel_1928_CHEM;
+						PLST: random_choose_Kessel_1928_OIL;}
+
+					switch (FEAT_TRAINS, PARENT, switch_speed_Kessel_1928,  switch_check_PWG_0()) {
+						1: return 80;
+						0: return 65;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Kessel_1928, 1){
+						return 75;}	
+
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_AUTO, 9216)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_AUTO);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Kessel_1928_sprite_choose;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_OIL1_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}
+
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_CHEM, 9217)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_CHEM);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Kessel_1928_CHEM;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_CHEM4_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}
+
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_OIL, 9218)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_OIL);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: random_choose_Kessel_1928_OIL;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_OIL1_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}
+
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_OIL2, 9219)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_OIL2);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_brakerscab_Kessel_1928_OIL2;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_OIL2_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}
+
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_OIL3, 9220)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_OIL3);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_brakerscab_Kessel_1928_OIL3;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_OIL3_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}
+
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_OIL4, 9221)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_OIL4);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_brakerscab_Kessel_1928_OIL4;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_OIL4_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}
+		
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_OIL5, 9222)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_OIL5);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_brakerscab_Kessel_1928_OIL5;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_OIL5_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}		
+
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_CHEM1, 9223)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_CHEM1);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_brakerscab_Kessel_1928_CHEM1;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_CHEM1_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}
+		
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_CHEM3, 9224)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_CHEM3);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_brakerscab_Kessel_1928_CHEM3;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_CHEM3_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}		
+
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_CHEM5, 9225)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_CHEM5);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_brakerscab_Kessel_1928_CHEM5;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_CHEM5_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}
+		
+						
+item (FEAT_TRAINS , ITEM_KESSEL_1928_CHEM6, 9226)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KESSEL_1928_CHEM6);
+						variant_group:					9216;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1928,01,01);
+						model_life: 					55;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						cargo_allow_refit:              [OIL_, RUBR, WATR, BEER, DYES, PETR, RFPR, SULP, ACID, CHLO, COAT, FUEL, LYE_, MOLS, NH3_, OILI, OILD, O2__, SOAP, PLST,];
+						loading_speed:					6;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							65 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						14 ton;
+						dual_headed: 					0;
+						default_cargo_type:				OIL_;
+						cargo_capacity:					20;
+						ai_engine_rank: 				0;
+						length: 						6;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_brakerscab_Kessel_1928_CHEM6;
+			additional_text					: string(STR_DESC_CABOOSE_80);
+			purchase						: spriteset_Kessel_1928_CHEM6_MBH_purchase;
+			speed							: switch_speed_Kessel_1928;
+			cost_factor						: 35;
+			running_cost_factor				: switch_running_cost_Kessel_1928;				
+			
+			 }
+		}		

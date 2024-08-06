@@ -547,7 +547,7 @@ item (FEAT_TRAINS , ITEM_BR_632_NEB, 6322)
 						switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_633, 1){
 							return 1800;}	
 
-						switch(FEAT_TRAINS, SELF, switch_BR_633_graphics_DB, position_in_vehid_chain % 8) {
+						switch(FEAT_TRAINS, SELF, switch_BR_633_graphics_DB, position_in_vehid_chain % 9) {
 							0: spriteset_empty;
 							1: switch_spritestack_BR_632_front_DB;
 							2: spriteset_empty;
@@ -616,7 +616,7 @@ item (FEAT_TRAINS , ITEM_BR_633_DB, 6323)
 			}
 	}	
 
-						switch(FEAT_TRAINS, SELF, switch_BR_633_graphics_RMV, position_in_vehid_chain % 8) {
+						switch(FEAT_TRAINS, SELF, switch_BR_633_graphics_RMV, position_in_vehid_chain % 9) {
 							0: spriteset_empty;
 							1: switch_spritestack_BR_632_front_RMV;
 							2: spriteset_empty;
@@ -686,7 +686,7 @@ item (FEAT_TRAINS , ITEM_BR_633_RMV, 6324)
 			}
 	}
 
-						switch(FEAT_TRAINS, SELF, switch_BR_633_graphics_Bayern, position_in_vehid_chain % 8) {
+						switch(FEAT_TRAINS, SELF, switch_BR_633_graphics_Bayern, position_in_vehid_chain % 9) {
 							0: spriteset_empty;
 							1: switch_spritestack_BR_632_front_Bayern;
 							2: spriteset_empty;

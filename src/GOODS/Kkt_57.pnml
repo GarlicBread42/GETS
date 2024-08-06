@@ -1,0 +1,127 @@
+//############
+//###Kkt 57###
+//############	
+	
+//Spriteset early
+
+spriteset (spriteset_Kkt_57_early, "gfx\Kkt_57/Kkt_57_early_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_early, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_early_1x_32bpp.png", "gfx\Kkt_57/Kkt_57_early_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_early, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_early_2x_32bpp.png", "gfx\Kkt_57/Kkt_57_early_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kkt_57_early, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_early_4x_32bpp.png", "gfx\Kkt_57/Kkt_57_early_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+spriteset (spriteset_Kkt_57_early_loading, "gfx\Kkt_57/Kkt_57_early_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_early_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_early_loading_1x_32bpp.png", "gfx\Kkt_57/Kkt_57_early_loading_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_early_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_early_loading_2x_32bpp.png", "gfx\Kkt_57/Kkt_57_early_loading_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kkt_57_early_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_early_loading_4x_32bpp.png", "gfx\Kkt_57/Kkt_57_early_loading_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+
+spritegroup spritegroup_Kkt_57_early
+		{loaded: 	[spriteset_Kkt_57_early];
+			loading: 	[spriteset_Kkt_57_early_loading];}	
+								
+//Spriteset late
+
+spriteset (spriteset_Kkt_57_late, "gfx\Kkt_57/Kkt_57_late_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_late, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_late_1x_32bpp.png", "gfx\Kkt_57/Kkt_57_late_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_late, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_late_2x_32bpp.png", "gfx\Kkt_57/Kkt_57_late_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kkt_57_late, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_late_4x_32bpp.png", "gfx\Kkt_57/Kkt_57_late_4x_mask.png")
+					{template_88trains_4x(0, 0)}	
+
+spriteset (spriteset_Kkt_57_late_loading, "gfx\Kkt_57/Kkt_57_late_loading_1x_8bpp.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_late_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_late_loading_1x_32bpp.png", "gfx\Kkt_57/Kkt_57_late_loading_1x_mask.png")
+					{template_88trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_late_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_late_loading_2x_32bpp.png", "gfx\Kkt_57/Kkt_57_late_loading_2x_mask.png")
+					{template_88trains_2x(0, 0)}					
+		alternative_sprites (spriteset_Kkt_57_late_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_late_loading_4x_32bpp.png", "gfx\Kkt_57/Kkt_57_late_loading_4x_mask.png")
+					{template_88trains_4x(0, 0)}					
+
+spritegroup spritegroup_Kkt_57_late
+		{loaded: 	[spriteset_Kkt_57_late];
+			loading: 	[spriteset_Kkt_57_late_loading];}
+										
+//Spriteset Purchase
+
+spriteset (spriteset_Kkt_57_early_purchase, "gfx\Kkt_57/Kkt_57_early_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_early_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_early_1x_32bpp.png", "gfx\Kkt_57/Kkt_57_early_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+spriteset (spriteset_Kkt_57_late_purchase, "gfx\Kkt_57/Kkt_57_late_1x_8bpp.png")
+					{template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Kkt_57_late_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Kkt_57/Kkt_57_late_1x_32bpp.png", "gfx\Kkt_57/Kkt_57_late_1x_mask.png")
+					{template_purchase(0, 0)}
+					
+					
+//Switches
+
+					 switch (FEAT_TRAINS,SELF, switch_Kkt_57_purchase,current_year){
+							1900 .. 1960: spriteset_Kkt_57_early_purchase;
+							1961 .. 2050: spriteset_Kkt_57_late_purchase;				 					 
+							spriteset_Kkt_57_late_purchase;}
+							
+					 switch (FEAT_TRAINS,SELF, switch_Kkt_57_current_year,current_year){
+							1900 .. 1960: spritegroup_Kkt_57_early;
+							1961 .. 2050: spritegroup_Kkt_57_late;				 					 
+								spritegroup_Kkt_57_late;}
+
+					switch(FEAT_TRAINS,PARENT,switch_running_cost_Kkt_57, 1){
+						return 320;}
+						
+item (FEAT_TRAINS , ITEM_KKT_57, 8732)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_KKT_57);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1954,01,01);
+						model_life: 					46;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED);
+						cargo_allow_refit:              [CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, SALT, SASH, TOFF, CMNT, FERT, FICR, RCYC, SALT, SGBT, SGCN, ];
+						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, ];
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						23 ton;
+						dual_headed: 					0;
+						default_cargo_type:				POTA;
+						cargo_capacity:					53;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_Kkt_57_current_year;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: switch_Kkt_57_purchase;
+			cost_factor						: 150;
+			running_cost_factor				: switch_running_cost_Kkt_57;				
+			colour_mapping					: switch_generic_recolour;
+			 }
+		}

@@ -1,0 +1,103 @@
+//#########################
+//###NEG Generatorwagen ###
+//#########################
+
+//Spriteset
+
+spriteset(spriteset_Generator_NEG, "gfx/Generator_NEG/Generator_NEG_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_1x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_1x_mask.png")
+									{template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_2x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_2x_mask.png")
+									{template_88trains_2x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_4x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_4x_mask.png")
+									{template_88trains_4x(0, 0)}
+									
+									
+//Spriteset Lamp
+
+spriteset(spriteset_Generator_NEG_Lamp_on, "gfx/Generator_NEG/Generator_NEG_Lamp_on_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG_Lamp_on, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_Lamp_on_1x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_Lamp_on_1x_mask.png")
+									{template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG_Lamp_on, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_Lamp_on_2x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_Lamp_on_2x_mask.png")
+									{template_88trains_2x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG_Lamp_on, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_Lamp_on_4x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_Lamp_on_4x_mask.png")
+									{template_88trains_4x(0, 0)}									
+									
+spriteset(spriteset_Generator_NEG_Lamp_off, "gfx/Generator_NEG/Generator_NEG_Lamp_off_1x_8bpp.png")
+									{ template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG_Lamp_off, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_Lamp_off_1x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_Lamp_off_1x_mask.png")
+									{template_88trains_1x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG_Lamp_off, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_Lamp_off_2x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_Lamp_off_2x_mask.png")
+									{template_88trains_2x(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG_Lamp_off, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_Lamp_off_4x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_Lamp_off_4x_mask.png")
+									{template_88trains_4x(0, 0)}								
+
+//Spriteset purchase
+
+spriteset(spriteset_Generator_NEG_purchase, "gfx/Generator_NEG/Generator_NEG_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_Generator_NEG_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Generator_NEG/Generator_NEG_1x_32bpp.png", "gfx/Generator_NEG/Generator_NEG_1x_mask.png")
+									{template_purchase(0, 0)}
+
+//Switches
+
+						switch (FEAT_TRAINS, SELF, switch_animation_Generator_NEG, animation_counter % 4) {
+							0: spriteset_Generator_NEG_Lamp_on;
+							1: spriteset_Generator_NEG_Lamp_on;
+							2: spriteset_Generator_NEG_Lamp_off;
+							3: spriteset_Generator_NEG_Lamp_off;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Generator_NEG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Generator_NEG;
+							1: return switch_animation_Generator_NEG;}							
+
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Generator_NEG, 1){
+								return 1750;}
+								
+item (FEAT_TRAINS , ITEM_GENERATOR_NEG, 3899)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_GENERATOR_NEG);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2014,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+												
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							120 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					72;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_spritestack_Generator_NEG;
+			additional_text					: string(STR_DESC_GENERATOR_NEG);
+			purchase						: switch_Coach_1878_purchase;
+			cost_factor						: 185;
+			running_cost_factor				: switch_running_cost_Coach_1878;					
+			 }
+		}								

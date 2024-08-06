@@ -216,10 +216,10 @@ spriteset(spriteset_BR_93_0_anim_purchase, "gfx/BR_93_0/BR_93_0_anim1_1x_8bpp.pn
 								3: spriteset_BR_93_0_anim4;}
 
 						switch (FEAT_TRAINS, SELF, switch_animation_BR_93_0_REV, motion_counter % 4) {
-								0: spriteset_BR_93_0_anim1_REV;
-								1: spriteset_BR_93_0_anim2_REV;
-								2: spriteset_BR_93_0_anim3_REV;
-								3: spriteset_BR_93_0_anim4_REV;}
+								0: spriteset_BR_93_0_anim4_REV;
+								1: spriteset_BR_93_0_anim3_REV;
+								2: spriteset_BR_93_0_anim2_REV;
+								3: spriteset_BR_93_0_anim1_REV;}
 
 						switch(FEAT_TRAINS, SELF, switch_spritestack_BR_93_0_purchase1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 							0: spriteset_BR_93_0_purchase1;
