@@ -1,0 +1,595 @@
+//##########################
+//###X-Wagen/S-Bahn Stock###
+//##########################
+
+//Spritesets kieselgrau/orange
+
+spriteset(spriteset_X_Wagen_DVT_orange, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_2x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_4x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_X_Wagen_DVT_orange_loading, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_orange_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_loading_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_orange_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_loading_2x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_orange_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_loading_4x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	       
+
+spritegroup spritegroup_X_Wagen_DVT_orange_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_X_Wagen_DVT_orange_loading];}     
+
+//Spritesets S-Bahn
+
+spriteset(spriteset_X_Wagen_DVT_sbahn, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_sbahn, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_sbahn, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_2x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_sbahn, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_4x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_X_Wagen_DVT_sbahn_loading, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_sbahn_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_loading_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_sbahn_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_loading_2x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_sbahn_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_loading_4x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	       
+
+spritegroup spritegroup_X_Wagen_DVT_sbahn_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_X_Wagen_DVT_sbahn_loading];}         
+
+//Spritesets verkehrsrot
+
+spriteset(spriteset_X_Wagen_DVT_verkehrsrot, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_2x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_4x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_X_Wagen_DVT_verkehrsrot_loading, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_verkehrsrot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_loading_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_verkehrsrot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_loading_2x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_verkehrsrot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_loading_4x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	       
+
+spritegroup spritegroup_X_Wagen_DVT_verkehrsrot_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_X_Wagen_DVT_verkehrsrot_loading];}       
+
+//Spritesets S-Bahn Nürnberg
+
+spriteset(spriteset_X_Wagen_DVT_nuernberg, "gfx\X_Wagen_DVT/X_Wagen_DVT_nuernberg_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_nuernberg, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_nuernberg_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_nuernberg_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_nuernberg, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_nuernberg_2x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_nuernberg_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_nuernberg, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_nuernberg_4x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_nuernberg_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+//Spritesets overlay Jaeger
+
+spriteset(spriteset_X_Wagen_DVT_overlay_Jaeger, "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_overlay_Jaeger, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_overlay_Jaeger, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_2x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_overlay_Jaeger, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_4x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+
+//Spritesets purchase
+
+spriteset(spriteset_X_Wagen_DVT_orange_purchase, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_orange_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_orange_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_X_Wagen_DVT_sbahn_purchase, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_sbahn_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_sbahn_1x_mask.png")
+									{ template_purchase(0, 0)}    
+
+spriteset(spriteset_X_Wagen_DVT_verkehrsrot_purchase, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_verkehrsrot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_verkehrsrot_1x_mask.png")
+									{ template_purchase(0, 0)}  
+
+spriteset(spriteset_X_Wagen_DVT_Nuernberg_purchase, "gfx\X_Wagen_DVT/X_Wagen_DVT_Nuernberg_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_Nuernberg_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_Nuernberg_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_Nuernberg_1x_mask.png")
+									{ template_purchase(0, 0)}  
+
+spriteset(spriteset_X_Wagen_DVT_overlay_Jaeger_purchase, "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_DVT_overlay_Jaeger_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_1x_32bpp.png", "gfx\X_Wagen_DVT/X_Wagen_DVT_overlay_Jaeger_1x_mask.png")
+									{ template_purchase(0, 0)}                
+
+
+//Switches
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_DVT_Jaeger_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_DVT_orange_purchase;
+        1: spriteset_X_Wagen_DVT_overlay_Jaeger_purchase;}
+
+    switch (FEAT_TRAINS,SELF, switch_X_Wagen_DVT_purchase,current_year){
+       0 .. 1986: spriteset_X_Wagen_DVT_orange_purchase;
+    1987 .. 1995: spriteset_X_Wagen_DVT_sbahn_purchase;	
+    1996 .. 2045: spriteset_X_Wagen_DVT_verkehrsrot_purchase;														 					 
+        spriteset_X_Wagen_DVT_verkehrsrot_purchase;} 
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_DVT_orange, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_DVT_orange;
+        1: spritegroup_X_Wagen_DVT_orange_loading;}  
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_DVT_Jaeger, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_DVT_orange;
+        1: spriteset_X_Wagen_DVT_overlay_Jaeger;
+        2: spritegroup_X_Wagen_DVT_orange_loading;}    
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_DVT_sbahn, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_DVT_sbahn;
+        1: spritegroup_X_Wagen_DVT_sbahn_loading;}     
+ 
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_DVT_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_DVT_verkehrsrot;
+        1: spritegroup_X_Wagen_DVT_verkehrsrot_loading;}       
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_DVT_Nuernberg, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_DVT_nuernberg;
+        1: spritegroup_X_Wagen_DVT_verkehrsrot_loading;}    
+
+    switch(FEAT_TRAINS, SELF, switch_length_X_Wagen_DVT, position_in_articulated_veh % 3) {
+        0: 4;
+        1: 6;
+        2: 4;}
+
+    switch(FEAT_TRAINS,PARENT,switch_running_cost_X_Wagen_DVT, 1){
+        return 2100;}
+        
+    switch (FEAT_TRAINS,SELF,switch_build_year_X_Wagen_DVT,build_year) {
+       0 .. 1986: switch_spritestack_X_Wagen_DVT_orange;
+    1987 .. 1995: switch_spritestack_X_Wagen_DVT_sbahn;	
+    1996 .. 2045: switch_spritestack_X_Wagen_DVT_verkehrsrot;														 					 
+        switch_spritestack_X_Wagen_DVT_verkehrsrot;}           
+
+    switch (FEAT_TRAINS,SELF,switch_current_year_X_Wagen_DVT,current_year) {
+       0 .. 1986: switch_spritestack_X_Wagen_DVT_orange;
+    1987 .. 1995: switch_spritestack_X_Wagen_DVT_sbahn;	
+    1996 .. 2045: switch_spritestack_X_Wagen_DVT_verkehrsrot;														 					 
+        switch_spritestack_X_Wagen_DVT_verkehrsrot;}    
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_DVT_graphics_build, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_build_year_X_Wagen_DVT;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_DVT_build, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_DVTUILD;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_DVTUILD, 7990)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_DVT_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1979,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_DVT_graphics_build;
+			additional_text					: string(STR_DESC_X_WAGEN_DVT);
+			length							: switch_length_X_Wagen_DVT;
+			articulated_part				: switch_articulated_X_Wagen_DVT_build;
+			purchase						: switch_X_Wagen_DVT_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen_DVT;					
+			 }
+		}                        
+
+   switch(FEAT_TRAINS, SELF, switch_X_Wagen_DVT_graphics_current, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_current_year_X_Wagen_DVT;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_DVT_current, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_DVT_CURRENT;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_DVT_CURRENT, 7991)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_DVT_CURRENT);
+						variant_group:					7990;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1979,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_DVT_graphics_current;
+			additional_text					: string(STR_DESC_X_WAGEN_DVT);
+			length							: switch_length_X_Wagen_DVT;
+			articulated_part				: switch_articulated_X_Wagen_DVT_current;
+			purchase						: switch_X_Wagen_DVT_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen_DVT;					
+			 }
+		} 
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_DVT_graphics_orange, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_spritestack_X_Wagen_DVT_orange;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_DVT_orange, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_DVT_ORANGE;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_DVT_ORANGE, 7992)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_DVT_ORANGE);
+						variant_group:					7990;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1979,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_DVT_graphics_orange;
+			additional_text					: string(STR_DESC_X_WAGEN_DVT);
+			length							: switch_length_X_Wagen_DVT;
+			articulated_part				: switch_articulated_X_Wagen_DVT_orange;
+			purchase						: spriteset_X_Wagen_DVT_orange_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen_DVT;					
+			 }
+		}                                        
+
+   switch(FEAT_TRAINS, SELF, switch_X_Wagen_DVT_graphics_jaeger, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_spritestack_X_Wagen_DVT_Jaeger;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_DVT_jaeger, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_DVT_JAEGER;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_DVT_JAEGER, 7993)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_DVT_JAEGER);
+						variant_group:					7990;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1979,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_DVT_graphics_jaeger;
+			additional_text					: string(STR_DESC_X_WAGEN_DVT);
+			length							: switch_length_X_Wagen_DVT;
+			articulated_part				: switch_articulated_X_Wagen_DVT_jaeger;
+			purchase						: switch_spritestack_X_Wagen_DVT_Jaeger_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen_DVT;					
+			 }
+		} 
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_DVT_graphics_sbahn, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_spritestack_X_Wagen_DVT_sbahn;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_DVT_sbahn, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_DVT_SBAHN;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_DVT_SBAHN, 7994)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_DVT_SBAHN);
+						variant_group:					7990;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1987,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_DVT_graphics_sbahn;
+			additional_text					: string(STR_DESC_X_WAGEN_DVT);
+			length							: switch_length_X_Wagen_DVT;
+			articulated_part				: switch_articulated_X_Wagen_DVT_sbahn;
+			purchase						: spriteset_X_Wagen_DVT_sbahn_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen_DVT;					
+			 }
+		}
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_DVT_graphics_verkehrsrot, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_spritestack_X_Wagen_DVT_verkehrsrot;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_DVT_verkehrsrot, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_DVT_VERKEHRSROT;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_DVT_VERKEHRSROT, 7995)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_DVT_VERKEHRSROT);
+						variant_group:					7990;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_DVT_graphics_verkehrsrot;
+			additional_text					: string(STR_DESC_X_WAGEN_DVT);
+			length							: switch_length_X_Wagen_DVT;
+			articulated_part				: switch_articulated_X_Wagen_DVT_verkehrsrot;
+			purchase						: spriteset_X_Wagen_DVT_verkehrsrot_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen_DVT;					
+			 }
+		}                
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_DVT_graphics_Nuernberg, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_spritestack_X_Wagen_DVT_Nuernberg;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_DVT_Nuernberg, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_DVT_NUERNBERG;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_DVT_NUERNBERG, 7996)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_DVT_NUERNBERG);
+						variant_group:					7990;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2001,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_DVT_graphics_Nuernberg;
+			additional_text					: string(STR_DESC_X_WAGEN_DVT);
+			length							: switch_length_X_Wagen_DVT;
+			articulated_part				: switch_articulated_X_Wagen_DVT_Nuernberg;
+			purchase						: spriteset_X_Wagen_DVT_Nuernberg_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen_DVT;					
+			 }
+		}                             

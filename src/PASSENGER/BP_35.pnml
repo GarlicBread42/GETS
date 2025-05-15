@@ -1,0 +1,409 @@
+//#######################################
+//###BP 35 Preussischer Briefpostwagen###
+//#######################################
+
+//Spritesets
+
+
+//Spriteset KPEV
+
+spriteset (spriteset_BP_35_KPEV, "gfx/BP_35/BP_35_KPEV_1x_8bpp.png")
+					{ template_128trains_1x(0, 0)}	
+		alternative_sprites (spriteset_BP_35_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_KPEV_1x_32bpp.png", "gfx/BP_35/BP_35_KPEV_1x_mask.png")
+					{template_128trains_1x(0,0)}
+		alternative_sprites (spriteset_BP_35_KPEV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_KPEV_2x_32bpp.png", "gfx/BP_35/BP_35_KPEV_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+		alternative_sprites (spriteset_BP_35_KPEV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_KPEV_4x_32bpp.png", "gfx/BP_35/BP_35_KPEV_4x_mask.png")
+					{template_128trains_4x(0,0)}			
+		
+//Spriteset DRG
+
+spriteset (spriteset_BP_35_DRG, "gfx/BP_35/BP_35_DRG_1x_8bpp.png")
+					{ template_128trains_1x(0, 0)}	
+		alternative_sprites (spriteset_BP_35_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_DRG_1x_32bpp.png", "gfx/BP_35/BP_35_DRG_1x_mask.png")
+					{template_128trains_1x(0,0)}
+		alternative_sprites (spriteset_BP_35_DRG, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_DRG_2x_32bpp.png", "gfx/BP_35/BP_35_DRG_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+		alternative_sprites (spriteset_BP_35_DRG, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_DRG_4x_32bpp.png", "gfx/BP_35/BP_35_DRG_4x_mask.png")
+					{template_128trains_4x(0,0)}			
+		
+//Spriteset DB
+
+spriteset (spriteset_BP_35_DB, "gfx/BP_35/BP_35_DB_1x_8bpp.png")
+					{ template_128trains_1x(0, 0)}	
+		alternative_sprites (spriteset_BP_35_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_DB_1x_32bpp.png", "gfx/BP_35/BP_35_DB_1x_mask.png")
+					{template_128trains_1x(0,0)}
+		alternative_sprites (spriteset_BP_35_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_DB_2x_32bpp.png", "gfx/BP_35/BP_35_DB_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+		alternative_sprites (spriteset_BP_35_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_DB_4x_32bpp.png", "gfx/BP_35/BP_35_DB_4x_mask.png")
+					{template_128trains_4x(0,0)}	
+		
+//Spriteset loading				
+				
+spriteset (spriteset_BP_35_LOADING, "gfx/BP_35/BP_35_loading_1x_8bpp.png")
+					{ template_128trains_1x(0, 0)}	
+		alternative_sprites (spriteset_BP_35_LOADING, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_loading_1x_32bpp.png", "gfx/BP_35/BP_35_loading_1x_mask.png")
+					{template_128trains_1x(0,0)}
+		alternative_sprites (spriteset_BP_35_LOADING, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_loading_2x_32bpp.png", "gfx/BP_35/BP_35_loading_2x_mask.png")
+					{template_128trains_2x(0,0)}				
+		alternative_sprites (spriteset_BP_35_LOADING, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_loading_4x_32bpp.png", "gfx/BP_35/BP_35_loading_4x_mask.png")
+					{template_128trains_4x(0,0)}		
+						
+spritegroup spritegroup_BP_35_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_BP_35_LOADING];}
+
+//Spriteset purchase		
+
+spriteset (spriteset_BP_35_purchase_KPEV, "gfx/BP_35/BP_35_KPEV_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_BP_35_purchase_KPEV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_KPEV_1x_32bpp.png", "gfx/BP_35/BP_35_KPEV_1x_mask.png")
+					{template_purchase(0,0)}					
+
+spriteset (spriteset_BP_35_purchase_DRG, "gfx/BP_35/BP_35_DRG_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_BP_35_purchase_DRG, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_DRG_1x_32bpp.png", "gfx/BP_35/BP_35_DRG_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_BP_35_purchase_DB, "gfx/BP_35/BP_35_DB_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_BP_35_purchase_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BP_35/BP_35_DB_1x_32bpp.png", "gfx/BP_35/BP_35_DB_1x_mask.png")
+					{template_purchase(0,0)}
+					
+//Switches	
+
+						switch (FEAT_TRAINS,SELF,switch_purchase_BP_35,current_year) {
+							   0 .. 1919 : spriteset_BP_35_purchase_KPEV;
+							1920 .. 1945 : spriteset_BP_35_purchase_DRG;
+							1946 .. 2050 : spriteset_BP_35_purchase_DB;
+								spriteset_BP_35_purchase_DB;}
+						 
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BP_35_KPEV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BP_35_KPEV;
+							1: spritegroup_BP_35_loading;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BP_35_DRG, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BP_35_DRG;
+							1: spritegroup_BP_35_loading;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_BP_35_DB, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_BP_35_DB;
+							1: spritegroup_BP_35_loading;}																					
+										
+						switch (FEAT_TRAINS,SELF,switch_build_year_BP_35,build_year) {
+							   0 .. 1919 : switch_spritestack_BP_35_KPEV;
+							1920 .. 1945 : switch_spritestack_BP_35_DRG;
+							1946 .. 2050 : switch_spritestack_BP_35_DB;
+								switch_spritestack_BP_35_DB;}
+
+						switch (FEAT_TRAINS,SELF,switch_current_year_BP_35,current_year) {
+							   0 .. 1919 : switch_spritestack_BP_35_KPEV;
+							1920 .. 1945 : switch_spritestack_BP_35_DRG;
+							1946 .. 2050 : switch_spritestack_BP_35_DB;
+								switch_spritestack_BP_35_DB;}												
+					
+						switch(FEAT_TRAINS, SELF, switch_length_BP_35, position_in_vehid_chain % 3) {
+							0: 4;
+							1: 4;
+							2: 4;}
+
+						
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_BP_35, 1){
+							return 187;}
+							
+						switch(FEAT_TRAINS, SELF, switch_BP_35_graphics_build, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_build_year_BP_35;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BP_35_build, extra_callback_info1) {
+							1 .. 2: return ITEM_BP_35_BUILD;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_BP_35_BUILD, 3536)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BP_35_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					55;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BP_35_graphics_build;
+			additional_text					: string(STR_DESC_POST_EXP);
+			length							: switch_length_BP_35;
+			articulated_part				: switch_articulated_BP_35_build;
+			purchase						: switch_purchase_BP_35;
+			cost_factor						: 258;
+			running_cost_factor				: switch_running_cost_BP_35;			
+			 }
+		}	
+
+						switch(FEAT_TRAINS, SELF, switch_BP_35_graphics_current, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_current_year_BP_35;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BP_35_current, extra_callback_info1) {
+							1 .. 2: return ITEM_BP_35_CURRENT;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_BP_35_CURRENT, 3537)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BP_35_CURRENT);
+						variant_group:					3536;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					55;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BP_35_graphics_current;
+			additional_text					: string(STR_DESC_POST_EXP);
+			length							: switch_length_BP_35;
+			articulated_part				: switch_articulated_BP_35_current;
+			purchase						: switch_purchase_BP_35;
+			cost_factor						: 270;
+			running_cost_factor				: switch_running_cost_BP_35;			
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_BP_35_graphics_KPEV, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_BP_35_KPEV;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BP_35_KPEV, extra_callback_info1) {
+							1 .. 2: return ITEM_BP_35_KPEV;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_BP_35_KPEV, 3538)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BP_35_KPEV);
+						variant_group:					3536;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					55;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BP_35_graphics_KPEV;
+			additional_text					: string(STR_DESC_POST_EXP);
+			length							: switch_length_BP_35;
+			articulated_part				: switch_articulated_BP_35_KPEV;
+			purchase						: spriteset_BP_35_purchase_KPEV;
+			cost_factor						: 270;
+			running_cost_factor				: switch_running_cost_BP_35;			
+			 }
+		}
+
+
+						switch(FEAT_TRAINS, SELF, switch_BP_35_graphics_DRG, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_BP_35_DRG;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BP_35_DRG, extra_callback_info1) {
+							1 .. 2: return ITEM_BP_35_DRG;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_BP_35_DRG, 3539)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BP_35_DRG);
+						variant_group:					3536;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1920,01,01);
+						model_life: 					43;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BP_35_graphics_DRG;
+			additional_text					: string(STR_DESC_POST_EXP);
+			length							: switch_length_BP_35;
+			articulated_part				: switch_articulated_BP_35_DRG;
+			purchase						: spriteset_BP_35_purchase_DRG;
+			cost_factor						: 270;
+			running_cost_factor				: switch_running_cost_BP_35;			
+			 }
+		}
+
+						switch(FEAT_TRAINS, SELF, switch_BP_35_graphics_DB, position_in_vehid_chain  % 3) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_BP_35_DB;
+							2:     spriteset_empty;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_BP_35_DB, extra_callback_info1) {
+							1 .. 2: return ITEM_BP_35_DB;
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+																					
+item (FEAT_TRAINS , ITEM_BP_35_DB, 3540)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_BP_35_DB);
+						variant_group:					3536;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1908,01,01);
+						model_life: 					17;
+						vehicle_life: 					20;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);
+						refittable_cargo_classes:		bitmask();
+						cargo_allow_refit:				[MAIL, GOOD, VALU];
+						loading_speed:					8;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_STEAM;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							90 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						30 ton;
+						dual_headed: 					0;
+						default_cargo_type:				MAIL;
+						cargo_capacity:					50;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_BP_35_graphics_DB;
+			additional_text					: string(STR_DESC_POST_EXP);
+			length							: switch_length_BP_35;
+			articulated_part				: switch_articulated_BP_35_DB;
+			purchase						: spriteset_BP_35_purchase_DB;
+			cost_factor						: 270;
+			running_cost_factor				: switch_running_cost_BP_35;			
+			 }
+		}
+

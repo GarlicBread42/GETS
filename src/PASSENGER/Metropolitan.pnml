@@ -1,0 +1,2164 @@
+//##################
+//###Metropolitan###
+//##################
+
+//Reversed DVT-Sprites are under /PASSENGERS/Metropolitan_DVT.pnml
+//They need to be loaded before BR 101 to make reversing work.
+
+//Spriteset 1999 gray livery
+
+
+//1. Coach
+
+spriteset (spriteset_Apmz_116_0_MET_1999_1, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_0_MET_1999_1_loading, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_0_MET_1999_1_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_0_MET_1999_1_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_0_MET_1999_1_REV, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_0_MET_1999_1_loading_REV, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_MET_1999_1_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_MET_1999_1_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_0_MET_1999_1_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_0_MET_1999_1_loading_REV];}
+
+
+//2. Coach 
+
+spriteset (spriteset_Apmz_116_2_MET_1999_2, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_2_MET_1999_2_loading, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_2_MET_1999_2_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_2_MET_1999_2_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_2_MET_1999_2_REV, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_2_MET_1999_2_loading_REV, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_2_MET_1999_2_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_MET_1999_2_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_2_MET_1999_2_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_2_MET_1999_2_loading_REV];}
+
+
+//3. Coach
+
+spriteset (spriteset_Apmkz_116_6_MET_1999_3, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmkz_116_6_MET_1999_3_loading, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmkz_116_6_MET_1999_3_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmkz_116_6_MET_1999_3_loading];}	
+		
+		
+spriteset (spriteset_Apmkz_116_6_MET_1999_3_REV, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmkz_116_6_MET_1999_3_loading_REV, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_3_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_3_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmkz_116_6_MET_1999_3_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmkz_116_6_MET_1999_3_loading_REV];}		
+
+
+
+//4. Coach
+
+spriteset (spriteset_Apmz_116_4_MET_1999_4, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_4_MET_1999_4_loading, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_4_MET_1999_4_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_4_MET_1999_4_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_4_MET_1999_4_REV, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_4_MET_1999_4_loading_REV, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_4_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_4_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_4_MET_1999_4_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_4_MET_1999_4_loading_REV];}
+
+
+//5. Coach
+
+spriteset (spriteset_Apmz_116_4_MET_1999_5, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_4_MET_1999_5_loading, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_4_MET_1999_5_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_4_MET_1999_5_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_4_MET_1999_5_REV, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_4_MET_1999_5_loading_REV, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_MET_1999_5_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_MET_1999_5_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_4_MET_1999_5_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_4_MET_1999_5_loading_REV];}
+		
+
+//6. Coach
+
+spriteset (spriteset_Apmkz_116_6_MET_1999_6, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmkz_116_6_MET_1999_6_loading, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmkz_116_6_MET_1999_6_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmkz_116_6_MET_1999_6_loading];}	
+		
+		
+spriteset (spriteset_Apmkz_116_6_MET_1999_6_REV, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmkz_116_6_MET_1999_6_loading_REV, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_MET_1999_6_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_MET_1999_6_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmkz_116_6_MET_1999_6_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmkz_116_6_MET_1999_6_loading_REV];}
+		
+		
+//7. Coach
+
+spriteset (spriteset_Apmbzf_116_8_MET_1999_7, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmbzf_116_8_MET_1999_7_loading, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmbzf_116_8_MET_1999_7_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmbzf_116_8_MET_1999_7_loading];}	
+	
+
+
+//Spriteset 2005 ICE livery
+
+
+//1. Coach
+
+spriteset (spriteset_Apmz_116_0_DB_2005, "gfx/Metropolitan/Apmz_116_0_DB_2005_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_0_DB_2005_loading, "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_0_DB_2005_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_0_DB_2005_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_0_DB_2005_REV, "gfx/Metropolitan/Apmz_116_0_DB_2005_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_0_DB_2005_loading_REV, "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_DB_2005_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2005_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_0_DB_2005_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_0_DB_2005_loading_REV];}
+
+
+//2 Coach (Different loading Sprite!)
+
+
+spriteset (spriteset_Apmz_116_2_DB_2005, "gfx/Metropolitan/Apmz_116_2_DB_2005_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_2_DB_2005, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2005_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_2_DB_2005, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2005_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2005_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_2_DB_2005, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2005_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2005_4x_mask.png")
+					{template_158trains_4x(0,0)}
+					
+spriteset (spriteset_Apmz_116_2_DB_2005_REV, "gfx/Metropolitan/Apmz_116_2_DB_2005_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_2_DB_2005_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2005_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_2_DB_2005_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2005_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2005_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_2_DB_2005_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2005_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2005_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_1_DB_2005_loading, "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_1_DB_2005_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_1_DB_2005_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_1_DB_2005_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_1_DB_2005_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_1_DB_2005_loading];}
+		
+spriteset (spriteset_Apmz_116_1_DB_2005_loading_REV, "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_1_DB_2005_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_1_DB_2005_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_1_DB_2005_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2005_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_1_DB_2005_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_1_DB_2005_loading_REV];}		
+
+
+//3. Coach
+
+spriteset (spriteset_Apmkz_116_6_DB_2005_3, "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_4x_mask.png")
+					{template_158trains_4x(0,0)}							
+		
+spriteset (spriteset_Apmkz_116_6_DB_2005_3_REV, "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_3_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_3_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_3_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_3_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+
+//4. Coach
+
+spriteset (spriteset_Apmz_116_4_DB_2005, "gfx/Metropolitan/Apmz_116_4_DB_2005_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_4_DB_2005_loading, "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_4_DB_2005_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_4_DB_2005_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_4_DB_2005_REV, "gfx/Metropolitan/Apmz_116_4_DB_2005_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_4_DB_2005_loading_REV, "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_DB_2005_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2005_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_4_DB_2005_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_4_DB_2005_loading_REV];}			
+					
+//6. Coach (different loading sprites)
+
+spriteset (spriteset_Apmkz_116_6_DB_2005_6, "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+		
+spriteset (spriteset_Apmkz_116_6_DB_2005_6_REV, "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_6_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_6_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_6_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_6_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+
+
+spriteset (spriteset_Apmkz_116_6_DB_2005_loading, "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmkz_116_6_DB_2005_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmkz_116_6_DB_2005_loading];}	
+				
+spriteset (spriteset_Apmkz_116_6_DB_2005_loading_REV, "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2005_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2005_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmkz_116_6_DB_2005_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmkz_116_6_DB_2005_loading_REV];}									
+
+
+//7. Coach
+
+spriteset (spriteset_Apmbzf_116_8_DB_2005, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmbzf_116_8_DB_2005_loading, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmbzf_116_8_DB_2005_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmbzf_116_8_DB_2005_loading];}	
+
+//Spriteset 2017 DB livery
+
+
+//1. Coach
+
+spriteset (spriteset_Apmz_116_0_DB_2017, "gfx/Metropolitan/Apmz_116_0_DB_2017_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_0_DB_2017_loading, "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_0_DB_2017_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_0_DB_2017_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_0_DB_2017_REV, "gfx/Metropolitan/Apmz_116_0_DB_2017_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_0_DB_2017_loading_REV, "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_0_DB_2017_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_0_DB_2017_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_0_DB_2017_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_0_DB_2017_loading_REV];}		
+
+
+//2. Coach (different loading sprite)
+
+spriteset (spriteset_Apmz_116_2_DB_2017, "gfx/Metropolitan/Apmz_116_2_DB_2017_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_2_DB_2017, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2017_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_2_DB_2017, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2017_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2017_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_2_DB_2017, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2017_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2017_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+		
+spriteset (spriteset_Apmz_116_2_DB_2017_REV, "gfx/Metropolitan/Apmz_116_2_DB_2017_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_2_DB_2017_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2017_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_2_DB_2017_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2017_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2017_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_2_DB_2017_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_2_DB_2017_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_2_DB_2017_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+
+
+spriteset (spriteset_Apmz_116_1_DB_2017_loading, "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_1_DB_2017_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_1_DB_2017_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_1_DB_2017_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_1_DB_2017_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_1_DB_2017_loading];}
+				
+spriteset (spriteset_Apmz_116_1_DB_2017_loading_REV, "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_1_DB_2017_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_1_DB_2017_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_1_DB_2017_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_1_DB_2017_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_1_DB_2017_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_1_DB_2017_loading_REV];}
+
+
+//3. Coach (different loading sprite)
+
+spriteset (spriteset_Apmkz_116_6_DB_2017_3, "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_3, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_3, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+		
+spriteset (spriteset_Apmkz_116_6_DB_2017_3_REV, "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_3_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_3_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_3_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_3_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+
+
+spriteset (spriteset_Apmkz_116_6_DB_2017_loading, "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmkz_116_6_DB_2017_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmkz_116_6_DB_2017_loading];}	
+				
+spriteset (spriteset_Apmkz_116_6_DB_2017_loading_REV, "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmkz_116_6_DB_2017_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmkz_116_6_DB_2017_loading_REV];}
+
+
+//4. Coach
+
+spriteset (spriteset_Apmz_116_4_DB_2017, "gfx/Metropolitan/Apmz_116_4_DB_2017_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_4_DB_2017_loading, "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_4_DB_2017_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_4_DB_2017_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_4_DB_2017_REV, "gfx/Metropolitan/Apmz_116_4_DB_2017_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_4_DB_2017_loading_REV, "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_4_DB_2017_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_4_DB_2017_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_4_DB_2017_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_4_DB_2017_loading_REV];}
+					
+
+//6. Coach (loading Sprite from 3 Coach)
+
+
+spriteset (spriteset_Apmkz_116_6_DB_2017_6, "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_6, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_6, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_6, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_4x_mask.png")
+					{template_158trains_4x(0,0)}	
+							
+spriteset (spriteset_Apmkz_116_6_DB_2017_6_REV, "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_6_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_1x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_6_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_2x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmkz_116_6_DB_2017_6_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_4x_32bpp.png", "gfx/Metropolitan/Apmkz_116_6_DB_2017_6_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+
+//7. Coach					
+
+spriteset (spriteset_Apmbzf_116_8_DB_2017, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmbzf_116_8_DB_2017_loading, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmbzf_116_8_DB_2017_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmbzf_116_8_DB_2017_loading];}	
+
+
+//7. Coach	Layover for 2019-livery				
+
+spriteset (spriteset_Apmbzf_116_8_DB_2019_WiFi, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2019_WiFi, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2019_WiFi, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2019_WiFi, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_4x_mask.png")
+					{template_158trains_4x(0,0)}												
+
+
+//Spriteset 2021 Goodbye Metropolitan livery
+
+//1-6. Coach Layover
+
+spriteset (spriteset_Apmz_116_x_DB_2021_WS, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmz_116_x_DB_2021_WS_loading, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+spritegroup spritegroup_Apmz_116_x_DB_2021_WS_loading
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_x_DB_2021_WS_loading];}	
+		
+		
+spriteset (spriteset_Apmz_116_x_DB_2021_WS_REV, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmz_116_x_DB_2021_WS_loading_REV, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_1x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_2x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmz_116_x_DB_2021_WS_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_4x_32bpp.png", "gfx/Metropolitan/Apmz_116_x_DB_2021_WS_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmz_116_x_DB_2021_WS_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmz_116_x_DB_2021_WS_loading_REV];}
+		
+		
+//7. Coach	Layover for 2021-livery				
+
+spriteset (spriteset_Apmbzf_116_8_DB_2021, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2021, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2021, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2021_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2021, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2021_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+		
+//Headlights & Taillights			
+
+spriteset (spriteset_Apmbzf_116_8_taillight, "gfx/Metropolitan/Apmbzf_116_8_taillight_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_taillight, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_taillight_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_taillight_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_taillight, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_taillight_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_taillight_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_taillight, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_taillight_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_taillight_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+
+spriteset (spriteset_Apmbzf_116_8_headlight, "gfx/Metropolitan/Apmbzf_116_8_headlight_1x_8bpp.png")
+					{ template_158trains_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_headlight, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_headlight_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_headlight_1x_mask.png")
+					{template_158trains_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_headlight, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_headlight_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_headlight_2x_mask.png")
+					{template_158trains_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_headlight, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_headlight_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_headlight_4x_mask.png")
+					{template_158trains_4x(0,0)}					
+					
+					
+//Spritesets purchase
+
+spriteset (spriteset_Apmbzf_116_8_MET_1999_7_purchase, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_mask.png")
+					{template_purchase(0,0)}
+
+spriteset (spriteset_Apmbzf_116_8_DB_2005_purchase, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_mask.png")
+					{template_purchase(0,0)}
+					
+spriteset (spriteset_Apmbzf_116_8_DB_2017_purchase, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_mask.png")
+					{template_purchase(0,0)}						
+
+spriteset (spriteset_Apmbzf_116_8_DB_2019_WiFi_purchase, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2019_WiFi_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_mask.png")
+					{template_purchase(0,0)}	
+					
+spriteset (spriteset_Apmbzf_116_8_DB_2021_purchase, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_8bpp.png")
+					{ template_purchase(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2021_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_mask.png")
+					{template_purchase(0,0)}
+	
+	
+//Switches
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2019_WiFi_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2017_purchase;
+							1: spriteset_Apmbzf_116_8_DB_2019_WiFi_purchase;}						
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2021_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2017_purchase;
+							1: spriteset_Apmbzf_116_8_DB_2021_purchase;}			
+							
+						switch (FEAT_TRAINS, SELF, switch_purchase_Metropolitan, current_year){
+							   0 .. 2004 : spriteset_Apmbzf_116_8_MET_1999_7_purchase;
+							2005 .. 2016 : spriteset_Apmbzf_116_8_DB_2005_purchase;
+							2017 .. 2018 : spriteset_Apmbzf_116_8_DB_2017_purchase;
+							2019 .. 2020 : switch_spritestack_Apmbzf_116_8_DB_2019_WiFi_purchase;
+							2021 .. 2050 : switch_spritestack_Apmbzf_116_8_DB_2019_WiFi_purchase;
+							switch_spritestack_Apmbzf_116_8_DB_2019_WiFi_purchase;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_0_MET_1999_1, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_0_MET_1999_1;
+							1: spritegroup_Apmz_116_0_MET_1999_1_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_0_MET_1999_1_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_0_MET_1999_1_REV;
+							1: spritegroup_Apmz_116_0_MET_1999_1_loading_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_MET_1999_2, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_MET_1999_2;
+							1: spritegroup_Apmz_116_2_MET_1999_2_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_MET_1999_2_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_MET_1999_2_REV;
+							1: spritegroup_Apmz_116_2_MET_1999_2_loading_REV;}		
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_MET_1999_3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_MET_1999_3;
+							1: spritegroup_Apmkz_116_6_MET_1999_3_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_MET_1999_3_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_MET_1999_3_REV;
+							1: spritegroup_Apmkz_116_6_MET_1999_3_loading_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_MET_1999_4, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_MET_1999_4;
+							1: spritegroup_Apmz_116_4_MET_1999_4_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_MET_1999_4_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_MET_1999_4_REV;
+							1: spritegroup_Apmz_116_4_MET_1999_4_loading_REV;}								
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_MET_1999_5, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_MET_1999_5;
+							1: spritegroup_Apmz_116_4_MET_1999_5_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_MET_1999_5_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_MET_1999_5_REV;
+							1: spritegroup_Apmz_116_4_MET_1999_5_loading_REV;}							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_MET_1999_6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_MET_1999_6;
+							1: spritegroup_Apmkz_116_6_MET_1999_6_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_MET_1999_6_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_MET_1999_6_REV;
+							1: spritegroup_Apmkz_116_6_MET_1999_6_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_MET_1999_7, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_MET_1999_7;
+							1: spritegroup_Apmbzf_116_8_MET_1999_7_loading;
+							2: spriteset_Apmbzf_116_8_taillight;}																																		
+
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_0_DB_2005, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_0_DB_2005;
+							1: spritegroup_Apmz_116_0_DB_2005_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_0_DB_2005_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_0_DB_2005_REV;
+							1: spritegroup_Apmz_116_0_DB_2005_loading_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_2005, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2005;
+							1: spritegroup_Apmz_116_1_DB_2005_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_2005_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2005_REV;
+							1: spritegroup_Apmz_116_1_DB_2005_loading_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2005_3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2005_3;
+							1: spritegroup_Apmkz_116_6_DB_2005_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2005_3_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2005_3_REV;
+							1: spritegroup_Apmkz_116_6_DB_2005_loading_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_DB_2005, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_DB_2005;
+							1: spritegroup_Apmz_116_4_DB_2005_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_DB_2005_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_DB_2005_REV;
+							1: spritegroup_Apmz_116_4_DB_2005_loading_REV;}													
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_5_2005, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2005;
+							1: spritegroup_Apmz_116_4_DB_2005_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_5_2005_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2005_REV;
+							1: spritegroup_Apmz_116_4_DB_2005_loading_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2005_6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2005_6;
+							1: spritegroup_Apmkz_116_6_DB_2005_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2005_6_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2005_6_REV;
+							1: spritegroup_Apmkz_116_6_DB_2005_loading_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2005, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2005;
+							1: spritegroup_Apmbzf_116_8_DB_2005_loading;
+							2: spriteset_Apmbzf_116_8_taillight;}																												
+							
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_0_DB_2017, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_0_DB_2017;
+							1: spritegroup_Apmz_116_0_DB_2017_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_0_DB_2017_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_0_DB_2017_REV;
+							1: spritegroup_Apmz_116_0_DB_2017_loading_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_2017, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2017;
+							1: spritegroup_Apmz_116_1_DB_2017_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_2017_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2017_REV;
+							1: spritegroup_Apmz_116_1_DB_2017_loading_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2017_3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2017_3;
+							1: spritegroup_Apmkz_116_6_DB_2017_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2017_3_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2017_3_REV;
+							1: spritegroup_Apmkz_116_6_DB_2017_loading_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_DB_2017, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_DB_2017;
+							1: spritegroup_Apmz_116_4_DB_2017_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_DB_2017_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_DB_2017_REV;
+							1: spritegroup_Apmz_116_4_DB_2017_loading_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_5_2017, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2017;
+							1: spritegroup_Apmz_116_4_DB_2017_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_5_2017_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2017_REV;
+							1: spritegroup_Apmz_116_4_DB_2017_loading_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2017_6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2017_6;
+							1: spritegroup_Apmkz_116_6_DB_2017_loading;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2017_6_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2017_6_REV;
+							1: spritegroup_Apmkz_116_6_DB_2017_loading_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2017_6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2017;
+							1: spritegroup_Apmbzf_116_8_DB_2017_loading;
+							2: spriteset_Apmbzf_116_8_taillight;}																												
+
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2019_6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2017;
+							1: spriteset_Apmbzf_116_8_DB_2019_WiFi;
+							2: spritegroup_Apmbzf_116_8_DB_2017_loading;
+							3: spriteset_Apmbzf_116_8_taillight;}																												
+
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_0_DB_2021, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_0_DB_2017;
+							1: spritegroup_Apmz_116_0_DB_2017_loading;
+							2: spriteset_Apmz_116_x_DB_2021_WS;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_0_DB_2021_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_0_DB_2017_REV;
+							1: spritegroup_Apmz_116_0_DB_2017_loading_REV;
+							2: spriteset_Apmz_116_x_DB_2021_WS_REV;}	
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_2021, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2017;
+							1: spritegroup_Apmz_116_1_DB_2017_loading;
+							2: spriteset_Apmz_116_x_DB_2021_WS;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_2021_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2017_REV;
+							1: spritegroup_Apmz_116_1_DB_2017_loading_REV;
+							2: spriteset_Apmz_116_x_DB_2021_WS_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2021_3, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2017_3;
+							1: spritegroup_Apmkz_116_6_DB_2017_loading;
+							2: spriteset_Apmz_116_x_DB_2021_WS;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2021_3_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2017_3_REV;
+							1: spritegroup_Apmkz_116_6_DB_2017_loading_REV;
+							2: spriteset_Apmz_116_x_DB_2021_WS_REV;}	
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_DB_2021, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_DB_2017;
+							1: spritegroup_Apmz_116_4_DB_2017_loading;
+							2: spriteset_Apmz_116_x_DB_2021_WS;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_4_DB_2021_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_4_DB_2017_REV;
+							1: spritegroup_Apmz_116_4_DB_2017_loading_REV;
+							2: spriteset_Apmz_116_x_DB_2021_WS_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_5_2021, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2017;
+							1: spritegroup_Apmz_116_4_DB_2017_loading;
+							2: spriteset_Apmz_116_x_DB_2021_WS;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmz_116_2_DB_5_2021_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmz_116_2_DB_2017_REV;
+							1: spritegroup_Apmz_116_4_DB_2017_loading_REV;
+							2: spriteset_Apmz_116_x_DB_2021_WS_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2021_6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2017_6;
+							1: spritegroup_Apmkz_116_6_DB_2017_loading;
+							2: spriteset_Apmz_116_x_DB_2021_WS;}																												
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmkz_116_6_DB_2021_6_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmkz_116_6_DB_2017_6_REV;
+							1: spritegroup_Apmkz_116_6_DB_2017_loading_REV;
+							2: spriteset_Apmz_116_x_DB_2021_WS_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2021_6, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2021;
+							1: spriteset_Apmz_116_x_DB_2021_WS;
+							2: spritegroup_Apmbzf_116_8_DB_2017_loading;
+							3: spriteset_Apmbzf_116_8_taillight;}																												
+
+						switch(FEAT_TRAINS, SELF, switch_length_Metropolitan, position_in_articulated_veh % 21) {
+							0: 4;
+							1: 7;
+							2: 4;
+							3: 4;
+							4: 7;
+							5: 4;
+							6: 4;
+							7: 7;
+							8: 4;
+							9: 4;
+						   10: 7;
+						   11: 4;
+						   12: 4;
+						   13: 7;
+						   14: 4;
+						   15: 4;
+						   16: 7;
+						   17: 4;
+						   18: 4;
+						   19: 7;
+						   20: 4;}
+
+						switch(FEAT_TRAINS, SELF, switch_length_Metropolitan_2010, position_in_articulated_veh % 33) {
+							0: 4;
+							1: 7;
+							2: 4;
+							3: 4;
+							4: 7;
+							5: 4;
+							6: 4;
+							7: 7;
+							8: 4;
+							9: 4;
+						   10: 7;
+						   11: 4;
+						   12: 4;
+						   13: 7;
+						   14: 4;
+						   15: 4;
+						   16: 7;
+						   17: 4;
+						   18: 4;
+						   19: 7;
+						   20: 4;
+						   21: 4;
+						   22: 7;
+						   23: 4;
+						   24: 4;
+						   25: 7;
+						   26: 4;
+						   27: 4;
+						   28: 7;
+						   29: 4;		
+						   30: 4;
+						   31: 7;
+						   32: 4;}
+						   
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Metropolitan, 1){
+							return 2150;}	
+						   
+						switch(FEAT_TRAINS,PARENT,switch_running_cost_Metropolitan_2010, 1){
+							return 2350;}
+							
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_Metropolitan_7792_check_ID_1014,(count_veh_id(7792)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_build_year_BR_101_Metropolitan_REV; 
+								spriteset_BR_101_metropolitan_REV;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_Metropolitan_check_ID_1017,(count_veh_id(1017))) {
+							0: spriteset_BR_101_metropolitan_REV; 
+								spriteset_BR_101_metropolitan_REV;}
+								
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_Metropolitan_check_ID_1015,(count_veh_id(1015))) {
+							0: switch_enginecheck_Metropolitan_check_ID_1017; 
+								spriteset_BR_101_verkehrsrot_REV;}
+
+						switch (FEAT_TRAINS,PARENT,switch_enginecheck_Metropolitan_check_ID_1014,(count_veh_id(1014))) { 
+							0: switch_enginecheck_Metropolitan_check_ID_1015; 
+								switch_enginecheck_Metropolitan_7792_check_ID_1014;}
+																						
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_1999, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmz_116_0_MET_1999_1;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_MET_1999_2;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmkz_116_6_MET_1999_3;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmz_116_4_MET_1999_4;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_4_MET_1999_5;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmkz_116_6_MET_1999_6;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_Apmbzf_116_8_MET_1999_7;
+						   20:     spriteset_empty;}												   							   				   						   						   
+
+														
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_1999_REV, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmkz_116_6_MET_1999_6_REV;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_4_MET_1999_5_REV;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmz_116_4_MET_1999_4_REV;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmkz_116_6_MET_1999_3_REV;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_MET_1999_2_REV;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmz_116_0_MET_1999_1_REV;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_enginecheck_Metropolitan_check_ID_1014;
+						   20:     spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_2005, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmz_116_0_DB_2005;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_2005;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmkz_116_6_DB_2005_3;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmz_116_4_DB_2005;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_DB_5_2005;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmkz_116_6_DB_2005_6;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_Apmbzf_116_8_DB_2005;
+						   20:     spriteset_empty;}												   							   				   						   						   
+
+														
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_2005_REV, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmkz_116_6_DB_2005_6_REV;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_5_2005_REV;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmz_116_4_DB_2005_REV;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmkz_116_6_DB_2005_3_REV;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_DB_2005_REV;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmz_116_0_DB_2005_REV;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_enginecheck_Metropolitan_check_ID_1014;
+						   20:     spriteset_empty;}
+
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7794_2010, position_in_articulated_veh  % 33) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmz_116_0_DB_2005;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_2005;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmz_116_2_DB_2005;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmkz_116_6_DB_2005_3;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmkz_116_6_DB_2005_3;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmz_116_4_DB_2005;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_Apmz_116_2_DB_2005;
+						   20:     spriteset_empty;
+						   21:     spriteset_empty;
+						   22:     return switch_spritestack_Apmz_116_2_DB_2005;
+						   23:     spriteset_empty;						   
+						   24:     spriteset_empty;
+						   25:     return switch_spritestack_Apmkz_116_6_DB_2005_6;
+						   26:     spriteset_empty;						   
+						   27:     spriteset_empty;
+						   28:     return switch_spritestack_Apmkz_116_6_DB_2005_6;
+						   29:     spriteset_empty;	 
+						   30:     spriteset_empty;
+						   31:     return switch_spritestack_Apmbzf_116_8_DB_2005;
+						   32:     spriteset_empty;}												   							   				   						   						   
+
+														
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7794_2010_REV, position_in_articulated_veh  % 33) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmkz_116_6_DB_2005_6;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmkz_116_6_DB_2005_6;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmz_116_2_DB_2005;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmz_116_2_DB_2005;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_4_DB_2005;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmkz_116_6_DB_2005_3;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_Apmkz_116_6_DB_2005_3;
+						   20:     spriteset_empty;
+						   21:     spriteset_empty;
+						   22:     return switch_spritestack_Apmz_116_2_DB_2005;
+						   23:     spriteset_empty;						   
+						   24:     spriteset_empty;
+						   25:     return switch_spritestack_Apmz_116_2_DB_2005;
+						   26:     spriteset_empty;						   
+						   27:     spriteset_empty;
+						   28:     return switch_spritestack_Apmz_116_0_DB_2005;
+						   29:     spriteset_empty;	 
+						   30:     spriteset_empty;
+						   31:     return switch_enginecheck_Metropolitan_check_ID_1014;
+						   32:     spriteset_empty;}
+
+
+						   
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_2017, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmz_116_0_DB_2017;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_2017;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmkz_116_6_DB_2017_3;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmz_116_4_DB_2017;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_DB_5_2017;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmkz_116_6_DB_2017_6;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_Apmbzf_116_8_DB_2017_6;
+						   20:     spriteset_empty;}												   							   				   						   						   
+
+														
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_2017_REV, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmkz_116_6_DB_2017_6_REV;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_5_2017_REV;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmz_116_4_DB_2017_REV;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmkz_116_6_DB_2017_3_REV;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_DB_2017_REV;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmz_116_0_DB_2017_REV;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_enginecheck_Metropolitan_check_ID_1014;
+						   20:     spriteset_empty;}
+
+						   
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_2019, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmz_116_0_DB_2017;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_2017;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmkz_116_6_DB_2017_3;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmz_116_4_DB_2017;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_DB_5_2017;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmkz_116_6_DB_2017_6;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_Apmbzf_116_8_DB_2019_6;
+						   20:     spriteset_empty;}												   							   				   						   						   
+
+														
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_2019_REV, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmkz_116_6_DB_2017_6_REV;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_5_2017_REV;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmz_116_4_DB_2017_REV;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmkz_116_6_DB_2017_3_REV;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_DB_2017_REV;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmz_116_0_DB_2017_REV;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_enginecheck_Metropolitan_check_ID_1014;
+						   20:     spriteset_empty;}						   
+
+						   
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_2021, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmz_116_0_DB_2021;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_2021;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmkz_116_6_DB_2021_3;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmz_116_4_DB_2021;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_DB_5_2021;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmkz_116_6_DB_2021_6;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_spritestack_Apmbzf_116_8_DB_2021_6;
+						   20:     spriteset_empty;}												   							   				   						   						   
+
+														
+						switch(FEAT_TRAINS, SELF, switch_graphics_Metropolitan_7790_2021_REV, position_in_articulated_veh  % 21) {
+							0:     spriteset_empty;
+							1:     return switch_spritestack_Apmkz_116_6_DB_2021_6_REV;
+							2:     spriteset_empty;
+							3:     spriteset_empty;
+							4:     return switch_spritestack_Apmz_116_2_DB_5_2021_REV;
+							5:     spriteset_empty;
+							6:     spriteset_empty;
+							7:     return switch_spritestack_Apmz_116_4_DB_2021_REV;
+							8:     spriteset_empty;
+							9:     spriteset_empty;
+						   10:     return switch_spritestack_Apmkz_116_6_DB_2021_3_REV;
+						   11:     spriteset_empty;
+						   12:     spriteset_empty;
+						   13:     return switch_spritestack_Apmz_116_2_DB_2021_REV;
+						   14:     spriteset_empty;
+						   15:     spriteset_empty;
+						   16:     return switch_spritestack_Apmz_116_0_DB_2021_REV;
+						   17:     spriteset_empty;																																			
+						   18:     spriteset_empty;
+						   19:     return switch_enginecheck_Metropolitan_check_ID_1014;
+						   20:     spriteset_empty;}						   
+						   
+						switch (FEAT_TRAINS, SELF, switch_build_year_Metropolitan, build_year){
+							   0 .. 1998 : switch_graphics_Metropolitan_7790_1999;
+							1999 .. 2004 : switch_graphics_Metropolitan_7790_1999;
+							2005 .. 2016 : switch_graphics_Metropolitan_7790_2005;
+							2017 .. 2018 : switch_graphics_Metropolitan_7790_2017;
+							2019 .. 2020 : switch_graphics_Metropolitan_7790_2019;
+							2021 .. 2050 : switch_graphics_Metropolitan_7790_2021;
+								switch_graphics_Metropolitan_7790_2021;}						   
+
+						switch (FEAT_TRAINS, SELF, switch_build_year_Metropolitan_7790_REV, build_year){
+							   0 .. 1998 : switch_graphics_Metropolitan_7790_1999_REV;
+							1999 .. 2004 : switch_graphics_Metropolitan_7790_1999_REV;
+							2005 .. 2016 : switch_graphics_Metropolitan_7790_2005_REV;
+							2017 .. 2018 : switch_graphics_Metropolitan_7790_2017_REV;
+							2019 .. 2020 : switch_graphics_Metropolitan_7790_2019_REV;
+							2021 .. 2050 : switch_graphics_Metropolitan_7790_2021_REV;
+								switch_graphics_Metropolitan_7790_2021_REV;}
+														   
+						   						   					   						   						   						   								
+						switch (FEAT_TRAINS, PARENT, switch_reverse_Metropolitan_7790, vehicle_is_reversed) {
+							0: switch_build_year_Metropolitan;
+								switch_build_year_Metropolitan_7790_REV;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7790_check_ID_1017,(count_veh_id(7790)+count_veh_id(1017)==num_vehs_in_consist)) {
+							0: switch_build_year_Metropolitan; 
+								switch_reverse_Metropolitan_7790;}
+
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7790_check_ID_1015,(count_veh_id(7790)+count_veh_id(1015)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7790_check_ID_1017; 
+								switch_reverse_Metropolitan_7790;}
+																																
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7790_check_ID_1014,(count_veh_id(7790)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7790_check_ID_1015; 
+								switch_reverse_Metropolitan_7790;}
+																
+						switch (FEAT_TRAINS, SELF, switch_articulated_Metropolitan_build, extra_callback_info1) {
+							1 .. 20: return ITEM_METROPOLITAN_BUILD;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_METROPOLITAN_BUILD, 7790)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_METROPOLITAN_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							220 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						413 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_Metropolitan_7790_check_ID_1014;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Metropolitan;
+			articulated_part				: switch_articulated_Metropolitan_build;
+			purchase						: switch_purchase_Metropolitan;
+			cost_factor						: 515;
+			running_cost_factor				: switch_running_cost_Metropolitan;
+			}
+		}								
+
+
+						switch (FEAT_TRAINS, SELF, switch_current_year_Metropolitan, current_year){
+							   0 .. 1998 : switch_graphics_Metropolitan_7790_1999;
+							1999 .. 2004 : switch_graphics_Metropolitan_7790_1999;
+							2005 .. 2016 : switch_graphics_Metropolitan_7790_2005;
+							2017 .. 2018 : switch_graphics_Metropolitan_7790_2017;
+							2019 .. 2020 : switch_graphics_Metropolitan_7790_2019;
+							2021 .. 2050 : switch_graphics_Metropolitan_7790_2021;
+								switch_graphics_Metropolitan_7790_2021;}						   
+
+						switch (FEAT_TRAINS, SELF, switch_current_year_Metropolitan_7790_REV, current_year){
+							   0 .. 1998 : switch_graphics_Metropolitan_7790_1999_REV;
+							1999 .. 2004 : switch_graphics_Metropolitan_7790_1999_REV;
+							2005 .. 2016 : switch_graphics_Metropolitan_7790_2005_REV;
+							2017 .. 2018 : switch_graphics_Metropolitan_7790_2017_REV;
+							2019 .. 2020 : switch_graphics_Metropolitan_7790_2019_REV;
+							2021 .. 2050 : switch_graphics_Metropolitan_7790_2021_REV;
+								switch_graphics_Metropolitan_7790_2021_REV;}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_Metropolitan_7791, vehicle_is_reversed) {
+							0: switch_current_year_Metropolitan;
+								switch_current_year_Metropolitan_7790_REV;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7791_check_ID_1017,(count_veh_id(7791)+count_veh_id(1017)==num_vehs_in_consist)) {
+							0: switch_current_year_Metropolitan; 
+								switch_reverse_Metropolitan_7791;}
+
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7791_check_ID_1015,(count_veh_id(7791)+count_veh_id(1015)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7791_check_ID_1017; 
+								switch_reverse_Metropolitan_7791;}
+																																
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7791_check_ID_1014,(count_veh_id(7791)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7791_check_ID_1015; 
+								switch_reverse_Metropolitan_7791;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Metropolitan_current, extra_callback_info1) {
+							1 .. 20: return ITEM_METROPOLITAN_CURRENT;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_METROPOLITAN_CURRENT, 7791)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_METROPOLITAN_CURRENT);
+						variant_group:					7790;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							220 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						413 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_Metropolitan_7791_check_ID_1014;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Metropolitan;
+			articulated_part				: switch_articulated_Metropolitan_current;
+			purchase						: switch_purchase_Metropolitan;
+			cost_factor						: 515;
+			running_cost_factor				: switch_running_cost_Metropolitan;
+			}
+		}			
+
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_Metropolitan_7792, vehicle_is_reversed) {
+							0: switch_graphics_Metropolitan_7790_1999;
+								switch_graphics_Metropolitan_7790_1999_REV;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7792_check_ID_1017,(count_veh_id(7792)+count_veh_id(1017)==num_vehs_in_consist)) {
+							0: switch_current_year_Metropolitan; 
+								switch_reverse_Metropolitan_7792;}
+
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7792_check_ID_1015,(count_veh_id(7792)+count_veh_id(1015)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7792_check_ID_1017; 
+								switch_reverse_Metropolitan_7792;}
+																																
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7792_check_ID_1014,(count_veh_id(7792)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7792_check_ID_1015; 
+								switch_reverse_Metropolitan_7792;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Metropolitan_1999, extra_callback_info1) {
+							1 .. 20: return ITEM_METROPOLITAN_1999;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_METROPOLITAN_1999, 7792)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_METROPOLITAN_1999);
+						variant_group:					7790;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1999,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							220 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						413 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_Metropolitan_7792_check_ID_1014;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Metropolitan;
+			articulated_part				: switch_articulated_Metropolitan_1999;
+			purchase						: spriteset_Apmbzf_116_8_MET_1999_7_purchase;
+			cost_factor						: 515;
+			running_cost_factor				: switch_running_cost_Metropolitan;
+			}
+		}	
+
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_Metropolitan_7793, vehicle_is_reversed) {
+							0: switch_graphics_Metropolitan_7790_2005;
+								switch_graphics_Metropolitan_7790_2005_REV;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7793_check_ID_1017,(count_veh_id(7793)+count_veh_id(1017)==num_vehs_in_consist)) {
+							0: switch_current_year_Metropolitan; 
+								switch_reverse_Metropolitan_7793;}
+
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7793_check_ID_1015,(count_veh_id(7793)+count_veh_id(1015)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7793_check_ID_1017; 
+								switch_reverse_Metropolitan_7793;}
+																																
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7793_check_ID_1014,(count_veh_id(7793)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7793_check_ID_1015; 
+								switch_reverse_Metropolitan_7793;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Metropolitan_2005, extra_callback_info1) {
+							1 .. 20: return ITEM_METROPOLITAN_2005;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_METROPOLITAN_2005, 7793)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_METROPOLITAN_2005);
+						variant_group:					7790;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2005,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							220 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						413 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_Metropolitan_7793_check_ID_1014;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Metropolitan;
+			articulated_part				: switch_articulated_Metropolitan_2005;
+			purchase						: spriteset_Apmbzf_116_8_DB_2005_purchase;
+			cost_factor						: 515;
+			running_cost_factor				: switch_running_cost_Metropolitan;
+			}
+		}
+
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_Metropolitan_7794, vehicle_is_reversed) {
+							0: switch_graphics_Metropolitan_7794_2010;
+								switch_graphics_Metropolitan_7794_2010_REV;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7794_check_ID_1017,(count_veh_id(7794)+count_veh_id(1017)==num_vehs_in_consist)) {
+							0: switch_current_year_Metropolitan; 
+								switch_reverse_Metropolitan_7794;}
+
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7794_check_ID_1015,(count_veh_id(7794)+count_veh_id(1015)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7794_check_ID_1017; 
+								switch_reverse_Metropolitan_7794;}
+																																
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7794_check_ID_1014,(count_veh_id(7794)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7794_check_ID_1015; 
+								switch_reverse_Metropolitan_7794;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Metropolitan_2010, extra_callback_info1) {
+							1 .. 31: return ITEM_METROPOLITAN_2010;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_METROPOLITAN_2010, 7794)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_METROPOLITAN_2010);
+						variant_group:					7790;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2010,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							220 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						649 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_Metropolitan_7794_check_ID_1014;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Metropolitan_2010;
+			articulated_part				: switch_articulated_Metropolitan_2010;
+			purchase						: spriteset_Apmbzf_116_8_DB_2005_purchase;
+			cost_factor						: 570;
+			running_cost_factor				: switch_running_cost_Metropolitan_2010;
+			}
+		}
+
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_Metropolitan_7795, vehicle_is_reversed) {
+							0: switch_graphics_Metropolitan_7790_2017;
+								switch_graphics_Metropolitan_7790_2017_REV;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7795_check_ID_1017,(count_veh_id(7795)+count_veh_id(1017)==num_vehs_in_consist)) {
+							0: switch_current_year_Metropolitan; 
+								switch_reverse_Metropolitan_7795;}
+
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7795_check_ID_1015,(count_veh_id(7795)+count_veh_id(1015)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7795_check_ID_1017; 
+								switch_reverse_Metropolitan_7795;}
+																																
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7795_check_ID_1014,(count_veh_id(7795)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7795_check_ID_1015; 
+								switch_reverse_Metropolitan_7795;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Metropolitan_2017, extra_callback_info1) {
+							1 .. 20: return ITEM_METROPOLITAN_2017;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_METROPOLITAN_2017, 7795)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_METROPOLITAN_2017);
+						variant_group:					7790;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2017,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							220 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						413 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_Metropolitan_7795_check_ID_1014;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Metropolitan;
+			articulated_part				: switch_articulated_Metropolitan_2017;
+			purchase						: spriteset_Apmbzf_116_8_DB_2017_purchase;
+			cost_factor						: 515;
+			running_cost_factor				: switch_running_cost_Metropolitan;
+			}
+		}
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_Metropolitan_7796, vehicle_is_reversed) {
+							0: switch_graphics_Metropolitan_7790_2019;
+								switch_graphics_Metropolitan_7790_2019_REV;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7796_check_ID_1017,(count_veh_id(7796)+count_veh_id(1017)==num_vehs_in_consist)) {
+							0: switch_current_year_Metropolitan; 
+								switch_reverse_Metropolitan_7796;}
+
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7796_check_ID_1015,(count_veh_id(7796)+count_veh_id(1015)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7796_check_ID_1017; 
+								switch_reverse_Metropolitan_7796;}
+																																
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7796_check_ID_1014,(count_veh_id(7796)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7796_check_ID_1015; 
+								switch_reverse_Metropolitan_7796;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Metropolitan_2019, extra_callback_info1) {
+							1 .. 20: return ITEM_METROPOLITAN_2019;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_METROPOLITAN_2019, 7796)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_METROPOLITAN_2019);
+						variant_group:					7790;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2019,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							220 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						413 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_Metropolitan_7796_check_ID_1014;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Metropolitan;
+			articulated_part				: switch_articulated_Metropolitan_2019;
+			purchase						: switch_spritestack_Apmbzf_116_8_DB_2019_WiFi_purchase;
+			cost_factor						: 515;
+			running_cost_factor				: switch_running_cost_Metropolitan;
+			}
+		}
+
+
+						switch (FEAT_TRAINS, PARENT, switch_reverse_Metropolitan_7797, vehicle_is_reversed) {
+							0: switch_graphics_Metropolitan_7790_2021;
+								switch_graphics_Metropolitan_7790_2021_REV;}	
+								
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7797_check_ID_1017,(count_veh_id(7797)+count_veh_id(1017)==num_vehs_in_consist)) {
+							0: switch_current_year_Metropolitan; 
+								switch_reverse_Metropolitan_7797;}
+
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7797_check_ID_1015,(count_veh_id(7797)+count_veh_id(1015)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7797_check_ID_1017; 
+								switch_reverse_Metropolitan_7797;}
+																																
+						switch (FEAT_TRAINS,PARENT,switch_Metropolitan_7797_check_ID_1014,(count_veh_id(7797)+count_veh_id(1014)==num_vehs_in_consist)) {
+							0: switch_Metropolitan_7797_check_ID_1015; 
+								switch_reverse_Metropolitan_7797;}
+
+						switch (FEAT_TRAINS, SELF, switch_articulated_Metropolitan_2021, extra_callback_info1) {
+							1 .. 20: return ITEM_METROPOLITAN_2021;												
+								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
+								
+item (FEAT_TRAINS , ITEM_METROPOLITAN_2021, 7797)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_METROPOLITAN_2021);
+						variant_group:					7790;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2021,01,01);
+						model_life: 					VEHICLE_NEVER_EXPIRES;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					5;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							220 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						413 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					18;
+						cargo_age_period:               185;
+						ai_engine_rank: 				0;
+						length: 						8;												
+			}
+			
+	//Vehicels Graphics
+			graphics{
+			default							: switch_Metropolitan_7797_check_ID_1014;
+			additional_text					: string(STR_DESC_EXPRESS);
+			length							: switch_length_Metropolitan;
+			articulated_part				: switch_articulated_Metropolitan_2021;
+			purchase						: switch_spritestack_Apmbzf_116_8_DB_2021_purchase;
+			cost_factor						: 515;
+			running_cost_factor				: switch_running_cost_Metropolitan;
+			}
+		}

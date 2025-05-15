@@ -1,0 +1,700 @@
+//##########################
+//###X-Wagen/S-Bahn Stock###
+//##########################
+
+//Spritesets kieselgrau/orange
+
+spriteset(spriteset_X_Wagen_B_orange, "gfx\X_Wagen/X_Wagen_B_orange_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_orange_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_orange_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_orange_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_orange_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_orange_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_orange_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_X_Wagen_B_orange_loading, "gfx\X_Wagen/X_Wagen_B_orange_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_orange_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_orange_loading_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_orange_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_orange_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_orange_loading_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_orange_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_orange_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_orange_loading_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_orange_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	       
+
+spritegroup spritegroup_X_Wagen_B_orange_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_X_Wagen_B_orange_loading];}     
+
+
+spriteset(spriteset_X_Wagen_AB_orange, "gfx\X_Wagen/X_Wagen_AB_orange_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_orange, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_orange_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_orange_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_orange, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_orange_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_orange_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_orange, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_orange_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_orange_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_X_Wagen_AB_orange_loading, "gfx\X_Wagen/X_Wagen_AB_orange_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_orange_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_orange_loading_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_orange_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_orange_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_orange_loading_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_orange_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_orange_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_orange_loading_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_orange_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	       
+
+spritegroup spritegroup_X_Wagen_AB_orange_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_X_Wagen_AB_orange_loading];}        
+
+
+//Spritesets S-Bahn (1987 ff)
+
+spriteset(spriteset_X_Wagen_B_sbahn, "gfx\X_Wagen/X_Wagen_B_sbahn_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_sbahn, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_sbahn_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_sbahn_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_sbahn, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_sbahn_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_sbahn_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_sbahn, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_sbahn_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_sbahn_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_X_Wagen_B_sbahn_loading, "gfx\X_Wagen/X_Wagen_B_sbahn_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_sbahn_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_sbahn_loading_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_sbahn_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_sbahn_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_sbahn_loading_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_sbahn_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_sbahn_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_sbahn_loading_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_sbahn_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	       
+
+spritegroup spritegroup_X_Wagen_B_sbahn_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_X_Wagen_B_sbahn_loading];}     
+
+
+spriteset(spriteset_X_Wagen_AB_sbahn, "gfx\X_Wagen/X_Wagen_AB_sbahn_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_sbahn, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_sbahn_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_sbahn_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_sbahn, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_sbahn_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_sbahn_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_sbahn, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_sbahn_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_sbahn_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+//Spritesets traffic red
+
+spriteset(spriteset_X_Wagen_B_verkehrsrot, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_verkehrsrot_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_verkehrsrot_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_verkehrsrot_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_X_Wagen_B_verkehrsrot_loading, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_loading_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_verkehrsrot_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_loading_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_verkehrsrot_loading_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_verkehrsrot_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_loading_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_verkehrsrot_loading_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_verkehrsrot_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_loading_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_verkehrsrot_loading_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	       
+
+spritegroup spritegroup_X_Wagen_B_verkehrsrot_loading
+		{loaded: 	[spriteset_empty];
+			loading: 	[spriteset_X_Wagen_B_verkehrsrot_loading];}     
+
+
+spriteset(spriteset_X_Wagen_AB_verkehrsrot, "gfx\X_Wagen/X_Wagen_AB_verkehrsrot_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_verkehrsrot, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_verkehrsrot_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_verkehrsrot_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_verkehrsrot, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_verkehrsrot_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_verkehrsrot_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_verkehrsrot_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_verkehrsrot_4x_mask.png")
+									{ template_148trains_4x(0, 0)}    
+
+//Spritesets S-Bahn Nuernberg verkehrsrot
+
+spriteset(spriteset_X_Wagen_B_Nuernberg, "gfx\X_Wagen/X_Wagen_B_Nuernberg_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_Nuernberg, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_Nuernberg_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_Nuernberg_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_Nuernberg, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_Nuernberg_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_Nuernberg_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_Nuernberg, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_Nuernberg_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_Nuernberg_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	
+
+spriteset(spriteset_X_Wagen_AB_Nuernberg, "gfx\X_Wagen/X_Wagen_AB_Nuernberg_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_Nuernberg, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_Nuernberg_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_Nuernberg_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_Nuernberg, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_Nuernberg_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_Nuernberg_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_AB_Nuernberg, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_AB_Nuernberg_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_AB_Nuernberg_4x_mask.png")
+									{ template_148trains_4x(0, 0)}   
+
+//Spritesets overlay commercial
+
+spriteset(spriteset_X_Wagen_overlay_Jaeger, "gfx\X_Wagen/X_Wagen_overlay_Jaeger_1x_8bpp.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_overlay_Jaeger, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_overlay_Jaeger_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_overlay_Jaeger_1x_mask.png")
+									{ template_148trains_1x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_overlay_Jaeger, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_overlay_Jaeger_2x_32bpp.png", "gfx\X_Wagen/X_Wagen_overlay_Jaeger_2x_mask.png")
+									{ template_148trains_2x(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_overlay_Jaeger, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_overlay_Jaeger_4x_32bpp.png", "gfx\X_Wagen/X_Wagen_overlay_Jaeger_4x_mask.png")
+									{ template_148trains_4x(0, 0)}	   
+
+//Spritesets purchase
+
+spriteset(spriteset_X_Wagen_B_orange_purchase, "gfx\X_Wagen/X_Wagen_B_orange_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_orange_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_orange_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_orange_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+spriteset(spriteset_X_Wagen_B_sbahn_purchase, "gfx\X_Wagen/X_Wagen_B_sbahn_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_sbahn_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_sbahn_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_sbahn_1x_mask.png")
+									{ template_purchase(0, 0)}    
+
+spriteset(spriteset_X_Wagen_B_verkehrsrot_purchase, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_verkehrsrot_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_verkehrsrot_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_verkehrsrot_1x_mask.png")
+									{ template_purchase(0, 0)}  
+
+spriteset(spriteset_X_Wagen_B_Nuernberg_purchase, "gfx\X_Wagen/X_Wagen_B_Nuernberg_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_B_Nuernberg_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_B_Nuernberg_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_B_Nuernberg_1x_mask.png")
+									{ template_purchase(0, 0)}  
+
+spriteset(spriteset_X_Wagen_overlay_Jaeger_purchase, "gfx\X_Wagen/X_Wagen_overlay_Jaeger_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_X_Wagen_overlay_Jaeger_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\X_Wagen/X_Wagen_overlay_Jaeger_1x_32bpp.png", "gfx\X_Wagen/X_Wagen_overlay_Jaeger_1x_mask.png")
+									{ template_purchase(0, 0)}                
+
+
+//Switches
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_Jaeger_purchase, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_B_orange_purchase;
+        1: spriteset_X_Wagen_overlay_Jaeger_purchase;}
+
+    switch (FEAT_TRAINS,SELF, switch_X_Wagen_purchase,current_year){
+       0 .. 1986: spriteset_X_Wagen_B_orange_purchase;
+    1987 .. 1995: spriteset_X_Wagen_B_sbahn_purchase;	
+    1996 .. 2045: spriteset_X_Wagen_B_verkehrsrot_purchase;														 					 
+        spriteset_X_Wagen_B_verkehrsrot_purchase;}      
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_B_orange, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_B_orange;
+        1: spritegroup_X_Wagen_B_orange_loading;}  
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_AB_orange, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_AB_orange;
+        1: spritegroup_X_Wagen_AB_orange_loading;}  
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_B_Jaeger, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_B_orange;
+        1: spriteset_X_Wagen_overlay_Jaeger;
+        2: spritegroup_X_Wagen_B_orange_loading;}  
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_AB_Jaeger, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_AB_orange;
+        1: spriteset_X_Wagen_overlay_Jaeger;
+        2: spritegroup_X_Wagen_AB_orange_loading;} 
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_B_sbahn, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_B_sbahn;
+        1: spritegroup_X_Wagen_B_sbahn_loading;}           
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_AB_sbahn, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_AB_sbahn;
+        1: spritegroup_X_Wagen_B_sbahn_loading;}     
+ 
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_B_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_B_verkehrsrot;
+        1: spritegroup_X_Wagen_B_verkehrsrot_loading;}           
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_AB_verkehrsrot, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_AB_verkehrsrot;
+        1: spritegroup_X_Wagen_B_verkehrsrot_loading;}        
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_B_Nuernberg, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_B_Nuernberg;
+        1: spritegroup_X_Wagen_B_verkehrsrot_loading;}           
+
+    switch(FEAT_TRAINS, SELF, switch_spritestack_X_Wagen_AB_Nuernberg, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+        0: spriteset_X_Wagen_AB_Nuernberg;
+        1: spritegroup_X_Wagen_B_verkehrsrot_loading;}   
+
+    switch (FEAT_TRAINS, SELF, random_choose_X_Wagen_orange, switch_alternative_var_random_bits(1, 2)) {
+        1: switch_spritestack_X_Wagen_B_orange;
+        2: switch_spritestack_X_Wagen_B_orange;
+        3: switch_spritestack_X_Wagen_B_orange;
+            switch_spritestack_X_Wagen_AB_orange;}                
+
+    switch (FEAT_TRAINS, SELF, random_choose_X_Wagen_sbahn, switch_alternative_var_random_bits(1, 2)) {
+        1: switch_spritestack_X_Wagen_B_sbahn;
+        2: switch_spritestack_X_Wagen_B_sbahn;
+        3: switch_spritestack_X_Wagen_B_sbahn;
+            switch_spritestack_X_Wagen_AB_sbahn;} 
+
+    switch (FEAT_TRAINS, SELF, random_choose_X_Wagen_Jaeger, switch_alternative_var_random_bits(1, 2)) {
+        1: switch_spritestack_X_Wagen_B_Jaeger;
+        2: switch_spritestack_X_Wagen_B_Jaeger;
+        3: switch_spritestack_X_Wagen_B_Jaeger;
+            switch_spritestack_X_Wagen_AB_Jaeger;}      
+
+    switch (FEAT_TRAINS, SELF, random_choose_X_Wagen_verkehrsrot, switch_alternative_var_random_bits(1, 2)) {
+        1: switch_spritestack_X_Wagen_B_verkehrsrot;
+        2: switch_spritestack_X_Wagen_B_verkehrsrot;
+        3: switch_spritestack_X_Wagen_B_verkehrsrot;
+            switch_spritestack_X_Wagen_AB_verkehrsrot;}   
+
+    switch (FEAT_TRAINS, SELF, random_choose_X_Wagen_Nuernberg, switch_alternative_var_random_bits(1, 2)) {
+        1: switch_spritestack_X_Wagen_B_Nuernberg;
+        2: switch_spritestack_X_Wagen_B_Nuernberg;
+        3: switch_spritestack_X_Wagen_B_Nuernberg;
+            switch_spritestack_X_Wagen_AB_Nuernberg;}                              
+
+    switch(FEAT_TRAINS, SELF, switch_length_X_Wagen, position_in_articulated_veh % 3) {
+        0: 4;
+        1: 6;
+        2: 4;}
+
+    switch(FEAT_TRAINS,PARENT,switch_running_cost_X_Wagen, 1){
+        return 2100;}
+        
+    switch (FEAT_TRAINS,SELF,switch_build_year_X_Wagen,build_year) {
+       0 .. 1986: random_choose_X_Wagen_orange;
+    1987 .. 1995: random_choose_X_Wagen_sbahn;	
+    1996 .. 2045: random_choose_X_Wagen_verkehrsrot;														 					 
+        random_choose_X_Wagen_verkehrsrot;}           
+
+    switch (FEAT_TRAINS,SELF,switch_current_year_X_Wagen,current_year) {
+       0 .. 1986: random_choose_X_Wagen_orange;
+    1987 .. 1995: random_choose_X_Wagen_sbahn;	
+    1996 .. 2045: random_choose_X_Wagen_verkehrsrot;														 					 
+        random_choose_X_Wagen_verkehrsrot;}  
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_graphics_build, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_build_year_X_Wagen;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_build, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_BUILD;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_BUILD, 7890)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_BUILD);
+						extra_flags:					bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1979,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_graphics_build;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_X_Wagen;
+			articulated_part				: switch_articulated_X_Wagen_build;
+			purchase						: switch_X_Wagen_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen;					
+			 }
+		}               
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_graphics_current, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return switch_current_year_X_Wagen;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_current, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_CURRENT;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_CURRENT, 7891)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_CURRENT);
+						variant_group:					7890;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1979,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_graphics_current;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_X_Wagen;
+			articulated_part				: switch_articulated_X_Wagen_current;
+			purchase						: switch_X_Wagen_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen;					
+			 }
+		} 
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_graphics_orange, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return random_choose_X_Wagen_orange;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_orange, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_ORANGE;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_ORANGE, 7892)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_ORANGE);
+						variant_group:					7890;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1979,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_graphics_orange;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_X_Wagen;
+			articulated_part				: switch_articulated_X_Wagen_orange;
+			purchase						: spriteset_X_Wagen_B_orange_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen;					
+			 }
+		} 
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_graphics_jaeger, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return random_choose_X_Wagen_Jaeger;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_jaeger, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_JAEGER;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_JAEGER, 7893)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_JAEGER);
+						variant_group:					7890;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1979,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_graphics_jaeger;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_X_Wagen;
+			articulated_part				: switch_articulated_X_Wagen_jaeger;
+			purchase						: switch_spritestack_X_Wagen_Jaeger_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen;					
+			 }
+		} 
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_graphics_sbahn, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return random_choose_X_Wagen_sbahn;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_sbahn, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_SBAHN;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_SBAHN, 7894)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_SBAHN);
+						variant_group:					7890;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1987,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_graphics_sbahn;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_X_Wagen;
+			articulated_part				: switch_articulated_X_Wagen_sbahn;
+			purchase						: spriteset_X_Wagen_B_sbahn_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen;					
+			 }
+		}
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_graphics_verkehrsrot, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return random_choose_X_Wagen_verkehrsrot;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_verkehrsrot, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_VERKEHRSROT;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_VERKEHRSROT, 7895)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_VERKEHRSROT);
+						variant_group:					7890;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1996,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_graphics_verkehrsrot;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_X_Wagen;
+			articulated_part				: switch_articulated_X_Wagen_verkehrsrot;
+			purchase						: spriteset_X_Wagen_B_verkehrsrot_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen;					
+			 }
+		}                
+
+
+    switch(FEAT_TRAINS, SELF, switch_X_Wagen_graphics_Nuernberg, position_in_articulated_veh  % 3) {
+        0:     spriteset_empty;
+        1:     return random_choose_X_Wagen_Nuernberg;
+        2:     spriteset_empty;}	
+            
+    switch (FEAT_TRAINS, SELF, switch_articulated_X_Wagen_Nuernberg, extra_callback_info1) {
+        1 .. 2: return ITEM_X_WAGEN_NUERNBERG;
+            return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}     
+
+item (FEAT_TRAINS , ITEM_X_WAGEN_NUERNBERG, 7896)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_X_WAGEN_NUERNBERG);
+						variant_group:					7890;
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(2001,01,01);
+						model_life: 					40;
+						vehicle_life: 					40;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);	
+						refittable_cargo_classes:		bitmask(CC_PASSENGERS);
+						cargo_allow_refit:				[PASS, TOUR];
+						loading_speed:					15;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							140 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						28 ton;
+						dual_headed: 					0;
+						default_cargo_type:				PASS;
+						cargo_capacity:					34;
+						ai_engine_rank: 				0;
+						length: 						8;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_X_Wagen_graphics_Nuernberg;
+			additional_text					: string(STR_DESC_PASS);
+			length							: switch_length_X_Wagen;
+			articulated_part				: switch_articulated_X_Wagen_Nuernberg;
+			purchase						: spriteset_X_Wagen_B_Nuernberg_purchase;
+			cost_factor						: 470;
+			running_cost_factor				: switch_running_cost_X_Wagen;					
+			 }
+		}

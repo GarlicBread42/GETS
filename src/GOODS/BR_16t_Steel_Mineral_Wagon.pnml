@@ -1,0 +1,126 @@
+//#############################
+//###Oot Saarbrücken/Fad 163###
+//#############################	
+	
+//Spriteset DRG
+
+spriteset (spriteset_BR_16t_Steel_Mineral_Wagon_Early_BR_Grey, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_8bpp.png")
+					{template_78trains_1x(0, 0)}	
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_Early_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_32bpp.png", "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_1x_mask.png")
+					{template_78trains_1x(0, 0)}	
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_Early_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_2x_32bpp.png", "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_2x_mask.png")
+					{template_78trains_2x(0, 0)}					
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_Early_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_4x_32bpp.png", "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Early_BR_Grey_4x_mask.png")
+					{template_78trains_4x(0, 0)}	
+
+spriteset (spriteset_BR_16t_Steel_Mineral_Wagon_Late_BR_Grey, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_8bpp.png")
+					{template_78trains_1x(0, 0)}	
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_Late_BR_Grey, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_32bpp.png", "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_1x_mask.png")
+					{template_78trains_1x(0, 0)}	
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_Late_BR_Grey, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_2x_32bpp.png", "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_2x_mask.png")
+					{template_78trains_2x(0, 0)}					
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_Late_BR_Grey, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_4x_32bpp.png", "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_Late_BR_Grey_4x_mask.png")
+					{template_78trains_4x(0, 0)}
+
+//Spritegroup Load
+
+spriteset (spriteset_BR_16t_Steel_Mineral_Wagon_load_0, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_load_0_1x_8bpp.png")
+					{template_78trains_1x(0, 0)}		
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_load_0, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_load_0_2x_8bpp.png")
+					{template_78trains_2x(0, 0)}					
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_load_0, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_load_0_4x_8bpp.png")
+					{template_78trains_4x(0, 0)}                
+
+
+spriteset (spriteset_BR_16t_Steel_Mineral_Wagon_load_100, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_load_100_1x_8bpp.png")
+					{template_78trains_1x(0, 0)}		
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_load_100, ZOOM_LEVEL_IN_2X, BIT_DEPTH_8BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_load_100_2x_8bpp.png")
+					{template_78trains_2x(0, 0)}					
+		alternative_sprites (spriteset_BR_16t_Steel_Mineral_Wagon_load_100, ZOOM_LEVEL_IN_4X, BIT_DEPTH_8BPP, "gfx\BR_16t_Steel_Mineral_Wagon/BR_16t_Steel_Mineral_Wagon_load_100_4x_8bpp.png")
+					{template_78trains_4x(0, 0)} 
+
+
+spritegroup spritegroup_BR_16t_Steel_Mineral_Wagon_load
+		{loaded: 	[spriteset_BR_16t_Steel_Mineral_Wagon_load_0, spriteset_BR_16t_Steel_Mineral_Wagon_load_100];
+			loading: 	[spriteset_BR_16t_Steel_Mineral_Wagon_load_0, spriteset_BR_16t_Steel_Mineral_Wagon_load_100];}	 
+
+							
+switch(FEAT_TRAINS, SELF, switch_BR_16t_Steel_Mineral_Wagon_loadstack_Early, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: return spriteset_BR_16t_Steel_Mineral_Wagon_Early_BR_Grey;
+    1: spritegroup_BR_16t_Steel_Mineral_Wagon_load;}
+
+switch(FEAT_TRAINS, SELF, switch_BR_16t_Steel_Mineral_Wagon_loadstack_Late, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+    0: return spriteset_BR_16t_Steel_Mineral_Wagon_Late_BR_Grey;
+    1: spritegroup_BR_16t_Steel_Mineral_Wagon_load;}            
+
+switch(FEAT_TRAINS, SELF, random_choose_BR_MCV, switch_alternative_var_random_bits(1, 3)) {
+    0: switch_BR_16t_Steel_Mineral_Wagon_loadstack_Early;
+    1: switch_BR_16t_Steel_Mineral_Wagon_loadstack_Late;
+    2: switch_BR_16t_Steel_Mineral_Wagon_loadstack_Late;
+        switch_BR_16t_Steel_Mineral_Wagon_loadstack_Late;}    
+
+switch(FEAT_TRAINS, SELF, switch_BR_MCV_build_year, build_year) {
+    1944..1949: switch_BR_16t_Steel_Mineral_Wagon_loadstack_Early;
+                random_choose_BR_MCV;}
+
+switch (FEAT_TRAINS,SELF, switch_sprite_choose_BR_MCV,cargo_subtype){
+    0:  switch_BR_MCV_build_year;
+    1: 	switch_BR_16t_Steel_Mineral_Wagon_loadstack_Early;
+    2:	switch_BR_16t_Steel_Mineral_Wagon_loadstack_Late; }
+
+switch (FEAT_TRAINS,SELF,switch_cargo_subtype_BR_MCV ,cargo_subtype){
+    0:	return string(STR_LIVERY_random); 
+    1:  return string(STR_LIVERY_early);
+    2:	return string(STR_LIVERY_late); 											 
+    return CB_RESULT_NO_TEXT; }
+
+switch(FEAT_TRAINS,PARENT,switch_running_cost_BR_16t_Steel_Mineral_Wagon, 1){
+    return 240;}
+						
+item (FEAT_TRAINS , ITEM_TEST, 8760)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_OOT_SAARBRUECKEN);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1941,01,01);
+						model_life: 					33;
+						vehicle_life: 					30;
+						retire_early:					-10;						
+						reliability_decay: 				20;
+						refittable_cargo_classes: 		bitmask(CC_BULK);
+						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
+						loading_speed:					10;
+						cost_factor:                    108;
+						running_cost_base:              RUNNING_COST_DIESEL;
+						running_cost_factor: 			90;
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							55 km/h;
+						refit_cost: 					0;
+						track_type: 					RAIL;						
+						weight: 						22 ton;
+						dual_headed: 					0;
+						default_cargo_type:				COAL;
+						cargo_capacity:					56;
+						ai_engine_rank: 				0;
+						length: 						4;
+												
+			}
+			
+	//Vehicels Graphics
+			graphics
+			{
+			default							: switch_sprite_choose_BR_MCV;
+			additional_text					: string(STR_DESC_GOODS);
+			purchase						: switch_Fad163_purchase;
+			cost_factor						: 111;
+			running_cost_factor				: switch_running_cost_BR_16t_Steel_Mineral_Wagon;				
+			colour_mapping					: switch_generic_recolour;
+            cargo_subtype_text			   	: switch_cargo_subtype_BR_MCV; 
+			 }
+		}                                  
+                                                                       

@@ -1,0 +1,142 @@
+//##############################
+//###Metropolitan DVT Sprites###
+//##################
+
+//Spriteset 1999 gray livery
+		
+spriteset (spriteset_Apmbzf_116_8_MET_1999_7_REV, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmbzf_116_8_MET_1999_7_loading_REV, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_MET_1999_7_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_MET_1999_7_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmbzf_116_8_MET_1999_7_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmbzf_116_8_MET_1999_7_loading_REV];}	
+
+//Spriteset 2005 livery
+
+spriteset (spriteset_Apmbzf_116_8_DB_2005_REV, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmbzf_116_8_DB_2005_loading_REV, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2005_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2005_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmbzf_116_8_DB_2005_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmbzf_116_8_DB_2005_loading_REV];}	
+
+
+//Spriteset 2017 livery		
+		
+spriteset (spriteset_Apmbzf_116_8_DB_2017_REV, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}							
+		
+spriteset (spriteset_Apmbzf_116_8_DB_2017_loading_REV, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_loading_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_loading_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2017_loading_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2017_loading_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+					
+spritegroup spritegroup_Apmbzf_116_8_DB_2017_loading_REV
+		{loaded: 	[spriteset_empty];
+		loading: 	[spriteset_Apmbzf_116_8_DB_2017_loading_REV];}
+
+
+//Layover 2019 livery		
+		
+spriteset (spriteset_Apmbzf_116_8_DB_2019_WiFi_REV, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2019_WiFi_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2019_WiFi_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2019_WiFi_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2019_WiFi_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+
+
+//Layover 2021 livery		
+		
+spriteset (spriteset_Apmbzf_116_8_DB_2021_REV, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2021_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2021_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2021_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2021_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_DB_2021_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_DB_2021_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_DB_2021_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+
+//Spriteset headlights
+				
+spriteset (spriteset_Apmbzf_116_8_headlight_REV, "gfx/Metropolitan/Apmbzf_116_8_headlight_1x_8bpp.png")
+					{ template_158trains_REV_1x(0, 0)}	
+		alternative_sprites (spriteset_Apmbzf_116_8_headlight_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_headlight_1x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_headlight_1x_mask.png")
+					{template_158trains_REV_1x(0,0)}
+		alternative_sprites (spriteset_Apmbzf_116_8_headlight_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_headlight_2x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_headlight_2x_mask.png")
+					{template_158trains_REV_2x(0,0)}				
+		alternative_sprites (spriteset_Apmbzf_116_8_headlight_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/Metropolitan/Apmbzf_116_8_headlight_4x_32bpp.png", "gfx/Metropolitan/Apmbzf_116_8_headlight_4x_mask.png")
+					{template_158trains_REV_4x(0,0)}
+
+
+
+
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_MET_1999_7_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_MET_1999_7_REV;
+							1: spritegroup_Apmbzf_116_8_MET_1999_7_loading_REV;
+							2: spriteset_Apmbzf_116_8_headlight_REV;}
+
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2005_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2005_REV;
+							1: spritegroup_Apmbzf_116_8_DB_2005_loading_REV;
+							2: spriteset_Apmbzf_116_8_headlight_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2017_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 2 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2017_REV;
+							1: spritegroup_Apmbzf_116_8_DB_2017_loading_REV;
+							2: spriteset_Apmbzf_116_8_headlight_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2019_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2017_REV;
+							1: spriteset_Apmbzf_116_8_DB_2019_WiFi_REV;
+							2: spritegroup_Apmbzf_116_8_DB_2017_loading_REV;
+							3: spriteset_Apmbzf_116_8_headlight_REV;}
+							
+						switch(FEAT_TRAINS, SELF, switch_spritestack_Apmbzf_116_8_DB_2021_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 3 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+							0: spriteset_Apmbzf_116_8_DB_2021_REV;
+							2: spriteset_Apmz_116_x_DB_2021_WS_REV;
+							3: spritegroup_Apmbzf_116_8_DB_2017_loading_REV;
+							4: spriteset_Apmbzf_116_8_headlight_REV;}
