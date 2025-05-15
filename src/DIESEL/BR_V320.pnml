@@ -25,7 +25,7 @@ spriteset(spriteset_BR_V320_altrot_purchase, "gfx/BR_V320/BR_V320_altrot_1x_8bpp
 
 						switch(FEAT_TRAINS, SELF, switch_length_BR_V320, position_in_vehid_chain % 3) {
 							0: 4;
-							1: 3;
+							1: 5;
 							2: 4;}
 												
 						switch(FEAT_TRAINS, SELF, switch_FX_BR_V320, position_in_vehid_chain % 3) {

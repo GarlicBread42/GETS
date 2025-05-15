@@ -6,13 +6,10 @@
 
 spriteset (spriteset_Fals183_DB, "gfx\Fals183/Fals183_DB_1x_8bpp.png")
 					{template_88trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_DB, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_DB_1x_32bpp.png", "gfx\Fals183/Fals183_DB_1x_mask.png")
 					{template_88trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_DB, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_DB_2x_32bpp.png", "gfx\Fals183/Fals183_DB_2x_mask.png")
 					{template_88trains_2x(0, 0)}					
-			
 		alternative_sprites (spriteset_Fals183_DB, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_DB_4x_32bpp.png", "gfx\Fals183/Fals183_DB_4x_mask.png")
 					{template_88trains_4x(0, 0)}	
 					
@@ -21,13 +18,10 @@ spriteset (spriteset_Fals183_DB, "gfx\Fals183/Fals183_DB_1x_8bpp.png")
 
 spriteset (spriteset_Fals183_Cargo, "gfx\Fals183/Fals183_Cargo_1x_8bpp.png")
 					{template_88trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_Cargo, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_Cargo_1x_32bpp.png", "gfx\Fals183/Fals183_Cargo_1x_mask.png")
 					{template_88trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_Cargo, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_Cargo_2x_32bpp.png", "gfx\Fals183/Fals183_Cargo_2x_mask.png")
 					{template_88trains_2x(0, 0)}					
-			
 		alternative_sprites (spriteset_Fals183_Cargo, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_Cargo_4x_32bpp.png", "gfx\Fals183/Fals183_Cargo_4x_mask.png")
 					{template_88trains_4x(0, 0)}	
 					
@@ -35,13 +29,10 @@ spriteset (spriteset_Fals183_Cargo, "gfx\Fals183/Fals183_Cargo_1x_8bpp.png")
 
 spriteset (spriteset_Fals183_RBH, "gfx\Fals183/Fals183_RBH_1x_8bpp.png")
 					{template_88trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_RBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_RBH_1x_32bpp.png", "gfx\Fals183/Fals183_RBH_1x_mask.png")
 					{template_88trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_RBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_RBH_2x_32bpp.png", "gfx\Fals183/Fals183_RBH_2x_mask.png")
 					{template_88trains_2x(0, 0)}					
-			
 		alternative_sprites (spriteset_Fals183_RBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_RBH_4x_32bpp.png", "gfx\Fals183/Fals183_RBH_4x_mask.png")
 					{template_88trains_4x(0, 0)}						
 					
@@ -49,19 +40,16 @@ spriteset (spriteset_Fals183_RBH, "gfx\Fals183/Fals183_RBH_1x_8bpp.png")
 
 spriteset (spriteset_Fals183_purchase1, "gfx\Fals183/Fals183_DB_1x_8bpp.png")
 					{template_purchase(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_purchase1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_DB_1x_32bpp.png", "gfx\Fals183/Fals183_DB_1x_mask.png")
 					{template_purchase(0, 0)}
 					
 spriteset (spriteset_Fals183_purchase2, "gfx\Fals183/Fals183_Cargo_1x_8bpp.png")
 					{template_purchase(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_purchase2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_Cargo_1x_32bpp.png", "gfx\Fals183/Fals183_Cargo_1x_mask.png")
 					{template_purchase(0, 0)}
 
 spriteset (spriteset_Fals183_purchase3, "gfx\Fals183/Fals183_RBH_1x_8bpp.png")
 					{template_purchase(0, 0)}	
-				
 		alternative_sprites (spriteset_Fals183_purchase3, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Fals183/Fals183_RBH_1x_32bpp.png", "gfx\Fals183/Fals183_RBH_1x_mask.png")
 					{template_purchase(0, 0)}					
 					
@@ -111,6 +99,7 @@ item (FEAT_TRAINS , ITEM_FALS183, 8780)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
 						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
@@ -141,7 +130,7 @@ item (FEAT_TRAINS , ITEM_FALS183, 8780)
 			purchase						: switch_Fals183_purchase;
 			cost_factor						: 235;
 			running_cost_factor				: switch_running_cost_Fals183;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}		
 
@@ -161,6 +150,7 @@ item (FEAT_TRAINS , ITEM_FALS183_DB, 8781)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
 						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
@@ -191,7 +181,7 @@ item (FEAT_TRAINS , ITEM_FALS183_DB, 8781)
 			purchase						: spriteset_Fals183_purchase1;
 			cost_factor						: 235;
 			running_cost_factor				: switch_running_cost_Fals183;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}
 
@@ -212,6 +202,7 @@ item (FEAT_TRAINS , ITEM_FALS183_CARGO, 8782)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
 						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
@@ -242,7 +233,7 @@ item (FEAT_TRAINS , ITEM_FALS183_CARGO, 8782)
 			purchase						: spriteset_Fals183_purchase2;
 			cost_factor						: 235;
 			running_cost_factor				: switch_running_cost_Fals183;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}
 
@@ -262,6 +253,7 @@ item (FEAT_TRAINS , ITEM_FALS183_RBH, 8783)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
 						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
@@ -292,6 +284,6 @@ item (FEAT_TRAINS , ITEM_FALS183_RBH, 8783)
 			purchase						: spriteset_Fals183_purchase3;
 			cost_factor						: 235;
 			running_cost_factor				: switch_running_cost_Fals183;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}

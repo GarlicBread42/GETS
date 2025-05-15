@@ -312,7 +312,7 @@ item (FEAT_TRAINS , ITEM_BR_39_CURRENT, 0404)
 			//common properties
 						name							: string(STR_NAME_BR_39_CURRENT);
 						variant_group					: 0403;
-						extra_flags						: bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						extra_flags						: bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
 						climates_available				: ALL_CLIMATES;
 						introduction_date				: date(1922,01,01);
 						extra_flags						: bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
@@ -379,7 +379,7 @@ item (FEAT_TRAINS , ITEM_BR_39_DRG_GRUEN, 0405)
 			//common properties
 						name							: string(STR_NAME_BR_39_DRG);
 						variant_group					: 0403;
-						extra_flags						: bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						extra_flags						: bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
 						climates_available				: ALL_CLIMATES;
 						introduction_date				: date(1922,01,01);
 						extra_flags						: bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
@@ -448,7 +448,7 @@ item (FEAT_TRAINS , ITEM_BR_39_DRG, 0406)
 			//common properties
 						name							: string(STR_NAME_BR_39_DRG);
 						variant_group					: 0403;
-						extra_flags						: bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
+						extra_flags						: bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
 						climates_available				: ALL_CLIMATES;
 						introduction_date				: date(1922,01,01);
 						extra_flags						: bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
@@ -516,7 +516,7 @@ item (FEAT_TRAINS , ITEM_BR_39_DB_WAGNER, 0407)
 			//common properties
 						name							: string(STR_NAME_BR_39_DB_WAGNER);
 						variant_group					: 0403;
-						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
 						climates_available				: ALL_CLIMATES;
 						introduction_date				: date(1945,01,01);
 						extra_flags						: bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
@@ -583,7 +583,7 @@ item (FEAT_TRAINS , ITEM_BR_39_DB_WAGNER_SILBER, 0408)
 			//common properties
 						name							: string(STR_NAME_BR_39_DB_WAGNER_SILBER);
 						variant_group					: 0403;
-						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
 						climates_available				: ALL_CLIMATES;
 						introduction_date				: date(1945,01,01);
 						extra_flags						: bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
@@ -651,7 +651,7 @@ item (FEAT_TRAINS , ITEM_BR_39_DB_WITTE, 0409)
 			//common properties
 						name							: string(STR_NAME_BR_39_DB_WITTE);
 						variant_group					: 0403;
-						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW);
+						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_RELIABILITY);
 						climates_available				: ALL_CLIMATES;
 						introduction_date				: date(1945,01,01);
 						extra_flags						: bitmask(VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);

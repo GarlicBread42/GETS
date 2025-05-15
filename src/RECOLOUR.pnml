@@ -614,11 +614,10 @@ switch(FEAT_TRAINS, SELF, switch_bulk_recolour, cargo_type_in_veh) {
     recolour_bulk; //blue
 }
 
+switch(FEAT_TRAINS, SELF, switch_generic_recolour2, hasbit(cargo_classes, CC_COVERED)) {
+	0: switch_piece_recolour;
+        switch_bulk_recolour;}
 
-switch(FEAT_TRAINS, SELF, switch_generic_recolour, cargo_classes) {
-	bitmask(CC_BULK): switch_bulk_recolour;
-	bitmask(CC_BULK, CC_COVERED): switch_bulk_recolour;
-
-	switch_piece_recolour;
-	
-}
+switch(FEAT_TRAINS, SELF, switch_generic_recolour, hasbit(cargo_classes, CC_BULK)) {
+	0: switch_generic_recolour2;
+        switch_bulk_recolour;}

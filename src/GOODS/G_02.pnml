@@ -5,78 +5,54 @@
 	
 //Spriteset KPEV mit Bremserhaus
 
-	//Spriteset loaded
-
-		spriteset (spriteset_G02_KPEV_MBH, "gfx\G02/G02_KPEV_MBH_1x_8bpp.png")
+spriteset (spriteset_G02_KPEV_MBH, "gfx\G02/G02_KPEV_MBH_1x_8bpp.png")
 					{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_G02_KPEV_MBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_1x_32bpp.png", "gfx\G02/G02_KPEV_MBH_1x_mask.png")
 					{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_G02_KPEV_MBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_2x_32bpp.png", "gfx\G02/G02_KPEV_MBH_2x_mask.png")
 					{template_68trains_2x(0, 0)}					
-			
 		alternative_sprites (spriteset_G02_KPEV_MBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_4x_32bpp.png", "gfx\G02/G02_KPEV_MBH_4x_mask.png")
 						{template_68trains_4x(0, 0)}		
-		
-		//Spriteset loading		
 				
-		spriteset (spriteset_G02_KPEV_MBH_loading, "gfx\G02/G02_KPEV_MBH_loading_1x_8bpp.png")
+spriteset (spriteset_G02_KPEV_MBH_loading, "gfx\G02/G02_KPEV_MBH_loading_1x_8bpp.png")
 						{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_G02_KPEV_MBH_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_loading_1x_32bpp.png", "gfx\G02/G02_KPEV_MBH_loading_1x_mask.png")
 						{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_G02_KPEV_MBH_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_loading_2x_32bpp.png", "gfx\G02/G02_KPEV_MBH_loading_2x_mask.png")
 					{template_68trains_2x(0,0)}				
-			
 		alternative_sprites (spriteset_G02_KPEV_MBH_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_MBH_loading_4x_32bpp.png", "gfx\G02/G02_KPEV_MBH_loading_4x_mask.png")
 					{template_68trains_4x(0,0)}						
 	
 						
 spritegroup spritegroup_G02_KPEV_MBH
-		{
-			loaded: 	[spriteset_G02_KPEV_MBH];
-			loading: 	[spriteset_G02_KPEV_MBH_loading];		
-		}
+		{loaded: 	[spriteset_G02_KPEV_MBH];
+			loading: 	[spriteset_G02_KPEV_MBH_loading];}
 		
 		
 //Spriteset KPEV ohne Bremserhaus 1
 
-	//Spriteset loaded
-
-		spriteset (spriteset_G02_KPEV_OBH1, "gfx\G02/G02_KPEV_OBH1_1x_8bpp.png")
+spriteset (spriteset_G02_KPEV_OBH1, "gfx\G02/G02_KPEV_OBH1_1x_8bpp.png")
 					{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_G02_KPEV_OBH1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_1x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_1x_mask.png")
 					{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_G02_KPEV_OBH1, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_2x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_2x_mask.png")
 					{template_68trains_2x(0, 0)}					
-			
 		alternative_sprites (spriteset_G02_KPEV_OBH1, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_4x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_4x_mask.png")
 						{template_68trains_4x(0, 0)}		
-		
-		//Spriteset loading		
 				
-		spriteset (spriteset_G02_KPEV_OBH1_loading, "gfx\G02/G02_KPEV_OBH1_loading_1x_8bpp.png")
+spriteset (spriteset_G02_KPEV_OBH1_loading, "gfx\G02/G02_KPEV_OBH1_loading_1x_8bpp.png")
 						{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_G02_KPEV_OBH1_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_loading_1x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_loading_1x_mask.png")
 						{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_G02_KPEV_OBH1_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_loading_2x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_loading_2x_mask.png")
 					{template_68trains_2x(0,0)}				
-			
 		alternative_sprites (spriteset_G02_KPEV_OBH1_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\G02/G02_KPEV_OBH1_loading_4x_32bpp.png", "gfx\G02/G02_KPEV_OBH1_loading_4x_mask.png")
 					{template_68trains_4x(0,0)}						
 	
 						
 spritegroup spritegroup_G02_KPEV_OBH1
-		{
-			loaded: 	[spriteset_G02_KPEV_OBH1];
-			loading: 	[spriteset_G02_KPEV_OBH1_loading];		
-		}	
+		{loaded: 	[spriteset_G02_KPEV_OBH1];
+			loading: 	[spriteset_G02_KPEV_OBH1_loading];}	
 		
 		
 //Spriteset KPEV ohne Bremserhaus 2

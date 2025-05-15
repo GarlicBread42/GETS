@@ -141,7 +141,7 @@ item (FEAT_TRAINS , ITEM_TALS_968, 8735)
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED);
 						cargo_allow_refit:              [CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, SALT, SASH, TOFF, CMNT, FERT, FICR, RCYC, SALT, SGBT, SGCN, ];
-						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, ];
+						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, FRUT, CERE, FICR, OLSD, FOOD ];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;
@@ -192,7 +192,7 @@ item (FEAT_TRAINS , ITEM_TALS_968_DB, 8736)
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED);
 						cargo_allow_refit:              [CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, SALT, SASH, TOFF, CMNT, FERT, FICR, RCYC, SALT, SGBT, SGCN, ];
-						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, ];
+						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, FRUT, CERE, FICR, OLSD, FOOD ];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;
@@ -242,7 +242,7 @@ item (FEAT_TRAINS , ITEM_TALS_968_CARGO, 8737)
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED);
 						cargo_allow_refit:              [CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, SALT, SASH, TOFF, CMNT, FERT, FICR, RCYC, SALT, SGBT, SGCN, ];
-						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, ];
+						cargo_disallow_refit: 			[COAL, IORE, COKE, SLAG, GRAI, PEAT, BEAN, SCRP,  SUGR, BDMT, WOOL, RCYC, SCMT, TWOD, WOOD, WDPR, FRUT, CERE, FICR, OLSD, FOOD ];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;
@@ -271,6 +271,6 @@ item (FEAT_TRAINS , ITEM_TALS_968_CARGO, 8737)
 			purchase						: spriteset_Tals_968_Cargo_purchase;
 			cost_factor						: 235;
 			running_cost_factor				: switch_running_cost_Tals_968;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}

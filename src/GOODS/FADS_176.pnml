@@ -167,8 +167,9 @@ item (FEAT_TRAINS , ITEM_FADS176, 8768)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
-						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;
@@ -197,7 +198,7 @@ item (FEAT_TRAINS , ITEM_FADS176, 8768)
 			purchase						: switch_Fads176_purchase;
 			cost_factor						: 190;
 			running_cost_factor				: switch_running_cost_Fads176;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}
 
@@ -217,8 +218,9 @@ item (FEAT_TRAINS , ITEM_FADS176_EARLY, 8769)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
-						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;
@@ -247,7 +249,7 @@ item (FEAT_TRAINS , ITEM_FADS176_EARLY, 8769)
 			purchase						: spriteset_Fads176_purchase1;
 			cost_factor						: 190;
 			running_cost_factor				: switch_running_cost_Fads176;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}
 
@@ -267,8 +269,9 @@ item (FEAT_TRAINS , ITEM_FADS176_LATE, 8770)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
-						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;
@@ -297,7 +300,7 @@ item (FEAT_TRAINS , ITEM_FADS176_LATE, 8770)
 			purchase						: spriteset_Fads176_purchase2;
 			cost_factor						: 190;
 			running_cost_factor				: switch_running_cost_Fads176;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}
 
@@ -317,8 +320,9 @@ item (FEAT_TRAINS , ITEM_FADS176_NIAG, 8771)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, COKE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
-						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SALT, SCMT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, RCYC, SCMT, SCRP, SALT, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR,];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;
@@ -347,6 +351,6 @@ item (FEAT_TRAINS , ITEM_FADS176_NIAG, 8771)
 			purchase						: spriteset_Fads176_purchase3;
 			cost_factor						: 190;
 			running_cost_factor				: switch_running_cost_Fads176;				
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}

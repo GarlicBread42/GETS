@@ -67,7 +67,7 @@ spriteset (spriteset_Omm_55_purchase, "gfx\Omm_55/Omm_55_1x_8bpp.png")
 								
 					switch(FEAT_TRAINS, SELF, switch_Omm_55_cargo_classes, cargo_classes) {
 							bitmask(CC_BULK): return switch_loadstack_Omm_55_OBH_Bulk;
-							bitmask(CC_COVERED): return switch_loadstack_Omm_55_OBH_Bulk_covered;
+							bitmask(CC_BULK, CC_COVERED): return switch_loadstack_Omm_55_OBH_Bulk_covered;
 							bitmask(CC_PIECE_GOODS) : return switch_loadstack_Omm_55_OBH_Box;
 							bitmask(CC_LIQUID): switch_loadstack_Omm_55_OBH_Fass;
 								switch_loadstack_Omm_55_OBH_Bulk;}									
@@ -102,6 +102,7 @@ spriteset (spriteset_Omm_55_purchase, "gfx\Omm_55/Omm_55_1x_8bpp.png")
 	
 							FRVG: return switch_loadstack_Omm_55_OBH_Bulk_covered;
 							TATO: return switch_loadstack_Omm_55_OBH_Bulk_covered;
+							QLME: return switch_loadstack_Omm_55_OBH_Bulk;
 	
 							BDMT: return switch_loadstack_Omm_55_OBH_Timber;
 							WDPR: return switch_loadstack_Omm_55_OBH_Timber;
@@ -166,6 +167,6 @@ item (FEAT_TRAINS , ITEM_OMM_55, 8612)
 			cost_factor						: 80;
 			speed							: switch_speed_Omm_55;
 			running_cost_factor				: switch_running_cost_Omm_55;
-			colour_mapping					: switch_generic_recolour;
+			colour_mapping					: switch_bulk_recolour;
 			 }
 		}	

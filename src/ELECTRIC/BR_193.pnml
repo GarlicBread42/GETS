@@ -14,7 +14,6 @@ spriteset(spriteset_BR_193_verkehrsrot, "gfx/BR_193/BR_193_verkehrsrot_1x_8bpp.p
 		alternative_sprites (spriteset_BR_193_verkehrsrot, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_verkehrsrot_4x_32bpp.png", "gfx/BR_193/BR_193_verkehrsrot_4x_mask.png")
 									{ template_128trains_4x(0, 0)}
 
-
 //Spriteset MRCE
 									
 spriteset(spriteset_BR_193_MRCE, "gfx/BR_193/BR_193_MRCE_1x_8bpp.png")
@@ -24,47 +23,18 @@ spriteset(spriteset_BR_193_MRCE, "gfx/BR_193/BR_193_MRCE_1x_8bpp.png")
 		alternative_sprites (spriteset_BR_193_MRCE, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_MRCE_2x_32bpp.png", "gfx/BR_193/BR_193_MRCE_2x_mask.png")
 									{ template_128trains_2x(0, 0)}
 		alternative_sprites (spriteset_BR_193_MRCE, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_MRCE_4x_32bpp.png", "gfx/BR_193/BR_193_MRCE_4x_mask.png")
-									{ template_128trains_4x(0, 0)}									
+									{ template_128trains_4x(0, 0)}																	
 
+//Spriteset Railpool_2022
 
-//Spriteset Flixtrain
-									
-spriteset(spriteset_BR_193_FlixTrain_old, "gfx/BR_193/BR_193_FlixTrain_old_1x_8bpp.png")
+spriteset(spriteset_BR_193_Railpool_2022, "gfx/BR_193/BR_193_Railpool_2022_1x_8bpp.png")
 									{ template_128trains_1x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_old, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_old_1x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_old_1x_mask.png")
+		alternative_sprites (spriteset_BR_193_Railpool_2022, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_Railpool_2022_1x_32bpp.png", "gfx/BR_193/BR_193_Railpool_2022_1x_mask.png")
 									{ template_128trains_1x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_old, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_old_2x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_old_2x_mask.png")
+		alternative_sprites (spriteset_BR_193_Railpool_2022, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_Railpool_2022_2x_32bpp.png", "gfx/BR_193/BR_193_Railpool_2022_2x_mask.png")
 									{ template_128trains_2x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_old, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_old_4x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_old_4x_mask.png")
-									{ template_128trains_4x(0, 0)}	
-
-spriteset(spriteset_BR_193_FlixTrain_new, "gfx/BR_193/BR_193_FlixTrain_new_1x_8bpp.png")
-									{ template_128trains_1x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_new, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_new_1x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_new_1x_mask.png")
-									{ template_128trains_1x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_new, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_new_2x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_new_2x_mask.png")
-									{ template_128trains_2x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_new, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_new_4x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_new_4x_mask.png")
-									{ template_128trains_4x(0, 0)}
-
-spriteset(spriteset_BR_193_FlixTrain_white, "gfx/BR_193/BR_193_FlixTrain_white_1x_8bpp.png")
-									{ template_128trains_1x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_white, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_white_1x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_white_1x_mask.png")
-									{ template_128trains_1x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_white, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_white_2x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_white_2x_mask.png")
-									{ template_128trains_2x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_white, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_white_4x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_white_4x_mask.png")
-									{ template_128trains_4x(0, 0)}
-									
-spriteset(spriteset_BR_193_FlixTrain_Europa, "gfx/BR_193/BR_193_FlixTrain_Europa_1x_8bpp.png")
-									{ template_128trains_1x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_Europa, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_Europa_1x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_Europa_1x_mask.png")
-									{ template_128trains_1x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_Europa, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_Europa_2x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_Europa_2x_mask.png")
-									{ template_128trains_2x(0, 0)}
-		alternative_sprites (spriteset_BR_193_FlixTrain_Europa, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_Europa_4x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_Europa_4x_mask.png")
-									{ template_128trains_4x(0, 0)}									
-
+		alternative_sprites (spriteset_BR_193_Railpool_2022, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_Railpool_2022_4x_32bpp.png", "gfx/BR_193/BR_193_Railpool_2022_4x_mask.png")
+									{ template_128trains_4x(0, 0)}																
 
 //Spritesets purchase
 
@@ -76,12 +46,12 @@ spriteset(spriteset_BR_193_purchase_verkehrsrot, "gfx/BR_193/BR_193_verkehrsrot_
 spriteset(spriteset_BR_193_purchase_MRCE, "gfx/BR_193/BR_193_MRCE_1x_8bpp.png")
 									{ template_purchase(0, 0)}
 		alternative_sprites (spriteset_BR_193_purchase_MRCE, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_MRCE_1x_32bpp.png", "gfx/BR_193/BR_193_MRCE_1x_mask.png")
-									{ template_purchase(0, 0)}
-
-spriteset(spriteset_BR_193_purchase_FlixTrain, "gfx/BR_193/BR_193_FlixTrain_old_1x_8bpp.png")
-									{ template_purchase(0, 0)}
-		alternative_sprites (spriteset_BR_193_purchase_FlixTrain, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_FlixTrain_old_1x_32bpp.png", "gfx/BR_193/BR_193_FlixTrain_old_1x_mask.png")
 									{ template_purchase(0, 0)}									
+
+spriteset(spriteset_BR_193_Railpool_2022_purchase, "gfx/BR_193/BR_193_Railpool_2022_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_BR_193_Railpool_2022_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx/BR_193/BR_193_Railpool_2022_1x_32bpp.png", "gfx/BR_193/BR_193_Railpool_2022_1x_mask.png")
+									{ template_purchase(0, 0)}																
 //Switches									
 					
 						switch(FEAT_TRAINS, SELF, switch_length_BR_193, position_in_vehid_chain % 3) {
@@ -223,33 +193,26 @@ item (FEAT_TRAINS , ITEM_BR_193_MRCE, 1931)
 			}
 	}
 
-
-						switch (FEAT_TRAINS, SELF, random_choose_BR_193_graphics_FlixTrain, switch_alternative_var_random_bits(1, 2)) {
-							1: spriteset_BR_193_FlixTrain_old;
-							2: spriteset_BR_193_FlixTrain_new;
-							3: spriteset_BR_193_FlixTrain_white;
-								spriteset_BR_193_FlixTrain_Europa;}	
-
-						switch(FEAT_TRAINS, SELF, switch_BR_193_graphics_FlixTrain, position_in_vehid_chain % 3) {
+						switch(FEAT_TRAINS, SELF, switch_BR_193_graphics_Railpool_2022, position_in_vehid_chain % 3) {
 							0:	   spriteset_empty;
-							1:     return random_choose_BR_193_graphics_FlixTrain;
+							1:     spriteset_BR_193_Railpool_2022;
 							2:	   spriteset_empty;}									
 
-						switch (FEAT_TRAINS, SELF, switch_articulated_BR_193_FlixTrain, extra_callback_info1) {
-							1 .. 2: return ITEM_BR_193_FLIXTRAIN;				
+						switch (FEAT_TRAINS, SELF, switch_articulated_BR_193_Railpool_2022, extra_callback_info1) {
+							1 .. 2: return ITEM_BR_193_RAILPOOL_2022;				
 								return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}
 														
-item (FEAT_TRAINS , ITEM_BR_193_FLIXTRAIN, 1932)
+item (FEAT_TRAINS , ITEM_BR_193_RAILPOOL_2022, 1933)
 		{
 	//property Block
 			property 
 			{
 			//common properties
-						name: 							string(STR_NAME_BR_193_FLIXTRAIN);
+						name: 							string(STR_NAME_BR_193_RAILPOOL_2022);
 						variant_group:					1930;
 						extra_flags:					bitmask(VEHICLE_FLAG_DISABLE_NEW_VEHICLE_MESSAGE, VEHICLE_FLAG_DISABLE_EXCLUSIVE_PREVIEW, VEHICLE_FLAG_SYNC_VARIANT_EXCLUSIVE_PREVIEW);
 						climates_available: 			ALL_CLIMATES;
-						introduction_date: 				date(2012,01,01);
+						introduction_date: 				date(2022,01,01);
 						model_life:						30;
 						vehicle_life: 					30;
 						retire_early: 					-10;							
@@ -279,15 +242,15 @@ item (FEAT_TRAINS , ITEM_BR_193_FLIXTRAIN, 1932)
 		//Vehicels Graphics
 			graphics
 			{
-			default							: switch_BR_193_graphics_FlixTrain;
+			default							: switch_BR_193_graphics_Railpool_2022;
 			additional_text					: string(STR_CONCAT_2, 
 											  string(STR_TRACTION_MULTISYS), 
 											  string(STR_DESC_UNIVERSAL),);
 			length							: switch_length_BR_193;
-			articulated_part				: switch_articulated_BR_193_FlixTrain;
+			articulated_part				: switch_articulated_BR_193_Railpool_2022;
 			purchase_cargo_capacity		    : 0 ;
 			cargo_capacity	                : return 0 ;
-			purchase						: spriteset_BR_193_purchase_FlixTrain;
+			purchase						: spriteset_BR_193_Railpool_2022_purchase;
 			cost_factor						: 314;
 			running_cost_factor				: switch_running_cost_BR_193;
 			visual_effect_and_powered		: switch_FX_BR_193;
