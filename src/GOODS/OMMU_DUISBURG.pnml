@@ -7,21 +7,16 @@
 
 spriteset (spriteset_Ommu_Duisburg_DB_OBH, "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_1x_8bpp.png")
 					{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_Ommu_Duisburg_DB_OBH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_1x_32bpp.png", "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_1x_mask.png")
 					{template_68trains_1x(0, 0)}	
-				
 		alternative_sprites (spriteset_Ommu_Duisburg_DB_OBH, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_2x_32bpp.png", "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_2x_mask.png")
 					{template_68trains_2x(0, 0)}					
-			
 		alternative_sprites (spriteset_Ommu_Duisburg_DB_OBH, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_4x_32bpp.png", "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_4x_mask.png")
 					{template_68trains_4x(0, 0)}					
-
 
 //Spriteset Purchase
 spriteset (spriteset_Ommu_Duisburg_purchase, "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_1x_8bpp.png")
 					{template_purchase(0, 0)}	
-				
 		alternative_sprites (spriteset_Ommu_Duisburg_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_1x_32bpp.png", "gfx\Ommu_Duisburg/Ommu_Duisburg_DB_OBH_1x_mask.png")
 					{template_purchase(0, 0)}					
 										
@@ -29,89 +24,101 @@ spriteset (spriteset_Ommu_Duisburg_purchase, "gfx\Ommu_Duisburg/Ommu_Duisburg_DB
 //Switches
 																				
 
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_Barren;}
-						
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_Box;}
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Barren, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_Barren;}
+		
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Box, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_Box;}
 
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_Bulk;}
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Bulk, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_Bulk;}
 
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_Bulk_covered;}
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_Bulk_covered;}
 
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_COPR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_COPR;}
-						
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Fass, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_Fass;}
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_COPR, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_COPR;}
+		
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Fass, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_Fass;}
 
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Rohr, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_Rohr;}
-												
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_Timber;}
-						
-					switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: return spriteset_Ommu_Duisburg_DB_OBH;
-						1: spritegroup_Oc_Muenster_OBH_load_Wood;}							
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Rohr, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_Rohr;}
 								
-					switch(FEAT_TRAINS, SELF, switch_Ommu_Duisburg_cargo_classes, cargo_classes) {
-							bitmask(CC_BULK): return switch_loadstack_Ommu_Duisburg_OBH_Bulk;
-							bitmask(CC_COVERED): return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
-							bitmask(CC_PIECE_GOODS) : return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							bitmask(CC_LIQUID): switch_loadstack_Ommu_Duisburg_OBH_Fass;
-								switch_loadstack_Ommu_Duisburg_OBH_Box;}									
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Timber, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_Timber;}
+		
+	switch(FEAT_TRAINS, SELF, switch_loadstack_Ommu_Duisburg_OBH_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: return spriteset_Ommu_Duisburg_DB_OBH;
+		1: spritegroup_Oc_Muenster_OBH_load_Wood;}							
+								
+	switch(FEAT_TRAINS, SELF, switch_Ommu_Duisburg_current_CC_Liquid, hasbit(cargo_classes, CC_LIQUID)) {
+			0: switch_loadstack_Ommu_Duisburg_OBH_Box;
+				switch_loadstack_Ommu_Duisburg_OBH_Fass;}	
 
-					switch (FEAT_TRAINS, SELF, switch_Ommu_Duisburg_cargo_type, cargo_type_in_veh) {
-							STEL: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
-							METL: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
-							ZINC: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
-							COPR: return switch_loadstack_Ommu_Duisburg_OBH_COPR;
-							STST: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
-							STSH: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
-							STSE: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
-							STAL: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
-							STCB: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
-							STWR: return switch_loadstack_Ommu_Duisburg_OBH_Rohr; 
-							CSTI: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
-							PIPE: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
+	switch(FEAT_TRAINS, SELF, switch_Ommu_Duisburg_current_CC_Piece, hasbit(cargo_classes, CC_PIECE_GOODS)) {
+			0: switch_Ommu_Duisburg_current_CC_Liquid;
+				switch_loadstack_Ommu_Duisburg_OBH_Box;}		
 
-							ENSP: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							FMSP: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							MNSP: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							POWR: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							VPTS: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							MPTS: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							GOOD: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							PAPR: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							TYRE: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							WOOL: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							TEXT: return switch_loadstack_Ommu_Duisburg_OBH_Box;	
-							SEED: return switch_loadstack_Ommu_Duisburg_OBH_Box;	
-							FERT: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-	
-							FRVG: return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
-							TATO: return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
-	
-							BDMT: return switch_loadstack_Ommu_Duisburg_OBH_Timber;
-							WDPR: return switch_loadstack_Ommu_Duisburg_OBH_Timber;
-							WOOD: return switch_loadstack_Ommu_Duisburg_OBH_Wood;
-							GLAS: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							BRCK: return switch_loadstack_Ommu_Duisburg_OBH_Box;
-							
-							ACID: switch_loadstack_Ommu_Duisburg_OBH_Fass;
-							COAT: switch_loadstack_Ommu_Duisburg_OBH_Fass;
-								switch_Ommu_Duisburg_cargo_classes;}								
+	switch(FEAT_TRAINS, SELF, switch_Ommu_Duisburg_current_CC_Bulk, hasbit(cargo_classes, CC_BULK)) {
+		0: switch_Ommu_Duisburg_current_CC_Piece;
+			switch_loadstack_Ommu_Duisburg_OBH_Bulk;}
+
+	switch(FEAT_TRAINS, SELF, switch_Ommu_Duisburg_current_CC_Bulk_Covered, hasbit(cargo_classes, CC_COVERED & CC_BULK)) {
+		0: switch_Ommu_Duisburg_current_CC_Bulk;
+			switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;}			
+
+	switch (FEAT_TRAINS, SELF, switch_Ommu_Duisburg_cargo_type, cargo_type_in_veh) {
+			STEL: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
+			METL: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
+			ZINC: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
+			COPR: return switch_loadstack_Ommu_Duisburg_OBH_COPR;
+			STST: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
+			STSH: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
+			STSE: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
+			STAL: return switch_loadstack_Ommu_Duisburg_OBH_Barren;
+			STCB: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
+			STWR: return switch_loadstack_Ommu_Duisburg_OBH_Rohr; 
+			CSTI: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
+			PIPE: return switch_loadstack_Ommu_Duisburg_OBH_Rohr;
+
+			ENSP: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			FMSP: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			MNSP: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			POWR: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			VPTS: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			MPTS: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			GOOD: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			PAPR: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			TYRE: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			WOOL: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			TEXT: return switch_loadstack_Ommu_Duisburg_OBH_Box;	
+			SEED: return switch_loadstack_Ommu_Duisburg_OBH_Box;	
+			FERT: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+
+			FRVG: return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
+			TATO: return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
+			FRUT: return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
+			CERE: return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
+			FICR: return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
+			OLSD: return switch_loadstack_Ommu_Duisburg_OBH_Bulk_covered;
+			QLME: return switch_loadstack_Ommu_Duisburg_OBH_Bulk;
+			MNO2: return switch_loadstack_Ommu_Duisburg_OBH_Bulk;
+
+			BDMT: return switch_loadstack_Ommu_Duisburg_OBH_Timber;
+			WDPR: return switch_loadstack_Ommu_Duisburg_OBH_Timber;
+			WOOD: return switch_loadstack_Ommu_Duisburg_OBH_Wood;
+			GLAS: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+			BRCK: return switch_loadstack_Ommu_Duisburg_OBH_Box;
+				switch_Ommu_Duisburg_current_CC_Bulk_Covered;}								
 
 					switch(FEAT_TRAINS,PARENT,switch_running_cost_Ommu_Duisburg, 1){
 						return 95;}
@@ -129,8 +136,9 @@ item (FEAT_TRAINS , ITEM_OMMU_DUISBURG, 8609)
 						vehicle_life: 					26;
 						retire_early:					-10;						
 						reliability_decay: 				20;
-						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED, CC_PIECE_GOODS, CC_LIQUID );
-						cargo_allow_refit:              [WOOD, BDMT, WDPR, TWOD];
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED, CC_PIECE_GOODS, CC_LIQUID);
+						non_refittable_cargo_classes: 	bitmask(CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED);
+						cargo_allow_refit:              [WOOD, BDMT, WDPR, TWOD, FRUT ];
 						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;

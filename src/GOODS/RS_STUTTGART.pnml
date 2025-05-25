@@ -632,12 +632,12 @@ spriteset (spriteset_RS_Stuttgart_purchase2, "gfx\RS_Stuttgart/RS_Stuttgart_DB_1
 						
 					switch(FEAT_TRAINS, SELF, switch_loadstack_RS_Stuttgart_Wood, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
 						0: return switch_RS_Stuttgart_current_year;
-						1: spritegroup_RS_Stuttgart_load_Wood;}	
+						1: spritegroup_RS_Stuttgart_load_Wood;}							
 
-						
-					switch(FEAT_TRAINS, SELF, switch_RS_Stuttgart_cargo_classes, cargo_classes) {
-							bitmask(CC_PIECE_GOODS) : return switch_loadstack_RS_Stuttgart_Box;
-								return switch_loadstack_RS_Stuttgart_Box;}									
+	switch(FEAT_TRAINS, SELF, switch_RS_Stuttgart_CC_Piece, hasbit(cargo_classes, CC_PIECE_GOODS)) {
+			0: switch_loadstack_RS_Stuttgart_Box;
+				switch_loadstack_RS_Stuttgart_Box;}		
+
 
 					switch (FEAT_TRAINS, SELF, switch_RS_Stuttgart_cargo_type, cargo_type_in_veh) {
 
@@ -674,7 +674,7 @@ spriteset (spriteset_RS_Stuttgart_purchase2, "gfx\RS_Stuttgart/RS_Stuttgart_DB_1
 							MPTS: return switch_loadstack_RS_Stuttgart_Box;
 							PAPR: return switch_loadstack_RS_Stuttgart_Box;							
 							
-								switch_RS_Stuttgart_cargo_classes;}																																																																				
+								switch_RS_Stuttgart_CC_Piece;}																																																																				
 
 					switch(FEAT_TRAINS,PARENT,switch_running_cost_RS_Stuttgart, 1){
 						return 160;}	
@@ -693,8 +693,9 @@ item (FEAT_TRAINS , ITEM_RS_STUTTGART, 8865)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_PIECE_GOODS );
+						non_refittable_cargo_classes: 	bitmask(CC_EXPRESS,	CC_ARMOURED, CC_BULK, CC_LIQUID, CC_REFRIGERATED, CC_COVERED, CC_POWDERIZED);
 						cargo_allow_refit:              [STAL, ALUM, STCB, STST, STSH, POWR, VENG, VPTS, GOOD, GLAS, ENSP, FMSP, STWR, STEL, STSE, PIPE, BDMT, WDPR, WOOD, MNSP, MPTS, PAPR,];
-						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI];
+						cargo_disallow_refit: 			[LVST, FOOD, WATR, BEER, BOOM, FISH, IRON, EOIL, FERT, FICR, FRVG, FRUT, VEHI, ACID, NH3_, CHLO, O2__, RFPR, CBLK, CMNT,  ];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;

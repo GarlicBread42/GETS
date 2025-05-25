@@ -185,51 +185,59 @@ spriteset (spriteset_ORK_Karlsruhe_purchase, "gfx\ORK_Karlsruhe/ORK_Karlsruhe_OB
 
 //Switches
 
-					switch(FEAT_TRAINS, SELF, switch_loadstack_open_ORK_Karlsruhe_OBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: spriteset_ORK_Karlsruhe_OBH;
-						1: spritegroup_ORK_Karlsruhe_OBH_open;}
-						
-					switch(FEAT_TRAINS, SELF, switch_loadstack_covered_ORK_Karlsruhe_OBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: spriteset_ORK_Karlsruhe_OBH;
-						1: spritegroup_ORK_Karlsruhe_OBH_covered;}	
-						
-					switch(FEAT_TRAINS, SELF, switch_loadstack_open_ORK_Karlsruhe_MBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: spriteset_ORK_Karlsruhe_MBH;
-						1: spritegroup_ORK_Karlsruhe_MBH_open;}
-						
-					switch(FEAT_TRAINS, SELF, switch_loadstack_covered_ORK_Karlsruhe_MBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
-						0: spriteset_ORK_Karlsruhe_MBH;
-						1: spritegroup_ORK_Karlsruhe_MBH_covered;}											
+	switch(FEAT_TRAINS, SELF, switch_loadstack_open_ORK_Karlsruhe_OBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ORK_Karlsruhe_OBH;
+		1: spritegroup_ORK_Karlsruhe_OBH_open;}
+		
+	switch(FEAT_TRAINS, SELF, switch_loadstack_covered_ORK_Karlsruhe_OBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ORK_Karlsruhe_OBH;
+		1: spritegroup_ORK_Karlsruhe_OBH_covered;}	
+		
+	switch(FEAT_TRAINS, SELF, switch_loadstack_open_ORK_Karlsruhe_MBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ORK_Karlsruhe_MBH;
+		1: spritegroup_ORK_Karlsruhe_MBH_open;}
+		
+	switch(FEAT_TRAINS, SELF, switch_loadstack_covered_ORK_Karlsruhe_MBH, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ORK_Karlsruhe_MBH;
+		1: spritegroup_ORK_Karlsruhe_MBH_covered;}											
 
-					switch (FEAT_TRAINS, SELF, random_choose_open_ORK_Karlsruhe, switch_alternative_var_random_bits(1, 1)) {
-							1: switch_loadstack_open_ORK_Karlsruhe_OBH;
-								switch_loadstack_open_ORK_Karlsruhe_MBH;}
-								
-					switch (FEAT_TRAINS, SELF, random_choose_covered_ORK_Karlsruhe, switch_alternative_var_random_bits(1, 1)) {
-							1: switch_loadstack_covered_ORK_Karlsruhe_OBH;
-								switch_loadstack_covered_ORK_Karlsruhe_MBH;}								
+	switch (FEAT_TRAINS, SELF, random_choose_open_ORK_Karlsruhe, switch_alternative_var_random_bits(1, 1)) {
+			1: switch_loadstack_open_ORK_Karlsruhe_OBH;
+				switch_loadstack_open_ORK_Karlsruhe_MBH;}
+				
+	switch (FEAT_TRAINS, SELF, random_choose_covered_ORK_Karlsruhe, switch_alternative_var_random_bits(1, 1)) {
+			1: switch_loadstack_covered_ORK_Karlsruhe_OBH;
+				switch_loadstack_covered_ORK_Karlsruhe_MBH;}								
 
-					switch (FEAT_TRAINS, SELF, switch_ORK_Karlsruhe_sprite_choose, cargo_type_in_veh) {
-							BDMT: random_choose_covered_ORK_Karlsruhe;
-							CMNT: random_choose_covered_ORK_Karlsruhe; 
-							FERT: random_choose_covered_ORK_Karlsruhe;
-							FICR: random_choose_covered_ORK_Karlsruhe;
-							GRAI: random_choose_covered_ORK_Karlsruhe;
-							RCYC: random_choose_covered_ORK_Karlsruhe;
-							SALT: random_choose_covered_ORK_Karlsruhe;
-							SCMT: random_choose_covered_ORK_Karlsruhe;
-							SCRP: random_choose_covered_ORK_Karlsruhe;
-							PEAT: random_choose_covered_ORK_Karlsruhe;
-							BEAN: random_choose_covered_ORK_Karlsruhe;
-							SUGR: random_choose_covered_ORK_Karlsruhe;
-							SGBT: random_choose_covered_ORK_Karlsruhe;
-							SGCN: random_choose_covered_ORK_Karlsruhe;
-							TWOD: random_choose_covered_ORK_Karlsruhe;
-							WDPR: random_choose_covered_ORK_Karlsruhe;
-							random_choose_open_ORK_Karlsruhe;}
+	switch(FEAT_TRAINS, SELF, switch_ORK_Karlsruhe_CC_Bulk_Covered, hasbit(cargo_classes, CC_COVERED)) {
+		0: random_choose_open_ORK_Karlsruhe;
+			random_choose_covered_ORK_Karlsruhe;}
 
-					switch(FEAT_TRAINS,PARENT,switch_running_cost_ORK_Karlsruhe, 1){
-						return 43;}
+	switch (FEAT_TRAINS, SELF, switch_ORK_Karlsruhe_sprite_choose, cargo_type_in_veh) {
+			BDMT: random_choose_covered_ORK_Karlsruhe;
+			CMNT: random_choose_covered_ORK_Karlsruhe; 
+			FERT: random_choose_covered_ORK_Karlsruhe;
+			FICR: random_choose_covered_ORK_Karlsruhe;
+			GRAI: random_choose_covered_ORK_Karlsruhe;
+			RCYC: random_choose_covered_ORK_Karlsruhe;
+			SALT: random_choose_covered_ORK_Karlsruhe;
+			SCMT: random_choose_covered_ORK_Karlsruhe;
+			SCRP: random_choose_covered_ORK_Karlsruhe;
+			PEAT: random_choose_covered_ORK_Karlsruhe;
+			BEAN: random_choose_covered_ORK_Karlsruhe;
+			SUGR: random_choose_covered_ORK_Karlsruhe;
+			SGBT: random_choose_covered_ORK_Karlsruhe;
+			SGCN: random_choose_covered_ORK_Karlsruhe;
+			TWOD: random_choose_covered_ORK_Karlsruhe;
+			WDPR: random_choose_covered_ORK_Karlsruhe;
+			FRUT: random_choose_covered_ORK_Karlsruhe;
+			CERE: random_choose_covered_ORK_Karlsruhe;
+			FICR: random_choose_covered_ORK_Karlsruhe;
+			OLSD: random_choose_covered_ORK_Karlsruhe;
+			switch_ORK_Karlsruhe_CC_Bulk_Covered;}						
+
+	switch(FEAT_TRAINS,PARENT,switch_running_cost_ORK_Karlsruhe, 1){
+		return 43;}
 
 item (FEAT_TRAINS , ITEM_ORK_Karlsruhe, 8650)
 		{
@@ -244,9 +252,9 @@ item (FEAT_TRAINS , ITEM_ORK_Karlsruhe, 8650)
 						vehicle_life: 					40;
 						retire_early:					-10;						
 						reliability_decay: 				20;
-						refittable_cargo_classes: 		bitmask(CC_BULK);
+						refittable_cargo_classes: 		bitmask(CC_BULK, CC_COVERED);
 						cargo_allow_refit:              [COAL, IORE, CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, COKE, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF,];
-						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, SALT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR];
+						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, SALT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR, WOOL];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
 						loading_speed:					10;
 						cost_factor:                    108;

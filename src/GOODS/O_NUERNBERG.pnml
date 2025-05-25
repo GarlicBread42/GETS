@@ -291,6 +291,7 @@ item (FEAT_TRAINS , ITEM_O_NUERNBERG, 8654)
 						retire_early:					-10;						
 						reliability_decay: 				20;
 						refittable_cargo_classes: 		bitmask(CC_BULK);
+						non_refittable_cargo_classes: 	bitmask(CC_COVERED, CC_LIQUID, CC_REFRIGERATED, CC_HAZARDOUS, CC_OVERSIZED);
 						cargo_allow_refit:              [COAL, IORE, CORE, AORE, CLAY, FECR, GRVL, KAOL, LIME, PHOS, PORE, POTA, SAND, SULP, URAN, CASS, COKE, MNO2, NICK, NITR, NKOR, QLME, RCYC, SALT, SASH, SLAG, TOFF, RCYC, SCMT, SCRP, ];
 						cargo_disallow_refit: 			[BDMT, CMNT, FERT, FICR, GRAI, SALT, SCRP, PEAT, BEAN, SUGR, SGBT, SGCN, TWOD, WDPR];
 						misc_flags: 					bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_SPRITE_STACK);
