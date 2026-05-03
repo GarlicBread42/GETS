@@ -906,6 +906,15 @@ STR_BR_462_4_ODEG					:BR 462 4-part "ODEG" livery
 STR_BR_462_5_GABY					:BR 462 5-part "Go ahead Augsburg" livery
 STR_BR_462_6_ODEG					:BR 462 6-part "ODEG" livery
 
+STR_NAME_BR_463_DB                 :DB BR 1463 "Mireo" DB Regio Bayern livery (4-part)
+STR_NAME_BR_463_DBBW               :DB BR 463 "Mireo" DB Regio Baden-Württemberg livery (3-part)
+STR_NAME_BR_463_DBSM               :DB BR 463 "Mireo" DB Regio S-Bahn Mitteldeutschland livery (4-part)
+STR_NAME_BR_463_DBSRN              :DB BR 463 "Mireo" DB Regio S-Bahn Rhein-Neckar livery (3-part)
+STR_NAME_BR_463_DBNO               :DB BR 463 "Mireo" DB Regio Nordost livery (3-part)
+STR_NAME_BR_463_AGIL               :BR 1463 "Mireo" Agilis livery (4-part)
+STR_NAME_BR_463_ARVE               :BR 2463 "Mireo" Arverio livery (3-part)
+STR_NAME_BR_463_GABY               :BR 2463 "Mireo" Go-Ahead Bayern livery (3-part)
+
 STR_NAME_ET_65_2_BUILD				:DRG/DB ET 65 Two part
 STR_NAME_ET_65_2_CURRENT			:DRG/DB ET 65 Two part Current Year
 STR_NAME_ET_65_2_DRG				:DRG/DB ET 65 Two part DRG livery
@@ -921,6 +930,11 @@ STR_NAME_ET_65_6_DB					:DRG/DB ET 65 Six part DB livery
 
 STR_NAME_BR_465_2					:DB BR 465 Two part
 STR_NAME_BR_465_3					:DB BR 465 Three part
+
+STR_NAME_ET_167                     :DRG ET 167
+
+STR_NAME_BR_483                    :DB BR 483
+STR_NAME_BR_484                    :DB BR 484
 
 STR_NAME_ET_87_BUILD				:KPEV/DRG/DB ET 87
 STR_NAME_ET_87_CURRENT				:KPEV/DRG/DB ET 87 Current Year livery
@@ -1301,7 +1315,6 @@ STR_NAME_N_WAGEN_GFF				:DB n-Wagen GFF livery
 STR_NAME_N_WAGEN_BWEGT				:DB n-Wagen "Bwegt" livery
 STR_NAME_N_WAGEN_ALEX				:DB n-Wagen "Alex" livery
 
-
 STR_NAME_DOSTO_1GEN_BUILD			:DB 1st Gen Bi-Level Coach
 STR_NAME_DOSTO_1GEN_CURRENT			:DB 1st Gen Bi-Level Coach Current Year livery
 STR_NAME_DOSTO_1GEN_MINT			:DB 1st Gen Bi-Level Coach mint livery
@@ -1446,6 +1459,17 @@ STR_NAME_KARLSRUHER_VERKEHRSROT		:"Karlsruher Kopf" traffic red livery
 STR_NAME_KARLSRUHER_KARLSRUHE		:"Karlsruher Kopf" Karlsruher Zug livery
 STR_NAME_KARLSRUHER_CITYBAHN		:"Karlsruher Kopf" Citybahn livery
 STR_NAME_KARLSRUHER_NATX			:"Karlsruher Kopf" National Express livery
+
+STR_NAME_NWAGEN_480_BUILD           :DB n-Coach DVT "Wittenberger Kopf"
+STR_NAME_NWAGEN_480_CURRENT         :DB n-Coach DVT "Wittenberger Kopf" Current Year livery
+STR_NAME_NWAGEN_480_1_VERKEHRSROT   :Wittenberger Kopf 480.1 "Südostbayernbahn" livery
+STR_NAME_NWAGEN_480_2_MINT          :Wittenberger Kopf 480.2 mint livery
+STR_NAME_NWAGEN_480_2_VERKEHRSROT   :Wittenberger Kopf 480.2 verkehrsrot livery
+STR_NAME_NWAGEN_480_3_VERKEHRSROT   :Wittenberger Kopf 480.3 "Bahnland Bayern" livery
+STR_NAME_NWAGEN_480_4_VERKEHRSROT   :Wittenberger Kopf 480.4 "Bahnland Bayern" livery
+STR_NAME_NWAGEN_483_0_MINT          :Wittenberger Kopf 483.0 mint livery
+STR_NAME_NWAGEN_483_1_VERKEHRSROT   :Wittenberger Kopf 483.1 verkehrsrot livery
+STR_NAME_NWAGEN_483_2_VERKEHRSROT   :Wittenberger Kopf 483.2 verkehrsrot livery
 
 STR_NAME_DOSTO_1GEN_DVT_BUILD		:DB 1st Gen Bi-Level DVT
 STR_NAME_DOSTO_1GEN_DVT_CURRENT		:DB 1st Gen Bi-Level DVT Current Year livery
@@ -1992,6 +2016,14 @@ STR_NAME_Coaltar_1902				:1902 Coaltar Van
 
 STR_NAME_TOPF_1895                  :1895 Acid Pot Van
 
+STR_NAME_TOPF_1910                  :1910 Acid Pot Van
+STR_NAME_TOPF_1910_DRG              :1910 Acid Pot Van KPEV/DRG livery
+STR_NAME_TOPF_1910_DB               :1910 Acid Pot Van DB livery
+
+STR_NAME_TOPF_1938                  :1938 Acid Pot Van
+STR_NAME_TOPF_1938_DRG              :1938 Acid Pot Van KPEV/DRG livery
+STR_NAME_TOPF_1938_DB               :1938 Acid Pot Van DB livery
+
 STR_NAME_RMMSO						:Piggyback Wagon "Rmmso"
 
 STR_NAME_BT_10						:pa-Container Carrier "Bt 10"
@@ -2045,6 +2077,7 @@ STR_DESC_CABOOSE_100	:Usage:{BROWN} Goods{}{BLACK} speed limit: {GOLD} 80 km/h{B
 STR_DESC_EXPRESS		:Usage:{PURPLE} Express Passenger{}
 STR_DESC_PASS			:Usage:{DKGREEN} Passenger{}
 STR_DESC_SLEEP			:Usage:{PURPLE} Sleeper{}
+STR_DESC_SBAHN3RD		:Usage:{GREEN} S-Bahn/Metro{}
 STR_DESC_PASS_TRAIL		:Usage:{DKGREEN} Passenger{}{BLACK} Trailer for Multiple Unit.
 STR_DESC_UNIVERSAL		:Usage:{BLUE} Universal{}
 STR_DESC_POST			:Usage:{GREEN} Mail{}
@@ -2067,6 +2100,8 @@ STR_DESC_YL_DVT		     	:Usage:{DKGREEN} Passenger{}{BLACK} DVT for "Mitteleinsti
 STR_DESC_N_WAGEN		    :Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 120 km/h{BLACK}, after 1968: {GOLD}140 km/h{}
 STR_DESC_HASE   			:Usage:{DKGREEN} Passenger{}{BLACK}Speed limit: {GOLD} 120 km/h{BLACK}, after 1968: {GOLD}140 km/h{}{BLACK} DVT for n-Wagen "Silberlinge". Use with a loco at the end of the train.
 STR_DESC_KARL	    		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for n-Wagen "Silberlinge". Use with a loco at the end of the train.
+STR_DESC_DVT_WIKO    		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for n-Wagen "Silberlinge".
+STR_DESC_DVT_WIKO_LOCO 		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for n-Wagen "Silberlinge". Use with a loco at the end of the train.
 STR_DESC_DVT_1GEN	    	:Usage:{DKGREEN} Passenger{}{BLACK}DVT for DB 1st. Gen Bi-Level coaches. Use with a loco at the end of the train.
 STR_DESC_DVT_2GEN		    :Usage:{DKGREEN} Passenger{}{BLACK}DVT for DB 2nd. Gen Bi-Level coaches. Use with a loco at the end of the train.
 STR_DESC_DOBUE_DVT  		:Usage:{DKGREEN} Passenger{}{BLACK}DVT for "Donnerbüchse" coaches. Use with a loco at the end of the train.
@@ -2110,6 +2145,8 @@ STR_TRACTION_DTW						:{BLACK}Type:{GOLD} Steam railcar{}{BLACK}
 STR_TRACTION_DMU						:{BLACK}Type:{GOLD} Diesel Multiple Unit{}{BLACK}
 STR_TRACTION_EMU						:{BLACK}Type:{GOLD} Electric Multiple Unit{}{BLACK}
 STR_TRACTION_EMU_MULTI					:{BLACK}Type:{GOLD} Electric Multiple Unit{}{BLACK}
+
+STR_TRACTION_3RD						:{BLACK}Type:{GOLD} 3rd Rail Electric Multiple Unit{}{BLACK}
 
 STR_TRACTION_ZEPP						:{BLACK}Type:{GOLD} Propeller-driven Experimental Train{}{BLACK}
 

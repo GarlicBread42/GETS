@@ -1,0 +1,309 @@
+//#############################
+//###DB ET 167 Berlin S-Bahn###
+//#############################
+
+//Spriteset A Part
+
+spriteset(spriteset_ET_167_A, "gfx\ET_167/ET_167_A_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_1x_32bpp.png", "gfx\ET_167/ET_167_A_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_2x_32bpp.png", "gfx\ET_167/ET_167_A_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_4x_32bpp.png", "gfx\ET_167/ET_167_A_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+
+spriteset(spriteset_ET_167_A_REV, "gfx\ET_167/ET_167_A_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_1x_32bpp.png", "gfx\ET_167/ET_167_A_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_2x_32bpp.png", "gfx\ET_167/ET_167_A_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_4x_32bpp.png", "gfx\ET_167/ET_167_A_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}	
+
+
+spriteset(spriteset_ET_167_A_loading, "gfx\ET_167/ET_167_A_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_loading_1x_32bpp.png", "gfx\ET_167/ET_167_A_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_loading_2x_32bpp.png", "gfx\ET_167/ET_167_A_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_loading_4x_32bpp.png", "gfx\ET_167/ET_167_A_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+spritegroup spritegroup_ET_167_A_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_ET_167_A_loading];}
+
+spriteset(spriteset_ET_167_A_REV_loading, "gfx\ET_167/ET_167_A_loading_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_REV_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_loading_1x_32bpp.png", "gfx\ET_167/ET_167_A_loading_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_REV_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_loading_2x_32bpp.png", "gfx\ET_167/ET_167_A_loading_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_REV_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_loading_4x_32bpp.png", "gfx\ET_167/ET_167_A_loading_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}	
+									
+spritegroup spritegroup_ET_167_A_REV_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_ET_167_A_REV_loading];}           
+
+//Spriteset B Part
+
+spriteset(spriteset_ET_167_B, "gfx\ET_167/ET_167_B_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_1x_32bpp.png", "gfx\ET_167/ET_167_B_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_2x_32bpp.png", "gfx\ET_167/ET_167_B_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_4x_32bpp.png", "gfx\ET_167/ET_167_B_4x_mask.png")
+									{ template_108trains_4x(0, 0)}	
+
+spriteset(spriteset_ET_167_B_REV, "gfx\ET_167/ET_167_B_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_1x_32bpp.png", "gfx\ET_167/ET_167_B_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_2x_32bpp.png", "gfx\ET_167/ET_167_B_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_4x_32bpp.png", "gfx\ET_167/ET_167_B_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}	
+
+
+spriteset(spriteset_ET_167_B_loading, "gfx\ET_167/ET_167_B_loading_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_loading_1x_32bpp.png", "gfx\ET_167/ET_167_B_loading_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_loading_2x_32bpp.png", "gfx\ET_167/ET_167_B_loading_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_loading_4x_32bpp.png", "gfx\ET_167/ET_167_B_loading_4x_mask.png")
+									{ template_108trains_4x(0, 0)}	
+									
+spritegroup spritegroup_ET_167_B_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_ET_167_B_loading];}
+
+spriteset(spriteset_ET_167_B_REV_loading, "gfx\ET_167/ET_167_B_loading_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_REV_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_loading_1x_32bpp.png", "gfx\ET_167/ET_167_B_loading_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_REV_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_loading_2x_32bpp.png", "gfx\ET_167/ET_167_B_loading_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_B_REV_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_B_loading_4x_32bpp.png", "gfx\ET_167/ET_167_B_loading_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}	
+									
+spritegroup spritegroup_ET_167_B_REV_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_ET_167_B_REV_loading];}                     
+
+//Spriteset C Part
+
+spriteset(spriteset_ET_167_C, "gfx\ET_167/ET_167_C_1x_8bpp.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_C, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_C_1x_32bpp.png", "gfx\ET_167/ET_167_C_1x_mask.png")
+									{ template_108trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_C, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_C_2x_32bpp.png", "gfx\ET_167/ET_167_C_2x_mask.png")
+									{ template_108trains_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_C, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_C_4x_32bpp.png", "gfx\ET_167/ET_167_C_4x_mask.png")
+									{ template_108trains_4x(0, 0)}	
+
+spriteset(spriteset_ET_167_C_REV, "gfx\ET_167/ET_167_C_1x_8bpp.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_C_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_C_1x_32bpp.png", "gfx\ET_167/ET_167_C_1x_mask.png")
+									{ template_108trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_C_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_C_2x_32bpp.png", "gfx\ET_167/ET_167_C_2x_mask.png")
+									{ template_108trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_C_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_C_4x_32bpp.png", "gfx\ET_167/ET_167_C_4x_mask.png")
+									{ template_108trains_REV_4x(0, 0)}	
+
+
+//Spriteset D Part
+
+spriteset(spriteset_ET_167_D, "gfx\ET_167/ET_167_D_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_1x_32bpp.png", "gfx\ET_167/ET_167_D_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_2x_32bpp.png", "gfx\ET_167/ET_167_D_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_4x_32bpp.png", "gfx\ET_167/ET_167_D_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+
+spriteset(spriteset_ET_167_D_REV, "gfx\ET_167/ET_167_D_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_REV, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_1x_32bpp.png", "gfx\ET_167/ET_167_D_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_REV, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_2x_32bpp.png", "gfx\ET_167/ET_167_D_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_REV, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_4x_32bpp.png", "gfx\ET_167/ET_167_D_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}	
+
+
+spriteset(spriteset_ET_167_D_loading, "gfx\ET_167/ET_167_D_loading_1x_8bpp.png")
+									{ template_118trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_loading_1x_32bpp.png", "gfx\ET_167/ET_167_D_loading_1x_mask.png")
+									{ template_118trains_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_loading_2x_32bpp.png", "gfx\ET_167/ET_167_D_loading_2x_mask.png")
+									{ template_118trains_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_loading_4x_32bpp.png", "gfx\ET_167/ET_167_D_loading_4x_mask.png")
+									{ template_118trains_4x(0, 0)}	
+									
+spritegroup spritegroup_ET_167_D_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_ET_167_D_loading];}
+
+spriteset(spriteset_ET_167_D_REV_loading, "gfx\ET_167/ET_167_D_loading_1x_8bpp.png")
+									{ template_118trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_REV_loading, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_loading_1x_32bpp.png", "gfx\ET_167/ET_167_D_loading_1x_mask.png")
+									{ template_118trains_REV_1x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_REV_loading, ZOOM_LEVEL_IN_2X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_loading_2x_32bpp.png", "gfx\ET_167/ET_167_D_loading_2x_mask.png")
+									{ template_118trains_REV_2x(0, 0)}
+		alternative_sprites (spriteset_ET_167_D_REV_loading, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_D_loading_4x_32bpp.png", "gfx\ET_167/ET_167_D_loading_4x_mask.png")
+									{ template_118trains_REV_4x(0, 0)}	
+									
+spritegroup spritegroup_ET_167_D_REV_loading
+			{loaded: 	[spriteset_empty];
+			 loading: 	[spriteset_ET_167_D_REV_loading];}      
+
+//Spriteset purchase
+
+spriteset(spriteset_ET_167_A_purchase, "gfx\ET_167/ET_167_A_1x_8bpp.png")
+									{ template_purchase(0, 0)}
+		alternative_sprites (spriteset_ET_167_A_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "gfx\ET_167/ET_167_A_1x_32bpp.png", "gfx\ET_167/ET_167_A_1x_mask.png")
+									{ template_purchase(0, 0)}
+
+//Switches
+
+	switch(FEAT_TRAINS, SELF, switch_loadstack_ET_167_A, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ET_167_A;
+		1: spritegroup_ET_167_A_loading;}
+
+	switch(FEAT_TRAINS, SELF, switch_loadstack_ET_167_A_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ET_167_A_REV;
+		1: spritegroup_ET_167_A_REV_loading;}      
+
+	switch(FEAT_TRAINS, SELF, switch_loadstack_ET_167_B, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ET_167_B;
+		1: spritegroup_ET_167_B_loading;}
+
+	switch(FEAT_TRAINS, SELF, switch_loadstack_ET_167_B_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ET_167_B_REV;
+		1: spritegroup_ET_167_B_REV_loading;}       
+
+	switch(FEAT_TRAINS, SELF, switch_loadstack_ET_167_C, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ET_167_C;
+		1: spritegroup_ET_167_B_loading;}
+
+	switch(FEAT_TRAINS, SELF, switch_loadstack_ET_167_C_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ET_167_C_REV;
+		1: spritegroup_ET_167_B_REV_loading;}       
+
+	switch(FEAT_TRAINS, SELF, switch_loadstack_ET_167_D, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ET_167_D;
+		1: spritegroup_ET_167_D_loading;}
+
+	switch(FEAT_TRAINS, SELF, switch_loadstack_ET_167_D_REV, [STORE_TEMP((getbits(extra_callback_info1, 8, 8) < 1 ? CB_FLAG_MORE_SPRITES : 0) | PALETTE_USE_DEFAULT, 0x100), getbits(extra_callback_info1, 8, 8)]) {
+		0: spriteset_ET_167_D_REV;
+		1: spritegroup_ET_167_D_REV_loading;}  
+
+    switch(FEAT_TRAINS, SELF, switch_ET_167_graphics, position_in_vehid_chain % 9) {
+        0: spriteset_empty;
+        1: return switch_loadstack_ET_167_A;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: return switch_loadstack_ET_167_B;
+        5: spriteset_empty;
+        6: return switch_loadstack_ET_167_C;
+        7: spriteset_empty;
+        8: return switch_loadstack_ET_167_D;
+        9: spriteset_empty;}
+                        
+    switch(FEAT_TRAINS, SELF, switch_ET_167_REV_graphics, position_in_vehid_chain % 9) {
+        0: spriteset_empty;
+        1: return switch_loadstack_ET_167_D_REV;
+        2: spriteset_empty;
+        3: spriteset_empty;
+        4: return switch_loadstack_ET_167_C_REV;
+        5: spriteset_empty;
+        6: return switch_loadstack_ET_167_B_REV;
+        7: spriteset_empty;
+        8: return switch_loadstack_ET_167_A_REV;
+        9: spriteset_empty;}						      												      							       			       			       
+
+    switch (FEAT_TRAINS, PARENT, switch_graphics_ET_167, vehicle_is_reversed) {
+        0: switch_ET_167_graphics;
+            switch_ET_167_REV_graphics;}
+
+    switch(FEAT_TRAINS, SELF, switch_length_ET_167, position_in_vehid_chain % 9) {
+        0: 4;
+        1: 3;
+        2: 4;
+        3: 4;
+        4: 6;
+        5: 4;
+        6: 6;
+        7: 4;
+        8: 3;
+        9: 4;}	
+			
+	switch(FEAT_TRAINS, SELF, switch_FX_ET_167, position_in_vehid_chain % 9) {
+        0 .. 9: return visual_effect_and_powered(VISUAL_EFFECT_DISABLE,0, DISABLE_WAGON_POWER);}																																						
+
+	switch(FEAT_TRAINS,PARENT,switch_running_cost_ET_167, 1){
+        return 1325;}  
+
+	switch (FEAT_TRAINS, SELF, switch_articulated_ET_167, extra_callback_info1) {
+        1 .. 9: return ITEM_ET_167; 
+        return CB_RESULT_NO_MORE_ARTICULATED_PARTS;}	
+          
+item (FEAT_TRAINS , ITEM_ET_167, 4670)
+		{
+	//property Block
+			property 
+			{
+			//common properties
+						name: 							string(STR_NAME_ET_167);
+						climates_available: 			ALL_CLIMATES;
+						introduction_date: 				date(1938,01,01);
+						model_life: 					65;
+						vehicle_life: 					40;
+						retire_early: 					-10;							
+						reliability_decay: 				20;
+						misc_flags: 					bitmask(TRAIN_FLAG_SPRITE_STACK);						
+						cargo_allow_refit:              [PASS, TOUR];
+						cargo_capacity:                 36;
+						loading_speed:					5;
+						cost_factor: 					90;
+						running_cost_base:				RUNNING_COST_STEAM;						
+						running_cost_factor: 			90;
+
+						
+			//Train specific properties
+						sprite_id: 						SPRITE_ID_NEW_TRAIN;
+						speed: 							80 km/h;
+						refit_cost: 					0;
+						track_type: 					MTRO;	
+						power:  						490 hp;
+						weight: 						134 ton;
+						ai_engine_rank: 				0;
+						engine_class: 					ENGINE_CLASS_ELECTRIC;
+						visual_effect_and_powered: 		visual_effect_and_powered(VISUAL_EFFECT_ELECTRIC, 2, DISABLE_WAGON_POWER);
+						dual_headed: 					0;
+						tractive_effort_coefficient: 	0.3;
+						length: 						8;
+			}
+
+		//Vehicles Graphics
+			graphics
+			{
+			default							: switch_graphics_ET_167;
+			additional_text					: string(STR_CONCAT_2, 
+											  string(STR_TRACTION_3RD), 
+											  string(STR_DESC_SBAHN3RD),);
+			length							: switch_length_ET_167;
+			articulated_part				: switch_articulated_ET_167;
+			purchase						: spriteset_ET_167_A_purchase;
+			visual_effect_and_powered		: switch_FX_ET_167;
+			cost_factor						: 64;
+			running_cost_factor				: switch_running_cost_ET_167;			
+			}
+	}                                        
